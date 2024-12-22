@@ -1,5 +1,5 @@
 ---
-model: llama3:latest
+model: mistral:latest
 max_tokens: .nan
 temperature: 1
 enable_reference_current_note: false
