@@ -14,3 +14,9 @@
 .trash/
 .DS_Store
 .makemd/
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

@@ -1,5 +1,5 @@
 ---
-model: mistral:latest
+model: llava:latest
 max_tokens: .nan
 temperature: 1
 enable_reference_current_note: false
