@@ -1,9 +1,8 @@
 ---
-
-tags: 
+tags:
   - IT
   - delivery
-
+  - kubernetes
 source: http://kubernetes.io/
 ---
 <http://kubernetes.io/>
