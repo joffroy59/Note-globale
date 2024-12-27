@@ -13,6 +13,7 @@ kanban-plugin: board
 - [ ] task B1🏁 delete
 - [ ] [[Obsidian Dataview]]
 - [ ] task B2
+- [ ] [[Obsidian]]
 
 
 ## WIP
