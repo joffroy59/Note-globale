@@ -8,19 +8,20 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 # {{DATE}}
 
 
-## 📅 Daily Note
+## 📅 Daily Note #dailynotes 
 ### 🥷 Activities for the last week
 - [ ] TODO
 
-### 🚀 Today's Tasks 
+### 🚀 Today's Tasks #task
 - [ ] TODO
 
-### 💡 Ideas
+### 💡 Ideas #ideas 
 - [ ] idée
 
+### 👀 To View #toview 
 
 
-## 📝 Note
+## 📝 Note #note
 
 ### Note créées ce jour
 
@@ -42,3 +43,4 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 > [!NOTE] Title
 > Contents
 
+#### Sandbox
