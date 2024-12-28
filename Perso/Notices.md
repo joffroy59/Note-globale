@@ -1,4 +1,4 @@
-- [/] Intégrer le phote notice jettées 
+- [/] Intégrer les photos des notices jetées 
 
 
 
