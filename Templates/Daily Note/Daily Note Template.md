@@ -1,8 +1,10 @@
 ---
 banner_icon: 📆
-created: "2024-12-28"
+created: "{{date}}"
+tags:
+  - dailynotes
 ---
-# 2024-12-28
+# {{ DATE }}
 
 ### 📅 Daily Note
 #### 🥷 Activities for the last week
