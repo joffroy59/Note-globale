@@ -21,7 +21,14 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ### 👀 To View #toview 
 
 
-## 📝 Note #note
+
+## 🚨Problème
+
+> [!attention] Problème rencontré 
+> Contents
+
+
+## 📝Note #note
 
 ### Note créées ce jour
 
@@ -38,7 +45,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 > ```
 > 
 
-## 👉 Autre
+## 👉Autre
 
 > [!NOTE] Title
 > Contents
