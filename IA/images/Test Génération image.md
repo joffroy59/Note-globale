@@ -1,8 +1,8 @@
-# Rétrogénération avec IA 
-## Méthode
+### Reverse Engineering with IA 
+#### Method
 
-> [!NOTE]
-> > [!abstract] 
+> [!info]
+> > [!warning] Process
 > > vous pouvez suivre ces étapes :
 > > 
 > > 1. Préparez l'image d'origine que vous souhaitez utiliser comme référence.
@@ -12,28 +12,28 @@
 > > 
 > > L'objectif est de voir si les images créées par l'IA conservent les éléments clés de l'image de départ tout en respectant les instructions données dans le prompt.
 > 
-> >[!info] Image d'origine
+> >[!done] mage d'origine
 > >![[n6yopFelvb.webp]]
 > > 
 > 
 
-## Test Le chat Mistral 
-### Test de la génération d'images à partir d'une image d'origine et d'un prompt
+#### Test **"Le chat Mistral"**
+
+#online Utilisation de Mistral Le Chat 
+##### Test de la génération d'images à partir d'une image d'origine et d'un prompt
 
 > [!NOTE]
 > 
 > ℹ️ Prompt généré avec Mistral Lechat en ligne.
 > 
-> > [!question] 
-> > prompt :
+> > [!question]  prompt
+> >   
 > > ```
 > > genere un prompt pour cette imagge et pour l'outil stable diffusion 
 > > ```
 > > 
 > 
-> donne comme prompt 
-> 
-> > [!success] 
+> > [!success] Result Prompt
 > > Pour générer une image similaire à celle-ci en utilisant l'outil Stable Diffusion, vous pouvez utiliser le prompt suivant :
 > > 
 > > 
@@ -45,27 +45,22 @@
 > 
 > ![image](https://mistralaichatupprodswe.blob.core.windows.net/chat-images/assistant/26/44/53/26445323-af59-4bc8-926d-7840f02263a0/15b18842-861d-4897-807f-8bbf7de4a13a/279c3bcc-8335-43ff-bed2-aa7121b10371?sv=2024-11-04&st=2024-12-27T22%3A37%3A39Z&se=2024-12-27T23%3A37%3A39Z&sr=b&sp=rade&sig=uE9gWxWxD0cDtxg2iDqjQZedaIcs324WVV12W8Lo%2FUg%3D)
 > 
-> 
-> [[images]]
 
 
-### Test de la génération d'images à partir d'une image d'origine et d'un prompt En ANGLAIS
+##### Test de la génération d'images à partir d'une image d'origine et d'un prompt En ANGLAIS
 
 > [!NOTE]
 > 
 > 
 > ℹ️ Prompt généré avec Mistral Lechat en ligne.
 > 
-> > [!question] 
-> > prompt :
+> > [!question] prompt
+> > 
 > > ```
 > > generate a prompt for genertaing this image with a lot of detail keep abstract and no paysage
 > > 
 > 
-> donne comme prompt 
-> 
-> 
-> > [!success] 
+> > [!success] Result Prompt
 > > Sure! Here's a detailed prompt to generate a similar abstract image without the landscape:
 > > ```
 > > Create an abstract digital art piece featuring a central computer monitor on a wooden desk with a mouse beside it. The monitor displays a complex, futuristic interface with neon-colored geometric shapes, icons, and interconnected lines, symbolizing advanced technology and digital networks.
@@ -79,6 +74,78 @@
 > 
 > ![[Pasted image 20241228004521.jpg]]
 > 
-> [[images]]
+
+
+
+
+#### Test **"Stable Diffusion"**
+
+#local Utilisation de Mistral Le Chat 
+##### Test de la génération d'images à partir d'une image d'origine et d'un prompt
+
+> [!NOTE]
+> 
+> ℹ️ Prompt généré avec Mistral Lechat en ligne.
+> 
+> > [!question] Prompt
+> > 
+> > ```
+> > genere un prompt pour cette imagge et pour l'outil stable diffusion 
+> > ```
+> > 
+> 
+> > [!success] Result Prompt
+> > Pour générer une image similaire à celle-ci en utilisant l'outil Stable Diffusion, vous pouvez utiliser le prompt suivant :
+> > 
+> > 
+> > ```
+> > "Un paysage numérique futuriste avec un ordinateur au premier plan affichant une interface utilisateur complexe et colorée. En arrière-plan, des collines verdoyantes et un ciel au coucher du soleil. Au-dessus de l'ordinateur, des icônes et des éléments graphiques flottants représentant divers outils de retouche photo. Le texte 'LES 8 ULIES DE RÉTOUSHHE PHCOTO E A CONICDEDRE' est visible en haut de l'image. Style artistique détaillé et vibrant."
+> > ```
+> > Ce prompt devrait aider à recréer une image avec des éléments similaires, en mettant l'accent sur le thème de la retouche photo et l'interface utilisateur complexe.
+> > 
+> 
+>![[2024-12-28_01-11-10-v1-5-pruned-emaonly-274141377.png]]
+>❓❓❓❓
+
+
+
+
+##### Test de la génération d'images à partir d'une image d'origine et d'un prompt En ANGLAIS
+
+> [!NOTE]
 > 
 > 
+> ℹ️ Prompt généré avec Mistral Lechat en ligne.
+> 
+> > [!question] Prompt 
+> > 
+> > ```
+> > generate a prompt for genertaing this image with a lot of detail keep abstract and no paysage
+> > 
+> 
+> > [!success] Result Prompt
+> > Sure! Here's a detailed prompt to generate a similar abstract image without the landscape:
+> > ```
+> > Create an abstract digital art piece featuring a central computer monitor on a wooden desk with a mouse beside it. The monitor displays a complex, futuristic interface with neon-colored geometric shapes, icons, and interconnected lines, symbolizing advanced technology and digital networks.
+> > 
+> > Above the monitor, extend a vibrant array of interconnected digital elements such as icons, graphs, charts, and abstract shapes, all linked by glowing lines, forming a web-like structure. These elements should be in various neon colors like blue, green, pink, and purple, giving a high-tech, futuristic feel.
+> > 
+> > At the top of the image, include the text "LES 8 ULIES DE RÉTOUSHHE PHCOTO E A CONICDEDRE" in a bold, modern font. Ensure the overall design is dynamic and visually engaging, emphasizing the theme of digital innovation and connectivity.
+> > ```
+> > This prompt should help in creating an image similar to the one you provided, focusing on the abstract and technological elements while omitting the landscape.
+> 
+> 
+> ![[2024-12-28_01-12-27-v1-5-pruned-emaonly-1828450125.png]]
+> 
+> ### Config
+> 
+> ![[Pasted image 20241228011436.png]]
+> 
+> ❓❓❓❓❓❓
+
+
+
+
+
+
+
