@@ -1,14 +1,13 @@
 ---
-
 excalidraw-plugin: parsed
 excalidraw-default-mode: view
 excalidraw-export-dark: false
 excalidraw-export-transparent: false
 excalidraw-linkbutton-opacity: 0.3
-excalidraw-onload-script: "app.plugins.plugins[`excalibrain`].start(ea.targetView.leaf);"
-
-tags: [excalidraw]
-
+excalidraw-onload-script: app.plugins.plugins[`excalibrain`].start(ea.targetView.leaf);
+tags:
+  - excalidraw
+  - IA
 ---
 
 # Excalidraw Data

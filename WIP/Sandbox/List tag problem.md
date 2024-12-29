@@ -1,6 +1,7 @@
 ---
 tags:
   - Exemple
+  - liste
 ---
  
 with insert Template : [[Problems]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - IA
+  - result
+---
  To effectively manage your ideas and knowledge in Obsidian, use the following Markdown syntax:
 
 - Create notes or pages for each topic by simply typing `#` followed by the title of the note (e.g., `# Meeting Minutes from Jan 5, 2023`). Note titles preceded with hashes correspond to headings, and you can have up to six levels: `#`, `##`, `###`, `####`, `#####`, and `######`.

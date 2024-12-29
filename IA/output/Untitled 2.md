@@ -1,3 +1,8 @@
+---
+tags:
+  - IA
+  - result
+---
 [[Untitled 2]]
 1. To optimize your workflow in Obsidian, consider organizing your notes using [[Tags]]. This will allow for quick and easy navigation between related topics.
 

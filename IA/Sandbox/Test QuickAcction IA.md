@@ -1,3 +1,8 @@
+---
+tags:
+  - IA
+  - sandbox
+---
 # Utilisation de Obsidian pour gérer efficacement vos idées et connaissances
 
 Obsidian est un superbe outil pour la gestion de votre connaissance. Il vous permet non seulement de stocker les idées qui vous passent par la tête, mais également de lier ces idées entre elles afin de créer l'équivalent d'une map mentally.

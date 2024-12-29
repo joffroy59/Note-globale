@@ -26,11 +26,14 @@ ollama_num_thread: .nan
 ollama_repeat_last_n: 64
 ollama_repeat_penalty: 1.1
 ollama_seed: .nan
-ollama_stop: []
+ollama_stop: 
 ollama_tfs_z: 1
 ollama_top_k: 40
 ollama_top_p: 0.9
 ollama_min_p: 0
 ollama_keep_alive: ""
+tags:
+  - IA
 ---
+#IA 
 You are a helpful assistant.

@@ -1,3 +1,7 @@
+---
+tags:
+  - IA
+---
 # Getting Started with Docker: A Comprehensive Guide 🐳
 
 Docker is a tool designed to make it easier to create, deploy, and run applications by using **containers**. Containers allow an application and its dependencies to be enclosed within a single package, making it more portable and consistent across different environments. In this article, we will provide a comprehensive guide on getting started with Docker, covering basic concepts, installation, building your first container, and using Docker Compose for managing multiple containers.

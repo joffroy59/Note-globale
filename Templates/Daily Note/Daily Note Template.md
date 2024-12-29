@@ -7,24 +7,26 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ---
 # My Today Note
 
-## 📅 Daily Note
+## 📅 Today's ——————————————————
 
-#dailynotes 
-### 🥷Missed Tasks
-###### Actions
-`BUTTON[rollover,rollover_revert]`
+### 🥷Missed Tasks ———————————
+
+> [!NOTE]- Actions
+> `BUTTON[rollover,rollover_revert]`
+> 
 #### Rollover Last Day
-### 🚀Today's Tasks
+### 🚀Today's Tasks ———————
 #task
 - [ ] TODO today
-### 🏆Today's Wins
+### 🏆Today's Wins ———
 #wins
 
 ```ad-success
 collapse: closed
 
 ```
-### 💡Ideas
+
+## 💡Ideas ——————————————————
 #ideas 
 
 ```ad-attention
@@ -33,37 +35,40 @@ collapse: closed
 
 
 ```
-### 👀To View 
+## 👀To View ————————————————
 #toview 
 
-## 🚨Problème
+```ad-hint
+title: To view
+collapse: closed
+
+
+```
+## 🚨Problème ——————————————
 #problem
 
-> [!attention] Problème rencontré 
-> Contents
+> [!danger] Problème rencontré 
+> Problème sur le pc  
+> Problème appart
 
-## 📝Note 
+## 📝Note ———————————————
 #note
-### Note créées ce jour
+### Note créées ce jour ———————
 > [!example] New Today
 > ```dataview
 > LIST dateformat(file.ctime, "yyyy-MM-dd HH:mm") WHERE file.cday = this.file.day AND file.path != this.file.path SORT file.name asc
 > ```
 > 
-### Note modifiées ce jour
+### Note modifiées ce jour ————
 > [!example] Modified Today
 > ```dataview 
 > LIST dateformat(file.mtime, "yyyy-MM-dd HH:mm") WHERE file.mday = this.file.day AND file.path != this.file.path SORT file.name asc
 > ```
 > 
 
-## 👉Autre
+## 👉Autre —————————————
 
 > [!NOTE] Title
 > Contents
+## 🪛Sandbox ——————————
 
-## 🪛Sandbox
-
-
-
-----

@@ -1,1 +1,6 @@
+---
+tags:
+  - prompt
+  - IA
+---
 {{value}} 
