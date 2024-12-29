@@ -1,3 +1,7 @@
+---
+tags:
+  - Exemple
+---
  
 with insert Template : [[Problems]]
 
@@ -5,4 +9,3 @@ with insert Template : [[Problems]]
 -path:Templates tag: #problem  
 
 ```
-
