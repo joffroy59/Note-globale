@@ -5,15 +5,15 @@ tags:
 banner: "IA/images/attachments/Pasted image 20241228004521.jpg"
 sticker: emoji//1f636-200d-1f32b-fe0f
 ---
-# {{DATE}}
+# My Daily Note
 
 ## 📅 Daily Note
 
 #dailynotes 
-### 🥷 Activities for the last week
-- [ ] TODO
+### 🥷Activities for the last week
+- [ ] TODO last week
 
-### 🚀 Today's Tasks
+### 🚀Today's Tasks
 #task
 - [ ] TODO
 
@@ -25,11 +25,11 @@ collapse: closed
 
 ```
 
-### 💡 Ideas
+### 💡Ideas
 #ideas 
 - [ ] idée
 
-### 👀 To View 
+### 👀To View 
 #toview 
 
 
