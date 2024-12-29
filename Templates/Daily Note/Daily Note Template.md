@@ -53,6 +53,12 @@ collapse: closed
 
 ## 📝Note ———————————————
 #note
+
+```ad-note
+title: Title
+
+content 
+```
 ### Note créées ce jour ———————
 > [!example] New Today
 > ```dataview
