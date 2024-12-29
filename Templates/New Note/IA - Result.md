@@ -2,4 +2,5 @@
 tags:
   - IA
   - result
+  - template
 ---

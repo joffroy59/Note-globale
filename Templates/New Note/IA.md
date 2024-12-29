@@ -1,4 +1,5 @@
 ---
 tags:
   - IA
+  - template
 ---
