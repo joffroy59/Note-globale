@@ -20,7 +20,7 @@ kanban-plugin: board
 
 - [ ] [[Exemple Admonition]]
 - [ ] [[Lorem Ipsum ]]
-- [ ] [[excalibrain]]
+- [ ] [[IA/excalibrain/excalibrain]]
 
 
 ## DONE🏁 delete

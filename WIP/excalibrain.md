@@ -19,7 +19,7 @@ Open a document in another pane and click it to get started.
 For the best experience enable 'Open in adjacent pane'
 in Excalidraw settings under 'Links and Transclusion'. ^4mylk7KK
 
-[[excalibrain]] ^e4nhJXxN
+[[IA/excalibrain/excalibrain]] ^e4nhJXxN
 
 %%
 ## Drawing
