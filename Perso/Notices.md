@@ -1,4 +1,7 @@
-- [/] Intégrer les photos des notices jetées 
+Gestion de mes notices
+
+- [x] Intégrer les photos des notices jetées ✅ 2024-12-29
+
 
 
 

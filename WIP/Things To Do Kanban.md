@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## TODO
 
-- [ ] [[test task]]
+- [ ] [[Sandbox test task]]
 - [ ] task A2 🏁 delete
 - [ ] task A1 🏁 delete
 - [ ] task A3 🏁 delete
