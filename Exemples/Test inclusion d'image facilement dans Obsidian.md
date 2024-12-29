@@ -1,5 +1,8 @@
-#test
-
+---
+tags:
+  - test
+---
+# Test drag and drop et copy paste 
 ## From print-screen
 ![[Pasted image 20241223002528.png]]
 ### From Gimp

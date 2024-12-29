@@ -1,4 +1,7 @@
-#tasks
+---
+tags:
+  - tasks
+---
 # Review and check your Statuses
 
 ## About this file

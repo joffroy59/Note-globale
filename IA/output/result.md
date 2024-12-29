@@ -1,6 +1,7 @@
 ---
 tags:
   - IA
+  - result
 ---
 # Getting Started with Docker: A Comprehensive Guide 🐳
 

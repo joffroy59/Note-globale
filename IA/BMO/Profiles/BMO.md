@@ -35,5 +35,4 @@ ollama_keep_alive: ""
 tags:
   - IA
 ---
-#IA 
 You are a helpful assistant.

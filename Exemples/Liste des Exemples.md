@@ -1,4 +1,7 @@
-#liste
+---
+tags:
+  - "#liste"
+---
 # Exemple Obsidian
 
 ## Obsidian Sandbox

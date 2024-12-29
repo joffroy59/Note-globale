@@ -1,8 +1,8 @@
 ---
 highlightTheme: monokai
-
+tags:
+  - slide
 ---
-#slide
 
 ```ad-warning
 

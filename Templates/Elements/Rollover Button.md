@@ -1,2 +1,5 @@
-#button
+---
+tags:
+  - button
+---
 `BUTTON[rollover,rollover_revert]`

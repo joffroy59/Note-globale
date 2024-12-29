@@ -1,10 +1,10 @@
 ---
 tags:
   - IA
+  - prompt
 ---
 # The Prompt 
 
-#prompt
 
 From mistral
 SYSTEM """

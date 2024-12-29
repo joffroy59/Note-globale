@@ -6,7 +6,7 @@ tags:
 sdfdfssdf
 
 
-[[Untitled 1]]
+[[Création de tag automatique par répertoire , avec Templater]]
 # Getting Started with Docker: Understanding the Basics 💻
 
 Welcome to our guide on Docker! In this article, we will discuss the basics of Docker including its installation, containerization, and how it can help you manage your applications more effectively.

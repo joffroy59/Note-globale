@@ -1,4 +1,7 @@
-#tasks
+---
+tags:
+  - "#tasks"
+---
 ## All tasks 
 ### All tasks 
 
