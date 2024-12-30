@@ -1,40 +1,45 @@
 ---
 tags:
-  - IA
+  - template
+---
+
+---
+title: 🛠️Plugin Obsidian IA - 2024-12-30
+created: 2024-12-30
+
 ---
 
 # Listes des plugins installés 
-
-## ℹ️Status
-
-| Companion   | 1.8.0  | ✅   | pour la complétion automatique <br>(Ollama Gemma9b) | 2024-12-30 |
-| ----------- | ------ | --- | --------------------------------------------------- | ---------- |
-| ExcaliBrain | 0.2.15 | ✅   | ?? pour un graph bleu a voir                        | 2024-12-30 |
 ## 📅2024-12-30
 
-| Nom du plugin      | Version | Activé |
-| ------------------ | ------- | ------ |
-| AI Assistant       | 1.5.3   | ❌      |
-| AI image analyzer  | 0.1.11  | ❌      |
-| BMO Chatbot        | 2.3.3   | ❌      |
-| Companion          | 1.8.0   | ✅      |
-| ExcaliBrain        | 0.2.15  | ✅      |
-| Omnisearch         | 1.25.1  | ❌      |
-| Smart Connections  | 2.3.46  | ❌      |
-| Smart Second Brain | 1.3.0   | ❌      |
+### ✅Validated
 
----
+| Nom du plugin | Version | Activé |
+|---------------|---------|--------|
+| Companion | 1.8.0 | ✅ |
+| ExcaliBrain | 0.2.15 | ✅ |
+
+### 📅All AI
+| Nom du plugin | Version | Activé | id |
+|---------------|---------|--------|-|
+| AI Assistant | 1.5.3 | ❌ | ai-assistant |
+| AI image analyzer | 0.1.11 | ❌ | ai-image-analyzer |
+| BMO Chatbot | 2.3.3 | ❌ | bmo-chatbot |
+| Companion | 1.8.0 | ✅ | companion |
+| ExcaliBrain | 0.2.15 | ✅ | excalibrain |
+| Omnisearch | 1.25.1 | ❌ | omnisearch |
+| Smart Connections | 2.3.46 | ❌ | smart-connections |
+| Smart Second Brain | 1.3.0 | ❌ | smart-second-brain |
+
 ## ————————————————————
 
-utiliser le  insert templater pour générer la liste des plugin ici : 
+Utiliser le  insert 'Templater' pour générer la liste des plugin ici : 
 `templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List]]
 ## Liste des plugins installés (ALL)
 
 ### ✨Plugins Installés (template )
 
-#### 2024-12-30
-
-##### Plugins Installés
+#### Plugins Installés
 
 | Nom du plugin | Version | Activé | | Nom du plugin | Version | Activé |
 |---------------|---------|--------|-|---------------|---------|--------|
@@ -64,14 +69,17 @@ utiliser le  insert templater pour générer la liste des plugin ici :
 | Text Extractor | 0.5.2 | ✅ || Advanced Tables | 0.22.1 | ✅ |
 
 
+[[Plugins Installés (Dataview inline)]]
 
 
-## ————————————————————
-### ⛔Plugins Installés (Dataview inline)
-```dataview
-TABLE name AS "Nom du plugin", version AS "Version"
-FROM "plugins"
-```
-semble pas accessible via Dataview
+
+
+
+
+
+
+
+
+
 
 
