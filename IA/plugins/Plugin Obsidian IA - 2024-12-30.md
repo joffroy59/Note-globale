@@ -20,16 +20,16 @@ created: 2024-12-30
 | ExcaliBrain | 0.2.15 | ✅ |
 
 ### 📅All AI
-| Nom du plugin | Version | Activé | id |
-|---------------|---------|--------|-|
-| AI Assistant | 1.5.3 | ❌ | ai-assistant |
-| AI image analyzer | 0.1.11 | ❌ | ai-image-analyzer |
-| BMO Chatbot | 2.3.3 | ❌ | bmo-chatbot |
-| Companion | 1.8.0 | ✅ | companion |
-| ExcaliBrain | 0.2.15 | ✅ | excalibrain |
-| Omnisearch | 1.25.1 | ❌ | omnisearch |
-| Smart Connections | 2.3.46 | ❌ | smart-connections |
-| Smart Second Brain | 1.3.0 | ❌ | smart-second-brain |
+| Nom du plugin      | Version | Activé | id                 |
+| ------------------ | ------- | ------ | ------------------ |
+| AI Assistant       | 1.5.3   | ❌      | ai-assistant       |
+| AI image analyzer  | 0.1.11  | ❌      | ai-image-analyzer  |
+| BMO Chatbot        | 2.3.3   | ❌      | bmo-chatbot        |
+| Companion          | 1.8.0   | ✅      | companion          |
+| ExcaliBrain        | 0.2.15  | ✅      | excalibrain        |
+| Omnisearch         | 1.25.1  | ❌      | omnisearch         |
+| Smart Connections  | 2.3.46  | ❌      | smart-connections  |
+| Smart Second Brain | 1.3.0   | ❌      | smart-second-brain |
 
 ## ————————————————————
 
