@@ -12,12 +12,11 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ### 🥷Missed Tasks ———————————
 
-> [!NOTE]- Actions
-> `BUTTON[rollover,rollover_revert]`
-> 
+`BUTTON[rollover,rollover_revert]`
 #### Rollover Last Day
 ### 🚀Today's Tasks ———————
 #task
+
 - [ ] TODO today
 ### 🏆Today's Wins ———
 #wins
