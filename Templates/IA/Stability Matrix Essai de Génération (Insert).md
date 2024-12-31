@@ -1,17 +1,6 @@
----
-tags:
-  - IA
-  - template
-  - images
-  - txt2img
-  - StabilityMatrix
-title: Stability Matrix - Essai de Génération - {{DATE}}
----
-<% tp.file.rename("Stability Matrix - Essai de Génération - " + tp.date.now())%>
-# TXT2IMG
-
 ###### <% tp.date.now() %>
-## 🚧<% tp.system.prompt("Please enter the Subject") %> 
+# TXT2IMG
+## 🚧 <% tp.system.prompt("Please enter the Subject") %> 
 
 ```embed
 
@@ -33,14 +22,14 @@ title: Mon resulat Local
 ```ad-info
 title: Configuration
 
-<printscreen configuration UI>
+< printscreen configuration UI>
 
 ```
 
 ```ad-caution
 title: Sauvegarde Stability Matrix
 
-sauvegarde Stability Matrix : 
+
 ```
 
 # ————————————————————————

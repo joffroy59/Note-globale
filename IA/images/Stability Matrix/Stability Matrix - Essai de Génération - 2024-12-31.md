@@ -196,3 +196,56 @@ actions:
 ```
 # ————————————————————————
 
+###### 2024-12-31
+# TXT2IMG
+## 🚧 Dark  Vador - Traineau 
+
+```embed
+title: "Image posted by deezbeex"
+image: "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d0736896-d71a-42fc-9a4f-4ebdd24d3628/width=1200/d0736896-d71a-42fc-9a4f-4ebdd24d3628.jpeg"
+description: ""
+url: "https://civitai.com/images/48583092"
+```
+
+ 
+```ad-quote
+title: Generation data
+
+Masterpiece, absurdres, highly detailed, (solo), Best Quality, UHD Hyper-realistic Photo-Quality image of Darth Vader riding a sleigh in a winter wonderland, Sleigh is pulled by Rancors, Darth Vader holding his light saber, Red Light Saber, sleigh, sitting, Negative prompt: easynegative, credits, author, watermarks, watermark, logo, logos, text, font, fonts, child, nsfw Steps: 60, CFG scale: 6, Sampler: DPM++ 2M Karras, Seed: 888278466, Size: 832x1216, nsfw: true, draft: false, extra: [object Object], width: 832, height: 1216, quantity: 4, workflow: txt2img, baseModel: Illustrious, Created Date: 2024-12-30T2128:39.5379609Z, Clip skip: 2
+
+```
+
+```ad-success
+title: Mon resulat Local 
+<image résultat>
+```
+
+```ad-info
+title: Configuration
+
+< printscreen configuration UI>
+
+```
+
+```ad-caution
+title: Sauvegarde Stability Matrix
+
+
+```
+
+# ————————————————————————
+
+```meta-bind-button
+label: Insert Stability Matrix Exemple
+icon: plus-circle
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: command
+    command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
+```
+# ————————————————————————
+
