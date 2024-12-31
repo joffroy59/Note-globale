@@ -7,12 +7,7 @@ kanban-plugin: board
 ## TODO
 
 - [ ] [[Sandbox test task]]
-- [ ] task A2 🏁 delete
-- [ ] task A1 🏁 delete
-- [ ] task A3 🏁 delete
-- [ ] task B1🏁 delete
 - [ ] [[Obsidian Dataview]]
-- [ ] task B2
 - [ ] [[Obsidian]]
 
 
@@ -23,12 +18,20 @@ kanban-plugin: board
 - [ ] [[IA/excalibrain/excalibrain]]
 
 
-## DONE🏁 delete
+## DONE
 
 **Complete**
 
 
+***
 
+## Archive
+
+- [x] task A2 🏁 delete
+- [ ] task A1 🏁 delete
+- [ ] task A3 🏁 delete
+- [ ] task B1🏁 delete
+- [ ] task B2
 
 %% kanban:settings
 ```

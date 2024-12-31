@@ -1,3 +1,11 @@
+---
+tags:
+  - template
+  - IA
+  - images
+  - txt2img
+  - StabilityMatrix
+---
 ###### <% tp.date.now() %>
 # TXT2IMG
 ## 🚧 <% tp.system.prompt("Please enter the Subject") %> 

@@ -1,3 +1,7 @@
+---
+tags:
+  - helper
+---
 
 ## Pas de tag
 ```dataview
