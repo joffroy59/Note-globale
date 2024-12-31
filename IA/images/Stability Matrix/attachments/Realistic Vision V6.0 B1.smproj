@@ -1,0 +1,130 @@
+{
+  "Version": 2,
+  "ProjectType": "TextToImage",
+  "State": {
+    "Modules": {
+      "$values": [
+        {
+          "$values": [
+            {
+              "Scale": 1.85,
+              "SelectedUpscaler": {
+                "Name": "RealESRGAN_x4plus_anime_6B.pth",
+                "Type": 2,
+                "DownloadableResource": null,
+                "IsDownloadable": false
+              },
+              "$type": "Upscaler"
+            },
+            {
+              "Modules": {
+                "$values": []
+              },
+              "IsRefinerStepsEnabled": false,
+              "Steps": 10,
+              "RefinerSteps": 10,
+              "IsDenoiseStrengthEnabled": true,
+              "DenoiseStrength": 0.4502487562189055,
+              "IsCfgScaleEnabled": false,
+              "CfgScale": 7,
+              "IsDimensionsEnabled": false,
+              "Width": 512,
+              "Height": 512,
+              "IsSamplerSelectionEnabled": false,
+              "SelectedSampler": {
+                "Name": "euler_ancestral"
+              },
+              "IsSchedulerSelectionEnabled": false,
+              "SelectedScheduler": {
+                "Name": "normal"
+              },
+              "InheritPrimarySamplerAddons": true,
+              "EnableAddons": true,
+              "$type": "Sampler"
+            }
+          ],
+          "IsEnabled": true,
+          "$type": "HiresFixModule"
+        },
+        {
+          "$values": [
+            {
+              "Scale": 2,
+              "SelectedUpscaler": {
+                "Name": "RealESRGAN_x4plus_anime_6B.pth",
+                "Type": 2,
+                "DownloadableResource": null,
+                "IsDownloadable": false
+              },
+              "$type": "Upscaler"
+            }
+          ],
+          "IsEnabled": false,
+          "$type": "UpscalerModule"
+        }
+      ]
+    },
+    "Model": {
+      "SelectedModelName": "westernAnimation_v1.safetensors",
+      "SelectedRefinerName": "realisticVisionV60B1_v20Novae-inpainting.ckpt",
+      "SelectedVaeName": "@default",
+      "SelectedClip1Name": "@none",
+      "SelectedClip2Name": "@none",
+      "SelectedClip3Name": "@none",
+      "SelectedClipType": null,
+      "ModelLoader": 0,
+      "ClipSkip": 3,
+      "IsVaeSelectionEnabled": false,
+      "IsRefinerSelectionEnabled": false,
+      "IsClipSkipEnabled": true,
+      "IsExtraNetworksEnabled": true,
+      "IsModelLoaderSelectionEnabled": true,
+      "IsClipModelSelectionEnabled": false,
+      "ExtraNetworks": {
+        "$values": []
+      }
+    },
+    "Sampler": {
+      "Modules": {
+        "$values": []
+      },
+      "IsRefinerStepsEnabled": false,
+      "Steps": 30,
+      "RefinerSteps": 10,
+      "IsDenoiseStrengthEnabled": false,
+      "DenoiseStrength": 1,
+      "IsCfgScaleEnabled": true,
+      "CfgScale": 9,
+      "IsDimensionsEnabled": true,
+      "Width": 512,
+      "Height": 512,
+      "IsSamplerSelectionEnabled": true,
+      "SelectedSampler": {
+        "Name": "dpmpp_sde_gpu"
+      },
+      "IsSchedulerSelectionEnabled": true,
+      "SelectedScheduler": {
+        "Name": "karras"
+      },
+      "InheritPrimarySamplerAddons": true,
+      "EnableAddons": true
+    },
+    "Prompt": {
+      "Prompt": " 1boy, superman, abs, bara, black hair, blue bodysuit, blue eyes, bodysuit, cape, closed mouth, crossed arms, large pectorals, male focus, muscular, muscular male, pectoral lift, pectorals, red cape, short hair, outdoors, skyscrapers, solo, superhero, upper body , ((masterpiece))",
+      "NegativePrompt": "(low quality, worst quality), (FastNegativeEmbedding:0.9)",
+      "ModulesCardState": {
+        "$values": []
+      }
+    },
+    "BatchSize": {
+      "BatchSize": 1,
+      "BatchCount": 1,
+      "IsBatchIndexEnabled": false,
+      "BatchIndex": 1
+    },
+    "Seed": {
+      "Seed": "911376604",
+      "IsRandomizeEnabled": false
+    }
+  }
+}
