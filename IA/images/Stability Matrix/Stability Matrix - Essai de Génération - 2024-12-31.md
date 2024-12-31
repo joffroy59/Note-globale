@@ -179,3 +179,20 @@ title: Sauvegarde Stability Matrix
 
 sauvegarde Stability Matrix : [Realistic Vision V6.0 B1.smproj](file:///I:%5CIA%5CStabilityMatrix%5CProjects%5CRealistic%20Vision%20V6.0%20B1.smproj)
 ```
+
+# ————————————————————————
+
+```meta-bind-button
+label: Insert Stability Matrix Exemple
+icon: plus-circle
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: command
+    command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
+```
+# ————————————————————————
+
