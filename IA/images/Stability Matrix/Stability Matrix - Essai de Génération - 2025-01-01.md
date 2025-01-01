@@ -96,6 +96,7 @@ collapse: Closed
 title: Sauvegarde Stability Matrix
 collapse: Closed
 
+[military.smproj](file:///I:%5CIA%5CStabilityMatrix%5CProjects%5Cmilitary.smproj)
 ```
 
 # ———————————————————————
@@ -114,20 +115,17 @@ actions:
 ```
 
 
-
-
-# 🚧 ssss  
+# 🚧 Goldorak 2 
 TXT2IMG
 ###### 2025-01-01
 
 
 ```embed
-
-<url>
+title: "Image posted by ainow"
+image: "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1391537-e1d2-4b87-84a0-577d627e9ff2/width=1200/e1391537-e1d2-4b87-84a0-577d627e9ff2.jpeg"
+description: ""
+url: "https://civitai.com/images/962882"
 ```
-
-
-
 
 
 ```ad-quote
@@ -135,152 +133,29 @@ collapse: Closed
 
 title: Generation data
 
-dqsd dq sd q
+<lyco:goldorak_v1.0:1> goldorak, flying in space, galaxy background, sharp, realistic, bokeh, 3d render, film grain, action shot, inspiring Steps: 30, CFG scale: 7.5, Sampler: Euler a, Seed: 477463223, Size: 720x360, Model: realisticVisionV20_v20, Parser: Full parser, Version: 8354b7c, Model hash: c0d1994c73, Hires upscale: 2, Hires upscaler: 4x-UltraSharp, Denoising strength: 0.35, Clip skip: 1
 
 ```
 
 ```ad-success
 title: Mon resulat Local 
 collapse: Open
-<image résultat> 
-|300
+![[2025-01-01_02-57-20-realisticVisionV60B1_v20Novae-477463223.png|300]]
+
 ```
 
 ```ad-info
 title: Configuration
 collapse: Closed
 
-< printscreen configuration UI>
-|300
+![[Pasted image 20250101025743.png|300]]
+
 ```
 
 ```ad-caution
 title: Sauvegarde Stability Matrix
 collapse: Closed
-
-```
-
-# ———————————————————————
-
-```meta-bind-button
-label: Insert Stability Matrix Exemple
-icon: plus-circle
-hidden: false
-class: ""
-tooltip: ""
-id: ""
-style: default
-actions:
-  - type: command
-    command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
-```
-
-
-
-# 🚧 qsd 
-TXT2IMG
-###### 2025-01-01
-
-
-```embed
-
-<url>
-```
-
-true
-
-
-
-```ad-quote
-collapse: Closed
-
-title: Generation data
-
-dq
-
-```
-
-```ad-success
-title: Mon resulat Local 
-collapse: Open
-<image résultat> 
-|300
-```
-
-```ad-info
-title: Configuration
-collapse: Closed
-
-< printscreen configuration UI>
-|300
-```
-
-```ad-caution
-title: Sauvegarde Stability Matrix
-collapse: Closed
-
-```
-
-# ———————————————————————
-
-```meta-bind-button
-label: Insert Stability Matrix Exemple
-icon: plus-circle
-hidden: false
-class: ""
-tooltip: ""
-id: ""
-style: default
-actions:
-  - type: command
-    command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
-```
-
-
-
-
-# 🚧 ttttt 
-TXT2IMG
-###### 2025-01-01
-
-
-```embed
-
-<url>
-```
-
-true
-
-
-
-```ad-quote
-collapse: Closed
-
-title: Generation data
-
-rrrr
-
-```
-
-```ad-success
-title: Mon resulat Local 
-collapse: Open
-<image résultat> 
-|300
-```
-
-```ad-info
-title: Configuration
-collapse: Closed
-
-< printscreen configuration UI>
-|300
-```
-
-```ad-caution
-title: Sauvegarde Stability Matrix
-collapse: Closed
-
+[Goldorak2.smproj](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5CGoldorak2.smproj)
 ```
 
 # ———————————————————————

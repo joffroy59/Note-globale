@@ -1,0 +1,240 @@
+{
+  "Version": 2,
+  "ProjectType": "TextToImage",
+  "State": {
+    "Modules": {
+      "$values": [
+        {
+          "$values": [
+            {
+              "Scale": 2,
+              "SelectedUpscaler": {
+                "Name": "4xUltrasharp_4xUltrasharpV10.pt",
+                "Type": 2,
+                "DownloadableResource": null,
+                "IsDownloadable": false
+              },
+              "$type": "Upscaler"
+            },
+            {
+              "Modules": {
+                "$values": []
+              },
+              "IsRefinerStepsEnabled": false,
+              "Steps": 12,
+              "RefinerSteps": 10,
+              "IsDenoiseStrengthEnabled": true,
+              "DenoiseStrength": 0.35,
+              "IsCfgScaleEnabled": false,
+              "CfgScale": 7,
+              "IsDimensionsEnabled": false,
+              "Width": 512,
+              "Height": 512,
+              "IsSamplerSelectionEnabled": false,
+              "SelectedSampler": {
+                "Name": "euler_ancestral"
+              },
+              "IsSchedulerSelectionEnabled": false,
+              "SelectedScheduler": {
+                "Name": "normal"
+              },
+              "InheritPrimarySamplerAddons": true,
+              "EnableAddons": true,
+              "$type": "Sampler"
+            }
+          ],
+          "IsEnabled": true,
+          "$type": "HiresFixModule"
+        },
+        {
+          "$values": [
+            {
+              "Scale": 1.7,
+              "SelectedUpscaler": {
+                "Name": "4xUltrasharp_4xUltrasharpV10.pt",
+                "Type": 2,
+                "DownloadableResource": null,
+                "IsDownloadable": false
+              },
+              "$type": "Upscaler"
+            }
+          ],
+          "IsEnabled": false,
+          "$type": "UpscalerModule"
+        },
+        {
+          "$values": [
+            {
+              "DetailerSeed": {
+                "Seed": "1987983032",
+                "IsRandomizeEnabled": true
+              },
+              "DetailerPrompt": {
+                "Prompt": "black and white still photo of sad RoxieCipher with blonde 1950s bouffant hair, ",
+                "NegativePrompt": "BadDream, UnrealisticDream",
+                "ModulesCardState": {
+                  "$values": []
+                }
+              },
+              "SamDetectionHints": [
+                "center-1",
+                "horizontal-2",
+                "vertical-2",
+                "rect-4",
+                "diamond-4",
+                "mask-area",
+                "mask-points",
+                "mask-point-bbox",
+                "none"
+              ],
+              "SamMaskHintUseNegatives": [
+                "False",
+                "Small",
+                "Outter"
+              ],
+              "GuideSizeFor": true,
+              "GuideSize": 256,
+              "MaxSize": 768,
+              "Steps": 20,
+              "Cfg": 8,
+              "Sampler": {
+                "Name": "dpmpp_3m_sde_gpu"
+              },
+              "Scheduler": {
+                "Name": "karras"
+              },
+              "Denoise": 0.5,
+              "Feather": 5,
+              "NoiseMask": true,
+              "ForceInpaint": false,
+              "BboxThreshold": 0.5,
+              "BboxDilation": 10,
+              "BboxCropFactor": 3,
+              "SamDetectionHint": "center-1",
+              "SamDilation": 0,
+              "SamThreshold": 0.93,
+              "SamBboxExpansion": 0,
+              "SamMaskHintThreshold": 0.7,
+              "SamMaskHintUseNegative": "False",
+              "DropSize": 10,
+              "Cycle": 1,
+              "BboxModel": {
+                "RemoteName": null,
+                "Local": {
+                  "RelativePath": "Ultralytics\\bbox\\face_yolov8m.pt",
+                  "SharedFolderType": 268435456,
+                  "ConnectedModelInfo": null,
+                  "PreviewImageRelativePath": null,
+                  "PreviewImageFullPath": null,
+                  "ConfigFullPath": null,
+                  "HasUpdate": false,
+                  "LastUpdateCheck": "0001-01-01T00:00:00\u002B00:00",
+                  "LatestModelInfo": null
+                },
+                "DownloadableResource": null,
+                "Type": 1
+              },
+              "SegmModel": {
+                "RemoteName": "@none",
+                "Local": null,
+                "DownloadableResource": null,
+                "Type": 2
+              },
+              "SamModel": {
+                "RemoteName": "@none",
+                "Local": null,
+                "DownloadableResource": null,
+                "Type": 2
+              },
+              "ShowSamModelSelector": true,
+              "UseSeparatePrompt": true,
+              "PositivePrompt": "",
+              "NegativePrompt": "",
+              "InheritSeed": true,
+              "$type": "FaceDetailer"
+            }
+          ],
+          "IsEnabled": false,
+          "$type": "FaceDetailerModule"
+        }
+      ]
+    },
+    "Model": {
+      "SelectedModelName": "realisticVisionV60B1_v20Novae.ckpt",
+      "SelectedRefinerName": "realisticVisionV60B1_v20Novae-inpainting.ckpt",
+      "SelectedVaeName": "ae.safetensors",
+      "SelectedClip1Name": "clip_l.safetensors",
+      "SelectedClip2Name": "t5xxl_fp8_e4m3fn.safetensors",
+      "SelectedClip3Name": null,
+      "SelectedClipType": "flux",
+      "ModelLoader": 0,
+      "ClipSkip": 1,
+      "IsVaeSelectionEnabled": false,
+      "IsRefinerSelectionEnabled": false,
+      "IsClipSkipEnabled": true,
+      "IsExtraNetworksEnabled": true,
+      "IsModelLoaderSelectionEnabled": true,
+      "IsClipModelSelectionEnabled": false,
+      "ExtraNetworks": {
+        "$values": [
+          {
+            "$values": [
+              {
+                "SelectedModelName": "goldorak_v1.0.safetensors",
+                "IsModelWeightEnabled": true,
+                "IsClipWeightEnabled": false,
+                "ModelWeight": 1,
+                "ClipWeight": 1,
+                "$type": "ExtraNetwork"
+              }
+            ],
+            "IsEnabled": true,
+            "$type": "LoraModule"
+          }
+        ]
+      }
+    },
+    "Sampler": {
+      "Modules": {
+        "$values": []
+      },
+      "IsRefinerStepsEnabled": false,
+      "Steps": 30,
+      "RefinerSteps": 10,
+      "IsDenoiseStrengthEnabled": false,
+      "DenoiseStrength": 1,
+      "IsCfgScaleEnabled": true,
+      "CfgScale": 7.5,
+      "IsDimensionsEnabled": true,
+      "Width": 512,
+      "Height": 704,
+      "IsSamplerSelectionEnabled": true,
+      "SelectedSampler": {
+        "Name": "euler_ancestral"
+      },
+      "IsSchedulerSelectionEnabled": true,
+      "SelectedScheduler": {
+        "Name": "normal"
+      },
+      "InheritPrimarySamplerAddons": true,
+      "EnableAddons": true
+    },
+    "Prompt": {
+      "Prompt": "goldorak, flying in space, galaxy background, sharp, realistic, bokeh, 3d render, film grain, action shot, inspiring",
+      "NegativePrompt": "",
+      "ModulesCardState": {
+        "$values": []
+      }
+    },
+    "BatchSize": {
+      "BatchSize": 1,
+      "BatchCount": 1,
+      "IsBatchIndexEnabled": false,
+      "BatchIndex": 1
+    },
+    "Seed": {
+      "Seed": "477463223",
+      "IsRandomizeEnabled": false
+    }
+  }
+}

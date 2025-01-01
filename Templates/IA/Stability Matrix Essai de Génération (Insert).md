@@ -8,18 +8,6 @@ TXT2IMG
 <url>
 ```
 
-<%*
-let userLink = await tp.system.prompt("Please enter Src link :");
-
-// Embarquer le lien en utilisant la commande "Link Embedder: Embed link"
-resuilt = await app.commands.executeCommand("obsidian-link-embed:embed-link", { url: userLink });
-
-// Ajouter le lien embarqué au contenu de la note
-tR += resuilt;
-%>
-
-
-
 ```ad-quote
 collapse: Closed
 

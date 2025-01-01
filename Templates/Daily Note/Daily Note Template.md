@@ -35,6 +35,10 @@ collapse: closed
 
 
 ```
+## 📎TODO's —————————————————
+#todo
+- [ ] 
+
 ## 👀To View ————————————————
 #toview 
 
@@ -48,9 +52,9 @@ collapse: closed
 #problem
 
 > [!danger] Problème rencontré 
-> Problème sur le pc  
-> Problème appart
-
+> Problème PC
+> Problème Appartement
+> Problème Domotique
 ## 📝Note ———————————————
 #note
 
