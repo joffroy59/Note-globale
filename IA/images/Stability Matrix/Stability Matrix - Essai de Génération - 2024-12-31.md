@@ -8,10 +8,9 @@ tags:
 title: Stability Matrix - Essai de Génération - {{DATE}}
 ---
 
-# TXT2IMG
-
-###### 2024-12-30
-## ✅Maison 
+# ✅Maison 
+TXT2IMG
+2024-12-30
 
 ```embed
 title: "Image posted by SG_161222"
@@ -29,31 +28,20 @@ night, b&w photo of old house, post apocalypse, forest, storm weather, wind, roc
 
 ```ad-success
 title: Mon resulat Local 
-![[2024-12-30_22-06-15-realisticVisionV60B1_v20Novae-inpainting-571110210.png]]
+![[2024-12-30_22-06-15-realisticVisionV60B1_v20Novae-inpainting-571110210.png|400]]
 ```
 
 ```ad-info
 title: Configuration
 
-![[Pasted image 20241230221903.png]]
+![[Pasted image 20241230221903.png|300]]
 
 ```
 
 
----
-tags:
-  - IA
-  - template
-  - images
-  - txt2img
-  - StabilityMatrix
-title: Stability Matrix - Essai de Génération - {{DATE}}
----
-
-# TXT2IMG
-
-###### 2024-12-30
-## ❌cat-girl 
+# ❌cat-girl 
+TXT2IMG
+2024-12-30
 
 ```embed
 title: "Image posted by Samael1976"
@@ -75,31 +63,20 @@ Steps: 50, CFG scale: 7, Sampler: DPM++ 2M SDE Karras, Seed: 128526363, Size: 51
 
 ```ad-fail
 title: Mon resulat Local 
-![[2024-12-31_01-23-26-aniverse_v11-128526363.png]]
+![[2024-12-31_01-23-26-aniverse_v11-128526363.png|300]]
 ```
 
 ```ad-info
 title: Configuration
 
-![[Pasted image 20241231015350.png]]
+![[Pasted image 20241231015350.png|300]]
 
 ```
 
 
----
-tags:
-  - IA
-  - template
-  - images
-  - txt2img
-  - StabilityMatrix
-title: Stability Matrix - Essai de Génération - {{DATE}}
----
-
-# TXT2IMG
-
-###### 2024-12-31
-## ❌Marylin Like 
+# ❌Marylin Like 
+TXT2IMG
+2024-12-31
 
 ```embed
 title: "Image posted by Lykon"
@@ -118,34 +95,21 @@ black and white still photo of sad RoxieCipher with blonde 1950s bouffant hair, 
 
 ```ad-fail
 title: Mon resulat Local 
-![[2024-12-31_02-11-39-dreamshaper_62BakedVae-2917265623.png]]
+![[2024-12-31_02-11-39-dreamshaper_62BakedVae-2917265623.png|300]]
 ```
 
 ```ad-info
 title: Configuration
 
-![[Pasted image 20241231021210.png]]
+![[Pasted image 20241231021210.png|300]]
 
 ```
 
 
 
-
-
----
-tags:
-  - IA
-  - template
-  - images
-  - txt2img
-  - StabilityMatrix
-title: Stability Matrix - Essai de Génération - {{DATE}}
----
-
-# TXT2IMG
-
-###### 2024-12-31
-##  ✅Superman 
+# ✅Superman 
+TXT2IMG
+2024-12-31
 
 ```embed
 title: "Image posted by Lykon"
@@ -164,13 +128,13 @@ title: Generation data
 
 ```ad-success
 title: Mon resulat Local 
-![[2024-12-31_02-18-39-westernAnimation_v1-2917265623.png]]
+![[2024-12-31_02-18-39-westernAnimation_v1-2917265623.png|300]]
 ```
 
 ```ad-info
 title: Configuration
 
-![[Pasted image 20241231021855.png]]
+![[Pasted image 20241231021855.png|300]]
 
 ```
 
@@ -180,7 +144,7 @@ title: Sauvegarde Stability Matrix
 sauvegarde Stability Matrix : [Realistic Vision V6.0 B1.smproj](file:///I:%5CIA%5CStabilityMatrix%5CProjects%5CRealistic%20Vision%20V6.0%20B1.smproj)
 ```
 
-# ————————————————————————
+# ———————————————————————
 
 ```meta-bind-button
 label: Insert Stability Matrix Exemple
@@ -194,11 +158,10 @@ actions:
   - type: command
     command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
 ```
-# ————————————————————————
+# ✅ Dark  Vador - Traineau 
+TXT2IMG
+2024-12-31
 
-###### 2024-12-31
-# TXT2IMG
-## 🚧 Dark  Vador - Traineau 
 
 ```embed
 title: "Image posted by deezbeex"
@@ -217,13 +180,13 @@ Masterpiece, absurdres, highly detailed, (solo), Best Quality, UHD Hyper-realist
 
 ```ad-success
 title: Mon resulat Local 
-<image résultat>
+![[2024-12-31_21-51-03-waiNSFWIllustrious_v80-888278466.png]]
 ```
 
 ```ad-info
 title: Configuration
 
-< printscreen configuration UI>
+![[Pasted image 20241231215156.png]]
 
 ```
 
@@ -233,7 +196,8 @@ title: Sauvegarde Stability Matrix
 
 ```
 
-# ————————————————————————
+
+# ———————————————————————
 
 ```meta-bind-button
 label: Insert Stability Matrix Exemple
@@ -247,5 +211,110 @@ actions:
   - type: command
     command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
 ```
-# ————————————————————————
+#  ❌ Japan - Scene1
+TXT2IMG
+2024-12-31
+
+
+```embed
+title: "Image posted by deezbeex"
+image: "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76ce97bf-9052-41f0-8cfe-f269e2401aea/width=1200/76ce97bf-9052-41f0-8cfe-f269e2401aea.jpeg"
+description: ""
+url: "https://civitai.com/images/48264930"
+```
+
+ 
+```ad-quote
+title: Generation data
+
+psychedelic night winter landscape, (stunning artwork) sakura garden, serene mountains, sparkling lake, (dark red full moon) hazy atmosphere, snow-covered terrain, (perfect composition) low angle perspective, (award-winning masterpiece) ultra-detailed, breathtaking colors, magical mystique, vivid imagery, (8k) (UHD), (in the style of grimmold) artistic flair, captivating seasonal harmony Steps: 50, CFG scale: 3.5, Sampler: Undefined, Seed: 4294967296, Size: 832x1216, nsfw: true, draft: false, extra: [object Object], width: 832, height: 1216, fluxMode: urn:air:flux1:checkpoint:civitai:618692@691639, quantity: 4, workflow: txt2img, baseModel: Flux1, Created Date: 2024-12-29T0608:57.9818996Z, Clip skip: 2
+
+```
+
+```ad-failure
+title: Mon resulat Local 
+FLUX ERROR pas ssez de VRAM certainement
+```
+
+```ad-info
+title: Configuration
+
+
+```
+
+```ad-caution
+title: Sauvegarde Stability Matrix
+
+
+```
+
+# ———————————————————————
+
+```meta-bind-button
+label: Insert Stability Matrix Exemple
+icon: plus-circle
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: command
+    command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
+```
+
+#  ✅⚠️ Chewbacca riding a sleigh  
+TXT2IMG
+2024-12-31
+
+```embed
+title: "Image posted by deezbeex"
+image: "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b986f63-e687-4b7a-8343-5cece26afcc9/width=1200/0b986f63-e687-4b7a-8343-5cece26afcc9.jpeg"
+description: ""
+url: "https://civitai.com/images/48608639"
+```
+
+ 
+```ad-quote
+title: Generation data
+
+masterpiece, absurdres, (solo), Chewbacca riding a sleigh in an Endor winter wonderland, Sleigh is pulled by Dewbacks, Chewbacca, Chewbacca's bandolier, sleigh, sitting, Dewbacks, Negative prompt: easynegative, credits, author, watermarks, watermark, logo, logos, text, font, fonts, child, nsfw Steps: 60, CFG scale: 6, Sampler: DPM++ 2M Karras, Seed: 888278464, Size: 832x1216, Created Date: 2024-12-30T2109:42.9881974Z, Clip skip: 2
+
+```
+
+```ad-success
+title: Mon resulat Local 
+![[2024-12-31_23-47-23-waiNSFWIllustrious_v80-888278464.png|500]]
+```
+
+```ad-info
+title: Configuration
+
+![[Pasted image 20241231235037.png]]
+
+```
+
+```ad-caution
+title: Sauvegarde Stability Matrix
+
+[Chewbacca riding a sleigh.smproj](file:///I:%5CIA%5CStabilityMatrix%5CProjects%5CChewbacca%20riding%20a%20sleigh.smproj)
+
+```
+
+
+# ———————————————————————
+
+```meta-bind-button
+label: Insert Stability Matrix Exemple
+icon: plus-circle
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: command
+    command: quickadd:choice:db120296-7e0c-44ab-9544-74411cf5f104
+```
+
 
