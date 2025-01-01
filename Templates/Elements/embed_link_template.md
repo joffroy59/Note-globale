@@ -1,3 +1,10 @@
+---
+tags:
+  - template
+  - template/insert
+  - embed
+  - link
+---
 <%*
 // Demander à l'utilisateur de fournir un lien
 let userLink = await tp.system.prompt("Entrez le lien à embarquer :");

@@ -1,7 +1,7 @@
 ---
 tags:
   - IA
-  - prompt
+  - IA/prompt
 ---
 # The Prompt 
 

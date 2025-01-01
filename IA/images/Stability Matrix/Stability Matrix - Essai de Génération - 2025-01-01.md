@@ -1,3 +1,11 @@
+---
+tags:
+  - IA
+  - images
+  - IA/images
+  - IA/StabilityMatrix
+  - generation
+---
 # ✅Chewbacca riding a sleigh-white 
 TXT2IMG
 ###### 2025-01-01

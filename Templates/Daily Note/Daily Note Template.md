@@ -2,7 +2,6 @@
 created: "{{date}}"
 tags:
   - dailynotes
-  - template
 banner: "IA/images/attachments/Pasted image 20241228004521.jpg"
 sticker: emoji//1f636-200d-1f32b-fe0f
 ---
@@ -14,6 +13,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `BUTTON[rollover,rollover_revert]`
 #### Rollover Last Day
+
 ### 🚀Today's Tasks ———————
 #task
 
@@ -35,6 +35,7 @@ collapse: closed
 
 
 ```
+
 ## 📎TODO's ————————————————
 #todo
 - [ ] 
@@ -48,6 +49,7 @@ collapse: closed
 
 
 ```
+
 ## 🚨Problème —————————————
 #problem
 
@@ -55,6 +57,7 @@ collapse: closed
 > Problème PC
 > Problème Appartement
 > Problème Domotique
+
 ## 📝Note ——————————————
 #note
 
@@ -80,5 +83,6 @@ content
 
 > [!NOTE] Title
 > Contents
+
 ## 🪛Sandbox —————————
 

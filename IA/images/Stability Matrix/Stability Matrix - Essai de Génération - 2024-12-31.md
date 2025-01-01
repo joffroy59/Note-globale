@@ -4,7 +4,7 @@ tags:
   - template
   - images
   - txt2img
-  - StabilityMatrix
+  - IA/StabilityMatrix
 title: Stability Matrix - Essai de Génération - {{DATE}}
 ---
 
