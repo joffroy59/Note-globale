@@ -51,7 +51,7 @@ collapse: closed
 ## 🚨Problème ——————————————
 #problem
 
-> [!danger] Problème rencontré 
+> [!danger]- Problème rencontré 
 > Problème PC
 > Problème Appartement
 > Problème Domotique
