@@ -15,56 +15,87 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 #### Rollover Last Day
 
 ### 🚀Today's Tasks ———————
-#task
 
-- [ ] TODO today
+```button
+name ⚙️Insert Task
+type append template
+action Snipets/Insert Task
+color default
+```
+
 ### 🏆Today's Wins ———
-#wins
 
-```ad-success
-collapse: closed
-
+```button
+name Insert Win
+type append template
+action Snipets/Insert Win
+customColor #45858833
+customTextColor #00c853
 ```
 
+## .
 ## 💡Ideas ——————————————————
-#ideas 
 
-```ad-attention
-title: Idea
-collapse: closed
-
-
+```button
+name Insert Idea
+type append template
+action Snipets/Insert Idea
+customColor #45858833
+customTextColor #ff9100
 ```
 
+## .
 ## 📎TODO's ————————————————
 #todo
-- [ ] 
 
-## 🧪Test 'in Progress''s ——————————
-#test #status/wip 
-
-
-## 👀To View —————————————
-#toview 
-
-```ad-hint
-title: To view
-collapse: closed
-
-
+```button
+name 📎Insert TODO
+type append template
+action Snipets/Insert TODO
+color default
 ```
 
+## .
+## 🧪Test 'in Progress''s ——————————
+
+```button
+name Insert Test
+type append template
+action Snipets/Insert Test In Progress
+color purple
+```
+
+## .
+## 👀To View —————————————
+
+```button
+name Insert To View
+type append template
+action Snipets/Insert ToView
+customColor #45858833
+customTextColor #0fb9b1
+```
+
+## .
 ## 🚨Problème ———————————
 
-
-## 📝Note ————————————
-#note
-
-```ad-note
-title: Title
-
-content 
+```button
+name Insert Problem
+type append template
+action Snipets/Insert Problem
+color red
 ```
+
+## .
+## 📝Note ————————————
+
+```button
+name Insert Note
+type append template
+action Snipets/Insert Note
+color blue
+```
+
 ### Note créées ce jour ———————
 > [!example] New Today
 > ```dataview
@@ -78,10 +109,18 @@ content
 > ```
 > 
 
+## .
 ## 👉Autre ——————————
 
-> [!NOTE] Title
-> Contents
+```button
+name Insert Other
+type append template
+action Snipets/Insert Other
+customColor #45858833
+customTextColor #fbf1c7
+```
 
-## 🪛Sandbox ——————
+
+## —————————————————————————
+## 🪛Sandbox 
 
