@@ -20,7 +20,7 @@ const myPluginsEnabled = [
 %>
 ### ✅Validated
 
-<% tp.file.include("[[Plugin Obsidian IA - Validated]]") %>
+[[Plugin Obsidian IA - Validated]]
 
 <%*
 const pluginsIA = app.plugins.manifests;
