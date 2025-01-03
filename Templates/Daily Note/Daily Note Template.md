@@ -92,7 +92,7 @@ color red
 ```button
 name Insert Note
 type append template
-action Snipets/Insert Note
+action Inserts/Insert Note
 color blue
 ```
 
