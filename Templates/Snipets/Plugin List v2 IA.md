@@ -20,6 +20,12 @@ const myPluginsEnabled = [
 %>
 ### ✅Validated
 
+<%* 
+const pluginAiSection = "[[Plugin List v2 IA]]";
+console.log(pluginAiSection);
+-%>
+<% tp.file.include(pluginAiSection) %>
+
 <%*
 const pluginsIA = app.plugins.manifests;
 let table = "###### Plugins Installés\n\n";
