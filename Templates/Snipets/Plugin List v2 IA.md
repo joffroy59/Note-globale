@@ -20,11 +20,7 @@ const myPluginsEnabled = [
 %>
 ### ✅Validated
 
-<%* 
-const pluginAiSection = "[[Plugin List v2 IA]]";
-console.log(pluginAiSection);
--%>
-<% tp.file.include(pluginAiSection) %>
+<% tp.file.include("[[Plugin Obsidian IA - Validated]]") %>
 
 <%*
 const pluginsIA = app.plugins.manifests;
