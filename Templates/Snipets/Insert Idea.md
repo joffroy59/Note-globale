@@ -1,7 +1,7 @@
 
 ```ad-attention
 title: Idea
-collapse: closed
-#ideas 
+collapse: open
+- idea #ideas 
 
 ```

@@ -3,7 +3,7 @@
 <%*
    let title = tp.file.title;
    if (title.startsWith('Untitled')) {
-      title = "Plugin Obsidian IA " + tp.date.now('YYYY-MM-DD');
+      title = "Plugin Obsidian IA - " + tp.date.now('YYYY-MM-DD');
       await tp.file.rename(`${title}`);
    }
 -%>

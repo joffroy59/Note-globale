@@ -1,7 +1,7 @@
 
 ```ad-hint
 title: To view
-collapse: closed
+collapse: open
 #toview 
 
 ```

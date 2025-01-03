@@ -1,6 +1,7 @@
 
 ```ad-success
-collapse: closed
-#wins 
+collapse: open
+
+- win #wins 
 
 ```

@@ -1,7 +1,7 @@
 
 ```ad-example
 title: Test In Progess
-collapse: closed
+collapse: open
 
 #test #status/wip  
 

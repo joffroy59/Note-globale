@@ -15,7 +15,7 @@ tags:
 ## ——————————————————————————
 ### Aide Analyse  
 - [[Plugin Obsidian IA - 2024-12-30]]
-### -     -     -     -     -     -     -     -     -     -     -     -     -     -     -
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ### Analyse / Info
 
 | Nom du plugin       | Version | Keep | id                 | commenatire         |
@@ -28,9 +28,9 @@ tags:
 | Omnisearch          | 1.25.1  |      | omnisearch         |                     |
 | Smart Connections   | 2.3.46  |      | smart-connections  |                     |
 | Smart Second Brai n | 1.3.0   |      | smart-second-brain |                     |
-### -     -     -     -     -     -     -     -     -     -     -     -     -     -     -
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ### Aide 
 [[README]]
-### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
