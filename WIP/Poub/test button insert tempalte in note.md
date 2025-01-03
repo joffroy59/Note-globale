@@ -29,7 +29,7 @@ color red
 ```button
 name Insert Test
 type append template
-action Snipets/Insert Test In Progress
+action Inserts/Insert Test In Progress
 color purple
 ```
 
@@ -56,7 +56,7 @@ collapse: closed
 ```button
 name Insert Problem
 type append template
-action Snipets/Insert Problem
+action Inserts/Insert Problem
 color red
 ```
 
@@ -96,7 +96,7 @@ content
 ```button
 name Insert Other
 type append template
-action Snipets/Insert Other
+action Inserts/Insert Other
 customColor #45858833
 customTextColor #fbf1c7
 ```
@@ -109,7 +109,7 @@ customTextColor #fbf1c7
 ```button
 name Insert Other
 type append template
-action Snipets/Insert Other
+action Inserts/Insert Other
 customColor #45858833
 customTextColor #fbf1c7
 ```
@@ -127,7 +127,7 @@ customTextColor #fbf1c7
 ```button
 name Insert To View
 type append template
-action Snipets/Insert ToView
+action Inserts/Insert ToView
 customColor #45858833
 customTextColor #0fb9b1
 ```
@@ -171,7 +171,7 @@ color default
 ```button
 name ⚙️Insert Task
 type append template
-action Snipets/Insert Task
+action Inserts/Insert Task
 color default
 ```
 
@@ -181,7 +181,7 @@ color default
 ```button
 name Insert Win
 type append template
-action Snipets/Insert Win
+action Inserts/Insert Win
 customColor #45858833
 customTextColor #00c853
 ```
@@ -218,7 +218,7 @@ collapse: closed
 ```button
 name ⚙️Insert Task
 type append template
-action Snipets/Insert Task
+action Inserts/Insert Task
 color default
 ```
 

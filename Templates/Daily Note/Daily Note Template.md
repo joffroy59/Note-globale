@@ -19,7 +19,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ```button
 name ⚙️Insert Task
 type append template
-action Snipets/Insert Task
+action Inserts/Insert Task
 color default
 ```
 
@@ -28,7 +28,7 @@ color default
 ```button
 name Insert Win
 type append template
-action Snipets/Insert Win
+action Inserts/Insert Win
 customColor #45858833
 customTextColor #00c853
 ```
@@ -39,7 +39,7 @@ customTextColor #00c853
 ```button
 name Insert Idea
 type append template
-action Snipets/Insert Idea
+action Inserts/Insert Idea
 customColor #45858833
 customTextColor #ff9100
 ```
@@ -51,7 +51,7 @@ customTextColor #ff9100
 ```button
 name 📎Insert TODO
 type append template
-action Snipets/Insert TODO
+action Inserts/Insert TODO
 color default
 ```
 
@@ -61,7 +61,7 @@ color default
 ```button
 name Insert Test
 type append template
-action Snipets/Insert Test In Progress
+action Inserts/Insert Test In Progress
 color purple
 ```
 
@@ -71,7 +71,7 @@ color purple
 ```button
 name Insert To View
 type append template
-action Snipets/Insert ToView
+action Inserts/Insert ToView
 customColor #45858833
 customTextColor #0fb9b1
 ```
@@ -82,7 +82,7 @@ customTextColor #0fb9b1
 ```button
 name Insert Problem
 type append template
-action Snipets/Insert Problem
+action Inserts/Insert Problem
 color red
 ```
 
@@ -115,7 +115,7 @@ color blue
 ```button
 name Insert Other
 type append template
-action Snipets/Insert Other
+action Inserts/Insert Other
 customColor #45858833
 customTextColor #fbf1c7
 ```
