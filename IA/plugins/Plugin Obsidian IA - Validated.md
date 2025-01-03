@@ -2,19 +2,54 @@
 tags:
   - IA
 ---
+# Besoin
+
+![[Besoin]]
 
 # Listes des plugins IA installés 
 
-## 🛠️Validated Status 
+## ✅ Validated Status 
 
 | Nom du plugin | Version | Activé | info                                                | date info  |
 | ------------- | ------- | ------ | --------------------------------------------------- | ---------- |
 | Companion     | 1.8.0   | ✅      | pour la complétion automatique <br>(Ollama Gemma9b) | 2024-12-30 |
-| ExcaliBrain   | 0.2.15  | ✅      | ?? pour un graph bleu a voir                        | 2024-12-30 |
+
 
 ## ——————————————————————————
-### Aide Analyse  
+
+## ⚠️ En cours d'essai  
+#status/wip 
+
+```ad-note
+
+### QuickAdd AI #status/wip 
+
+
+| Nom du plugin | Version | Activé | info                         | date info  |
+| ------------- | ------- | ------ | ---------------------------- | ---------- |
+| QuickAdd      | 1.11.5  | ✅     | activer avec partie clssique du plugin  | 2025-01-03 |
+
+Un peu caché car avec QuickAction ..... 
+
+a voir a quoi je peu m'en servir 
+```
+
+## ——————————————————————————
+
+## ❓ A essayer 
+#toview 
+
+| Nom du plugin | Version | Activé | info                         | date info  |
+| ------------- | ------- | ------ | ---------------------------- | ---------- |
+| ExcaliBrain   | 0.2.15  | ✅      | ?? pour un graph bleu a voir | 2024-12-30 |
+
+## ——————————————————————————
+
+## Aide
+
+### Note d'aide a l'analyse  
 - [[🛠️Plugin Obsidian IA - 2024-12-30]]
+- [[🛠️Plugin Obsidian IA - 2025-01-03]]
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ### Analyse / Info
 

@@ -23,7 +23,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Snipets/Plugin List Global v2.md
-    folderPath: IA/plugins
+    folderPath: IA/plugins/Essais
     fileName: ""
     openNote: true
     openIfAlreadyExists: true
