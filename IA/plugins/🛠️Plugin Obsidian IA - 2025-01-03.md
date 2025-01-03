@@ -26,6 +26,7 @@ created: 2025-01-03
 | Companion | 1.8.0 | ✅ | companion |
 | ExcaliBrain | 0.2.15 | ✅ | excalibrain |
 | Omnisearch | 1.25.1 | ❌ | omnisearch |
+| QuickAdd           | 1.11.5  | ✅      |                    |
 | Smart Connections | 2.3.46 | ❌ | smart-connections |
 | Smart Second Brain | 1.3.0 | ❌ | smart-second-brain |
 
