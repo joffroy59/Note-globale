@@ -72,30 +72,14 @@ tR += table;
 
 Utiliser le  insert 'Templater' pour générer la liste des plugin ici : 
 `templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List]]
-## Liste des plugins installés (ALL)
+car bouton marche pas (pas d'interpretation du code du template) 
 
-### ✨Plugins Installés (template )
+## ————————————————————
 
-<%*
-const allPlugins_by2 = app.plugins.manifests;
-table = "#### Plugins Installés\n\n";
-table += "| Nom du plugin | Version | Activé | | Nom du plugin | Version | Activé |\n";
-table += "|---------------|---------|--------|-|---------------|---------|--------|\n";
-group = ""
-for (const [id, plugin] of Object.entries(allPlugins_by2)) {
-    const isEnabled_by2 = app.plugins.enabledPlugins.has(id);
-    if (group == ""){
-	    group = `| ${plugin.name} | ${plugin.version} | ${isEnabled_by2 ? "✅" : "❌"} |`;
-    } else {
-	    table += group;
-	    table += `| ${plugin.name} | ${plugin.version} | ${isEnabled_by2 ? "✅" : "❌"} |\n`;
-	    group = "";
-    }
-}
-tR += table;
-%>
+Utiliser le  insert 'Templater' pour générer la liste des plugin ALL  ici : 
+`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List All]]  
+car bouton marche pas (pas d'interpretation du code du template) 
 
-[[Plugins Installés (Dataview inline)]]
 
 
 

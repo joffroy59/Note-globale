@@ -1,7 +1,3 @@
----
-tags:
-  - template
----
 
 ---
 title: 🛠️Plugin Obsidian IA - 2024-12-30
@@ -32,14 +28,21 @@ created: 2024-12-30
 | Smart Second Brain | 1.3.0   | ❌      | smart-second-brain |
 
 ## ————————————————————
+## Ajout d'une nouvelle version snapshot des plugin IA installé 
 
 Utiliser le  insert 'Templater' pour générer la liste des plugin ici : 
 `templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List]]
-## Liste des plugins installés (ALL)
 
-### ✨Plugins Installés (template )
+```button
+name Insert Plugin List
+type append template
+action Snipets/Plugin List wip
+color blue
+```
 
-#### Plugins Installés
+
+
+## ✨Liste des plugins installés (ALL)
 
 | Nom du plugin | Version | Activé | | Nom du plugin | Version | Activé |
 |---------------|---------|--------|-|---------------|---------|--------|
@@ -71,15 +74,5 @@ Utiliser le  insert 'Templater' pour générer la liste des plugin ici :
 
 [[Plugins Installés (Dataview inline)]]
 
-
-
-
-
-
-
-
-
-
-
-
-
+< Templates/Snipets/Plugin List All > 
+car bouton marche pas (pas d'interpretation du code du template) 

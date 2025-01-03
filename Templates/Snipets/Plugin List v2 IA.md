@@ -1,9 +1,4 @@
----
-tags:
-  - template
----
-
-
+# Listes des plugins installés 
 ## 📅<% tp.date.now() %>
 <%*
 
@@ -55,25 +50,15 @@ for (const [id, plugin] of Object.entries(allPluginsIA)) {
 tR += table;
 %>
 ## ————————————————————
+## Ajout d'une nouvelle version snapshot des plugin IA installé 
 
-Utiliser le  insert 'Templater' pour générer la liste des plugin ici : 
+Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
 `templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List]]
-## ————————————————————
-
-Utiliser le  insert 'Templater' pour générer la liste des plugin ALL  ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List All]]  
 car bouton marche pas (pas d'interpretation du code du template) 
-
-
-
-
-
-
-
-
-
-
-
-
-
+```button
+name Insert Plugin List
+type append template
+action Snipets/Plugin List wip
+color blue
+```
 
