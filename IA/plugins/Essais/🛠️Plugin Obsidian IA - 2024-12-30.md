@@ -36,7 +36,7 @@ Utiliser le  insert 'Templater' pour générer la liste des plugin ici :
 ```button
 name Insert Plugin List
 type append template
-action Snipets/Plugin List wip
+action Snippets/Plugin List wip
 color blue
 ```
 
@@ -74,5 +74,5 @@ color blue
 
 [[Plugins Installés (Dataview inline)]]
 
-< Templates/Snipets/Plugin List All > 
+< Templates/Snippets/Plugin List All > 
 car bouton marche pas (pas d'interpretation du code du template) 

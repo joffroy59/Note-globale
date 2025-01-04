@@ -34,12 +34,12 @@ created: 2025-01-04
 ## Ajout d'une nouvelle version snapshot des plugin IA installé 
 ### Pour rafraîchir la liste :
 Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List v2 IA]]
+`templater : Open Insert Template  Modal`   > Snippets >  [[Plugin List v2 IA]]
 
 ```button
 name ⛔ Insert Plugin List
 type append template
-action Snipets/Plugin List wip
+action Snippets/Plugin List wip
 color blue
 ```
 
@@ -47,7 +47,7 @@ color blue
 ```button
 name ⛔ Insert Plugin List  WIP
 type append template
-action Snipets/Plugin List wip
+action Snippets/Plugin List wip
 templater true
 color blue
 ```

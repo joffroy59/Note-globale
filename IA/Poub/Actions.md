@@ -24,7 +24,7 @@ id: Nouvelle Analyse
 style: default
 actions:
   - type: templaterCreateNote
-    templateFile: Templates/Snipets/Plugin List Global v2.md
+    templateFile: Templates/Snippets/Plugin List Global v2.md
     folderPath: IA/plugins/Essais
     fileName: ""
     openNote: true
@@ -45,7 +45,7 @@ actions:
 > style: default
 > actions:
 >   - type: templaterCreateNote
->     templateFile: Templates/Snipets/Plugin List Global v2.md
+>     templateFile: Templates/Snippets/Plugin List Global v2.md
 >     folderPath: IA/plugins/Essais
 >     fileName: ""
 >     openNote: true

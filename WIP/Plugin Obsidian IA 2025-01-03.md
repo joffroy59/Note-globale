@@ -36,7 +36,7 @@ car bouton marche pas (pas d'interpretation du code du template)
 ```button
 name Insert Plugin List
 type append template
-action Snipets/Plugin List wip
+action Snippets/Plugin List wip
 color blue
 ```
 
