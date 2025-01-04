@@ -10,9 +10,9 @@ tags:
 
 ## ✅ Validated Status  #validated
 
-| Nom du plugin | Version | Activé | info                                                | date info  |
-| ------------- | ------- | ------ | --------------------------------------------------- | ---------- |
-| Companion     | 1.8.0   | ✅      | pour la complétion automatique <br>(Ollama Gemma9b) | 2024-12-30 |
+| Nom du plugin | Version | Activé | info                                                       | date info  |
+| ------------- | ------- | ------ | ---------------------------------------------------------- | ---------- |
+| Companion     | 1.8.0   | ✅      | pour la complétion automatique <br>(Ollama Gemma9b) #local | 2024-12-30 |
 
 
 ## ——————————————————————————
@@ -36,14 +36,13 @@ a voir a quoi je peu m'en servir
 
 ```ad-note
 
-### Local Gpt #status/wip 
+### ⭐Local Gpt #status/wip 
 
-| Smart Second Brain | 1.3.0   | ✅      | smart-second-brain |
-| ------------------ | ------- | ------ | ------------------ |
+| Local GPT                | 1.14.7   | ✅      | local-gpt                     |
+| ------------------------ | -------- | ------ | ----------------------------- |
 
-| Nom du plugin | Version | Activé | info                         | date info  |
-| ------------- | ------- | ------ | ---------------------------- | ---------- |
-| Smart Second Brain      | 1.3.0  | ✅     | #local    | 2025-01-03 |
+| Local GPT | 1.14.7 | ✅   | Pour le moment, le meilleur pour ce qui est de faire des actions sur le texte sélectionné.  #local | 2025-01-05 |
+| --------- | ------ | --- | -------------------------------------------------------------------------------------- | ---------- |
 
 a voir a quoi je peu m'en servir 
 ```
