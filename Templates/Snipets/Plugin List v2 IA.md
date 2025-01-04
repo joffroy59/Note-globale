@@ -55,22 +55,23 @@ tR += table;
 %>
 ## ————————————————————
 ## Ajout d'une nouvelle version snapshot des plugin IA installé 
-
+### Pour rafraîchir la liste :
 Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List]]
-car bouton marche pas (pas d'interpretation du code du template) 
+`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List v2 IA]]
+
 ```button
-name Insert Plugin List
+name ⛔ Insert Plugin List
 type append template
 action Snipets/Plugin List wip
 color blue
 ```
 
-WIP use a button to generate template insert #not_working
+ WIP use a button to generate template=true insert #not_working
 ```button
-name Insert Plugin List  WIP
+name ⛔ Insert Plugin List  WIP
 type append template
 action Snipets/Plugin List wip
 templater true
 color blue
 ```
+
