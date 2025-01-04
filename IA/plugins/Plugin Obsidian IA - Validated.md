@@ -34,6 +34,21 @@ a voir a quoi je peu m'en servir
 ```
 
 
+```ad-note
+
+### Local Gpt #status/wip 
+
+| Smart Second Brain | 1.3.0   | ✅      | smart-second-brain |
+| ------------------ | ------- | ------ | ------------------ |
+
+| Nom du plugin | Version | Activé | info                         | date info  |
+| ------------- | ------- | ------ | ---------------------------- | ---------- |
+| Smart Second Brain      | 1.3.0  | ✅     | #local    | 2025-01-03 |
+
+a voir a quoi je peu m'en servir 
+```
+
+
 
 ```ad-note
 
