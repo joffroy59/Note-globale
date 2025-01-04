@@ -46,7 +46,6 @@ customTextColor #ff9100
 
 ## .
 ## 📎TODO's ————————————————
-#todo
 
 ```button
 name 📎Insert TODO
