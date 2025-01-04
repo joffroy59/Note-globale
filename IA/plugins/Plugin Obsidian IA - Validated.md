@@ -8,7 +8,7 @@ tags:
 
 # Listes des plugins IA installés 
 
-## ✅ Validated Status 
+## ✅ Validated Status  #validated
 
 | Nom du plugin | Version | Activé | info                                                | date info  |
 | ------------- | ------- | ------ | --------------------------------------------------- | ---------- |
@@ -17,8 +17,7 @@ tags:
 
 ## ——————————————————————————
 
-## ⚠️ En cours d'essai  
-#status/wip 
+## ⚠️ En cours d'essai  #status/wip 
 
 ```ad-note
 
@@ -27,17 +26,32 @@ tags:
 
 | Nom du plugin | Version | Activé | info                         | date info  |
 | ------------- | ------- | ------ | ---------------------------- | ---------- |
-| QuickAdd      | 1.11.5  | ✅     | activer avec partie clssique du plugin  | 2025-01-03 |
+| QuickAdd      | 1.11.5  | ✅     | activer avec partie classique du plugin #local   | 2025-01-03 |
 
 Un peu caché car avec QuickAction ..... 
 
 a voir a quoi je peu m'en servir 
 ```
 
+
+
+```ad-note
+
+### Smart Second Brain #status/wip 
+
+| Smart Second Brain | 1.3.0   | ✅      | smart-second-brain |
+| ------------------ | ------- | ------ | ------------------ |
+
+| Nom du plugin | Version | Activé | info                         | date info  |
+| ------------- | ------- | ------ | ---------------------------- | ---------- |
+| Smart Second Brain      | 1.3.0  | ✅     | #local    | 2025-01-03 |
+
+a voir a quoi je peu m'en servir 
+```
+
 ## ——————————————————————————
 
-## ❓ A essayer 
-#toview 
+## ❓ A essayer  #toview 
 
 | Nom du plugin | Version | Activé | info                         | date info  |
 | ------------- | ------- | ------ | ---------------------------- | ---------- |
@@ -50,6 +64,8 @@ a voir a quoi je peu m'en servir
 ### Note d'aide a l'analyse  
 - [[🛠️Plugin Obsidian IA - 2024-12-30]]
 - [[🛠️Plugin Obsidian IA - 2025-01-03]]
+- [[🛠️Plugin Obsidian IA - 2025-01-04]]
+- [ ] Automatic generation from folder list  #todo  
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ### Analyse / Info
 
@@ -58,11 +74,11 @@ a voir a quoi je peu m'en servir
 | AI Assistant        | 1.5.3   | ❌    | ai-assistant       | Uniquement  #online |
 | AI image analyzer   | 0.1.11  |      | ai-image-analyzer  |                     |
 | BMO Chatbot         | 2.3.3   |      | bmo-chatbot        |                     |
-| Companion           | 1.8.0   | ✅    | companion          |                     |
+| Companion           | 1.8.0   | ✅    | companion          | #local              |
 | ExcaliBrain         | 0.2.15  | ✅    | excalibrain        |                     |
 | Omnisearch          | 1.25.1  |      | omnisearch         |                     |
 | Smart Connections   | 2.3.46  |      | smart-connections  |                     |
-| Smart Second Brai n | 1.3.0   |      | smart-second-brain |                     |
+| Smart Second Brai n | 1.3.0   | ⚠️   | smart-second-brain | #local              |
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ### Aide 

@@ -64,3 +64,11 @@ action Snipets/Plugin List wip
 color blue
 ```
 
+WIP use a button to generate template insert #not_working
+```button
+name Insert Plugin List  WIP
+type append template
+action Snipets/Plugin List wip
+templater true
+color blue
+```
