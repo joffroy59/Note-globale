@@ -21,9 +21,7 @@ const myPluginsEnabled = [
 ]
 %>
 ### ✅Validated
-
 [[Plugin Obsidian IA - Validated]]
-
 <%*
 const pluginsIA = app.plugins.manifests;
 let table = "###### Plugins Installés\n\n";
