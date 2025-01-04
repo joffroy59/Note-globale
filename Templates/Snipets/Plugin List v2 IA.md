@@ -10,12 +10,14 @@ const myPlugins = [
 'excalibrain',
 'omnisearch',
 'smart-connections',
-'smart-second-brain'
+'smart-second-brain',
+'local-gpt'
 ]
 
 const myPluginsEnabled = [
 	'companion',
-	'excalibrain'
+	'excalibrain',
+	'local-gpt'
 ]
 %>
 ### ✅Validated

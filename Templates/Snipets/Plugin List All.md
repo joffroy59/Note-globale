@@ -1,4 +1,9 @@
 ## ✨Liste des plugins installés (ALL)
+### Pour rafraîchir la liste :
+Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
+`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List All]]
+
+et supprimer l'existant
 
 <%*
 const allPlugins_by2 = app.plugins.manifests;
@@ -19,11 +24,7 @@ for (const [id, plugin] of Object.entries(allPlugins_by2)) {
 tR += table;
 %>
 
+<% tp.file.include("[[Plugin List All with Id]]") %>
+
 [[Plugins Installés (Dataview inline)]]
 
-### Pour rafraîchir la liste :
-Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List All]]
-
-et supprimer l'existant
-	
