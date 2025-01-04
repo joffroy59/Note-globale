@@ -31,7 +31,7 @@ created: 2025-01-03
 ## Ajout d'une nouvelle version snapshot des plugin IA installé 
 
 Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List]]
+`templater : Open Insert Template  Modal`   > Snippets >  [[Plugin List]]
 car bouton marche pas (pas d'interpretation du code du template) 
 ```button
 name Insert Plugin List

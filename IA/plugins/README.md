@@ -8,7 +8,7 @@ tags:
 collapse: Closed
 
 Utiliser le insert 'Templater' pour générer la liste des plugin ici :  
-`templater : Open Insert Template Modal` > Snipets > [Plugin List](app://obsidian.md/Plugin%20List)
+`templater : Open Insert Template Modal` > Snippets > [Plugin List](app://obsidian.md/Plugin%20List)
 
 ⚠️ OU plutôt le bouton ci dessous !!!!  v2
 

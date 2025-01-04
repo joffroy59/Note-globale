@@ -1,7 +1,7 @@
 ## ✨Liste des plugins installés (ALL)
 ### Pour rafraîchir la liste :
 Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List All]]
+`templater : Open Insert Template  Modal`   > Snippets >  [[Plugin List All]]
 
 et supprimer l'existant
 

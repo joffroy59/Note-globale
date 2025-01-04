@@ -57,11 +57,11 @@ tR += table;
 ## ————————————————————
 
 Utiliser le  insert 'Templater' pour générer la liste des plugin ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List]]
+`templater : Open Insert Template  Modal`   > Snippets >  [[Plugin List]]
 ## ————————————————————
 
 Utiliser le  insert 'Templater' pour générer la liste des plugin ALL  ici : 
-`templater : Open Insert Template  Modal`   > Snipets >  [[Plugin List All]]  
+`templater : Open Insert Template  Modal`   > Snippets >  [[Plugin List All]]  
 car bouton marche pas (pas d'interpretation du code du template) 
 
 
