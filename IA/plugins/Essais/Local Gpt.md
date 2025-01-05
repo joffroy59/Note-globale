@@ -1,3 +1,8 @@
+---
+tags:
+  - plugins
+  - IA
+---
 Semble être un bon plug-in pour l'intégration dans Obsidian
 
 ## test en cours

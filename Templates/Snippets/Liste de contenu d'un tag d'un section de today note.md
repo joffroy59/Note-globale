@@ -1,3 +1,7 @@
+---
+tags:
+  - template
+---
 
 <%*
 const fs = require('fs');

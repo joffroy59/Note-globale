@@ -1,6 +1,7 @@
 ---
 tags:
   - IA
+  - plugins
 ---
 # Besoin
 

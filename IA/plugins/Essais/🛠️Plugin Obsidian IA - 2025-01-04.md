@@ -1,3 +1,7 @@
+---
+tags:
+  - plugins
+---
 
 ---
 title: 🛠️Plugin Obsidian IA - 2025-01-04

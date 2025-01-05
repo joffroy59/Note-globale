@@ -1,3 +1,8 @@
+---
+tags:
+  - template/insert
+  - IA/StabilityMatrix
+---
 # 🚧 <% tp.system.prompt("Please enter the Subject") %> 
 TXT2IMG
 ###### <% tp.date.now() %>

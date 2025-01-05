@@ -1,3 +1,7 @@
+---
+tags:
+  - template/insert
+---
 
 ```ad-attention
 title: Idea

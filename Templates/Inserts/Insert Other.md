@@ -1,3 +1,8 @@
+---
+tags:
+  - template/insert
+---
 
 > [!NOTE] Other
-> Contents
+> Contents #Other
+> 

@@ -1,3 +1,8 @@
+---
+tags:
+  - plugins
+  - obsidian
+---
 ### Plugins
 
 ```ad-info
