@@ -4,7 +4,7 @@ tags:
   - template
 ---
 
-## ⚠️ Mistral 
+## ❓ Test 
 
 ```ad-success
 What's on image ?  
@@ -21,6 +21,7 @@ TODO
 ```
 ![[Pasted image 20250105014744.png]]
 
+## .
 ```button
 name New Test
 type append template
@@ -28,14 +29,3 @@ action IA/New Test Local Gpt
 remove false
 color purple
 ```
-
-
-
-
-
-
-
-
-
-
-

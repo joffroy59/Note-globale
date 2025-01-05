@@ -1,0 +1,49 @@
+
+
+## Fix 1 Linux
+
+Hi,
+
+I found a solution that might help you with running the Ollama server on startup. I came across this solution while trying to solve another issue I was facing, but I believe it should also work for your case.
+
+You need to modify the `/etc/systemd/system/ollama.service` file. In the `[Service]` section, add the following two lines:
+
+```
+ExecStart=/usr/local/bin/ollama serve
+Environment="OLLAMA_ORIGINS=app://obsidian.md*"
+```
+
+This configuration should allow the Ollama server to start automatically at bootup.
+
+
+
+
+
+
+
+
+
+----
+
+```embed
+title: "Unlocking the Power of Ollama: Advanced Configuration Settings"
+image: ""
+description: "Explore advanced settings for Ollama to optimize performance and adapt it to your specific needs!"
+url: "https://www.arsturn.com/blog/advanced-configuration-settings-for-ollama"
+```
+
+### 2. Context Window Size
+
+The default context window size in Ollama is set to 2048 tokens. For those situations when you need broader context understanding, you can change this size using the command below:
+
+`1bash 2ollama run llama3 --set parameter num_ctx 4096`
+
+If you’re using the API, specify the
+
+`1num_ctx`
+
+parameter:
+
+`1bash 2curl http://localhost:11434/api/generate -d '{ "model": "llama3", "prompt": "Why is the sky blue?", "options": { "num_ctx": 4096 } }'`
+
+This is especially useful when you want to deal with longer texts or need the model to remember more information while generating responses.
