@@ -3,9 +3,9 @@ tags:
   - template/insert
 ---
 
-```ad-hint
+`````ad-hint
 title: To view
-collapse: open
+collapse: closed
 #toview 
 
-```
+`````

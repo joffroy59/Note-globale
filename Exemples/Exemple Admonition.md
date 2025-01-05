@@ -348,6 +348,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 > qsdqsdqsdqsd
 
 
+# Multiple admonitions
+
+
+`````ad-note
+title: Nested Admonitions
+collapse: open
+
+Hello!
+
+````ad-note
+title: This admonition is nested.
+This is a nested admonition!
+````
+
+````ad-note
+title: This admonition is nested.
+This is a nested admonition!
+
+
+````
+
+This is in the original admonition.
+`````
+
+
+
 # Nesting admonitions
 
 
