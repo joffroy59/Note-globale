@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"976a53d48e2e53e0","type":"text","text":"```query  \ntask-todo:\"\"\n```\n","x":-400,"y":-1000,"width":420,"height":820},
-		{"id":"92b3011b0fcafc82","type":"text","text":"```tasks\nstatus.name includes todo\n```\n\n```tasks:\nstatus.name includes todo\n```\n\n","x":40,"y":-1000,"width":600,"height":720}
-	],
-	"edges":[]
-}
