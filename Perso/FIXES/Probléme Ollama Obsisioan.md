@@ -1,6 +1,5 @@
 
-
-## Fix 1 Linux
+## ⛔Fix 1 Linux
 
 Hi,
 
@@ -17,6 +16,28 @@ This configuration should allow the Ollama server to start automatically at boot
 
 
 
+ref  windows 
+```embed
+title: "How to config ollama using OLLAMA_ORIGINS windows"
+image: ""
+description: "Software Development Programming Tech Developer Engineering Science Digital Software Coding Computer Science Software Engineering Technology Code"
+url: "https://lijohnny.com/Today-I-Learned/ds/ai-tools/how-to-config-ollama-using-windows.html#:~:text=To%20resolve%20this%20issue%2C%20you%20can%20use%20the,the%20Ollama%20plugin%20with%20Obsidian%20on%20Windows%20successfully."
+```
+
+
+## ✅ FIX windows 
+### test variable env 
+
+avec  windows set env variable 
+![[Pasted image 20250105111117.png]]
+
+```
+OLLAMA_ORIGINS="app://obsidian.md*"
+```
+- ✅ start
+- ✅ auto start model wit local Gpt 
+
+
 
 
 
@@ -24,6 +45,7 @@ This configuration should allow the Ollama server to start automatically at boot
 
 
 ----
+## Aide 
 
 ```embed
 title: "Unlocking the Power of Ollama: Advanced Configuration Settings"
