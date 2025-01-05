@@ -36,20 +36,14 @@ customTextColor #00c853
 ## .
 ## ✅ DONE 
 
-> [!success]-
-> ### Configure Obsidian hotkey
-> 
-> 1. Open Obsidian Settings
-> 2. Go to Hotkeys
-> 3. Filter "Local" and you should see "Local GPT: Show context menu"
-> 4. Click on `+` icon and press hotkey (e.g. `⌘ + M`)
-> 
-> --> Alt+I 
-
-
-```ad-success
-Plugin IA pour changer le texte selectionné dans la note : ⭐Local Gpt
+```button
+name Insert ✅ DONE
+type append template
+action Inserts/Insert Done
+customColor #45858833
+customTextColor #ff9100
 ```
+
 ## .
 ## 💡Ideas ——————————————————
 
