@@ -1,10 +1,8 @@
-#!.obsidian/snippets
-
-!.obsidian/
+#
 
 .obsidian/*
-!.obsidian/snippets/
-.obsidian/snippets/*
+!.obsidian/**/
+!.obsidian/snippets/**
 
 # to exclude Obsidian's settings (including plugin and hotkey configurations)
 #.obsidian/
