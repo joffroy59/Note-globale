@@ -5,7 +5,7 @@ tags:
 
 ```ad-note
 title: Title
-#note
+collapse: open
 
-content 
+- content #note  
 ```

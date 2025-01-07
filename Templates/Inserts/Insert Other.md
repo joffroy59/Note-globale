@@ -3,6 +3,10 @@ tags:
   - template/insert
 ---
 
-> [!NOTE] Other
-> Contents #Other
-> 
+````ad-note
+title: Other
+collapse: open
+#Other 
+
+Content
+````
