@@ -1,3 +1,94 @@
+###### Daily Action template
+
+
+```button
+name + New
+type append template
+action Inserts/Insert Task
+color default
+```
+^button-tpl-add-today-task
+
+```button
+name + New
+type append template
+action Inserts/Insert Win
+customColor #45858833
+customTextColor #00c853
+```
+^button-tpl-add-today-wins
+
+```button
+name + New
+type append template
+action Inserts/Insert Done
+customColor #45858833
+customTextColor #ff9100
+```
+^button-tpl-add-done
+
+```button
+name Insert Idea
+type append template
+action Inserts/Insert Idea
+customColor #45858833
+customTextColor #ff9100
+```
+^button-tpl-add-idea
+
+```button
+name + New
+type append template
+action Inserts/Insert TODO
+color default
+```
+^button-tpl-add-todo
+
+```button
+
+name + New
+type append template
+action Inserts/Insert ToView
+customColor #45858833
+customTextColor #0fb9b1
+
+
+```
+^button-tpl-add-toview
+
+```button
+name + New
+type append template
+action Inserts/Insert Test In Progress
+color purple
+```
+^button-tpl-add-wip
+
+```button
+name + New
+type append template
+action Inserts/Insert Problem
+color red
+```
+^button-tpl-add-problem
+
+```button
+name + New
+type append template
+action Inserts/Insert Note
+color blue
+```
+^button-tpl-add-note
+
+```button
+name + New
+type append template
+action Inserts/Insert Other
+customColor #45858833
+customTextColor #fbf1c7
+```
+^button-tpl-add-other
+
 ###### Daily Action
 
 ```button
