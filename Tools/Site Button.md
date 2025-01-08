@@ -139,6 +139,19 @@ class grad_button btn_cyan
 ```
 ^button-add-problem
 
+```button
+type command
+action Save current file
+```
+^button-button-add-problem-daily
+
+```button
+name Insert Problem
+type append template
+action Inserts/Insert Problem
+color red
+```
+^button-add-problem-daily
 
 ^button-7dsf
 ```button
@@ -172,6 +185,7 @@ action Quickadd: Add Win
 class grad_button btn_yellow 
 ```
 ^button-add-note
+
 
 
 
