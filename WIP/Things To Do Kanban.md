@@ -28,7 +28,7 @@ kanban-plugin: board
 ## Archive
 
 - [x] task A2 🏁 delete
-- [ ] task A1 🏁 delete
+- [ ] task A1 ⛔ b06yo8 🏁 delete
 - [ ] task A3 🏁 delete
 - [ ] task B1🏁 delete
 - [ ] task B2
