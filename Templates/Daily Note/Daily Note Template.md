@@ -2,7 +2,8 @@
 created: "{{date}}"
 tags:
   - dailynotes
-banner: "IA/images/attachments/Pasted image 20241228004521.jpg"
+  - template/insert
+banner: IA/images/attachments/Pasted image 20241228004521.jpg
 sticker: emoji//1f636-200d-1f32b-fe0f
 ---
 # My Today Note
@@ -33,6 +34,13 @@ action Inserts/Insert Win
 customColor #45858833
 customTextColor #00c853
 ```
+
+````ad-success
+collapse: open
+
+- [[IA/Actions|Actions]] #wins 
+
+````
 
 ## .
 ## ✅ DONE 
