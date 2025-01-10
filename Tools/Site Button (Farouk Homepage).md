@@ -2,9 +2,14 @@
 
 changement des id pour ne pas perturber l'autre page [[Site Button]]
 `^button- -> ^button-farouk-`
+
+utilisation <code></code> pour voir si ca rend le plugin moins gourmand  #supposition
+
+
 ```
 
 ###### Farouk Homepage
+<code>
 
 ```button
 name 💡 メモ
@@ -266,3 +271,5 @@ action https://www.google.com/maps
 class circle_btn blank
 ```
 ^button-farouk-open-map
+
+</code>

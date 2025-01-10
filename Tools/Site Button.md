@@ -189,6 +189,7 @@ class grad_button btn_yellow
 
 
 
+<code>
 ###### Circle_btn& tiny
 
 ```button
@@ -211,7 +212,9 @@ type command
 action Style Settings: Show style settings view
 class tiny
 ```
+</code>
 
+<code>
 ###### blank & grad_button
 
 ```button
@@ -299,8 +302,10 @@ type command
 action Style Settings: Show style settings view
 class grad_button btn_cyan
 ```
+</code>
 
 
+<code>
 ###### Shiba Uni Custom Buttons
 
 ```button
@@ -416,3 +421,5 @@ action https://www.google.com/maps
 class circle_btn blank
 ```
 ^button-open-map
+</code>
+

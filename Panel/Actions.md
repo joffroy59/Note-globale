@@ -14,4 +14,3 @@ cov:
 
 `BUTTON[insert-problem-daily-domotique]`
 
-
