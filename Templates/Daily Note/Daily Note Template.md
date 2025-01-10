@@ -20,6 +20,9 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
  `BUTTON[insert-daily-task]`
 
+#### Obsidian
+
+`BUTTON[insert-daily-task]`
 ### 🏆Today's Wins ———
 
  `BUTTON[insert-daily-win]`
