@@ -1,4 +1,4 @@
-⭐ `BUTTON[fix-plugins-template]`
+⭐ `BUTTON[fix-plugins-template-rename]`
 
 
 `BUTTON[fix-plugins]` ❓
@@ -17,3 +17,4 @@ actions:
 
 ```
 
+⭐ *: Working*

@@ -2,8 +2,7 @@
 created: "{{date}}"
 tags:
   - dailynotes
-  - wip
-banner: "IA/images/attachments/Pasted image 20241228004521.jpg"
+banner: IA/images/attachments/Pasted image 20241228004521.jpg
 sticker: emoji//1f636-200d-1f32b-fe0f
 ---
 # My Today Note
