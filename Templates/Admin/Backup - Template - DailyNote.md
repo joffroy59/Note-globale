@@ -2,7 +2,7 @@
 
 const fileName = "Daily Note Template";
 const sourceFolder = "Templates/Daily Note";
-const destinationFolder = "admin/Backup/Templates/Daily Note";
+const destinationFolder = "Admin/Backup/Templates/Daily Note";
 
 const fs = app.vault.adapter;
 const dateSuffix = tp.date.now("YYYY-MM-DD");
@@ -26,3 +26,15 @@ if (file) {
     new Notice("Fichier non trouvé");
 }
 %>
+
+```ad-info
+title: Backup
+
+## <% tp.date.now("YYYY-MM-DD") %>
+### <% tp.date.now("HH:mm:ss") %> 
+
+| Type | Src | Dest |
+| --- | --- |---|
+| Backup du template | Templates/Daily Note/Daily Note Template | Admin/Backup/Templates/Daily Note |
+
+```
