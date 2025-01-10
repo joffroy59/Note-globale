@@ -24,6 +24,7 @@ type append template
 action Inserts/Insert Task
 color default
 ```
+✅ `BUTTON[insert-daily-task]`
 
 ### 🏆Today's Wins ———
 
@@ -34,14 +35,7 @@ action Inserts/Insert Win
 customColor #45858833
 customTextColor #00c853
 ```
-
-````ad-success
-collapse: open
-
-- [[IA/Actions|Actions]] #wins 
-
-````
-
+✅ `BUTTON[insert-daily-win]`
 ## .
 ## ✅ DONE 
 
@@ -63,7 +57,7 @@ action Inserts/Insert Idea
 customColor #45858833
 customTextColor #ff9100
 ```
-
+💡 `BUTTON[insert-daily-idea]`
 ## .
 ## 📎TODO's ————————————————
 
