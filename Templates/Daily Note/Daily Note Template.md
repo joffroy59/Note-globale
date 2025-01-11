@@ -19,32 +19,40 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ### 🚀Today's Tasks ———————
 
  `BUTTON[insert-daily-task]`
+ 
 #### Obsidian
 
 `BUTTON[insert-daily-task]`
+
 ### 🏆Today's Wins ———
 
 `BUTTON[insert-daily-win]`
+
 ## .
 ## ✅ DONE 
 
  `BUTTON[insert-daily-done]`
+ 
 ## .
 ## 💡Ideas ——————————————————
 
  `BUTTON[insert-daily-idea]`
+ 
 ## .
 ## 📎TODO's ————————————————
 
 `BUTTON[insert-daily-todo]`
+
 ## .
 ## 🧪Test 'in Progress''s ——————————
 
 `BUTTON[insert-daily-wip]`
+
 ## .
 ## 👀To View —————————————
 
 `BUTTON[insert-daily-toview]`
+
 ## .
 ## 🚨Problème ———————————
 
@@ -54,6 +62,8 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ## 📝Note ————————————
 
 `BUTTON[insert-daily-note]`
+
+
 ### Note créées ce jour ———————
 > [!example] New Today
 > ```dataview
@@ -71,6 +81,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ## 👉Autre ——————————
 
 `BUTTON[insert-daily-other]`
+
 
 ## —————————————————————————
 ## 🪛Sandbox 
