@@ -19,13 +19,12 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ### 🚀Today's Tasks ———————
 
  `BUTTON[insert-daily-task]`
-
 #### Obsidian
 
 `BUTTON[insert-daily-task]`
 ### 🏆Today's Wins ———
 
- `BUTTON[insert-daily-win]`
+`BUTTON[insert-daily-win]`
 ## .
 ## ✅ DONE 
 
@@ -50,7 +49,6 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ## 🚨Problème ———————————
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique]`
-
 
 ## .
 ## 📝Note ————————————
