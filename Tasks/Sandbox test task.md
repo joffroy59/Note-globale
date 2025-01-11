@@ -7,4 +7,69 @@
 - [x]  ✅ 2024-12-24
 
 
+## Moi 
+
+[[ok1]]
+## Trouvés 
+
+[[Found OK]]
+
+
+
+
+
+```tasks
+TABLE task.status AS "Statut"
+FROM ""
+GROUP BY task.status
+SORT task.status ASC
+
+```
+
+```tasks
+status.name includes wip
+```
+
+```tasks
+status.name includes wip
+```
+
+
+```tasks
+status.name includes wip
+```
+
+```tasks
+status.name includes wip
+```
+
+```tasks
+status.name includes wip
+```
+
+
+```tasks
+status.name includes wip
+```
+
+```tasks
+status.name includes wip
+```
+
+```tasks
+status.name includes wip
+```
+
+
+```tasks
+status.name includes wip
+```
+
+```tasks
+status.name includes wip
+```
+
+```tasks
+status.name includes wip
+```
 
