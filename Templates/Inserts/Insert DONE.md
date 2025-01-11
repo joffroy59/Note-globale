@@ -1,7 +1,3 @@
----
-tags:
-  - template/insert
----
 
 ```ad-success
 title: DONE
