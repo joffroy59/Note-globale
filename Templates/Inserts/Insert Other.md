@@ -3,10 +3,10 @@ tags:
   - template/insert
 ---
 
-````ad-note
+`````ad-note
 title: Other
 collapse: open
 #Other 
 
 Content
-````
+`````

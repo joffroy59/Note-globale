@@ -3,9 +3,9 @@ tags:
   - template/insert
 ---
 
-```ad-note
+`````ad-note
 title: Title
 collapse: open
 
 - content #note  
-```
+`````

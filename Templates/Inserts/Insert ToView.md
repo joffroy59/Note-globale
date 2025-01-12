@@ -3,11 +3,11 @@ tags:
   - template/insert
 ---
 
-````ad-hint
+`````ad-hint
 title: To view
 collapse: open
 #toview 
 
-TOVIEW #toview 
-````
+- [ ] TOVIEW #toview 
+`````
 
