@@ -7,6 +7,7 @@ banner: "IA/images/attachments/Pasted image 20241228004521.jpg"
 sticker: emoji//1f636-200d-1f32b-fe0f
 ---
 # My Today Note
+
 `="[[Daily Note/2025/01/📒" + dateformat(date(yesterday), "yyyy-MM-dd") + "|👈 yesterday]]"` | `="[[Daily Note/2025/01/📒" + dateformat(date(today), "yyyy-MM-dd") + "|👇 today]]"` | `="[[Daily Note/2025/01/📒" + dateformat(date(tomorrow), "yyyy-MM-dd") + "|👉 tomorrow]]"`
 
 ## 📅 Today's ——————————————————
