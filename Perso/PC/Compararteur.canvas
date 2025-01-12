@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"8d8c36a529bc6392","x":-1320,"y":-1160,"width":600,"height":1560,"type":"link","url":"https://www.cpu-monkey.com/fr/"},
+		{"id":"27d985b54c06b95e","x":-2010,"y":-1160,"width":620,"height":1560,"type":"link","url":"https://technical.city/en"},
+		{"id":"1baf330203a3fccd","x":-3080,"y":-1680,"width":840,"height":440,"type":"text","text":"\n\n![LeChat Logo](https://chat.mistral.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fle-chat-logo-dark.ff291bca.png&w=48&q=75)\n\nVoici quelques sources où vous pouvez trouver des classements des meilleurs CPU en 2025 :\n\n1. **Technical City** : Ce site propose un classement des processeurs les plus puissants en 2025, tant pour les gamers que pour les professionnels[7](https://technical.city/en/cpu/rating).\n    \n2. **CPU Monkey** : Ce site offre un classement des meilleurs CPU pour le gaming en 2025, en mettant l'accent sur des critères tels que la fréquence d'horloge, le cache, le nombre de cœurs et l'architecture du CPU[8](https://www.cpu-monkey.com/en/cpu_ranking-best_gaming_cpu).\n    \n3. **Versus** : Versus propose un classement des meilleurs CPU de janvier 2025, avec des comparaisons de prix et des conseils pour choisir le CPU adapté à vos besoins[9](https://versus.com/en/cpu/best).\n    \n4. **Tom's Hardware** : Ce site présente les meilleurs CPU pour le gaming en 2025, avec des benchmarks et des guides d'achat détaillés[10](https://www.tomshardware.com/reviews/best-cpus,3986.html).\n    \n5. **Wired** : Wired couvre les dernières nouvelles sur les CPU et GPU présentés au CES 2025, mettant en avant les innovations et les performances des nouveaux processeurs[11](https://www.wired.com/story/intel-amd-qualcomm-nvidia-new-cpus-and-gpus-ces-2025/).\n"},
+		{"id":"1be53d0d485f7efa","x":-640,"y":-1160,"width":640,"height":1560,"type":"link","url":"https://versus.com/fr/cpu"},
+		{"id":"8dc341c7c22d7dc3","x":80,"y":-1160,"width":620,"height":1560,"type":"link","url":"https://www.tomshardware.fr/"},
+		{"id":"a8550678263a2e21","x":760,"y":-1160,"width":744,"height":1560,"type":"link","url":"https://www.wired.com/"}
+	],
+	"edges":[
+		{"id":"4d9506d2e1e1e507","fromNode":"1baf330203a3fccd","fromSide":"right","toNode":"27d985b54c06b95e","toSide":"top"},
+		{"id":"8384ec6cf31f0636","fromNode":"1baf330203a3fccd","fromSide":"right","toNode":"1be53d0d485f7efa","toSide":"top"},
+		{"id":"7e31add00d205627","fromNode":"1baf330203a3fccd","fromSide":"right","toNode":"8d8c36a529bc6392","toSide":"top"},
+		{"id":"9bb71ac1fa623523","fromNode":"1baf330203a3fccd","fromSide":"right","toNode":"8dc341c7c22d7dc3","toSide":"top"},
+		{"id":"6c89d57672cf40b6","fromNode":"1baf330203a3fccd","fromSide":"right","toNode":"a8550678263a2e21","toSide":"top"}
+	]
+}
