@@ -78,3 +78,6 @@ Vos appareils s'afficheront ici à mesure que vous les enregistrerez.
 
 Enregistrez votre premier produit
 ```
+
+ℹ️ remplacement [[Achat PC Portable#Ordinateur à remplacer]]
+
