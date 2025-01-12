@@ -29,7 +29,7 @@ color red
 ```button
 name Insert Test
 type append template
-action Inserts/Insert Test In Progress
+action Inserts/Insert Wip
 color purple
 ```
 

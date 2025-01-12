@@ -59,7 +59,7 @@ customTextColor #0fb9b1
 ```button
 name + New
 type append template
-action Inserts/Insert Test In Progress
+action Inserts/Insert Wip
 color purple
 ```
 ^button-tpl-add-wip
