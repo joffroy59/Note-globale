@@ -9,6 +9,24 @@ SORT file.mtime DESC
 ```
 
 
+```dataview
+TABLE
+file.mtime AS "Dernière modification",
+line as "Ligne"
+FROM "Daily Note"
+WHERE contains(file.tags, "#task")
+SORT file.mtime DESC
+```
+
+
+
+
+```dataview
+TABLE 
+file.mtime AS "Dernière modification", line as "Ligne"
+FROM #task  
+SORT file.mtime DESC
+```
 
 
 ```dataview
