@@ -8,8 +8,6 @@ banner_y: 0.492
 cov:
 ---
 
-
-
 `BUTTON[insert-daily-todo,insert-daily-wip,insert-daily-toview]`
 
 `BUTTON[insert-daily-task,insert-daily-task-obsidian]`

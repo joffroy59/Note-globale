@@ -1,7 +1,3 @@
----
-tags:
-  - template/insert
----
  <%*
 let defaultValue = "Note"  
 let entree = await tp.system.prompt("Enter a value :");
