@@ -4,5 +4,5 @@ title: DONE
 collapse: open
 #done 
 
-- DONE #done
+- [x]  {{value:entree}} #done
 `````

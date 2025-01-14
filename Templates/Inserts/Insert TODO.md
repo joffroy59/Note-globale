@@ -1,2 +1,2 @@
 
-- [ ]  #todo  ➕ {{DATE}} 
+- [ ]   #todo  ➕ {{DATE}} 
