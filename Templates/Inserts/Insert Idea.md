@@ -8,6 +8,6 @@ if (!entree) entree = defaultValue
 title: Idea
 collapse: open
 
-- idea #ideas 
+- <% entree %> #ideas 
 
 `````

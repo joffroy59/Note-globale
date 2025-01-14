@@ -8,5 +8,5 @@ if (!entree) entree = defaultValue
 title: Title
 collapse: open
 
-- {{ entree }} #note  
+- <% entree %> #note  
 `````

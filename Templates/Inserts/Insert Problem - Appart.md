@@ -13,7 +13,7 @@ collapse: open
 title: Appartement
 collapse: open
 
-- [ ] {{ entree }} #problem ➕ {{date}}  
+- [ ] <% entree %> #problem ➕ {{date}}  
 	- [ ] {{time}} FIX #todo ➕ {{date}}  
 ````
 
