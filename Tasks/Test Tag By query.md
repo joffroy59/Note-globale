@@ -6,7 +6,7 @@ tags:
 ## Filters
 
 ### Custom Filters.
-- [ ] https://publish.obsidian.md/tasks/Scripting/Custom+Filters #toview 
+- [x] https://publish.obsidian.md/tasks/Scripting/Custom+Filters #toview ✅ 2025-01-14
 
 #### Text property examples 
 
