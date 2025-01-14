@@ -1,2 +1,7 @@
+ <%*
+let defaultValue = "TODO"  
+let entree = await tp.system.prompt("Enter a value :");
+if (!entree) entree = defaultValue
+%>
 
-- [ ]   #todo  ➕ {{DATE}} 
+- [ ] <% entree %>  #todo  ➕ {{DATE}} 

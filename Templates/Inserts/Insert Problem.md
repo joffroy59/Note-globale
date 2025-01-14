@@ -1,3 +1,8 @@
+ <%*
+let defaultValue = "Problem"  
+let entree = await tp.system.prompt("Enter a value :");
+if (!entree) entree = defaultValue
+%>
 
 `````ad-danger
 title: Les Problèmes
@@ -8,14 +13,16 @@ collapse: open
 title: Appartement
 collapse: open
 
-Problem #problem 
+- [ ] {{ entree }} #problem ➕ {{date}}  
+	- [ ] {{time}} FIX #todo ➕ {{date}}  
 ````
 
 ````ad-warning
 title: PC
 collapse: open
 
-Problem #problem 
+- [ ] {{ entree }} #problem ➕ {{date}}  
+	- [ ] {{time}} FIX #todo ➕ {{date}}  
 
 ````
 
@@ -23,7 +30,8 @@ Problem #problem
 title: Domotique
 collapse: open
 
-Problem #problem 
+- [ ] {{ entree }} #problem ➕ {{date}}  
+	- [ ] {{time}} FIX #todo ➕ {{date}}  
 ````
 
 `````
