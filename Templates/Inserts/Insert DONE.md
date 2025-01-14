@@ -1,8 +1,7 @@
  <%*
+let defaultValue = "done"  
 let entree = await tp.system.prompt("Enter a value for 'DONE':");
-if (!entree) {
-    entree = "done ";
-}
+if (!entree) entree = defaultValue
 %>
 
 `````ad-success
