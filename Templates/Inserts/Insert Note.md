@@ -7,6 +7,8 @@ if (!entree) entree = defaultValue
 `````ad-note
 title: Title
 collapse: open
+#note 
 
-- <% entree %> #note  
+- <% entree %> #note 
+
 `````

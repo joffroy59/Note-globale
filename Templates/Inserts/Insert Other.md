@@ -9,5 +9,5 @@ title: Other
 collapse: open
 #Other 
 
-<% entree %> #Other
+- <% entree %> #Other
 `````
