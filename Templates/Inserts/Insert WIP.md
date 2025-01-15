@@ -8,7 +8,7 @@ if (!entree) entree = defaultValue
 title: Test In Progess
 collapse: open
 
-- [/] <% entree %>  #test #status/wip  ➕ {{DATE}} 
+- [/] <% entree %>  #test #status/wip  ➕ {{DATE}} 🛫 {{DATE}} 
 
 `````
 
