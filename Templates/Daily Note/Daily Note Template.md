@@ -10,7 +10,6 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `="[[Daily Note/2025/01/📒" + dateformat(date(yesterday), "yyyy-MM-dd") + "|👈 yesterday]]"` | `="[[Daily Note/2025/01/📒" + dateformat(date(today), "yyyy-MM-dd") + "|👇 today]]"` | `="[[Daily Note/2025/01/📒" + dateformat(date(tomorrow), "yyyy-MM-dd") + "|👉 tomorrow]]"`
 
-[Perso iPhone](obsidian://open?vault=Perso%20iPhone)
 
 ## 📅 Today's ——————————————————
 
