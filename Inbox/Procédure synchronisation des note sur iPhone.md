@@ -1,3 +1,8 @@
+---
+tags:
+  - "#procedure"
+  - obsidian
+---
 ### Procédure synchronisation des note sur iPhone
 
 ```ad-abstract title:Procédure
