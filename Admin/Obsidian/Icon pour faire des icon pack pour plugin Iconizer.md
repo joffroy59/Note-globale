@@ -3,6 +3,8 @@ tags:
   - icon
   - obsidian
 ---
+
+
 ```embed
 title: "Computer SVG Vectors and Icons - PAGE 6 - SVG Repo"
 image: "https://www.svgrepo.com/social.png"
@@ -23,4 +25,5 @@ pack fait :
 
 > [!attention] 
 > 🚨 mais pas utiliser les ZIP juste fait par l'UI de préférences par svg (selection multiple)
+
 

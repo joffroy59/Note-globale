@@ -19,4 +19,3 @@ cov:
 `BUTTON[insert-problem-daily-ask]`
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique]`
-
