@@ -10,12 +10,17 @@ description: "Free transparent Computer vectors and icons in SVG format. Free do
 url: "https://www.svgrepo.com/vectors/computer/6"
 ```
 
+```ad-done
+
 pack fait : 
 - pack1 
   ![[my_custom_icons_11.zip]]
 - pack2 
   ![[my_custom_icons_727.zip]]
 
+```
 
-🚨 mais pas utiliser les zip juste fait par l'UI de préférences par svg (selection multiple)
+
+> [!attention] 
+> 🚨 mais pas utiliser les ZIP juste fait par l'UI de préférences par svg (selection multiple)
 
