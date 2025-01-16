@@ -13,13 +13,17 @@ url: "https://www.svgrepo.com/vectors/computer/6"
 ```
 
 ```ad-done
+exempl:
+- exempel
+![[zipped_custom_icons_14.zip]]
 
 pack fait : 
 - pack1 
   ![[my_custom_icons_11.zip]]
 - pack2 
   ![[my_custom_icons_727.zip]]
-
+- pack3
+  ![[my_custom_icons_50.zip]]
 ```
 
 

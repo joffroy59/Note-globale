@@ -2,6 +2,7 @@
 tags:
   - IA
   - template
+  - "#images"
 ---
 
 
