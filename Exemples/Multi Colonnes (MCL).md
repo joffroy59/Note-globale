@@ -35,3 +35,38 @@ url: "https://efemkay.github.io/obsidian-modular-css-layout/"
 
 
 
+
+```multi-column
+qsdqds
+qsdqdqd
+qsdqd
+
+qsdqsd
+qsddqsd
+qsdd
+
+qsdqdqs
+dqsd
+qsd
+qsd
+qsdq
+sd
+```
+
+> [!multi-column]
+> qsdqds
+> qsdqdqd
+> qsdqd
+> 
+> qsdqsd
+> qsddqsd
+> qsdd
+> 
+> qsdqdqs
+> dqsd
+> qsd
+> qsd
+> qsdq
+> sd
+
+
