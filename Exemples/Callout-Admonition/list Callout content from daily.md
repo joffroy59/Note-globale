@@ -31,7 +31,9 @@ url: "https://share.note.sx/1f2nsian"
 |                      | ❓          | ❓           | ❓      |
 |                      | ❓          | ❓           | ❓      |
 
-
+pas encore utilisable car pas vraiment tout les resultat 
+probleme avec les quote de ad-* et les regexp 
+en plus du coup ca prend pas nimporte quel nombre de quoter -> incoherence de quote avec existant .... 
 
 
 ### ⚠️ Heavy Load
