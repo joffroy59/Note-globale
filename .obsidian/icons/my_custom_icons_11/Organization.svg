@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="organization">
+  <rect width="52" height="54" x="6" y="7" fill="#44394a" rx="4"></rect>
+  <path fill="#f7fcff" d="m48.18 55.83 8.65-8.66A4 4 0 0 0 58 44.35V19H6v33.94a4 4 0 0 0 4 4l35.34.06a4 4 0 0 0 2.84-1.17Z"></path>
+  <path fill="#f9c92e" d="M54 7H10a4 4 0 0 0-4 4v8h52v-8a4 4 0 0 0-4-4Z"></path>
+  <path fill="#a4c0d8" d="M56 46h-5a4 4 0 0 0-4 4v5a2 2 0 0 1-2 2h.33a4 4 0 0 0 2.84-1.17l8.65-8.66A4 4 0 0 0 58 44.35V44a2 2 0 0 1-2 2Z"></path>
+  <rect width="5" height="9" x="29.5" y="3" fill="#44394a" rx="2.5" transform="rotate(180 32 7.5)"></rect>
+  <rect width="5" height="9" x="45" y="3" fill="#44394a" rx="2.5" transform="rotate(180 47.5 7.5)"></rect>
+  <rect width="5" height="9" x="14" y="3" fill="#44394a" rx="2.5"></rect>
+  <rect width="6" height="6" x="11" y="24" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="23" y="24" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="35" y="24" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="47" y="24" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="23" y="34.5" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="35" y="34.5" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="47" y="34.5" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="11" y="45" fill="#44394a" rx="1"></rect>
+  <rect width="6" height="6" x="23" y="45" fill="#44394a" rx="1"></rect>
+  <path fill="#85ee89" d="M17.62 34.22a1 1 0 0 0-1.4.16l-3.3 4.12-1.21-1.21a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 1.49-.08l4-5a1 1 0 0 0-.16-1.41Z"></path>
+  <path fill="#c02027" d="M41.71 44.29a1 1 0 0 0-1.42 0L38 46.59l-2.29-2.3a1 1 0 0 0-1.42 1.42l2.3 2.29-2.3 2.29a1 1 0 0 0 1.42 1.42l2.29-2.3 2.29 2.3a1 1 0 0 0 1.42-1.42L39.41 48l2.3-2.29a1 1 0 0 0 0-1.42Z"></path>
+</svg>
