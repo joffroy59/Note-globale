@@ -11,10 +11,10 @@ const pages = dv.pages('#dailynotes')
 
 const ad_name = "done"
 
-const ad_start = "`````ad-" + ad_name + "\ntitle: "
-const ad_end   = "\n`````\n"
+const ad_start = "```ad-" + ad_name + "\ntitle: "
+const ad_end   = "\n```\n"
 
-const regex = /\n```+ad-(done)\r?\n+.*title:(.+?[\r?\n]*?)```+/
+const regex = /\n[`]+ad-(done)\r?\ntitle:(.+?)[\r?\n]*[`]+/
 
 const rows = []
 for (const page of pages) {
@@ -25,8 +25,8 @@ for (const page of pages) {
     for (const callout of contents.match(new RegExp(regex, 'sg')) || []) {
         const match = callout.match(new RegExp(regex, 's')) 
         rows.push([page.file.link, 
-	        ad_start+"\n"+match[2]+ad_end , 
-	        ''
+	        ad_start+match[2]+ad_end , 
+	        match[3] 
 	        ])
     }
 }

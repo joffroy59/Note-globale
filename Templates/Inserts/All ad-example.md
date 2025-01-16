@@ -14,7 +14,7 @@ const ad_name = "example"
 const ad_start = "```ad-" + ad_name + "\ntitle: "
 const ad_end   = "\n```\n"
 
-const regex = /\n```ad-(example)\r?\ntitle:(.+?)[\r?\n]*```/
+const regex = /\n[`]+ad-(example)\r?\ntitle:(.+?)[\r?\n]*[`]+/
 
 const rows = []
 for (const page of pages) {
