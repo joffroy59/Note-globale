@@ -9,6 +9,6 @@ title: DONE
 collapse: open
 #done 
 
-- [x]  <% entree %>  #done ➕ {{DATE}} 
+- [x] <% entree %>  #done ➕ {{DATE}} ✅ {{DATE}}
 
 `````
