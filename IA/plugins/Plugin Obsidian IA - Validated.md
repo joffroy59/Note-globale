@@ -66,11 +66,20 @@ a voir a quoi je peu m'en servir
 
 ## ——————————————————————————
 
+`````ad-important
+title: A essayer
+
+#toview 
+
 ## ❓ A essayer  #toview 
 
 | Nom du plugin | Version | Activé | info                         | date info  |
 | ------------- | ------- | ------ | ---------------------------- | ---------- |
 | ExcaliBrain   | 0.2.15  | ✅      | ?? pour un graph bleu a voir | 2024-12-30 |
+|               |         |        |                              |            |
+|               |         |        |                              |            |
+
+`````
 
 ## ——————————————————————————
 

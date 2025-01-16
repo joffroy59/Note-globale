@@ -4,7 +4,7 @@ let entree = await tp.system.prompt("Enter a value :");
 if (!entree) entree = defaultValue
 %>
 
-`````ad-hint
+`````ad-important
 title: To view
 collapse: open
 #toview 

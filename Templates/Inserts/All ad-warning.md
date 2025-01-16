@@ -9,12 +9,12 @@ const pages = dv.pages('#dailynotes')
 //const regex = /\n.*Today.*/
 
 
-const ad_name = "hint"
+const ad_name = "warning"
 
 const ad_start = "```ad-" + ad_name + "\ntitle: "
 const ad_end   = "\n```\n"
 
-const regex = /\n[`]+ad-(hint)\r?\ntitle:(.+?)[\r?\n]*[`]+/
+const regex = /\n[`]+ad-(warning)\r?\ntitle:(.+?)[\r?\n]*[`]+/
 
 const rows = []
 for (const page of pages) {

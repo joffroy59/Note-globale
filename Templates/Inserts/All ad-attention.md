@@ -1,3 +1,4 @@
+
 ```dataviewjs
 // You can update this to filter as you like - filtering for just your daily notes would be good
 const pages = dv.pages('#dailynotes')
@@ -13,7 +14,7 @@ const ad_name = "attention"
 const ad_start = "```ad-" + ad_name + "\ntitle: "
 const ad_end   = "\n```\n"
 
-const regex = /\n```ad-(attention)\r?\ntitle:(.+?)[\r?\n]*```/
+const regex = /\n[`]+ad-(attention)\r?\ntitle:(.+?)[\r?\n]*[`]+/
 
 const rows = []
 for (const page of pages) {
