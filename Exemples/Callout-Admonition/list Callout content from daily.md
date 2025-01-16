@@ -10,7 +10,26 @@ url: "https://share.note.sx/1f2nsian"
 |                      | has result | good result | missed |
 | :------------------- | :--------- | :---------- | ------ |
 | [[All ad-attention]] | ✅          | ❓           | ❓      |
-|                      |            |             |        |
+| [[All ad-check]]     | ❌          |             |        |
+| [[All ad-danger]]    | ✅          | ❓           | ❓      |
+| [[All ad-done]]      | ✅          | ❓           | ❓      |
+| [[All ad-example]]   | ✅          | ❓           | ❓      |
+| [[All ad-hint]]      | ✅          | ❓           | ❓      |
+| [[All ad-important]] | ✅          | ❓           | ❓      |
+| [[All ad-note]]      | ✅          | ❓           | ❓      |
+| [[All ad-success]]   | ✅          | ❓           | ❓      |
+| [[All ad-warning]]   | ✅          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+| [[ad-wip]]           | ✅          | ❌           | ❓      |
+| [[All ad-toview]]    | ✅          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
+|                      | ❓          | ❓           | ❓      |
 
 
 
