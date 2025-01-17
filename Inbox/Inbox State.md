@@ -34,3 +34,10 @@ tag:#status/backlog
 content:⭐
 -file:emoji
 ````
+
+## Star v2
+
+````query
+line:⭐
+-file:emoji
+````
