@@ -15,6 +15,17 @@ Backup fodler dest : **Y:\Backup\obsidian\ATI**
 
 ### Config : 
 
+```ad-important
+title: Config
+
+
+> [!multi-column]
+> 
+> ![[Pasted image 20250117224256.png|300]]
+> 
+> ![[Pasted image 20250117224749.png|300]]
+> 
+
 > [!multi-column]
 > ![[Pasted image 20250116210033.png|200]]
 > 
@@ -24,3 +35,9 @@ Backup fodler dest : **Y:\Backup\obsidian\ATI**
 > 
 
 
+```
+
+### suivi 
+vérifier que ca s'est bien lancé car l'impression que la 1ere n'a pas fonctionnée
+
+![[Pasted image 20250117224218.png]]
