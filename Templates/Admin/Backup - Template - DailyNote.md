@@ -1,3 +1,7 @@
+---
+tags:
+  - "#backup"
+---
 <%*
 
 const fileName = "Daily Note Template";

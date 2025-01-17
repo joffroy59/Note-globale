@@ -1,3 +1,7 @@
+---
+tags:
+  - idea
+---
 Idee de comosant de note de travail https://heymichellemac.com/embedded-queries-obsidian
 
 
