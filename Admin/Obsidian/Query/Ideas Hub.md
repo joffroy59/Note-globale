@@ -5,7 +5,7 @@ tag:#status/wip
 ````
 ## Up Next 
 ````query
-tag:#todo #toview #idea #ideas 
+tag:#todo #toview #idea
 
 ````
 

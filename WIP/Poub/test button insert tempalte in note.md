@@ -189,28 +189,28 @@ customTextColor #00c853
 ```ad-attention
 title: Idea
 collapse: closed
-#ideas 
+#idea
 
 ```
 
 ```ad-attention
 title: Idea
 collapse: closed
-#ideas 
+#idea
 
 ```
 
 ```ad-attention
 title: Idea
 collapse: closed
-#ideas 
+#idea 
 
 ```
 
 ```ad-attention
 title: Idea
 collapse: closed
-#ideas 
+#idea 
 
 ```
 

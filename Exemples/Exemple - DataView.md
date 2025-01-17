@@ -254,7 +254,7 @@ dv.table(
 
 WHERE !contains(file.tags, "#type/")
 
-# Tag ideas
+# Tag idea
 ### tag idea #status/wip  
 
 ```dataview
@@ -263,10 +263,10 @@ FROM "Daily Note"
 FLATTEN file.lists AS L
 WHERE icontains(L.text, "#idea")
 ```
-**Show pages from a tag  as table** `#idea OR #ideas` 
+**Show pages from a tag  as table** `#idea OR #idea` 
 ```dataview
 TABLE file.name,file.tags
-FROM #idea OR #ideas   
+FROM #idea OR #idea   
 ```
 
 

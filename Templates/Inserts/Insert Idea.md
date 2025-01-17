@@ -7,8 +7,8 @@ if (!entree) entree = defaultValue
 `````ad-attention
 title: Idea
 collapse: open
-#ideas 
+#idea 
 
-- [ ] <% entree %> #ideas ➕ {{DATE}} 
+- [ ] <% entree %> #idea ➕ {{DATE}} 
 
 `````
