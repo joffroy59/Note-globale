@@ -1,7 +1,7 @@
 Idee de comosant de note de travail https://heymichellemac.com/embedded-queries-obsidian
 
 
-dans [[Inbox State]] etc 
+dans [[My Test]] etc 
 
 If you need some help using the Obsidian search operators, I made a helpful cheat sheet you can view and download over on Twitter:
 

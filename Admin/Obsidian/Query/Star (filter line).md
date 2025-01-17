@@ -1,0 +1,4 @@
+````query
+line:⭐
+-file:emoji
+````
