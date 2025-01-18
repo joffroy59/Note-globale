@@ -24,3 +24,7 @@ renderMarkdown: true
 -path: WIP/Poub
 -file: "Ideas Hub"
 ````
+
+
+---
+[[Aide Obsidian query]]

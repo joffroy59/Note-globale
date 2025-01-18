@@ -21,7 +21,7 @@ pack fait :
 - pack1 
   ![[my_custom_icons_11.zip]]
 - pack2 
-  ![[my_custom_icons_727.zip]]
+  ![[my_custom_icons_113.zip]]
 - pack3
   ![[my_custom_icons_50.zip]]
 ```

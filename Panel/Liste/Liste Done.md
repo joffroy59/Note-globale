@@ -1,6 +1,6 @@
 
 ````query
-content:#idea
+content:#done
 
 sort: byModifiedTime
 collapsed: true
