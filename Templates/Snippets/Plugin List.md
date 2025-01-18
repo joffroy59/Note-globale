@@ -1,3 +1,7 @@
+---
+tags:
+  - plugins
+---
 ## <% tp.date.now() %>
 
 <%*

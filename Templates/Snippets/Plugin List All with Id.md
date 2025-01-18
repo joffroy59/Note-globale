@@ -1,3 +1,7 @@
+---
+tags:
+  - plugins
+---
 ### Plugins Installés (with Id)
 <%*
 const allPlugins = app.plugins.manifests;

@@ -1,3 +1,8 @@
+---
+tags:
+  - query
+  - idea
+---
 ## In Progress
 ````query
 tag:#status/wip

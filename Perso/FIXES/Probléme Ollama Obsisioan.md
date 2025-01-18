@@ -1,3 +1,9 @@
+---
+tags:
+  - problem
+  - fixed
+  - fix
+---
 
 ## ⛔Fix 1 Linux
 

@@ -1,3 +1,7 @@
+---
+tags:
+  - plugins
+---
 ## ✨Liste des plugins installés (ALL)
 ### Pour rafraîchir la liste :
 Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
