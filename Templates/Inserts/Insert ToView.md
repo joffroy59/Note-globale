@@ -9,6 +9,6 @@ title: To view
 collapse: open
 #toview 
 
-- [x]  <% entree %>  #toview ➕ {{DATE}} 
+- [ ]  <% entree %>  #toview ➕ {{DATE}} 
 `````
 
