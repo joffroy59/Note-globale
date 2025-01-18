@@ -17,6 +17,8 @@ content:#status/wip
 content:#status/wip
 
 sort: byModifiedTime
+collapsed: true
+renderMarkdown: true 
 
 -path: Template
 -path: WIP/Poub

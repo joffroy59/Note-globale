@@ -2,7 +2,7 @@ install obsidian-query-control.git par reactivation du plugin BRAT ->  plugin ht
 
 
 probleme plus compatible > trouvé un fork 
-- [/] test du fork [reply2za/obsidian-query-control: An experimental Obsidian plugin that adds controls to embedded queries](https://github.com/reply2za/obsidian-query-control)
+- [x]  ✅test du fork [reply2za/obsidian-query-control: An experimental Obsidian plugin that adds controls to embedded queries](https://github.com/reply2za/obsidian-query-control) ✅ 2025-01-18
 
 
 ![[Pasted image 20250118112607.png]]
@@ -24,7 +24,7 @@ config
 
 SUPER 
 
-## test fonction du plugin 
+## Test fonction du plugin 
 ### ✅ show Markdown : 
 
 ````col
