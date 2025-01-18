@@ -1,1 +1,7 @@
-Créer la liste des idées
+comme [[Liste Wip]]
+
+[[Liste Idée]]
+
+autre version avec admonition 
+
+

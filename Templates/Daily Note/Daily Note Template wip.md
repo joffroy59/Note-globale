@@ -28,14 +28,14 @@ icon: calendar
 `````
 ## ✅ DONE 
 `````ad-done
-title:/
+title:Done
 collapse: open
 `button-tpl-add-done` 
 
 `````
 ## 💡Ideas
 `````ad-attention
-title:'
+title:Idea
 collapse: open
 `button-tpl-add-idea` 
 

@@ -1,3 +1,6 @@
+
+ [[Obsidian Vault Transfert]]
+ 
 pour pouvoir avoir une commande  associer a un bouton 
 modification du plugin 
 
