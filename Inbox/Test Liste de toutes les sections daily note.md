@@ -47,6 +47,7 @@
 
 ### ✅ DONE #done 
 #### ad-done
+[[All ad-done]]
 
 #### query
 #### tasks
