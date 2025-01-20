@@ -2,7 +2,7 @@
 ````tasks
 not done
 
-(tags include #todo ) 
+( tags include #todo ) AND (tags include #task ) 
 ````
 
 ---
