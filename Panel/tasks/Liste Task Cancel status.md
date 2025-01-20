@@ -5,4 +5,4 @@ path includes Daily
 ````
 
 ---
-[[Aide Obsidian query]]
+[[Aide Obsidian tasks]]

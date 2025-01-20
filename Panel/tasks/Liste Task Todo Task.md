@@ -6,4 +6,4 @@ not done
 ````
 
 ---
-[[Aide Obsidian query]]
+[[Aide Obsidian tasks]]

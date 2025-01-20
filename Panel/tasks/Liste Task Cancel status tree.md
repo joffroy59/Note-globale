@@ -10,4 +10,4 @@ show tree
 ````
 
 ---
-[[Aide Obsidian query]]
+[[Aide Obsidian tasks]]

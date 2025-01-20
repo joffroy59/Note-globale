@@ -6,4 +6,4 @@ tags include #wins
 ````
 
 ---
-[[Aide Obsidian query]]
+[[Aide Obsidian tasks]]

@@ -1,9 +1,9 @@
 
 ````tasks
    
-tags include #note
+(tags include #note) and (path includes Daily Note/)
 ````
 
 
 ---
-[[Aide Obsidian query]]
+[[Aide Obsidian tasks]]

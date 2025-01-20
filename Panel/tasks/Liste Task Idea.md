@@ -1,8 +1,11 @@
 
 ````tasks
 
-tags include #idea 
+
+
+(tags include #idea)
+
 ````
 
 ---
-[[Aide Obsidian query]]
+[[Aide Obsidian tasks]]
