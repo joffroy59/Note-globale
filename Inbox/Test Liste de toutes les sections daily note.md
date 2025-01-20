@@ -46,27 +46,32 @@
 #### 🚀Today's Tasks Obsidian #task #todo  #obsidian 
 
 #### 🏆Today's Wins #wins
-##### ad-check
-[[All ad-check]]
-[[All ad-wip]]
+##### ad-success
+[[All ad-success]]
+[[All ad-win]]
+
+
 ##### query
 ##### tasks
 
 ### ✅ DONE #done 
 #### ad-done
-[[All ad-done]]
-[[All ad-success]]
+[[Templates/Inserts/byAdmonition/Daily Section/All ad-done]]
+[[Templates/Inserts/byAdmonition/All ad-done]]
+
 #### query
 #### tasks
 ### 💡Ideas #idea 
 #### ad-attention
 [[All ad-attention]]
+[[All ad-idea]]
 #### query 
 #### tasks
 
 ### 📎TODO's #todo
 #### ad-todo
-[[All ad-todo]]
+[[Templates/Inserts/byAdmonition/Daily Section/All ad-todo]]
+[[Templates/Inserts/byAdmonition/All ad-todo]]
 
 ### 🚧 Wip #status/wip
 #### ad-important

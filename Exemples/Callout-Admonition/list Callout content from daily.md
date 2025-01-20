@@ -12,7 +12,7 @@ url: "https://share.note.sx/1f2nsian"
 | [[All ad-attention]] | ✅          | ❓           | ❓      |
 | [[All ad-check]]     | ❌          |             |        |
 | [[All ad-danger]]    | ✅          | ❓           | ❓      |
-| [[All ad-done]]      | ✅          | ❓           | ❓      |
+| [[Templates/Inserts/byAdmonition/Daily Section/All ad-done]]      | ✅          | ❓           | ❓      |
 | [[All ad-example]]   | ✅          | ❓           | ❓      |
 | [[All ad-hint]]      | ✅          | ❓           | ❓      |
 | [[All ad-important]] | ✅          | ❓           | ❓      |
