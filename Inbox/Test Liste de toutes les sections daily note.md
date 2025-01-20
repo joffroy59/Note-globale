@@ -16,6 +16,7 @@
 	- [ ] query 
 	- [ ] tasks
 - [ ] 📎TODO's #todo 
+	- [x] ad-todo ✅ 2025-01-20
 - [/] 🚧 Wip #status/wip 
 	- [x] ad-important ✅ 2025-01-20
 	- [ ] query 
@@ -24,17 +25,17 @@
 	- [x] ad-important ✅ 2025-01-20
 	- [ ] query 
 	- [ ] tasks
-- [ ] 🚨Problème #problem 
-	- [ ] ad-danger
-		- [ ] ad-warning
-		- [ ] query 
-		- [ ] tasks
-- [ ] 📝Note #note
-	- [ ] ad-note
+- [/] 🚨Problème #problem 
+	- [x] ad-danger ✅ 2025-01-20
+	- [x] ad-warning ✅ 2025-01-20
 	- [ ] query 
 	- [ ] tasks
-- [ ] 👉Autre #Other
-	- [ ] ad-seealso
+- [/] 📝Note #note
+	- [x] ad-note ✅ 2025-01-20
+	- [ ] query 
+	- [ ] tasks
+- [/] 👉Autre #Other
+	- [x] ad-seealso ✅ 2025-01-20
 	- [ ] query 
 	- [ ] tasks
 
@@ -62,6 +63,8 @@
 #### tasks
 
 ### 📎TODO's #todo
+#### ad-todo
+[[All ad-todo]]
 
 ### 🚧 Wip #status/wip
 #### ad-important
@@ -74,11 +77,14 @@
 #### tasks
 ### 🚨Problème #problem 
 #### ad-danger
+[[All ad-danger]]
 #### ad-warning
+[[All ad-warning]]
 #### query 
 #### tasks
 ### 📝Note #note
 #### ad-note
+[[All ad-note]]
 #### query 
 #### tasks
 ### 👉Autre #Other
