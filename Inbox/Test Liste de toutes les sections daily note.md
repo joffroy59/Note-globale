@@ -73,6 +73,8 @@
 #### tasks
 ### 👀To View #toview
 #### ad-important
+[[All ad-important]]
+[[All ad-toview]]
 #### query 
 #### tasks
 ### 🚨Problème #problem 
