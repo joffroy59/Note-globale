@@ -53,7 +53,7 @@
 #### 🚀Today's Tasks #task #todo  
 ##### query
 [[Liste Todo]]
-[[Liste Task Todo]]
+[[Panel/Liste/Liste Task Todo]]
 
 #### 🚀Today's Tasks Obsidian #task #todo  #obsidian 
 ##### query
@@ -62,7 +62,6 @@
 ##### ad-success
 [[All ad-success]]
 [[All ad-win]]
-
 
 ##### query
 ##### tasks
@@ -84,6 +83,7 @@
 [[Liste Idée]]
 
 #### tasks
+
 
 ### 📎TODO's #todo
 #### ad-todo
