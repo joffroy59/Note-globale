@@ -11,10 +11,10 @@
 		- [x] ad-check ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
 		- [ ] tasks
-- [/] ✅ DONE #done  
+- [x] ✅ DONE #done ✅ 2025-01-21
 	- [x] ad-done ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
+	- [x] tasks ✅ 2025-01-21
 - [/] 💡Ideas #idea 
 	- [x] ad-attention ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
@@ -22,6 +22,7 @@
 - [ ] 📎TODO's #todo 
 	- [x] ad-todo ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
+	- [ ] tasks
 - [/] 🚧 Wip #status/wip 
 	- [x] ad-important ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
@@ -75,6 +76,10 @@
 [[Liste Done]]
 
 #### tasks
+[[Liste Task Done]]
+[[Liste Task Done status]]
+[[Liste Task Done status tree]]
+
 ### 💡Ideas #idea 
 #### ad-attention
 [[All ad-attention]]
@@ -94,6 +99,11 @@
 [[Liste Todo]]
 
 #### tasks
+[[Panel/tasks/Liste Task Todo]]
+[[Liste Task Todo status]]
+[[Liste Task Todo Task]]
+
+
 ### 🚧 Wip #status/wip
 #### ad-important
 [[All ad-example]]
