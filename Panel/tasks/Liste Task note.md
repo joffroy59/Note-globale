@@ -1,9 +1,9 @@
 
 ````tasks
-
-tags include #done
-
+   
+tags include #note
 ````
+
 
 ---
 [[Aide Obsidian query]]

@@ -1,7 +1,7 @@
 
 ````tasks
-#status/wip  
 
+tags include #idea 
 ````
 
 ---
