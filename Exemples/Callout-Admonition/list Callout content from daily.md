@@ -20,7 +20,7 @@ url: "https://share.note.sx/1f2nsian"
 | [[All ad-success]]   | ✅          | ❓           | ❓      |
 | [[All ad-warning]]   | ✅          | ❓           | ❓      |
 |                      | ❓          | ❓           | ❓      |
-| [[ad-wip]]           | ✅          | ❌           | ❓      |
+| [[All ad-wip]]           | ✅          | ❌           | ❓      |
 | [[All ad-toview]]    | ✅          | ❓           | ❓      |
 |                      | ❓          | ❓           | ❓      |
 |                      | ❓          | ❓           | ❓      |

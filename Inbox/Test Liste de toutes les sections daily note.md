@@ -22,7 +22,7 @@
 	- [ ] query 
 	- [ ] tasks
 - [/] 👀To View #toview 
-	- [x] ad-important ✅ 2025-01-20
+	- [x] ad-hint ✅ 2025-01-20
 	- [ ] query 
 	- [ ] tasks
 - [/] 🚨Problème #problem 
@@ -44,16 +44,18 @@
 #### 🚀Today's Tasks #task #todo  
 
 #### 🚀Today's Tasks Obsidian #task #todo  #obsidian 
+
 #### 🏆Today's Wins #wins
 ##### ad-check
 [[All ad-check]]
+[[All ad-wip]]
 ##### query
 ##### tasks
 
 ### ✅ DONE #done 
 #### ad-done
 [[All ad-done]]
-
+[[All ad-success]]
 #### query
 #### tasks
 ### 💡Ideas #idea 
@@ -68,20 +70,23 @@
 
 ### 🚧 Wip #status/wip
 #### ad-important
-[[All ad-important]]
+[[All ad-example]]
+[[All ad-wip]]
 #### query 
 #### tasks
 ### 👀To View #toview
-#### ad-important
-[[All ad-important]]
+#### ad-hint
+[[All ad-hint]]
 [[All ad-toview]]
 #### query 
 #### tasks
 ### 🚨Problème #problem 
 #### ad-danger
 [[All ad-danger]]
+[[All ad-problem]]
 #### ad-warning
 [[All ad-warning]]
+[[All ad-problem-sub]]
 #### query 
 #### tasks
 ### 📝Note #note
@@ -92,6 +97,7 @@
 ### 👉Autre #Other
 #### ad-seealso
 [[All ad-seealso]]
+[[All ad-other]]
 #### query 
 #### tasks
 
