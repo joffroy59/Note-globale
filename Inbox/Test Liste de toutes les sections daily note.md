@@ -3,12 +3,12 @@
 - [ ] [[#📅 Today's]]
 	- [ ] 🚀Today's Tasks #task #todo 
 	- [ ] 🚀Today's Tasks Obsidian #task #todo  #obsidian 
-	- [ ] 🏆Today's Wins #wins
-		- [ ] ad-check
+	- [/] 🏆Today's Wins #wins
+		- [x] ad-check ✅ 2025-01-20
 		- [ ] query 
 		- [ ] tasks
-- [ ] ✅ DONE #done  
-	- [ ] ad-done
+- [/] ✅ DONE #done  
+	- [x] ad-done ✅ 2025-01-20
 	- [ ] query 
 	- [ ] tasks
 - [ ] 💡Ideas #idea 
@@ -16,12 +16,12 @@
 	- [ ] query 
 	- [ ] tasks
 - [ ] 📎TODO's #todo 
-- [ ] 🚧 Wip #status/wip 
-	- [ ] ad-example
+- [/] 🚧 Wip #status/wip 
+	- [x] ad-important ✅ 2025-01-20
 	- [ ] query 
 	- [ ] tasks
-- [ ] 👀To View #toview 
-	- [ ] ad-important
+- [/] 👀To View #toview 
+	- [x] ad-important ✅ 2025-01-20
 	- [ ] query 
 	- [ ] tasks
 - [ ] 🚨Problème #problem 
@@ -44,6 +44,10 @@
 
 #### 🚀Today's Tasks Obsidian #task #todo  #obsidian 
 #### 🏆Today's Wins #wins
+##### ad-check
+[[All ad-check]]
+##### query
+##### tasks
 
 ### ✅ DONE #done 
 #### ad-done
@@ -53,6 +57,7 @@
 #### tasks
 ### 💡Ideas #idea 
 #### ad-attention
+[[All ad-attention]]
 #### query 
 #### tasks
 
@@ -60,6 +65,7 @@
 
 ### 🚧 Wip #status/wip
 #### ad-important
+[[All ad-important]]
 #### query 
 #### tasks
 ### 👀To View #toview
@@ -76,6 +82,9 @@
 #### query 
 #### tasks
 ### 👉Autre #Other
-
+#### ad-seealso
+[[All ad-seealso]]
+#### query 
+#### tasks
 
 
