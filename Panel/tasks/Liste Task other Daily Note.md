@@ -1,10 +1,12 @@
 
 ````tasks
-filter by function 'IN_PROGRESS'.includes(task.status.type)
+   
+(tags include #Other ) and (path includes Daily Note/)
 
 sort by function reverse task.file.path
 group by function reverse  task.file.filename 
 ````
+
 
 ---
 [[Aide Obsidian tasks]]

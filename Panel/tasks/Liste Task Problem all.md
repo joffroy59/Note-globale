@@ -1,6 +1,7 @@
 
 ````tasks
-filter by function 'IN_PROGRESS'.includes(task.status.type)
+
+( tags include #problem  )  
 
 sort by function reverse task.file.path
 group by function reverse  task.file.filename 

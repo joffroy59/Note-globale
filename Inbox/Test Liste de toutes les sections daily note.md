@@ -3,31 +3,39 @@
 - [ ] [[#📅 Today's]]
 	- [x] 🚀All Tasks #task ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
+		- [ ] dataview
 	- [x] 🚀Today's Tasks #task #todo ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
+		- [ ] dataview
 	- [x] 🚀Today's Tasks Obsidian #task #todo #obsidian ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
+		- [ ] dataview
 	- [/] 🏆Today's Wins #wins
 		- [x] ad-check ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
-		- [ ] tasks
+		- [x] tasks ✅ 2025-01-21
+		- [ ] dataview
 - [x] ✅ DONE #done ✅ 2025-01-21
 	- [x] ad-done ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
-- [/] 💡Ideas #idea 
+	- [ ] dataview
+- [x] 💡Ideas #idea ✅ 2025-01-21
 	- [x] ad-attention ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
+	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 📎TODO's #todo ✅ 2025-01-21
 	- [x] ad-todo ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 🚧 Wip #status/wip ✅ 2025-01-21
 	- [x] ad-important ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
-- [/] 👀To View #toview 
+	- [ ] dataview
+- [x] 👀To View #toview ✅ 2025-01-21
 	- [x] ad-hint ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
@@ -35,15 +43,18 @@
 	- [x] ad-danger ✅ 2025-01-20
 	- [x] ad-warning ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
+	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 📝Note #note ✅ 2025-01-21
 	- [x] ad-note ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [/] 👉Autre #Other
 	- [x] ad-seealso ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
+	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 
 ---
 ### 📅 Today's
@@ -77,6 +88,7 @@
 
 #### tasks
 [[Liste Task Done]]
+[[Liste Task Done Daily Note]]
 [[Liste Task Done status]]
 [[Liste Task Done status tree]]
 
@@ -88,7 +100,10 @@
 [[Liste Idée]]
 
 #### tasks
-
+[[Liste Task Idea]]
+[[Liste Task Idea Daily Note]]
+[[Liste Task Idea status]]
+[[Liste Task Idea status Daily Note]]
 
 ### 📎TODO's #todo
 #### ad-todo
@@ -103,6 +118,7 @@
 [[Liste Task Todo status]]
 [[Liste Task Todo status tree]]
 [[Liste Task Todo Task]]
+[[Liste Task Todo Task Daily Note]]
 
 
 ### 🚧 Wip #status/wip
@@ -113,6 +129,7 @@
 [[Panel/Liste/Liste Wip]]
 #### tasks
 [[Liste Task Wip status]]
+[[Liste Task Wip status Daily Note]]
 [[Liste Task Wip status tree]]
 [[Liste Task Wip tag]]
 
@@ -140,6 +157,10 @@
 [[Liste Problem]]
 
 #### tasks
+[[Liste Task Problem]]
+[[Liste Task Problem all]]
+[[Liste Task Problem Task]]
+
 ### 📝Note #note
 #### ad-note
 [[All ad-note]]
@@ -158,5 +179,8 @@
 [[Liste other]]
 
 #### tasks
+[[Liste Task other]]
+[[Liste Task other Daily Note]]
+
 
 

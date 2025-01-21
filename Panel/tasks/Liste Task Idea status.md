@@ -1,6 +1,7 @@
 
 ````tasks
-filter by function 'IN_PROGRESS'.includes(task.status.type)
+
+tags include #idea
 
 sort by function reverse task.file.path
 group by function reverse  task.file.filename 

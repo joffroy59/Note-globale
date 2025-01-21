@@ -1,7 +1,8 @@
 
 ````tasks
-filter by function 'IN_PROGRESS'.includes(task.status.type)
-
+done 
+tags include #done
+path includes Daily Note/
 sort by function reverse task.file.path
 group by function reverse  task.file.filename 
 ````
