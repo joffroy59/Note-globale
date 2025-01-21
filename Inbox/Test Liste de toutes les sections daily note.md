@@ -19,27 +19,27 @@
 	- [x] ad-attention ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [ ] tasks
-- [ ] 📎TODO's #todo 
+- [x] 📎TODO's #todo ✅ 2025-01-21
 	- [x] ad-todo ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
-- [/] 🚧 Wip #status/wip 
+	- [x] tasks ✅ 2025-01-21
+- [x] 🚧 Wip #status/wip ✅ 2025-01-21
 	- [x] ad-important ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
+	- [x] tasks ✅ 2025-01-21
 - [/] 👀To View #toview 
 	- [x] ad-hint ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
+	- [x] tasks ✅ 2025-01-21
 - [/] 🚨Problème #problem 
 	- [x] ad-danger ✅ 2025-01-20
 	- [x] ad-warning ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [ ] tasks
-- [/] 📝Note #note
+- [x] 📝Note #note ✅ 2025-01-21
 	- [x] ad-note ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
-	- [ ] tasks
+	- [x] tasks ✅ 2025-01-21
 - [/] 👉Autre #Other
 	- [x] ad-seealso ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
@@ -101,6 +101,7 @@
 #### tasks
 [[Panel/tasks/Liste Task Todo]]
 [[Liste Task Todo status]]
+[[Liste Task Todo status tree]]
 [[Liste Task Todo Task]]
 
 
@@ -111,6 +112,10 @@
 #### query 
 [[Panel/Liste/Liste Wip]]
 #### tasks
+[[Liste Task Wip status]]
+[[Liste Task Wip status tree]]
+[[Liste Task Wip tag]]
+
 ### 👀To View #toview
 #### ad-hint
 [[All ad-hint]]
@@ -118,6 +123,12 @@
 #### query 
 [[Panel/Liste/Liste Wip]]
 #### tasks
+[[Liste Task ToView]]
+[[Liste Task ToView Daily Note]]
+[[Liste Task ToView Daily Note 1]]
+[[Liste Task ToView Open status]]
+
+
 ### 🚨Problème #problem 
 #### ad-danger
 [[All ad-danger]]
@@ -136,6 +147,9 @@
 [[Liste Note]]
 
 #### tasks
+[[Liste Task note]]
+
+
 ### 👉Autre #Other
 #### ad-seealso
 [[All ad-seealso]]

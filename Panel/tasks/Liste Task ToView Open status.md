@@ -1,8 +1,7 @@
 
 ````tasks
-not done
-
-( tags include #todo ) AND (tags include #task ) 
+filter by function 'TODO,IN_PROGRESS,NON_TASK'.includes(task.status.type)
+(path includes Daily Note/) AND (tags include #toview )
 
 sort by function reverse task.file.path
 group by function reverse  task.file.filename 

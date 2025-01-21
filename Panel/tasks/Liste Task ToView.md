@@ -1,8 +1,7 @@
 
 ````tasks
-not done
 
-( tags include #todo ) AND (tags include #task ) 
+tags include #toview
 
 sort by function reverse task.file.path
 group by function reverse  task.file.filename 
