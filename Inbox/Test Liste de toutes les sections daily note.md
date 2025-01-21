@@ -3,30 +3,38 @@
 - [ ] [[#📅 Today's]]
 	- [x] 🚀All Tasks #task ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
+		- [ ] dataview
 	- [x] 🚀Today's Tasks #task #todo ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
+		- [ ] dataview
 	- [x] 🚀Today's Tasks Obsidian #task #todo #obsidian ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
+		- [ ] dataview
 	- [/] 🏆Today's Wins #wins
 		- [x] ad-check ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
 		- [x] tasks ✅ 2025-01-21
+		- [ ] dataview
 - [x] ✅ DONE #done ✅ 2025-01-21
 	- [x] ad-done ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 💡Ideas #idea ✅ 2025-01-21
 	- [x] ad-attention ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 📎TODO's #todo ✅ 2025-01-21
 	- [x] ad-todo ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 🚧 Wip #status/wip ✅ 2025-01-21
 	- [x] ad-important ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 👀To View #toview ✅ 2025-01-21
 	- [x] ad-hint ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
@@ -36,29 +44,39 @@
 	- [x] ad-warning ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [x] 📝Note #note ✅ 2025-01-21
 	- [x] ad-note ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 - [/] 👉Autre #Other
 	- [x] ad-seealso ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
+	- [ ] dataview
 
 ---
 ### 📅 Today's
 #### 🚀All Tasks #task 
 ##### query
 [[Liste Task]]
+##### dataview
 
 #### 🚀Today's Tasks #task #todo  
 ##### query
 [[Liste Todo]]
 [[Panel/Liste/Liste Task Todo]]
 
+##### dataview
+
 #### 🚀Today's Tasks Obsidian #task #todo  #obsidian 
 ##### query
 [[Liste Task Todo obsidian]]
+
+##### dataview
+
+
 #### 🏆Today's Wins #wins
 ##### ad-success
 [[All ad-success]]
@@ -66,6 +84,9 @@
 
 ##### query
 ##### tasks
+
+##### dataview
+
 
 ### ✅ DONE #done 
 #### ad-done
@@ -81,6 +102,9 @@
 [[Liste Task Done status]]
 [[Liste Task Done status tree]]
 
+#### dataview
+
+
 ### 💡Ideas #idea 
 #### ad-attention
 [[All ad-attention]]
@@ -93,6 +117,9 @@
 [[Liste Task Idea Daily Note]]
 [[Liste Task Idea status]]
 [[Liste Task Idea status Daily Note]]
+
+#### dataview
+
 
 ### 📎TODO's #todo
 #### ad-todo
@@ -109,6 +136,8 @@
 [[Liste Task Todo Task]]
 [[Liste Task Todo Task Daily Note]]
 
+#### dataview
+
 
 ### 🚧 Wip #status/wip
 #### ad-important
@@ -122,6 +151,9 @@
 [[Liste Task Wip status tree]]
 [[Liste Task Wip tag]]
 
+#### dataview
+
+
 ### 👀To View #toview
 #### ad-hint
 [[All ad-hint]]
@@ -133,6 +165,8 @@
 [[Liste Task ToView Daily Note]]
 [[Liste Task ToView Daily Note 1]]
 [[Liste Task ToView Open status]]
+
+#### dataview
 
 
 ### 🚨Problème #problem 
@@ -150,6 +184,9 @@
 [[Liste Task Problem all]]
 [[Liste Task Problem Task]]
 
+#### dataview
+
+
 ### 📝Note #note
 #### ad-note
 [[All ad-note]]
@@ -158,6 +195,8 @@
 
 #### tasks
 [[Liste Task note]]
+
+#### dataview
 
 
 ### 👉Autre #Other
@@ -170,6 +209,10 @@
 #### tasks
 [[Liste Task other]]
 [[Liste Task other Daily Note]]
+
+#### dataview
+
+
 
 
 
