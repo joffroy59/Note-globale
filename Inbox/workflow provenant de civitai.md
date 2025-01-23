@@ -43,9 +43,3 @@ ou les modele similaire sont pas les bon
 
 
 
-dfqd
-qsd
-qs
-d
-qsd
-qsd

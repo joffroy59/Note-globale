@@ -1,8 +1,8 @@
 {
 	"nodes":[
 		{"id":"95707fec1adce9ee","type":"group","x":-1400,"y":-380,"width":1780,"height":604,"label":"18/01/2025 - Boulanger Lomme"},
-		{"id":"38578d8e090b4a06","x":-380,"y":-2060,"width":895,"height":720,"type":"group","label":"Untitled group"},
-		{"id":"a55497d425028e2b","x":-340,"y":-2000,"width":755,"height":660,"type":"group","label":"Le retour"},
+		{"id":"38578d8e090b4a06","type":"group","x":-380,"y":-2060,"width":895,"height":720,"label":"Untitled group"},
+		{"id":"a55497d425028e2b","type":"group","x":-340,"y":-2000,"width":755,"height":660,"label":"Le retour"},
 		{"id":"294f302896c502c7","type":"group","x":-1400,"y":-1160,"width":600,"height":640,"label":"10/01/2025"},
 		{"id":"3a05b914be5926cb","type":"file","file":"Perso/PC/attachments/IMG_2506.png","x":-48,"y":-340,"width":408,"height":544},
 		{"id":"5f372372d8a0ca15","type":"file","file":"Perso/PC/attachments/IMG_2503.png","x":-1380,"y":-340,"width":408,"height":544},
@@ -23,8 +23,8 @@
 		{"id":"2cf602fb445cc5b2","type":"file","file":"Perso/PC/attachments/Pasted image 20250120183647.png","x":-200,"y":1200,"width":760,"height":649},
 		{"id":"79fa156492d94be9","type":"file","file":"Perso/PC/attachments/Pasted image 20250120183621.png","x":-459,"y":1622,"width":259,"height":227},
 		{"id":"eaa574331ffc4d1f","type":"file","file":"Perso/PC/attachments/Pasted image 20250120192344.png","x":-156,"y":260,"width":400,"height":333},
-		{"id":"16bedee4d2c25744","x":-302,"y":-1960,"width":667,"height":551,"type":"file","file":"Perso/PC/attachments/Pasted image 20250121182341.png"},
-		{"id":"3360a0694684c70d","x":800,"y":-2640,"width":760,"height":5191,"type":"file","file":"Perso/PC/attachments/Capture d’écran_21-1-2025_192858_www.darty.com.png"}
+		{"id":"16bedee4d2c25744","type":"file","file":"Perso/PC/attachments/Pasted image 20250121182341.png","x":-302,"y":-1960,"width":667,"height":551},
+		{"id":"3360a0694684c70d","type":"file","file":"Perso/PC/attachments/Capture d’écran_21-1-2025_192858_www.darty.com.png","x":800,"y":-2640,"width":760,"height":5191}
 	],
 	"edges":[
 		{"id":"15361748bc3b6374","fromNode":"77e359c1598adeea","fromSide":"bottom","toNode":"220b34c813c5a2bc","toSide":"right"},
