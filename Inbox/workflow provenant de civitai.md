@@ -39,7 +39,13 @@ ou les modele similaire sont pas les bon
 ![[Flux GGUF text2img Workflow-1.png]]![[Flux GGUF text2img Workflow (2).json]]locla ok avec des model similaire pour la vram : 
 ![[Pasted image 20250122013641-1.png]]
 
-# TEst 2 
+# Test 2 
 
 
 
+```embed
+title: "Flux with multi LoRA loader workflow | ComfyUI Workflow | OpenArt"
+image: "https://cdn.openart.ai/workflow_thumbnails/duzl5tMWa23D5zUP30PB/image_sxehkDhW_1724752454270_raw.jpg"
+description: "Created by: Aderek: FLUX.1-dev is very good at understanding prompts. The problem arises when you want to use more than one Lora. Simple errors in node connections and entered prompts lead not only to disastrous images but also to the author's frustration! So relax! Upload this WF, set up the Loras (remembering the weights) and everything will work fine. Good luck! https://tensor.art/models/765877842644008006/Aderek-Flux-FP16-Clip-T5xxl-fp8-v1 https://tensor.art/models/765633089637624637/Star-Wars-Universe-in-Flux-Stormtrooper https://tensor.art/models/765384179102840959 https://civitai.com/models/135850?modelVersionId=768388"
+url: "https://openart.ai/workflows/macaque_keen_26/flux-with-multi-lora-loader-workflow/DfB4A8yL27WCwgEGi3YA"
+```
