@@ -1,6 +1,8 @@
 {
 	"nodes":[
 		{"id":"95707fec1adce9ee","type":"group","x":-1400,"y":-380,"width":1780,"height":604,"label":"18/01/2025 - Boulanger Lomme"},
+		{"id":"38578d8e090b4a06","x":-380,"y":-2060,"width":895,"height":720,"type":"group","label":"Untitled group"},
+		{"id":"a55497d425028e2b","x":-340,"y":-2000,"width":755,"height":660,"type":"group","label":"Le retour"},
 		{"id":"294f302896c502c7","type":"group","x":-1400,"y":-1160,"width":600,"height":640,"label":"10/01/2025"},
 		{"id":"3a05b914be5926cb","type":"file","file":"Perso/PC/attachments/IMG_2506.png","x":-48,"y":-340,"width":408,"height":544},
 		{"id":"5f372372d8a0ca15","type":"file","file":"Perso/PC/attachments/IMG_2503.png","x":-1380,"y":-340,"width":408,"height":544},
@@ -10,17 +12,19 @@
 		{"id":"fbadbd3ce11ae221","type":"file","file":"Perso/PC/attachments/IMG_2486.png","x":-1373,"y":-1106,"width":265,"height":574},
 		{"id":"220b34c813c5a2bc","type":"file","file":"Perso/PC/attachments/Capture d'écran 2025-01-17 185149_2-1.png","x":-760,"y":-1169,"width":712,"height":701},
 		{"id":"77e359c1598adeea","type":"text","text":"Valable 1 journée le 17/01 mais : \n- image correspond pas (pas de pavé numérique et couleur normalement noir)\n- prix FNAC 1500 en promo ","x":0,"y":-1169,"width":660,"height":120},
-		{"id":"dcd90d940bda16d8","type":"file","file":"Perso/PC/attachments/Capture d'écran 2025-01-10 192850.png","x":-1400,"y":360,"width":637,"height":380},
 		{"id":"52fbf1af06b48c37","type":"file","file":"Perso/PC/attachments/Pasted image 20250118163939.png","x":-1800,"y":400,"width":167,"height":50},
+		{"id":"64120eb476b53666","type":"file","file":"Perso/PC/attachments/Pasted image 20250118164153.png","x":-1801,"y":484,"width":168,"height":56},
+		{"id":"dcd90d940bda16d8","type":"file","file":"Perso/PC/attachments/Capture d'écran 2025-01-10 192850.png","x":-1400,"y":360,"width":637,"height":380},
 		{"id":"16af446e9b55d3f9","type":"file","file":"Perso/PC/attachments/Pasted image 20250118163501.png","x":-519,"y":617,"width":726,"height":483},
 		{"id":"9d0bd6fa4b1668d0","type":"text","text":"LEGER\n\n|                        |                       |\n| ---------------------- | --------------------- |\n| - 1,5 kg               |                       |\n|                        |                       |\n| - 24 Go                | - LPDDR5X             |\n| - AMD Ryzen 9 AI 9 365 |                       |\n| 15,6 \"                 | 3K (2880 x 1620) OLED |\n","x":620,"y":538,"width":478,"height":263},
-		{"id":"64120eb476b53666","type":"file","file":"Perso/PC/attachments/Pasted image 20250118164153.png","x":-1801,"y":484,"width":168,"height":56},
 		{"id":"4d27aa3502a5fe01","type":"file","file":"Perso/PC/attachments/Pasted image 20250118163429.png","x":-1400,"y":796,"width":640,"height":489},
 		{"id":"a190b514f7e0110e","type":"file","file":"Perso/PC/attachments/Pasted image 20250118164502.png","x":-441,"y":299,"width":61,"height":61},
 		{"id":"2d97e6a16df06edd","type":"file","file":"Perso/PC/attachments/Pasted image 20250118164407.png","x":-441,"y":490,"width":60,"height":60},
-		{"id":"2cf602fb445cc5b2","x":-200,"y":1200,"width":760,"height":649,"type":"file","file":"Perso/PC/attachments/Pasted image 20250120183647.png"},
-		{"id":"79fa156492d94be9","x":-459,"y":1622,"width":259,"height":227,"type":"file","file":"Perso/PC/attachments/Pasted image 20250120183621.png"},
-		{"id":"eaa574331ffc4d1f","x":-156,"y":260,"width":400,"height":333,"type":"file","file":"Perso/PC/attachments/Pasted image 20250120192344.png"}
+		{"id":"2cf602fb445cc5b2","type":"file","file":"Perso/PC/attachments/Pasted image 20250120183647.png","x":-200,"y":1200,"width":760,"height":649},
+		{"id":"79fa156492d94be9","type":"file","file":"Perso/PC/attachments/Pasted image 20250120183621.png","x":-459,"y":1622,"width":259,"height":227},
+		{"id":"eaa574331ffc4d1f","type":"file","file":"Perso/PC/attachments/Pasted image 20250120192344.png","x":-156,"y":260,"width":400,"height":333},
+		{"id":"16bedee4d2c25744","x":-302,"y":-1960,"width":667,"height":551,"type":"file","file":"Perso/PC/attachments/Pasted image 20250121182341.png"},
+		{"id":"3360a0694684c70d","x":800,"y":-2640,"width":760,"height":5191,"type":"file","file":"Perso/PC/attachments/Capture d’écran_21-1-2025_192858_www.darty.com.png"}
 	],
 	"edges":[
 		{"id":"15361748bc3b6374","fromNode":"77e359c1598adeea","fromSide":"bottom","toNode":"220b34c813c5a2bc","toSide":"right"},
@@ -31,6 +35,8 @@
 		{"id":"82034151b5f86705","fromNode":"2d97e6a16df06edd","fromSide":"left","toNode":"16af446e9b55d3f9","toSide":"left","color":"1"},
 		{"id":"dafadcfd24eb461e","fromNode":"a190b514f7e0110e","fromSide":"left","toNode":"dcd90d940bda16d8","toSide":"right","color":"#0b1056"},
 		{"id":"f81b27efc002d88a","fromNode":"a190b514f7e0110e","fromSide":"left","toNode":"4d27aa3502a5fe01","toSide":"right","color":"#0b1056"},
-		{"id":"225d5d8df4803bae","fromNode":"eaa574331ffc4d1f","fromSide":"left","toNode":"16af446e9b55d3f9","toSide":"top"}
+		{"id":"225d5d8df4803bae","fromNode":"eaa574331ffc4d1f","fromSide":"left","toNode":"16af446e9b55d3f9","toSide":"top"},
+		{"id":"0d26e049b2ca0657","fromNode":"a55497d425028e2b","fromSide":"bottom","toNode":"220b34c813c5a2bc","toSide":"right"},
+		{"id":"b889dfc5eddfef0f","fromNode":"38578d8e090b4a06","fromSide":"right","toNode":"3360a0694684c70d","toSide":"left"}
 	]
 }
