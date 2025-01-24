@@ -1,4 +1,5 @@
-# Demande le chat 
+# Avec Le chat 
+## Demande le chat 
 
 ``````ad-info
 j'ai des admonition sur une page qui sont de type wip ou done et je voudrais creer un bouton dans un abmonition wip pour le transformer en admonition done et le mettre dans le sous titre ## DONE
@@ -79,12 +80,16 @@ Lorsque vous cliquez sur le bouton "Transformer en DONE", l'admonition "WIP" ser
 Ce script utilise du JavaScript pour manipuler le DOM. Assurez-vous que votre environnement Obsidian permet l'exécution de scripts JavaScript. Si vous rencontrez des problèmes, vous pouvez ajuster le script ou utiliser des plugins supplémentaires pour gérer les interactions plus complexes.
 ``````
 
-# Exécution
+## Exécution
 
 ### Étape 2 : Créer un template pour le bouton
-- [x] [[wip_to_done_button]] #done 
+- [x] [[WIP/wip_to_done_button]] #done 
 
 ### Étape 3 : Utiliser le template dans vos notes
-- [ ] [[Inbox/Test]]
+- [ ] [[WIP/Test]]
 ### Étape 4 : Activer Templater dans votre note
-- [ ] [[Inbox/Test]]
+- [ ] [[WIP/Test]]
+
+marche pas 
+nul :LiSmile:
+
