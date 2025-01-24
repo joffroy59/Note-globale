@@ -4,3 +4,19 @@
 
 
 
+`INPUT[text:exampleProperty]`
+`INPUT[suggester(option(apple), option(banana), option(lemon)):exampleProperty]`
+```meta-bind-button
+label: This is a button
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: js
+    file: test.js
+    args: {}
+
+```
