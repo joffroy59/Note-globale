@@ -6,6 +6,8 @@ les évènement Missed semble être du au analyse longue qui demande trop de mé
 
 
 ```ad-tip
+collapse: Closed
+
 win11
 Recherchez pourquoi 37 % d’événements (23,097) ont été perdus lors de la collecte des données. Les paramètres des zones tampon maximales et la taille de tampon pour Suivi d’événements pour Windows (ETW) ne sont peut-être pas optimaux par rapport aux jeux de données collectés.
 
@@ -182,6 +184,6 @@ En suivant ces étapes avec WPA ou PerfView, vous devriez être en mesble de vis
 - Windows Performance Analyzer (WPA)
 - Windows Performance Recorder (WPR)
 
-deja installés 
+ℹ️déjà installés 
 
 
