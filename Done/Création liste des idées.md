@@ -1,4 +1,4 @@
-comme [[Inbox/Liste Wip]]
+comme [[WIP/Liste Wip]]
 
 [[Liste Idée]]
 
