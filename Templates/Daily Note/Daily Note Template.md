@@ -10,14 +10,14 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 [[<% tp.date.now("📒yyyy-MM-DD", -1, tp.file.title, "📒yyyy-MM-DD") %>|👈 yesterday]] | [[<% tp.date.now("📒yyyy-MM-DD", 0, tp.file.title, "📒yyyy-MM-DD") %>|👇 today]] | [[<% tp.date.now("📒yyyy-MM-DD", 1, tp.file.title, "📒yyyy-MM-DD") %>|👉 tomorrow]] |
 
-## 📅 Today's ——————————————————
+## 📅 Today's ——————
 
-### 🥷Missed Tasks ———————————
+### 🥷Missed Tasks ————
 
 `BUTTON[rollover,rollover_revert]`
 #### Rollover Last Day
 
-### 🚀Today's Tasks ———————
+### 🚀Today's Tasks ———
 
  `BUTTON[insert-daily-task]`
  
@@ -30,37 +30,37 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 `BUTTON[insert-daily-win]`
 
 ## .
-## ✅ DONE 
+## ✅ DONE ——————
 
  `BUTTON[insert-daily-done]`
  
 ## .
-## 💡Ideas ——————————————————
+## 💡Ideas ———————
 
  `BUTTON[insert-daily-idea]`
  
 ## .
-## 📎TODO's ————————————————
+## 📎TODO's ——————
 
 `BUTTON[insert-daily-todo]`
 
 ## .
-## 🚧 Wip ——————————
+## 🚧 Wip ———————
 
 `BUTTON[insert-daily-wip]`
 
 ## .
-## 👀To View —————————————
+## 👀To View —————
 
 `BUTTON[insert-daily-toview]`
 
 ## .
-## 🚨Problème ———————————
+## 🚨Problème —————
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique,insert-problem-daily-ask]`
 
 ## .
-## 📝Note ————————————
+## 📝Note ———————
 
 `BUTTON[insert-daily-note]`
 
@@ -79,12 +79,12 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 > 
 
 ## .
-## 👉Autre ——————————
+## 👉Autre ——————
 
 `BUTTON[insert-daily-other]`
 
 
-## —————————————————————————
+## ———————————
 ## 🪛Sandbox 
 
 
