@@ -29,37 +29,37 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `BUTTON[insert-daily-win]`
 
-## .
+
 ## ✅ DONE ——————
 
  `BUTTON[insert-daily-done]`
  
-## .
+
 ## 💡Ideas ———————
 
  `BUTTON[insert-daily-idea]`
  
-## .
+
 ## 📎TODO's ——————
 
 `BUTTON[insert-daily-todo]`
 
-## .
+
 ## 🚧 Wip ———————
 
 `BUTTON[insert-daily-wip]`
 
-## .
+
 ## 👀To View —————
 
 `BUTTON[insert-daily-toview]`
 
-## .
+
 ## 🚨Problème —————
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique,insert-problem-daily-ask]`
 
-## .
+
 ## 📝Note ———————
 
 `BUTTON[insert-daily-note]`
@@ -78,13 +78,13 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 > ```
 > 
 
-## .
+
 ## 👉Autre ——————
 
 `BUTTON[insert-daily-other]`
 
 
-## ———————————
+
 ## 🪛Sandbox 
 
 
