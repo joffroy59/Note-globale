@@ -93,4 +93,4 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 
 
-`="[[Daily Note/2025/01/📒" + dateformat(date(yesterday), "yyyy-MM-dd") + "|👈 yesterday]]"` | `="[[Daily Note/2025/01/📒" + dateformat(date(today), "yyyy-MM-dd") + "|👇 today]]"` | `="[[Daily Note/2025/01/📒" + dateformat(date(tomorrow), "yyyy-MM-dd") + "|👉 tomorrow]]"`
+[[<% tp.date.now("📒yyyy-MM-DD", -1, tp.file.title, "📒yyyy-MM-DD") %>|👈 yesterday]] | [[<% tp.date.now("📒yyyy-MM-DD", 0, tp.file.title, "📒yyyy-MM-DD") %>|👇 today]] | [[<% tp.date.now("📒yyyy-MM-DD", 1, tp.file.title, "📒yyyy-MM-DD") %>|👉 tomorrow]] |
