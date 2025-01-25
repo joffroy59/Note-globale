@@ -8,7 +8,7 @@ kanban-plugin: board
 
 - [ ] [[Sandbox test task]]
 - [ ] [[Obsidian Dataview]]
-- [ ] [[Obsidian]]
+- [ ] [[WIP/Obsidian]]
 
 
 ## WIP

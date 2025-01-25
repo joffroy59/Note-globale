@@ -9,13 +9,13 @@ Obsidian est un superbe outil pour la gestion de votre connaissance. Il vous per
 
 ## Comment utiliser Obsidian ?
 
-1. Commencez par créer un compte Obsidian ([[Obsidian|signer-up]]) sur le site Web et téléchargez l'application si vous préférez utiliser ce moyen de communication.
+1. Commencez par créer un compte Obsidian ([[WIP/Obsidian|signer-up]]) sur le site Web et téléchargez l'application si vous préférez utiliser ce moyen de communication.
 
-2. Après avoir été connecté, commencez à créer des feuilles (*notes*) sur les sujets que vous souhaitez organiser (*[[Obsidian|Creating notes]]*).
+2. Après avoir été connecté, commencez à créer des feuilles (*notes*) sur les sujets que vous souhaitez organiser (*[[WIP/Obsidian|Creating notes]]*).
 
-3. Créez des liens entre les différentes notes pour créer un graphe de navigation entre eux (*Navigating your knowledge web [[Obsidian|Navigating your knowledgebase with the hyperlink system]]*)
+3. Créez des liens entre les différentes notes pour créer un graphe de navigation entre eux (*Navigating your knowledge web [[WIP/Obsidian|Navigating your knowledgebase with the hyperlink system]]*)
 
-4. Utilisez Obsidian non seulement comme un outil de capture de connaissance, mais aussi comme un support pour la révision et la production d'écriture (*[[Obsidian|Using it as a personal wiki]])*.
+4. Utilisez Obsidian non seulement comme un outil de capture de connaissance, mais aussi comme un support pour la révision et la production d'écriture (*[[WIP/Obsidian|Using it as a personal wiki]])*.
 
 ## Astuces supplémentaires
 
@@ -25,9 +25,9 @@ Obsidian est un superbe outil pour la gestion de votre connaissance. Il vous per
 
 ## Abrégés
 
-* *Signer-up*: [[Obsidian|sign up]]
-* *Creating notes*: [[Obsidian|Creating notes]]
-* *Navigating your knowledgebase with the hyperlink system*: [[Obsidian|Navigating your knowledgebase with the hyperlink system]]
-* *Using it as a personal wiki*: [[Obsidian|Using it as a personal wiki]]
+* *Signer-up*: [[WIP/Obsidian|sign up]]
+* *Creating notes*: [[WIP/Obsidian|Creating notes]]
+* *Navigating your knowledgebase with the hyperlink system*: [[WIP/Obsidian|Navigating your knowledgebase with the hyperlink system]]
+* *Using it as a personal wiki*: [[WIP/Obsidian|Using it as a personal wiki]]
 * *Searching for information*: [[Obsidian Search ]]
 * *headers, bold or italic text, mathematics*: Mathematical notation
