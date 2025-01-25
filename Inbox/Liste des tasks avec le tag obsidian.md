@@ -1,1 +1,1 @@
-![[Task Obsidian]]
+![[Inbox/Task Obsidian]]
