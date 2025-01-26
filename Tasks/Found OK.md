@@ -1,14 +1,5 @@
- - [ ] dfsdfsdf fs
- - [ ] sdffffsdf 
- - [ ] sd fssdf 
- - [ ] s fs fsdf
- - [-] canceled 1 
- - [-] canceled 2 
- - [/] WIP1 
- - [/]  WIP2
-
-
-
+ - [ ] trier cette note 
+ - [ ] conserver ? 
 Further more the two variants as slight differences in how to calculate the completed and uncompleted count, based on how you want to group queries.
 
 ## [](https://forum.obsidian.md/t/dataview-query-for-all-tasks-in-folder-with-custom-status/56076/3#using-flatten-on-tasks-1)Using `FLATTEN` on tasks

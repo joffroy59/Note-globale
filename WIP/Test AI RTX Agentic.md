@@ -19,7 +19,7 @@ pour faire par la suite du min
 ### Setup
 - [x] - **NVIDIA AI Enterprise License**: NVIDIA NIM for LLMs are available for self-hosting under the NVIDIA AI Enterprise License. [Sign up for NVIDIA AI Enterprise license](https://www.nvidia.com/en-us/data-center/activate-license/). ✅ 2025-01-19
 - [x] - **NVIDIA GPU(s)**: NVIDIA NIM for LLMs (NIM for LLMs) runs on any NVIDIA GPU with sufficient GPU memory, but some model/GPU combinations are optimized. Homogeneous multi-GPUs systems with [tensor parallelism](https://blogs.nvidia.com/blog/what-is-nvidia-nvlink/) enabled are also supported. See the [Support Matrix](https://docs.nvidia.com/nim/large-language-models/latest/support-matrix.html) for more information. ✅ 2025-01-19
-- [/] **CUDA Drivers**: Follow the [installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux). We recommend:
+- [-] **CUDA Drivers**: Follow the [installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux). We recommend:
       - Using a network repository as part of a [package manager installation](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#package-manager-installation), skipping the CUDA toolkit installation as the libraries are available within the NIM container, then
     - Installing the [open kernels](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#nvidia-open-gpu-kernel-modules) for a [specific version](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#driver-installation):	
         |Major Version|EOL|Data Center & RTX/Quadro GPUs|GeForce GPUs|
