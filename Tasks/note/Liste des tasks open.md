@@ -3,7 +3,7 @@
 
 ## utilisé 
 
-![[Inbox/Task Obsidian]]
+![[Panel/dataview/Task Obsidian]]
 
 ## Bouton et action 
 ![[Bouton et action]]
