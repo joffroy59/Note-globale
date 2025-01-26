@@ -37,12 +37,12 @@ pour faire par la suite du min
 	- [x] # Running a Sample Workload[](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html#running-a-sample-workload "Permalink to this headline") ✅ 2025-01-19
 		- [x] Run a sample CUDA container: ✅ 2025-01-19
 - [x] 2. Install the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-the-nvidia-container-toolkit) ✅ 2025-01-19
-- [ ] ## Launch NVIDIA NIM for LLMs[](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html#launch-nvidia-nim-for-llms "Link to this heading")
-	- [ ] #### Generate an API Key
-	- [ ] 1. Navigate to the [API Catalog](https://build.nvidia.com/).
-		- [ ] #[[#choose a model]] 
+- [-] ## Launch NVIDIA NIM for LLMs[](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html#launch-nvidia-nim-for-llms "Link to this heading") ❌ 2025-01-26
+	- [-] #### Generate an API Key ✅ 2025-01-26
+	- [-] 1. Navigate to the [API Catalog](https://build.nvidia.com/).
+		- [-] #[[#choose a model]] 
 
-- [ ]  version kubernetes #todo 
+- [-]  version kubernetes #todo 
 ####  Installation Cuda driver
 
 sur wsl 

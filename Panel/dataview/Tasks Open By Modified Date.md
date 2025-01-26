@@ -2,10 +2,12 @@
 ```dataview
 TASK
 WHERE !completed AND 
+!canceled AND
 file.name != this.file.name AND 
 !contains(file.path, "Template") AND
 !contains(file.path, "Poub") AND 
-!contains(file.name, "Sandbox test task")
+!contains(["Sandbox test task", "Transformer un wip en done"], file.name)
+
 
 
 
