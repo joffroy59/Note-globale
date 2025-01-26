@@ -1,20 +1,20 @@
 #### Overdue
 ```tasks
 not done
-due before {{date:YYYY-MM-DD}}
+due before <% tp.date.now("YYYY-MM-DD") %>
 ```
 
 #### Due today
 ```tasks
 not done
-due on {{date:YYYY-MM-DD}}
+due on **<% tp.date.now("YYYY-MM-DD") %>**
 ```
 
 #### Due in the next two weeks
 ```tasks
 not done
-due after {{date:YYYY-MM-DD}}
-due before {{date+14d:YYYY-MM-DD}}
+due after <% tp.date.now("YYYY-MM-DD") %>
+due before <% tp.date.now("YYYY-MM-DD", 14) %>
 ```
 
 #### No due date
@@ -25,6 +25,6 @@ no due date
 
 #### Done today
 ```tasks
-done on {{date:YYYY-MM-DD}}
+done on <% tp.date.now("YYYY-MM-DD") %>
 ```
 

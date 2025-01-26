@@ -6,7 +6,7 @@ collapse: Closed
 
 ```tasks
 not done
-due before {{DATE}}
+due before <% tp.date.now("YYYY-MM-DD") %>
 ```
 
 ``````
@@ -16,7 +16,7 @@ collapse: Closed
 
 ```tasks
 not done
-due on {{DATE}}
+due on <% tp.date.now("YYYY-MM-DD") %>
 ```
 
 ``````
@@ -26,7 +26,7 @@ collapse: Closed
 
 ```tasks
 not done
-due after {{DATE}}
+due after <% tp.date.now("YYYY-MM-DD", 14) %>
 due before 2025-02-08
 ```
 
@@ -46,7 +46,7 @@ title: "Done today"
 collapse: Closed
 
 ```tasks
-done on {{DATE}}
+done on <% tp.date.now("YYYY-MM-DD") %>
 ```
 
 ``````
