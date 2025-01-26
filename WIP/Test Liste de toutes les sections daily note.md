@@ -1,56 +1,56 @@
 
 ---
 - [ ] [[#📅 Today's]]
-	- [x] 🚀All Tasks #task ✅ 2025-01-20
+	- [x] [[#🚀All Tasks task]] #task ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
 		- [ ] dataview
-	- [x] 🚀Today's Tasks #task #todo ✅ 2025-01-20
+	- [x] [[#🚀Today's Tasks]] #task #todo ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
 		- [ ] dataview
-	- [x] 🚀Today's Tasks Obsidian #task #todo #obsidian ✅ 2025-01-20
+	- [x] [[#🚀Today's Tasks Obsidian]] #task #todo #obsidian ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
 		- [ ] dataview
-	- [/] 🏆Today's Wins #wins
+	- [/] [[#🏆Today's Wins]] #wins
 		- [x] ad-check ✅ 2025-01-20
 		- [x] query ✅ 2025-01-20
 		- [x] tasks ✅ 2025-01-21
 		- [ ] dataview
-- [x] ✅ DONE #done ✅ 2025-01-21
+- [x] ✅ [[#✅ DONE]] #done ✅ 2025-01-21
 	- [x] ad-done ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
 	- [ ] dataview
-- [x] 💡Ideas #idea ✅ 2025-01-21
+- [x] [[#💡Ideas]] #idea ✅ 2025-01-21
 	- [x] ad-attention ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
 	- [ ] dataview
-- [x] 📎TODO's #todo ✅ 2025-01-21
+- [x] [[#📎TODO's]] #todo ✅ 2025-01-21
 	- [x] ad-todo ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
 	- [ ] dataview
-- [x] 🚧 Wip #status/wip ✅ 2025-01-21
+- [x] [[#🚧 Wip]] #status/wip ✅ 2025-01-21
 	- [x] ad-important ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
 	- [ ] dataview
-- [x] 👀To View #toview ✅ 2025-01-21
+- [x] [[#👀To View]] #toview ✅ 2025-01-21
 	- [x] ad-hint ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
-- [/] 🚨Problème #problem 
+- [/] [[#🚨Problème]] #problem 
 	- [x] ad-danger ✅ 2025-01-20
 	- [x] ad-warning ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
 	- [ ] dataview
-- [x] 📝Note #note ✅ 2025-01-21
+- [x] [[#📝Note]] #note ✅ 2025-01-21
 	- [x] ad-note ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
 	- [ ] dataview
-- [/] 👉Autre #Other
+- [/] [[#👉Autre]] #Other
 	- [x] ad-seealso ✅ 2025-01-20
 	- [x] query ✅ 2025-01-20
 	- [x] tasks ✅ 2025-01-21
@@ -58,26 +58,26 @@
 
 ---
 ### 📅 Today's
-#### 🚀All Tasks #task 
+#### 🚀All Tasks  
 ##### query
 [[Liste Task]]
 ##### dataview
 
-#### 🚀Today's Tasks #task #todo  
+#### 🚀Today's Tasks
 ##### query
 [[Liste Todo]]
 [[Panel/Liste/Liste Task Todo]]
 
 ##### dataview
 
-#### 🚀Today's Tasks Obsidian #task #todo  #obsidian 
+#### 🚀Today's Tasks Obsidian 
 ##### query
 [[Liste Task Todo obsidian]]
 
 ##### dataview
 
 
-#### 🏆Today's Wins #wins
+#### 🏆Today's Wins 
 ##### ad-success
 [[All ad-success]]
 [[All ad-win]]
@@ -88,7 +88,7 @@
 ##### dataview
 
 
-### ✅ DONE #done 
+### ✅ DONE  
 #### ad-done
 [[Templates/Inserts/byAdmonition/Daily Section/All ad-done]]
 [[Templates/Inserts/byAdmonition/All ad-done]]
@@ -105,7 +105,7 @@
 #### dataview
 
 
-### 💡Ideas #idea 
+### 💡Ideas  
 #### ad-attention
 [[All ad-attention]]
 [[All ad-idea]]
@@ -121,7 +121,7 @@
 #### dataview
 
 
-### 📎TODO's #todo
+### 📎TODO's 
 #### ad-todo
 [[Templates/Inserts/byAdmonition/Daily Section/All ad-todo]]
 [[Templates/Inserts/byAdmonition/All ad-todo]]
@@ -139,7 +139,7 @@
 #### dataview
 
 
-### 🚧 Wip #status/wip
+### 🚧 Wip 
 #### ad-important
 [[All ad-example]]
 [[All ad-wip]]
@@ -154,7 +154,7 @@
 #### dataview
 
 
-### 👀To View #toview
+### 👀To View 
 #### ad-hint
 [[All ad-hint]]
 [[All ad-toview]]
@@ -169,7 +169,7 @@
 #### dataview
 
 
-### 🚨Problème #problem 
+### 🚨Problème 
 #### ad-danger
 [[All ad-danger]]
 [[All ad-problem]]
@@ -187,7 +187,7 @@
 #### dataview
 
 
-### 📝Note #note
+### 📝Note 
 #### ad-note
 [[All ad-note]]
 #### query 
@@ -199,7 +199,7 @@
 #### dataview
 
 
-### 👉Autre #Other
+### 👉Autre 
 #### ad-seealso
 [[All ad-seealso]]
 [[All ad-other]]
