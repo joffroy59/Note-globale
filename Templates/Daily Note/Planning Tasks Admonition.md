@@ -6,7 +6,7 @@ collapse: Closed
 
 ```tasks
 not done
-due before 2025-01-25
+due before {{DATE}}
 ```
 
 ``````
@@ -16,7 +16,7 @@ collapse: Closed
 
 ```tasks
 not done
-due on 2025-01-25
+due on {{DATE}}
 ```
 
 ``````
@@ -26,7 +26,7 @@ collapse: Closed
 
 ```tasks
 not done
-due after 2025-01-25
+due after {{DATE}}
 due before 2025-02-08
 ```
 
@@ -46,7 +46,7 @@ title: "Done today"
 collapse: Closed
 
 ```tasks
-done on 2025-01-25
+done on {{DATE}}
 ```
 
 ``````

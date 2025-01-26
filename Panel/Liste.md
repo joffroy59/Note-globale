@@ -7,6 +7,7 @@ sticker: ""
 banner_y: 0.492
 cov:
 ---
+
 `BUTTON[list-ideas,list-ideas-ad]`
 
 `BUTTON[list-done,list-done-ad]`
