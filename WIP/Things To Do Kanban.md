@@ -6,15 +6,15 @@ kanban-plugin: board
 
 ## TODO
 
-- [ ] [[Sandbox test task]]
-- [ ] [[Obsidian Dataview]]
-- [ ] [[WIP/Obsidian]]
+- [x] [[Sandbox test task]]
+- [x] [[Obsidian Dataview]]
+- [x] [[WIP/Obsidian]]
 
 
 ## WIP
 
-- [ ] [[Exemple Admonition]]
-- [ ] [[Lorem Ipsum ]]
+- [x] [[Exemple Admonition]]
+- [x] [[Lorem Ipsum ]]
 - [ ] [[IA/excalibrain/excalibrain]]
 
 
@@ -28,10 +28,10 @@ kanban-plugin: board
 ## Archive
 
 - [x] task A2 🏁 delete
-- [ ] task A1 ⛔ b06yo8 🏁 delete
-- [ ] task A3 🏁 delete
-- [ ] task B1🏁 delete
-- [ ] task B2
+- [x] task A1 ⛔ b06yo8 🏁 delete
+- [x] task A3 🏁 delete
+- [x] task B1🏁 delete
+- [x] task B2
 
 %% kanban:settings
 ```
