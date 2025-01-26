@@ -12,4 +12,4 @@ cov:
 
 `BUTTON[list-done,list-done-ad]`
 
-`BUTTON[tasks-open, tasks-obsidian]`
+`BUTTON[tasks-open,tasks-done, tasks-obsidian]`
