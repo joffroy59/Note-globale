@@ -5,7 +5,5 @@
 
 ![[Inbox/Task Obsidian]]
 
-
-
 ## Bouton et action 
 ![[Bouton et action]]

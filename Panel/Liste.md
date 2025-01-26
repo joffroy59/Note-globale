@@ -11,3 +11,5 @@ cov:
 `BUTTON[list-ideas,list-ideas-ad]`
 
 `BUTTON[list-done,list-done-ad]`
+
+`BUTTON[tasks-open, tasks-obsidian]`
