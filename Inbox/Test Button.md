@@ -3,7 +3,7 @@ IAType:
 exampleProperty: Autre2
 ---
 
-`BUTTON[insert-daily-wip,insert-daily-wip-ia,insert-daily-wip-ia2]`
+`BUTTON[insert-daily-wip,insert-daily-wip-ia,insert-daily-wip-ia-select]`
 
 
 ```meta-bind
