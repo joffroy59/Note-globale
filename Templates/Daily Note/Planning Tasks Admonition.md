@@ -1,5 +1,4 @@
 
-
 ``````ad-caution
 title: "Overdue"
 collapse: Closed
@@ -50,8 +49,3 @@ done on <% tp.date.now("YYYY-MM-DD") %>
 ```
 
 ``````
-
-
-
-
-

@@ -1,5 +1,4 @@
 
-
 ``````ad-done
 title: "ToView Web Clipping"
 collapse: Closed
@@ -10,6 +9,3 @@ SORT file.mtime DESC
 ```
 
 ``````
-
-
-

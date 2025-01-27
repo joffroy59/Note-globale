@@ -27,12 +27,11 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 
 ### 🚀Planning Tasks ———
-
 <% tp.file.include("[[Planning Tasks Admonition]]") %>
 
 <% tp.file.include("[[ToView WebClipping]]") %>
 
-Today's Wins ———
+### 🏆Today's Wins ———
 
 `BUTTON[insert-daily-win]`
 
