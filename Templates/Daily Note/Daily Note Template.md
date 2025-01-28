@@ -36,8 +36,33 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ## ✅ DONE ——————
 
+``````ad-tip
+title: Done Today
+collapse: closed
+
+```tasks
+show tree 
+
+done on <% tp.file.creation_date('YYYY-MM-DD') %>
+
+
+hide backlink
+hide created date
+hide start date
+hide scheduled date
+hide due date
+hide done date
+hide tags
+hide edit button
+
+group by backlink
+```
+
+``````
+
  `BUTTON[insert-daily-done]`
  
+
 
 ## 💡Ideas ———————
 
