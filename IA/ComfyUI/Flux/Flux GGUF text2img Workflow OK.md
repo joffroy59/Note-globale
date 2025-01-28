@@ -16,7 +16,7 @@ worflow: Flux GGUF text2img Workflow OK
 
 
 image:  
-
+![[Pasted image 20250128214546-1.png]]
 
 ```
 
