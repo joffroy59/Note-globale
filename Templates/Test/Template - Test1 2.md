@@ -1,7 +1,4 @@
----
 <%*
-let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
-
   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
@@ -18,36 +15,22 @@ let worflow = await tp.system.prompt("Worflow file paht");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
----
-<%* tp.file.cursor() %> 
 `````ad-example
-title: WIP IA - ComfyUI - Flux
+title: WIP IA - Model
 collapse: open
 
 - [/] <% entree %>  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ```ad-tip
-source: 
-
 worflow: <% worflow %> 
-[<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
-
-
 image: <% image %> 
-
-
 ```
 
 ```ad-note
 title: Note
 <% note %> 
-
 ```
 
 `````
 
-[[<% title %>]]
-
----
 creation date:: [[<%tp.file.creation_date("YYYY")%>/<%tp.file.creation_date("MM")%>/<%tp.file.creation_date("WW")%>/📒<%tp.file.creation_date("YYYY-MM-DD")%>]]  <%tp.file.creation_date("HH:mm")%>
-
