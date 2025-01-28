@@ -75,14 +75,6 @@ let config = {
         text: ["Without a doubt, yes!", "I mean... it was okay, but..."]
     },
 
-    // A general summary of the movie.
-    summary: {
-        prompt: true,
-        display: "What is the summary of the movie?",
-        value: "{{ title }}",
-        multiline: true,
-        process: getMovieSummary
-    }
 }
 
 // Proceed with the note creation gracefully.
@@ -108,6 +100,3 @@ _%>
 - Genre: #<% config.genre.value %>
 - Re-watchable: <% config.rewatch.value %>
 
-## Summary
-
-<% config.summary.value %>
