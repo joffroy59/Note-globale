@@ -6,7 +6,7 @@
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[detail]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-28 🛫 2025-01-28
+- [/] [[Flux GGUF text2img Workflow OK]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-28 🛫 2025-01-28
 
 ```ad-tip
 source: 
@@ -31,5 +31,5 @@ title: Note
 [[Flux GGUF text2img Workflow OK]]
 
 ---
-creation date:: [[2025/01/05/📒2025-01-28]]  22:30
+creation date:: [[2025/01/05/📒2025-01-28]]  23:31
 

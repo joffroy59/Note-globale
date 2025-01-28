@@ -10,7 +10,7 @@ let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5
     await tp.file.rename(`${title}`);
   } 
 
-let worflow = await tp.system.prompt("Worflow file paht", title);
+let worflow = await tp.system.prompt("Worflow file path", title);
 
 let defaultValue = "WIP IA"  
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
