@@ -14,4 +14,9 @@ resulat ok apres supression appel a ia
 
 ### Adaptation pour créer un test d'IA 
 
-Test Add IA test rename en [[Get a movie summary based on its title - no AI]]
+ [[Get a movie summary based on its title - no AI]]
+ 
+[[Test Add IA]]
+
+ netoyage transformation en IA 
+ - 
