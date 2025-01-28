@@ -115,7 +115,7 @@ OK
 ### faire un vrai bouton avec This is a button 3
 
 - [x] creation [[IA/ComfyUI/Flux/]]
-- [x] copy du template [[Template - Test1 2]] en [[Insert Wip IA - ComFyUI - Flux]] ✅ 2025-01-28
+- [x] copy du template [[Template - Test1 2]] en [[Create Wip IA - ComFyUI - Flux]] ✅ 2025-01-28
 - [x] definition du bouton dans MetaBind ✅ 2025-01-28
 - [x] test ✅ 2025-01-28
 

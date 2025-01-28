@@ -1,4 +1,3 @@
----
 <%*
 let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
 
@@ -45,9 +44,3 @@ title: Note
 ```
 
 `````
-
-[[<% title %>]]
-
----
-creation date:: [[<%tp.file.creation_date("YYYY")%>/<%tp.file.creation_date("MM")%>/<%tp.file.creation_date("WW")%>/📒<%tp.file.creation_date("YYYY-MM-DD")%>]]  <%tp.file.creation_date("HH:mm")%>
-
