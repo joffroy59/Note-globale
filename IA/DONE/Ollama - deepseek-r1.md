@@ -11,3 +11,11 @@ ollama run deepseek-r1:14b
 
 ![[Pasted image 20250127204636-1.png]]
 
+- [x] Test avec [[Docker OpenWebUI]]  pour interrogation ✅ #done  
+![[Pasted image 20250128004311-1.png]]
+
+long 
+
+- [ ] comment afficher le temps de génération ? option dev ?. 
+
+- [ ] #toview  ![[Pasted image 20250128004531.png]]
