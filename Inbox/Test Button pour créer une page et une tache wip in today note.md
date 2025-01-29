@@ -122,6 +122,8 @@ OK
 
 
 `BUTTON[insert-daily-wip-ia_comfyui-flux]`
+puis 
+`BUTTON[insert-daily-wip-ia-select]` Comfyui 
 
 OK 
 qwdfqsd
