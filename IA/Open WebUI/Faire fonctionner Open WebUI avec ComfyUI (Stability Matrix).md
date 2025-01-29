@@ -7,3 +7,5 @@ mais KO model complexe peut être
 - [x] configuration Open WebUI [[Vérification du bon fonctionnement pour Open WebUI - ComfyUI#Configuration Open WebUI]] ✅ 2025-01-29
 - [x] test open WebUI [[Vérification du bon fonctionnement pour Open WebUI - ComfyUI#Test De génération d'une image]] ✅ ✅ 2025-01-29
 
+- [ ] test avec un lien trouvé :  [Connect ComfyUI to Open WebUI for Your Own Self Hosted Private OpenAI](https://noted.lol/connect-comfyui-to-open-webui/)
+- [ ] 

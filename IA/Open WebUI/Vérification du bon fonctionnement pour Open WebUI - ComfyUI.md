@@ -4,6 +4,14 @@ tags:
 ---
 pour permettre de générer des image dans Open WebUI
 
+```embed
+title: "Open WebUI"
+image: "https://github.com/user-attachments/assets/a6567e13-1ced-4743-8d8e-be526207f9f6"
+description: ""
+url: "https://docs.openwebui.com/tutorials/integrations/images/"
+```
+
+
 ## Configuration Open WebUI
 
 > [!multi-column]
