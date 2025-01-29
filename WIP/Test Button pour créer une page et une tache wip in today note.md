@@ -127,3 +127,6 @@ puis
 
 OK 
 qwdfqsd
+
+- [ ] améliorer pour créer les 2 action en même temps #status/wip #todo  
+- [ ] pas de doublon : today note admonition et page non et include dans todsay note la mote detail #status/wip #todo 

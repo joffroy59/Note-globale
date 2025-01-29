@@ -10,6 +10,11 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 [[<% tp.date.now("📒yyyy-MM-DD", -1, tp.file.title, "📒yyyy-MM-DD") %>|👈 yesterday]] | [[<% tp.date.now("📒yyyy-MM-DD", 0, tp.file.title, "📒yyyy-MM-DD") %>|👇 today]] | [[<% tp.date.now("📒yyyy-MM-DD", 1, tp.file.title, "📒yyyy-MM-DD") %>|👉 tomorrow]] |
 
+## 🚧 Wip ———————
+
+`BUTTON[insert-daily-wip]`
+
+
 ## 📅 Today's ——————
 
 ### 🥷Missed Tasks ————
@@ -72,11 +77,6 @@ group by backlink
 ## 📎TODO's ——————
 
 `BUTTON[insert-daily-todo]`
-
-
-## 🚧 Wip ———————
-
-`BUTTON[insert-daily-wip]`
 
 
 ## 👀To View —————

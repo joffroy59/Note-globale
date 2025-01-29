@@ -6,7 +6,7 @@
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[Génération d'images]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-29 🛫 2025-01-29
+- [x] [[Génération d'images]] #status/wip #IA #IA/comfyui/flux ➕ 2025-01-29 🛫 2025-01-29 ✅ 2025-01-29
 
 ```ad-tip
 source: Modéle de ComfyUI
