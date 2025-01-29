@@ -19,5 +19,26 @@ resulat ok apres supression appel a ia
 [[Test Add IA]]
 
  netoyage transformation en IA 
- - [x] [[Flux GGUF text2img Workflow OK2]]
+ - [x] [[Flux GGUF text2img Workflow OK2]] ✅ 2025-01-29
 fait avec `command palette > create note from template > [[Test Add IA]]` et en donnant comme titre Flux GGUF text2img Workflow OK2
+- [/] Faire un bouton vers ce template (create) 
+
+```meta-bind-button
+label: This is a button 4
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: test-test1-4
+style: default
+actions:
+  - type: templaterCreateNote
+    templateFile: Templates/Test/Test Add IA.md
+    folderPath: Inbox
+    fileName: Untitled
+    openNote: true
+    openIfAlreadyExists: false
+
+```
+
+
