@@ -8,4 +8,4 @@ mais KO model complexe peut être
 - [x] test open WebUI [[Vérification du bon fonctionnement pour Open WebUI - ComfyUI#Test De génération d'une image]] ✅ ✅ 2025-01-29
 
 - [ ] test avec un lien trouvé : [[Test Url trouvée]]
-- [ ] 
+- [ ] [[ComfyUI Node - Save Folder]]
