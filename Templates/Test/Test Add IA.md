@@ -11,11 +11,10 @@ let config = {
     // The note file name.
     filename: {
         prompt: true,
-        display: "How to name the note?",
+        display: "How to name the note (Workflow)?",
         value: "{{ title }}"
     },
 
-    // The movie title.
     title: {
         prompt: true,
         display: "What is the tile of the workflow?",
@@ -31,7 +30,7 @@ try {
     await tp.user.makeNoteWithPrompting(tp, config)
 
     // Let the user know if the operation succeeded.
-    new Notice(`Created note '${config.filename.value}'.`)
+    new Notice(`Created note '${config.title.value}'.`)
 } catch(error) {
     // Inform the user.
     new Notice(error.message)
@@ -45,14 +44,7 @@ _%>
 <%*
 let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
 
-  let title = tp.file.title
-  let defaultTitle = "Untitled"
-  if (title.startsWith(defaultTitle)) {
-    title = await tp.system.prompt("Title");
-    if (!title) title = defaultTitle
-    await tp.file.rename(`${title}`);
-  } 
-
+let title = config.title.value
 let worflow = config.filename.value
 
 let defaultValue = "WIP IA"  
