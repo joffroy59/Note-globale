@@ -28,7 +28,14 @@ url: "https://efemkay.github.io/obsidian-modular-css-layout/"
 
 
 Plugin non installé mais un autre sembler aire le rendu : 
-![[Pasted image 20250129202445-1.png|350]] ? 
+![[Pasted image 20250129202445-1.png|350]] ?  NON ❌ pas enable
+
+![[Pasted image 20250129205438-1.png]] CSS avec [[MCL Multi Column]]
 
 ## [[Multi Column Callout]]
 ![[Multi Column Callout]]
+
+
+## [[List Grid]]
+
+![[List Grid]]
