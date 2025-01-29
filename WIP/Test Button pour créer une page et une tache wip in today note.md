@@ -47,7 +47,7 @@ actions:
 ```
 
 Ok mais trop de prompt 
-#### test autre bouton sans quickadd 
+#### test autre bouton sans QuickAdd 
 
 ```meta-bind-button
 label: This is a button 2
@@ -116,17 +116,16 @@ OK
 
 - [x] creation [[IA/ComfyUI/Flux/]]
 - [x] copy du template [[Template - Test1 2]] en [[Create Wip IA - ComFyUI - Flux]] ✅ 2025-01-28
-- [x] definition du bouton dans MetaBind ✅ 2025-01-28
+- [x] définition du bouton dans Metabind ✅ 2025-01-28
 - [x] test ✅ 2025-01-28 [[Test Button pour créer une page et une tache wip in today note#faire un vrai bouton avec This is a button 3]] en fait non 
-- [x] faire un insert dans le bouton "generique" par selection, du sous type  `BUTTON[insert-daily-wip-ia-select]` dans la page [[Panel/Actions|Actions]]  résultat:  [[Flux GGUF text2img Workflow OK]]  ✅ 2025-01-28 et dans [[📒2025-01-28#🚧 Wip ———————]]
+- [x] faire un insert dans le bouton "générique" par selection, du sous type  `BUTTON[insert-daily-wip-ia-select]` dans la page [[Panel/Actions|Actions]]  résultat:  [[Flux GGUF text2img Workflow OK]]  ✅ 2025-01-28 et dans [[📒2025-01-28#🚧 Wip ———————]]
 
 
 `BUTTON[insert-daily-wip-ia_comfyui-flux]`
 puis 
-`BUTTON[insert-daily-wip-ia-select]` Comfyui 
+`BUTTON[insert-daily-wip-ia-select]` ComfyUI 
 
 OK 
-qwdfqsd
 
 - [ ] améliorer pour créer les 2 action en même temps #status/wip #todo  
 - [ ] pas de doublon : today note admonition et page non et include dans todsay note la mote detail #status/wip #todo 
