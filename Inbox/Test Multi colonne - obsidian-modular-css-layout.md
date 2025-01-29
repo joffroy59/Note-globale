@@ -30,5 +30,5 @@ url: "https://efemkay.github.io/obsidian-modular-css-layout/"
 Plugin non installé mais un autre sembler aire le rendu : 
 ![[Pasted image 20250129202445-1.png|350]] ? 
 
-
+## [[Multi Column Callout]]
 ![[Multi Column Callout]]
