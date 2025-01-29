@@ -5,7 +5,7 @@ if (!entree) entree = defaultValue
 %>
 
 `````ad-example
-title: Test In Progess
+title: Work In Progess
 collapse: open
 
 - [/] <% entree %>  #test #status/wip  ➕ {{DATE}} 🛫 {{DATE}} 
