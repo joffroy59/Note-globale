@@ -1,3 +1,4 @@
+
 ```embed
 title: "Templater User Scripts for Obsidian"
 image: ""
@@ -42,6 +43,6 @@ actions:
 ```
 
 
-essaie d'appel d'ne action quickadd 
+essaie d'appel d'une action quickadd 
 
 - [ ] a finir 
