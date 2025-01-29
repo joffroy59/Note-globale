@@ -19,4 +19,5 @@ resulat ok apres supression appel a ia
 [[Test Add IA]]
 
  netoyage transformation en IA 
- - 
+ - [x] [[Flux GGUF text2img Workflow OK2]]
+fait avec `command palette > create note from template > [[Test Add IA]]` et en donnant comme titre Flux GGUF text2img Workflow OK2

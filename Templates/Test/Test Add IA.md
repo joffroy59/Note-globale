@@ -16,7 +16,7 @@ let config = {
     },
 
     title: {
-        prompt: true,
+        prompt: false,
         display: "What is the tile of the workflow?",
         value: "The Workflow Name"
     },
@@ -44,7 +44,7 @@ _%>
 <%*
 let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
 
-let title = config.title.value
+let title = config.filename.value
 let worflow = config.filename.value
 
 let defaultValue = "WIP IA"  
