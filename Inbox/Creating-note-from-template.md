@@ -21,7 +21,7 @@ resulat ok apres supression appel a ia
  netoyage transformation en IA 
  - [x] [[Flux GGUF text2img Workflow OK2]] ✅ 2025-01-29
 fait avec `command palette > create note from template > [[Test Add IA]]` et en donnant comme titre Flux GGUF text2img Workflow OK2
-- [/] Faire un bouton vers ce template (create) 
+- [x] Faire un bouton vers ce template (create) ✅ 2025-01-29
 
 ```meta-bind-button
 label: This is a button 4
@@ -42,3 +42,6 @@ actions:
 ```
 
 
+essaie d'appel d'ne action quickadd 
+
+- [ ] a finir 
