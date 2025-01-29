@@ -1,3 +1,4 @@
+
 ```embed
 title: "deepseek-r1:14b"
 image: "https://ollama.com/public/og.png"
@@ -16,6 +17,6 @@ ollama run deepseek-r1:14b
 
 long 
 
-- [ ] comment afficher le temps de génération ? option dev ?. 
+- [ ] comment afficher le temps de génération ? option dev ?. #todo  
 
 - [ ] #toview  ![[Pasted image 20250128004531.png]]
