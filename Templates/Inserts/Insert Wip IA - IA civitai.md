@@ -12,7 +12,7 @@
 let url = await tp.system.prompt("url de la source");
 
 let defaultValue = "WIP IA civitai"  
-let entree = await tp.system.prompt("Enter a content :","" + url + "");
+let entree = url + "");
 if (!entree) entree = defaultValue
 
 
