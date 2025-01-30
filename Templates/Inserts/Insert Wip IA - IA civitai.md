@@ -4,9 +4,7 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 baseFolder: IA/ComfyUI/civitai
 ---
 <%*
-  //let baseFolder = "IA/ComfyUI/civitai"
-  let baseFolder = "`= this.workflow_dir `"
-
+  let baseFolder = "IA/ComfyUI/civitai"
 
   let title = tp.file.title
   let defaultTitle = "Untitled"
