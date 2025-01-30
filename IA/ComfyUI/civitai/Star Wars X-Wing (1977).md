@@ -50,7 +50,10 @@ ne marche pas tel quel (pas assez de vram je sais plus , ou noeud pas installabl
 ### Adaptation sans trop comprendre 
 
 Save As: **Star Wars - Xwing - adapted** 
+`= "[Star Wars - Xwing - adapted.json]" + "(<file:///" + this.workflow_dir + "/Star Wars - Xwing - adapted.json>)"`
+
 
 ![[Pasted image 20250130232255-1.png]]
 
-![[#^workflow_dir ]]
+
+
