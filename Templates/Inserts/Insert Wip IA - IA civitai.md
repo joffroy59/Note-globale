@@ -1,10 +1,13 @@
 ---
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
+baseFolder: IA/ComfyUI/civitai
 ---
 <%*
-  let baseFolder = "IA/ComfyUI/civitai"
-  
+  //let baseFolder = "IA/ComfyUI/civitai"
+  let baseFolder = "`= this.baseFolder `"
+
+
   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
@@ -44,3 +47,8 @@ actions: []
 ```
 
 ````` 
+
+Stability Matrix - ComfyUI
+- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`
+

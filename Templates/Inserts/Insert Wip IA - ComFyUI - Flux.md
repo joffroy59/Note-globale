@@ -1,3 +1,8 @@
+---
+workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
+stability_project_path: D:\dev-data\IA\Stability Matrix Project
+baseFolder: IA/ComfyUI/Flux
+---
 <%*
 let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
 
@@ -46,3 +51,9 @@ title: Note
 ```
 
 `````
+
+Stability Matrix - ComfyUI
+- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`
+
+
