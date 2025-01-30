@@ -7,8 +7,8 @@ pourra servir pour automatiser et pour trouver les workflow vite
 
 --- 
 
-- [ ] [[Insert Wip IA - IA civitai]]
-- [ ] [[Insert Wip IA - ComFyUI - Flux]] car besoin de workflow base folder
+- [x] [[Insert Wip IA - IA civitai]] ✅ 2025-01-31
+- [x] [[Insert Wip IA - ComFyUI - Flux]] car besoin de workflow base folder ✅ 2025-01-31
 
 --- 
 ### Test local 
