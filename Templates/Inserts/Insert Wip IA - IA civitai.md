@@ -5,7 +5,7 @@ baseFolder: IA/ComfyUI/civitai
 ---
 <%*
   //let baseFolder = "IA/ComfyUI/civitai"
-  let baseFolder = "IA/ComfyUI/civitai"
+  let baseFolder = "`= this.workflow_dir `"
 
 
   let title = tp.file.title
@@ -47,8 +47,3 @@ actions: []
 ```
 
 ````` 
-
-Stability Matrix - ComfyUI
-- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
-- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`
-
