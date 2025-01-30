@@ -1,5 +1,5 @@
 <%*
-let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
+  let baseFolder = "IA/ComfyUI/civitai"
 
   let title = tp.file.title
   let defaultTitle = "Untitled"
@@ -11,11 +11,7 @@ let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5
 
 let url = await tp.system.prompt("url");
 
-let defaultValue = "WIP IA civitai"  
-let entree = await tp.system.prompt("Enter a content :","" + url + "");
-if (!entree) entree = defaultValue
-
-
+let entree = title ;
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
@@ -26,7 +22,7 @@ let note = await tp.system.prompt("Note");
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[IA/Sandbox/Test/<% entree %>]]  #status/wip #IA #IA/comfyui/civitai  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+- [/] [[<% baseFolder %>/<% entree %>]]  #status/wip #IA #IA/comfyui/civitai  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ```ad-tip
 Source : <% url %>
