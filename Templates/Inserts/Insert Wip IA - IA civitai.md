@@ -5,7 +5,7 @@ baseFolder: IA/ComfyUI/civitai
 ---
 <%*
   //let baseFolder = "IA/ComfyUI/civitai"
-  let baseFolder = "`= this.baseFolder `"
+  let baseFolder = "IA/ComfyUI/civitai"
 
 
   let title = tp.file.title
