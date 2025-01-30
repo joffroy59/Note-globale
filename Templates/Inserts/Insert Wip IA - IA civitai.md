@@ -1,5 +1,6 @@
 <%*
-
+  let baseFolder = "IA/ComfyUI/civitai"
+  
   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
