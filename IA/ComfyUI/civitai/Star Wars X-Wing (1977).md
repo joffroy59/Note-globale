@@ -1,3 +1,7 @@
+---
+workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
+stability_project_path: D:\dev-data\IA\Stability Matrix Project
+---
 
 ---
 
@@ -34,3 +38,14 @@ title: Note
 
 ![[Pasted image 20250130014825-1.png]]
 COMIC_protogenX34Photorealism_1
+
+
+ne marche pas tel quel (pas assez de vram je sais plus , ou noeud pas installable (conflicts) )
+
+### Adaptation sans trop comprendre 
+
+Save As: **Star Wars - Xwing - adapted** 
+
+![[Pasted image 20250130232255-1.png]]
+
+![[#^workflow_dir ]]

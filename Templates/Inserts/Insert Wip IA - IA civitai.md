@@ -1,3 +1,7 @@
+---
+workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
+stability_project_path: D:\dev-data\IA\Stability Matrix Project
+---
 <%*
   let baseFolder = "IA/ComfyUI/civitai"
   
