@@ -9,11 +9,11 @@
     await tp.file.rename(`${title}`);
   } 
 
-let url = await tp.system.prompt("url de la source");
-
 let defaultValue = "WIP IA civitai"  
-let entree = url;
+let entree = await tp.system.prompt("Enter a title :");
+if (!entree) entree = defaultValue
 
+let url = await tp.system.prompt("url de la source");
 %>
 ---
 <%* tp.file.cursor() %> 
@@ -21,7 +21,7 @@ let entree = url;
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[IA/Sandbox/Test/<% entree %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+- [/] [[<% baseFolder %>/<% entree %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ```ad-info 
 Source : <% url %>
