@@ -22,28 +22,30 @@ let note = await tp.system.prompt("Note");
 ---
 
 <%* tp.file.cursor() %> 
-`````ad-example
+``````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
 - [/] [[<% baseFolder %>/<% entree %>]]  #status/wip #IA #IA/comfyui/civitai  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
-```ad-tip
+````ad-tip
 Source : <% url %>
 
 image: <% image %> 
 
-```
+````
 
-```ad-note
+````ad-note
 title: Note
 <% note %> 
 
-```
+````
 
-`````
+``````
 
 Stability Matrix - ComfyUI
 - `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
 - `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+
+---
 
