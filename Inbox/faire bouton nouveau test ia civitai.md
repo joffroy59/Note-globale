@@ -15,6 +15,12 @@ et faire
 - [x] association repertoire ✅ 2025-01-30
 - [x] test real final depuis action apel > + Wip IA> civitai ✅ 2025-01-30
 
+[[IA/ComfyUI/civitai/Star Wars X-Wing (1977)|Star Wars X-Wing (1977)]]
+
+![[Pasted image 20250130014339-1.png]]
+![[Pasted image 20250130014345-1.png]]
+
+
 [Star Wars X-Wing (1977) - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/87231/star-wars-x-wing-1977)
 
 et autre stra wars 

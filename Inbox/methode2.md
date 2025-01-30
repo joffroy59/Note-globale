@@ -15,4 +15,4 @@ par exemple [[IA/Sandbox/Test/Test2]]
 
 🚀🚀🚀CA MARCHE 🚀🚀🚀
 
-- [ ] le faire pour [[faire bouton nouveau test ia civitai]]
+- [x] le faire pour [[faire bouton nouveau test ia civitai]] ✅ 2025-01-30
