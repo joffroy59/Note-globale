@@ -96,6 +96,7 @@ group by backlink
 
 - [ ] **To View**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
+
 ## 🚨Problème —————
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique,insert-problem-daily-ask]`
