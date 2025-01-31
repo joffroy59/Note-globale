@@ -28,11 +28,15 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
  `BUTTON[insert-daily-task]`
  
+ - [ ] **Tasks**
+ 
+
 #### Obsidian
 
 `BUTTON[insert-daily-task]`
 
-- [ ] **Osidian**
+- [ ] **Obsidian**
+
 
 ### 🚀Planning Tasks ———
 <% tp.file.include("[[Planning Tasks]]") %>
