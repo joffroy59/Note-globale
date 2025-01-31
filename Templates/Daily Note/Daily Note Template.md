@@ -47,6 +47,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 `BUTTON[insert-daily-win]`
 
  - [x] **Win**  ➕ <% tp.date.now("YYYY-MM-DD") %> ✅ <% tp.date.now("YYYY-MM-DD") %>
+
 ## ✅ DONE ——————
 
 ``````ad-tip
@@ -80,27 +81,32 @@ group by backlink
 ## 💡Ideas ———————
 
  `BUTTON[insert-daily-idea]`
- 
+
+ - [ ] **Ideas**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ## 📎TODO's ——————
 
 `BUTTON[insert-daily-todo]`
 
+- [ ] **TODO**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ## 👀To View —————
 
 `BUTTON[insert-daily-toview]`
 
+- [ ] **To View**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ## 🚨Problème —————
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique,insert-problem-daily-ask]`
 
+- [ ] **Problem**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ## 📝Note ———————
 
 `BUTTON[insert-daily-note]`
 
+- [ ] **Note**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ### Note créées ce jour ———————
 > [!example] New Today
@@ -120,7 +126,7 @@ group by backlink
 
 `BUTTON[insert-daily-other]`
 
-
+- [ ] **Autre**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ## 🪛Sandbox 
 
