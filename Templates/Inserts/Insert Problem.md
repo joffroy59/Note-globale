@@ -12,16 +12,16 @@ collapse: open
 title: Appartement
 collapse: open
 
-	- [ ] <% entree %> #problem ➕ {{date}}  
-		- [ ] {{time}} FIX #todo ➕ {{date}}  
+- [ ] <% entree %> #problem ➕ {{date}}  
+	- [ ] {{time}} FIX #todo ➕ {{date}}  
 ````
 
 ````ad-warning
 title: PC
 collapse: open
 
-	- [ ] <% entree %> #problem ➕ {{date}}  
-		- [ ] {{time}} FIX #todo ➕ {{date}}  
+- [ ] <% entree %> #problem ➕ {{date}}  
+	- [ ] {{time}} FIX #todo ➕ {{date}}  
 
 ````
 
@@ -29,8 +29,8 @@ collapse: open
 title: Domotique
 collapse: open
 
-	- [ ] <% entree %> #problem ➕ {{date}}  
-		- [ ] {{time}} FIX #todo ➕ {{date}}  
+- [ ] <% entree %> #problem ➕ {{date}}  
+	- [ ] {{time}} FIX #todo ➕ {{date}}  
 ````
 
 `````

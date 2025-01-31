@@ -13,8 +13,8 @@ collapse: open
 title: PC
 collapse: open
 
-	- [ ] <% entree %> #problem ➕ {{date}}  
-		- [ ] {{time}} FIX #todo ➕ {{date}}  
+- [ ] <% entree %> #problem ➕ {{date}}  
+	- [ ] {{time}} FIX #todo ➕ {{date}}  
 
 ````
 
