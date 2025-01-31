@@ -8,6 +8,6 @@ title: Idea
 collapse: open
 #idea 
 
-- [ ] <% entree %> #idea ➕ {{DATE}} 
+    - [ ] <% entree %> #idea ➕ {{DATE}} 
 
 `````
