@@ -10,7 +10,7 @@ flexGrow=1
 ===
 ## Original
 
-- [ ] 🚧 Wip ———————
+- [x] 🚧 Wip ——————— ✅ 2025-02-01
 
 - [x] 📅 Today's —————— ✅ 2025-01-31
 	- [x] 🥷Missed Tasks ———— ✅ 2025-01-31
@@ -57,11 +57,10 @@ test de modification faite sur [[📒2025-01-31]]
 
 ## Test 
 
-- [ ] 🥷Missed Tasks ————
-- [ ] 🚀 Tasks ——————
-- [ ] 🚀 Tasks Obsidian —
-- [ ] 📅 Planning Tasks ———
-- [ ] 🏆 Wins ———
+
+- [x] 🚀 Tasks —————— ✅ 2025-02-01
+- [x] 🚀 Tasks Obsidian — ✅ 2025-02-01
+- [x] 🏆 Wins ——— ✅ 2025-02-01
 
 - [x] changement des action de creation des éléments de section ✅ 2025-01-31
 	- [x] 🚀Tasks ✅ 2025-01-31
@@ -70,4 +69,5 @@ test de modification faite sur [[📒2025-01-31]]
 	- [-] 📅 Planning Tasks ✅ 2025-01-31
 	- [x] 🏆Wins ✅ 2025-01-31
 	      ![[Pasted image 20250131235949-1.png|150]]
-- [ ] rollover ## 🥷Missed Tasks ———— (doit être fait sur le template pour les section existante)
+- [/] rollover ## 🥷Missed Tasks ———— (doit être fait sur le template pour les section existante)
+
