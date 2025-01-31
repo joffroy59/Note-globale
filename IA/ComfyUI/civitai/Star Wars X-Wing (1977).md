@@ -5,15 +5,24 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 
 ---
 
+
  
 `````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[IA/ComfyUI/civitai/Star Wars X-Wing (1977)]]  #status/wip #IA #IA/comfyui/civitai  ➕ 2025-01-30 🛫 2025-01-30
+- [x] [[IA/ComfyUI/civitai/Star Wars X-Wing (1977)]]  #status/wip #IA #IA/comfyui/civitai  ➕ 2025-01-30 🛫 2025-01-30
 
 ```ad-tip
 Source :
+
+```embed
+title: "Image posted by texaspartygirl"
+image: "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebeed8a4-f873-4897-93a1-a824f9016650/width=1200/ebeed8a4-f873-4897-93a1-a824f9016650.jpeg"
+description: ""
+url: "https://civitai.com/images/1092064"
+```
+DE:
 ```embed
 title: "Star Wars X-Wing (1977) - v1.0 | Stable Diffusion LoRA | Civitai"
 image: "app://obsidian.md/images/civitai-default-account-bg.png"
@@ -55,5 +64,40 @@ Save As: **Star Wars - Xwing - adapted**
 
 ![[Pasted image 20250130232255-1.png]]
 
+![[Pasted image 20250131005727-1.png]]
+
+aurais du etre 
+![[Pasted image 20250131005854-1.png]]
+
+avec meme seed  3415023074
+![[Pasted image 20250131010546-1.png|100]]
+
+![[Pasted image 20250131010519-1.png]]
+
+avec autre sampler_name 
+![[Pasted image 20250131010652-1.png|100]]
+![[Pasted image 20250131010741-1.png]]
+bof
+
+![[Pasted image 20250131010818-1.png|100]]
+![[Pasted image 20250131010829.png]]
+bof
+
+![[Pasted image 20250131010856-1.png|150]]
+
+![[Pasted image 20250131010917-1.png]]
+bof
 
 
+![[Pasted image 20250131010945-1.png|150]]
+![[Pasted image 20250131010955-1.png]]
+
+![[Pasted image 20250131011821-1.png|150]]
+![[Pasted image 20250131011837-1.png]]
+
+
+
+test ajout sampler [DPM++ 2M alt Karras [ Sampler ] - Automatic v1.6.0 | Stable Diffusion Other | Civitai](https://civitai.com/models/35966/dpm-2m-alt-karras-sampler)
+
+[DPM++ 2M alt Karras [ Sampler ] - Automatic v1.6.0 | Stable Diffusion Other | Civitai](https://civitai.com/models/35966/dpm-2m-alt-karras-sampler)
+mis dans D:\IA\StabilityMatrix\Packages\ComfyUI\comfy\extra_samplers
