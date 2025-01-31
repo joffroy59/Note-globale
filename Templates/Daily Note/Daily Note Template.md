@@ -14,7 +14,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `BUTTON[insert-daily-wip]`
  
- - [ ] **WIP**
+ - [ ] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ## 📅 Today's ——————
 
@@ -29,14 +29,14 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
  `BUTTON[insert-daily-task]`
  
- - [ ] **Tasks**
+ - [ ] **Tasks** ➕ <% tp.date.now("YYYY-MM-DD") %>
  
 
 #### Obsidian
 
 `BUTTON[insert-daily-task]`
 
-- [ ] **Obsidian**
+- [ ] **Obsidian** ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 
 ### 🚀Planning Tasks ———
@@ -46,7 +46,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `BUTTON[insert-daily-win]`
 
-
+ - [x] **Win** ✅ <% tp.date.now("YYYY-MM-DD") %> ➕ <% tp.date.now("YYYY-MM-DD") %>
 ## ✅ DONE ——————
 
 ``````ad-tip
