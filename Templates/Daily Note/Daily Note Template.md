@@ -83,6 +83,7 @@ group by backlink
  `BUTTON[insert-daily-idea]`
 
  - [ ] **Ideas**  ➕ <% tp.date.now("YYYY-MM-DD") %>
+ 
 
 ## 📎TODO's ——————
 
