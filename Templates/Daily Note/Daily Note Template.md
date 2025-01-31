@@ -18,31 +18,29 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ## 📅 Today's ——————
 
-### 🥷Missed Tasks ————
+## 🥷Missed Tasks ————
 
 `BUTTON[rollover,rollover_revert]`
-#### Rollover Last Day
 
 
-
-### 🚀Today's Tasks ———
+## 🚀Tasks ———
 
  `BUTTON[insert-daily-task]`
  
  - [ ] **Tasks** ➕ <% tp.date.now("YYYY-MM-DD") %>
  
 
-#### Obsidian
+## 🚀Tasks Obsidian — 
 
 `BUTTON[insert-daily-task]`
 
 - [ ] **Obsidian** ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 
-### 🚀Planning Tasks ———
+## 📅Planning Tasks ———
 <% tp.file.include("[[Planning Tasks]]") %>
 
-### 🏆Today's Wins ———
+## 🏆Wins ———
 
 `BUTTON[insert-daily-win]`
 
