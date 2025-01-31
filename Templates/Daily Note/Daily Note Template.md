@@ -16,7 +16,6 @@ sticker: emoji//1f636-200d-1f32b-fe0f
  
  - [/] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %> 🛫 <% tp.date.now("YYYY-MM-DD") %>
 
-## 📅 Today's ——————
 
 ## 🥷Missed Tasks ————
 
