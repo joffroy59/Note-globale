@@ -46,7 +46,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `BUTTON[insert-daily-win]`
 
- - [x] **Win** ✅ <% tp.date.now("YYYY-MM-DD") %> ➕ <% tp.date.now("YYYY-MM-DD") %>
+ - [x] **Win**  ➕ <% tp.date.now("YYYY-MM-DD") %> ✅ <% tp.date.now("YYYY-MM-DD") %>
 ## ✅ DONE ——————
 
 ``````ad-tip
