@@ -8,7 +8,6 @@ let type = await tp.system.prompt("Enter a type:", typeDefaultValue);
 if (!type) type = typeDefaultValue
 
 %>
-
 `````ad-danger
 title: Les Problèmes
 collapse: open
