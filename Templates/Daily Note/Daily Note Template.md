@@ -23,14 +23,14 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 `BUTTON[rollover,rollover_revert]`
 
 
-## 🚀Tasks ———
+## 🚀 Tasks ——————
 
  `BUTTON[insert-daily-task]`
  
  - [ ] **Tasks** ➕ <% tp.date.now("YYYY-MM-DD") %>
  
 
-## 🚀Tasks Obsidian — 
+## 🚀 Tasks Obsidian — 
 
 `BUTTON[insert-daily-task]`
 

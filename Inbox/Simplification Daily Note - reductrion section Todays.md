@@ -63,10 +63,11 @@ test de modification faite sur [[📒2025-01-31]]
 - [ ] 📅 Planning Tasks ———
 - [ ] 🏆 Wins ———
 
-- [ ] changement des action de creation des éléments de section
+- [x] changement des action de creation des éléments de section ✅ 2025-01-31
 	- [x] 🚀Tasks ✅ 2025-01-31
 	      ![[Pasted image 20250131235656-1.png|150]]
-	- [ ] 🚀 Tasks Obsidian
-	- [ ] 📅 Planning Tasks
-	- [ ] 🏆Wins
+	- [x] 🚀 Tasks Obsidian ✅ 2025-01-31
+	- [-] 📅 Planning Tasks ✅ 2025-01-31
+	- [x] 🏆Wins ✅ 2025-01-31
+	      ![[Pasted image 20250131235949-1.png|150]]
 - [ ] rollover ## 🥷Missed Tasks ———— (doit être fait sur le template pour les section existante)
