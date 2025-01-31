@@ -13,7 +13,8 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ## 🚧 Wip ———————
 
 `BUTTON[insert-daily-wip]`
-
+ 
+ - [ ] **WIP**
 
 ## 📅 Today's ——————
 
