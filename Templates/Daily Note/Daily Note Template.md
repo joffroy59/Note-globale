@@ -14,7 +14,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `BUTTON[insert-daily-wip]`
  
- - [ ] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %>
+ - [/] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %> 🛫 <% tp.date.now("YYYY-MM-DD") %>
 
 ## 📅 Today's ——————
 
