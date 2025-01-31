@@ -12,8 +12,8 @@ collapse: open
 title: Domotique
 collapse: open
 
-- [ ] <% entree %> #problem ➕ {{date}}  
-	- [ ] {{time}} FIX #todo ➕ {{date}}  
+	- [ ] <% entree %> #problem ➕ {{date}}  
+		- [ ] {{time}} FIX #todo ➕ {{date}}  
 ````
 
 `````

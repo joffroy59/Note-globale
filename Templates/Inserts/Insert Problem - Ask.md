@@ -18,8 +18,8 @@ collapse: open
 title: <% type %>
 collapse: open
 
-- [ ] <% entree %> #problem ➕ {{date}}  
-	- [ ] {{time}} FIX #todo ➕ {{date}}  
+	- [ ] <% entree %> #problem ➕ {{date}}  
+		- [ ] {{time}} FIX #todo ➕ {{date}}  
 
 ````
 
