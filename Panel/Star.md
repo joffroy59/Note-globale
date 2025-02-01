@@ -13,3 +13,4 @@ collapse: open
 
 ```
 
+[[⭐Faire fonctionner Open WebUI avec Ollama]]
