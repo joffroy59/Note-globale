@@ -16,7 +16,6 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ![[List  of WIP]] 
 
- <% tp.file.include("[[List  of WIP]]") %>
 
  - [/] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %> 🛫 <% tp.date.now("YYYY-MM-DD") %>
 
