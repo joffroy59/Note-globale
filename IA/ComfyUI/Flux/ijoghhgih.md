@@ -31,5 +31,5 @@ title: Note
 [[ijoghhgih]]
 
 ---
-creation date:: [[2025/02/05/📒2025-02-01]]  10:42
+creation date:: [[📒2025-02-01]]  10:42
 
