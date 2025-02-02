@@ -1,5 +1,7 @@
 
 ### config
+use : [[Templates/IA/IA civitai - Daily.md]]
+
 ![[Pasted image 20250202205544-1.png]]
 
 ![[Pasted image 20250202205549-1.png]]
@@ -23,4 +25,7 @@ actions:
 
 ```
 
+- [ ] test fix problème de titre de la note créée 
+
+duplication [[IA civitai - Daily]]  en [[IA civitai - Daily sandbox1]]
 
