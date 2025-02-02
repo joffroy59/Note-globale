@@ -21,7 +21,6 @@ let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
 ---
-
 <%* tp.file.cursor() %> 
 ``````ad-example
 title: WIP IA - ComfyUI - Flux
