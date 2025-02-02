@@ -83,3 +83,5 @@ actions:
     command: quickadd:choice:117a593c-e4ee-46ec-b9f3-a6e27ad40600
 
 ```
+
+- [x] Test et exemple (renommage) : [[MirrorStyle]]
