@@ -66,7 +66,7 @@ Save As: **Star Wars - Xwing - adapted**
 
 ![[Pasted image 20250131005727-1.png]]
 
-aurais du etre 
+aurais du être 
 ![[Pasted image 20250131005854-1.png]]
 
 avec meme seed  3415023074
