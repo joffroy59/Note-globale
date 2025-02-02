@@ -45,9 +45,13 @@ title: Note
 
 ---
 
-Stability Matrix - ComfyUI
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
 - `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
 - `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+```
 
 ---
 
