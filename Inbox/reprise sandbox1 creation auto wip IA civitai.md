@@ -45,7 +45,7 @@ avec Obsidian api
 `create(path: string, data: string, options?: DataWriteOptions): Promise<TFile>;`
 
 Trouvé : 
-[Templater snippets](https://zachyoung.dev/posts/templater-snippets)
+- [x] [Templater snippets](https://zachyoung.dev/posts/templater-snippets)
 test de 
 ```ad-note
 Here’s a script that will create an internal link in a template that will create a new file using a template if it doesn’t already exist.
@@ -68,6 +68,7 @@ _%>
 
 button de test pour créer seulement l'élément de today note 
 
+- [x] Test et exemple : [[MirrorStyle]]
 
 ```meta-bind-button
 label: Test Sandbox1 2
