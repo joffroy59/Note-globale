@@ -1,0 +1,38 @@
+<%*
+let baseFolder = "IA/ComfyUI/civitai"
+const defaultTitle = "ComfyUI-Flux"
+
+let title = await tp.system.prompt("Title from page", defaultTitle);
+
+const templateName = "Templates/Inserts/Create Wip IA - ComFyUI - Flux v2"
+
+let existing = tp.file.find_tfile(title);
+let createdFileDisplay;
+if (existing) {
+  createdFileDisplay = existing.basename;
+} else {
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), title, true));
+}
+await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
+
+_%>
+---
+<%* tp.file.cursor() %> 
+`````ad-example
+title: WIP IA - ComfyUI - Flux
+collapse: open
+
+- [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+
+---
+
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
+- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+```
+
+````` 
+
