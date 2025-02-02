@@ -24,10 +24,12 @@ title: WIP IA - ComfyUI - Flux
 collapse: open
 
 - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
-````` 
 
 ---
 
 Stability Matrix - ComfyUI
 - `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
 - `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+
+````` 
+
