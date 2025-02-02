@@ -44,6 +44,8 @@ title: Note
 
 ``````
 
+---
+
 Stability Matrix - ComfyUI
 - `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
 - `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
