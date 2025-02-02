@@ -31,10 +31,10 @@ actions:
 ```
 
 - [ ] test fix problème de titre de la note créée 
-	- [x] duplication [[IA civitai - Daily]]  en [[IA civitai - Daily sandbox1]]
+	- [x] duplication [[IA civitai - Daily]]  en [[IA civitai - Daily v2]]
 	le problème : demande 2 fois le titre et l'url 
 
-	- [x] duplication [[Insert Wip IA - IA civitai]] -> [[Insert Wip IA - IA civitai sandbox1]]
+	- [x] duplication [[Insert Wip IA - IA civitai]] -> [[Insert Wip IA - IA civitai v2]]
 	- [x] changement de la quickadd Sandbox1 (+ duplication du Capture 🚧Insert WIP IA - Select en 🚧Insert WIP IA - Sanbox1 )
 	![[Pasted image 20250202211738-1.png|150]]
 
@@ -71,7 +71,7 @@ button de test pour créer seulement l'élément de today note
 - [x] Test et exemple : [[MirrorStyle]]
 
 ```meta-bind-button
-label: Test Sandbox1 2
+label: Test Wip IA civitai
 icon: ""
 hidden: false
 class: ""

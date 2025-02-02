@@ -5,7 +5,7 @@ let baseFolder = "IA/ComfyUI/civitai"
 const defaultTitle = "civitai"
 let title = await tp.system.prompt("Title from page", defaultTitle);
 
-const templateName = "Templates/IA/IA civitai - Daily sandbox1"
+const templateName = "Templates/IA/IA civitai - Daily v2"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
