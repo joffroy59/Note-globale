@@ -44,3 +44,41 @@ avec Obsidian api
 [create - Developer Documentation](https://docs.obsidian.md/Reference/TypeScript+API/Vault/create)
 `create(path: string, data: string, options?: DataWriteOptions): Promise<TFile>;`
 
+Trouvé : 
+[Templater snippets](https://zachyoung.dev/posts/templater-snippets)
+test de 
+```ad-note
+Here’s a script that will create an internal link in a template that will create a new file using a template if it doesn’t already exist.
+
+<%*
+const fileName = "This is the name of a file";
+const existing = tp.file.find_tfile(fileName);
+let createdFileDisplay;
+if (existing) {
+  createdFileDisplay = existing.basename;
+} else {
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile("template-name"), fileName)).basename;
+}
+_%>
+
+// Somewhere later in the file
+[[<% createdFileDisplay %>]]
+```
+
+
+button de test pour créer seulement l'élément de today note 
+
+
+```meta-bind-button
+label: Test Sandbox1 2
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: test-sandbox1-2
+style: default
+actions:
+  - type: command
+    command: quickadd:choice:117a593c-e4ee-46ec-b9f3-a6e27ad40600
+
+```

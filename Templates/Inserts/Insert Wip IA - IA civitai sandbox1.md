@@ -1,45 +1,32 @@
 <%*
-  let baseFolder = "IA/ComfyUI/civitai"
+let baseFolder = "IA/ComfyUI/civitai"
+const folderPath = "/IA/ComfyUI/civitai"
+const fileName = "test12";
+const templateName = "Templates/IA/IA civitai - Daily sandbox1"
 
-  let title = tp.file.title
-  let defaultTitle = "Untitled"
-  if (title.startsWith(defaultTitle)) {
-    title = await tp.system.prompt("Title Today");
-    if (!title) title = defaultTitle
-    await tp.file.rename(`${title}`);
-  } 
+let existing = tp.file.find_tfile(fileName);
+let createdFileDisplay;
+if (existing) {
+  createdFileDisplay = existing.basename;
+} else {
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), fileName, true, app.vault.getAbstractFileByPath(folderPath)));
+}
 
-let defaultValue = "WIP IA civitai"  
-let entree = await tp.system.prompt("Enter a title :");
-if (!entree) entree = defaultValue
+await tp.file.move(folderPath + "/" + fileName, tp.file.find_tfile(fileName));
 
-let url = await tp.system.prompt("url de la source");
-%>
+//existing = tp.file.find_tfile(createdFileDisplay);
+//await tp.file.move(`${folderPath}/${fileName}`);
+
+_%>
+
 ---
+
 <%* tp.file.cursor() %> 
 `````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[<% baseFolder %>/<% entree %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
-
-```ad-info 
-Source : <% url %>
-```
-
-```meta-bind-button
-label: Create Note
-icon: fas-add
-hidden: false
-class: ""
-tooltip: ""
-id: insert-ia-civitai
-style: default
-actions: []
-
-```
-
+- [/] [[<% baseFolder %>/<% fileName %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 ````` 
-<%* 
-Vault.create('Inbox/test12') 
-%> 
+
+
