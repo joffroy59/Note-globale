@@ -1,12 +1,10 @@
 
-
-
-
-
+### config
 ![[Pasted image 20250202205544-1.png]]
 
 ![[Pasted image 20250202205549-1.png]]
 
+### tasks
 
 - [x] creation d'un bouton p pour l'action en test ✅ 2025-02-02
 ![[Pasted image 20250202210106-1.png|150]]
