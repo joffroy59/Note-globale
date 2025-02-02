@@ -86,15 +86,14 @@ actions:
 
 - [x] Test et exemple (renommage) : [[MirrorStyle]]
 ```meta-bind-button
-label: Test Wip IA civitai
+label: This is a button
 icon: ""
 hidden: false
 class: ""
 tooltip: ""
-id: test-sandbox1-2-2
+id: ""
 style: default
-actions:
-  - type: command
-    command: quickadd:choice:117a593c-e4ee-46ec-b9f3-a6e27ad40600
+actions: []
 
 ```
+`BUTTON[insert-daily-wip-ia_civitai]`
