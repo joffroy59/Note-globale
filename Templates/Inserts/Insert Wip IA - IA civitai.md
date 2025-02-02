@@ -21,7 +21,7 @@ let url = await tp.system.prompt("url de la source");
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[<% baseFolder %>/<% entree %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+- [/] [[<% baseFolder %>/<% entree %>]]  #status/wip #IA #IA/comfyui/civitai  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ```ad-info 
 Source : <% url %>
