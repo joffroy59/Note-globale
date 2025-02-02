@@ -4,7 +4,7 @@ const defaultTitle = "civitai"
 
 let title = await tp.system.prompt("Title from page", defaultTitle);
 
-const templateName = "Templates/IA/IA civitai - Daily v2"
+const templateName = "Templates/IA/Create IA - ComFyUI - civitai v2"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
