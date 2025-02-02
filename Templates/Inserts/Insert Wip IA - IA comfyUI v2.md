@@ -1,5 +1,5 @@
 <%*
-let baseFolder = "IA/ComfyUI/civitai"
+let baseFolder = "IA/ComfyUI/Flux"
 const defaultTitle = "ComfyUI-Flux"
 
 let title = await tp.system.prompt("Title from page", defaultTitle);
