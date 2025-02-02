@@ -5,10 +5,11 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 <%*
   let baseFolder = "IA/ComfyUI/civitai"
 
-  let title = tp.file.title
+  //let 
+  title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
-    title = await tp.system.prompt("Title");
+    title = await tp.system.prompt("Title from page");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
   } 
@@ -48,4 +49,5 @@ Stability Matrix - ComfyUI
 - `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
 
 ---
+
 
