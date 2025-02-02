@@ -1,21 +1,21 @@
 <%*
 let baseFolder = "IA/ComfyUI/civitai"
 const folderPath = "/IA/ComfyUI/civitai"
-const fileName = "test12";
+
+const defaultTitle = "civitai"
+let title = await tp.system.prompt("Title from page", defaultTitle);
+
 const templateName = "Templates/IA/IA civitai - Daily sandbox1"
 
-let existing = tp.file.find_tfile(fileName);
+
+let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
 if (existing) {
   createdFileDisplay = existing.basename;
 } else {
-  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), fileName, true, app.vault.getAbstractFileByPath(folderPath)));
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), title, true));
 }
-
-await tp.file.move(folderPath + "/" + fileName, tp.file.find_tfile(fileName));
-
-//existing = tp.file.find_tfile(createdFileDisplay);
-//await tp.file.move(`${folderPath}/${fileName}`);
+await tp.file.move(folderPath + "/" + title, tp.file.find_tfile(title));
 
 _%>
 
@@ -26,7 +26,7 @@ _%>
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] [[<% baseFolder %>/<% fileName %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+- [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 ````` 
 
 
