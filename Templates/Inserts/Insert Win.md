@@ -5,6 +5,7 @@ if (!entree) entree = defaultValue
 %>
 `````ad-check
 collapse: open
+title: Wins
 #wins 
 
 - [x]  <% entree %>  #wins ➕ {{DATE}} 
