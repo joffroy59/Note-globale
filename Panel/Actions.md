@@ -7,7 +7,7 @@ sticker: ""
 banner_y: 0.492
 cov:
 ---
-`BUTTON[insert-daily-wip-ia_civitai,insert-daily-wip-ia_comfyui-flux-v2]`
+`BUTTON[insert-daily-wip-ia-select-v2,insert-daily-wip-ia_civitai,insert-daily-wip-ia_comfyui-flux-v2]`
 `BUTTON[insert-daily-wip-ia_comfyui-flux]`
 `BUTTON[insert-daily-wip,insert-daily-wip-ia-select,insert-daily-todo,insert-daily-toview]`
 
