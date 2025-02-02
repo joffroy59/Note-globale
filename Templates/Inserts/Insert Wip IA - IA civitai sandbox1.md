@@ -41,5 +41,5 @@ actions: []
 
 ````` 
 <%* 
-Vault.create('Inbox/test12','arf') 
+Vault.create('Inbox/test12') 
 %> 
