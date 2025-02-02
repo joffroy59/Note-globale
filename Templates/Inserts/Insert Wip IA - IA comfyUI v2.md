@@ -4,7 +4,7 @@ const defaultTitle = "ComfyUI-Flux"
 
 let title = await tp.system.prompt("Title from page", defaultTitle);
 
-const templateName = "Templates/Inserts/Create Wip IA - ComFyUI - Flux v2"
+const templateName = "Templates/IA/Create IA - ComFyUI - Flux v2"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
