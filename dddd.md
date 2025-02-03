@@ -1,0 +1,81 @@
+
+- [/] **WIP** ➕ 2025-02-02 🛫 2025-02-02
+- [/] [[IA/ComfyUI/civitai/A voir]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
+- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
+- [ ] **Missed Tasks**
+ - [/] **WIP** ➕ 2025-02-01 🛫 2025-02-01
+- [/] [[deepseek-r1]]  #status/wip #IA #IA/model  ➕ 2025-02-01 🛫 2025-02-01
+ - [/] **WIP** ➕ 2025-01-31 🛫 2025-01-31
+- [/] [[Simplification Daily Note - reductrion section Todays ]] #obsidian  #test #status/wip  ➕ 2025-01-31 🛫 2025-01-31 
+- [ ] **Missed Tasks**
+- [/] [[Faire fonctionner Open WebUI avec ComfyUI (Stability Matrix)]]   #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
+- [/] [[flux exemple]]https://civitai.com/images/38271696  #test #status/wip  ➕ 2025-01-30 🛫 2025-01-30 
+- [/] [[Creating-note-from-template]] #obsidian  #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
+- [/] [[civitai_flux_t2i_workflow_OK]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-29 🛫 2025-01-29
+- [/] [[Button pour creer Un wip long terme dans ForDailyNote]]  #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
+- [ ] Rangement , tri et trash ➕ 2024-12-30
+- [ ] Ajout au menu contextuel Windows création de fichier README.md ➕ 2025-01-02
+- [ ]  [Taking the Zettelkasten Method to the Next Level with AI](https://www.jasongilbertson.com/taking-the-zettelkasten-method-to-the-next-level-with-ai-in-obsidian/) #todo  ➕ 2025-01-07
+- [ ] Amener la voiture chez Norauto pour une vérification de la batterie. #voiture 🔺 ➕ 2025-01-11 ⏳ 2025-01-24 📅 2025-01-25
+- [ ] Obsidian
+	- [x] [[Obsidian Vault Transfert]] #test #status/wip ➕ 2025-01-15 ✅ 2025-01-16
+	- [x] Utilisation de "SNIPPETS" avec Templater par exemple pour liste des plugin ➕ 2024-12-30 ✅ 2025-01-16
+		- [x] [[🛠️Plugin Obsidian IA - 2024-12-30]] +  Plugin List OK  '3 formes a choisr "' QuickAction ???[[Plugin List All with Id - 2025-01-16]] #idea ✅ 2025-01-16
+		- [x]  ✅ 2025-01-12 ➕ 2024-12-31
+	- [ ] Automatisation
+		- [ ] Créer un button pour transférer le contenu du admonition Wip vers Admonition Done ou Wins #idea #status/wip ➕ 2025-01-15 
+		- [ ] Remplacer automatiquement la nouvelle liste des plugin [[Plugin List All]]  #todo  ➕ 2025-01-05
+		      💡voir tuto insert under header (pas sur que ca existe )
+		- [ ] [[list Callout content from daily]] #task  ➕ 2025-01-08
+			- [x] test désactivation all et reactivation ✅ 2025-01-16
+			- [x] suivre dans le temps ✅ 2025-01-16
+		- [ ] Trouver comment genererr menu automatiquemtn avec verson des notes daté  ➕ 2025-01-04
+	- [ ] Filtrage
+		- [ ] note liste des tags Wip et todo #task #todo ➕ 2025-01-11 🛫 2025-01-11
+			- [x] plutôt utilisation plugin daily planner `BUTTON[daily-planner,daily-planner-clendar]`  pas sufisant pour voir toutes les catégorie ✅ 2025-01-12
+		- [/] Note sur la liste de tous les tags présents sur la **daily note** [[Test Liste de toutes les sections daily note]] #todo ➕ 2025-01-01 🛫 2025-01-20 
+	- [ ] admonition type prompt + serach e type de admonition pour liste            ➕ 2025-01-11 🛫 2025-01-11  #task #todo #obsidian 
+	- [ ] [[Button pour créer un suivi de demande LeChat]] comme [[Transformer un wip en done]] avec tag             ➕ 2025-01-11 🛫 2025-01-11  #task #todo #obsidian 
+	- [ ] Voir si possible de faire un formulaire plutot qu'une de mande de text lors de la creation de Todo ou wip etc  #todo            ➕ 2025-01-11 🛫 2025-01-11  #task #todo #obsidian 
+	- [ ] Change tag wip to done qur task finish             ➕ 2025-01-11 🛫 2025-01-11  #task #todo #obsidian 
+	- [ ] Ajouter un type de block de ccode prompt et ca permettrait de les retrouver par research   #todo  ➕ 2025-01-24 
+	- [/] [[Plugin Text Generator]]   #test #status/wip  ➕ 2025-01-24 🛫 2025-01-24 
+	- [/] [[transformer un wip en done]] #obsidian   #test #status/wip  ➕ 2025-01-24 🛫 2025-01-24 
+- [/] IA
+	- [/] Prompt  for image ➕ 2025-01-01
+		- [x] [[New Year 2025]] ✅ 2025-01-16
+		- [ ] ???  [[New Year 2025]]  tags #podium  
+	- [/] [[workflow provenant de civitai]]  #test #status/wip  ➕ 2025-01-21 🛫 2025-01-21 
+- [ ] https://publish.obsidian.md/tasks/Queries/Global+Query             ➕ 2025-01-11 🛫 2025-01-11  #task #todo #obsidian 
+- [/] [[IA/ComfyUI/Flux/Flux GGUF text2img Workflow OK]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-28 🛫 2025-01-28
+- [ ] templacer WIP IAD Comfyui pour ne pas avoir de doubon (faire include ?)   #todo  ➕ 2025-01-29 
+- [ ] trouver comment avoir une liste rapide de tag ia et todo toview not done   #todo  ➕ 2025-01-29 
+- [ ]  https://img.icons8.com/  #toview ➕ 2025-01-29 
+- [ ] ![308388169-9e9aea63-f1db-4b4e-a501-f43160c4b6fd.png (3183×1235)](https://private-user-images.githubusercontent.com/148366895/308388169-9e9aea63-f1db-4b4e-a501-f43160c4b6fd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgyNzUxNjIsIm5iZiI6MTczODI3NDg2MiwicGF0aCI6Ii8xNDgzNjY4OTUvMzA4Mzg4MTY5LTllOWFlYTYzLWYxZGItNGI0ZS1hNTAxLWY0MzE2MGM0YjZmZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEzMFQyMjA3NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NDI0OGZhMzI0NWJkYmFkYTJjMWZmN2NmYmEzZGNkN2VmYmQ1ODVkMjBlYTBhZWNiZmU2NmQ4ZDM4OTg0YzAzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jkm34ClIBqskYs6qTVkX5iZJcMgh95_Q0aey4b_KG3A)  #toview ➕ 2025-01-30 
+ - [ ] **Tasks** ➕ 2025-01-31 
+- [ ] **Obsidian** ➕ 2025-01-31 
+ - [ ] **Ideas**  ➕ 2025-01-31 
+- [ ] **TODO**  ➕ 2025-01-31
+	- [ ] [[Trouver Comment faire pour marquer DONE les taches dans admonition de today note]]  #todo  ➕ 2025-01-31 
+- [ ] **To View**  ➕ 2025-01-31
+- [ ] **Note**  ➕ 2025-01-31
+- [ ] **Autre**
+- [ ] **Missed Tasks**
+ - [ ] **Tasks** ➕ 2025-02-01
+     - [ ] ffuyfffuyffoiyuf            ➕ 2025-01-11 🛫 2025-01-11  #task #todo 
+- [ ] **Obsidian** ➕ 2025-02-01
+ - [ ] **Ideas**  ➕ 2025-02-01
+- [ ] **TODO**  ➕ 2025-02-01
+- [ ] **To View**  ➕ 2025-02-01
+- [ ]  [[Here Are the 5 DeepSeek R1 Prompts I Use for Coding as a Developer]]  #toview ➕ 2025-02-01 
+- [ ] **Note**  ➕ 2025-02-01
+- [ ] **Autre**  ➕ 2025-02-01
+ - [ ] **Tasks** ➕ 2025-02-02
+- [ ] **Obsidian** ➕ 2025-02-02
+	- [ ] https://forum.obsidian.md/t/14-example-vaults-from-around-the-web-kepano-nick-milo-the-sweet-setup-and-more/81788            ➕ 2025-01-11 🛫 2025-01-11  #task #todo #obsidian 
+ - [ ] **Ideas**  ➕ 2025-02-02
+- [ ] **TODO**  ➕ 2025-02-02
+- [ ] **To View**  ➕ 2025-02-02
+- [ ]  [[Phone Link]]  #test   #toview ➕ 2025-02-02 
+- [ ] **Note**  ➕ 2025-02-02
+- [ ] **Autre**  ➕ 2025-02-02
