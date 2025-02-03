@@ -1,8 +1,28 @@
+---
+ollama_model_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
+---
 <%*
-let defaultValue = "WIP IA"  
-let entree = await tp.system.prompt("Enter a value :");
-if (!entree) entree = defaultValue
-%>
+let baseFolder = "IA/Model"
+const defaultTitle = "IA Model"
+
+
+//let defaultValue = "WIP IA"  
+let title = await tp.system.prompt("Title", defaultTitle);
+
+const templateName = "Templates/IA/Create IA - Model v2"
+
+let existing = tp.file.find_tfile(title);
+let createdFileDisplay;
+if (existing) {
+  createdFileDisplay = existing.basename;
+} else {
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), title, true));
+}
+await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
+
+_%>
+---
+<%* tp.file.cursor() %> 
 `````ad-example
 title: WIP IA - Model
 collapse: open
@@ -15,7 +35,6 @@ collapse: open
 title: Stability Matrix - ComfyUI
 collapse: Closed
 
-- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
-- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+- `= "[Ollama model]" + "(<file:///" + this.ollama_model_dir + ">)"`
 ```
 `````
