@@ -9,8 +9,14 @@ if (headerIndex === -1) {
 } else {
     const restOfFile = fileContent.slice(headerIndex + targetHeader.length);
     const nextHeaderIndex = restOfFile.search(/#+ /);
-    let headerContent = nextHeaderIndex === -1 ? restOfFile.trim() : restOfFile.slice(0, nextHeaderIndex).trim();
+    const headerContent = nextHeaderIndex === -1 ? restOfFile.trim() : restOfFile.slice(0, nextHeaderIndex).trim();
     tR += headerContent;
-    headerContent = '';
+
+    // Create new content without the header content
+    const newFileContent = fileContent.slice(0, headerIndex + targetHeader.length) + restOfFile.slice(nextHeaderIndex === -1 ? restOfFile.length : nextHeaderIndex + targetHeader.length).trim();
+    await app.vault.modify(await app.vault.getAbstractFileByPath(filePath), newFileContent);
+
 }
 %>
+
+
