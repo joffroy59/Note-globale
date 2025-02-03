@@ -8,8 +8,9 @@ if (headerIndex === -1) {
     tR += "Header not found.";
 } else {
     const restOfFile = fileContent.slice(headerIndex + targetHeader.length);
-    const nextHeaderIndex = restOfFile.search(/###|\n## /);
+    const nextHeaderIndex = restOfFile.search(/#+ /);
     const headerContent = nextHeaderIndex === -1 ? restOfFile.trim() : restOfFile.slice(0, nextHeaderIndex).trim();
     tR += headerContent;
+    headerContent = '';
 }
 %>
