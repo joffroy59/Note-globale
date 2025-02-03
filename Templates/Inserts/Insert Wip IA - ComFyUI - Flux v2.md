@@ -1,3 +1,6 @@
+---
+workflow_dir:
+---
 <%*
 let baseFolder = "IA/ComfyUI/Flux"
 const defaultTitle = "ComfyUI-Flux"

@@ -7,6 +7,15 @@ if (!entree) entree = defaultValue
 title: WIP IA - Model
 collapse: open
 
-- [/] <% entree %>  #status/wip #IA #IA/model  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+- [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/model  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
+---
+
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
+- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+```
 `````
