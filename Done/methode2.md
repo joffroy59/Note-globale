@@ -1,4 +1,4 @@
-erpertoire de test IA/Sandboc/Test
+répertoire de test IA/Sandbox/Test
 
  - [/] template [[IA civitai - exemple]]
 	 - [x] Association folder ✅ 2025-01-30
