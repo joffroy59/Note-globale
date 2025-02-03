@@ -1,9 +1,8 @@
 ---
-workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
-stability_project_path: D:\dev-data\IA\Stability Matrix Project
+ollama_model_dir: I:\IA\ollama\models
 ---
 <%*
-  let baseFolder = "IA/ComfyUI/civitai"
+  let baseFolder = "IA/Model"
 
   //let 
   title = tp.file.title
@@ -46,13 +45,11 @@ title: Note
 ---
 
 ```ad-tip
-title: Stability Matrix - ComfyUI
+title: Ollama Models
 collapse: Closed
 
-- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
-- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+- `= "[Ollama model]" + "(<file:///" + this.ollama_model_dir + ">)"`
 ```
 
 ---
-
 
