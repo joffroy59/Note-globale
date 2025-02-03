@@ -41,5 +41,11 @@ version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite
 		- [x] Insert Wip IA - Model v2
 		- [x] test ✅ 2025-02-03
 - [ ] généralisation aux autres catégories 
-	- [ ] IA - model 
-	- [ ] autres
+	- [x] IA - model ✅ 2025-02-04
+	- [ ] [[#wip]]
+
+
+### wip
+
+template DailyNote : [[Insert WIP]]  --> [[Insert WIP v2]]
+
