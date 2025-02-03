@@ -9,7 +9,7 @@ if (headerIndex === -1) {
 } else {
     const restOfFile = fileContent.slice(headerIndex + targetHeader.length);
     const nextHeaderIndex = restOfFile.search(/#+ /);
-    const headerContent = nextHeaderIndex === -1 ? restOfFile.trim() : restOfFile.slice(0, nextHeaderIndex).trim();
+    let headerContent = nextHeaderIndex === -1 ? restOfFile.trim() : restOfFile.slice(0, nextHeaderIndex).trim();
     tR += headerContent;
     headerContent = '';
 }
