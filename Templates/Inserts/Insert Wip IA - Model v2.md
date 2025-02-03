@@ -1,5 +1,5 @@
 ---
-ollama_model_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
+ollama_model_dir: I:\IA\ollama\models
 ---
 <%*
 let baseFolder = "IA/Model"
