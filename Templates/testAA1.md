@@ -13,7 +13,7 @@ if (headerIndex === -1) {
     tR += headerContent;
 
     // Create new content without the header content
-    const newFileContent = fileContent.slice(0, headerIndex + targetHeader.length) + restOfFile.slice(nextHeaderIndex === -1 ? restOfFile.length : nextHeaderIndex + targetHeader.length-1).trim();
+    const newFileContent = fileContent.slice(0, headerIndex + targetHeader.length) + restOfFile.slice(nextHeaderIndex === -1 ? restOfFile.length : nextHeaderIndex + targetHeader.length-2).trim();
     await app.vault.modify(await app.vault.getAbstractFileByPath(filePath), newFileContent);
 
 }

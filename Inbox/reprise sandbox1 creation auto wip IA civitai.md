@@ -96,4 +96,4 @@ style: default
 actions: []
 
 ```
-`BUTTON[insert-daily-wip-ia_civitai]`
+`BUTTON[insert-daily-wip-ia_civitai-v2]`
