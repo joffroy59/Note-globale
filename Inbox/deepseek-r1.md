@@ -36,6 +36,7 @@ success
 
 ollama run deepseek-r1:14b
 
+autre essai [[Ollama - deepseek-r1]]
 
 ```powershell fold
 
