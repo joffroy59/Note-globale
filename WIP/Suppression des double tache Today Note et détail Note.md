@@ -79,7 +79,7 @@ Exemple
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [ ] [[Insert ToView]] - Insert Note: [[Insert ToView V2]] - Détails note: [[todo]]
+	- [ ] [[Insert ToView]] - Insert Note: [[Insert ToView v2]] - Détails note: [[todo]]
 	    - [ ] action
 	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
