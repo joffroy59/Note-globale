@@ -81,8 +81,8 @@ Exemple
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
 	- [ ] [[Insert ToView]] - Insert Note: [[Insert ToView v2]] - Détails note: [[todo]]
 	    - [x] action ✅ 2025-02-04
-	    - [x] bouton `BUTTON[insert-daily-toview-V2]` ✅ 2025-02-04
-	    - [ ] test
+	    - [x] bouton `BUTTON[insert-daily-toview-v2]` ✅ 2025-02-04
+	    - [x] test ✅ 2025-02-04
 	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Win]] - Insert Note: [[todo]] - Détails note: [[todo]]
 	    - [ ] action
