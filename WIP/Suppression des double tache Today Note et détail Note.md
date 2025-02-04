@@ -40,45 +40,106 @@ Exemple
 	exemple de détail note [[Create WIP v2]] et de insert [[Insert Wip IA - Select v2]] ou [[Insert Wip IA - Model v2]]
 	- [-] [[Insert DONE]] 
 	- [ ] [[Insert Idea]] Insert Note: [[Insert Idea v2]]  - Détails note: [[Create Idea v2]]
+		- [x] action 💡Insert Idea v2 ✅ 2025-02-04
+		- [x] bouton `BUTTON[insert-daily-idea-v2]` ✅ 2025-02-04
 		- [ ] test 
+		- [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Note]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Other]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem - Appart]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem - Ask]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem - Domotique]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem - PC]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem v2]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert ToView]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Win]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert WIP IA]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Wip IA - ComFyUI - Flux]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Wip IA - ComFyUI - Flux v2]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Wip IA - IA civitai]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Wip IA - IA civitai v2]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Wip IA - Model]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Wip IA - Model v2]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert WIP New]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert WIP v2]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	    - [ ] action
+	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
+	    - [ ] remplacement [[Panel/Actions|Actions]]
+
 
 ### liste des ad-* dans template/inserts
 
