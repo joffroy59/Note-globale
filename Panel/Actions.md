@@ -16,6 +16,6 @@ cov:
 
 `BUTTON[insert-daily-win, insert-daily-done]`
 
-`BUTTON[insert-problem-daily-ask]`
+`BUTTON[insert-problem-daily-insert-v2]`
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique]`

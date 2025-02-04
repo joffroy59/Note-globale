@@ -10,6 +10,14 @@ exampleProperty: Autre2
 `BUTTON[insert-daily-wip-ia_comfyui-flux-v2]`
 
 `BUTTON[insert-daily-wip-v2,insert-daily-wip-ia-select-v2]`
+
+
+## Problème
+
+`BUTTON[insert-problem-daily-ask]`
+
+`BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique]`
+
 ## Test 
 
 `BUTTON[insert-daily-wip,insert-daily-wip-ia,insert-daily-wip-ia-select]`

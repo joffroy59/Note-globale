@@ -48,21 +48,21 @@ version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite
 
 ### wip
 
-|                    |                                       | wip |
-| :----------------- | :------------------------------------ | --- |
-| template DailyNote | [[Insert WIP]]  --> [[Insert WIP v2]] |     |
-| template New Note  | [[Create WIP v2]]                     |     |
-| QuickAdd           | 🚧Insert WIP v2                       |     |
-| bouton             | `BUTTON[insert-daily-wip-v2]`         |     |
-|                    |                                       |     |
-| Old                | ![[Test Button#OK]]<br><br><br>       |     |
+|                    |                                 | wip               |
+| :----------------- | :------------------------------ | ----------------- |
+| template DailyNote | [[Insert WIP]]  ✅               | [[Insert WIP v2]] |
+| template New Note  | [[Create WIP v2]]               |                   |
+| QuickAdd           | 🚧Insert WIP v2                 |                   |
+| bouton             | `BUTTON[insert-daily-wip-v2]`   |                   |
+|                    |                                 |                   |
+| Old                | ![[Test Button - Cimetiére#OK]]<br><br><br> |                   |
 ### problems
 
-|                    |                                                                                                                                                                                               | wip |
-| :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| template DailyNote | [[Insert Problem]]  --> ia select  [[Insert WIP v2]]<br>[[Insert Problem - PC]]<br>[[Insert Problem - Ask]]  Select ??? <br>[[Insert Problem - Appart]]<br>[[Insert Problem - Domotique]]<br> |     |
-| template New Note  | [[Create WIP v2]]                                                                                                                                                                             |     |
-| QuickAdd           | 🚧Insert WIP v2                                                                                                                                                                               |     |
-| bouton             | `BUTTON[insert-daily-wip-v2]`                                                                                                                                                                 |     |
-|                    |                                                                                                                                                                                               |     |
-| Old                | ![[Test Button#OK]]<br><br><br>                                                                                                                                                               |     |
+|                    |                                                                                                                                                                     | wip                                      |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
+| template DailyNote | [[Insert Problem]]  --> <br>[[Insert Problem - PC]]<br>[[Insert Problem - Ask]]  Select oui  ✅<br>[[Insert Problem - Appart]]<br>[[Insert Problem - Domotique]]<br> | [[Insert Problem v2]]                    |
+| template New Note  | [[Create WIP v2]]                                                                                                                                                   | [[Create Problem v2]]                    |
+| QuickAdd           | 🚨Insert Problems Insert Ask<br>## 🚨Problème                                                                                                                       | 🚨Insert Problems v2<br>## 🚨Problème    |
+| bouton             | `BUTTON[insert-daily-wip-v2]`                                                                                                                                       | `BUTTON[insert-problem-daily-insert-v2]` |
+|                    |                                                                                                                                                                     |                                          |
+| Old                | ![[Test Button - Cimetiére#OK]]<br><br><br>                                                                                                                         | ![[Test Button - Cimetiére#Problème]]    |
