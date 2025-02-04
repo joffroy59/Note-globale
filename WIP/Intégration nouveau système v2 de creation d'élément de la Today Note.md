@@ -66,3 +66,6 @@ version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite
 | bouton             | `BUTTON[insert-daily-wip-v2]`                                                                                                                                       | `BUTTON[insert-problem-daily-insert-v2]` |
 |                    |                                                                                                                                                                     |                                          |
 | Old                | ![[Test Button - Cimetiére#OK]]<br><br><br>                                                                                                                         | ![[Test Button - Cimetiére#Problème]]    |
+### autres
+[[Suppression des double tache Today Note et détail Note]] fini lors de la supression des admonitions
+
