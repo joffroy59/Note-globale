@@ -35,7 +35,6 @@ title: <% type %>
 collapse: open
 
 - [ ] [[<% baseFolder %>/<% title %>]] #problem ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
-	- [ ] {{time}} FIX #todo ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ````
 
