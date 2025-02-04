@@ -37,26 +37,27 @@ Exemple
 			- [x] [[Create IA - ComFyUI - civitai v2]] [[Create IA - ComFyUI - Flux v2]] [[Create IA - Model v2]] ✅ 2025-02-04
 		- [x] Problem ✅ 2025-02-04
 - [ ] Trouver autre ad-* et ajouter détail note + note automatique créé et creer un V2 ➕ 2025-02-04   🛫 2025-02-04 
-	- [-] [[Insert DONE]] Détails note
-	- [ ] [[Insert Note]] Détails note
-	- [ ] [[Insert Other]] Détails note
-	- [ ] [[Insert Problem]] Détails note
-	- [ ] [[Insert Problem - Appart]] Détails note
-	- [ ] [[Insert Problem - Ask]] Détails note
-	- [ ] [[Insert Problem - Domotique]] Détails note
-	- [ ] [[Insert Problem - PC]] Détails note
-	- [ ] [[Insert Problem v2]] Détails note
-	- [ ] [[Insert ToView]] Détails note
-	- [ ] [[Insert Win]] Détails note
-	- [ ] [[Insert WIP IA]] Détails note
-	- [ ] [[Insert Wip IA - ComFyUI - Flux]] Détails note
-	- [ ] [[Insert Wip IA - ComFyUI - Flux v2]] Détails note
-	- [ ] [[Insert Wip IA - IA civitai]] Détails note
-	- [ ] [[Insert Wip IA - IA civitai v2]] Détails note
-	- [ ] [[Insert Wip IA - Model]] Détails note
-	- [ ] [[Insert Wip IA - Model v2]] Détails note
-	- [ ] [[Insert WIP New]] Détails note
-	- [ ] [[Insert WIP v2]] Détails note
+	exemple de détail note [[Create WIP v2]] et de insert [[Insert Wip IA - Select v2]] ou [[Insert Wip IA - Model v2]]
+	- [-] [[Insert DONE]] - Insert Note: [[Insert Idea v2]]  - Détails note: [[todo]]
+	- [ ] [[Insert Note]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Other]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Problem]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Problem - Appart]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Problem - Ask]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Problem - Domotique]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Problem - PC]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Problem v2]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert ToView]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Win]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert WIP IA]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Wip IA - ComFyUI - Flux]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Wip IA - ComFyUI - Flux v2]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Wip IA - IA civitai]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Wip IA - IA civitai v2]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Wip IA - Model]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert Wip IA - Model v2]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert WIP New]] - Insert Note: [[todo]]  - Détails note: [[todo]]
+	- [ ] [[Insert WIP v2]] - Insert Note: [[todo]]  - Détails note: [[todo]]
 
 ### liste des ad-* dans template/inserts
 
