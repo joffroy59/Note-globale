@@ -49,7 +49,7 @@ Exemple
 	    - [x] bouton `BUTTON[insert-daily-note-v2]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [ ] [[Insert Other]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	- [ ] [[Insert Other]] - Insert Note: [[Insert Other v2]] - Détails note: [[Create Other v2]]
 	    - [ ] action
 	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
