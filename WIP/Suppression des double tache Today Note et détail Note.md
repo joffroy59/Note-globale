@@ -54,37 +54,32 @@ Exemple
 	    - [x] bouton `BUTTON[insert-daily-other-v2]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [ ] [[Insert Problem]] - Insert Note: [[todo]] - Détails note: [[todo]]
-	    - [ ] action
-	    - [ ] bouton `BUTTON[TODO]`
-	    - [ ] test
-	    - [ ] remplacement [[Panel/Actions|Actions]]
-	- [ ] [[Insert Problem - Appart]] - Insert Note: [[todo]] - Détails note: [[todo]]
-	    - [ ] action
-	    - [ ] bouton `BUTTON[TODO]`
-	    - [ ] test
-	    - [ ] remplacement [[Panel/Actions|Actions]]
-	- [ ] [[Insert Problem - Ask]] - Insert Note: [[todo]] - Détails note: [[todo]]
-	    - [ ] action
-	    - [ ] bouton `BUTTON[TODO]`
-	    - [ ] test
-	    - [ ] remplacement [[Panel/Actions|Actions]]
-	- [ ] [[Insert Problem - Domotique]] - Insert Note: [[todo]] - Détails note: [[todo]]
-	    - [ ] action
-	    - [ ] bouton `BUTTON[TODO]`
-	    - [ ] test
-	    - [ ] remplacement [[Panel/Actions|Actions]]
-	- [ ] [[Insert Problem - PC]] - Insert Note: [[todo]] - Détails note: [[todo]]
-	    - [ ] action
-	    - [ ] bouton `BUTTON[TODO]`
-	    - [ ] test
-	    - [ ] remplacement [[Panel/Actions|Actions]]
-	- [ ] [[Insert Problem v2]] - Insert Note: [[todo]] - Détails note: [[todo]]
-	    - [ ] action
-	    - [ ] bouton `BUTTON[TODO]`
-	    - [ ] test
-	    - [ ] remplacement [[Panel/Actions|Actions]]
-	- [ ] [[Insert ToView]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	- [x] [[Insert Problem]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	    - [x] action ✅ 2025-02-04
+	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
+	    - [x] test ✅ 2025-02-04
+	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
+	- [x] [[Insert Problem - Appart]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	    - [x] action ✅ 2025-02-04
+	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
+	    - [x] test ✅ 2025-02-04
+	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
+	- [x] [[Insert Problem - Ask]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	    - [x] action ✅ 2025-02-04
+	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
+	    - [x] test ✅ 2025-02-04
+	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
+	- [x] [[Insert Problem - Domotique]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	    - [x] action ✅ 2025-02-04
+	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
+	    - [x] test ✅ 2025-02-04
+	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
+	- [x] [[Insert Problem - PC]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	    - [x] action ✅ 2025-02-04
+	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
+	    - [x] test ✅ 2025-02-04
+	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
+	- [ ] [[Insert ToView]] - Insert Note: [[Insert ToView V2]] - Détails note: [[todo]]
 	    - [ ] action
 	    - [ ] bouton `BUTTON[TODO]`
 	    - [ ] test
