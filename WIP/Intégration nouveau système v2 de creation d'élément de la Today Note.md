@@ -40,17 +40,29 @@ version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite
 		- template note
 		- [x] Insert Wip IA - Model v2
 		- [x] test ✅ 2025-02-03
-- [ ] généralisation aux autres catégories 
+- [x] généralisation aux autres catégories ✅ 2025-02-04
 	- [x] IA - model ✅ 2025-02-04
-	- [ ] [[#wip]]
+	- [x] [[#wip]] ✅ 2025-02-04
+	- [ ] [[#problems]]
 
 
 ### wip
 
-|                    |                                       |
-| :----------------- | :------------------------------------ |
-| template DailyNote | [[Insert WIP]]  --> [[Insert WIP v2]] |
-| template New Note  | [[Create WIP v2]]                     |
-| QuickAdd           | 🚧Insert WIP v2                       |
-| bouton             | `BUTTON[insert-daily-wip-v2]`         |
+|                    |                                       | wip |
+| :----------------- | :------------------------------------ | --- |
+| template DailyNote | [[Insert WIP]]  --> [[Insert WIP v2]] |     |
+| template New Note  | [[Create WIP v2]]                     |     |
+| QuickAdd           | 🚧Insert WIP v2                       |     |
+| bouton             | `BUTTON[insert-daily-wip-v2]`         |     |
+|                    |                                       |     |
+| Old                | ![[Test Button#OK]]<br><br><br>       |     |
+### problems
 
+|                    |                                                                                                                                                                                               | wip |
+| :----------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| template DailyNote | [[Insert Problem]]  --> ia select  [[Insert WIP v2]]<br>[[Insert Problem - PC]]<br>[[Insert Problem - Ask]]  Select ??? <br>[[Insert Problem - Appart]]<br>[[Insert Problem - Domotique]]<br> |     |
+| template New Note  | [[Create WIP v2]]                                                                                                                                                                             |     |
+| QuickAdd           | 🚧Insert WIP v2                                                                                                                                                                               |     |
+| bouton             | `BUTTON[insert-daily-wip-v2]`                                                                                                                                                                 |     |
+|                    |                                                                                                                                                                                               |     |
+| Old                | ![[Test Button#OK]]<br><br><br>                                                                                                                                                               |     |

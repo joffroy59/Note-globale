@@ -38,12 +38,3 @@ title: Note
 
 ---
 
-```ad-tip
-title: Ollama Models
-collapse: Closed
-
-- `= "[Ollama model]" + "(<file:///" + this.ollama_model_dir + ">)"`
-```
-
----
-
