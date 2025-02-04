@@ -38,7 +38,8 @@ Exemple
 		- [x] Problem ✅ 2025-02-04
 - [ ] Trouver autre ad-* et ajouter détail note + note automatique créé et creer un V2 ➕ 2025-02-04   🛫 2025-02-04 
 	exemple de détail note [[Create WIP v2]] et de insert [[Insert Wip IA - Select v2]] ou [[Insert Wip IA - Model v2]]
-	- [-] [[Insert DONE]] - Insert Note: [[Insert Idea v2]]  - Détails note: [[Create Idea v2]]
+	- [-] [[Insert DONE]] 
+	- [ ] [[Insert Idea]] Insert Note: [[Insert Idea v2]]  - Détails note: [[Create Idea v2]]
 		- [ ] test 
 	- [ ] [[Insert Note]] - Insert Note: [[todo]] - Détails note: [[todo]]
 	    - [ ] test
