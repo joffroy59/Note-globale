@@ -44,11 +44,11 @@ Exemple
 		- [x] bouton `BUTTON[insert-daily-idea-v2]` ✅ 2025-02-04
 		- [x] test ✅ 2025-02-04
 		- [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [ ] [[Insert Note]] - Insert Note: [[Insert Note v2]] - Détails note: [[Create Note v2]]
+	- [x] [[Insert Note]] - Insert Note: [[Insert Note v2]] - Détails note: [[Create Note v2]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[insert-daily-note-v2]` ✅ 2025-02-04
-	    - [ ] test
-	    - [ ] remplacement [[Panel/Actions|Actions]]
+	    - [x] test ✅ 2025-02-04
+	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
 	- [ ] [[Insert Other]] - Insert Note: [[todo]] - Détails note: [[todo]]
 	    - [ ] action
 	    - [ ] bouton `BUTTON[TODO]`
