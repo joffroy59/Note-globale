@@ -7,4 +7,5 @@
 
 - [ ] WIP
 	- [x] [[Insert WIP v2]] ✅ 2025-02-04
+	- [x] [[Insert Wip IA - ComFyUI - Flux v2]] ✅ 2025-02-05
 	- [ ] 
