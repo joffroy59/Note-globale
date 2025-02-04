@@ -18,10 +18,4 @@ await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 _%>
 ---
 <%* tp.file.cursor() %> 
-`````ad-example
-title: WIP IA - Model
-collapse: open
-
 - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/model  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
-
-`````
