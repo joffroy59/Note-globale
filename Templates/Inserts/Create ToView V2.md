@@ -19,10 +19,10 @@ let note = await tp.system.prompt("Note");
 %>
 ---
 <%* tp.file.cursor() %> 
-`````ad-attention
-title: Idea
+`````ad-important
+title: To view
 collapse: open
-#idea 
+#toview 
 
 ````ad-tip
 Source : <% url %>
@@ -36,5 +36,4 @@ title: Note
 <% note %> 
 
 ````
-
 `````
