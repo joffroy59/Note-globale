@@ -39,11 +39,11 @@ Exemple
 - [ ] Trouver autre ad-* et ajouter détail note + note automatique créé et creer un V2 ➕ 2025-02-04   🛫 2025-02-04 
 	exemple de détail note [[Create WIP v2]] et de insert [[Insert Wip IA - Select v2]] ou [[Insert Wip IA - Model v2]]
 	- [-] [[Insert DONE]] 
-	- [ ] [[Insert Idea]] Insert Note: [[Insert Idea v2]]  - Détails note: [[Create Idea v2]]
+	- [x] [[Insert Idea]] Insert Note: [[Insert Idea v2]]  - Détails note: [[Create Idea v2]] ✅ 2025-02-04
 		- [x] action 💡Insert Idea v2 ✅ 2025-02-04
 		- [x] bouton `BUTTON[insert-daily-idea-v2]` ✅ 2025-02-04
-		- [ ] test 
-		- [ ] remplacement [[Panel/Actions|Actions]]
+		- [x] test ✅ 2025-02-04
+		- [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
 	- [ ] [[Insert Note]] - Insert Note: [[todo]] - Détails note: [[todo]]
 	    - [ ] action
 	    - [ ] bouton `BUTTON[TODO]`
@@ -182,5 +182,6 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 
 ## info
 
+### Ok
 
-![[Suppression des double tache Today Note et détail Note-1738700438689.png]]
+![[Suppression des double tache Today Note et détail Note-1738700438689.png]]![[Suppression des double tache Today Note et détail Note-1738707020486.png|150x114]]

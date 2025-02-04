@@ -13,6 +13,7 @@ ollama_model_dir: I:\IA\ollama\models
   } 
 
 let entree = title ;
+let url = await tp.system.prompt("url");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
