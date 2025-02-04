@@ -24,8 +24,8 @@ collapse: open
 title: <% type %>
 collapse: open
 
-- [ ] [[<% baseFolder %>/<% title %>]] #problem ➕ {{DATE}} 🛫 {{DATE}}  
-	- [ ] {{time}} FIX #todo ➕ {{DATE}} 🛫 {{DATE}} 
+- [ ] [[<% baseFolder %>/<% title %>]] #problem ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>  
+	- [ ] {{time}} FIX #todo ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %> 
 
 ````
 ---
