@@ -19,7 +19,7 @@ _%>
 ---
 <%* tp.file.cursor() %> 
 `````ad-example
-title: Work In Progess
+title: WIP
 collapse: open
 
 - [/] [[<% baseFolder %>/<% title %>]] #status/wip  ➕ {{DATE}} 🛫 {{DATE}} 
