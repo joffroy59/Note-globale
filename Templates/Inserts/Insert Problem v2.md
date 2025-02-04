@@ -10,7 +10,7 @@ if (!type) type = typeDefaultValue
 
 let title = await tp.system.prompt("Title", defaultTitle);
 
-const templateName = "Templates/Inserts/Create Problem " + type + "v2"
+const templateName = "Templates/Inserts/Create Problem " + type + " v2"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
