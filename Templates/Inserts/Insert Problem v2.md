@@ -1,5 +1,5 @@
  <%*
-let baseFolder = "Problem"
+let baseFolder = "Problems"
 const defaultTitle = "Problem"
 
 let typeDefaultValue = "Général"
