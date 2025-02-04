@@ -8,7 +8,7 @@ ollama_model_dir: I:\IA\ollama\models
 title: WIP 
 collapse: open
 
-- [/] [[WIP/Supression des double tache TodayNote et detail Note]]  #status/wip  ➕ 2025-02-04 🛫 2025-02-04
+- [/] [[WIP/Suppression des double tache Today Note et détail Note]]  #status/wip  ➕ 2025-02-04 🛫 2025-02-04
 
 ````ad-tip
 Source : 
