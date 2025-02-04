@@ -52,7 +52,7 @@ Exemple
 	- [ ] [[Insert Other]] - Insert Note: [[Insert Other v2]] - Détails note: [[Create Other v2]]
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[insert-daily-other-v2]` ✅ 2025-02-04
-	    - [ ] test
+	    - [x] test ✅ 2025-02-04
 	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem]] - Insert Note: [[todo]] - Détails note: [[todo]]
 	    - [ ] action
