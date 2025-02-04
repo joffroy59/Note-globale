@@ -1,6 +1,3 @@
----
-ollama_model_dir: I:\IA\ollama\models
----
 <%*
 let baseFolder = "WIP"
 
@@ -12,29 +9,32 @@ if (title.startsWith(defaultTitle)) {
 	await tp.file.rename(`${title}`);
 } 
 
-let url = await tp.system.prompt("url");
 let note = await tp.system.prompt("Note");
 %>
 ---
 <%* tp.file.cursor() %> 
-``````ad-example
-title: WIP 
+`````ad-danger
+title: Les Problèmes
+collapse: open
+#problem
+
+
+````ad-warning
+title: <% type %>
 collapse: open
 
-- [/] [[<% baseFolder %>/<% title %>]]  #status/wip  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
-
-````ad-tip
-Source : <% url %>
+- [ ] [[<% baseFolder %>/<% title %>]] #problem ➕ {{DATE}} 🛫 {{DATE}}  
+	- [ ] {{time}} FIX #todo ➕ {{DATE}} 🛫 {{DATE}} 
 
 ````
-
-````ad-note
+---
+````ad-quote
 title: Note
 <% note %> 
 
 ````
 
-``````
+`````
 
 ---
 
