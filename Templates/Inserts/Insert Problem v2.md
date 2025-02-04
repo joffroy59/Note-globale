@@ -2,17 +2,24 @@
 let baseFolder = "Problems"
 const defaultTitle = "Problem"
 
-let typeDefaultValue = "Général"
-let type = await tp.system.prompt("Enter a type:", typeDefaultValue);
-if (!type) type = typeDefaultValue
+let typeList = ["Général", "Appart", "PC", "Domotique"]
 
+let typeDefaultValue = "Général"
+let type = await tp.system.suggester((item) => item, typeList)
+if (!type) type = typeDefaultValue
 
 let title = await tp.system.prompt("Title", defaultTitle);
 
-const templateName = "Templates/Inserts/Create Problem v2"
+const templateName = "Templates/Inserts/Create Problem " + type + "v2"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
+if (existing) {
+  createdFileDisplay = existing.basename;
+} else {
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), title, true));
+}
+//await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
 _%>
 ---

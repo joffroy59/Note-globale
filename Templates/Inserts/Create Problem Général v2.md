@@ -1,5 +1,6 @@
 <%*
 let baseFolder = "Problems"
+let type = "Général"
 
 let title = tp.file.title
 let defaultTitle = "Untitled"
