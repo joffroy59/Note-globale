@@ -1,6 +1,6 @@
  <%*
 let baseFolder = "WIP"
-const defaultTitle = "WIP"
+const defaultTitle = "WorkInProgress"
 
 let title = await tp.system.prompt("Title", defaultTitle);
 
