@@ -47,5 +47,10 @@ version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite
 
 ### wip
 
-template DailyNote : [[Insert WIP]]  --> [[Insert WIP v2]]
+|                    |                                       |
+| :----------------- | :------------------------------------ |
+| template DailyNote | [[Insert WIP]]  --> [[Insert WIP v2]] |
+| template New Note  | [[Create WIP v2]]                     |
+| QuickAdd           | 🚧Insert WIP v2                       |
+| bouton             | `BUTTON[insert-daily-wip-v2]`         |
 
