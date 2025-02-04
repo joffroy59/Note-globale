@@ -29,8 +29,6 @@ let note = await tp.system.prompt("Note");
 title: WIP IA - ComfyUI - Flux
 collapse: open
 
-- [/] <% entree %>  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
-
 ```ad-tip
 source: 
 

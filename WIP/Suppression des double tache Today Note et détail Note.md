@@ -32,9 +32,10 @@ Exemple
 ## Fix: 
 - [ ] supprimer la tâche du détail de la note 
 	- [x] test sur wip [[Templates/Inserts/Create WIP v2]] ✅ 2025-02-04
-	      
 	- [ ] généralisation 
 		- [ ] wip IA 
+			- [ ] [[Create IA - ComFyUI - civitai v2]] [[Create IA - ComFyUI - Flux v2]] [[Create IA - Model v2]]
 		- [ ] Problem 
 		- [ ] autres
 
+![[Suppression des double tache Today Note et détail Note-1738700438689.png]]
