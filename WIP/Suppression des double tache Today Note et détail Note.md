@@ -50,8 +50,8 @@ Exemple
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
 	- [ ] [[Insert Other]] - Insert Note: [[Insert Other v2]] - Détails note: [[Create Other v2]]
-	    - [ ] action
-	    - [ ] bouton `BUTTON[TODO]`
+	    - [x] action ✅ 2025-02-04
+	    - [x] bouton `BUTTON[insert-daily-other-v2]` ✅ 2025-02-04
 	    - [ ] test
 	    - [ ] remplacement [[Panel/Actions|Actions]]
 	- [ ] [[Insert Problem]] - Insert Note: [[todo]] - Détails note: [[todo]]
