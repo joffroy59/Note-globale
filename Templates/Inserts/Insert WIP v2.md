@@ -22,6 +22,6 @@ _%>
 title: Work In Progess
 collapse: open
 
-- [/] [[<% baseFolder %>/<% title %>]]  #test #status/wip  ➕ {{DATE}} 🛫 {{DATE}} 
+- [/] [[<% baseFolder %>/<% title %>]] #status/wip  ➕ {{DATE}} 🛫 {{DATE}} 
 
 `````

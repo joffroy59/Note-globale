@@ -31,7 +31,8 @@ Exemple
 
 ## Fix: 
 - [ ] supprimer la tâche du détail de la note 
-	- [ ] test sur wip 
+	- [x] test sur wip [[Templates/Inserts/Create WIP v2]] ✅ 2025-02-04
+	      
 	- [ ] généralisation 
 		- [ ] wip IA 
 		- [ ] Problem 

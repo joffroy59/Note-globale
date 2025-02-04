@@ -1,5 +1,6 @@
 ---
-ollama_model_dir: I:\IA\ollama\models
+tags:
+  - status/wip
 ---
 <%*
 let baseFolder = "WIP"
@@ -20,8 +21,6 @@ let note = await tp.system.prompt("Note");
 ``````ad-example
 title: WIP 
 collapse: open
-
-- [/] [[<% baseFolder %>/<% title %>]]  #status/wip  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ````ad-tip
 Source : <% url %>
