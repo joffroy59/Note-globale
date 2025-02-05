@@ -78,5 +78,29 @@ attention action et si bouton on verra a utilisation
 		- [x] ## 🏆Wins ————— ✅ 2025-02-05
 	- [x] Renommage  des Sections ## 🥷Missed Tasks en ## 🚀Tasks ✅ 2025-02-05
 	- [x] Suppression des Sections inutiles dans ## 🚀Tasks ✅ 2025-02-05
-- [/] Template [[Daily Note Template]] 
+- [x] Template [[Daily Note Template]] ✅ 2025-02-05
+
+- [ ] Essai et choix de garder ou revenir a précédente
+
+> [!multi-column]
+>
+>![[Daily Note plus simple-1738712341368.png]]
+>
+>> ![[Daily Note plus simple-1738714814438.png]]
+
+![[Daily Note plus simple-1738714873086.png]]
+
+
+##### Encore moins de section task 
+attention action et si bouton on verra a utilisation
+- [/] Page [[📒2025-02-05]] 
+	- [x] Déplacement des Sections inutiles  dans ## 🚀Tasks ✅ 2025-02-05
+		- [x] ### 📎TODO's — ✅ 2025-02-05
+		- [x] ### ✅ DONE ✅ 2025-02-05
+		- [x] ### 📅Planning Tasks ——— ✅ 2025-02-05
+	- [x] Déplacement des Sections inutiles dans ## 📝Note ✅ 2025-02-05
+		- [x] ### 🪛Sandbox ————— ✅ 2025-02-05
+- [x] TAg pour essaie plus tard au cas ou plutot un ccommit test refacctoring Daily Note v1.1  et farei version suivante test refacctoring Daily Note v1.3✅ 2025-02-05
+- [x] Template [[Daily Note Template]] ✅ 2025-02-05
+- [x] TAg pour essaie plus tard au cas ou plutot un ccommit test refacctoring Daily Note v1.1  et farei version suivante test refacctoring Daily Note v1.3✅ 2025-02-05
 - [ ] Essai et choix de garder ou revenir a précédente
