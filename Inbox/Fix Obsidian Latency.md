@@ -1,2 +1,4 @@
-List lpugin enable en cours
+List Plugin enable en cours
+
+- [/] [[Plugin Liste reprise]]
 
