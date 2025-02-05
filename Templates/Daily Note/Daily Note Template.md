@@ -25,16 +25,14 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 - [ ] **Missed Tasks**
 ### 🥷Missed Tasks
 
-### 📅Planning Tasks ———
 
-``````ad-cite
-collapse: Closed
- <% tp.file.include("[[Planning Tasks]]") %>
-``````
+### 📎TODO's ——————
 
+`BUTTON[insert-daily-todo]` `BUTTON[insert-daily-toview]` `BUTTON[insert-daily-idea]`  `BUTTON[insert-daily-task]` `BUTTON[insert-daily-task-obsidian]`
 
-
-## ✅ DONE ——————
+- [ ] **TODO**  ➕ <% tp.date.now("YYYY-MM-DD") %>
+ 
+### ✅ DONE ——————
 
 ``````ad-tip
 title: Done Today
@@ -63,12 +61,16 @@ group by backlink
  `BUTTON[insert-daily-done]` `BUTTON[insert-daily-win]`
  
 
-## 📎TODO's ——————
+### 📅Planning Tasks ———
 
-`BUTTON[insert-daily-todo]` `BUTTON[insert-daily-toview]` `BUTTON[insert-daily-idea]`  `BUTTON[insert-daily-task]` `BUTTON[insert-daily-task-obsidian]`
+``````ad-cite
+collapse: Closed
+ <% tp.file.include("[[Planning Tasks]]") %>
+``````
 
-- [ ] **TODO**  ➕ <% tp.date.now("YYYY-MM-DD") %>
- 
+
+
+
 
 ## 🚨Problème —————
 
@@ -96,7 +98,7 @@ group by backlink
 
 
 
-## 🪛Sandbox 
+### 🪛Sandbox 
 
 
 
