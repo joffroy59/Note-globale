@@ -1,4 +1,3 @@
- 
  <%*
 let defaultValue = "WIP IA"  
 let typeList = ["Generic", "Model", "ComFyUI - Flux", "IA civitai", "Application"]

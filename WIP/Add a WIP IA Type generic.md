@@ -2,6 +2,9 @@
 tags:
   - status/wip
 ---
+- [x] [[Insert Wip IA - Generic v2]] [[Create IA - Generic v2]]
+- [x] [[Insert Wip IA - Application v2]] [[Create IA - Application v2]] ✅ 2025-02-05
+
 
 ---
  

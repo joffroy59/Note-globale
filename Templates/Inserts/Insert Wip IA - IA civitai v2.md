@@ -15,20 +15,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-_%>
----
-<%* tp.file.cursor() %> 
-
-- [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
-
----
-
-```ad-tip
-title: Stability Matrix - ComfyUI
-collapse: Closed
-
-- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
-- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
-```
-
-
+%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
