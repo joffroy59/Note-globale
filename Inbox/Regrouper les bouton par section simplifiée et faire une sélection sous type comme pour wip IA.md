@@ -8,6 +8,9 @@ Pattern :  Insert Note - ${type}
 Type :  ["Note", "Idea", "Other"]
 
 - [ ] create a select from IA [[Insert Wip IA - Select v2]]  :  [[Insert Note - Select]]
+- [ ] renommaer/dupliquer sous template
+	- [ ] [[Insert Note - Other]]
+	- [ ] 
 - [ ] action for select duplicate Wip IA select  : 📝Insert Note - Select 
 - [ ] button  insert-daily-bote-select   `BUTTON[insert-daily-bote-select]`
 - [ ] test 
