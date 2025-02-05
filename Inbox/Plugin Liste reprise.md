@@ -15,7 +15,18 @@ Il faudrait mettre dans le tableau
 
 
 #### note 
+- [/] retrouver toutes les note template ou non listant les plugins [[#List 1]] ^5bdd5d
+- [ ] classer template non template  [[#List 2]]
+- [ ] trouver les parentes des note produites  [[#List 3]]
+- [ ] autres  [[#List 4]] 
 
+##### List 1
 [[Plugin List All with Id - 2025-01-16]]
 [[plugins]]
+
+##### List 2
+
+##### List 3
+##### List 4
+
 
