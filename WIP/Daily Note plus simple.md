@@ -33,7 +33,7 @@ faire plutôt une section TODO
 
 ##### Conservation des section mais dans  ## 📎TODO's et ## 📝Note et ## ✅ DONE
 attention aux actions et si bouton on verra plutard à utilisation
-- [/] Page [[📒2025-02-05]] 
+- [x] Page [[📒2025-02-05]] ✅ 2025-02-05
 	- [x] Déplacement des Sections inutiles  dans ## 📎TODO's ✅ 2025-02-05
 		- [x] ## 👀To View ————— ✅ 2025-02-05
 		- [x] ## 💡Ideas ——————— ✅ 2025-02-05
@@ -66,7 +66,7 @@ attention aux actions et si bouton on verra plutard à utilisation
 
 ##### Conservation des section mais dans  ## 📎TODO's et ## 📝Note ## ✅ DONE
 attention action et si bouton on verra a utilisation
-- [/] Page [[📒2025-02-05]] 
+- [x] Page [[📒2025-02-05]] ✅ 2025-02-05
 	- [x] Suppression des Sections inutiles  dans ## 📎TODO's ✅ 2025-02-05
 		- [x] ## 👀To View ————— ✅ 2025-02-05
 		- [x] ## 💡Ideas ——————— ✅ 2025-02-05
@@ -93,7 +93,7 @@ attention action et si bouton on verra a utilisation
 
 ##### Encore moins de section task 
 attention action et si bouton on verra a utilisation
-- [/] Page [[📒2025-02-05]] 
+- [x] Page [[📒2025-02-05]] ✅ 2025-02-05
 	- [x] Déplacement des Sections inutiles  dans ## 🚀Tasks ✅ 2025-02-05
 		- [x] ### 📎TODO's — ✅ 2025-02-05
 		- [x] ### ✅ DONE ✅ 2025-02-05
