@@ -67,16 +67,16 @@ attention aux actions et si bouton on verra plutard à utilisation
 ##### Conservation des section mais dans  ## 📎TODO's et ## 📝Note ## ✅ DONE
 attention action et si bouton on verra a utilisation
 - [/] Page [[📒2025-02-05]] 
-	- [ ] Suppression des Sections inutiles  dans ## 📎TODO's
-		- [ ] ## 👀To View —————
-		- [ ] ## 💡Ideas ———————
-		- [ ] ## 🚀 Tasks ——————
-		- [ ] ## 🚀 Tasks Obsidian —
-	- [ ] Suppression des Sections inutiles dans ## 📝Note
-		- [ ] ## 👉Autre —————
-	- [ ] Suppression des Sections inutiles dans ## ✅ DONE
-		- [ ] ## 🏆Wins —————
-	- [ ] Renommage  des Sections ## 🥷Missed Tasks en ## 🚀Tasks
-	- [ ] Suppression des Sections inutiles dans ## 🚀Tasks
-		- [ ] ## 📅Planning Tasks —————
+	- [x] Suppression des Sections inutiles  dans ## 📎TODO's ✅ 2025-02-05
+		- [x] ## 👀To View ————— ✅ 2025-02-05
+		- [x] ## 💡Ideas ——————— ✅ 2025-02-05
+		- [x] ## 🚀 Tasks —————— ✅ 2025-02-05
+		- [x] ## 🚀 Tasks Obsidian — ✅ 2025-02-05
+	- [x] Suppression des Sections inutiles dans ## 📝Note ✅ 2025-02-05
+		- [x] ## 👉Autre ————— ✅ 2025-02-05
+	- [x] Suppression des Sections inutiles dans ## ✅ DONE ✅ 2025-02-05
+		- [x] ## 🏆Wins ————— ✅ 2025-02-05
+	- [x] Renommage  des Sections ## 🥷Missed Tasks en ## 🚀Tasks ✅ 2025-02-05
+	- [x] Suppression des Sections inutiles dans ## 🚀Tasks ✅ 2025-02-05
+- [/] Template [[Daily Note Template]] 
 - [ ] Essai et choix de garder ou revenir a précédente

@@ -17,41 +17,22 @@ sticker: emoji//1f636-200d-1f32b-fe0f
  - [/] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %> 🛫 <% tp.date.now("YYYY-MM-DD") %>
 
 
-## 🥷Missed Tasks ————
+
+## 🚀Tasks ———————
 
 `BUTTON[rollover,rollover_revert]`
 
 - [ ] **Missed Tasks**
-### Missed Tasks
+### 🥷Missed Tasks
 
-
-
-## 🚀 Tasks ——————
-
- `BUTTON[insert-daily-task]`
- 
- - [ ] **Tasks** ➕ <% tp.date.now("YYYY-MM-DD") %>
- 
-
-## 🚀 Tasks Obsidian — 
-
-`BUTTON[insert-daily-task]`
-
-- [ ] **Obsidian** ➕ <% tp.date.now("YYYY-MM-DD") %>
-
-
-## 📅Planning Tasks ———
+### 📅Planning Tasks ———
 
 ``````ad-cite
 collapse: Closed
  <% tp.file.include("[[Planning Tasks]]") %>
 ``````
 
-## 🏆Wins ———
 
-`BUTTON[insert-daily-win]`
-
- - [x] **Win**  ➕ <% tp.date.now("YYYY-MM-DD") %> ✅ <% tp.date.now("YYYY-MM-DD") %>
 
 ## ✅ DONE ——————
 
@@ -79,30 +60,15 @@ group by backlink
 
 ``````
 
- `BUTTON[insert-daily-done]`
- 
-
-
-## 💡Ideas ———————
-
- `BUTTON[insert-daily-idea]`
-
- - [ ] **Ideas**  ➕ <% tp.date.now("YYYY-MM-DD") %>
+ `BUTTON[insert-daily-done]` `BUTTON[insert-daily-win]`
  
 
 ## 📎TODO's ——————
 
-`BUTTON[insert-daily-todo]`
+`BUTTON[insert-daily-todo]` `BUTTON[insert-daily-toview]` `BUTTON[insert-daily-idea]`  `BUTTON[insert-daily-task]` `BUTTON[insert-daily-task-obsidian]`
 
 - [ ] **TODO**  ➕ <% tp.date.now("YYYY-MM-DD") %>
  
-
-## 👀To View —————
-
-`BUTTON[insert-daily-toview]`
-
-- [ ] **To View**  ➕ <% tp.date.now("YYYY-MM-DD") %>
-
 
 ## 🚨Problème —————
 
@@ -111,7 +77,7 @@ group by backlink
 
 ## 📝Note ———————
 
-`BUTTON[insert-daily-note]`
+`BUTTON[insert-daily-note]` `BUTTON[insert-daily-other]`
 
 - [ ] **Note**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
@@ -129,11 +95,6 @@ group by backlink
 > 
 
 
-## 👉Autre ——————
-
-`BUTTON[insert-daily-other]`
-
-- [ ] **Autre**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
 ## 🪛Sandbox 
 
