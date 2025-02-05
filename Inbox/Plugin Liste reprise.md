@@ -88,46 +88,45 @@ Il faudrait mettre dans le tableau
 
 ### Task List
 
-
-| Template                                  | Create Type | Sub-Task | Status | Action/Button Name          | exists |                                             |
-| ----------------------------------------- | ----------- | -------- | ------ | --------------------------- | ------ | ------------------------------------------- |
-| [[Plugin List All]]                       | 🆕          | QuickAdd | 🟢     | fix-plugins-template        | 🟢     |                                             |
-|                                           |             | Button   | 🔴     |                             | 🔴     |                                             |
-|                                           | ➕           | QuickAdd | 🟡     | insert-plugin-list-all      | 🔴     | ![[Plugin Liste reprise-1738795765888.png]] |
-|                                           |             | Button   | 🔴     | insert-plugin-list-all      | 🔴     |                                             |
-| [[Plugin List]]                           | 🆕          | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-| [[Plugin List All with Id]]               | 🆕          | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-| [[Plugin List All with Id - Rename Note]] | 🆕          | QuickAdd | 🔴     |                             | 🔴     |                                             |
-|                                           |             | Button   | 🟢     | fix-plugins-template-rename | 🟢     |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             | 🔴     |                                             |
-|                                           |             | Button   | 🔴     |                             | 🔴     |                                             |
-| [[Plugin List Global v2]]                 | 🆕          | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-| [[Plugin List v2]]                        | 🆕          | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-| [[Plugin List v2 IA]]                     | 🆕          | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-| [[Plugin List wip]]                       | 🆕          | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             |        |                                             |
-|                                           |             | Button   | 🔴     |                             |        |                                             |
-|                                           |             |          |        |                             |        |                                             |
-| [[Correctif Plugin Obsidian]]             | 🆕          | QuickAdd | 🟢     | Fix Plugins Obsidian        | 🟢     |                                             |
-|                                           |             | Button   | 🔴     |                             | 🔴     |                                             |
-|                                           | ➕           | QuickAdd | 🔴     |                             | 🔴     |                                             |
-|                                           |             | Button   | 🔴     |                             | 🔴     |                                             |
+| Template                                  | Create Type | Sub-Task | Status | Action/Button Name                                                     | exists |                                             |
+| ----------------------------------------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- | ------ | ------------------------------------------- |
+| [[Plugin List All]]                       | 🆕          | QuickAdd | 🟢     | Fix Plugins Obsidian                                                   | 🟢     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🟡     | Insert - Plugin List All                                               | 🔴     | ![[Plugin Liste reprise-1738795765888.png]] |
+|                                           |             | Button   | 🟢     | insert-plugin-list-all `BUTTON[insert-plugin-list-all]`  va pas servir | 🔴     |                                             |
+| [[Plugin List]]                           | 🆕          | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🟡     | Insert - Plugin List                                                   | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+| [[Plugin List All with Id]]               | 🆕          | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🟡     | Insert - Plugin List All with Id                                       | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+| [[Plugin List All with Id - Rename Note]] | 🆕          | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🟢     | fix-plugins-template-rename                                            | 🟢     |                                             |
+|                                           | ➕           | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+| [[Plugin List Global v2]]                 | 🆕          | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+| [[Plugin List v2]]                        | 🆕          | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+| [[Plugin List v2 IA]]                     | 🆕          | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+| [[Plugin List wip]]                       | 🆕          | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             |          |        |                                                                        |        |                                             |
+| [[Correctif Plugin Obsidian]]             | 🆕          | QuickAdd | 🟢     | Fix Plugins Obsidian                                                   | 🟢     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
+|                                           | ➕           | QuickAdd | 🔴     |                                                                        | 🔴     |                                             |
+|                                           |             | Button   | 🔴     |                                                                        | 🔴     |                                             |
 - 🔴 : Not Done
 - 🟡 : En Cours
 - 🟢 : create / DONE
