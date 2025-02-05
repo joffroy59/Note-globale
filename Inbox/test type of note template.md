@@ -1,4 +1,4 @@
-with action templater create open popup 
+with action Templater create open popup 
 
 - [[Plugin List All]]
 - [[Plugin List]]

@@ -92,7 +92,7 @@ Il faudrait mettre dans le tableau
 | ----------------------------------------- | ----------- | -------- | ------ | --------------------------- | ------ |
 | [[Plugin List All]]                       | 🆕          | QuickAdd | 🟡     | fix-plugins-template        | 🟡     |
 |                                           |             | Button   | 🟡     |                             | 🔴     |
-|                                           | ➕           | QuickAdd | 🟡     |                             | 🔴     |
+|                                           | ➕           | QuickAdd | 🟡     | insert-plugin-list-all      | 🔴     |
 |                                           |             | Button   | 🟡     |                             | 🔴     |
 | [[Plugin List]]                           | 🆕          | QuickAdd | 🟡     |                             |        |
 |                                           |             | Button   | 🟡     |                             |        |
@@ -127,11 +127,26 @@ Il faudrait mettre dans le tableau
 |                                           |             | Button   | 🟡     |                             | 🔴     |
 |                                           | ➕           | QuickAdd | 🟡     |                             | 🔴     |
 |                                           |             | Button   | 🟡     |                             | 🔴     |
-
-
 - 🔴 : create
 - 🟡 : Button pas obligatoire
 - 🟢 : DONE
+
+#### remarques
+
+``````ad-cite
+title: Remarque - QuickAdd
+
+```ad-info
+les Quicadd sont plus compliquer a dupliqer car pas trouver comment dupliquer macro 
+```
+``````
+
+``````ad-quote
+title: Remarque - Button
+```ad-fail
+![[Plugin Liste reprise-1738795252027.png|150x93]] 
+```
+``````
 
 #### Task List old 
 
