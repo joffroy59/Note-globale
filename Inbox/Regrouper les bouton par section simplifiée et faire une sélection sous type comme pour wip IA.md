@@ -60,9 +60,13 @@ Type :  ["Todo", "Done", "Win", "ToView"]
 
 ## problème et blocage
 
-pas possible de choisir ou creer le sous create naote ,  c'est la note select qui semble l'emporter ccar on bypass le quiadd de creation de la feuille 
+Impossible de choisir ou créer l'insert note (section), c'est la note Select qui semble l'emporter car elle est appelée en première et c'est l'action QuickAdd du select qui décide où mettre le template à insérer (en l'état, c'est).
 
-idees 
+### ok pour (ccar meme section d'insert)
+-  WIP et WIP IA  
+- Problem
+- tasks car p plus de section Obsidian et général 
 
+### idées 
 - peut etre utiliser une autre technique 
 - trouver comment en templater selectection le header apres lequel mettre 
