@@ -58,7 +58,7 @@ Type :  ["Todo", "Done", "Win", "ToView"]
 	- [ ] test
 
 
-## probleme et bloage
+## problème et blocage
 
 pas possible de choisir ou creer le sous create naote ,  c'est la note select qui semble l'emporter ccar on bypass le quiadd de creation de la feuille 
 
