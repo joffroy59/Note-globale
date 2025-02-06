@@ -80,6 +80,7 @@ collapse: Closed
 ## 📝Note ———————
 
 `BUTTON[insert-daily-note]` `BUTTON[insert-daily-other]`
+### My Note
 
 - [ ] **Note**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
