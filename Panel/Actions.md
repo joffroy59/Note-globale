@@ -12,7 +12,7 @@ cov:
 
 `BUTTON[insert-daily-task,insert-daily-task-obsidian]` 
 
-`BUTTON[insert-daily-note-v2, insert-daily-idea-v2, insert-daily-other-v2]`
+`BUTTON[insert-daily-bote-select]`
 
 `BUTTON[insert-daily-win, insert-daily-done]`
 
