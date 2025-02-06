@@ -4,7 +4,7 @@ const defaultTitle = "Other"
 
 let title = await tp.system.prompt("Title", defaultTitle);
 
-const templateName = "Templates/Inserts/Create Idea v2"
+const templateName = "Templates/Inserts/Create Other"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
