@@ -12,7 +12,6 @@ ollama_model_dir: I:\IA\ollama\models
     await tp.file.rename(`${title}`);
   } 
 
-let entree = title ;
 let url = await tp.system.prompt("url");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
@@ -30,25 +29,6 @@ collapse: open
 Source : <% url %>
 
 image: <% image %> 
-
-````
-
-`````
-`````ad-attention
-title: Idea
-collapse: open
-#idea 
-
-````ad-tip
-Source : <% url %>
-
-image: <% image %> 
-
-````
-
-````ad-note
-title: Note
-<% note %> 
 
 ````
 
