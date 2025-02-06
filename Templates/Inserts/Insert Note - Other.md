@@ -16,7 +16,6 @@ if (existing) {
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
 _%>
----
 <%* tp.file.cursor() %> 
 `````ad-seealso
 title: Other
