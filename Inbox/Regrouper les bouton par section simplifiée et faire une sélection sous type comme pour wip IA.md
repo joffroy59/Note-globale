@@ -56,3 +56,13 @@ Type :  ["Todo", "Done", "Win", "ToView"]
 	- [ ] create note template
 	- [ ] button  insert-daily-todo-select   `BUTTON[insert-daily-todo-select]`
 	- [ ] test
+
+
+## probleme et bloage
+
+pas possible de choisir ou creer le sous create naote ,  c'est la note select qui semble l'emporter ccar on bypass le quiadd de creation de la feuille 
+
+idees 
+
+- peut etre utiliser une autre technique 
+- trouver comment en templater selectection le header apres lequel mettre 
