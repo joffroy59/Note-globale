@@ -16,8 +16,15 @@ Type :  ["Note", "Idea", "Other"]
 - [x] test ✅ 2025-02-06
 - [x] replace in [[Panel/Actions|Actions]] ✅ 2025-02-06
 - [ ] Note 
+	- [ ] renommer/dupliquer sous template
+	- [ ] create note template
+	- [ ] button  insert-daily-todo-select   `BUTTON[insert-daily-bote-select]` ✅ 2025-02-06
+	- [ ] test
 - [ ] Idea
-
+	- [ ] renommer/dupliquer sous template
+	- [ ] create note template
+	- [ ] button  insert-daily-todo-select   `BUTTON[insert-daily-bote-select]` ✅ 2025-02-06`
+	- [ ] test
 ### Note
 
 
@@ -32,8 +39,20 @@ Type :  ["Todo", "Done", "Win", "ToView"]
 	- [x] [[Insert Note - Other]] -> [[Create Done]] ✅ 2025-02-06
 - [x] action for select duplicate Wip IA select  : 📝Insert Note - Select  --> [[Insert Todo - Select]]✅ 2025-02-06 
 - [x] button  insert-daily-todo-select   `BUTTON[insert-daily-todo-select]` ✅ 2025-02-06
-- [ ] test
+- [x] test ✅ 2025-02-06
 - [ ] replace in [[Panel/Actions|Actions]]
 - [ ] Todo
+	- [x] renommer/dupliquer sous template ✅ 2025-02-06
+	- [x] create note template ✅ 2025-02-06
+	- [ ] button  insert-daily-todo-select   `BUTTON[insert-daily-todo-select]`
+	- [ ] test
 - [ ] Win
+	- [ ] renommer/dupliquer sous template
+	- [ ] create note template
+	- [ ] button  insert-daily-todo-select   `BUTTON[insert-daily-todo-select]`
+	- [ ] test
 - [ ] ToView
+	- [ ] renommer/dupliquer sous template
+	- [ ] create note template
+	- [ ] button  insert-daily-todo-select   `BUTTON[insert-daily-todo-select]`
+	- [ ] test
