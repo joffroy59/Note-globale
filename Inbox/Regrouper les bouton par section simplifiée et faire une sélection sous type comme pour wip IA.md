@@ -7,10 +7,10 @@
 Pattern :  Insert Note - ${type}
 Type :  ["Note", "Idea", "Other"]
 
-- [ ] create a select from IA [[Insert Wip IA - Select v2]]  :  [[Insert Note - Select]]
-- [ ] renommer/dupliquer sous template
-	- [ ] [[Insert Note - Other]]
-	- [ ] 
-- [ ] action for select duplicate Wip IA select  : 📝Insert Note - Select 
-- [ ] button  insert-daily-bote-select   `BUTTON[insert-daily-bote-select]`
-- [ ] test 
+- [ ] create a select from exemple IA [[Insert Wip IA - Select v2]]  :  [[Insert Note - Select]]
+- [x] renommer/dupliquer sous template ✅ 2025-02-06
+	- [x] [[Insert Note - Other]] ✅ 2025-02-06
+	- [x]  ✅ 2025-02-06
+- [x] action for select duplicate Wip IA select  : 📝Insert Note - Select ✅ 2025-02-06
+- [x] button  insert-daily-bote-select   `BUTTON[insert-daily-bote-select]` ✅ 2025-02-06
+- [x] test ✅ 2025-02-06
