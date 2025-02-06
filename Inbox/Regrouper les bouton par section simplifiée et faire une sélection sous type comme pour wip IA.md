@@ -60,9 +60,9 @@ Type :  ["Todo", "Done", "Win", "ToView"]
 
 ## problème et blocage
 
-Impossible de choisir ou créer l'insert note (section), c'est la note Select qui semble l'emporter car elle est appelée en première et c'est l'action QuickAdd du select qui décide où mettre le template à insérer (en l'état, c'est).
+Il est actuellement impossible de choisir ou de créer l'insert note (section) car la note "Select" a la priorité. Elle est appelée en premier et c'est l'action "QuickAdd" du select qui détermine l'emplacement du template à insérer. Actuellement, seuls les inserts sous la même section fonctionnent correctement.
 
-### ok pour (ccar meme section d'insert)
+### ok pour (car même section d'insertion)
 -  WIP et WIP IA  
 - Problem
 - tasks car p plus de section Obsidian et général 
