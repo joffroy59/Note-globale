@@ -22,5 +22,5 @@ title: DONE
 collapse: open
 #done 
 
-- [x] [[<% baseFolder %>/<% title %>]]  #Other ➕ <% tp.date.now() %>  ✅ <% tp.date.now() %>
+- [x] [[<% baseFolder %>/<% title %>]]  #done ➕ <% tp.date.now() %>  ✅ <% tp.date.now() %>
 `````
