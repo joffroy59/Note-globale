@@ -25,10 +25,9 @@ Type :  ["Note", "Idea", "Other"]
 Pattern :  Insert Done - ${type}
 Type :  ["Todo", "Done", "Win", "ToView"]
 
-- [ ] create a select from exemple   [[Insert Note - Select]]  -> [[Insert Todo - Select]]
+- [x] create a select from exemple   [[Insert Note - Select]]  -> [[Insert Todo - Select]] ✅ 2025-02-06
 - [ ] renommer/dupliquer sous template
 	- [ ] [[Insert Note - Other]]
-	- [ ] 
 - [ ] action for select duplicate Wip IA select  : 📝Insert Note - Select
 - [ ] button  insert-daily-bote-select   `BUTTON[insert-daily-bote-select]`
 - [ ] test
