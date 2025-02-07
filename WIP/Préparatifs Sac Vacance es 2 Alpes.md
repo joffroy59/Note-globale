@@ -23,6 +23,7 @@ title: Note
 ``````
 
 ---
+## Tasks
 
 - [ ] PC 
 	- [ ] transfert/copy  DD externe 
@@ -42,22 +43,28 @@ title: Note
 	- [ ] 
 
 
-### Externe  SSD M2
+## Externe  SSD M2
+
 ![[Préparatifs Sac Vacance es 2 Alpes-1738949923510.png]]
-#### Etat avant 
+### Etat avant 
 ![[Préparatifs Sac Vacance es 2 Alpes-1738949408125.png|150x111]] ![[Préparatifs Sac Vacance es 2 Alpes-1738949418532.png|300]]
 
-#### Copy
+### Copy 
 
-#### Apres 
+
+### Etat après
+
 
 si besoin mettre sur autre externe : [[#Externe SSD]]
+## Externe  SSD
 
-### Externe  SSD
 ![[Préparatifs Sac Vacance es 2 Alpes-1738949944065.png]]
-#### Etat avant 
-![[Préparatifs Sac Vacance es 2 Alpes-1738949408125.png|150x111]] ![[Préparatifs Sac Vacance es 2 Alpes-1738949418532.png|300]]
+### Etat avant 
 
-#### Copy
 
-#### Apres 
+### Copy 
+
+
+### Etat après
+
+
