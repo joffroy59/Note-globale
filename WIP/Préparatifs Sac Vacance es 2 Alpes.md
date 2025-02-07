@@ -29,6 +29,7 @@ title: Note
 		- [ ] voir si possible de le faire avec outils pour avoir ce qui a ete fait 
 		- [ ] [[#Externe  SSD M2]]
 	- [ ] prendre ssd ancien pc pour nettoyage etc onservation docker et autre 
+	- [ ] Keepass 
 	- [ ] obsisian all 
 	- [ ] docker comopse (repo git ) faire archive git 
 	- [ ] update logiciel 

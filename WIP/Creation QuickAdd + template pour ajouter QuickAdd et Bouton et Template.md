@@ -23,6 +23,12 @@ title: Note
 ``````
 
 ---
+ℹ️ ajouté avec commande insert template 
 
-[[Insert Create Action]]
+|          |     |
+| -------- | --- |
+| Template |     |
+| QuicAdd  |     |
+| Button   |     |
+
 
