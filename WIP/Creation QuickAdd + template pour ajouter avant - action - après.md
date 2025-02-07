@@ -1,14 +1,14 @@
 exemple sur [[Préparatifs Sac Vacance es 2 Alpes]]
 
-- [ ] action + template 
+- [x] action + template ✅ 2025-02-07
 
-|          |                                 | 📷  |    🧪    |
-| -------- | :-----------------------------: | :-: | :------: |
-| Template | [[Insert - Create with Status]] |     |    ✅     |
-| QuicAdd  |  `Insert - Create with Status`  |     | ✅ 🏆ℹ️❌❓ |
-| Button   |           `BUTTON[?]`           |     | ✅ 🏆ℹ️❌❓ |
+|          |                                 | 📷  | 🧪  |
+| -------- | :-----------------------------: | :-: | :-: |
+| Template | [[Insert - Create with Status]] |     |  ✅  |
+| QuicAdd  |  `Insert - Create with Status`  |     |  ✅  |
+| Button   |           `BUTTON[?]`           |     |  ❌  |
 - [ ] utiliser des question 
-	- [ ] dupliquer Tempalte [[Insert - Create with Status]]
+	- [ ] dupliquer Template [[Insert - Create with Status]]
 
 |          |                                 | 📷  |    🧪    |
 | -------- | :-----------------------------: | :-: | :------: |
