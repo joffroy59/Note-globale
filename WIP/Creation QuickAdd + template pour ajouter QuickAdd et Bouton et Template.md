@@ -24,3 +24,5 @@ title: Note
 
 ---
 
+[[Insert Create Action]]
+
