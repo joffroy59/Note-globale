@@ -1,7 +1,6 @@
-|          |                          | 📷  | 🧪  |
-| -------- | :----------------------: | :-: | :-: |
-| Template | [[Insert Create Action]] |     |     |
-| QuicAdd  |  `Insert Create Action`  |     |     |
-| Button   |       `BUTTON[?]`        |     |     |
+|          |                          | 📷  |    🧪    |
+| -------- | :----------------------: | :-: | :------: |
+| Template | [[Insert Create Action]] |     | ✅ 🏆ℹ️❌❓ |
+| QuicAdd  |  `Insert Create Action`  |     | ✅ 🏆ℹ️❌❓ |
+| Button   |       `BUTTON[?]`        |     | ✅ 🏆ℹ️❌❓ |
 
-✅ 🏆ℹ️❌❓ 
