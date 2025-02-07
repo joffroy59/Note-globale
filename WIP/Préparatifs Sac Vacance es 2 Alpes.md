@@ -40,7 +40,7 @@ title: Note
 			- [ ] test petit model a telecharher phi , small , autre
 		- [ ] docker 
 			- [ ] openwebui
-	- [ ] 
+
 
 
 ## Externe  SSD M2
