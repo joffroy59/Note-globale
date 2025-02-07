@@ -9,7 +9,8 @@ avec QuickAdd `BUTTON[insert-plugin-list-all]`  ❌
 
 avec command templater insert from open modal 
 
-## ✨Liste des plugins installés (ALL)
+## ✨Liste des plugins installés (ALL) 2025-02-05
+- [ ] Création liste des plugin en cours
 ### Pour rafraîchir la liste :
 Utiliser  le  insert 'Templater' pour générer la liste des plugin ici : 
 `templater : Open Insert Template  Modal`   > Snippets >  [[Plugin List All]]
