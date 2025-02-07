@@ -33,15 +33,33 @@ title: Note
 	- [ ] Keepass 
 	- [ ] obsisian all 
 	- [ ] docker comopse (repo git ) faire archive git 
-	- [ ] update logiciel 
-		- [ ] vscode
+	- [ ] update / download logiciel 
+		- [x] vscode ✅ 2025-02-07
 		- [ ] docker 
-		- [ ] ollama ? 
+		- [x] ollama ? ✅ 2025-02-07
 			- [ ] test petit model a telecharher phi , small , autre
 		- [ ] docker 
 			- [ ] openwebui
+		- [x] ubuntu ✅ 2025-02-07
+		- [ ] Keepass
+		- [ ] sourcetree
+		- [ ] gitkraken
+		- [ ] doccker compose 
+			- [ ] jira
+			- [ ] gitlab 
+			- [ ] nexus 
+			- [ ] 
 
-## 
+
+## Acronis True Image
+pas aus format Acronis mais pure ficheir 
+KO car pas de ficheir normaus 
+
+## AOMEI Backuper
+![[Préparatifs Sac Vacance es 2 Alpes-1738960513332.png|150x100]]
+
+### copy 
+### sync
 
 ## Externe  SSD M2
 
@@ -61,7 +79,9 @@ si besoin mettre sur autre externe : [[#Externe SSD]]
 ![[Préparatifs Sac Vacance es 2 Alpes-1738949944065.png]]
 ### Etat avant 
 
+![[Préparatifs Sac Vacance es 2 Alpes-1738957801745.png|150x114]]
 
+vide
 ### Copy 
 
 
