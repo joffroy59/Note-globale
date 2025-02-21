@@ -26,40 +26,44 @@ title: Note
 ## Tasks
 
 - [ ] PC 
-	- [ ] transfert/copy  DD externe 
-		- [ ] voir si possible de le faire avec outils pour avoir ce qui a ete fait 
-		- [ ] [[#Externe  SSD M2]]
-	- [ ] prendre ssd ancien pc pour nettoyage etc onservation docker et autre 
+	- [x] transfert/copy  DD externe ✅ 2025-02-07
+		- [x] voir si possible de le faire avec outils pour avoir ce qui a ete fait ✅ 2025-02-07
+			- [/] [[# D:\dev-data\githome]] [[#Synchronisation pour Portable - git]]
+			- [x] [[# D:\obsidian]]  [[#Synchronisation pour Portable - Obsidian]] ✅ 2025-02-07
+			- [x] [[# C:\Users\jerom\OneDrive]]  [[#Synchronisation pour Portable - Onedrive]] ✅ 2025-02-07
+		- [x] [[#Externe  SSD M2]] ✅ 2025-02-07
+	- [ ] transfert pc portable ??? 
+		- [ ]  obsidian 
+	- [ ] prendre ssd ancien pc pour nettoyage et conservation docker et autre 
 	- [ ] Keepass 
 	- [ ] obsisian all 
 	- [ ] docker comopse (repo git ) faire archive git 
 	- [ ] update / download logiciel 
 		- [x] vscode ✅ 2025-02-07
-		- [ ] docker 
+		- [x] docker ✅ 2025-02-08
 		- [x] ollama ? ✅ 2025-02-07
 			- [ ] test petit model a telecharher phi , small , autre
-		- [ ] docker 
-			- [ ] openwebui
+		- [x] docker ✅ 2025-02-08
+			- [x] openwebui ✅ 2025-02-08
 		- [x] ubuntu ✅ 2025-02-07
-		- [ ] Keepass
-		- [ ] sourcetree
-		- [ ] gitkraken
-		- [ ] doccker compose 
-			- [ ] jira
-			- [ ] gitlab 
+		- [x] Keepass ✅ 2025-02-08
+		- [x] Sourcetree ✅ 2025-02-08
+		- [x] Gitkraken ✅ 2025-02-08
+		- [ ] Docker compose 
+			- [ ] Jira
+			- [ ] GitLab 
 			- [ ] nexus 
-			- [ ] 
+
 
 
 ## Acronis True Image
-pas aus format Acronis mais pure ficheir 
-KO car pas de ficheir normaus 
+pas au  format Acronis mais pure fichier 
+KO car pas de fichier normaux 
 
 ## AOMEI Backuper
+
 ![[Préparatifs Sac Vacance es 2 Alpes-1738960513332.png|150x100]]
 
-### copy 
-### sync
 
 ## Externe  SSD M2
 
@@ -68,8 +72,8 @@ KO car pas de ficheir normaus
 ![[Préparatifs Sac Vacance es 2 Alpes-1738949408125.png|150x111]] ![[Préparatifs Sac Vacance es 2 Alpes-1738949418532.png|300]]
 
 ### Copy 
-
-
+#### Synchronisation pour Portable - Obsidian
+![[Préparatifs Sac Vacance es 2 Alpes-1738960513332.png|150x100]]  ![[Préparatifs Sac Vacance es 2 Alpes-1738965145942.png]]
 ### Etat après
 
 
@@ -82,9 +86,15 @@ si besoin mettre sur autre externe : [[#Externe SSD]]
 ![[Préparatifs Sac Vacance es 2 Alpes-1738957801745.png|150x114]]
 
 vide
-### Copy 
+### D:\dev-data\githome 
+#### Synchronisation pour Portable - git
 
+![[Préparatifs Sac Vacance es 2 Alpes-1738960513332.png|150x100]]  ![[Préparatifs Sac Vacance es 2 Alpes-1738962418769.png]]
 
+### C:\Users\jerom\OneDrive
+#### Synchronisation pour Portable - Onedrive
+
+![[Préparatifs Sac Vacance es 2 Alpes-1738960513332.png|150x100]]  ![[Préparatifs Sac Vacance es 2 Alpes-1738965578939.png]]
 ### Etat après
 
 
