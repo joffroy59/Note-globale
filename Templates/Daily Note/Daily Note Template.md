@@ -12,7 +12,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ## 🚧 Wip ———————
 
-`BUTTON[insert-daily-wip]`
+`BUTTON[insert-daily-wip-v2,insert-daily-wip-ia-select-v2,insert-daily-wip]`
 
  - [/] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %> 🛫 <% tp.date.now("YYYY-MM-DD") %>
 
