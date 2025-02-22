@@ -14,3 +14,15 @@ collapse: open
 ```
 
 [[⭐Faire fonctionner Open WebUI avec Ollama]]
+
+```query
+
+sort: byModifiedTime
+collapsed: false
+renderMarkdown: true 
+hideTitle: true
+hideResults: false
+context: true
+
+tag:#status/wip_star
+```

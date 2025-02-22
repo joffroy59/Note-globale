@@ -1,3 +1,8 @@
+---
+tags:
+  - status/wip_star
+  - status/wip
+---
 add a new model od wip ia insert for the button `BUTTON[insert-daily-wip-ia-select-v2]`
 
 ### Avant
