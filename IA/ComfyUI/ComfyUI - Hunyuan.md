@@ -55,7 +55,7 @@ url: "https://digialps.com/running-hunyuan-on-8gb-vram-your-guide-to-low-memory-
 		- [x] [hunyuan_video_vae_bf16.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true) → Place in `ComfyUI/models/vae`  deja dans [hyvid](file:///D:%5CIA%5CStabilityMatrix%5CModels%5CVAE%5Chyvid) ✅ 2025-02-22
 - [x] ### [[#Step-by-Step Guide]] 737.58 seconds ✅ 2025-02-22 
 
-### Step-by-Step Guide  
+### Step-by-Step Guide   **737.58 seconds**
 
 **737.58 seconds** ✅ 2025-02-22 
 #### My Résultat 0 **737.58 seconds**
@@ -74,9 +74,9 @@ url: "https://digialps.com/running-hunyuan-on-8gb-vram-your-guide-to-low-memory-
 résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 ![[ComfyUI - Hunyuan-1740252500336.png|150x92]]
 
-##### Résultat 🆗 **737.58 seconds**
 ![[20250222-1928-51.1019899.mp4]]
 
+##### Résultat 🆗 **737.58 seconds**
 
 
 ```ad-done
@@ -87,27 +87,15 @@ résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 🗒️commentaire:  pas mal 
 ```
 
-
-- [ ] [[#changement paramètre]] 
-	- [ ] test 
-		- [/] [[#^1337d6]] , 
-			- [x] [[#My Résultat 1]]   ✅ 2025-02-22
-			     
-			      
-		- [ ] [[#^b4829f]] , time: ❓
-			- [ ] [[#My Résultat 2]]
-
-### changement paramètre
+### changement paramètre 1 **570.50 seconds**
 - [x] **Tweak the “VAE Decode (Tiled)” Node:** This is where the magic happens. Within the workflow, locate the “VAE Decode (Tiled)” node. If you have a GPU with less than 32GB of VRAM, you’ll want to experiment with lowering the following parameters: ✅ 2025-02-22
     - tile_size
     - overlap
     - temporal_size
     - temporal_overlap
    
-  Lowering these values tells ComfyUI to process even smaller temporal chunks, further reducing VRAM usage. ^1337d6
-![Running Hunyuan on 8GB VRAM : Your Guide to Low-Memory AI Video](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/image-53-1024x480.png)
-
---> 
+  Lowering these values tells ComfyUI to process even smaller temporal chunks, further reducing VRAM usage. ^1337d6 
+  ![Running Hunyuan on 8GB VRAM : Your Guide to Low-Memory AI Video](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/image-53-1024x480.png)
 #### My Résultat 1 **570.50 seconds**
 ##### Config 
 ![[ComfyUI - Hunyuan-1740253490536.png|150x102]]
@@ -120,12 +108,18 @@ résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 📷résultat: 
 ![[ComfyUI - Hunyuan-1740255644087.png]]
 
-🗒️commentaire: 
+🗒️commentaire: nul naif
 
 ```
 
-##### Résultat  Replay after restart  **??.50 seconds**
 
+### changement paramètre 1 (bis)  **507.42 seconds**
+#### My Résultat 1bis **507.42 seconds**
+##### Config 
+![[ComfyUI - Hunyuan-1740253490536.png|150x102]]
+
+
+##### Exécution  ✅ 2025-02-22
 ![[ComfyUI - Hunyuan-1740257531868.png|150x136]]  ![[ComfyUI - Hunyuan-1740257683158.png|150x90]]  
 
 ```log
@@ -146,20 +140,21 @@ loaded partially 6020.759999999999 6018.549865722656 0
  55%|█████▌    | 11/20 [04:17<03:29, 23.30s/it]
 ```
 
+##### Résultat  Replay after restart  **507.42 seconds**
+
 ```ad-done
 
-🕔temps:  time: Prompt executed in **???.50 seconds**
+🕔temps:  time: Prompt executed in **507.42 seconds**
 📷résultat: 
+![[ComfyUI - Hunyuan-1740258287816.png]]
 
-
-🗒️commentaire:  pas terrible 
+🗒️commentaire:  bizarre mais pas naif comme le 1er  
 
 ```
 
-
+### changement paramètre 2 **478.22 seconds**
 - [x] **Consider FP8 Weights:** For those still bumping against memory limits or wanting to speed things up, check the “Load Diffusion Model” node. Select fp8 for the weight_d type. FP8 (8-bit floating point) is a lower-precision format that can accelerate inference and reduce memory consumption. ✅ 2025-02-22 ^b4829f
-
-![](data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIyNiIgd2lkdGg9IjEwMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/image-54-1024x226.png)
+      ![](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/image-54-1024x226.png)
 
 #### My Résultat 2 **478.22 seconds**
 ##### Config 
@@ -212,11 +207,70 @@ Prompt executed in 478.22 seconds
 
 - [ ] To illustrate the capabilities, consider this example prompt used by the ComfyUI team:
 
-![](data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQ4MCIgd2lkdGg9Ijg0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4=)![Running Hunyuan on 8GB VRAM : Your Guide to Low-Memory AI Video](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/56967af9-c049-4c33-a142-df21ec08d096_848x480.webp)
+![Running Hunyuan on 8GB VRAM : Your Guide to Low-Memory AI Video](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/56967af9-c049-4c33-a142-df21ec08d096_848x480.webp)
 
 “Inside an abandoned factory, the camera tracks a male protagonist walking through a large space filled with industrial machinery. The pipes and machines slowly rotate and adjust their positions, creating an eerie sense of motion”
 
 Using temporal tiling with settings like tile_size = 128, overlap=32, temporal_size=32, and temporal_overlap=4, this complex scene can now be brought to life even on an 8GB card.
+
+#### My Résultat 3 **??? seconds**
+##### Config 
+![[ComfyUI - Hunyuan-1740255825909.png|150x167]]
+
+##### Exécution ✅ 2025-02-22
+![[ComfyUI - Hunyuan-1740256729277.png|150x113]]
+
+```log
+model_type FLOW
+CLIP/text encoder model load device: cuda:0, offload device: cpu, current: cpu, dtype: torch.float16
+clip missing: ['text_projection.weight']
+Requested to load HunyuanVideoClipModel_
+loaded completely 9633.8 7894.8529052734375 True
+Requested to load HunyuanVideo
+loaded partially 6020.759999999999 6018.549865722656 0
+  0%|          | 0/20 [00:00<?, ?it/s]
+  
+```
+
+![[ComfyUI - Hunyuan-1740256792514.png|150x94]]
+
+```log
+ 10%|█         | 2/20 [00:43<06:26, 21.46s/it]
+```
+
+![[ComfyUI - Hunyuan-1740257361488.png|150x101]]
+```log
+100%|██████████| 20/20 [07:08<00:00, 21.45s/it]
+Requested to load AutoencoderKL
+0 models unloaded.
+loaded partially 64.0 63.99985313415527 0
+Prompt executed in 478.22 seconds
+```
+
+✅
+##### Résultat  **478.22 seconds**
+```ad-done
+
+🕔temps:  time: Prompt executed in **478.22 seconds**
+📷résultat: 
+
+🗒️commentaire: 
+
+```
+
+
+---
+
+## Compare résultats 
+
+
+|                                                      | 🕔 **seconds** | 📷                                            | 🗒️                                |
+| ---------------------------------------------------- | -------------- | --------------------------------------------- | ---------------------------------- |
+| [[# Step-by-Step Guide]]                             | **737.58**     | ![[ComfyUI - Hunyuan-1740256426240.png\|350]] | pas mal                            |
+| [[#changement paramètre 1 **570.50 seconds**]]       | **570.50**     | ![[ComfyUI - Hunyuan-1740255644087.png\|350]] | nul naif                           |
+| [[#changement paramètre 1 (bis) **507.42 seconds**]] | **507.42**     | ![[ComfyUI - Hunyuan-1740258287816.png\|350]] | bizarre mais pas naif comme le 1er |
+| [[#changement paramètre 2 **478.22 seconds**]]<br>   | **478.22**     | ![[ComfyUI - Hunyuan-1740257428414.png\|350]] | pas mal                            |
+
 
 ---
 
@@ -230,6 +284,11 @@ collapse: Closed
 
 ---
 creation date:: [[2025/02/08/📒2025-02-22]]  19:49
+
+
+
+
+
 
 
 

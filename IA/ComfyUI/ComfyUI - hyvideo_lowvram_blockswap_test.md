@@ -13,8 +13,7 @@ collapse: open
 Source : https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
 
 worflow: hyvideo_lowvram_blockswap_test 
-[hyvideo_lowvram_blockswap_test.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5Chyvideo_lowvram_blockswap_test.json)
-
+[hyvideo_lowvram_blockswap_test.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5Chyvideo_lowvram_blockswap_test.json)
 
 image:  
 
@@ -30,6 +29,12 @@ title: Note
 `````
 
 [[ComfyUI - hyvideo_lowvram_blockswap_test]]
+
+### Exécution Error 
+
+![[ComfyUI - hyvideo_lowvram_blockswap_test-1740260804109.png]]
+
+- [ ] Fix ? #todo 
 
 ---
 
