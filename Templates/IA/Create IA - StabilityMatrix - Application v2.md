@@ -21,7 +21,7 @@ let note = await tp.system.prompt("Note");
 ---
 <%* tp.file.cursor() %> 
 `````ad-example
-title: WIP IA - StabilityMatrix - Application
+title: WIP IA - <% title %>
 collapse: open
 
 ```ad-note
