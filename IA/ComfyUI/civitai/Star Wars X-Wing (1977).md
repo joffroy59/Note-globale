@@ -8,7 +8,7 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 
  
 `````ad-example
-title: WIP IA - ComfyUI - Flux
+title: WIP IA - ComfyUI - civitai
 collapse: open
 
 - [x] [[IA/ComfyUI/civitai/Star Wars X-Wing (1977)]]  #status/wip #IA #IA/comfyui/civitai  ➕ 2025-01-30 🛫 2025-01-30

@@ -22,7 +22,7 @@ let note = await tp.system.prompt("Note");
 ---
 <%* tp.file.cursor() %> 
 ``````ad-example
-title: WIP IA - ComfyUI - Flux
+title: WIP IA - Model
 collapse: open
 
 ````ad-tip

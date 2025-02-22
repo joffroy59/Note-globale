@@ -7,7 +7,7 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 
  
 ``````ad-example
-title: WIP IA - ComfyUI - Flux
+title: WIP IA - ComfyUI - civitai
 collapse: open
 
 - [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/comfyui/civitai  ➕ 2025-02-02 🛫 2025-02-02

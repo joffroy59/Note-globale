@@ -23,7 +23,7 @@ let note = await tp.system.prompt("Note");
 ---
 <%* tp.file.cursor() %> 
 ``````ad-example
-title: WIP IA - ComfyUI - Flux
+title: WIP IA - ComfyUI - civitai
 collapse: open
 
 - [/] [[<% baseFolder %>/<% entree %>]]  #status/wip #IA #IA/comfyui/civitai  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
