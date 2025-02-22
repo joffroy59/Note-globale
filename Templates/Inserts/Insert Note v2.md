@@ -23,5 +23,5 @@ title: Title
 collapse: open
 #note 
 
-- [ ] [[<% baseFolder %>/<% title %>]]  #note ➕ <% tp.date.now() %> 
+- [[<% baseFolder %>/<% title %>]]  #note ➕ <% tp.date.now() %> 
 `````
