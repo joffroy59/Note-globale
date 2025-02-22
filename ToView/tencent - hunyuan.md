@@ -11,6 +11,12 @@ collapse: open
 
 ````ad-tip
 Source : https://aivideo.hunyuan.tencent.com/
+```embed
+title: "aivideo.hunyuan.tencent.com"
+image: "/public/static/logo/favicon.png"
+description: ""
+url: "https://aivideo.hunyuan.tencent.com/"
+```
 
 image:  
 
