@@ -16,6 +16,8 @@ let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
+let sourceUrl = await tp.system.prompt("source Url");
+let imageUrl = await tp.system.prompt("Image Url");
 let note = await tp.system.prompt("Note");
 %>
 ---
@@ -23,6 +25,14 @@ let note = await tp.system.prompt("Note");
 `````ad-example
 title: WIP IA - <% title %>
 collapse: open
+
+````ad-tip
+Source : <% sourceUrl %>
+
+image: ![sourceImg](<% imageUrl %> )
+
+````
+
 
 ```ad-note
 title: Note
