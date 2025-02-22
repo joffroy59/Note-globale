@@ -51,5 +51,12 @@ trouver un modele SD 1.5 compatible avec MuseTree
 #### info
 après abandon et rechargement de Musetree c'est ok 
 
+## Note 
+semble que pour la ceration image 
+
+et arbre d'idee 
+
+pas de file orgabizer 
+
 ## Aide 
 - [guide complet]([Comment installer Stable Diffusion 1.5 & 2.1 en local sur un Mac (Apple Silicon M1)](https://pandia.pro/guide/comment-installer-stable-diffusion-en-local-sur-mac-apple-silicon-m1/))
