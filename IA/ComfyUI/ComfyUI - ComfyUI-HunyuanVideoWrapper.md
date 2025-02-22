@@ -13,7 +13,7 @@ collapse: open
 Source : https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
 
 worflow:  
-[.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C.json)
+[hyvideo_v2v_example_01.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5Chyvideo_v2v_example_01.json)
 
 
 image:  
@@ -30,6 +30,32 @@ title: Note
 `````
 
 [[ComfyUI - ComfyUI-HunyuanVideoWrapper]]
+
+---
+
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
+- `= "[Workflow Auto]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`
+
+```
+
+---
+## test différent worflow d'exemple du site 
+```embed
+title: "ComfyUI-HunyuanVideoWrapper"
+image: "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://raw.githubusercontent.com/kijai/ComfyUI-HunyuanVideoWrapper/&size=128"
+description: ""
+url: "https://raw.githubusercontent.com/kijai/ComfyUI-HunyuanVideoWrapper/"
+```
+
+### [raw.githubusercontent.com/kijai/ComfyUI-HunyuanVideoWrapper/refs/heads/main/example_workflows/hyvideo_v2v_example_01.json](https://raw.githubusercontent.com/kijai/ComfyUI-HunyuanVideoWrapper/refs/heads/main/example_workflows/hyvideo_v2v_example_01.json)
+
+sqdfsqdqsd
+
+### 2 
 
 ---
 creation date:: [[2025/02/08/📒2025-02-22]]  18:04

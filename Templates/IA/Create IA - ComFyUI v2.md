@@ -52,5 +52,18 @@ title: Note
 [[<% title %>]]
 
 ---
+
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
+- `= "[Workflow Auto]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+```
+
+---
 creation date:: [[<%tp.file.creation_date("YYYY")%>/<%tp.file.creation_date("MM")%>/<%tp.file.creation_date("WW")%>/📒<%tp.file.creation_date("YYYY-MM-DD")%>]]  <%tp.file.creation_date("HH:mm")%>
+
+
+
 
