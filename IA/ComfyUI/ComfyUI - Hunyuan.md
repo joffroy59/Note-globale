@@ -53,13 +53,13 @@ url: "https://digialps.com/running-hunyuan-on-8gb-vram-your-guide-to-low-memory-
 		- [x] [clip_l.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors?download=true) and [llava_llama3_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true) → Place in `ComfyUI/models/text_encoders`. ✖️ ✅ 2025-02-22
 		      --> [llava_llama3_fp8_scaled.safetensors](file:///D:%5CIA%5CStabilityMatrix%5CModels%5CCLIP%5Cllava_llama3_fp8_scaled.safetensors)
 		- [x] [hunyuan_video_vae_bf16.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true) → Place in `ComfyUI/models/vae`  deja dans [hyvid](file:///D:%5CIA%5CStabilityMatrix%5CModels%5CVAE%5Chyvid) ✅ 2025-02-22
-- [x] ### Step-by-Step Guide ✅ 2025-02-22
+- [x] ### Step-by-Step Guide 737.58 seconds ✅ 2025-02-22 
 
 [hunyuan_video_text_to_video.json](file:///D:%5CIA%5CComfyUI%20workflow%5Chunyuan_video_text_to_video.json) 🆗 
 ![[ComfyUI - Hunyuan-1740251531462.png|150x96]]
 #### test ✅ 2025-02-22
 ![[ComfyUI - Hunyuan-1740251724870.png|150x94]]  ![[ComfyUI - Hunyuan-1740251738285.png|150x88]]  
-⚠ temps de génération très long : ❓
+⚠ temps de génération très long : **737.58 seconds**
 ![[ComfyUI - Hunyuan-1740252081153.png|150x78]]
 ⚠ long
 ![[ComfyUI - Hunyuan-1740252286225.png|150x72]]  
@@ -77,7 +77,7 @@ résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 			- [ ] résultat 🆗 🛑 : ❓
 
 
-
+![[OK - hunyuan_video_text_to_video.json]]
 #### changement paramètre
 - [ ] **Tweak the “VAE Decode (Tiled)” Node:** This is where the magic happens. Within the workflow, locate the “VAE Decode (Tiled)” node. If you have a GPU with less than 32GB of VRAM, you’ll want to experiment with lowering the following parameters:
     - tile_size
