@@ -19,7 +19,7 @@ let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
-
+let sourceUrl = await tp.system.prompt("source Url");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
@@ -30,7 +30,7 @@ title: WIP IA - ComfyUI
 collapse: open
 
 ```ad-tip
-source: 
+Source : <% sourceUrl %>
 
 worflow: <% worflow %> 
 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
