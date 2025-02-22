@@ -76,7 +76,7 @@ collapse: Closed
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique,insert-problem-daily-ask]`
 
-
+- [ ] **Problem**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 ## 📝Note ———————
 
 `BUTTON[insert-daily-note]` `BUTTON[insert-daily-other]`
