@@ -22,8 +22,8 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 `BUTTON[rollover,rollover_revert]`
 
-- [ ] **Missed Tasks**
-### 🥷Missed Tasks
+- [ ] **Missed Tasks** ➕ <% tp.date.now("YYYY-MM-DD") %>
+### 🥷Missed Tasks 
 
 
 ### 📎TODO's ——————
