@@ -2,7 +2,7 @@
 let baseFolder = "IA/Model"
 const defaultTitle = "IA Model"
 
-let title = await tp.system.prompt("Title", defaultTitle);
+let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 const templateName = "Templates/IA/Create IA - Model v2"
 

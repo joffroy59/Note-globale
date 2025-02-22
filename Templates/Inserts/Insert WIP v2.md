@@ -2,7 +2,7 @@
 let baseFolder = "WIP"
 const defaultTitle = "WorkInProgress"
 
-let title = await tp.system.prompt("Title", defaultTitle);
+let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 const templateName = "Templates/Inserts/Create WIP v2"
 

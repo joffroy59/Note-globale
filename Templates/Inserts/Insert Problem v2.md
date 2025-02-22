@@ -8,7 +8,7 @@ let typeDefaultValue = "Général"
 let type = await tp.system.suggester((item) => item, typeList)
 if (!type) type = typeDefaultValue
 
-let title = await tp.system.prompt("Title", defaultTitle);
+let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 const templateName = "Templates/Inserts/Create Problem " + type + " v2"
 

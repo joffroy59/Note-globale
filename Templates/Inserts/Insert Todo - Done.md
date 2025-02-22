@@ -2,7 +2,7 @@
 let baseFolder = "Done"
 const defaultTitle = "Done"
 
-let title = await tp.system.prompt("Title", defaultTitle);
+let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 const templateName = "Templates/Inserts/Create Done"
 

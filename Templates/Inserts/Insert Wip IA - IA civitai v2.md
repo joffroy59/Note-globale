@@ -2,7 +2,7 @@
 let baseFolder = "IA/ComfyUI/civitai"
 const defaultTitle = "civitai"
 
-let title = await tp.system.prompt("Title from page", defaultTitle);
+let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 const templateName = "Templates/IA/Create IA - ComFyUI - civitai v2"
 
