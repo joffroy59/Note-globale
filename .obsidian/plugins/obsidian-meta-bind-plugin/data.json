@@ -1,0 +1,823 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "Rollover Tasks",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "rollover",
+      "id": "rollover",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-rollover-daily-todos:obsidian-rollover-daily-todos-rollover"
+        }
+      ]
+    },
+    {
+      "label": "Rollover Tasks (Revert)",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "rollover_revert",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-rollover-daily-todos:obsidian-rollover-daily-todos-undo"
+        }
+      ]
+    },
+    {
+      "label": "Embed Link",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "embed_link",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:a8c544a5-49eb-4cd7-99d5-b1b0aa7e75ff"
+        }
+      ]
+    },
+    {
+      "label": "+🚨 Problem Daily",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "insert-problem-daily",
+      "style": "destructive",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:da7c48b8-d948-454a-bda8-2ccecebabf35"
+        }
+      ]
+    },
+    {
+      "label": "+🚨 Appart",
+      "icon": "",
+      "hidden": false,
+      "class": "red-5-button",
+      "tooltip": "",
+      "id": "insert-problem-daily-appart",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:cfcfe280-9a87-43ce-a523-0c6d8263ad02"
+        }
+      ]
+    },
+    {
+      "label": "+🚨 PC",
+      "icon": "",
+      "hidden": false,
+      "class": "red-5-button",
+      "tooltip": "",
+      "id": "insert-problem-daily-PC",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:b8ad6145-d7c2-4948-b2af-eb00530e4e26"
+        }
+      ]
+    },
+    {
+      "label": "+🚨 Domotique",
+      "icon": "",
+      "hidden": false,
+      "class": "red-5-button",
+      "tooltip": "",
+      "id": "insert-problem-daily-domotique",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:ea15f8d8-b208-488b-82f6-58dff5817bcb"
+        }
+      ]
+    },
+    {
+      "label": "Fix Plugins Obsidian",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "fix-plugins",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:8967c0ce-3ab6-40a9-b36f-b1360534109e"
+        }
+      ]
+    },
+    {
+      "label": "Fix Plugins Obsidian TEmplate",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "fix-plugins-template",
+      "style": "default",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/Snippets/Plugin List All.md",
+          "folderPath": "Admin",
+          "fileName": "ffff{{DATE}}",
+          "openNote": true,
+          "openIfAlreadyExists": true
+        }
+      ]
+    },
+    {
+      "label": "Fix Plugins Obsidian",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "fix-plugins-template-rename",
+      "style": "default",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/Snippets/Plugin List All with Id - Rename Note.md",
+          "folderPath": "Admin",
+          "fileName": "undefined",
+          "openNote": true,
+          "openIfAlreadyExists": true
+        }
+      ]
+    },
+    {
+      "label": "Backup DailyNote",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "backup-dailynote",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:5cb3710f-f93f-4bed-b58e-e3637e63ded8"
+        }
+      ]
+    },
+    {
+      "label": "+ Win",
+      "icon": "",
+      "hidden": false,
+      "class": "green-5-button",
+      "tooltip": "",
+      "id": "insert-daily-win",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:9657e59b-6a1c-4038-8eba-e751297c9e86"
+        }
+      ]
+    },
+    {
+      "label": "+ Idea",
+      "icon": "",
+      "hidden": false,
+      "class": "orange-5-button",
+      "tooltip": "",
+      "id": "insert-daily-idea",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:5ee28206-7490-48ac-9ef8-27cd4edbd8e5"
+        }
+      ]
+    },
+    {
+      "label": "+ Task",
+      "icon": "",
+      "hidden": false,
+      "class": "yellow-orange-5-button",
+      "tooltip": "",
+      "id": "insert-daily-task",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:eabd86ff-dafe-464b-948e-e9ffb61ec1cc"
+        }
+      ]
+    },
+    {
+      "label": "+ Other",
+      "icon": "",
+      "hidden": false,
+      "class": "blue-5-button",
+      "tooltip": "",
+      "id": "insert-daily-other",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:26f94500-f0fc-4ce6-b5c9-60cd062c4871"
+        }
+      ]
+    },
+    {
+      "label": "+ Note",
+      "icon": "",
+      "hidden": false,
+      "class": "blue-2-button",
+      "tooltip": "",
+      "id": "insert-daily-note",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:577934d8-4e55-4759-8b8e-119d0fb29b0a"
+        }
+      ]
+    },
+    {
+      "label": "+ ToView",
+      "icon": "",
+      "hidden": false,
+      "class": "turquoise-5-button",
+      "tooltip": "",
+      "id": "insert-daily-toview",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:e535fc59-9f52-4651-9916-09a64fbc98c9"
+        }
+      ]
+    },
+    {
+      "label": "+ TODO",
+      "icon": "",
+      "hidden": false,
+      "class": "yellow-orange-6-button",
+      "tooltip": "",
+      "id": "insert-daily-todo",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:34d19e8e-bef2-4ad7-85b7-3e3a30daa8df"
+        }
+      ]
+    },
+    {
+      "label": "+ Done",
+      "icon": "",
+      "hidden": false,
+      "class": "green-3-button",
+      "tooltip": "",
+      "id": "insert-daily-done",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:38df2c5a-1443-4709-8072-b3b116e9a5b5"
+        }
+      ]
+    },
+    {
+      "label": "+ Wip (Ad)",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-3-button",
+      "tooltip": "",
+      "id": "insert-daily-wip",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:4e4379e9-4c59-4f97-a7e0-0b70573bcc9b"
+        }
+      ]
+    },
+    {
+      "label": "+ Task (Obsidian)",
+      "icon": "",
+      "hidden": false,
+      "class": "yellow-orange-4-button",
+      "tooltip": "",
+      "id": "insert-daily-task-obsidian",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:f5454a06-01fa-4446-bfb4-77e0336db357"
+        }
+      ]
+    },
+    {
+      "label": "Daily Planner",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "daily-planner",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-day-planner:show-day-planner-timeline"
+        }
+      ]
+    },
+    {
+      "label": "Daily Planner Calendar",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "daily-planner-clendar",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-day-planner:show-weekly-view"
+        }
+      ]
+    },
+    {
+      "label": "+🚨 Problem",
+      "icon": "",
+      "hidden": false,
+      "class": "red-7-button",
+      "tooltip": "",
+      "id": "insert-problem-daily-ask",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:94652135-db32-46e1-8eca-34cff0d8d85d"
+        }
+      ]
+    },
+    {
+      "label": "List Ideas",
+      "icon": "",
+      "hidden": false,
+      "class": "orange-7-button",
+      "tooltip": "",
+      "id": "list-ideas",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[Liste Idée]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "List Ideas (ad.)",
+      "icon": "",
+      "hidden": false,
+      "class": "orange-9-button",
+      "tooltip": "",
+      "id": "list-ideas-ad",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[All ad-attention]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "List Done (ad.)",
+      "icon": "",
+      "hidden": false,
+      "class": "green-4-button",
+      "tooltip": "",
+      "id": "list-done-ad",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[All ad-done]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Tasks Obsidian",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "tasks-obsidian",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[Panel/Dataview/Task Obsidian]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Tasks Open",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "tasks-open",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[Panel/Dataview/Tasks Open By Modified Date]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "List Done",
+      "icon": "",
+      "hidden": false,
+      "class": "green-2-button",
+      "tooltip": "",
+      "id": "list-done",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[Liste Done]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Tasks",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "tasks-all",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[Panel/Dataview/Tasks By Modified Date]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "Tasks Done",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "tasks-done",
+      "style": "default",
+      "actions": [
+        {
+          "type": "open",
+          "link": "[[Panel/Dataview/Tasks Done By Modified Date]]",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "label": "+ Wip IA",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-5-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:8a9b994e-5749-45fb-ab86-b095616a334f"
+        }
+      ]
+    },
+    {
+      "label": "+ Wip IA",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-5-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia-select",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:650e702a-98a7-4fdb-8ca6-1db07dc13779"
+        }
+      ]
+    },
+    {
+      "label": "+ Wip IA ComFyUI Flux",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-6-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia_comfyui-flux",
+      "style": "default",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "Templates/Inserts/Create Wip IA - ComFyUI - Flux.md",
+          "folderPath": "IA/ComfyUI/Flux",
+          "fileName": "Untitled",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
+    },
+    {
+      "label": "+ Wip Star",
+      "icon": "star",
+      "hidden": false,
+      "class": "yellow-gold-5-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-star",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:1ce259ba-9603-48da-9168-2dd5884ea688"
+        }
+      ]
+    },
+    {
+      "label": "+ Wip IA civitai",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-6-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia_civitai-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:117a593c-e4ee-46ec-b9f3-a6e27ad40600"
+        }
+      ]
+    },
+    {
+      "label": "+ Wip IA ComFyUI Flux",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-6-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia_comfyui-flux-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:0d262538-9bb6-45ac-8900-1879465a5b4d"
+        }
+      ]
+    },
+    {
+      "label": "+ Wip IA",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-5-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia-select-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:b9040ac3-f665-42eb-a086-6d9dfbf32a06"
+        }
+      ]
+    },
+    {
+      "label": "test-A11",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "test-A11",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:b9c078f7-fdf8-4dd8-a048-77a93037b4e1"
+        }
+      ]
+    },
+    {
+      "label": "+ Wip",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-3-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:888b13e8-a34d-4011-8e5b-f34fa09b186a"
+        }
+      ]
+    },
+    {
+      "label": "+🚨 Probème Ask",
+      "icon": "",
+      "hidden": false,
+      "class": "red-5-button",
+      "tooltip": "",
+      "id": "insert-problem-daily-insert-ask",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:94652135-db32-46e1-8eca-34cff0d8d85d"
+        }
+      ]
+    },
+    {
+      "label": "+🚨 Probème",
+      "icon": "",
+      "hidden": false,
+      "class": "red-5-button",
+      "tooltip": "",
+      "id": "insert-problem-daily-insert-v2",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:47d292fe-0edc-4201-8bd2-f4812524a866"
+        }
+      ]
+    },
+    {
+      "label": "+ Idea",
+      "icon": "",
+      "hidden": false,
+      "class": "orange-5-button",
+      "tooltip": "",
+      "id": "insert-daily-idea-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:c256a41b-c156-4270-b7a8-bf80054b5322"
+        }
+      ]
+    },
+    {
+      "label": "+ Note",
+      "icon": "",
+      "hidden": false,
+      "class": "blue-2-button",
+      "tooltip": "",
+      "id": "insert-daily-note-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:c4b19ddd-442f-457c-a5dc-875bf4a08222"
+        }
+      ]
+    },
+    {
+      "label": "+ Other",
+      "icon": "",
+      "hidden": false,
+      "class": "blue-5-button",
+      "tooltip": "",
+      "id": "insert-daily-other-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:c8567480-ec71-4715-b445-a2c82eb346a4"
+        }
+      ]
+    },
+    {
+      "label": "+ ToView",
+      "icon": "",
+      "hidden": false,
+      "class": "turquoise-5-button",
+      "tooltip": "",
+      "id": "insert-daily-toview-v2",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:86663696-9a27-4477-806f-732105cbf78a"
+        }
+      ]
+    },
+    {
+      "label": "Insert - Plugin List All",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "insert-plugin-list-all",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:bbb8548b-24dc-46cd-96cf-286333b3f54c"
+        }
+      ]
+    },
+    {
+      "label": "+ Note",
+      "icon": "",
+      "hidden": false,
+      "class": "blue-6-button",
+      "tooltip": "",
+      "id": "insert-daily-bote-select",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:b9205dd3-e269-49ef-b8da-414ecf69c0a8"
+        }
+      ]
+    },
+    {
+      "label": "+ Todo",
+      "icon": "",
+      "hidden": false,
+      "class": "yellow-orange-6-button",
+      "tooltip": "",
+      "id": "insert-daily-todo-select",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:2d8b1832-713f-4271-ade8-cd4a889cec29"
+        }
+      ]
+    },
+    {
+      "label": "Insert Create Action",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "insert-create-action",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:463728b8-28db-4bb0-bef6-8ae7ff712996"
+        }
+      ]
+    },
+    {
+      "label": "+ ToView (Task)",
+      "icon": "",
+      "hidden": false,
+      "class": "turquoise-5-button",
+      "tooltip": "",
+      "id": "insert-daily-task-toview",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:45ab95a2-13c8-49c2-bfd4-e2e1d2897e7d"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}

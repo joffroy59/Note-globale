@@ -7,7 +7,11 @@ tags:
 ---
  
 ````ad-tip
-remove admonition pour plus de clareté et construiction d'une liste simple de tache avec todo, etc  
+remove admonition pour plus de clareté et construiction d'une liste simple de tache avec [[Create Todo]], etc  
+
+- [x] [[Create ToView V2]]
+- [x] [[Create Todo]]
+- [ ] [[Create Other v2]] ?
 
 ````
 
@@ -17,7 +21,7 @@ title: Note
 - [[Insert Task - ToView]] 
 - `BUTTON[insert-daily-task-toview]`  
 - [x] change in [[Panel/Actions|Actions]] 
-![[To View - like todo with no admonition-1740347773500.png]]
+![[To View - like todo with no admonition-1740348104530.png]] ➡️   ![[To View - like todo with no admonition-1740347773500.png]]
 ````
 
 ---
