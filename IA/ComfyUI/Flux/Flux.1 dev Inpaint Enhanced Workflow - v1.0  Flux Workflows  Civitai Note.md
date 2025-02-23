@@ -1,6 +1,7 @@
 ---
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
+star:
 ---
 
 ---
@@ -13,7 +14,8 @@ collapse: open
 source: [Flux.1 dev Inpaint Enhanced Workflow - v1.0 | Flux Workflows | Civitai](https://civitai.com/models/1075835/flux1-dev-inpaint-enhanced-workflow)
 
 worflow: Flux.1 Dev Inpaint.json 
-🚧 [Flux.1 Dev Inpaint.json](file:///D:%5CIA%5CComfyUI%20workflow%5Ctotest%5CFlux.1%20Dev%20Inpaint.json)
+⭐ [Flux.1 Dev Inpaint.json](file:///D:%5CIA%5CComfyUI%20workflow%5Ctotest%5CFlux.1%20Dev%20Inpaint.json)
+🚧 [W-Flux.1 Dev Inpaint.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5CW-Flux.1%20Dev%20Inpaint.json)
 ✅ #todo 
 
 
@@ -28,6 +30,13 @@ title: Note
 
 ```
 
+```ad-info
+title: Workflow Directories
+- [D:\IA\ComfyUI workflow\totest](file:///D:%5CIA%5CComfyUI%20workflow%5Ctotest%5C)
+- [D:\IA\ComfyUI workflow](file:///D:%5CIA%5CComfyUI%20workflow%5C)
+- [D:\dev-data\IA\Stability Matrix Project\workflow_auto](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5C)
+- [D:\dev-data\IA\Stability Matrix Project\workflow](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C)
+```
 `````
 
 [[Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai]]

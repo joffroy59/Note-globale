@@ -4,6 +4,7 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
 <%*
 let workflowDirList = [
+	"D:\\IA\\ComfyUI workflow\\Download", 
 	"D:\\IA\\ComfyUI workflow\\totest", 
 	"D:\\IA\\ComfyUI workflow", 
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", 
