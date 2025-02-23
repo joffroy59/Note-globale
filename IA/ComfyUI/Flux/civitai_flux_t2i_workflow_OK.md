@@ -4,6 +4,7 @@ tags:
   - IA/civitai
   - IA/comfyui/flux
   - IA/comfyui
+  - status/wip
 ---
  
 `````ad-example
