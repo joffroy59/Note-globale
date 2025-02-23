@@ -17,7 +17,7 @@ let url = await tp.system.prompt("url");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
----
+
 <%* tp.file.cursor() %> 
 `````ad-important
 title: To view
