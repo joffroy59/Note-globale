@@ -3,6 +3,7 @@
 ![[Obsidian - Suivi temps de demarrage-1740300943054.png|150x102]]
 
 ### Suivi dans le temps
+#### With Community plugin
 ```ad-note
 title: 2025-02-23 09:56 1,234ms
 collapse: closed
@@ -105,4 +106,48 @@ Operating system: Windows 11 Pro 10.0.22631
 - Workspace (16 tabs, 13 deferred): 169ms
 - Core plugins: 68ms
 
+```
+
+#### With Community plugin
+
+```ad-note
+title: 2025-02-23 10:33 1,056ms
+collapse: closed
+Obsidian start-up time breakdown
+
+Obsidian version: v1.8.7
+Installer version: v1.7.7
+Operating system: Windows 11 Pro 10.0.22631
+
+- Total startup time: 1,056ms
+- Initialization: 209ms
+- Vault (984 files): 95ms
+- Workspace (17 tabs, 12 deferred): 245ms
+- Core plugins: 24ms
+- Community plugins (25 active): 484ms
+  - Meta Bind (v1.2.5): 80ms
+  - Iconize (v2.14.7): 74ms
+  - Code Styler (v1.1.7): 51ms
+  - Git (v2.31.1): 38ms
+  - QuickAdd (v1.11.5): 36ms
+  - Dataview (v0.5.67): 29ms
+  - Image Converter (v1.3.3): 27ms
+  - Local GPT (v1.14.7): 24ms
+  - Tasks (v7.14.0): 22ms
+  - Admonition (v10.3.2): 20ms
+  - Tray (v0.3.5): 18ms
+  - Templater (v2.9.1): 7ms
+  - Link Embed (v2.0.12): 5ms
+  - Image Toolkit (v1.4.2): 4ms
+  - Pixel Banner (v2.21.2): 4ms
+  - Periodic Notes (v0.0.17): 4ms
+  - Calendar (v1.5.10): 4ms
+  - BRAT (v1.0.6): 4ms
+  - Recent Files (v1.7.4): 3ms
+  - Homepage (v4.1): 2ms
+  - Table Generator (v1.4.1): 2ms
+  - Query Control (v0.7.13): 1ms
+  - Vault Transfer (v1.2.3): 1ms
+  - Rollover Daily Todos (v1.1.8): 1ms
+  - Mononote (v1.2.2): 1ms
 ```
