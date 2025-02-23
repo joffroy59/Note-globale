@@ -74,9 +74,9 @@ title: Workflow Directories
 [[<% title %>]]
 
 <%*
-const tasks = ["Buy groceries", "Read a book", "Exercise", "Write a journal"];
-for (task of tasks)
-    tR += "- " + task + "\n";
+
+for (workflowDir of workflowDirList)
+    tR += "- " + "file:///" + workflowDir.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C" + "\n";
 %>
 
 
