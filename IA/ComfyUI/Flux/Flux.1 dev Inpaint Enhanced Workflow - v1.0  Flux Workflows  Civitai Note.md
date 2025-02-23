@@ -18,7 +18,7 @@ worflow: Flux.1 Dev Inpaint.json
 
 
 image: 
-![[Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai Note-1740339611391.png|150x202]]
+![[Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai Note-1740339611391.png]]
 
 ```
 
