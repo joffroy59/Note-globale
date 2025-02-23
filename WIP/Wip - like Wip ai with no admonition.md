@@ -20,11 +20,11 @@ remove admonition pour plus de clareté et construiction d'une liste simple de t
 ````ad-note
 title: Note
  
-- [ ] [[Insert WIP v2]] ➡️ [[Insert Task - WIP]] 
-- `BUTTON[insert-daily-task-toview]`  
-- [x] change in [[Panel/Actions|Actions]] 
+- [ ] Template Insert in Daily Note [[Insert WIP v2]] ➡️ [[Insert Task - WIP]] 
+- [ ] Metabind `BUTTON[insert-daily-wip-v2,insert-daily-task-wip]`  
+- [ ] change in [[Panel/Actions|Actions]] 
 ![[To View - like todo with no admonition-1740348104530.png|200]] ➡️   ![[To View - like todo with no admonition-1740347773500.png|200]]
-- [x] remplacement template created Note [[Create WIP v2]] --> [[Templates/Inserts/Create Task WIP]] 
+- [ ] Template Created Note  [[Create WIP v2]] --> [[Templates/Inserts/Create Task WIP]] 
  ![[Wip - like Wip ai with no admonition-1740349977169.png|200]]
 ````
 
