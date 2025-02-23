@@ -15,10 +15,10 @@ let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5
 
 let worflow = await tp.system.prompt("Worflow file path", title);
 let worflowBaseFolder = "";
-let typeList = ["D:\IA\ComfyUI workflow\totest", "D:\IA\ComfyUI workflow", "D:\dev-data\IA\Stability Matrix Project\workflow_auto", "D:\dev-data\IA\Stability Matrix Project\workflow"]
+let typeList = ["D:\\IA\\ComfyUI workflow\\totest", "D:\\IA\\ComfyUI workflow", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 if (worflow)
 	worflowBaseFolder = await tp.system.suggester((item) => item, typeList);
-	workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C')
+	workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 let defaultValue = "WIP IA"  
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
