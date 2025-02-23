@@ -1,3 +1,8 @@
+---
+tags:
+  - IA
+  - IA/model
+---
 ```embed
 title: "deepseek-r1"
 image: "https://ollama.com/public/og.png"
