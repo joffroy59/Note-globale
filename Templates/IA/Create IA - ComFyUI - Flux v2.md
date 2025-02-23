@@ -9,7 +9,7 @@ let workflowDirList = [
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", 
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
-let worflowBaseFolder= workflowDirList[1]
+let worflowBaseFolder= workflowDirList[0]
 let defaultWorkflowName = "workflow_test"
   
   let title = tp.file.title
