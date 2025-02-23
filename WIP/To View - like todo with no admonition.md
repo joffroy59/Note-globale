@@ -21,10 +21,12 @@ remove admonition pour plus de clareté et construiction d'une liste simple de t
 title: Note
  
 - [x] Template Insert in Daily Note  [[Insert ToView V2]] ➡️ [[Insert Task - ToView]] 
+- [x] QuickAdd duplication 👀Insert ToView v2 ➡️ 👀Insert Task - ToView 
 - [x] Metabind `BUTTON[insert-daily-toview-v2,insert-daily-task-toview]`  
 - [x] change in [[Panel/Actions|Actions]] 
-![[To View - like todo with no admonition-1740348104530.png]] ➡️   ![[To View - like todo with no admonition-1740347773500.png]]
+![[To View - like todo with no admonition-1740348104530.png|150]] ➡️   ![[To View - like todo with no admonition-1740347773500.png|150]]
 - [x] Template Created Note [[Create ToView V2]] --> [[Templates/Inserts/Create Task ToView]]
+![[Wip - like Wip ai with no admonition-1740349977169.png|200]]
 ````
 
 ---

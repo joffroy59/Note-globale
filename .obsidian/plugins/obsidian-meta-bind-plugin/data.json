@@ -815,6 +815,21 @@
           "command": "quickadd:choice:45ab95a2-13c8-49c2-bfd4-e2e1d2897e7d"
         }
       ]
+    },
+    {
+      "label": "+ Wip",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-3-button",
+      "tooltip": "",
+      "id": "insert-daily-task-wip",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:2b96c589-53b1-4e4e-9081-025efa2cb5c9"
+        }
+      ]
     }
   ],
   "excludedFolders": [
