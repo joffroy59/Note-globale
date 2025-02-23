@@ -14,12 +14,13 @@ let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5
   } 
 
 let worflow = await tp.system.prompt("Worflow file path", title);
-
+if (worflow)
+	let worflowBaseFolder = await tp.system.prompt("worflowBaseFolder");
 let defaultValue = "WIP IA"  
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
-
+let sourceUrl = await tp.system.prompt("source Url");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
@@ -30,7 +31,7 @@ title: WIP IA - ComfyUI - Flux
 collapse: open
 
 ```ad-tip
-source: 
+Source : <% sourceUrl %>
 
 worflow: <% worflow %> 
 🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
