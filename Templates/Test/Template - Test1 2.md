@@ -23,7 +23,7 @@ collapse: open
 
 ```ad-tip
 worflow: <% worflow %> 
-image: <% image %> 
+image: ![](<% image %>)
 ```
 
 ```ad-note

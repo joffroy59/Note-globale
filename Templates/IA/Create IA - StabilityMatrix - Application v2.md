@@ -29,7 +29,7 @@ collapse: open
 ````ad-tip
 Source : <% sourceUrl %>
 
-image: ![sourceImg](<% imageUrl %> )
+image: ![](<% imageUrl %> )
 
 ````
 
