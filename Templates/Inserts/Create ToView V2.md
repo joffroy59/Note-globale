@@ -1,5 +1,7 @@
 ---
 ollama_model_dir: I:\IA\ollama\models
+tags:
+  - toview
 ---
 <%*
   let baseFolder = "ToView"
@@ -19,11 +21,6 @@ let note = await tp.system.prompt("Note");
 %>
 
 <%* tp.file.cursor() %> 
-`````ad-important
-title: To view
-collapse: open
-#toview 
-
 ````ad-tip
 Source : <% url %>
 
@@ -36,4 +33,3 @@ title: Note
 <% note %> 
 
 ````
-`````
