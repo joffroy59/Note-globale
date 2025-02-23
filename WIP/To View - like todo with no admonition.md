@@ -20,7 +20,7 @@ remove admonition pour plus de clareté et construiction d'une liste simple de t
 ````ad-note
 title: Note
  
-- [[Insert Task - ToView]] 
+- [x] [[Insert ToView V2]] ➡️ [[Insert Task - ToView]] 
 - `BUTTON[insert-daily-task-toview]`  
 - [x] change in [[Panel/Actions|Actions]] 
 ![[To View - like todo with no admonition-1740348104530.png]] ➡️   ![[To View - like todo with no admonition-1740347773500.png]]
