@@ -64,8 +64,10 @@ title: Note
 
 ```ad-info
 title: Workflow Directories
-- 
-<% note %> 
+<%*
+for (workflowDir of workflowDirList)
+    tR += "- " + "[" + workflowDir + "](file:///" + workflowDir.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C" + ")\n";
+%>
 
 ```
 
@@ -73,10 +75,6 @@ title: Workflow Directories
 
 [[<% title %>]]
 
-<%*
-for (workflowDir of workflowDirList)
-    tR += "- " + "[" + workflowDir + "](file:///" + workflowDir.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C" + ")\n";
-%>
 
 
 ---
