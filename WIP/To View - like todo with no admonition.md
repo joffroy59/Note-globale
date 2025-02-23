@@ -25,6 +25,7 @@ title: Note
 - [x] Metabind `BUTTON[insert-daily-toview-v2,insert-daily-task-toview]`  
 - [x] change in [[Panel/Actions|Actions]] 
 ![[To View - like todo with no admonition-1740348104530.png|150]] ➡️   ![[To View - like todo with no admonition-1740347773500.png|150]]
+- [x] change in [[Daily Note Template]] `BUTTON[insert-daily-toview]` ➡️ `BUTTON[insert-daily-task-toview]`
 - [x] Template Created Note [[Create ToView V2]] --> [[Templates/Inserts/Create Task ToView]]
 ![[Wip - like Wip ai with no admonition-1740349977169.png|200]]
 ````
