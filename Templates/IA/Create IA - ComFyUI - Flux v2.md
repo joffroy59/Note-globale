@@ -62,9 +62,23 @@ title: Note
 
 ```
 
+```ad-info
+title: Workflow Directories
+- 
+<% note %> 
+
+```
+
 `````
 
 [[<% title %>]]
+
+<%*
+const tasks = ["Buy groceries", "Read a book", "Exercise", "Write a journal"];
+for (task in tasks)
+    tR += '- ${task}\n';
+%>
+
 
 ---
 creation date:: [[<%tp.file.creation_date("YYYY")%>/<%tp.file.creation_date("MM")%>/<%tp.file.creation_date("WW")%>/📒<%tp.file.creation_date("YYYY-MM-DD")%>]]  <%tp.file.creation_date("HH:mm")%>
