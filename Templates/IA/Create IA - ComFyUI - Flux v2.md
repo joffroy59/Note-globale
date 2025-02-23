@@ -60,8 +60,6 @@ image: ![](<% image %>)
 title: Note
 <% note %> 
 
-```
-
 ```ad-info
 title: Workflow Directories
 <%*
@@ -69,7 +67,6 @@ for (workflowDir of workflowDirList)
     tR += "- " + "[" + workflowDir + "](file:///" + workflowDir.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C" + ")\n";
 -%>
 ```
-
 `````
 
 [[<% title %>]]
