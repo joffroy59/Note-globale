@@ -3,8 +3,11 @@ workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
 <%*
-let workflowDirList = ["D:\\IA\\ComfyUI workflow\\totest", "D:\\IA\\ComfyUI workflow", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
+let workflowDirList = ["D:\\IA\\ComfyUI workflow\\totest", 
+	"D:\\IA\\ComfyUI workflow", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
+
 let workflowFolder= "file:///" + workflowDirList[1] + "%5C"
+let defaultWorkflowName = "workflow_test"
   
   let title = tp.file.title
   let defaultTitle = "Untitled"
@@ -14,12 +17,14 @@ let workflowFolder= "file:///" + workflowDirList[1] + "%5C"
     await tp.file.rename(`${title}`);
   } 
 
-let worflow = await tp.system.prompt("Worflow file path", title);
+let worflow = await tp.system.prompt("Worflow file path");
 let worflowBaseFolder = "";
 
 if (worflow){
 	worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList);
 	workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
+} else {
+	worflow = defaultWorkflowName
 }
 let defaultValue = "WIP IA"  
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
