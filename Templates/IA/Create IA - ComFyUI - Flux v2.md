@@ -76,7 +76,7 @@ title: Workflow Directories
 <%*
 const tasks = ["Buy groceries", "Read a book", "Exercise", "Write a journal"];
 for (task in tasks)
-    tR += '- ${task}\n';
+    tR += "- " + task + "\n";
 %>
 
 
