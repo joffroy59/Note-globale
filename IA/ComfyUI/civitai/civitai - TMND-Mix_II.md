@@ -24,6 +24,7 @@ masterpiece, best quality,salute
 sky,building,
 Negative prompt: badhandv4, EasyNegative, verybadimagenegative_v1.3,illustration, 3d, sepia, painting, cartoons, sketch, (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, normal quality, ((monochrome)), ((grayscale))
 Steps: 50, CFG scale: 7, Sampler: Euler a, Seed: 2337849109, Eta: 0.67, Size: 2048x1152, Mask blur: 4, Model hash: 7d19f9efad, Denoising strength: 0.2, SD upscale overlap: 64, SD upscale upscaler: R-ESRGAN 4x+, Clip skip: 2 
+ 
 
 ````
 
@@ -36,6 +37,7 @@ title: Note
 ``````
 
 ---
+
 ## Test reproduction en local
 ### StabilityMatrix 
 #### Inference
@@ -72,7 +74,6 @@ title: Note
 ##### Execution
 ##### Result
 
-
 ---
 ## Local
 
@@ -85,6 +86,6 @@ collapse: Closed
 ```
 
 ---
-creation date:: [[2025/02/08/📒2025-02-23]]  17:26
+creation date:: [[2025/02/08/📒2025-02-23]]  17:41
 
 
