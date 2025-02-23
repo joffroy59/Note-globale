@@ -1,6 +1,11 @@
 ---
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
+
+tags:
+  - status/wip
+  - IA
+  - IA/comfyui/flux
 ---
 <%*
 let workflowDirList = [
@@ -63,6 +68,7 @@ title: Note
 
 ```ad-info
 title: Workflow Directories
+collapse: closed
 <%*
 for (workflowDir of workflowDirList)
     tR += "- " + "[" + workflowDir + "](file:///" + workflowDir.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C" + ")\n";

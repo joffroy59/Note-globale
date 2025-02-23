@@ -1,15 +1,15 @@
 ---
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
-star:
+star: 
+tags:
+  - status/wip
+  - IA
+  - IA/comfyui/flux
 ---
 
 ---
  
-`````ad-example
-title: WIP IA - ComfyUI - Flux
-collapse: open
-
 ```ad-tip
 source: [Flux.1 dev Inpaint Enhanced Workflow - v1.0 | Flux Workflows | Civitai](https://civitai.com/models/1075835/flux1-dev-inpaint-enhanced-workflow)
 
@@ -40,7 +40,7 @@ collapse: closed
 - [D:\dev-data\IA\Stability Matrix Project\workflow_auto](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5C)
 - [D:\dev-data\IA\Stability Matrix Project\workflow](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C)
 ```
-`````
+
 
 [[Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai]]
 

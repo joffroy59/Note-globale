@@ -20,3 +20,11 @@ collapse: open
 LIST
 from #status/wip_star  
 ```
+
+## 🚧🧠 `#status/wip #IA` 
+```dataview
+LIST
+from #status/wip AND #IA 
+AND -"Templates" 
+
+```
