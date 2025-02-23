@@ -18,6 +18,7 @@ let url = await tp.system.prompt("url");
 
 let entree = title ;
 let image = await tp.system.prompt("Image");
+let generationData = await tp.system.prompt("Generation Data", null, false, true);
 let note = await tp.system.prompt("Note");
 %>
 ---
@@ -33,6 +34,13 @@ image: ![](<% image %>)
 
 ````
 
+````ad-quote
+title: Generation data
+
+<% generationData %> 
+
+````
+
 ````ad-note
 title: Note
 <% note %> 
@@ -40,6 +48,11 @@ title: Note
 ````
 
 ``````
+
+---
+
+- [ ] test reproduction en local
+	- [ ] 
 
 ---
 
