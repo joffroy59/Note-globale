@@ -13,10 +13,7 @@ collapse: open
 source: [Flux.1 dev Inpaint Enhanced Workflow - v1.0 | Flux Workflows | Civitai](https://civitai.com/models/1075835/flux1-dev-inpaint-enhanced-workflow)
 
 worflow: Flux.1 Dev Inpaint.json 
-
-
-
-🚧 [Flux.1 Dev Inpaint.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5CFlux.1%20Dev%20Inpaint.json)
+🚧 [Flux.1 Dev Inpaint.json](file:///D:%5CIA%5CComfyUI%20workflow%5Ctotest%5CFlux.1%20Dev%20Inpaint.json)
 ✅ #todo 
 
 
