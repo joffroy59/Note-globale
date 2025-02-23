@@ -7,7 +7,7 @@ tags:
 ---
  
 ````ad-tip
-**insert create new Toview in Daily Note**
+**insert create new Toview in Daily Note like Todo as Task**
 
 remove admonition pour plus de clareté et construiction d'une liste simple de tache avec [[Create Todo]], etc  
 

@@ -2,17 +2,17 @@
 tags:
   - toview
   - "#done"
+tag:
 ---
 
 ---
  
 ````ad-tip
-**insert create new Toview in Daily Note**
+**insert create new Wip in Daily Note like Wip IA as Task**
 
 remove admonition pour plus de clareté et construiction d'une liste simple de tache avec [[Create Todo]], etc  
 
-- [x] [[Create ToView V2]]
-- [x] [[Create Todo]]
+- [x] [[Create IA - ComFyUI - Flux v2]]
 - [ ] [[Create Other v2]] ?
 
 ````
