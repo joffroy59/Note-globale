@@ -37,8 +37,21 @@ title: Note
 
 ---
 
-- [ ] test reproduction en local
-	- [ ] 
+## Test reproduction en local
+### StabilityMatrix 
+#### Inference
+
+#### ComfyUI
+
+#### Stable Diffusion WebUI 
+
+#### Stable Diffusion WebUI Forge
+#### SDX
+
+#### SwarmUI
+
+#### InvokeAI
+
 
 ---
 
