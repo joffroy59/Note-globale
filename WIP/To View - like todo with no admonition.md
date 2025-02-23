@@ -1,14 +1,10 @@
 ---
 tags:
-  - status/wip
+  - toview
 ---
 
 ---
  
-``````ad-example
-title: WIP 
-collapse: open
-
 ````ad-tip
 Source : 
 
@@ -17,10 +13,11 @@ Source :
 ````ad-note
 title: Note
  
-
+- [[Insert Task - ToView]] 
+- `BUTTON[insert-daily-task-toview]`  
+- [x] change in [[Panel/Actions|Actions]] 
+![[To View - like todo with no admonition-1740347773500.png]]
 ````
-
-``````
 
 ---
 
