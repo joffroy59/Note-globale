@@ -1,5 +1,9 @@
 ---
-
+tags:
+  - IA
+  - IA/civitai
+  - IA/comfyui/flux
+  - IA/comfyui
 ---
  
 `````ad-example
