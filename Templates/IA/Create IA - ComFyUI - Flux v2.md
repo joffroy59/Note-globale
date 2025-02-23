@@ -49,7 +49,7 @@ collapse: open
 Source : <% sourceUrl %>
 
 worflow: <% worflow %> 
-🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
+⭐🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
 ✅ #todo 
 
 image: ![](<% image %>)
