@@ -3,8 +3,9 @@ workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
 <%*
-let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
-
+let workflowDirList = ["D:\\IA\\ComfyUI workflow\\totest", "D:\\IA\\ComfyUI workflow", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
+let workflowFolder= "file:///" + workflowDirList[0].replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
+  
   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
@@ -15,9 +16,9 @@ let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5
 
 let worflow = await tp.system.prompt("Worflow file path", title);
 let worflowBaseFolder = "";
-let typeList = ["D:\\IA\\ComfyUI workflow\\totest", "D:\\IA\\ComfyUI workflow", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
+
 if (worflow)
-	worflowBaseFolder = await tp.system.suggester((item) => item, typeList);
+	worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList);
 	workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 let defaultValue = "WIP IA"  
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
