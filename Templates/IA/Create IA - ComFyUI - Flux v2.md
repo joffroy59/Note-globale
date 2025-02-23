@@ -6,7 +6,7 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 let workflowDirList = ["D:\\IA\\ComfyUI workflow\\totest", 
 	"D:\\IA\\ComfyUI workflow", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", "D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
-let workflowFolder= "file:///" + workflowDirList[1] + "%5C"
+let workflowFolder= "file:///" + workflowDirList[1].replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 let defaultWorkflowName = "workflow_test"
   
   let title = tp.file.title
