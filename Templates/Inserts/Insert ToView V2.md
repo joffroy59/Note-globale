@@ -4,7 +4,7 @@ const defaultTitle = "ToView"
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
-const templateName = "Templates/Inserts/Create Idea v2"
+const templateName = "Templates/Inserts/Create ToView v2"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
