@@ -26,6 +26,7 @@ title: Note
 - [x] Metabind `BUTTON[insert-daily-wip-v2,insert-daily-task-wip]`  
 - [x] change in [[Panel/Actions|Actions]] 
 ![[Wip - like Wip ai with no admonition-1740351520897.png|150x74]] ➡️   ![[Wip - like Wip ai with no admonition-1740351526594.png|150x74]]
+- [x] change in [[Daily Note Template]]  `BUTTON[insert-daily-toview]`     `BUTTON[insert-daily-task-wip]`
 - [x] Template Created Note  [[Create WIP v2]] --> [[Templates/Inserts/Create Task WIP]] 
  ![[Wip - like Wip ai with no admonition-1740349977169.png|200]]
 ````

@@ -12,7 +12,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ## 🚧 Wip ———————
 
-`BUTTON[insert-daily-wip-v2,insert-daily-wip-ia-select-v2,insert-daily-wip]`
+`BUTTON[insert-daily-task-wip,insert-daily-wip-ia-select-v2,insert-daily-wip]`
 
 - [/] **WIP** ➕ <% tp.date.now("YYYY-MM-DD") %> 🛫 <% tp.date.now("YYYY-MM-DD") %>
 
@@ -26,7 +26,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ### 📎TODO's ——————
 
-`BUTTON[insert-daily-todo]` `BUTTON[insert-daily-task-toview]` `BUTTON[insert-daily-idea]`  `BUTTON[insert-daily-task]` `BUTTON[insert-daily-task-obsidian]`
+`BUTTON[insert-daily-todo]` `BUTTON[insert-daily-task-toview]` `BUTTON[insert-daily-idea]`  `BUTTON[insert-daily-task]` `BUTTON[insert-daily-task-obsidian]`x
 
 - [ ] **TODO**  ➕ <% tp.date.now("YYYY-MM-DD") %>
  
