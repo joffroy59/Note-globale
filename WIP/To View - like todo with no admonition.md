@@ -22,6 +22,7 @@ title: Note
 - `BUTTON[insert-daily-task-toview]`  
 - [x] change in [[Panel/Actions|Actions]] 
 ![[To View - like todo with no admonition-1740348104530.png]] ➡️   ![[To View - like todo with no admonition-1740347773500.png]]
+- [x] remplacement template created Note [[Create ToView V2]] --> [[Templates/Inserts/Create Task ToView]]
 ````
 
 ---
