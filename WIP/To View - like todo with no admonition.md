@@ -4,10 +4,12 @@ tags:
   - "#done"
 ---
 
+
 ---
+
  
 ````ad-tip
-Source : 
+remove admonition pour plus de clareté et construiction d'une liste simple de tache avec todo, etc  
 
 ````
 
