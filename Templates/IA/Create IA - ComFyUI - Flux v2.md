@@ -74,7 +74,6 @@ title: Workflow Directories
 [[<% title %>]]
 
 <%*
-
 for (workflowDir of workflowDirList)
     tR += "- " + "file:///" + workflowDir.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C" + "\n";
 %>
