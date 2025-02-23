@@ -23,8 +23,9 @@ title: Note
 - [[Insert Task - ToView]] 
 - `BUTTON[insert-daily-task-toview]`  
 - [x] change in [[Panel/Actions|Actions]] 
-![[To View - like todo with no admonition-1740348104530.png]] ➡️   ![[To View - like todo with no admonition-1740347773500.png]]
-- [x] remplacement template created Note [[Create ToView V2]] --> [[Templates/Inserts/Create Task ToView]]
+![[To View - like todo with no admonition-1740348104530.png|200]] ➡️   ![[To View - like todo with no admonition-1740347773500.png|200]]
+- [x] remplacement template created Note [[Create ToView V2]] --> [[Templates/Inserts/Create Task ToView]] 
+ ![[Wip - like Wip ai with no admonition-1740349977169.png|200]]
 ````
 
 ---
