@@ -16,20 +16,20 @@ Quickadd
 ## Execution
 
 - [x] Template Insert in Daily Note [[Insert Wip IA - Select v2]] ➡️ [[Insert Wip IA - Task - Select]] ✅ 2025-02-24
-	- [x] Generic
+	- [x] Generic ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
-			- [x] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
-			- [x] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
+			- [x] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]] ✅ 2025-02-24
+			- [x] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]] ✅ 2025-02-24
 		- [x] QuickAdd ✅ 2025-02-24
 			- [x] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select` ✅ 2025-02-24
 		- [x] Test with QuickAdd ✅ 2025-02-24
 		- [x] Metabind Button ✅ 2025-02-24
 			- [x] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]` ✅ 2025-02-24
-		- [ ] change 
+		- [x] change ✅ 2025-02-24
 			- [x] [[Panel/Actions]] ✅ 2025-02-24
 				- [x] test ✅ 2025-02-24
-			- [ ] [[Daily Note Template]]  
-				- [ ] test
+			- [x] [[Daily Note Template]] ✅ 2025-02-24
+				- [x] test ✅ 2025-02-24
 	- [ ] Model
 	- [ ] ComFyUI
 	- [ ] ComFyUI - Flux
