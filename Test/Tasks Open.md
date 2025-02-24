@@ -1,3 +1,8 @@
+---
+tags:
+  - tasks
+  - list
+---
 ```tasks
 not done
 filter by function !task.file.folder.includes('Templates')
