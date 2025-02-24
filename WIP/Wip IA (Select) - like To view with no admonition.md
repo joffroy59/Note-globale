@@ -86,18 +86,18 @@ Quickadd
 				- [x] test ✅ 2025-02-24
 			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
-	- [ ] Application
-		- [ ] Template
-			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
-			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
+	- [x] Application ✅ 2025-02-24
+		- [x] Template ✅ 2025-02-24
+			- [x] [[Insert Wip IA - Application v2]] ➡️ [[Insert Wip IA - Task - Application]] ✅ 2025-02-24
+			- [x] [[Create IA - Application v2]] ➡️ [[Templates/IA/Create IA - Task - Application]] ✅ 2025-02-24
 		- [-] QuickAdd
 			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
-		- [ ] Test with QuickAdd
+		- [x] Test with QuickAdd ✅ 2025-02-24
 		- [-] Metabind Button
 			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
 		- [-] change
 			- [-] [[Panel/Actions]]
-				- [ ] test
+				- [x] test ✅ 2025-02-24
 			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] StabilityMatrix - Application
