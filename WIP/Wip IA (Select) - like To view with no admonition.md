@@ -45,9 +45,9 @@ Quickadd
 			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] ComFyUI
-		- [ ] Template
-			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
-			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
+		- [x] Template ✅ 2025-02-24
+			- [x] [[Insert Wip IA - Task - ComFyUI]] ➡️ [[Insert Wip IA - Task - ComFyUI]] ✅ 2025-02-24
+			- [x] [[Create IA - Task - ComFyUI]] ➡️ [[Templates/IA/Create IA - Task - ComFyUI]] ✅ 2025-02-24
 		- [-] QuickAdd
 			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
 		- [ ] Test with QuickAdd
