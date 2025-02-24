@@ -27,7 +27,7 @@ Quickadd
 			- [x] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]` ✅ 2025-02-24
 		- [ ] change 
 			- [x] [[Panel/Actions]] ✅ 2025-02-24
-				- [ ] test
+				- [x] test ✅ 2025-02-24
 			- [ ] [[Daily Note Template]]  
 				- [ ] test
 	- [ ] Model
