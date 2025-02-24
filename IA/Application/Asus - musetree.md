@@ -1,5 +1,8 @@
 ---
 ollama_model_dir: I:\IA\ollama\models
+tags:
+  - IA/application
+  - IA/images
 ---
 
 ---
