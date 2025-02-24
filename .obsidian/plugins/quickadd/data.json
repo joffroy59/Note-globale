@@ -1764,6 +1764,13 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "32c348f8-7ba7-4141-ac64-3e6d20f5973d",
+      "name": "Transform Test To Wip",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b3eb05ef-0b84-4a60-bb13-641a0fe80276"
     }
   ],
   "macros": [
@@ -2314,6 +2321,19 @@
       "name": "Fix Plugins Obsidian (copy)",
       "id": "21d34c0a-bf25-40f7-97af-f1092c96e47e",
       "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Transform Test To Wip",
+      "id": "b3eb05ef-0b84-4a60-bb13-641a0fe80276",
+      "commands": [
+        {
+          "name": "Select active line",
+          "type": "EditorCommand",
+          "id": "072623f2-2270-4c28-a86b-319b73b207e5",
+          "editorCommandType": "Select active line"
+        }
+      ],
       "runOnStartup": false
     }
   ],
