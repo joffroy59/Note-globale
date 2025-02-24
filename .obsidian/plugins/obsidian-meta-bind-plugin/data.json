@@ -845,6 +845,21 @@
           "command": "quickadd:choice:24f566eb-c0de-4d44-b958-0ec3d626ef11"
         }
       ]
+    },
+    {
+      "label": "+ Wip IA (Task)",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-5-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia-task-select",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:7f55886d-6c2d-44e0-a7b1-fd92a29a840f"
+        }
+      ]
     }
   ],
   "excludedFolders": [

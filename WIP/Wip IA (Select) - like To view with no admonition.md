@@ -23,8 +23,8 @@ Quickadd
 		- [x] QuickAdd ✅ 2025-02-24
 			- [x] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select` ✅ 2025-02-24
 		- [x] Test with QuickAdd ✅ 2025-02-24
-		- [ ] Metabind Button
-			- [ ] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`   
+		- [x] Metabind Button ✅ 2025-02-24
+			- [x] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]` ✅ 2025-02-24
 		- [ ] change 
 			- [ ] [[Panel/Actions|Actions]]
 			- [ ] [[Daily Note Template]]  
