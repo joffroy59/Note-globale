@@ -6,8 +6,8 @@ url: "https://share.note.sx/tus76cc6"
 ```
 
 
-- [/] [[Templates/Move Selected Test]]
-	- [ ] test
+- [x] [[Templates/Move Selected Test]] ✅ 2025-02-24
+	- [x] test KO ✅ 2025-02-24
 
 
 - [ ] [Extract selection to heading](https://forum.obsidian.md/t/67897)
