@@ -1,0 +1,123 @@
+/* [/] Incomplete */
+/* input[data-task="/"]:checked,
+li[data-task="/"]>input:checked,
+li[data-task="/"]>p>input:checked {
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+input[data-task="/"]:checked:after,
+li[data-task="/"]>input:checked:after,
+li[data-task="/"]>p>input:checked:after {
+    top: 0;
+    left: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: var(--background-modifier-accent);
+    width: calc(50% - 0.5px);
+    height: 100%;
+    -webkit-mask-image: none;
+} */
+
+
+/* input[type=checkbox]:checked[data-task="/"],
+li[data-task="/"]>input:checked,
+li[data-task="/"]>p>input:checked {
+    background: linear-gradient(to right, var(--inprogress-chbx-color) 50%, var(--checklist-bg) 50%);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    border-color: var(--inprogress-chbx-border-color);
+} */
+
+
+/* Boder: https: //github.com/Akifyss/obsidian-border/blob/main/theme.css ✅ */
+/* body:not(.disable-alternative-checkboxes) input[data-task="/"]:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>input:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>p>input:checked {
+    --checkbox-color-hover: var(--color-yellow);
+    --checkbox-color: var(--color-yellow);
+    border: 2px var(--color-yellow) solid;
+    background: conic-gradient(var(--color-yellow) 0% 37.5%, transparent 37.5% 100%);
+}
+
+body:not(.disable-alternative-checkboxes) input[data-task="/"]:checked:hover,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>input:checked:hover,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>p>input:checked:hover {
+    background: conic-gradient(var(--color-yellow) 0% 37.5%, transparent 37.5% 100%);
+}
+
+body:not(.disable-alternative-checkboxes) input[data-task="/"]:checked:after,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>input:checked:after,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>p>input:checked:after {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-mask-image: none;
+} */
+
+/* body:not(.disable-alternative-checkboxes) input[data-task="/"]:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>input:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>p>input:checked {
+  background-color: var(--checkbox-color);
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2a14 14 0 1 0 14 14A14.016 14.016 0 0 0 16 2Zm0 26a12 12 0 0 1 0-24v12l8.481 8.481A11.963 11.963 0 0 1 16 28Z'/%3E%3Cpath fill='none' d='M0 0h32v32H0z' data-name='&lt;Transparent Rectangle&gt;'/%3E%3C/svg%3E");
+} */
+
+/* [/] Incomplete */
+/* input[data-task="/"]:checked,
+li[data-task="/"]>input:checked,
+li[data-task="/"]>p>input:checked {
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+input[data-task="/"]:checked:after,
+li[data-task="/"]>input:checked:after,
+li[data-task="/"]>p>input:checked:after {
+    top: 0;
+    left: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: var(--background-modifier-accent);
+    width: calc(50% - 0.5px);
+    height: 100%;
+    -webkit-mask-image: none;
+} */
+
+
+/* ======checkboxes ====== */
+body {
+    /* Checkboxes */
+    --checkbox-radius: 0px;
+    /* --checkbox-wip-color: var(--bright-orange); */
+    /* --checkbox-wip-color: var(--link-color); */
+    --checkbox-wip-color: var(--checkbox-color);
+}
+
+input[data-task="/"]:checked,
+li[data-task="/"]>input:checked,
+li[data-task="/"]>p>input:checked {
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+input[data-task="/"]:checked:after,
+li[data-task="/"]>input:checked:after,
+li[data-task="/"]>p>input:checked:after {
+    top: 2px;
+    left: 2px;
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: var(--checkbox-wip-color);
+    width: calc(30% - 0.5px);
+    height: 65%;
+    -webkit-mask-image: none;
+}
+
+
