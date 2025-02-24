@@ -1040,7 +1040,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert WIP v2.md}}\n"
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - WIP.md}}\n"
           },
           "insertAfter": {
             "enabled": true,
