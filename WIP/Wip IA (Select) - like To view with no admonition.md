@@ -26,8 +26,10 @@ Quickadd
 		- [x] Metabind Button ✅ 2025-02-24
 			- [x] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]` ✅ 2025-02-24
 		- [ ] change 
-			- [ ] [[Panel/Actions|Actions]]
+			- [x] [[Panel/Actions]] ✅ 2025-02-24
+				- [ ] test
 			- [ ] [[Daily Note Template]]  
+				- [ ] test
 	- [ ] Model
 	- [ ] ComFyUI
 	- [ ] ComFyUI - Flux
