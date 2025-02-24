@@ -4,11 +4,8 @@ tags:
 ---
 
 ---
- 
-``````ad-example
-title: WIP 
-collapse: open
 
+ 
 ````ad-tip
 Source : 
 
@@ -19,8 +16,6 @@ title: Note
  
 
 ````
-
-``````
 
 ---
 
