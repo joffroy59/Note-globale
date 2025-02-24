@@ -31,86 +31,86 @@ Quickadd
 			- [x] [[Daily Note Template]] ✅ 2025-02-24
 				- [x] test ✅ 2025-02-24
 	- [ ] Model
-		- [ ] Template
-			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
-			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
-		- [ ] QuickAdd
-			- [ ] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
-		- [ ] Test with QuickAdd
-		- [ ] Metabind Button
-			- [ ] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
-		- [ ] change
-			- [ ] [[Panel/Actions]]
+		- [x] Template ✅ 2025-02-24
+			- [x] [[Insert Wip IA - Model v2]] ➡️ [[Insert Wip IA - Task - Model]] ✅ 2025-02-24
+			- [x] [[Create IA - Model v2]] ➡️ [[Templates/IA/Create IA - Task - Model]] ✅ 2025-02-24
+		- [-] QuickAdd
+			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select` ✅ 2025-02-24
+		- [x] Test with QuickAdd ✅ 2025-02-24
+		- [-] Metabind Button
+			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
+		- [-] change
+			- [-] [[Panel/Actions]]
 				- [ ] test
-			- [ ] [[Daily Note Template]]
+			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] ComFyUI
 		- [ ] Template
 			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
 			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
-		- [ ] QuickAdd
-			- [ ] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
+		- [-] QuickAdd
+			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
 		- [ ] Test with QuickAdd
-		- [ ] Metabind Button
-			- [ ] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
-		- [ ] change
-			- [ ] [[Panel/Actions]]
+		- [-] Metabind Button
+			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
+		- [-] change
+			- [-] [[Panel/Actions]]
 				- [ ] test
-			- [ ] [[Daily Note Template]]
+			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] ComFyUI - Flux
 		- [ ] Template
 			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
 			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
-		- [ ] QuickAdd
-			- [ ] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
+		- [-] QuickAdd
+			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
 		- [ ] Test with QuickAdd
-		- [ ] Metabind Button
-			- [ ] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
-		- [ ] change
-			- [ ] [[Panel/Actions]]
+		- [-] Metabind Button
+			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
+		- [-] change
+			- [-] [[Panel/Actions]]
 				- [ ] test
-			- [ ] [[Daily Note Template]]
+			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] IA civitai
 		- [ ] Template
 			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
 			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
-		- [ ] QuickAdd
-			- [ ] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
+		- [-] QuickAdd
+			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
 		- [ ] Test with QuickAdd
-		- [ ] Metabind Button
-			- [ ] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
-		- [ ] change
-			- [ ] [[Panel/Actions]]
+		- [-] Metabind Button
+			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
+		- [-] change
+			- [-] [[Panel/Actions]]
 				- [ ] test
-			- [ ] [[Daily Note Template]]
+			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] Application
 		- [ ] Template
 			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
 			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
-		- [ ] QuickAdd
-			- [ ] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
+		- [-] QuickAdd
+			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
 		- [ ] Test with QuickAdd
-		- [ ] Metabind Button
-			- [ ] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
-		- [ ] change
-			- [ ] [[Panel/Actions]]
+		- [-] Metabind Button
+			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
+		- [-] change
+			- [-] [[Panel/Actions]]
 				- [ ] test
-			- [ ] [[Daily Note Template]]
+			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] StabilityMatrix - Application
 		- [ ] Template
 			- [ ] [[Insert Wip IA - Generic v2]] ➡️ [[Insert Wip IA - Task - Generic]]
 			- [ ] [[Create IA - Generic v2]] ➡️ [[Templates/IA/Create IA - Task - Generic]]
-		- [ ] QuickAdd
-			- [ ] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
+		- [-] QuickAdd
+			- [-] Duplication  `🚧Insert WIP IA - Select v2` ➡️ `🚧Insert WIP IA - Task - Select`
 		- [ ] Test with QuickAdd
-		- [ ] Metabind Button
-			- [ ] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
-		- [ ] change
-			- [ ] [[Panel/Actions]]
+		- [-] Metabind Button
+			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
+		- [-] change
+			- [-] [[Panel/Actions]]
 				- [ ] test
-			- [ ] [[Daily Note Template]]
+			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
