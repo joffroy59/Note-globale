@@ -30,7 +30,7 @@ Quickadd
 				- [x] test ✅ 2025-02-24
 			- [x] [[Daily Note Template]] ✅ 2025-02-24
 				- [x] test ✅ 2025-02-24
-	- [ ] Model
+	- [x] Model ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
 			- [x] [[Insert Wip IA - Model v2]] ➡️ [[Insert Wip IA - Task - Model]] ✅ 2025-02-24
 			- [x] [[Create IA - Model v2]] ➡️ [[Templates/IA/Create IA - Task - Model]] ✅ 2025-02-24
@@ -41,7 +41,7 @@ Quickadd
 			- [-] `BUTTON[insert-daily-wip-ia-select-v2]`  ➡️  `BUTTON[insert-daily-wip-ia-task-select]`
 		- [-] change
 			- [-] [[Panel/Actions]]
-				- [ ] test
+				- [x] test ✅ 2025-02-24
 			- [-] [[Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [ ] ComFyUI
