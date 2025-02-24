@@ -8,7 +8,7 @@ banner_y: 0.492
 cov:
 ---
 
-`BUTTON[insert-daily-task-wip,insert-daily-wip-ia-select-v2,insert-daily-wip]`
+`BUTTON[insert-daily-task-wip,insert-daily-wip-ia-select-v2,insert-daily-wip,insert-daily-task-wip-graph]`
 
 `BUTTON[insert-daily-todo,insert-daily-task-toview]`
 

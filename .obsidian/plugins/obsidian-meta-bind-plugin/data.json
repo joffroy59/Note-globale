@@ -830,6 +830,21 @@
           "command": "quickadd:choice:2b96c589-53b1-4e4e-9081-025efa2cb5c9"
         }
       ]
+    },
+    {
+      "label": "+ Wip Graph",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-3-button",
+      "tooltip": "",
+      "id": "insert-daily-task-wip-graph",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:24f566eb-c0de-4d44-b958-0ec3d626ef11"
+        }
+      ]
     }
   ],
   "excludedFolders": [
