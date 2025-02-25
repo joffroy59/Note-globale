@@ -1,35 +1,22 @@
 ## Test reproduction en local
+<%*
+let packageList = [
+	"Inference", 
+	"ComfyUI", 
+	"Stable Diffusion WebUI", 
+	"Stable Diffusion WebUI Forge", 
+	"SDX", 
+	"SwarmUI", 
+	"InvokeAI"]
+-%>
+
 ### StabilityMatrix 
-#### Inference
-##### Config
-##### Execution
-##### Result
 
-#### ComfyUI
-##### Config
-##### Execution
-##### Result
-
-#### Stable Diffusion WebUI 
-##### Config
-##### Execution
-##### Result
-
-#### Stable Diffusion WebUI Forge
-##### Config
-##### Execution
-##### Result
-#### SDX
-##### Config
-##### Execution
-##### Result
-
-#### SwarmUI
-##### Config
-##### Execution
-##### Result
-
-#### InvokeAI
-##### Config
-##### Execution
-##### Result
+<%*
+for (package of packageList){
+    tR += "#### "  + package + "\n";
+    tR += "##### Config" + "\n";
+    tR += "##### Execution" + "\n";
+    tR += "##### Result" + "\n";
+}    
+-%>
