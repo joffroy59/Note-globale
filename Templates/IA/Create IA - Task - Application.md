@@ -17,13 +17,7 @@ let url = await tp.system.prompt("url");
 let entree = title ;
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
-%>
----
-<%* tp.file.cursor() %> 
-``````ad-example
-title: WIP IA - Application
-collapse: open
-
+-%>
 ````ad-tip
 Source : <% url %>
 
@@ -36,6 +30,4 @@ title: Note
 <% note %> 
 
 ````
-
-``````
 
