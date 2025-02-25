@@ -41,7 +41,7 @@ title: Generation data
 ````
 
 ````ad-warning
-title: Generation data
+title: Nodes
 
 <% nodeWorfklow %> 
 
@@ -69,17 +69,7 @@ for (workflowDir of workflowDirList)
 tR+= await tp.file.include(`[[Common - Reproduction Local]]`);
 %>
 
-<%*
-if (nodeWorfklow) {
-    tR += "#### "  + package + "\n";
-    tR += "````ad-warning\n";
-    tR += "title: Nodes\n";
-    tR += "\n";
-    tR += nodeWorfklow + "\n"; 
-    tR += "\n";
-	tR += "````\n";
-}
-%>
+
 
 
 ---
