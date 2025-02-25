@@ -38,10 +38,6 @@ if (worflow){
 
 workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
-let defaultValue = "WIP IA"  
-let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
-if (!entree) entree = defaultValue
-
 let sourceUrl = await tp.system.prompt("Source Url");
 let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
@@ -68,7 +64,9 @@ title: Generation data
 
 ```ad-note
 title: Note
+
 <% note %> 
+
 ```
 ```ad-info
 title: Workflow Directories

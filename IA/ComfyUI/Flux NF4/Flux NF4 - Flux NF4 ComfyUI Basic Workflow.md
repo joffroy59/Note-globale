@@ -12,9 +12,8 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/mentor_ai/flux-nf4-comfyui-basic-workflow/7QgBrjXFKDO57w0orNVc
 
-worflow: workflow_test 
-⭐ [workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json)
-🚧 [W-workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5CW-workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json)
+worflow: workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai 
+⭐🚧 [workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json)
 ✅ #todo 
 
 image: ![](https://cdn.openart.ai/workflow_thumbnails/I9BNwZz6ZNwdAGuhRSNl/image_Qv63hc0s_1724132163516_raw.jpg)
@@ -22,10 +21,19 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/I9BNwZz6ZNwdAGuhRSNl/image
 
 ```
 
+````ad-quote
+title: Generation data
+
+Cinematic, photorealistic, the text "FLUX-NF4" made up of metals and crystals written in a magical glowing circuit lines integrated into a circuit board, futuristic sci-fi look, intricate deisgn of a circuit board, extremely highly detailed 
+
+````
+
 ```ad-note
 title: Note
+
  
 
+```
 ```ad-info
 title: Workflow Directories
 collapse: closed
@@ -36,9 +44,56 @@ collapse: closed
 - [D:\dev-data\IA\Stability Matrix Project\workflow](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C)
 ```
 
-[[Flux NF4 - Flux NF4 ComfyUI Basic Workflow]]
-
 
 ---
-creation date:: [[2025/02/09/📒2025-02-25]]  00:54
+
+## Test reproduction en local
+### StabilityMatrix 
+#### Inference
+##### Config
+##### Execution
+##### Result
+
+#### ComfyUI
+##### Config
+##### Execution
+##### Result
+
+#### Stable Diffusion WebUI 
+##### Config
+##### Execution
+##### Result
+
+#### Stable Diffusion WebUI Forge
+##### Config
+##### Execution
+##### Result
+#### SDX
+##### Config
+##### Execution
+##### Result
+
+#### SwarmUI
+##### Config
+##### Execution
+##### Result
+
+#### InvokeAI
+##### Config
+##### Execution
+##### Result
+
+---
+## Local
+
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
+- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+```
+
+---
+creation date:: [[2025/02/09/📒2025-02-25]]  01:18
 
