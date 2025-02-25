@@ -35,6 +35,7 @@ image: ![|400](<% image %>)
 
 ````ad-quote
 title: Generation data
+collapse: closed
 
 <% generationData %> 
 
@@ -42,6 +43,7 @@ title: Generation data
 
 ````ad-warning
 title: Nodes
+collapse: closed
 
 <% nodeWorfklow %> 
 
