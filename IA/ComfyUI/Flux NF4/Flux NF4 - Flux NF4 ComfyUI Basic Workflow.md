@@ -16,7 +16,7 @@ worflow: workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai
 ⭐🚧 [workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json)
 ✅ #todo 
 
-image: ![](https://cdn.openart.ai/workflow_thumbnails/I9BNwZz6ZNwdAGuhRSNl/image_Qv63hc0s_1724132163516_raw.jpg)
+image: ![|400](https://cdn.openart.ai/workflow_thumbnails/I9BNwZz6ZNwdAGuhRSNl/image_Qv63hc0s_1724132163516_raw.jpg)
 
 
 ```
@@ -51,9 +51,10 @@ collapse: closed
 ### StabilityMatrix 
 #### Inference
 ##### Config
+![[Flux NF4 - Flux NF4 ComfyUI Basic Workflow-1740442928434.png|150x121]]
 ##### Execution
 ##### Result
-
+![[Flux NF4 - Flux NF4 ComfyUI Basic Workflow-1740442934628.png|150x150]]
 #### ComfyUI
 ##### Config
 ##### Execution
