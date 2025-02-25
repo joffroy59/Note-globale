@@ -3,6 +3,13 @@ workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
 <%*
+let workflowDirList = [
+	"D:\\IA\\ComfyUI workflow\\Download", 
+	"D:\\IA\\ComfyUI workflow\\totest", 
+	"D:\\IA\\ComfyUI workflow", 
+	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", 
+	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
+
   title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
