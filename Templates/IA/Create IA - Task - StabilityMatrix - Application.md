@@ -19,13 +19,7 @@ if (!entree) entree = defaultValue
 let sourceUrl = await tp.system.prompt("source Url");
 let imageUrl = await tp.system.prompt("Image Url");
 let note = await tp.system.prompt("Note");
-%>
----
-<%* tp.file.cursor() %> 
-`````ad-example
-title: WIP IA - <% title %>
-collapse: open
-
+-%>
 ````ad-tip
 Source : <% sourceUrl %>
 
@@ -40,7 +34,6 @@ title: Note
 
 ```
 
-`````
 
 [[<% title %>]]
 

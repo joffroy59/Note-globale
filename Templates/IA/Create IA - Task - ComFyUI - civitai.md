@@ -28,7 +28,7 @@ let note = await tp.system.prompt("Note");
 ````ad-tip
 Source : <% sourceUrl %>
 
-image: ![](<% image %>)
+image: ![|400](<% image %>)
 
 ````
 

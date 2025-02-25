@@ -30,7 +30,7 @@ worflow: <% worflow %>
 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
 
 
-image: ![](<% image %>)
+image: ![|400](<% image %>)
 
 
 ```
