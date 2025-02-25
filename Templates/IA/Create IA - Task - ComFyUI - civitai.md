@@ -14,21 +14,15 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
     await tp.file.rename(`${title}`);
   } 
 
-let url = await tp.system.prompt("url");
+let sourceUrl = await tp.system.prompt("Source Url");
 
 let entree = title ;
 let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
 let note = await tp.system.prompt("Note");
-%>
----
-<%* tp.file.cursor() %> 
-``````ad-example
-title: WIP IA - ComfyUI - Flux
-collapse: open
-
+-%>
 ````ad-tip
-Source : <% url %>
+Source : <% sourceUrl %>
 
 image: ![](<% image %>)
 
@@ -46,8 +40,16 @@ title: Note
 <% note %> 
 
 ````
+```ad-info
+title: Workflow Directories
+collapse: closed
+<%*
+for (workflowDir of workflowDirList)
+    tR += "- " + "[" + workflowDir + "](file:///" + workflowDir.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C" + ")\n";
+-%>
+```
 
-``````
+
 
 ---
 
