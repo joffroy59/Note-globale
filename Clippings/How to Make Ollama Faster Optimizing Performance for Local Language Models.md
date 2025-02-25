@@ -1,13 +1,14 @@
 ---
 title: "How to Make Ollama Faster: Optimizing Performance for Local Language Models"
-source: "https://anakin.ai/blog/how-to-make-ollama-faster/"
+source: https://anakin.ai/blog/how-to-make-ollama-faster/
 author:
   - "[[Sam Popovic]]"
 published: 2024-06-28
 created: 2025-02-07
-description: "Having issues with Ollama model speed? Read this article to find out the solution!"
+description: Having issues with Ollama model speed? Read this article to find out the solution!
 tags:
-  - "clippings"
+  - clippings
+  - toview
 ---
 💡
 

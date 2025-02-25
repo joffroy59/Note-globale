@@ -1,13 +1,14 @@
 ---
-title: "Introduction - Tasks User Guide - Obsidian Publish"
-source: "https://publish.obsidian.md/tasks/Introduction"
+title: Introduction - Tasks User Guide - Obsidian Publish
+source: https://publish.obsidian.md/tasks/Introduction
 author:
   - "[[Tasks User Guide]]"
-published:
+published: 
 created: 2025-01-18
-description: "Explaining Queries - Tasks User Guide - Powered by Obsidian Publish."
+description: Explaining Queries - Tasks User Guide - Powered by Obsidian Publish.
 tags:
-  - "clippings"
+  - clippings
+  - toview
 ---
 ## Navigation around this site
 
