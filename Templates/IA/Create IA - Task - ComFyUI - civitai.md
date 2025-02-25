@@ -23,6 +23,7 @@ let sourceUrl = await tp.system.prompt("Source Url");
 let entree = title ;
 let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
+let nodeWorfklow = await tp.system.prompt("Nodes", null, false, true);
 let note = await tp.system.prompt("Note");
 -%>
 ````ad-tip
@@ -36,6 +37,13 @@ image: ![|400](<% image %>)
 title: Generation data
 
 <% generationData %> 
+
+````
+
+````ad-warning
+title: Generation data
+
+<% nodeWorfklow %> 
 
 ````
 
@@ -60,6 +68,19 @@ for (workflowDir of workflowDirList)
 <%*
 tR+= await tp.file.include(`[[Common - Reproduction Local]]`);
 %>
+
+<%*
+if (nodeWorfklow) {
+    tR += "#### "  + package + "\n";
+    tR += "````ad-warning\n";
+    tR += "title: Nodes\n";
+    tR += "\n";
+    tR += nodeWorfklow + "\n"; 
+    tR += "\n";
+	tR += "````\n";
+}
+%>
+
 
 ---
 ## Local
