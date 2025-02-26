@@ -36,15 +36,20 @@ title: Note
 
 
 ### A Reprendre
-- Home 
-  ![[Obsidian Electronic Lab Notebook vault released-1740605985815.png|150x90]]
-- 
-- folder tree color bar (theme ? )
-- home ? (pour ne pas etre obligé par daily note )
-- structure folder et asset 
-  ![[Obsidian Electronic Lab Notebook vault released-1740605834462.png|150x134]]
-- ![[Obsidian Electronic Lab Notebook vault released-1740605847300.png|150x242]]
-- ![[Obsidian Electronic Lab Notebook vault released-1740605857470.png|150x53]]
-- Theme 
-  ![[Obsidian Electronic Lab Notebook vault released-1740605743452.png]]
+- [/] [Home](obsidian://open?vault=ELN_vault&file=Home) 
+      ![[Obsidian Electronic Lab Notebook vault released-1740605985815.png]]
+      
+  Note [[Home]]
+- [ ] Action
+        ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
+- [ ] folder tree color bar (theme ? )
+- [ ] home ? (pour ne pas etre obligé par daily note )
+- [ ] structure folder et asset 
+        ![[Obsidian Electronic Lab Notebook vault released-1740605834462.png|150x134]]
+- [ ] List
+      ![[Obsidian Electronic Lab Notebook vault released-1740605847300.png|150x242]]
+- [ ] Note
+      ![[Obsidian Electronic Lab Notebook vault released-1740605857470.png|150x53]]
+- [ ] Theme 
+        ![[Obsidian Electronic Lab Notebook vault released-1740605743452.png]]
 
