@@ -886,6 +886,41 @@
           "openFileInMode": "default"
         },
         {
+          "id": "d417ebd0-6e59-4af2-bf47-ba59d18c490e",
+          "name": "✅Insert Task Done",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Task DONE.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### ✅ DONE",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
           "id": "c8567480-ec71-4715-b445-a2c82eb346a4",
           "name": "👉Insert Other v2",
           "type": "Capture",
