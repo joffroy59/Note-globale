@@ -39,10 +39,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ### 📅Planning Tasks ———
 
-``````ad-cite
-collapse: Closed
- <% tp.file.include("[[Planning Tasks]]") %>
-``````
+[[Planning Tasks]]
 
 
 
