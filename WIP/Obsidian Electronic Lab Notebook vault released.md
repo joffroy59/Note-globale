@@ -19,8 +19,15 @@ title: Note
 
 ````
 
----
+```ad-attention
 
+[ELN_vault](obsidian://open?vault=ELN_vault&file=assets%2Fimages%2FInstruments%2Fdummy-image-instrument.png)
+
+```
+
+
+---
+### 🖼 Screenshot 
 ![[Obsidian Electronic Lab Notebook vault released-1740605646371.png]]
 
 ![[Obsidian Electronic Lab Notebook vault released-1740605662081.png]]
@@ -28,6 +35,16 @@ title: Note
 ![[Obsidian Electronic Lab Notebook vault released-1740605670865.png]]
 
 
-a reprendre 
+### A Reprendre
+- Home 
+  ![[Obsidian Electronic Lab Notebook vault released-1740605985815.png|150x90]]
+- 
 - folder tree color bar (theme ? )
 - home ? (pour ne pas etre obligé par daily note )
+- structure folder et asset 
+  ![[Obsidian Electronic Lab Notebook vault released-1740605834462.png|150x134]]
+- ![[Obsidian Electronic Lab Notebook vault released-1740605847300.png|150x242]]
+- ![[Obsidian Electronic Lab Notebook vault released-1740605857470.png|150x53]]
+- Theme 
+  ![[Obsidian Electronic Lab Notebook vault released-1740605743452.png]]
+
