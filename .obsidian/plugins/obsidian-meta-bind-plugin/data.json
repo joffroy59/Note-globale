@@ -860,6 +860,36 @@
           "command": "quickadd:choice:7f55886d-6c2d-44e0-a7b1-fd92a29a840f"
         }
       ]
+    },
+    {
+      "label": "+ Win (Task)",
+      "icon": "",
+      "hidden": false,
+      "class": "green-5-button",
+      "tooltip": "",
+      "id": "insert-daily-task-win",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:889242ee-d570-42a8-a27d-312d9ea1ff5f"
+        }
+      ]
+    },
+    {
+      "label": "+ Done (Task)",
+      "icon": "",
+      "hidden": false,
+      "class": "green-3-button",
+      "tooltip": "",
+      "id": "insert-daily-task-done",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:d417ebd0-6e59-4af2-bf47-ba59d18c490e"
+        }
+      ]
     }
   ],
   "excludedFolders": [
