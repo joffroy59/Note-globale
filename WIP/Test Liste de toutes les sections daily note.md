@@ -102,7 +102,7 @@
 [[Templates/Inserts/byAdmonition/All ad-done]]
 
 #### query
-[[Liste Done]]
+[[Panel/Liste/Liste Done]]
 
 #### tasks
 [[Liste Task Done]]
