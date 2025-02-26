@@ -42,7 +42,7 @@
 | 11               | 5   | Dataview             | v0.5.67 |          |                |                 |
 | 1                | 6   | Git                  | v2.31.1 | ✅        | 1              | **🟢**          |
 | 14               | 7   | Homepage             | v4.1    | ✅        | 7              |                 |
-| 10               | 8   | Iconize              | v2.14.7 |          |                |                 |
+| 10               | 8   | Iconize              | v2.14.7 | ✅        | 8  🚧          |                 |
 | 16               | 9   | Image Toolkit        | v1.4.2  |          |                |                 |
 | 19               | 10  | Image Converter      | v1.3.8  |          |                |                 |
 | 5                | 11  | Link Embed           | v2.0.13 |          |                |                 |
@@ -78,24 +78,24 @@
 ## Suivi Start Obsidian
 
 
-| Mesure                           | None | Git | Tasks | Templater | Rollover Daily Todos | Periodic Notes | Meta Bind | Homepage |     |     |
-| -------------------------------- | ---- | --- | ----- | --------- | -------------------- | -------------- | --------- | -------- | --- | --- |
-| Total app startup                | 888  | 784 | 802   | 853       | 843                  | 840            | 921       | 842ms    |     |     |
-| Initialization                   | 426  | 317 | 200   | 192       | 214                  | 198            | 226ms     | 198ms    |     |     |
-| Vault (1 178 files)              | 164  | 128 | 106   | 105       | 107                  | 107            | 115ms     | 118ms    |     |     |
-| Workspace (16 tabs, 11 deferred) | 240  | 216 | 364   | 427       | 378                  | 382            | 315ms     | 294ms    |     |     |
-| Core plugins (18 active)         | 49   | 70  | 48    | 34        | 47                   | 51             | 83ms      | 47ms     |     |     |
-| Community plugins (0 active)     | 10   | 39  | 85    | 95        | 97                   | 102            | 183ms     | 185ms    |     |     |
-|                                  |      |     |       |           |                      |                |           |          |     |     |
-| Git                              |      |     | 38    | 40        | 38                   | 36             | 34ms      | 38ms     |     |     |
-| Tasks                            |      |     | 36    | 36        | 38                   | 37             | 41ms      | 37ms     |     |     |
-| Templater                        |      |     |       | 9         | 9                    | 9              | 8ms       | 8ms      |     |     |
-| Rollover Daily Todos             |      |     |       |           | 1                    | 3              | 1ms       | 2ms      |     |     |
-| Periodic Notes                   |      |     |       |           |                      | 1              | 3ms       | 4ms      |     |     |
-| Meta Bind                        |      |     |       |           |                      |                | 85ms      | 84ms     |     |     |
-| Homepage                         |      |     |       |           |                      |                |           | 2ms      |     |     |
-|                                  |      |     |       |           |                      |                |           |          |     |     |
-|                                  |      |     |       |           |                      |                |           |          |     |     |
-|                                  |      |     |       |           |                      |                |           |          |     |     |
+| Mesure                           | None | Git | Tasks | Templater | Rollover Daily Todos | Periodic Notes | Meta Bind | Homepage | Iconize |     |
+| -------------------------------- | ---- | --- | ----- | --------- | -------------------- | -------------- | --------- | -------- | ------- | --- |
+| Total app startup                | 888  | 784 | 802   | 853       | 843                  | 840            | 921       | 887ms    | 1,035ms |     |
+| Initialization                   | 426  | 317 | 200   | 192       | 214                  | 198            | 226ms     | 198ms    | 200ms   |     |
+| Vault (1 178 files)              | 164  | 128 | 106   | 105       | 107                  | 107            | 115ms     | 115ms    | 106ms   |     |
+| Workspace (16 tabs, 11 deferred) | 240  | 216 | 364   | 427       | 378                  | 382            | 315ms     | 364ms    | 429ms   |     |
+| Core plugins (18 active)         | 49   | 70  | 48    | 34        | 47                   | 51             | 83ms      | 21ms     | 37ms    |     |
+| Community plugins (0 active)     | 10   | 39  | 85    | 95        | 97                   | 102            | 183ms     | 190ms    | 263ms   |     |
+|                                  |      |     |       |           |                      |                |           |          |         |     |
+| Git                              |      |     | 38    | 40        | 38                   | 36             | 34ms      | 34ms     | 33ms    |     |
+| Tasks                            |      |     | 36    | 36        | 38                   | 37             | 41ms      | 43ms     | 42ms    |     |
+| Templater                        |      |     |       | 9         | 9                    | 9              | 8ms       | 9ms      | 8ms     |     |
+| Rollover Daily Todos             |      |     |       |           | 1                    | 3              | 1ms       | 1ms      | 2ms     |     |
+| Periodic Notes                   |      |     |       |           |                      | 1              | 3ms       | 3ms      | 3m      |     |
+| Meta Bind                        |      |     |       |           |                      |                | 85ms      | 85ms     | 84ms    |     |
+| Homepage                         |      |     |       |           |                      |                |           | 3ms      | 3ms     |     |
+| Iconize                          |      |     |       |           |                      |                |           |          | 78ms    |     |
+|                                  |      |     |       |           |                      |                |           |          |         |     |
+|                                  |      |     |       |           |                      |                |           |          |         |     |
 #todo GRAPH
 
