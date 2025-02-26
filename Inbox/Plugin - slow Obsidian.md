@@ -71,10 +71,7 @@ tags:
 > 	Community plugins: for bugs, please first try updating all your plugins to latest. If still not fixed, please try to make the issue happen in the Sandbox Vault or disable community plugins.
 
 
-### Actions 
 
 
-|      |      |      |      |      |
-|:-----|:-----|:-----|:-----|:-----|
-|      |      |      |      |      |
-|      |      |      |      |      |
+
+

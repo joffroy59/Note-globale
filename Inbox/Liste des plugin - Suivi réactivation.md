@@ -1,5 +1,6 @@
-Liste des plugin 
-
+## IA 
+[[Liste des plugin - Suivi réactivation - Copilot Chat]]
+[LeChat](https://chat.mistral.ai/chat/2caf8c2a-1d6e-46de-878c-ede6dab6d939)
 ### Liste des plugin et leur Id order
 
 | #   | Plugin               | Version |
@@ -74,13 +75,10 @@ Liste des plugin
 - **🟠** : Moyen (performances acceptables mais pas optimales)
 
 
-## Etat de départ sans plugin activés
+## Suivi Start Obsidian
 
-### Tableau de suivi des performances d'Obsidian : démarrage Obsidian
 
-**🟢** : Stable (aucun plugin activé)
-
-| Mesure                           |        | Git    |     |     |     |     |
+| Mesure                           | None   | Git    |     |     |     |     |
 | -------------------------------- | ------ | ------ | --- | --- | --- | --- |
 | Total app startup                | 888 ms | 458 ms |     |     |     |     |
 | Initialization                   | 426 ms | 164 ms |     |     |     |     |
@@ -88,5 +86,5 @@ Liste des plugin
 | Workspace (16 tabs, 11 deferred) | 240 ms | 136 ms |     |     |     |     |
 | Core plugins (18 active)         | 49 ms  | 33 ms  |     |     |     |     |
 | Community plugins (0 active)     | 10 ms  | 43 ms  |     |     |     |     |
-
+#tod  
 
