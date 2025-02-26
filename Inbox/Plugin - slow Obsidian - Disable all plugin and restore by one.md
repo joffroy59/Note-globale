@@ -1,0 +1,4 @@
+![[Plugin - slow Obsidian]]
+
+
+
