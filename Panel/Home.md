@@ -53,7 +53,7 @@ banner-height: 250
 - ### [[Notes]]
   ```dataview
   LIST
-  FROM "Notes" AND !"assets"
+  FROM "Note" AND !"assets"
   WHERE note-type != "tutorial"
   SORT file.mtime.ts ASC
   LIMIT 6
