@@ -40,22 +40,22 @@
 | 9                | 3   | Code Styler          | v1.1.7  |          |                |                 |
 | 25               | 4   | Copilot              | v2.8.6  |          |                |                 |
 | 11               | 5   | Dataview             | v0.5.67 |          |                |                 |
-| 1                | 6   | Git                  | v2.31.1 | ✅        | 1              |                 |
+| 1                | 6   | Git                  | v2.31.1 | ✅        | 1              | **🟢**          |
 | 14               | 7   | Homepage             | v4.1    |          |                |                 |
 | 10               | 8   | Iconize              | v2.14.7 |          |                |                 |
 | 16               | 9   | Image Toolkit        | v1.4.2  |          |                |                 |
 | 19               | 10  | Image Converter      | v1.3.8  |          |                |                 |
 | 5                | 11  | Link Embed           | v2.0.13 |          |                |                 |
-| 13               | 12  | Meta Bind            | v1.3.4  |          |                |                 |
+| 13               | 12  | Meta Bind            | v1.3.4  | ✅        | 6              | **🟢**          |
 | 21               | 13  | Mononote             | v1.2.2  |          |                |                 |
-| 6                | 14  | Periodic Notes       | v0.0.17 |          |                |                 |
+| 6                | 14  | Periodic Notes       | v0.0.17 | ✅        | 5              | **🟢**          |
 | 20               | 15  | Pixel Banner         | v2.21.2 |          |                |                 |
 | 12               | 16  | QuickAdd             | v1.11.5 |          |                |                 |
-| 4                | 17  | Rollover Daily Todos | v1.1.8  |          |                |                 |
+| 4                | 17  | Rollover Daily Todos | v1.1.8  | ✅        | 4              | **🟢**          |
 | 17               | 18  | BRAT                 | v1.0.6  |          |                |                 |
 | 7                | 19  | Table Generator      | v1.4.1  |          |                |                 |
-| 3                | 20  | Tasks                | v7.17.0 |          |                |                 |
-| 2                | 21  | Templater            | v2.9.3  |          |                |                 |
+| 3                | 20  | Tasks                | v7.17.0 | ✅        | 2              | **🟢**          |
+| 2                | 21  | Templater            | v2.9.3  | ✅        | 3              | **🟢**          |
 | 23               | 22  | Tray                 | v0.3.5  |          |                |                 |
 | 15               | 23  | Vault Transfer       | v1.3.0  |          |                |                 |
 | 18               | 24  | Query Control        | v0.7.13 |          |                |                 |
@@ -78,13 +78,20 @@
 ## Suivi Start Obsidian
 
 
-| Mesure                           | None   | Git    |     |     |     |     |
-| -------------------------------- | ------ | ------ | --- | --- | --- | --- |
-| Total app startup                | 888 ms | 784 ms |     |     |     |     |
-| Initialization                   | 426 ms | 317 ms |     |     |     |     |
-| Vault (1 178 files)              | 164 ms | 128 ms |     |     |     |     |
-| Workspace (16 tabs, 11 deferred) | 240 ms | 216 ms |     |     |     |     |
-| Core plugins (18 active)         | 49 ms  | 70 ms  |     |     |     |     |
-| Community plugins (0 active)     | 10 ms  | 39 ms  |     |     |     |     |
-#tod  
+| Mesure                           | None | Git | Tasks | Templater | Rollover Daily Todos | Periodic Notes | Meta Bind |
+| -------------------------------- | ---- | --- | ----- | --------- | -------------------- | -------------- | --------- |
+| Total app startup                | 888  | 784 | 802   | 853       | 843                  | 840            | 921       |
+| Initialization                   | 426  | 317 | 200   | 192       | 214                  | 198            | 226ms     |
+| Vault (1 178 files)              | 164  | 128 | 106   | 105       | 107                  | 107            | 115ms     |
+| Workspace (16 tabs, 11 deferred) | 240  | 216 | 364   | 427       | 378                  | 382            | 315ms     |
+| Core plugins (18 active)         | 49   | 70  | 48    | 34        | 47                   | 51             | 83ms      |
+| Community plugins (0 active)     | 10   | 39  | 85    | 95        | 97                   | 102            | 183ms     |
+|                                  |      |     |       |           |                      |                |           |
+| Git                              |      |     | 38    | 40        | 38                   | 36             | 34ms      |
+| Tasks                            |      |     | 36    | 36        | 38                   | 37             | 41ms      |
+| Templater                        |      |     |       | 9         | 9                    | 9              | 8ms       |
+| Rollover Daily Todos             |      |     |       |           | 1                    | 3              | 1ms       |
+| Periodic Notes                   |      |     |       |           |                      | 1              | 3ms       |
+| Meta Bind                        |      |     |       |           |                      |                | 85ms      |
+#todo GRAPH
 
