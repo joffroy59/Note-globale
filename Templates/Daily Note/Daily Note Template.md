@@ -57,15 +57,6 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 - [ ] **Note**  ➕ <% tp.date.now("YYYY-MM-DD") %>
 
-### Note créées ce jour ———————
-[[Note créées ce jour]]
-
-### Note modifiées ce jour ————
-[[Note modifiées ce jour]]
-
-
-
-
 ### 🪛Sandbox 
 
 
