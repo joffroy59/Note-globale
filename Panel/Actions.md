@@ -16,7 +16,7 @@ cov:
 
 `BUTTON[insert-daily-bote-select]`
 
-`BUTTON[insert-daily-win, insert-daily-done]`
+`BUTTON[insert-daily-task-win, insert-daily-task-done]`
 
 `BUTTON[insert-problem-daily-insert-v2]`
 
