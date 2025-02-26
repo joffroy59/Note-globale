@@ -80,11 +80,11 @@
 
 | Mesure                           | None   | Git    |     |     |     |     |
 | -------------------------------- | ------ | ------ | --- | --- | --- | --- |
-| Total app startup                | 888 ms | 458 ms |     |     |     |     |
-| Initialization                   | 426 ms | 164 ms |     |     |     |     |
-| Vault (1 178 files)              | 164 ms | 82 ms  |     |     |     |     |
-| Workspace (16 tabs, 11 deferred) | 240 ms | 136 ms |     |     |     |     |
-| Core plugins (18 active)         | 49 ms  | 33 ms  |     |     |     |     |
-| Community plugins (0 active)     | 10 ms  | 43 ms  |     |     |     |     |
+| Total app startup                | 888 ms | 784 ms |     |     |     |     |
+| Initialization                   | 426 ms | 317 ms |     |     |     |     |
+| Vault (1 178 files)              | 164 ms | 128 ms |     |     |     |     |
+| Workspace (16 tabs, 11 deferred) | 240 ms | 216 ms |     |     |     |     |
+| Core plugins (18 active)         | 49 ms  | 70 ms  |     |     |     |     |
+| Community plugins (0 active)     | 10 ms  | 39 ms  |     |     |     |     |
 #tod  
 
