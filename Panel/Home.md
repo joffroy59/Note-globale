@@ -30,6 +30,14 @@ banner-height: 250
 	- [[Devices]]
 	- [[Instruments]]
 
+- ### [[Notes]]
+  ```dataview
+  LIST
+  FROM "Note" AND !"assets"
+  WHERE note-type != "tutorial"
+  SORT file.mtime.ts ASC
+  LIMIT 6
+  ```
 
 - ### [[Daily Notes]]
   ```dataview
@@ -44,21 +52,7 @@ banner-height: 250
   TABLE
   FROM #status/wip AND !"assets" AND !"Templates"
   SORT file.mtime DESC
-  LIMIT 30
-  ```
-
-- 
-- ### Literature
-	 - [[Books]]
-	 - [[Publications]]
-
-- ### [[Notes]]
-  ```dataview
-  LIST
-  FROM "Note" AND !"assets"
-  WHERE note-type != "tutorial"
-  SORT file.mtime.ts ASC
-  LIMIT 6
+  LIMIT 8
   ```
 
 - ### Tutorials
@@ -74,6 +68,10 @@ banner-height: 250
 - ### Miscellaneous
 	 - [[Electrochemical Glossary]]
 	 - [[Conferences]]
+
+- ### Literature
+	 - [[Books]]
+	 - [[Publications]]
 
 - ### [[Meetings]]
   ```dataview
