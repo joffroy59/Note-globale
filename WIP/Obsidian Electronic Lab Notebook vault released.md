@@ -35,14 +35,8 @@ title: Note
 
 ### A Reprendre
 - [/] [Home](obsidian://open?vault=ELN_vault&file=Home) 
-      ![[Obsidian Electronic Lab Notebook vault released-1740605985815.png]]
-      
-  Note [[Home]]
-  copier a  la main
-  -  [dashboard.css](file:///C:%5CUsers%5Cjerom%5COneDrive%5CDocuments%5CObsidian%5CSandbox%5Cobsidian-eln%5CELN_vault%5C.obsidian%5Csnippets%5Cdashboard.css) vers [dashboard.css](file:///D:%5Cobsidian%5CMyNote%5CNote-globale%5C.obsidian%5Csnippets%5Cdashboard.css)
--  /assets/javascript/dataview/views/note_footer
-  - [ ] trouver comment installer correctement [dashboard.css](file:///D:%5Cobsidian%5CMyNote%5CNote-globale%5C.obsidian%5Csnippets%5Cdashboard.css)
-    ![[Obsidian Electronic Lab Notebook vault released-1740609119778.png|400]]
+	- [x] [[#Duplication dans mon vault]]  ✅ 2025-02-27
+- [ ] [[#voir]] 
 - [ ] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
 - [ ] folder tree color bar (theme ? )
@@ -56,3 +50,18 @@ title: Note
 - [ ] Theme 
         ![[Obsidian Electronic Lab Notebook vault released-1740605743452.png]]
 
+
+
+##### Duplication dans mon vault
+
+![[Obsidian Electronic Lab Notebook vault released-1740605985815.png]]
+
+	  
+  Note [[Home]]
+  - [x] copier a  la main
+	- [x]  [dashboard.css](file:///C:%5CUsers%5Cjerom%5COneDrive%5CDocuments%5CObsidian%5CSandbox%5Cobsidian-eln%5CELN_vault%5C.obsidian%5Csnippets%5Cdashboard.css) vers [dashboard.css](file:///D:%5Cobsidian%5CMyNote%5CNote-globale%5C.obsidian%5Csnippets%5Cdashboard.css)
+	- [x] /assets/javascript/dataview/views/note_footer
+		- [ ] trouver comment installer correctement [dashboard.css](file:///D:%5Cobsidian%5CMyNote%5CNote-globale%5C.obsidian%5Csnippets%5Cdashboard.css)
+
+##### voir 
+![[Obsidian Electronic Lab Notebook vault released-1740609119778.png|400]]
