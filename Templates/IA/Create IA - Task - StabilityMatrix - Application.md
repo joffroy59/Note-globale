@@ -1,5 +1,10 @@
 ---
 stability_matrix_path: D:\dev-data\IA\Stability Matrix
+tags:
+  - status/wip
+  - IA
+  - IA/StabilityMatrix
+  - IA/application
 ---
 <%*
 

@@ -30,12 +30,12 @@ banner-height: 250
 	- [[Devices]]
 	- [[Instruments]]
 
-- ### [[Meetings]]
+- ### [[!Wip]]
   ```dataview
   LIST
-  FROM #meeting AND !"assets"
+  FROM #status/wip AND #IA  AND !"assets" AND !"Templates"
   SORT file.mtime.ts ASC
-  LIMIT 6
+  LIMIT 200
   ```
 
 - ### [[Daily Notes]]
@@ -73,7 +73,13 @@ banner-height: 250
 	 - [[Electrochemical Glossary]]
 	 - [[Conferences]]
 
-
+- ### [[Meetings]]
+  ```dataview
+  LIST
+  FROM #status/wip  AND !"assets"
+  SORT file.mtime.ts ASC
+  LIMIT 6
+  ```
 # Recently Edited
 - 
   ```dataviewjs

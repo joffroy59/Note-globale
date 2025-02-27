@@ -1,5 +1,9 @@
 ---
 ollama_model_dir: I:\IA\ollama\models
+tags:
+  - status/wip
+  - IA
+  - IA/model
 ---
 <%*
   let baseFolder = "IA/Model"
