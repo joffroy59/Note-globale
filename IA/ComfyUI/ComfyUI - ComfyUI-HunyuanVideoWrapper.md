@@ -1,6 +1,13 @@
 ---
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
+tags:
+  - status/wip
+  - IA
+  - IA/comfyui
+  - IA/comfyui/flux
+  - IA/StabilityMatrix
+  - IA/application
 ---
 
 ---
