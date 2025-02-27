@@ -1,7 +1,7 @@
 ---
 ollama_model_dir: I:\IA\ollama\models
----
-
+tags:
+  - toview
 ---
  
 `````ad-important

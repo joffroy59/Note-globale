@@ -3,8 +3,7 @@ ollama_model_dir: I:\IA\ollama\models
 tags:
   - IA
   - IA/application
----
-
+  - toview
 ---
  
 `````ad-attention
