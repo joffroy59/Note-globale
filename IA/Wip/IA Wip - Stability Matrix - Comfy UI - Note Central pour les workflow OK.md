@@ -1,5 +1,10 @@
 ---
 ollama_model_dir: I:\IA\ollama\models
+tags:
+  - IA
+  - status/wip
+  - IA/StabilityMatrix
+  - IA/comfyui
 ---
 
 ---

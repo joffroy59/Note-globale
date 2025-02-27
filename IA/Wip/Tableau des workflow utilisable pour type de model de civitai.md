@@ -4,6 +4,7 @@ tags:
   - status/wip
   - IA/comfyui
   - workflow
+  - IA
 ---
 ````ad-tip
 Source : 
