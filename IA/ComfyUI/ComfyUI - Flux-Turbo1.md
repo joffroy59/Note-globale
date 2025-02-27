@@ -54,7 +54,7 @@ Seed :  223527542545847
 ![[ComfyUI - Flux-Turbo1-1740642976753.png|300]]  ![[ComfyUI - Flux-Turbo1-1740681928599.png|300]]
 
 ##### Result
-
+![[ComfyUI - Flux-Turbo1-1740683241817.png|400]]
 
 ---
 
