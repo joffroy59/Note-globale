@@ -1,5 +1,10 @@
 ---
-
+tags:
+  - status/wip
+  - IA
+  - IA/comfyui
+  - IA/comfyui/flux
+  - IA/StabilityMatrix
 ---
 
 `````ad-example
