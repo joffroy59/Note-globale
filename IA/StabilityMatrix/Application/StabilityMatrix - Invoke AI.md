@@ -7,7 +7,6 @@ tags:
   - IA/application
 ---
 
----
  
 `````ad-example
 title: WIP IA - StabilityMatrix - Invoke AI

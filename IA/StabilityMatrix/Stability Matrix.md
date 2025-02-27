@@ -1,3 +1,10 @@
+---
+tags:
+  - IA
+  - status/wip
+  - IA/StabilityMatrix
+  - IA/application
+---
 page de suivi des actions 
 
 
