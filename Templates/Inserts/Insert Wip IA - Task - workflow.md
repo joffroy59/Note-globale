@@ -1,6 +1,6 @@
 <%*
-let baseFolder = "IA/ComfyUI/WAN 2.1"
-const defaultTitle = "WAN 2.1"
+let baseFolder = "IA/ComfyUI/workflow"
+const defaultTitle = "workflow"
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
