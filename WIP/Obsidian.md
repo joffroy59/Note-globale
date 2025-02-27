@@ -1,3 +1,8 @@
+---
+tags:
+  - status/wip
+---
+
  # Getting Started with Docker in Obsidian
 
 Docker is a powerful tool for containerizing applications, making development, testing, and deployment more efficient. In this guide, we will learn how to get started with Docker using Obsidian as our knowledge management system.

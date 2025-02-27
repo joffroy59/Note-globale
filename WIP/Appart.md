@@ -1,8 +1,9 @@
 ---
 ollama_model_dir: I:\IA\ollama\models
+tags:
+  - status/wip
 ---
 
----
  
 ``````ad-example
 title: WIP 

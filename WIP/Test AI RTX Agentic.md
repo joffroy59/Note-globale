@@ -1,3 +1,7 @@
+---
+tags:
+  - status/wip
+---
 Test AI RTX agentic
 
 

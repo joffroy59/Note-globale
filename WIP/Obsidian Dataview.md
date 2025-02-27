@@ -1,3 +1,8 @@
+---
+tags:
+  - status/wip
+---
+
 ```dataview
 table time-played, length, rating
 from "games"

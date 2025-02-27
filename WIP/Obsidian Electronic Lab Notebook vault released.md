@@ -3,8 +3,6 @@ tags:
   - status/wip
 ---
 
----
-
  
 ````ad-tip
 Source : https://forum.obsidian.md/t/obsidian-electronic-lab-notebook-vault-released/86577/1

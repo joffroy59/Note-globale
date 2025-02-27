@@ -1,3 +1,9 @@
+---
+tags:
+  - status/wip
+
+
+---
 
 
 https://publish.obsidian.md/mister-chad/graphic+design+resources/lorem+ipsum+generators

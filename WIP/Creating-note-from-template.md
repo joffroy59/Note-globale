@@ -1,3 +1,8 @@
+---
+tags:
+  - status/wip
+
+---
 
 ```embed
 title: "Templater User Scripts for Obsidian"

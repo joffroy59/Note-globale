@@ -1,6 +1,8 @@
 ---
 tags:
+  - status/wip
 ---
+
 #templater
 # Ma Note
 

@@ -1,3 +1,7 @@
+---
+tags:
+  - status/wip
+---
 ## cible
 ne plus avoir de admonition dans la note detail créé et le faire pour tous les mode WIP IA (Select)
 

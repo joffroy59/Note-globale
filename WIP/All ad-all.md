@@ -1,3 +1,9 @@
+---
+tags:
+  - status/wip
+
+---
+
 ## All ad-*
 ```dataviewjs
 // You can update this to filter as you like - filtering for just your daily notes would be good

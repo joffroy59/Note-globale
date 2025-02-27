@@ -1,3 +1,7 @@
+---
+tags:
+  - status/wip
+---
 ```dataview
 table file.name as "Note", file.cday as "Date de création"
 from ""

@@ -1,14 +1,13 @@
-
 ---
 tags:
-  - obsidian
   - IA
+  - obsidian
+  - status/wip
 ---
+
 
 
 version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite 
-
-
 
 - [x] intégration nouvelle version #status/wip ➕ 2025-02-02 🛫 2025-02-02 ✅ 2025-02-03
 	- [ ] release sandbox1

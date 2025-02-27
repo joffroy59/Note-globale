@@ -1,3 +1,7 @@
+---
+tags:
+  - status/wip
+---
 <button class="wip-to-done-button">Transformer en DONE</button>
 
 <script>

@@ -2,8 +2,6 @@
 tags:
   - status/wip
 ---
-
----
  
 ``````ad-example
 title: WIP 

@@ -1,5 +1,7 @@
 ---
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
+tags:
+  - status/wip
 ---
 pour avoir le chemin de stockage local 
 

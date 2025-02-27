@@ -1,3 +1,9 @@
+---
+tags:
+  - status/wip
+
+---
+
 exemple sur [[Préparatifs Sac Vacance es 2 Alpes]]
 
 - [x] action + template ✅ 2025-02-07

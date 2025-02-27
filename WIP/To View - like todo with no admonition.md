@@ -2,9 +2,9 @@
 tags:
   - toview
   - "#done"
+  - status/wip
 ---
 
----
  
 ````ad-tip
 **insert create new Toview in Daily Note like Todo as Task**

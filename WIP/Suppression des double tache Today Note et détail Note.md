@@ -1,7 +1,8 @@
 ---
-ollama_model_dir: I:\IA\ollama\models
----
+tags:
+  - status/wip
 
+ollama_model_dir: I:\IA\ollama\models
 ---
  
 ``````ad-example

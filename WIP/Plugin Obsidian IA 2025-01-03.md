@@ -1,7 +1,9 @@
-
 ---
 title: Plugin Obsidian IA 2025-01-03
 created: 2025-01-03
+
+tags:
+  - status/wip
 
 ---
 

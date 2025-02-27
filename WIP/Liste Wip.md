@@ -1,3 +1,9 @@
+---
+tags:
+  - status/wip
+
+
+---
 ## In Progress
 ````query
 tag:#status/wip

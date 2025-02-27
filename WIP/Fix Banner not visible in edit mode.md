@@ -1,4 +1,10 @@
 ---
+tags:
+  - status/wip
+
+---
+
+---
 banner: "[[FB_a326c2dd579448ec4a26e098b51ee73a.png]]"
 ollama_model_dir: I:\IA\ollama\models
 ---

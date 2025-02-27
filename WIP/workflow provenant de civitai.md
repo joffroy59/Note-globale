@@ -1,3 +1,7 @@
+---
+tags:
+  - status/wip
+---
 workflow provenant de civitai
 
 ```embed

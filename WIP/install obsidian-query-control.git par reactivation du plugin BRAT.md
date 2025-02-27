@@ -1,3 +1,9 @@
+---
+tags:
+  - status/wip
+
+---
+
 install obsidian-query-control.git par reactivation du plugin BRAT ->  plugin https://github.com/nothingislost/obsidian-query-control.git
 
 

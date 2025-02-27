@@ -1,4 +1,6 @@
 ---
+tags:
+  - status/wip
 
 kanban-plugin: board
 

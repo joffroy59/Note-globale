@@ -1,3 +1,7 @@
+---
+tags:
+  - status/wip
+---
 pour [[Monitoring Windows pour savoir pourquoi cpu 2-3 % sans activité]]
 
 car le chat du chat est trop long pour lire la note 

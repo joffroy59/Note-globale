@@ -1,3 +1,7 @@
+---
+tags:
+  - status/wip
+---
 ### Méthode Avancée : Utiliser des Scripts ou des Automatisations
 
 Si vous êtes à l'aise avec les scripts ou les automatisations, vous pouvez créer un script pour copier des notes entre vaults. Voici un exemple de script en Python :
