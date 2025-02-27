@@ -38,11 +38,7 @@ if (worflow){
 
 workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
-let defaultValue = "WIP IA"  
-let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
-if (!entree) entree = defaultValue
-
-let sourceUrl = await tp.system.prompt("source Url");
+let sourceUrl = await tp.system.prompt("Source Url");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 -%>
@@ -73,7 +69,22 @@ for (workflowDir of workflowDirList)
 
 [[<% title %>]]
 
+---
+
+<%*
+tR+= await tp.file.include(`[[Common - Reproduction Local]]`);
+%>
+
+---
+## Local
+
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
+- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+```
 
 ---
 creation date:: [[<%tp.file.creation_date("YYYY")%>/<%tp.file.creation_date("MM")%>/<%tp.file.creation_date("WW")%>/📒<%tp.file.creation_date("YYYY-MM-DD")%>]]  <%tp.file.creation_date("HH:mm")%>
-
