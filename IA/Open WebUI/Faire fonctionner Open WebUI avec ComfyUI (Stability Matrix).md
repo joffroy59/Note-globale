@@ -3,7 +3,10 @@ tags:
   - IA
   - IA/comfyui
   - IA/StabilityMatrix
+  - openwebui
 ---
+
+
 
 
 - [/] test avec un lien trouvé :  [[civitai_flux_t2i_workflow_OK]]   ❌  

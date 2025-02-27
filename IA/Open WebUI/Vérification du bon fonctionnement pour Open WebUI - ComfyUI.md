@@ -1,7 +1,11 @@
 ---
 tags:
   - wins
+  - IA
+  - openwebui
 ---
+
+
 pour permettre de générer des image dans Open WebUI
 
 ```embed

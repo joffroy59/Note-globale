@@ -1,3 +1,8 @@
+---
+tags:
+  - IA
+  - openwebui
+---
 
 
 ![[Pasted image 20250201014831-1.png|150]]

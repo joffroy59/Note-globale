@@ -1,3 +1,10 @@
+---
+tags:
+  - IA
+  - openwebui
+---
+
+
 ## [Connect ComfyUI to Open WebUI for Your Own Self Hosted Private OpenAI](https://noted.lol/connect-comfyui-to-open-webui/)
 
 ```embed
