@@ -2,6 +2,7 @@
 tags:
   - tasks
   - template
+  - status/wip
 ---
 # Dataview - not completed contains text tag todo
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - tasks
+  - plugins
 ---
 # Review and check your Statuses
 

@@ -2,6 +2,7 @@
 tags:
   - tasks
   - template
+  - todo
 ---
 # Todo
 

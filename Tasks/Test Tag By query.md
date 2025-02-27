@@ -1,6 +1,7 @@
 ---
 tags:
   - "#tasks"
+  - tags
 ---
 # By Query 
 ## Filters
