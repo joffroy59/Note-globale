@@ -54,7 +54,7 @@ Seed :
 ##### Execution
 ![[ComfyUI - Comfy UI Workflow XL6 Hephaistos-1740642256469.png]]
 ##### Result
-
+![[ComfyUI - Flux-Turbo1-1740682267100.png|400]]
 
 ---
 
