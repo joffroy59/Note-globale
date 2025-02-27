@@ -30,13 +30,6 @@ banner-height: 250
 	- [[Devices]]
 	- [[Instruments]]
 
-- ### [[!Wip]]
-  ```dataview
-  LIST
-  FROM #status/wip AND #IA  AND !"assets" AND !"Templates"
-  SORT file.mtime.ts ASC
-  LIMIT 200
-  ```
 
 - ### [[Daily Notes]]
   ```dataview
@@ -46,6 +39,15 @@ banner-height: 250
   LIMIT 6
   ``` 
 
+- ### [[!Wip]]
+  ```dataview
+  TABLE
+  FROM #status/wip AND !"assets" AND !"Templates"
+  SORT file.mtime DESC
+  LIMIT 30
+  ```
+
+- 
 - ### Literature
 	 - [[Books]]
 	 - [[Publications]]
