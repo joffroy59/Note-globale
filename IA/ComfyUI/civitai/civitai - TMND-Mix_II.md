@@ -4,7 +4,10 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
   - status/wip
   - IA
-  - IA/comfyui/flux
+  - IA/comfyui
+  - IA/civitai
+  - IA/StabilityMatrix
+---
 ---
 
 ---
