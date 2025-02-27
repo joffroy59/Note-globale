@@ -31,6 +31,13 @@ title: Generation data
 
 ```ad-note
 title: Note
+autre source 
+```embed
+title: "Wan 2.1: Video generation with Complex movements"
+image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHUOzZpvOvrRA0MVfLibh-Dv8n-4pySKXDacLhKOaPE2O7U-AdKSsRdeiUvUdxbW3K9tKF7s7GjlnlCHigjlIdYDHm3Nig8oie7jiLt9xCzRa3LA1UGNUgxGkhcvRFhAbiDQPUuAMlaJo9JMb961qrodyjhv8yaB4Jv71P2W0vIxekdrCWxC1bJ3koBim4/w640-h410/download-Wan-video.webp"
+description: "We make you learn all about the Stable Diffusion from scratch. Master you AiArt generation, get tips and tricks to solve the problems with easy method"
+url: "https://www.stablediffusiontutorials.com/2025/02/wan-video-generation.html"
+```
 
  
 
@@ -64,12 +71,22 @@ collapse: closed
 	- [ ] Download the attached workflow for Image to video ( sorry, I have not tested text to video, I prefer to have a reference image), and install the missing nodes from the manager. [img2vid-wan2.1-example.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5Cimg2vid-wan2.1-example.json)
 Seed : 
 ##### Execution
+galére 
+![[WAN 2.1 - _Updated_ WAN 2.1 The REAL VIDEO EVOLUTION - Models + WF + Tips (COMFYUI)-1740695141959.png|150x84]]
+
 ##### Result
+bof nimporte quoi 
 
-
+![[wan_00003.mp4]]
 ---
 
+[Wan 2.1: Video generation with Complex movements](https://www.stablediffusiontutorials.com/2025/02/wan-video-generation.html)
 
+#### ComfyUI 
+##### Config
+Seed : 
+##### Execution
+##### Result
 ---
 ## Local
 
