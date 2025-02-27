@@ -2,6 +2,7 @@
 tags:
   - IA
   - template
+  - obsidian
 ---
 # 🪄 General help ✂️
 ## ✅Ollama: llava:7b

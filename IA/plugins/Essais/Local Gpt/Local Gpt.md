@@ -1,5 +1,6 @@
 ---
 tags:
+  - obsidian
   - plugins
   - IA
 ---

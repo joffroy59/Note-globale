@@ -2,6 +2,7 @@
 tags:
   - IA
   - template
+  - obsidian
 ---
 1. un super hero 
 2. volant dans une ville de nuit 

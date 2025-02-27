@@ -2,6 +2,8 @@
 tags:
   - IA
   - template
+  - plugins
+  - obsidian
 ---
 
 ```ad-tip

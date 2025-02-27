@@ -2,6 +2,7 @@
 tags:
   - IA
   - plugins
+  - obsidian
 ---
 # Besoin
 
