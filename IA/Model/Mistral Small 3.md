@@ -1,3 +1,9 @@
+---
+tags:
+  - IA
+  - IA/model
+---
+
 ```
 ollama run mistral-small
 ```
