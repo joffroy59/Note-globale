@@ -48,27 +48,27 @@ tags:
     - [/] [[IA/ComfyUI/civitai/civitai - 56205732]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
     - [/] [[IA/ComfyUI/civitai/civitai - 34567354]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
     - [/] [[IA/ComfyUI/civitai/civitai - 34584657]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
-- [/] **WIP** ➕ 2025-02-23 🛫 2025-02-23
+- [/] **WIP** ➕ 2025-02-23 🛫 2025-02-23 #status/wip
     - [/] [[IA/Application/IA Application - Leonnardo AI]]  #status/wip #IA #IA/application   ➕ 2025-02-23 🛫 2025-02-23
     - [/] [[IA/ComfyUI/civitai/civitai - TMND-Mix_II]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
     - [x] [[WIP/To View - like todo with no admonition]] #status/wip ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-23
     - [/] [[IA/ComfyUI/Flux/Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai Note]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
     - [x] [[WIP/Wip - like Wip ai with no admonition]] #status/wip ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-24
-- [/] **WIP** ➕ 2025-02-22 🛫 2025-02-22
+- [/] **WIP** ➕ 2025-02-22 🛫 2025-02-22 #status/wip
 	- [/] [[Suivre Missed Task]]  #test #status/wip  ➕ 2025-02-22 🛫 2025-02-22 
     - [/] [[IA/StabilityMatrix/Application/StabilityMatrix - Invoke AI]]  #status/wip #IA #IA/StabilityMatrix   ➕ 2025-02-22 🛫 2025-02-22
-- [/] **WIP** ➕ 2025-02-07 🛫 2025-02-07
+- [/] **WIP** ➕ 2025-02-07 🛫 2025-02-07 #status/wip
 	- [/] [[WIP/Daily Note - Remplacer ce jour par le jour en dure]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
 	- [x] [[Préparatifs Sac Vacance es 2 Alpes]] #status/wip ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-23
 	- [/] [[WIP/Creation QuickAdd + template pour ajouter avant - action - après]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
 	- [x] [[WIP/Creation QuickAdd + template pour ajouter QuickAdd et Bouton et Template]] #status/wip ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
 	- [x] [[🏆🏆🏆 Ajout iconPack Jira]] #done  ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
 	- [/] [[WIP/Create Icon template for GTD]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
-- [/] **WIP** ➕ 2025-02-06 🛫 2025-02-06 
+- [/] **WIP** ➕ 2025-02-06 🛫 2025-02-06  #status/wip
 	- [ ] [[Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA]]  #todo  ➕ 2025-02-05 
-- [/] **WIP** ➕ 2025-02-05 🛫 2025-02-05 
+- [/] **WIP** ➕ 2025-02-05 🛫 2025-02-05  #status/wip
 	 - [/] [[Fix Obsidian Latency]]  #test #status/wip  ➕ 2025-02-05 🛫 2025-02-05 
-- [/] **WIP** ➕ 2025-02-03 🛫 2025-02-03 
+- [/] **WIP** ➕ 2025-02-03 🛫 2025-02-03  #status/wip
 	- [x] [[Intégration nouveau système v2 de creation d'élément de la Today Note]] #test #status/wip ➕ 2025-02-03 🛫 2025-02-03 ✅ 2025-02-05
 	- [/] [[IA/ComfyUI/civitai/A voir]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
 	- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
