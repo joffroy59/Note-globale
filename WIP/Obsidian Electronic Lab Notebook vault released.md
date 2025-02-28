@@ -35,6 +35,7 @@ title: Note
 
 
 ### A Reprendre
+
 - [/] [[#Note Home]]
 	- [x] [[#Duplication dans mon vault]]  ✅ 2025-02-27
 	- [/] [[#section > element Home Book]]
@@ -42,6 +43,8 @@ title: Note
 - [ ] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
 - [ ] folder tree color bar (theme ? )
+- [ ] [[#Menu]] 
+      ![[Obsidian Electronic Lab Notebook vault released-1740771528761.png]]
 - [ ] home ? (pour ne pas etre obligé par daily note )
 - [ ] structure folder et asset 
         ![[Obsidian Electronic Lab Notebook vault released-1740605834462.png|150x134]]
@@ -67,9 +70,47 @@ title: Note
 
 
 ##### section > element : [[Home#Book]]
-###### voir 
+###### voir  l'erreur locale 
+
 ![[Obsidian Electronic Lab Notebook vault released-1740609119778.png|400]]
 
+###### sur le vault s'exemple
+
+ ![[Obsidian Electronic Lab Notebook vault released-1740768115806.png|300]]
+
+###### Book
 
 - [ ]  Home#Book
-	- [ ] 
+	- [ ] ajouter template 
+pas de création donc à voir plus tard
+###### Projects
+a un bouton de création 
+
+![[Obsidian Electronic Lab Notebook vault released-1740771398336.png|400]]
+
+![[Obsidian Electronic Lab Notebook vault released-1740771553350.png|400]]
+
+- [ ] duplicate page (list + add)
+- [ ] clone template  [[Projects]]
+
+- [ ] transformation de button (Styles) en metabind button 
+
+```button
+name New Project
+type command
+action Templater: Insert assets/templates/New Project.md
+class accent-button
+```
+
+#### header 
+trouvé dans [[Projects]]  a remettre 
+
+```dataviewjs
+await dv.view("/assets/javascript/dataview/views/note_header", {});
+```
+#### Menu
+trouvé dans [[Projects]]  a remettre 
+
+```dataviewjs
+await dv.view("/assets/javascript/dataview/views/navbar", {});
+```
