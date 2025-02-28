@@ -8,4 +8,6 @@ if (input && dv) {
     const date_time = new Date(mtime).toLocaleDateString('en-US', options);;
     dv.paragraph(`**last modified:** ${date_time}`, { container: footer });
     dv.paragraph(`**author:** ${author}`, { container: footer });
+    dv.paragraph(`[copyright::dje]`, { container: footer });
+
 }

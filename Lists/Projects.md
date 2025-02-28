@@ -44,3 +44,4 @@ WHERE project.status = "completed"
 ```dataviewjs
 await dv.view("/assets/javascript/dataview/views/note_footer", {});
 ```
+
