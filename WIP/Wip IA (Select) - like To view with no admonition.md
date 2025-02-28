@@ -8,7 +8,7 @@ ne plus avoir de admonition dans la note detail créé et le faire pour tous les
 ## Existant
 Note + Button
 	- [[Panel/Actions|Actions]]: `BUTTON[insert-daily-wip-ia-select-v2]`
-	- [[Daily Note Template]]: `BUTTON[insert-daily-wip-ia-select-v2]` (quickadd:choice:b9040ac3-f665-42eb-a086-6d9dfbf32a06)
+	- [[📒Daily Note Template]]: `BUTTON[insert-daily-wip-ia-select-v2]` (quickadd:choice:b9040ac3-f665-42eb-a086-6d9dfbf32a06)
 
 Quickadd
 	- quickadd:choice:b9040ac3-f665-42eb-a086-6d9dfbf32a06
@@ -32,7 +32,7 @@ Quickadd
 		- [x] change ✅ 2025-02-24
 			- [x] [[Panel/Actions]] ✅ 2025-02-24
 				- [x] test ✅ 2025-02-24
-			- [x] [[Daily Note Template]] ✅ 2025-02-24
+			- [x] [[📒Daily Note Template]] ✅ 2025-02-24
 				- [x] test ✅ 2025-02-24
 	- [x] Model ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
@@ -46,7 +46,7 @@ Quickadd
 		- [-] change
 			- [-] [[Panel/Actions]]
 				- [x] test ✅ 2025-02-24
-			- [-] [[Daily Note Template]]
+			- [-] [[📒Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [x] ComFyUI ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
@@ -60,7 +60,7 @@ Quickadd
 		- [-] change
 			- [-] [[Panel/Actions]]
 				- [x] test ✅ 2025-02-24
-			- [-] [[Daily Note Template]]
+			- [-] [[📒Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [x] ComFyUI - Flux ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
@@ -74,7 +74,7 @@ Quickadd
 		- [-] change
 			- [-] [[Panel/Actions]]
 				- [x] test ✅ 2025-02-24
-			- [-] [[Daily Note Template]]
+			- [-] [[📒Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [x] IA civitai ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
@@ -88,7 +88,7 @@ Quickadd
 		- [-] change
 			- [-] [[Panel/Actions]]
 				- [x] test ✅ 2025-02-24
-			- [-] [[Daily Note Template]]
+			- [-] [[📒Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [x] Application ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
@@ -102,7 +102,7 @@ Quickadd
 		- [-] change
 			- [-] [[Panel/Actions]]
 				- [x] test ✅ 2025-02-24
-			- [-] [[Daily Note Template]]
+			- [-] [[📒Daily Note Template]]
 				- [x] test ✅ 2025-02-24
 	- [x] StabilityMatrix - Application ✅ 2025-02-24
 		- [x] Template ✅ 2025-02-24
@@ -116,5 +116,5 @@ Quickadd
 		- [-] change
 			- [-] [[Panel/Actions]]
 				- [x] test ✅ 2025-02-24
-			- [-] [[Daily Note Template]]
+			- [-] [[📒Daily Note Template]]
 				- [x] test ✅ 2025-02-24

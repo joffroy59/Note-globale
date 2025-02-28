@@ -42,7 +42,7 @@ flexGrow=1
 ```
 ````
 
-- [x] Template [[Daily Note Template]] ✅ 2025-01-31
+- [x] Template [[📒Daily Note Template]] ✅ 2025-01-31
 ## Actions
 
 test de modification faite sur [[📒2025-01-31]]
