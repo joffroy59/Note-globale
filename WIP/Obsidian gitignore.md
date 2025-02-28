@@ -21,3 +21,6 @@ title: Note
 ---
 
 - [x] .obsidian/snippets
+- [x] .obsidian/plugins
+	- [x] .obsidian/plugins/obsidian-meta-bind-plugin
+- [x] .obsidian/snippets
