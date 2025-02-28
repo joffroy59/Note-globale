@@ -1,11 +1,11 @@
 ---
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
-
 tags:
   - status/wip
   - IA
   - IA/comfyui
+  - IA/comfyui/flux
 ---
 ```ad-tip
 Source : https://civitai.com/articles/11827/flux-turbo1

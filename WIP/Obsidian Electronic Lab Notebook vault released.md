@@ -102,6 +102,10 @@ action Templater: Insert assets/templates/New Project.md
 class accent-button
 ```
 
+pas trouvé comment terminer un projet 
+
+garder idée des liste des autre projet et faire pour WIP IA  ^7b6524
+
 #### header 
 trouvé dans [[Projects]]  a remettre 
 
