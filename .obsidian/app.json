@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "hidden",
+  "attachmentFolderPath": "./attachments",
+  "showUnsupportedFiles": true,
+  "readableLineLength": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox"
+}

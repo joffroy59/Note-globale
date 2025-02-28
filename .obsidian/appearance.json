@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Obsidian gruvbox",
+  "enabledCssSnippets": [
+    "tasks",
+    "button",
+    "dashboard"
+  ],
+  "baseFontSize": 14
+}
