@@ -23,7 +23,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 `BUTTON[rollover,rollover_revert]`
 ### 🥷Missed Tasks 
 
-### 🥷Missed Tasks (Archived) [[Task Archives]]
+### 🛟Archived [[Task Archives]]
 ### 📎TODO's ——————
 
 `BUTTON[insert-daily-todo]`    `BUTTON[insert-daily-task-toview]`    `BUTTON[insert-daily-idea]`    `BUTTON[insert-daily-task]`  `BUTTON[insert-daily-task-obsidian]`
