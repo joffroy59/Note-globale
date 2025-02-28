@@ -3,7 +3,9 @@
   "enabledCssSnippets": [
     "tasks",
     "button",
-    "dashboard"
+    "dashboard",
+    "circular_progress",
+    "MCL Multi Column"
   ],
   "baseFontSize": 14
 }

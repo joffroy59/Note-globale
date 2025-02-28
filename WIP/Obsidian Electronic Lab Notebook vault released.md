@@ -43,6 +43,7 @@ title: Note
 - [ ] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
 - [ ] folder tree color bar (theme ? )
+- [/] [[#Task Achieved]]
 - [ ] [[#Menu]] 
       ![[Obsidian Electronic Lab Notebook vault released-1740771528761.png]]
 - [ ] home ? (pour ne pas etre obligé par daily note )
@@ -118,3 +119,24 @@ trouvé dans [[Projects]]  a remettre
 ```dataviewjs
 await dv.view("/assets/javascript/dataview/views/navbar", {});
 ```
+
+
+### Task Achieved
+![[Obsidian Electronic Lab Notebook vault released-1740777270482.png|150x159]]
+
+[[Exemple Task Avancement]]
+- [x] add /assets/javascript/dataview/views/circular_progress ✅ 2025-02-28
+![[Obsidian Electronic Lab Notebook vault released-1740777514495.png|150x158]]
+
+- [x] css : [D:\obsidian\MyNote\Note-globale\.obsidian\snippets\circular_progress.css](file:///d%3A/obsidian/MyNote/Note-globale/.obsidian/snippets/circular_progress.css) ✅ 2025-02-28
+![[Obsidian Electronic Lab Notebook vault released-1740777558004.png|150x161]]
+
+- [ ] intégrer danbs dayly note
+[[📒2025-02-28]]
+![[Obsidian Electronic Lab Notebook vault released-1740778798810.png|150x222]]
+
+un peu gros #idea  essayer de 
+- [ ] faire un header avec code deja trouvé [[#header]]
+
+
+- [ ] faire un template a inserver et inclure le template (factorisatoin) 

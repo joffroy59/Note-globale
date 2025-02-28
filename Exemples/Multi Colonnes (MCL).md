@@ -30,10 +30,15 @@ url: "https://efemkay.github.io/obsidian-modular-css-layout/"
 > ```
 > ```ad-warning
 > ```
+
+
+> [!multi-column]
+> ```ad-note
+> ```
+> ```ad-warning
+> ```
 > ```ad-summary
 > ```
-
-
 
 
 ```multi-column
