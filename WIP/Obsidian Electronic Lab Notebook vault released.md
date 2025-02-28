@@ -84,6 +84,8 @@ title: Note
 - [ ]  Home#Book
 	- [ ] ajouter template 
 pas de création donc à voir plus tard
+###### [Samples](app://obsidian.md/Samples)
+
 ###### Projects
 a un bouton de création 
 

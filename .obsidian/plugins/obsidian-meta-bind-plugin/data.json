@@ -890,6 +890,27 @@
           "command": "quickadd:choice:d417ebd0-6e59-4af2-bf47-ba59d18c490e"
         }
       ]
+    },
+    {
+      "label": "New Sample",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-sample",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "",
+          "folderPath": "/",
+          "fileName": "",
+          "openNote": true,
+          "openIfAlreadyExists": false
+        }
+      ]
     }
   ],
   "excludedFolders": [
