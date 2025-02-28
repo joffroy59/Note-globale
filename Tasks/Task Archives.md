@@ -1,0 +1,63 @@
+---
+tags:
+  - tasks
+  - template
+---
+### 🥷Missed Tasks (Archived) 2025-03-01
+{New}
+- [/] **WIP** ➕ 2025-02-23 🛫 2025-02-23
+    - [/] [[IA/Application/IA Application - Leonnardo AI]]  #status/wip #IA #IA/application   ➕ 2025-02-23 🛫 2025-02-23
+    - [/] [[IA/ComfyUI/civitai/civitai - TMND-Mix_II]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
+    - [x] [[WIP/To View - like todo with no admonition]] #status/wip ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-23
+    - [/] [[IA/ComfyUI/Flux/Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai Note]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
+    - [x] [[WIP/Wip - like Wip ai with no admonition]] #status/wip ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-24
+- [/] **WIP** ➕ 2025-02-22 🛫 2025-02-22
+	- [/] [[Suivre Missed Task]]  #test #status/wip  ➕ 2025-02-22 🛫 2025-02-22 
+    - [/] [[IA/StabilityMatrix/Application/StabilityMatrix - Invoke AI]]  #status/wip #IA #IA/StabilityMatrix   ➕ 2025-02-22 🛫 2025-02-22
+- [/] **WIP** ➕ 2025-02-07 🛫 2025-02-07
+	- [/] [[WIP/Daily Note - Remplacer ce jour par le jour en dure]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
+	- [x] [[Préparatifs Sac Vacance es 2 Alpes]] #status/wip ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-23
+	- [/] [[WIP/Creation QuickAdd + template pour ajouter avant - action - après]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
+	- [x] [[WIP/Creation QuickAdd + template pour ajouter QuickAdd et Bouton et Template]] #status/wip ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
+	- [x] [[🏆🏆🏆 Ajout iconPack Jira]] #done  ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
+	- [/] [[WIP/Create Icon template for GTD]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
+- [/] **WIP** ➕ 2025-02-06 🛫 2025-02-06 
+	- [ ] [[Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA]]  #todo  ➕ 2025-02-05 
+- [/] **WIP** ➕ 2025-02-05 🛫 2025-02-05 
+	 - [/] [[Fix Obsidian Latency]]  #test #status/wip  ➕ 2025-02-05 🛫 2025-02-05 
+- [/] **WIP** ➕ 2025-02-03 🛫 2025-02-03 
+	- [x] [[Intégration nouveau système v2 de creation d'élément de la Today Note]] #test #status/wip ➕ 2025-02-03 🛫 2025-02-03 ✅ 2025-02-05
+	- [/] [[IA/ComfyUI/civitai/A voir]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
+	- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
+	- [/] [[deepseek-r1]]  #status/wip #IA #IA/model  ➕ 2025-02-01 🛫 2025-02-01
+	- [/] [[Simplification Daily Note - reductrion section Todays ]] #obsidian  #test #status/wip  ➕ 2025-01-31 🛫 2025-01-31 
+- [ ] **TODO**  ➕ 2025-02-05
+    - [ ] [[Refact - Insert Wip IA - Application v2 et autre - use  more variable]]  #todo  ➕ 2025-02-05 
+    - [ ] [[Trouver un moyen de générer à partir d'une url un bloc embeded pour insert DailyNote]]  #todo  ➕ 2025-02-05 
+- [ ] **TODO**  ➕ 2025-02-06
+- [ ] **TODO**  ➕ 2025-02-07
+    - [ ] Create template for 🏆🏆🏆 WIN   #todo  ➕ 2025-02-07 
+    - [ ] Créer une note sur source media comme https://www.iconpacks.net/  #todo  ➕ 2025-02-07 
+    - [ ] tableau des aides  #todo  ➕ 2025-02-07 
+    - [ ] TODO  #todo  ➕ 2025-02-07 
+	- [ ] [[Transformer tag wip en done sur done a task]]            ➕ 2025-01-11   #todo #obsidian 
+	- [ ] Enlever des quickadd du menu par exemple les insert qui s'active avec bouton vers today note   #todo #obsidian  ➕ 2025-02-07 
+- [ ] **TODO**  ➕ 2025-02-22
+    - [x] Fix Done Today header in today note  #todo  ➕ 2025-02-22 
+	- [ ] https://tfthacker.com/jco   #todo #obsidian  ➕ 2025-02-22 
+	- [ ] https://tfthacker.com/cornell-notes    #todo #obsidian  ➕ 2025-02-22 
+	- [ ] https://github.com/TfTHacker/obsidian-ai-templater    #todo #obsidian  ➕ 2025-02-22 
+	- [ ] Trouver comment et ou est utilisé [[wip_to_done_button]]    #todo #obsidian  ➕ 2025-02-22 
+	- [x] [[Add WIP IA StabilityMatrix - Application]]  #todo #obsidian ➕ 2025-02-22 ✅ 2025-02-22
+	- [ ] Utiliser Kanban pour changer les tag wip todo etc    #todo #obsidian  ➕ 2025-02-22 
+    - [x] [[Install - Notion]] #todo ➕ 2025-02-22 ✅ 2025-02-22
+	- [ ] [[ToView/tencent - hunyuan]]  #toview  ➕ 2025-02-22 
+- [ ] **TODO**  ➕ 2025-02-23
+    - [ ] [[10 best Obsidian plugins to supercharge your workflow]] #toview  ➕ 2025-02-23 
+    - [ ] [[My journey from Notion to Obsidian - why I switched and never looked back]] #toview  ➕ 2025-02-23 
+    - [ ] https://www.runcomfy.com/comfyui-nodes/ComfyUI-FluxExt-MZ/MZ_Flux1PartialLoad_Patch  #todo  ➕ 2025-02-23 
+    - [ ] https://github.com/ltdrdata/ComfyUI-extension-tutorials |  [[GitHub - ltdrdataComfyUI-extension-tutorials]] #todo  ➕ 2025-02-23 
+    - [ ] Remove Admonition des page insert todo or wip - Detail Note car ca empeche de changer le status des taches dans l'admonition  #todo  ➕ 2025-02-23 
+    - [ ] Create a template pour créer un Bouton avec action voir [[Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA]]   #todo  ➕ 2025-02-06 
+      - [ ] [[Tasks/Todo]]  #todo  ➕ 2025-02-06  
+{New}
