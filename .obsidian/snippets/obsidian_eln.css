@@ -4,7 +4,7 @@
 name: Obsidian ELN
 id: eln-customization
 settings:
-    - 
+    -
         id: heading-fonts
         title: Fonts
         type: heading
@@ -13,7 +13,7 @@ settings:
 
 # Colors
 
-    - 
+    -
         id: eln-colors
         title: ELN color settings
         type: heading
@@ -26,52 +26,52 @@ settings:
         allowEmpty: true
         default: eln-toolbar-icon-mauve
         options:
-            - 
+            -
                 label: Rosewater
                 value: eln-toolbar-icon-rosewater
-            - 
+            -
                 label: Flamingo
                 value: eln-toolbar-icon-flamingo
-            - 
+            -
                 label: Pink
                 value: eln-toolbar-icon-pink
-            - 
+            -
                 label: Mauve
                 value: eln-toolbar-icon-mauve
-            - 
+            -
                 label: Red
                 value: eln-toolbar-icon-red
-            - 
+            -
                 label: Maroon
                 value: eln-toolbar-icon-maroon
-            - 
+            -
                 label: Peach
                 value: eln-toolbar-icon-peach
-            - 
+            -
                 label: Yellow
                 value: eln-toolbar-icon-yellow
-            - 
+            -
                 label: Green
                 value: eln-toolbar-icon-green
-            - 
+            -
                 label: Teal
                 value: eln-toolbar-icon-teal
-            - 
+            -
                 label: Sky
                 value: eln-toolbar-icon-sky
-            - 
+            -
                 label: Sapphire
                 value: eln-toolbar-icon-sapphire
-            - 
+            -
                 label: Blue
                 value: eln-toolbar-icon-blue
-            - 
+            -
                 label: Lavender
                 value: eln-toolbar-icon-lavender
 
 # Tables
 
-    - 
+    -
         id: table-layout
         title: Markdown and Dataview Tables
         type: heading
@@ -85,7 +85,7 @@ settings:
         min: 0
         max: 100
         step: 1
-    - 
+    -
         id: table-row-opacity-even
         title: Opacity for even rows
         type: variable-number-slider
@@ -101,7 +101,7 @@ settings:
         min: 0
         max: 100
         step: 1
-    - 
+    -
         id: table-border-radius
         title: Enable table with rounded corners
         description: This option will set a corner radius to the edges of tables
@@ -965,7 +965,7 @@ div.block-language-dataviewjs.node-insert-event {
 }
 
 div.clickable-icon > svg {
-    stroke: var(--clickable-icon-color);
+    stroke: var(--text-accent);
 }
 div.clickable-icon>svg.spreadsheet>svg>path {
     fill: var(--clickable-icon-color) !important;
@@ -998,7 +998,7 @@ div.nav-folder-title-content {
     font-weight: var(--bold-weight);
 }
 
-/* 
+/*
 div.nav-folder-title-content::before {
     content: '';
     background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 16 13' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;'%3E%3Cg transform='matrix(0.0159751,0,0,0.0151508,-0.253631,-1.65868)'%3E%3Cg transform='matrix(1.00463,0,0,1,-0.218214,0)'%3E%3Cpath d='M48.226,739.049C48.226,739.049 47.175,269.62 47.175,234.336C47.175,182.368 90.909,139.602 139.967,139.171C173.272,138.879 308.768,139.051 308.768,139.051C308.768,139.051 331.183,140.748 344.75,146.951C358.317,153.154 390.543,177.85 390.543,177.85C390.543,177.85 417.31,201.324 433.614,206.351C449.919,211.377 480.606,213.439 480.606,213.439L480.617,213.572L892.646,213.572C938.911,213.572 981.815,248.845 981.815,297.853L981.815,739.049C981.815,775.798 48.226,775.798 48.226,739.049Z' style='fill:rgb(42,130,155);stroke:rgb(67,67,67);stroke-width:25.63px;'/%3E%3C/g%3E%3Cg transform='matrix(1.03892,0,0,1.0006,-30.468,-0.560428)'%3E%3Cpath d='M977.815,400.061C977.815,345.119 937.071,300.513 886.886,300.513L166.676,300.513C116.49,300.513 75.746,345.119 75.746,400.061L75.746,831.542C75.746,886.484 116.49,931.09 166.676,931.09L886.886,931.09C937.071,931.09 977.815,886.484 977.815,831.542L977.815,400.061Z' style='fill:rgb(42,130,155);stroke:rgb(70,70,70);stroke-width:25.17px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
@@ -1096,7 +1096,7 @@ div.nav-file-title-content::before {
     background-color: var(--speech-bubble-gray);
  }
 
- 
+
 /*
  * ========================================================
  * Custom CHARTS Settings
