@@ -1,5 +1,5 @@
 - [ ] Analyses
-- [ ] Books
+- [x] Books ✅ 2025-03-01
 - [ ] Chemicals
 - [ ] Contacts
 - [ ] Daily Notes
