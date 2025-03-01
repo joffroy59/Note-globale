@@ -12,7 +12,7 @@ note type: dashboard
 tags:
   - dashboard
 banner-height: 250
-sliceSize: 10
+sliceSize: 16
 ---
 # Work
 - ### [[Projects]]
