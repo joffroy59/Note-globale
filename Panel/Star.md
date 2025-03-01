@@ -19,7 +19,7 @@ collapse: open
 
 
 ```query
-file:("⭐⭐⭐")
+file:("⭐")
 ```
 
 
