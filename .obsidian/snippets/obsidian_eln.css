@@ -586,24 +586,24 @@ span.cm-comment.cm-hmd-frontmatter {
     border-top: none;
     border-bottom: 2px;
     color: var(--text-on-accent);
-    background-color: rgba(var(--ctp-accent, var(--ctp-ext-accent, 23, 146, 153)), 0.7);
-    font-weight: var(--bold-weight);
+    background-color: var(--text-accent);
+    font-weight: var(--text-accent);
     font-size: 13pt;
 }
 
 .markdown-rendered thead>tr>th:nth-child(2n+2),
 .markdown-preview-view thead tr>th:nth-child(2n+2) {
-    background-color: rgba(var(--ctp-accent, var(--ctp-ext-accent, 23, 146, 153)), 0.7);
+    background-color: var(--text-accent);
 }
 
 .markdown-rendered tr:nth-child(odd),
 .markdown-preview-view tr:nth-child(odd) {
-    background-color: rgba(var(--ctp-accent, var(--ctp-ext-accent, 23, 146, 153)), 0.2) !important;
+    background-color: var(--text-accent) !important;
 }
 
 .markdown-rendered tr:nth-child(even),
 .markdown-preview-view tr:nth-child(even) {
-    background-color: rgba(var(--ctp-accent, var(--ctp-ext-accent, 23, 146, 153)), 0.1);
+    background-color: var(--text-accent);
 }
 
 .markdown-rendered td {
