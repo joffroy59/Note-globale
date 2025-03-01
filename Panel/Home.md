@@ -12,6 +12,7 @@ note type: dashboard
 tags:
   - dashboard
 banner-height: 250
+sliceSize: 10
 ---
 # Work
 - ### [[Projects]]
@@ -79,18 +80,18 @@ banner-height: 250
   SORT file.mtime.ts ASC
   LIMIT 6
   ```
-# Recently Edited
+# Recently Edited &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `INPUT[slider(addLabels,maxValue(40),defaultValue(5)):sliceSize]` `VIEW[{sliceSize}][text]` 
 -
   ```dataviewjs
-    dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(0, 5).file.link)
+    dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(0,dv.current().file.frontmatter.sliceSize).file.link)
    ```
 -
   ```dataviewjs
-    dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(5, 10).file.link)
+    dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(dv.current().file.frontmatter.sliceSize, 2*dv.current().file.frontmatter.sliceSize).file.link)
    ```
 -
   ```dataviewjs
-    dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(10, 15).file.link)
+    dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice( 2*dv.current().file.frontmatter.sliceSize,  3*dv.current().file.frontmatter.sliceSize).file.link)
    ```
 
 
