@@ -1,6 +1,15 @@
 - [x] [[#Book]]  (from   [[Home#Book]]) ✅ 2025-03-01
 - [x] [[#Devices]] ✅ 2025-03-01
-- [ ] autre
+- [ ] Samples
+- [ ] Projects
+- [x] Instruments ✅ 2025-03-01
+- [ ] Chemicals
+- [ ] Analyses
+- [ ] Processes
+- [ ] Projects
+- [ ] Tutorials
+- [ ] Miscellaneous
+- [ ] Electrochemical
 
 - [ ] utiliser bouton metabind (ca a deja marché mais u ? note [[Samples]] ? ) #todo
 
@@ -93,17 +102,22 @@ class accent-button
 
 ## Instruments
 
+### sur le vault s'exemple
 [Instruments](app://obsidian.md/Instruments)
 
-### sur le vault s'exemple
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740861728029.png|300]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740861736336.png|300]]
 
 ### note
-
+[[Instruments]]
+[[New Instrument]]
+[[new_instrument.js]]
+[[instrument.js]]
+[[dummy-image-instrument.png]]
+[[[instrument]]]
 ### Exemple et Test
-
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740861962313.png|150x109]]
 ### info
 
-- [ ] #todo
 
 ## Chemicals
 
