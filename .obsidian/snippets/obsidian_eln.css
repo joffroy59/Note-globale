@@ -314,7 +314,9 @@ div.el-ul:has(+ div.el-p) {
 }
 
 .theme-dark {
-    --text-highlight-bg: rgba(224, 53, 236, 0.4);
+    /* --text-highlight-bg: rgba(224, 53, 236, 0.4); */
+    --text-highlight-bg: var(--neutral-green);
+
     /* ------- YAML --------------------- */
     --yaml-atom-color: rgb(var(--ctp-teal, var(--ctp-ext-teal, 15, 123, 123)));
     --yaml-meta-color: rgb(var(--ctp-pink, var(--ctp-ext-pink, 173, 26, 114)));
