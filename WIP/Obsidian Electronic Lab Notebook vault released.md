@@ -72,7 +72,8 @@ title: Note
 
 ##### section > element : type  [[Home#Book]]
 
-- [/] [[#Book]]
+- [x] [[#Book]] ✅ 2025-03-01
+- [x] [[#Devices]] ✅ 2025-03-01
 - [ ] autre
 
 
@@ -86,6 +87,8 @@ title: Note
  ![[Obsidian Electronic Lab Notebook vault released-1740768115806.png|300]]
 
 ###### Book
+[[Books]]
+
 
 - [x] Home#Book ✅ 2025-03-01
 	- [x] ajouter template ✅ 2025-03-01
@@ -95,8 +98,15 @@ pas de création donc à voir plus tard
 
 ![[Obsidian Electronic Lab Notebook vault released-1740853913824.png|300]]  original ![[Obsidian Electronic Lab Notebook vault released-1740853928417.png|300]]
 
-###### [Samples](app://obsidian.md/Samples)
+###### Devices
+[[Devices]]
+[[New Device]]
+[[new_device.js]]
 
+- exempel et Test
+[[Device1 - Model1 - name1]]
+###### Samples
+[Samples](app://obsidian.md/Samples)
 ###### Projects
 a un bouton de création 
 
