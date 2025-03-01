@@ -3,7 +3,7 @@
 - [ ] Chemicals
 - [ ] Contacts
 - [ ] Daily Notes
-- [ ] Devices
+- [x] Devices ✅ 2025-03-01
 - [ ] Electrodes
 - [ ] ELN Note Versions
 - [ ] Instruments

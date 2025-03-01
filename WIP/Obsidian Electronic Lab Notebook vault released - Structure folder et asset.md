@@ -2,10 +2,10 @@
 tags:
   - "#todo"
 ---
-- [ ] **Image**
+- [/] **Image**
 - [ ] **Code**
 - [ ] **Document**
 - [ ] **File**
 - [ ] **PDF**
-- [ ] **Settings (Gear 1)**
+- [/] **Settings (Gear 1)** ✅ 2025-03-01
 - [ ] **Settings (Gear 2)**
