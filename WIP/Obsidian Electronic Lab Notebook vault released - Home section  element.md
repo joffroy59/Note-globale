@@ -7,6 +7,7 @@
 - [x] [[#Analyses]] ✅ 2025-03-01
 - [x] [[#Processes]] ✅ 2025-03-01
 - [x] [[#Daily Notes]] ✅ 2025-03-01
+- [x] [[#Electrodes]] ✅ 2025-03-02
 
 ##### voir  l'erreur locale  et la corriger avec les note manquantes
 
@@ -166,10 +167,8 @@ class accent-button
 
 ## Projects
 
-[Projects](app://obsidian.md/Projects)
-
 ### sur le vault s'exemple
-
+[Projects](app://obsidian.md/Projects)
 ### note
 
 ### Exemple et Test
@@ -183,13 +182,27 @@ class accent-button
 
 ### sur le vault s'exemple
 
-[Analyses](app://obsidian.md/Daily Notes)
+[Daily Notes](app://obsidian.md/Daily Notes)
 
 ### note
 
 ### Exemple et Test
 ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740864931380.png|300]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740864947988.png|300]]
 ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740869682204.png|300]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740869642104.png|300]]    ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740869733040.png|300]]
+### info
+
+
+## Electrodes
+
+### sur le vault s'exemple
+
+[Analyses](app://obsidian.md/Electrodes)
+
+### note
+
+### Exemple et Test
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740870731530.png|300]]
+
 ### info
 
 

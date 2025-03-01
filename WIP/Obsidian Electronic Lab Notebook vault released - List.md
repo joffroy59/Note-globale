@@ -1,16 +1,16 @@
-- [ ] Analyses
+- [x] Analyses ✅ 2025-03-02
 - [x] Books ✅ 2025-03-01
-- [ ] Chemicals
-- [ ] Contacts
-- [ ] Daily Notes
+- [x] Chemicals ✅ 2025-03-02
+- [-] Contacts
+- [x] Daily Notes ✅ 2025-03-02
 - [x] Devices ✅ 2025-03-01
-- [ ] Electrodes
+- [x] Electrodes ✅ 2025-03-02
 - [ ] ELN Note Versions
-- [ ] Instruments
+- [x] Instruments ✅ 2025-03-02
 - [ ] Labs
-- [ ] Lists
+- [x] Lists ✅ 2025-03-02
 - [ ] Meetings
 - [ ] Notes
-- [ ] Processes
-- [ ] Projects
+- [x] Processes ✅ 2025-03-02
+- [x] Projects ✅ 2025-03-02
 - [ ] Publications
