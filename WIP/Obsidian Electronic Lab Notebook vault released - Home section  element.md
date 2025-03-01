@@ -1,10 +1,10 @@
 - [x] [[#Book]]  (from   [[Home#Book]]) ✅ 2025-03-01
 - [x] [[#Devices]] ✅ 2025-03-01
-- [ ] Samples
+- [x] Samples ✅ 2025-03-01
 - [x] Projects ✅ 2025-03-01
 - [x] Instruments ✅ 2025-03-01
 - [x] Chemicals ✅ 2025-03-01
-- [ ] Analyses
+- [x] Analyses ✅ 2025-03-01
 - [x] Processes ✅ 2025-03-01
 
 - [ ] Tutorials
@@ -58,13 +58,14 @@
 
 ## Samples
 
-[Samples](app://obsidian.md/Samples)
-
 ### sur le vault s'exemple
+[Samples](app://obsidian.md/Samples)
 
 ### note
 
 ### Exemple et Test
+
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862857158.png|150x177]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862823923.png|150x190]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862835954.png|150x257]]  
 
 ### info
 
@@ -142,17 +143,17 @@ class accent-button
 
 ## Analyses
 
-[Analyses](app://obsidian.md/Analyses)
-
 ### sur le vault s'exemple
+
+[Analyses](app://obsidian.md/Analyses)
 
 ### note
 
 ### Exemple et Test
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740863115399.png|150x188]]   ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740863126285.png|150x189]]
 
 ### info
 
-- [ ] #todo
 
 ## Processes
 
