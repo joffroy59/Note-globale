@@ -6,7 +6,7 @@ author: Jerome Offroy
 note type: note-list
 tag: list/notes
 ---
-
+undefinedundefined
 ```dataviewjs
 await dv.view("/Assets/javascript/dataview/views/navbar", {});
 ```
