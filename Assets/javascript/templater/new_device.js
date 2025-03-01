@@ -91,7 +91,7 @@ async function new_device(tp, return_type, out_folder) {
         model.replace(/[\s]/g, '_') + '"'
     }
   } else {
-    types_yaml += '\nnone'
+    types_yaml += 'none'
     tags_yaml += '\n  - " #device/' +
       'no_type' + '/' +
       manufacturer.replace(/[\s]/g, '_') + '_' +
