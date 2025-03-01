@@ -1,0 +1,29 @@
+---
+ELN version: 0.3.2
+cssclass: wide-page
+date created: 2023-03-27
+author: Jerome Offroy
+note type: process-list
+tag: list/processes
+---
+
+
+```button
+name New Process
+type command
+action Templater: Insert Templates/Insert assets/templates/New Process.md
+class accent-button
+```
+
+```dataview
+TABLE WITHOUT ID
+  file.link as Process, 
+  process.type as Type,
+  process.devices as Devices,
+  date-created as Date
+FROM #process AND !"Assets"
+```
+
+```dataviewjs
+await dv.view("/Assets/javascript/dataview/views/note_footer", {});
+```

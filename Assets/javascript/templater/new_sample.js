@@ -32,7 +32,7 @@ async function get_sample_properties(tp) {
     /* Compose metadata information for sample with user interaction                  */
     /**********************************************************************************/
     // get META DATA of ELN SETTINGS
-    const eln_settings_file = "assets/ELN Settings.md";
+    const eln_settings_file = "Assets/ELN Settings.md";
     const eln_settings_tfile = app.vault.getAbstractFileByPath(eln_settings_file);
     const eln_settings = app.metadataCache.getFileCache(eln_settings_tfile).frontmatter;
 
@@ -86,7 +86,7 @@ async function get_sample_properties(tp) {
     /**********************************************************************************/
     // obtain LIST of exsiting PROJECTS
     const project_list = app.plugins.plugins.dataview.api
-        .pages('#project AND !"assets"')
+        .pages('#project AND !"Assets"')
         .sort(p => p.file.name, 'asc')
         .map(p => String([p.file.name]))
         .values;
@@ -110,7 +110,7 @@ async function get_sample_properties(tp) {
 
     /**********************************************************************************/
     // obtain LIST of SAMPLE TYPES from vault
-    const sample_types_file = "assets/Sample Types.md";
+    const sample_types_file = "Assets/Sample Types.md";
     const sample_types_tfile = app.vault.getAbstractFileByPath(sample_types_file);
     const sample_types_meta = app.metadataCache.getFileCache(sample_types_tfile).frontmatter;
 
@@ -198,7 +198,7 @@ async function get_sample_properties(tp) {
 
         // obtain LIST of CHEMICALS from vault
         var chemical_list = app.plugins.plugins.dataview.api
-            .pages('#chemical ' + 'AND !"assets"')
+            .pages('#chemical ' + 'AND !"Assets"')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
             .values;
@@ -213,7 +213,7 @@ async function get_sample_properties(tp) {
                 break
             } else if (raw_material === 'Add sample(s) ...') {
                 let sample_list = app.plugins.plugins.dataview.api
-                    .pages('#sample ' + 'AND !"assets"')
+                    .pages('#sample ' + 'AND !"Assets"')
                     // .where(p => p.project.name == project_name)
                     .where(p => p.sample.type == 'compound')
                     .sort(p => p.file.name, 'asc')
@@ -311,7 +311,7 @@ async function get_sample_properties(tp) {
         // Select ACTIVE MATERIAL
         console.log('Atempting to retrieve list of compounds ...')
         const active_material_sample_list = app.plugins.plugins.dataview.api
-            .pages('#sample AND !"assets"')
+            .pages('#sample AND !"Assets"')
             .where(p => p.sample.type === 'compound')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
@@ -320,7 +320,7 @@ async function get_sample_properties(tp) {
 
         console.log('Atempting to retrieve list of active materials ...')
         const active_material_chemical_list = app.plugins.plugins.dataview.api
-            .pages('#chemical AND !"assets"')
+            .pages('#chemical AND !"Assets"')
             .where(p => p.chemical.type === 'active material')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
@@ -347,7 +347,7 @@ async function get_sample_properties(tp) {
 
         // Select electrode BINDER
         const binder_list = app.plugins.plugins.dataview.api
-            .pages('#chemical AND !"assets"')
+            .pages('#chemical AND !"Assets"')
             .where(p => p.file.frontmatter
                 .chemical.type === 'binder' &&
                 (p.file.frontmatter.chemical['field of use'] === 'electrode' ||
@@ -395,7 +395,7 @@ async function get_sample_properties(tp) {
 
         // Select conductive ADDITIVE
         const additive_list = app.plugins.plugins.dataview.api
-            .pages('#chemical AND !"assets"')
+            .pages('#chemical AND !"Assets"')
             .where(p => p.file.frontmatter
                 .chemical.type === 'conductive additive' &&
                 p.file.frontmatter.chemical['field of use'].includes('electrode'))
@@ -426,7 +426,7 @@ async function get_sample_properties(tp) {
 
         // Select SOLVENT
         const solvent_list = app.plugins.plugins.dataview.api
-            .pages('#chemical AND !"assets"')
+            .pages('#chemical AND !"Assets"')
             .where(p => p.file.frontmatter
                 .chemical.type === 'solvent' &&
                 p.file.frontmatter
@@ -475,7 +475,7 @@ async function get_sample_properties(tp) {
 
         // Select CURRENT COLLECTOR
         const current_collector_list = app.plugins.plugins.dataview.api
-            .pages('#chemical AND !"assets"')
+            .pages('#chemical AND !"Assets"')
             .where(p => p.file.frontmatter
                 .chemical.type === 'current collector' &&
                 p.file.frontmatter
@@ -515,7 +515,7 @@ async function get_sample_properties(tp) {
 
         // Let user select CELL TYPE
         const cell_list = app.plugins.plugins.dataview.api
-            .pages('#electrochemical-cell ' + 'AND !"assets"')
+            .pages('#electrochemical-cell ' + 'AND !"Assets"')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
             .values;
@@ -584,7 +584,7 @@ async function get_sample_properties(tp) {
 
         // Let user select WORKING ELECTRODE
         const electrode_list = app.plugins.plugins.dataview.api
-            .pages('#sample ' + 'AND !"assets"')
+            .pages('#sample ' + 'AND !"Assets"')
             .where(p => p.sample.type === 'electrode')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
@@ -611,7 +611,7 @@ async function get_sample_properties(tp) {
 
         // Let user select COUNTER ELECTRODE
         const std_electrode_list = app.plugins.plugins.dataview.api
-            .pages('#electrode/standard ' + 'AND !"assets"')
+            .pages('#electrode/standard ' + 'AND !"Assets"')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
             .values;
@@ -634,7 +634,7 @@ async function get_sample_properties(tp) {
 
         // Let user select REFERENCE ELECTRODE
         const ref_electrode_list = app.plugins.plugins.dataview.api
-            .pages('#electrode/reference AND !"assets"')
+            .pages('#electrode/reference AND !"Assets"')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
             .values;
@@ -660,7 +660,7 @@ async function get_sample_properties(tp) {
 
         // Let user select ELECTROLYTE
         const electrolyte_list = app.plugins.plugins.dataview.api
-            .pages('#chemical AND !"assets"')
+            .pages('#chemical AND !"Assets"')
             .where(p => p.chemical.type === 'electrolyte')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
@@ -691,7 +691,7 @@ async function get_sample_properties(tp) {
 
         // Let user select SEPARATOR
         const separator_list = app.plugins.plugins.dataview.api
-            .pages('#chemical AND !"assets"')
+            .pages('#chemical AND !"Assets"')
             .where(p => p.chemical.type === 'separator')
             .sort(p => p.file.name, 'asc')
             .map(p => String([p.file.name]))
@@ -737,7 +737,7 @@ async function get_sample_properties(tp) {
 
     // obtain LIST of PROCESSES from vault
     var process_list = app.plugins.plugins.dataview.api
-        .pages('#process ' + 'AND !"assets"')
+        .pages('#process ' + 'AND !"Assets"')
         .sort(p => p.file.name, 'asc')
         .map(p => String([p.file.name]))
         .values;
@@ -845,16 +845,16 @@ process:
 ${sample_properties.processes_yaml}
 ---
 
-\`\`\`dataviewjs
-await dv.view("/assets/javascript/dataview/views/navbar", {});
-\`\`\`
+// \`\`\`dataviewjs
+// await dv.view("/Assets/javascript/dataview/views/navbar", {});
+// \`\`\`
 
-\`\`\`button
-name Add Analysis
-type command
-action Templater: Insert assets/templates/New Analysis.md
-class accent-button
-\`\`\`
+// \`\`\`button
+// name Add Analysis
+// type command
+// action Templater: Insert Assets/templates/New Analysis.md
+// class accent-button
+// \`\`\`
 
 
 > [!Example] TOC
@@ -866,21 +866,21 @@ class accent-button
 
 ## Properties
 
-\`\`\`dataviewjs
-await dv.view("/assets/javascript/dataview/views/sample", {});
-\`\`\`
+// \`\`\`dataviewjs
+// await dv.view("/Assets/javascript/dataview/views/sample", {});
+// \`\`\`
 
 ## Processing
 
-${sample_properties.processes.map(p => `- [[${p}]]`).join('\n')}
-\`\`\`dataviewjs
-await dv.view("/assets/javascript/dataview/views/process", { key: "process" });
-\`\`\`
+// ${sample_properties.processes.map(p => `- [[${p}]]`).join('\n')}
+// \`\`\`dataviewjs
+// await dv.view("/Assets/javascript/dataview/views/process", { key: "process" });
+// \`\`\`
 
 
-## My Notes
+// ## My Notes
 
-${tp.file.include(tp.file.find_tfile(sample_properties.folder_custom_templates + "/Custom Sample Template"))}
+// ${tp.file.include(tp.file.find_tfile(sample_properties.folder_custom_templates + "/Custom Sample Template"))}
 
 ## Characterization
 
@@ -913,7 +913,7 @@ WHERE sample.name = this.sample.name AND analysis.method = "GCPL"
 \`\`\`
 
 \`\`\`dataviewjs
-await dv.view("/assets/javascript/dataview/views/note_footer", {});
+await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 \`\`\``;
 
     const active_file = app.workspace.getActiveFile();

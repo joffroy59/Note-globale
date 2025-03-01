@@ -9,7 +9,7 @@ tag: list/projects
 ```button
 name New Project
 type command
-action Templater: Insert assets/templates/New Project.md
+action Templater: Insert Templates/Insert assets/templates/New Project.md
 class accent-button
 ```
 
@@ -17,13 +17,13 @@ class accent-button
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as Project, 
-  author as Author, 
+  file.link as Project,
+  author as Author,
   project.start as Start,
   project.end as End,
-  project.type as Type, 
+  project.type as Type,
   date-created as Date
-FROM #project 
+FROM #project
 WHERE project.status = "active"
 ```
 
@@ -31,17 +31,17 @@ WHERE project.status = "active"
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as project, 
-  author as Author, 
+  file.link as project,
+  author as Author,
   project.start as Start,
   project.end as End,
-  project.type as Type, 
+  project.type as Type,
   date-created as Date
-FROM #project 
+FROM #project
 WHERE project.status = "completed"
 ```
 
 ```dataviewjs
-await dv.view("/assets/javascript/dataview/views/note_footer", {});
+await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 ```
 

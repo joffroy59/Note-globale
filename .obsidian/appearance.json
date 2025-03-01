@@ -1,11 +1,11 @@
 {
   "cssTheme": "Obsidian gruvbox",
   "enabledCssSnippets": [
-    "tasks",
     "button",
-    "dashboard",
     "circular_progress",
-    "MCL Multi Column"
+    "dashboard",
+    "MCL Multi Column",
+    "tasks"
   ],
   "baseFontSize": 14
 }

@@ -9,23 +9,23 @@ tag: list/projects
 ```button
 name New Wip
 type command
-action Templater: Insert assets/templates/New Project.md
+action Templater: Insert Assets/templates/New Project.md
 class accent-button
 ```
-#todo 
+#todo
 ## Active Wip
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as Wip, 
-  author as Author, 
+  file.link as Wip,
+  author as Author,
   date-created as Date
-FROM #status/wip 
+FROM #status/wip
 WHERE Completed = False
 ```
 
 ```dataview
-	task 
+	task
 	completed
 
 ```
@@ -33,17 +33,17 @@ WHERE Completed = False
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as project, 
-  author as Author, 
+  file.link as project,
+  author as Author,
   project.start as Start,
   project.end as End,
-  project.type as Type, 
+  project.type as Type,
   date-created as Date
-FROM #project 
+FROM #project
 WHERE project.status = "completed"
 ```
 
 ```dataviewjs
-await dv.view("/assets/javascript/dataview/views/note_footer", {});
+await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 ```
 

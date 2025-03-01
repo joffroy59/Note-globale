@@ -903,12 +903,8 @@
       "hidden": false,
       "actions": [
         {
-          "type": "templaterCreateNote",
-          "templateFile": "",
-          "folderPath": "/",
-          "fileName": "",
-          "openNote": true,
-          "openIfAlreadyExists": false
+          "type": "runTemplaterFile",
+          "templateFile": "Insert assets/templates/New Sample.md"
         }
       ]
     }

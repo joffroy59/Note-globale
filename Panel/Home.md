@@ -13,7 +13,7 @@ tags:
   - dashboard
 banner-height: 250
 ---
-
+plat
 # Work
 - ### [[Projects]]
   ```dataview
@@ -33,7 +33,7 @@ banner-height: 250
 - ### [[Notes]]
   ```dataview
   LIST
-  FROM "Note" AND !"assets"
+  FROM "Note" AND !"Assets"
   WHERE note-type != "tutorial"
   SORT file.mtime.ts ASC
   LIMIT 6
@@ -42,15 +42,15 @@ banner-height: 250
 - ### [[Daily Notes]]
   ```dataview
   LIST
-  FROM #dailynotes   AND !"assets" AND -"Templates" AND "Daily Note"
+  FROM #dailynotes   AND !"Assets" AND -"Templates" AND "Daily Note"
   SORT file.mtime DESC
   LIMIT 6
-  ``` 
+  ```
 
 - ### [[!Wip]]
   ```dataview
   TABLE
-  FROM #status/wip AND !"assets" AND !"Templates"
+  FROM #status/wip AND !"Assets" AND !"Templates"
   SORT file.mtime DESC
   LIMIT 8
   ```
@@ -63,7 +63,7 @@ banner-height: 250
         WHERE note-type = "tutorial"
         SORT file.mtime.ts ASC
         LIMIT 4
-   ``` 
+   ```
 
 - ### Miscellaneous
 	 - [[Electrochemical Glossary]]
@@ -76,20 +76,20 @@ banner-height: 250
 - ### [[Meetings]]
   ```dataview
   LIST
-  FROM #status/wip  AND !"assets"
+  FROM #status/wip  AND !"Assets"
   SORT file.mtime.ts ASC
   LIMIT 6
   ```
 # Recently Edited
-- 
+-
   ```dataviewjs
     dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(0, 5).file.link)
    ```
-- 
+-
   ```dataviewjs
     dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(5, 10).file.link)
    ```
-- 
+-
   ```dataviewjs
     dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(10, 15).file.link)
    ```
@@ -99,7 +99,7 @@ banner-height: 250
 
 ```dataviewjs
 
-const querry=dv.pages('!"assets" AND !"Notes/HowTos"').file.tasks
+const querry=dv.pages('!"Assets" AND !"Notes/HowTos"').file.tasks
      .where(t => !t.completed && !t.checked)
 
 // console.log(JSON.stringify(querry))
@@ -121,7 +121,7 @@ if (n_notes >= 3) {
             if (n_notes >= 12) {
                 dv.taskList(querry.where(q => { return q.path === note_list[index + 0] || q.path == note_list[index + 1] || q.path == note_list[index + 2] } ))
                 index += 3
-            }    
+            }
         }
     }
 }
@@ -137,12 +137,12 @@ if (remaining_notes == 1) {
 
 - ### 〽️ Stats
 	-  File Count: **`$=dv.pages().length`**
-	-  Number of Samples: **`$=dv.pages('#sample AND !"assets"').length`**
-	-  Number of Analsyes: **`$=dv.pages('#analysis AND !"assets"').length`**
-	-  Number of Processes: **`$=dv.pages('#process AND !"assets"').length`**
+	-  Number of Samples: **`$=dv.pages('#sample AND !"Assets"').length`**
+	-  Number of Analsyes: **`$=dv.pages('#analysis AND !"Assets"').length`**
+	-  Number of Processes: **`$=dv.pages('#process AND !"Assets"').length`**
 
 
 
 ```dataviewjs
-await dv.view("/assets/javascript/dataview/views/note_footer", {});
+await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 ```

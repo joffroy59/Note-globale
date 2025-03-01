@@ -8,12 +8,23 @@ note type: project-list
 tag: list/projects
 ---
 
+`BUTTON[new-sample]`
+
 ```button
 name New Sample
 type command
-action Templater: Insert assets/templates/New Sample.md
+action Templater: Templates/Insert Assets/templates/New Sample.md
 class accent-button
 ```
+
+
+```button
+name New Sample2
+type command
+action Templater: Insert Templates/Insert Assets/templates/New Sample.md
+```
+^button-moke
+
 
 > [!Example] TOC
 > [[#Samples]]
@@ -25,11 +36,11 @@ class accent-button
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as "Sample List", 
-  author as Author, 
-  project.name as Project, 
+  file.link as "Sample List",
+  author as Author,
+  project.name as Project,
   date-created as Date
-FROM #list/samples  
+FROM #list/samples
 ```
 
 ## Samples
@@ -38,9 +49,9 @@ FROM #list/samples
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as Sample, 
+  file.link as Sample,
   project.name as Project,
-  sample.type as "Sample Type", 
+  sample.type as "Sample Type",
   sample["chemical formular"] as "Chem. formular",
   sample.educts.name as "Educts",
   sample.educts.mass as "Mass",
@@ -54,9 +65,9 @@ SORT project.name, file.link ASC
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as Sample, 
+  file.link as Sample,
   project.name as Project,
-  sample.type as "Sample Type", 
+  sample.type as "Sample Type",
   date-created as Date
 FROM #sample
 WHERE sample.type = "electrode"
@@ -67,9 +78,9 @@ SORT project.name, file.link ASC
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as Sample, 
+  file.link as Sample,
   project.name as Project,
-  sample.type as "Sample Type", 
+  sample.type as "Sample Type",
   date-created as Date
 FROM #sample
 WHERE sample.type = "electrochemical cell"
@@ -77,5 +88,5 @@ SORT project.name, file.link ASC
 ```
 
 ```dataviewjs
-await dv.view("/assets/javascript/dataview/views/note_footer", {});
+await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 ```
