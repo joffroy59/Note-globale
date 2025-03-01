@@ -15,6 +15,14 @@ collapse: open
 
 [[⭐Faire fonctionner Open WebUI avec Ollama]]
 
+### Notes
+
+
+```query
+file:("⭐⭐⭐")
+```
+
+
 ## 🚧 `#status/wip_star` 
 ```dataview
 LIST

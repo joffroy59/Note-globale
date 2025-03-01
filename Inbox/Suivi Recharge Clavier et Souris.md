@@ -1,8 +1,3 @@
----
-keyboardChargAction: recharge
-exampleProperty: lemon
----
-
 ### Suivi de la Recharge du Clavier
 
 **Date d'Achat :** [Insérer la date d'achat] #todo 
@@ -18,7 +13,25 @@ exampleProperty: lemon
 | [Date]                                  | [Durée]                  |      |        | [Autonomie]       | [Notes supplémentaires]    |
 | 2025-03-01 16:35                        | ❓                        | 4    | 🔌     | ❓                 | Première recharge  suivie. |
 | 2025-03-01 16:48                        | 0:13                     | 5    | 🔍     | ❓                 |                            |
+| 2025-03-01 17:34 |  |  | 🔌 |  | Ajout automatique |
+| 2025-03-01 17:34 |  |  | 🔌 |  | Ajout automatique |
 | **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |                            |
+|                                         |                          |      |        |                   |                            |
+
+^bbe402
+
+
+```button
+name Ajouter une Recharge
+type command
+action Templater: Insert Templates/Action/Suivi Recharge Clavier et Souris - Add.md
+class accent-button
+```
+
+^2abdb2
+
+
+
 Action:
 - 🔌: recharge
 - 🔍 : status
@@ -26,7 +39,7 @@ Action:
 
 
 - [ ] #todo bouton pour ajouter une date heure 
-- [ ] #todo selection des action
+- [ ] #todo sélection des action
 
 ---
 
