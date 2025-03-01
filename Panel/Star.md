@@ -16,9 +16,10 @@ collapse: open
 [[⭐Faire fonctionner Open WebUI avec Ollama]]
 
 ### Notes
-
-
-```query
+```query 
+hideTitle: true
+collapsed: false 
+context: true
 file:("⭐")
 ```
 
