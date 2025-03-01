@@ -678,7 +678,7 @@ span.cm-comment.cm-hmd-frontmatter {
 }
 
 .dataview.inline-field {
-    display: flex;
+    /* display: flex; */
     margin-bottom: 5px;
 }
 
