@@ -43,13 +43,13 @@ title: Note
 - [ ] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
 - [ ] folder tree color bar (theme ? )
-- [/] [[#Task Achieved]]
-- [/] [[#Menu]] 
+- [x] [[#Task Achieved]] ✅ 2025-03-01
+- [x] [[#Menu]] ✅ 2025-03-01
       ![[Obsidian Electronic Lab Notebook vault released-1740771528761.png]]
 - [ ] home ? (pour ne pas etre obligé par daily note )
-- [/] [[#structure folder et asset]] 
+- [/] [[Obsidian Electronic Lab Notebook vault released - Structure folder et asset|Structure folder et asset]] 
         ![[Obsidian Electronic Lab Notebook vault released-1740605834462.png|150x134]]
-- [/] List
+- [/] [[Obsidian Electronic Lab Notebook vault released - List|List]]
       ![[Obsidian Electronic Lab Notebook vault released-1740605847300.png|150x242]]
 - [ ] Note
       ![[Obsidian Electronic Lab Notebook vault released-1740605857470.png|150x53]]
@@ -96,8 +96,7 @@ await dv.view("/assets/javascript/dataview/views/navbar", {});
 - [ ] remettre dans 
 	- [ ] trouver ou enlever dans [[Lists]]
 
-#### structure folder et asset
-#todo 
+
 ### Task Achieved
 ![[Obsidian Electronic Lab Notebook vault released-1740777270482.png|150x159]]
 

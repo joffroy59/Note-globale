@@ -1,0 +1,16 @@
+- [ ] Analyses
+- [ ] Books
+- [ ] Chemicals
+- [ ] Contacts
+- [ ] Daily Notes
+- [ ] Devices
+- [ ] Electrodes
+- [ ] ELN Note Versions
+- [ ] Instruments
+- [ ] Labs
+- [ ] Lists
+- [ ] Meetings
+- [ ] Notes
+- [ ] Processes
+- [ ] Projects
+- [ ] Publications

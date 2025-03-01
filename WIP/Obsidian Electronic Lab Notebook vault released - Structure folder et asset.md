@@ -1,0 +1,11 @@
+---
+tags:
+  - "#todo"
+---
+- [ ] **Image**
+- [ ] **Code**
+- [ ] **Document**
+- [ ] **File**
+- [ ] **PDF**
+- [ ] **Settings (Gear 1)**
+- [ ] **Settings (Gear 2)**
