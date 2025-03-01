@@ -13,7 +13,6 @@ tags:
   - dashboard
 banner-height: 250
 ---
-plat
 # Work
 - ### [[Projects]]
   ```dataview

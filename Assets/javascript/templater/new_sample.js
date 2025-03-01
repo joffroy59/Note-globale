@@ -845,16 +845,12 @@ process:
 ${sample_properties.processes_yaml}
 ---
 
-// \`\`\`dataviewjs
-// await dv.view("/Assets/javascript/dataview/views/navbar", {});
-// \`\`\`
-
-// \`\`\`button
-// name Add Analysis
-// type command
-// action Templater: Insert Assets/templates/New Analysis.md
-// class accent-button
-// \`\`\`
+\`\`\`button
+name Add Analysis
+type command
+action Templater: Insert Templates/Insert assets/templates/New Analysis.md
+class accent-button
+\`\`\`
 
 
 > [!Example] TOC
@@ -866,21 +862,21 @@ ${sample_properties.processes_yaml}
 
 ## Properties
 
-// \`\`\`dataviewjs
-// await dv.view("/Assets/javascript/dataview/views/sample", {});
-// \`\`\`
+\`\`\`dataviewjs
+await dv.view("/Assets/javascript/dataview/views/sample", {});
+\`\`\`
 
 ## Processing
 
-// ${sample_properties.processes.map(p => `- [[${p}]]`).join('\n')}
-// \`\`\`dataviewjs
-// await dv.view("/Assets/javascript/dataview/views/process", { key: "process" });
-// \`\`\`
+${sample_properties.processes.map(p => `- [[${p}]]`).join('\n')}
+\`\`\`dataviewjs
+await dv.view("/Assets/javascript/dataview/views/process", { key: "process" });
+\`\`\`
 
 
-// ## My Notes
+## My Notes
 
-// ${tp.file.include(tp.file.find_tfile(sample_properties.folder_custom_templates + "/Custom Sample Template"))}
+${tp.file.include(tp.file.find_tfile(sample_properties.folder_custom_templates + "/Custom Sample Template"))}
 
 ## Characterization
 

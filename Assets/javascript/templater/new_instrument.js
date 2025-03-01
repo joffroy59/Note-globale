@@ -207,7 +207,8 @@ instrument:
   location:
     building: ${building}
     room: ${room}
-  contact: ${contact_persons_yaml}
+  contact:
+  ${contact_persons_yaml}
   documentation:
     - "[[${instrument_name} (Manual).pdf|Manual]]"
   url: "[link to manufacturer]()"

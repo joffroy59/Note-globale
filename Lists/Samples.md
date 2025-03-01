@@ -8,23 +8,13 @@ note type: project-list
 tag: list/projects
 ---
 
-`BUTTON[new-sample]`
 
 ```button
 name New Sample
 type command
-action Templater: Templates/Insert Assets/templates/New Sample.md
+action Templater: Insert Templates/Insert assets/templates/New Sample.md
 class accent-button
 ```
-
-
-```button
-name New Sample2
-type command
-action Templater: Insert Templates/Insert Assets/templates/New Sample.md
-```
-^button-moke
-
 
 > [!Example] TOC
 > [[#Samples]]
