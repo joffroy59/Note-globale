@@ -1,3 +1,9 @@
+---
+tags:
+  - pc
+  - suivi
+  - status/wip_star
+---
 ### Suivi de la Recharge du Clavier
 
 **Date d'Achat :** [Insérer la date d'achat] #todo 
@@ -11,9 +17,10 @@
 | Date de Recharge                        | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes                      |
 | --------------------------------------- | ------------------------ | ---- | ------ | ----------------- | -------------------------- |
 | [Date]                                  | [Durée]                  |      |        | [Autonomie]       | [Notes supplémentaires]    |
-| 2025-03-01 16:35                        |                          | 4    | 🔌     | ❓                 | Première recharge  suivie. |
-| 2025-03-01 16:48                        | 0:13                     | 5    | 🔍     | ❓                 |                            |
-| 2025-03-01 18:26                        | 1:51                     | 6    | 🔍     | ❓                 | Ajout automatique          |
+| 2025-03-01 16:35                        |                          | 4    | 🔌     |                   | Première recharge  suivie. |
+| 2025-03-01 16:48                        | 0:13                     | 5    | 🔍     |                   |                            |
+| 2025-03-01 18:26                        | 1:51                     | 6    | 🔍     |                   | Ajout automatique          |
+| 2025-03-01 19:05                        | 2:30                     | 7    | 🔍     |                   | Ajout automatique          |
 | **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |                            |
 
 
