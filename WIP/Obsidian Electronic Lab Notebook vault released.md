@@ -38,7 +38,8 @@ title: Note
 
 - [/] [[#Note Home]]
 	- [x] [[#Duplication dans mon vault]]  ✅ 2025-02-27
-- [/] [[Obsidian Electronic Lab Notebook vault released - Home section  element|Home section  element]]
+- [x] [[Obsidian Electronic Lab Notebook vault released - Home section  element|Home section  element]] ✅ 2025-03-01
+- [ ] [[Obsidian Electronic Lab Notebook vault released - Home section  element 1 - Other]]
 - [ ] [[#voir]] 
 - [ ] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]

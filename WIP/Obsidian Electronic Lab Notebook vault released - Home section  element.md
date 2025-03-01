@@ -6,13 +6,7 @@
 - [x] [[#Chemicals]] ✅ 2025-03-01
 - [x] [[#Analyses]] ✅ 2025-03-01
 - [x] [[#Processes]] ✅ 2025-03-01
-- [ ] [[#Daily Notes]]
-
-- [ ] Tutorials
-- [ ] Miscellaneous
-- [ ] Electrochemical
-
-- [ ] utiliser bouton metabind (ca a deja marché mais u ? note [[Samples]] ? ) #todo
+- [x] [[#Daily Notes]] ✅ 2025-03-01
 
 ##### voir  l'erreur locale  et la corriger avec les note manquantes
 
@@ -195,71 +189,7 @@ class accent-button
 
 ### Exemple et Test
 ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740864931380.png|300]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740864947988.png|300]]
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740869682204.png|300]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740869642104.png|300]]    ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740869733040.png|300]]
 ### info
 
 
-## Tutorials
-
-[Tutorials](app://obsidian.md/Tutorials)
-
-### sur le vault s'exemple
-
-### note
-
-### Exemple et Test
-
-### info
-
-- [ ] #todo
-
-### sur le vault s'exemple
-
-### note
-
-### Exemple et Test
-
-### info
-
-- [ ] #todo
-
-## Miscellaneous
-
-[Miscellaneous](app://obsidian.md/Miscellaneous)
-
-### sur le vault s'exemple
-
-### note
-
-### Exemple et Test
-
-### info
-
-- [ ] #todo
-
-## Electrochemical Glossary
-
-[Electrochemical Glossary](app://obsidian.md/Electrochemical%20Glossary)
-
-### sur le vault s'exemple
-
-### note
-
-### Exemple et Test
-
-### info
-
-- [ ] #todo
-
-## Conferences
-
-[Conferences](app://obsidian.md/Conferences)
-
-### sur le vault s'exemple
-
-### note
-
-### Exemple et Test
-
-### info
-
-- [ ] #todo
