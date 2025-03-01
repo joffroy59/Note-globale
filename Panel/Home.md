@@ -30,7 +30,7 @@ sliceSize: 16
 	- [[Devices]]
 	- [[Instruments]]
 
-- ### [[Notes]]
+- ### [[Inbox/Notes]]
   ```dataview
   LIST
   FROM "Note" AND !"Assets"

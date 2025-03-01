@@ -153,7 +153,7 @@ Additional list views are available for
 - [[Daily Notes]]
 - [[Labs]]
 - [[Meetings]]
-- [[Notes]]
+- [[Inbox/Notes]]
 - [[Publications]]
 
 ## Step 8: Change the look of Obsidian and your notes

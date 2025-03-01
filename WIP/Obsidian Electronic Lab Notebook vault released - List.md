@@ -10,7 +10,7 @@
 - [ ] Labs
 - [x] Lists ✅ 2025-03-02
 - [ ] Meetings
-- [ ] Notes
+- [x] Notes ✅ 2025-03-02
 - [x] Processes ✅ 2025-03-02
 - [x] Projects ✅ 2025-03-02
 - [ ] Publications

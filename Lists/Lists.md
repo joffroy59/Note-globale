@@ -96,7 +96,7 @@ tag: list/lists
 	 - [[Books]]
 	 - [[Publications]]
 
-- ### [[Notes]]
+- ### [[Inbox/Notes]]
   ```dataview
   LIST
   FROM "Notes" AND !"Assets"

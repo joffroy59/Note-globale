@@ -8,6 +8,7 @@
 - [x] [[#Processes]] ✅ 2025-03-01
 - [x] [[#Daily Notes]] ✅ 2025-03-01
 - [x] [[#Electrodes]] ✅ 2025-03-02
+- [ ] [[#Notes]]
 
 ##### voir  l'erreur locale  et la corriger avec les note manquantes
 
@@ -204,5 +205,18 @@ class accent-button
 ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740870731530.png|300]]
 
 ### info
+
+
+
+## Notes
+
+### sur le vault s'exemple
+[Notes](app://obsidian.md/Notes)
+### note
+
+### Exemple et Test
+
+### info
+
 
 
