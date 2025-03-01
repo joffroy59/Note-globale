@@ -35,9 +35,13 @@ if (input && dv) {
     }
   ).join('\n');
 
-  const sample_list_links = projects.map(
+  const samplers = dv.pages('#sampler AND !"Assets"')
+    .sort(p => p.file.name, 'asc')
+    .map(p => String([p.file.name]))
+    .values;
+  const sample_list_links = samplers.map(
     project => {
-      return `<a href="Samples - ${project}" class="internal-link" rel="noopener">${project}</a>`
+      return `<a href="Samples - ${samplers}" class="internal-link" rel="noopener">${samplers}</a>`
     }
   ).join('\n');
 
@@ -59,7 +63,9 @@ if (input && dv) {
     <button class="dropbtn">Samples</button>
     <div class="dropdown-content">
       <div class="navmenu-column">
-        <h3>Sample Lists</h3>
+        <a href="Samples" class="internal-link" rel="noopener">Sample List</a>
+      </div>
+      <div class="navmenu-column">
         ${sample_list_links}
       </div>
     </div>
