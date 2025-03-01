@@ -6,7 +6,9 @@ author: Jerome Offroy
 note type: device-list
 tag: list/devices
 ---
-
+```dataviewjs
+await dv.view("/assets/javascript/dataview/views/navbar", {});
+```
 
 ```dataviewjs
 await dv.view("/Assets/javascript/dataview/views/note_header", {});

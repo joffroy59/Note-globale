@@ -7,7 +7,9 @@ date created: 2023-03-01
 note type: project-list
 tag: list/projects
 ---
-
+```dataviewjs
+await dv.view("/assets/javascript/dataview/views/navbar", {});
+```
 
 ```button
 name New Sample

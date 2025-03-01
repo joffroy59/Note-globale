@@ -44,7 +44,7 @@ title: Note
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
 - [ ] folder tree color bar (theme ? )
 - [/] [[#Task Achieved]]
-- [ ] [[#Menu]] 
+- [/] [[#Menu]] 
       ![[Obsidian Electronic Lab Notebook vault released-1740771528761.png]]
 - [ ] home ? (pour ne pas etre obligé par daily note )
 - [/] [[#structure folder et asset]] 
@@ -72,7 +72,8 @@ title: Note
 
 ##### section > element : type  [[Home#Book]]
 
-- [ ] [[#Book]]
+- [/] [[#Book]]
+- [ ] autre
 
 
 - [ ] utiliser bouton metabind (ca a deja marché mais u ? note [[Samples]] ? ) #todo
@@ -92,7 +93,7 @@ pas de création donc à voir plus tard
 
 ![[Obsidian Electronic Lab Notebook vault released-1740853819296.png|150x73]]
 
-
+![[Obsidian Electronic Lab Notebook vault released-1740853913824.png|300]]  original ![[Obsidian Electronic Lab Notebook vault released-1740853928417.png|300]]
 
 ###### [Samples](app://obsidian.md/Samples)
 
@@ -128,10 +129,17 @@ await dv.view("/assets/javascript/dataview/views/note_header", {});
 
 #### Menu
 trouvé dans [[Projects]]  a remettre 
-
+`````markdown fold
 ```dataviewjs
 await dv.view("/assets/javascript/dataview/views/navbar", {});
 ```
+`````
+
+- [x] css  copy from edn [D:\obsidian\MyNote\Note-globale\.obsidian\snippets\page-styles.css](file:///d%3A/obsidian/MyNote/Note-globale/.obsidian/snippets/page-styles.css) ✅ 2025-03-01
+      ![[Obsidian Electronic Lab Notebook vault released-1740855176823.png|150x18]]
+      ![[Obsidian Electronic Lab Notebook vault released-1740855204390.png|300]]
+- [ ] remettre dans 
+	- [ ] trouver ou enlever dans [[Lists]]
 
 #### structure folder et asset
 #todo 

@@ -8,6 +8,10 @@ tag: list/chemicals
 ---
 
 ```dataviewjs
+await dv.view("/assets/javascript/dataview/views/navbar", {});
+```
+
+```dataviewjs
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ```
 

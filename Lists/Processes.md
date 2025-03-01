@@ -6,7 +6,9 @@ author: Jerome Offroy
 note type: process-list
 tag: list/processes
 ---
-
+```dataviewjs
+await dv.view("/assets/javascript/dataview/views/navbar", {});
+```
 
 ```button
 name New Process

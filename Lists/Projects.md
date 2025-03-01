@@ -5,6 +5,9 @@ author: Jerome Offroy
 note type: project-list
 tag: list/projects
 ---
+```dataviewjs
+await dv.view("/assets/javascript/dataview/views/navbar", {});
+```
 
 ```button
 name New Project

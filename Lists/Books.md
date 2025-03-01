@@ -6,7 +6,6 @@ author: Frieder Scheiba
 note type: book-list
 tag: list/books
 ---
-
 ```dataviewjs
 await dv.view("/assets/javascript/dataview/views/navbar", {});
 ```

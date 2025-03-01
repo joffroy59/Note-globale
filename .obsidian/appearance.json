@@ -6,7 +6,8 @@
     "dashboard",
     "MCL Multi Column",
     "tasks",
-    "obsidian_eln"
+    "obsidian_eln",
+    "page-styles"
   ],
   "baseFontSize": 14,
   "accentColor": "#713613"
