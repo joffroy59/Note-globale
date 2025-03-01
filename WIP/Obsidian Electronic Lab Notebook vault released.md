@@ -38,7 +38,7 @@ title: Note
 
 - [/] [[#Note Home]]
 	- [x] [[#Duplication dans mon vault]]  ✅ 2025-02-27
-	- [/] [[#section > element type Home Book]]
+- [/] [[Obsidian Electronic Lab Notebook vault released - Home section  element|Home section  element]]
 - [ ] [[#voir]] 
 - [ ] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
@@ -60,7 +60,7 @@ title: Note
 
 ![[#^d1842e]]
 
-##### Duplication dans mon vault
+#### Duplication dans mon vault
 
 ![[Obsidian Electronic Lab Notebook vault released-1740605985815.png|600]]
 
@@ -70,72 +70,17 @@ title: Note
 		- [ ] trouver comment installer correctement [dashboard.css](file:///D:%5Cobsidian%5CMyNote%5CNote-globale%5C.obsidian%5Csnippets%5Cdashboard.css)
 
 
-##### section > element : type  [[Home#Book]]
-
-- [x] [[#Book]] ✅ 2025-03-01
-- [x] [[#Devices]] ✅ 2025-03-01
-- [ ] autre
 
 
-- [ ] utiliser bouton metabind (ca a deja marché mais u ? note [[Samples]] ? ) #todo
-###### voir  l'erreur locale 
 
-![[Obsidian Electronic Lab Notebook vault released-1740609119778.png|400]]
-
-###### sur le vault s'exemple
-
- ![[Obsidian Electronic Lab Notebook vault released-1740768115806.png|300]]
-
-###### Book
-[[Books]]
-
-
-- [x] Home#Book ✅ 2025-03-01
-	- [x] ajouter template ✅ 2025-03-01
-pas de création donc à voir plus tard
-
-![[Obsidian Electronic Lab Notebook vault released-1740853819296.png|150x73]]
-
-![[Obsidian Electronic Lab Notebook vault released-1740853913824.png|300]]  original ![[Obsidian Electronic Lab Notebook vault released-1740853928417.png|300]]
-
-###### Devices
-[[Devices]]
-[[New Device]]
-[[new_device.js]]
-
-- exempel et Test
-[[Device1 - Model1 - name1]]
-###### Samples
-[Samples](app://obsidian.md/Samples)
-###### Projects
-a un bouton de création 
-
-![[Obsidian Electronic Lab Notebook vault released-1740771398336.png|400]]
-
-![[Obsidian Electronic Lab Notebook vault released-1740771553350.png|400]]
-
-- [ ] duplicate page (list + add)
-- [ ] clone template  [[Projects]]
-
-- [ ] transformation de button (Styles) en metabind button 
-
-```button
-name New Project
-type command
-action Templater: Insert assets/templates/New Project.md
-class accent-button
-```
-
-pas trouvé comment terminer un projet 
-
-garder idée des liste des autre projet et faire pour WIP IA  ^7b6524
 
 #### header 
 trouvé dans [[Projects]]  a remettre 
-
+````markdown
 ```dataviewjs
 await dv.view("/assets/javascript/dataview/views/note_header", {});
 ```
+````
 
 #### Menu
 trouvé dans [[Projects]]  a remettre 
