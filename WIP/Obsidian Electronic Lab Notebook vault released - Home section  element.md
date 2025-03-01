@@ -1,12 +1,12 @@
 - [x] [[#Book]]  (from   [[Home#Book]]) ✅ 2025-03-01
 - [x] [[#Devices]] ✅ 2025-03-01
 - [ ] Samples
-- [ ] Projects
+- [x] Projects ✅ 2025-03-01
 - [x] Instruments ✅ 2025-03-01
-- [ ] Chemicals
+- [x] Chemicals ✅ 2025-03-01
 - [ ] Analyses
-- [ ] Processes
-- [ ] Projects
+- [x] Processes ✅ 2025-03-01
+
 - [ ] Tutorials
 - [ ] Miscellaneous
 - [ ] Electrochemical
@@ -75,7 +75,7 @@
 ### note
 
 ### Exemple et Test
-
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862690111.png|150x131]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862692827.png|150x128]]
 ### info
 
 a un bouton de création
@@ -115,20 +115,27 @@ class accent-button
 [[dummy-image-instrument.png]]
 [[[instrument]]]
 ### Exemple et Test
+[[Instrument1 - Model1 - Name1]]
+[[Instrument1 - Model1 - Name1 (Manual).pdf]]
+
 ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740861962313.png|150x109]]
 ### info
 
 
 ## Chemicals
 
-[Chemicals](app://obsidian.md/Chemicals)
-
 ### sur le vault s'exemple
+[Chemicals](app://obsidian.md/Chemicals)
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862122790.png|150x158]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862101950.png|150x202]]
 
 ### note
-
+[[Chemicals]]
+[[New Chemical]]
+[[new_chemical.js]]
 ### Exemple et Test
+[[Chemical1]]
 
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862421020.png|150x240]]
 ### info
 
 - [ ] #todo
@@ -149,17 +156,17 @@ class accent-button
 
 ## Processes
 
-[Processes](app://obsidian.md/Processes)
-
 ### sur le vault s'exemple
+[Processes](app://obsidian.md/Processes)
 
 ### note
 
 ### Exemple et Test
+[[Process1]]
 
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862585446.png|150x233]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740862589380.png|150x81]]
 ### info
 
-- [ ] #todo
 
 ## Projects
 
