@@ -1,13 +1,13 @@
 ---
 ELN version: 0.4.2
 note:
-  author: Name Surname
-  initials: NN
+  author: Jerome Offroy
+  initials: JO
 operators:
-  Max Mustermann:
-    initials: MM
-  Vera Musterfrau:
-    initials: VM
+  Jerome Offroy:
+    initials: JO
+  Ansible:
+    initials: AN
 folder:
   local data: /path/to_your/local_data/folder
   remote data: /path/to_your/remote_data/folder
