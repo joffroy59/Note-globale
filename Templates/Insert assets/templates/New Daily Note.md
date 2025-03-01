@@ -1,0 +1,5 @@
+---
+tags:
+  - template
+---
+<% await tp.user.new_daily_note(tp) -%>
