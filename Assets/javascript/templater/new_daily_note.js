@@ -3,7 +3,7 @@ async function new_daily_note(tp, return_type, out_folder) {
 
   /**********************************************************************************/
   // get META DATA of ELN SETTINGS
-  const eln_settings_file = "assets/ELN Settings.md";
+  const eln_settings_file = "Assets/ELN Settings.md";
   const eln_settings_tfile = app.vault.getAbstractFileByPath(eln_settings_file);
   const eln_settings = app.metadataCache.getFileCache(eln_settings_tfile).frontmatter;
 
@@ -51,11 +51,11 @@ tag:
 ---
 
 \`\`\`dataviewjs
-await dv.view("/assets/javascript/dataview/views/navbar", {});
+await dv.view("/Assets/javascript/dataview/views/navbar", {});
 \`\`\`
 
 \`\`\`dataviewjs
-  await dv.view("/assets/javascript/dataview/views/daily_note_nav", {});
+  await dv.view("/Assets/javascript/dataview/views/daily_note_nav", {});
 \`\`\`
 
 <div class="title" style="color:#edf">
@@ -70,14 +70,14 @@ await dv.view("/assets/javascript/dataview/views/navbar", {});
     - [ ] Today 3
 
 
-- ### 
+- ###
   \`\`\`dataviewjs
-  await dv.view("/assets/javascript/dataview/views/motivation_image", {});
+  await dv.view("/Assets/javascript/dataview/views/motivation_image", {});
   \`\`\`
 
 - ### Progress
   \`\`\`dataviewjs
-  await dv.view("/assets/javascript/dataview/views/circular_progress", {});
+  await dv.view("/Assets/javascript/dataview/views/circular_progress", {});
   \`\`\`
 
 # Notes
@@ -85,7 +85,7 @@ await dv.view("/assets/javascript/dataview/views/navbar", {});
 
 
 \`\`\`dataviewjs
-await dv.view("/assets/javascript/dataview/views/note_footer", {});
+await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 \`\`\`
 `;
 

@@ -1,11 +1,12 @@
 - [x] [[#Book]]  (from   [[Home#Book]]) ✅ 2025-03-01
 - [x] [[#Devices]] ✅ 2025-03-01
-- [x] Samples ✅ 2025-03-01
-- [x] Projects ✅ 2025-03-01
-- [x] Instruments ✅ 2025-03-01
-- [x] Chemicals ✅ 2025-03-01
-- [x] Analyses ✅ 2025-03-01
-- [x] Processes ✅ 2025-03-01
+- [x] [[#Samples]] ✅ 2025-03-01
+- [x] [[#Projects]] ✅ 2025-03-01
+- [x] [[#Instruments]] ✅ 2025-03-01
+- [x] [[#Chemicals]] ✅ 2025-03-01
+- [x] [[#Analyses]] ✅ 2025-03-01
+- [x] [[#Processes]] ✅ 2025-03-01
+- [ ] [[#Daily Notes]]
 
 - [ ] Tutorials
 - [ ] Miscellaneous
@@ -182,6 +183,20 @@ class accent-button
 ### info
 
 - [ ] #todo
+
+
+## Daily Notes
+
+### sur le vault s'exemple
+
+[Analyses](app://obsidian.md/Daily Notes)
+
+### note
+
+### Exemple et Test
+![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740864931380.png|300]]  ![[Obsidian Electronic Lab Notebook vault released - Home section  element-1740864947988.png|300]]
+### info
+
 
 ## Tutorials
 
