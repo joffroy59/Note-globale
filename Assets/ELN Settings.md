@@ -4,7 +4,7 @@ note:
   author: Name Surname
   initials: NN
 operators:
-  Max Mustermann: 
+  Max Mustermann:
     initials: MM
   Vera Musterfrau:
     initials: VM
@@ -12,7 +12,7 @@ folder:
   local data: /path/to_your/local_data/folder
   remote data: /path/to_your/remote_data/folder
   contacts: Contacts
-  daily notes: Daily Notes
+  daily notes: Daily Note
   projects: Projects
   samples: Experiments/Samples
   analyses: Experiments/Analyses

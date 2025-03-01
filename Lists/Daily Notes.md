@@ -27,7 +27,8 @@ TABLE WITHOUT ID
   file.link as "Daily Note", 
   author, 
   date-created
-FROM #daily-note AND !"assets"
+FROM #dailynotes AND !"Assets" AND -"Templates" AND "Daily Note"
+SORT file.mtime  DESC
 ```
 
 ```dataviewjs

@@ -36,7 +36,7 @@ async function new_daily_note(tp, return_type, out_folder) {
   // get week day
   const week_day = date.toLocaleString('default', { weekday: 'long' });
 
-  const note_title = `${date_created} - ${week_day}, ${date.getDate()}. ${month_name}`;
+  const note_title = `📘 ${date_created} - ${week_day}, ${date.getDate()}. ${month_name}`;
 
   const note_content = `---
 ELN version: ${eln_version}
@@ -46,8 +46,8 @@ banner_y: 0.336
 date created: ${date_created}
 author: ${author}
 note type: daily-note
-tag:
-  - " #daily-note "
+tags:
+  - " #dailynotes "
 ---
 
 \`\`\`dataviewjs
@@ -107,7 +107,7 @@ await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 
 
   const filename = note_title;
-  const folder = `${folder_daily_notes}/${year}/${month} ${month_name}`;
+  const folder = `${folder_daily_notes}/${year}/${month}`;
 
   if (!app.vault.getAbstractFileByPath(folder)) {
     console.log(`${folder} does not exist.`);
