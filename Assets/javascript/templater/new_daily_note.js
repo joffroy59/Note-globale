@@ -41,7 +41,7 @@ async function new_daily_note(tp, return_type, out_folder) {
   const note_content = `---
 ELN version: ${eln_version}
 cssclass: daily-note
-banner: "![[obsidian-eln-banner.png]]"
+banner: "[[obsidian-eln-banner.png]]"
 banner_y: 0.336
 date created: ${date_created}
 author: ${author}

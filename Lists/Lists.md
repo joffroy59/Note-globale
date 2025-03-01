@@ -1,7 +1,7 @@
 ---
 ELN version: 0.4.2
 cssclass: wide-page, dashboard
-banner: "![[obsidian-eln-banner.png]]"
+banner: "[[obsidian-eln-banner.png]]"
 banner_y: 0.336
 date created: 2025-03-01
 author: Jerome Offroy
@@ -90,7 +90,7 @@ tag: list/lists
   FROM #daily-note  AND !"Assets"
   SORT file.mtime.ts ASC
   LIMIT 6
-  ``` 
+  ```
 
 - ### Literature
 	 - [[Books]]
@@ -106,15 +106,15 @@ tag: list/lists
   ```
 
 # Recently Edited
-- 
+-
   ```dataviewjs
     dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(0, 5).file.link)
    ```
-- 
+-
   ```dataviewjs
     dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(5, 10).file.link)
    ```
-- 
+-
   ```dataviewjs
     dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").slice(10, 15).file.link)
    ```

@@ -38,7 +38,7 @@ async function new_project(tp, return_type, out_folder) {
 const note_content = `---
 ELN version: ${eln_version}
 cssclass: dashboard, wide-page
-banner: "![[obsidian-eln-banner.png]]"
+banner: "[[obsidian-eln-banner.png]]"
 banner_y: 0.5
 author: ${author}
 date created: ${tp.date.now()}

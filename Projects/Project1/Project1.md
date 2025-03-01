@@ -1,7 +1,7 @@
 ---
 ELN version: 0.4.2
 cssclass: dashboard, wide-page
-banner: "![[obsidian-eln-banner.png]]"
+banner: "[[obsidian-eln-banner.png]]"
 banner_y: 0.5
 author: Name Surname
 date created: 2025-03-01
