@@ -38,7 +38,7 @@ title: Note
 
 - [/] [[#Note Home]]
 	- [x] [[#Duplication dans mon vault]]  ✅ 2025-02-27
-	- [/] [[#section > element Home Book]]
+	- [/] [[#section > element type Home Book]]
 - [ ] [[#voir]] 
 - [ ] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
@@ -47,9 +47,9 @@ title: Note
 - [ ] [[#Menu]] 
       ![[Obsidian Electronic Lab Notebook vault released-1740771528761.png]]
 - [ ] home ? (pour ne pas etre obligé par daily note )
-- [ ] structure folder et asset 
+- [/] [[#structure folder et asset]] 
         ![[Obsidian Electronic Lab Notebook vault released-1740605834462.png|150x134]]
-- [ ] List
+- [/] List
       ![[Obsidian Electronic Lab Notebook vault released-1740605847300.png|150x242]]
 - [ ] Note
       ![[Obsidian Electronic Lab Notebook vault released-1740605857470.png|150x53]]
@@ -70,7 +70,12 @@ title: Note
 		- [ ] trouver comment installer correctement [dashboard.css](file:///D:%5Cobsidian%5CMyNote%5CNote-globale%5C.obsidian%5Csnippets%5Cdashboard.css)
 
 
-##### section > element : [[Home#Book]]
+##### section > element : type  [[Home#Book]]
+
+- [ ] [[#Book]]
+
+
+- [ ] utiliser bouton metabind (ca a deja marché mais u ? note [[Samples]] ? ) #todo
 ###### voir  l'erreur locale 
 
 ![[Obsidian Electronic Lab Notebook vault released-1740609119778.png|400]]
@@ -81,9 +86,14 @@ title: Note
 
 ###### Book
 
-- [ ]  Home#Book
-	- [ ] ajouter template 
+- [x] Home#Book ✅ 2025-03-01
+	- [x] ajouter template ✅ 2025-03-01
 pas de création donc à voir plus tard
+
+![[Obsidian Electronic Lab Notebook vault released-1740853819296.png|150x73]]
+
+
+
 ###### [Samples](app://obsidian.md/Samples)
 
 ###### Projects
@@ -115,6 +125,7 @@ trouvé dans [[Projects]]  a remettre
 ```dataviewjs
 await dv.view("/assets/javascript/dataview/views/note_header", {});
 ```
+
 #### Menu
 trouvé dans [[Projects]]  a remettre 
 
@@ -122,7 +133,8 @@ trouvé dans [[Projects]]  a remettre
 await dv.view("/assets/javascript/dataview/views/navbar", {});
 ```
 
-
+#### structure folder et asset
+#todo 
 ### Task Achieved
 ![[Obsidian Electronic Lab Notebook vault released-1740777270482.png|150x159]]
 
@@ -142,3 +154,4 @@ un peu gros #idea  essayer de
 
 
 - [ ] faire un template a inserver et inclure le template (factorisatoin) 
+
