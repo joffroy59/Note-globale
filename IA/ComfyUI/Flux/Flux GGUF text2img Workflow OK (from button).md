@@ -1,4 +1,11 @@
 ---
+ELN info:
+  template: Create IA - Task - ComFyUI - Flux
+  version: 0.3.2
+  author: Jerome Offroy
+  modified: 2025-02-25
+  copyright: GNU Affero General Public License v3.0
+
 tags:
   - status/wip
   - IA
