@@ -7,7 +7,7 @@ tag: list/projects
 ---
 ## Active IA Projects
 
-### task (IA) incompleted
+### Task (IA) incompleted
 
 ```dataview
 TASK 
@@ -17,7 +17,13 @@ SORT BY
 ```
 
 
-### task (IA) completed
+
+#### Task (IA) incompleted - civitai
+
+
+### Task (IA) incompleted - civitai
+
+### Task (IA) completed
 
 ```dataview
 TASK 
