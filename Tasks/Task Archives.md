@@ -25,7 +25,7 @@ tags:
     - [/] [[WIP/Add Wip IA Flux NF4]] #status/wip  ➕ 2025-02-25 🛫 2025-02-25 
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux NF4 ComfyUI Basic Workflow]] #status/wip #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux NF4 V2]] #status/wip #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux BnB NF4 v2 [Fastest Flux Dev]]] #status/wip #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux BnB NF4 v2 (Fastest Flux Dev)]] #status/wip #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux (NF4)]] #status/wip #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux-Dev (NF4)]] #status/wip #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - FLUX NF4 + CONTROLNET]] #status/wip #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25

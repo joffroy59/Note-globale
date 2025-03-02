@@ -43,7 +43,6 @@
 		- [ ] ???  [[New Year 2025]]  tags #podium  
 	- [/] [[workflow provenant de civitai]]  #test #status/wip  ➕ 2025-01-21 🛫 2025-01-21 
 - [ ] https://publish.obsidian.md/tasks/Queries/Global+Query             ➕ 2025-01-11 🛫 2025-01-11  #task #todo #obsidian 
-- [/] [[IA/ComfyUI/Flux/Flux GGUF text2img Workflow OK]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-28 🛫 2025-01-28
 - [ ] templacer WIP IAD Comfyui pour ne pas avoir de doubon (faire include ?)   #todo  ➕ 2025-01-29 
 - [ ] trouver comment avoir une liste rapide de tag ia et todo toview not done   #todo  ➕ 2025-01-29 
 - [ ]  https://img.icons8.com/  #toview ➕ 2025-01-29 
