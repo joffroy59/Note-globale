@@ -26,6 +26,9 @@ GROUP BY (file.name)
 SORT value DESC
 ```
 
+
+
+## DONE ✅
 ### Task IA 🏆 ⭐⭐⭐
 ```dataview
 TASK 
@@ -37,7 +40,7 @@ GROUP BY file.name
 SORT key DESC
 
 ```
-## DONE ✅
+
 ### Task IA ✅
 
 ```dataview
@@ -69,7 +72,7 @@ SORT key DESC
 
 ```
 
-### Task IA - civitai
+### Task IA - Civitai
 ```dataview
 TASK 
 FROM ""
