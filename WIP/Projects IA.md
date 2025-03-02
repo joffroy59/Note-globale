@@ -8,7 +8,7 @@ tag: list/projects
 ## IA Projects
 
 ## WIP 🚧
-### Task IA 🚧
+### 🚧 IA
 ```dataview
 TASK 
 FROM ""
@@ -17,7 +17,7 @@ GROUP BY (file.name)
 SORT value DESC
 ```
 
-### Task IA 🚧 - civitai
+### 🚧  - civitai
 ```dataview
 TASK 
 FROM ""
@@ -29,7 +29,7 @@ SORT value DESC
 
 
 ## DONE ✅
-### Task IA 🏆 ⭐⭐⭐
+### 🏆 IA  ⭐⭐⭐
 ```dataview
 TASK 
 FROM ""
@@ -41,7 +41,7 @@ SORT key DESC
 
 ```
 
-### Task IA ✅
+### ✅ IA 
 
 ```dataview
 TASK 
@@ -51,7 +51,7 @@ GROUP BY file.name
 SORT key DESC
 ```
 
-### Task IA ✅ - civitai 
+### ✅ IA - Civitai 
 ```dataview
 TASK 
 FROM ""
@@ -61,7 +61,7 @@ SORT key DESC
 ```
 
 ## All 
-### Task IA
+### IA
 ```dataview
 TASK 
 FROM ""
@@ -72,7 +72,7 @@ SORT key DESC
 
 ```
 
-### Task IA - Civitai
+### Civitai
 ```dataview
 TASK 
 FROM ""
@@ -83,7 +83,7 @@ SORT key DESC
 
 ```
 
-### Task IA - ComfyUI
+### ComfyUI
 ```dataview
 TASK 
 FROM ""
@@ -94,7 +94,7 @@ SORT key DESC
 
 ```
 
-### Task IA - ComfyUI - flux
+### ComfyUI - flux
 ```dataview
 TASK 
 FROM ""
@@ -105,7 +105,7 @@ SORT key DESC
 
 ```
 
-### Task IA - ComfyUI - flux_NF4
+### ComfyUI - flux_NF4
 ```dataview
 TASK 
 FROM ""
@@ -116,7 +116,7 @@ SORT key DESC
 
 ```
 
-### Task IA - StabilityMatrix
+### StabilityMatrix
 ```dataview
 TASK 
 FROM ""
@@ -127,7 +127,7 @@ SORT key DESC
 
 ```
 
-### Task IA - Application
+### Application
 ```dataview
 TASK 
 FROM ""
@@ -138,7 +138,7 @@ SORT key DESC
 
 ```
 
-### Task IA - Model
+### Model
 ```dataview
 TASK 
 FROM ""
@@ -149,7 +149,7 @@ SORT key DESC
 
 ```
 
-### Task IA - Prompt
+### Prompt
 ```dataview
 TASK 
 FROM ""
@@ -160,7 +160,7 @@ SORT key DESC
 
 ```
 
-### Task IA - images
+### images
 ```dataview
 TASK 
 FROM ""
