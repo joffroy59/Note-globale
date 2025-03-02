@@ -12,7 +12,7 @@ tag: list/projects
 ```dataview
 TASK 
 FROM ""
-WHERE !completed and contains(tags, "IA") and !contains(path, "/Templates/")
+WHERE !completed and contains(tags, "IA") and !contains(path, "Templates/")
 SORT BY 
 ```
 
@@ -22,7 +22,7 @@ SORT BY
 ```dataview
 TASK 
 FROM ""
-WHERE completed and contains(tags, "IA") and !contains(path, "/Templates/")
+WHERE completed and contains(tags, "IA") and !contains(path, "Templates/")
 SORT BY 
 ```
 

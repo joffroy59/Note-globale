@@ -13,35 +13,28 @@ action Templater: Insert Assets/templates/New Project.md
 class accent-button
 ```
 #todo
-## Active Wip
+
+## Incompletes Tasks Wip
 
 ```dataview
-TABLE WITHOUT ID
-  file.link as Wip,
-  author as Author,
-  date-created as Date
-FROM #status/wip
-WHERE Completed = False
+TASK 
+FROM ""
+WHERE !completed and contains(tags, "wip") and !contains(path, "Templates/")
+SORT BY 
 ```
+
+## Complete Tasks Wip
 
 ```dataview
-	task
-	completed
-
+TASK 
+FROM ""
+WHERE completed and contains(tags, "wip") and !contains(path, "Templates/")
+SORT BY 
 ```
-## Completed Wip
 
-```dataview
-TABLE WITHOUT ID
-  file.link as project,
-  author as Author,
-  project.start as Start,
-  project.end as End,
-  project.type as Type,
-  date-created as Date
-FROM #project
-WHERE project.status = "completed"
-```
+## Notes
+[[Lists/Wip-Note]]
+
 
 ```dataviewjs
 await dv.view("/Assets/javascript/dataview/views/note_footer", {});
