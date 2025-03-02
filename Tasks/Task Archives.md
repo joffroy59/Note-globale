@@ -16,7 +16,7 @@ tags:
     - [x] [[WIP/Add Wip IA - WAN2.1]] #status/wip ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27
     - [x] [[IA/ComfyUI/WAN 2.1/WAN 2.1 - (Updated) WAN 2.1 The REAL VIDEO EVOLUTION - Models + WF + Tips (COMFYUI)]] #status/wip #IA #IA/comfyui #WAN_2_1 ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27 #failed
 - [/] **WIP** ➕ 2025-02-26 🛫 2025-02-26 #status/wip
-    - [/] [[IA/ComfyUI/civitai/civitai - 48508726]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-26 🛫 2025-02-26
+    - [/] [[IA/ComfyUI/civitai/civitai - 48508726]]  #status/wip #IA #IA/civitai  ➕ 2025-02-26 🛫 2025-02-26
     - [/] [[WIP/Remove Admonition DONE WIN - task done task win ]] #status/wip  ➕ 2025-02-26 🛫 2025-02-26 
     - [/] [[Test Reminder Sync for Obsidian pour sync rappel ios to obsidian]]  #status/wip  ➕ 2025-02-26 🛫 2025-02-26 
     - [/] List des template insert utiles : [[Liste des tempate Insert]] #status/wip #obsidian ➕ 2025-02-26 🛫 2025-02-26 
@@ -36,7 +36,7 @@ tags:
     - [/] [[IA/ComfyUI/civitai/civitai - 13092936]] #status/wip #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25
     - [x] [[civitai - 35488618 ⭐⭐⭐]] #status/wip #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[civitai - 35487025 ⭐⭐⭐]] #status/wip #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/civitai/civitai - 11643971]] #status/wip #IA #IA/comfyui/flux ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-26
+    - [x] [[IA/ComfyUI/civitai/civitai - 11643971]] #status/wip #IA #IA/civitai  ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-26
 - [/] **WIP** ➕ 2025-02-24 🛫 2025-02-24 #status/wip
     - [/] [[WIP/Obsidian Stuck - remove disable plugin and check if Obsidian more stable]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
     - [/] [[WIP/Create a Button for Obsidian Classify By Graph]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
@@ -45,12 +45,12 @@ tags:
     - [x] [[WIP/CSS pour les Task In Progress]] #status/wip ➕ 2025-02-24 🛫 2025-02-24 ✅ 2025-02-24
     - [/] [[WIP/Button to change TODO to WIP section and tag]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
     - [-] [[Templater - Move selected text to a different note, then embed the text back]] #status/wip #obsidian #helper ➕ 2025-02-24 🛫 2025-02-24 ❌ 2025-02-24
-    - [/] [[IA/ComfyUI/civitai/civitai - 56205732]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
-    - [/] [[IA/ComfyUI/civitai/civitai - 34567354]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
-    - [/] [[IA/ComfyUI/civitai/civitai - 34584657]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
+    - [/] [[IA/ComfyUI/civitai/civitai - 56205732]]  #status/wip #IA #IA/civitai   ➕ 2025-02-24 🛫 2025-02-24
+    - [/] [[IA/ComfyUI/civitai/civitai - 34567354]]  #status/wip #IA #IA/civitai  ➕ 2025-02-24 🛫 2025-02-24
+    - [/] [[IA/ComfyUI/civitai/civitai - 34584657]]  #status/wip #IA #IA/civitai  ➕ 2025-02-24 🛫 2025-02-24
 - [/] **WIP** ➕ 2025-02-23 🛫 2025-02-23 #status/wip
     - [/] [[IA/Application/IA Application - Leonnardo AI]]  #status/wip #IA #IA/application   ➕ 2025-02-23 🛫 2025-02-23
-    - [/] [[IA/ComfyUI/civitai/civitai - TMND-Mix_II]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
+    - [/] [[IA/ComfyUI/civitai/civitai - TMND-Mix_II]]  #status/wip #IA #IA/civitai ➕ 2025-02-23 🛫 2025-02-23
     - [x] [[WIP/To View - like todo with no admonition]] #status/wip ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-23
     - [/] [[IA/ComfyUI/Flux/Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai Note]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
     - [x] [[WIP/Wip - like Wip ai with no admonition]] #status/wip ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-24
@@ -70,8 +70,8 @@ tags:
 	 - [/] [[Fix Obsidian Latency]]  #test #status/wip  ➕ 2025-02-05 🛫 2025-02-05 
 - [/] **WIP** ➕ 2025-02-03 🛫 2025-02-03  #status/wip
 	- [x] [[Intégration nouveau système v2 de creation d'élément de la Today Note]] #test #status/wip ➕ 2025-02-03 🛫 2025-02-03 ✅ 2025-02-05
-	- [/] [[IA/ComfyUI/civitai/A voir]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
-	- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
+	- [/] [[IA/ComfyUI/civitai/A voir]]  #status/wip #IA #IA/civitai   ➕ 2025-02-02 🛫 2025-02-02
+	- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/civitai   ➕ 2025-02-02 🛫 2025-02-02
 	- [/] [[deepseek-r1]]  #status/wip #IA #IA/model  ➕ 2025-02-01 🛫 2025-02-01
 	- [/] [[Simplification Daily Note - reductrion section Todays ]] #obsidian  #test #status/wip  ➕ 2025-01-31 🛫 2025-01-31 
 
