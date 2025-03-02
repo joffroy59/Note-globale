@@ -8,7 +8,7 @@
 - [x] [[#Processes]] ✅ 2025-03-01
 - [x] [[#Daily Notes]] ✅ 2025-03-01
 - [x] [[#Electrodes]] ✅ 2025-03-02
-- [ ] [[#Notes]]
+- [x] [[#Notes]] ✅ 2025-03-02
 
 ##### voir  l'erreur locale  et la corriger avec les note manquantes
 
