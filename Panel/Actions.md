@@ -2,7 +2,9 @@
 tags:
   - IA
   - template
-  - template/insert
+  - workflow
+  - IA/civitai
+  - IA/comfyui
 sticker: ""
 banner_y: 0.492
 cov:

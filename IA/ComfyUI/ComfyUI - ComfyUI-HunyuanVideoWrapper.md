@@ -15,6 +15,7 @@ tags:
   - IA/comfyui/flux
   - IA/StabilityMatrix
   - IA/application
+  - hunyuan
 ---
 
 ---

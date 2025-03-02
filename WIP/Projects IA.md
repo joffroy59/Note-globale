@@ -12,7 +12,8 @@ tag: list/projects
 TASK 
 FROM ""
 WHERE !completed and contains(tags, "IA") and !contains(path, "Templates/")
-SORT BY 
+GROUP BY (file.name)
+SORT value DESC
 ```
 
 ### Task IA 🚧 - civitai
@@ -20,7 +21,8 @@ SORT BY
 TASK 
 FROM ""
 WHERE !completed AND contains(tags, "IA/civitai") and !contains(path, "Templates/")
-SORT BY 
+GROUP BY file.name
+SORT key DESC
 ```
 
 ### Task IA 🏆 ⭐⭐⭐
@@ -30,7 +32,8 @@ SORT BY
 TASK 
 FROM ""
 WHERE completed and contains(tags, "IA") and !contains(path, "Templates/")
-SORT BY 
+GROUP BY file.name
+SORT key DESC
 ```
 
 ### Task IA ✅ - civitai
@@ -38,7 +41,8 @@ SORT BY
 TASK 
 FROM ""
 WHERE completed AND contains(tags, "IA/civitai") and !contains(path, "Templates/")
-SORT BY 
+GROUP BY file.name
+SORT key DESC
 ```
 
 ### Task IA - civitai
