@@ -21,8 +21,8 @@ SORT value DESC
 TASK 
 FROM ""
 WHERE !completed AND contains(tags, "IA/civitai") and !contains(path, "Templates/")
-GROUP BY file.name
-SORT key DESC
+GROUP BY (file.name)
+SORT value DESC
 ```
 
 ### Task IA 🏆 ⭐⭐⭐
@@ -36,13 +36,24 @@ GROUP BY file.name
 SORT key DESC
 ```
 
-### Task IA ✅ - civitai
+### Task IA ✅ - civitai 
 ```dataview
 TASK 
 FROM ""
 WHERE completed AND contains(tags, "IA/civitai") and !contains(path, "Templates/")
 GROUP BY file.name
 SORT key DESC
+```
+
+### Task IA
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
 ```
 
 ### Task IA - civitai
@@ -55,4 +66,91 @@ GROUP BY file.name
 SORT key DESC
 
 ```
+
+### Task IA - ComfyUI
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/comfyui") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
+### Task IA - ComfyUI - flux
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/comfyui/flux") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
+### Task IA - ComfyUI - flux_NF4
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "flux_NF4") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
+### Task IA - StabilityMatrix
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/StabilityMatrix") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
+### Task IA - Application
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/application") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
+### Task IA - Model
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/model") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
+### Task IA - Prompt
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/prompt") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
+
+
+
+
+
+
+
+
+
 
