@@ -28,3 +28,4 @@ title: Note
 ---
 exemple avec [[Liste all task with tag wip and done]]
 
+![[Add Wip - remove admonition if no source-1740958591866.png]]
