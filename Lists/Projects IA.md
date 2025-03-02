@@ -7,8 +7,7 @@ tag: list/projects
 ---
 ## Active IA Projects
 
-### Task (IA) incompleted
-
+### Task (IA) Incompleted
 ```dataview
 TASK 
 FROM ""
@@ -16,14 +15,20 @@ WHERE !completed and contains(tags, "IA") and !contains(path, "Templates/")
 SORT BY 
 ```
 
+### Task (IA) Incompleted - civitai
+```dataview
+TASK 
+FROM ""
+WHERE !completed contains(tags, "IA/civitai") and !contains(path, "Templates/")
+SORT BY 
+```
 
 
-#### Task (IA) incompleted - civitai
 
+### Task (IA) Incompleted - civitai
 
-### Task (IA) incompleted - civitai
-
-### Task (IA) completed
+### Task (IA) WIN ⭐⭐⭐
+### Task (IA) Completed
 
 ```dataview
 TASK 
@@ -32,6 +37,12 @@ WHERE completed and contains(tags, "IA") and !contains(path, "Templates/")
 SORT BY 
 ```
 
+### Task (IA) Completed - civitai
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/model") AND  !contains(path, "Templates/")
+```
 
 
 
