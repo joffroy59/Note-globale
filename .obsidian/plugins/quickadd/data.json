@@ -1579,7 +1579,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "46c9028d-ca93-42ef-bd0f-5ef999ca6315",
@@ -1876,6 +1876,48 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "09e51f34-f7c3-4824-a893-d8e8ed9fab6b",
+      "name": "Insert ELN Info",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Inserts/ELN info.md}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "60332f24-2dcc-44e2-b358-1e32db0d74fb",
+      "name": "Insert ELN Info 2",
+      "type": "Macro",
+      "command": true,
+      "macroId": "681f1956-5fc2-4e1d-93b0-7485fe093cff"
     }
   ],
   "macros": [
@@ -2440,6 +2482,19 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "Insert ELN Info 2",
+      "id": "681f1956-5fc2-4e1d-93b0-7485fe093cff",
+      "commands": [
+        {
+          "name": "Templater: Insert Templates/Inserts/ELN info.md",
+          "type": "Obsidian",
+          "id": "ef2fff9b-ac49-463e-a6e5-f447452d078d",
+          "commandId": "templater-obsidian:Templates/Inserts/ELN info.md"
+        }
+      ],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
@@ -2447,7 +2502,7 @@
   "templateFolderPath": "Templates",
   "announceUpdates": true,
   "version": "1.11.5",
-  "disableOnlineFeatures": false,
+  "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "ai": {
     "defaultModel": "mistral",

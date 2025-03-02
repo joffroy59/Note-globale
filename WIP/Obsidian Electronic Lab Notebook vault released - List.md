@@ -7,7 +7,7 @@
 - [x] Electrodes ✅ 2025-03-02
 - [ ] ELN Note Versions
 - [x] Instruments ✅ 2025-03-02
-- [ ] Labs
+- [x] Labs ✅ 2025-03-02
 - [x] Lists ✅ 2025-03-02
 - [ ] Meetings
 - [x] Notes ✅ 2025-03-02
