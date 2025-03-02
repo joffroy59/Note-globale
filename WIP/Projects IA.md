@@ -5,8 +5,9 @@ author: Jerome Offroy
 note type: project-list
 tag: list/projects
 ---
-## Active IA Projects
+## IA Projects
 
+## WIP 🚧
 ### Task IA 🚧
 ```dataview
 TASK 
@@ -26,6 +27,17 @@ SORT value DESC
 ```
 
 ### Task IA 🏆 ⭐⭐⭐
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA") and !contains(path, "Templates/") 
+AND contains(text, "⭐")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+## DONE ✅
 ### Task IA ✅
 
 ```dataview
@@ -45,6 +57,7 @@ GROUP BY file.name
 SORT key DESC
 ```
 
+## All 
 ### Task IA
 ```dataview
 TASK 
@@ -143,6 +156,18 @@ GROUP BY file.name
 SORT key DESC
 
 ```
+
+### Task IA - images
+```dataview
+TASK 
+FROM ""
+WHERE contains(tags, "IA/images") and !contains(path, "Templates/")
+
+GROUP BY file.name
+SORT key DESC
+
+```
+
 
 
 
