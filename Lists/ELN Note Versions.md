@@ -27,7 +27,8 @@ TABLE WITHOUT ID
   eln-info.author as "Templ. Author",
   note-type as " Note Type",
   dateformat(file.mtime, "yyyy-MM-dd") as "last modified"
-WHERE eln-info.version
+FLATTEN  Template
+WHERE eln-info.version  AND !contains(file.path, "Templates")
 SORT eln-info.version, DESC, eln-info.template ASC
 ```
 
@@ -53,6 +54,7 @@ TABLE WITHOUT ID
   file.link as Template, 
   file.mtime as modified,
   file.ctime as created 
+
 FROM "Templates/Insert assets/templates"
 SORT file.mtime DESC
 ```
