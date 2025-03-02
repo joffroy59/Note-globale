@@ -1918,6 +1918,41 @@
       "type": "Macro",
       "command": true,
       "macroId": "681f1956-5fc2-4e1d-93b0-7485fe093cff"
+    },
+    {
+      "id": "27adafb8-7961-4f15-b358-0814609f473c",
+      "name": "Insert Failed",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "![[IA Application - Microsoft AI Playground-1740954752510.png|400]]"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

@@ -27,3 +27,11 @@ title: Note
 
 ````
 
+
+
+![[IA Application - Microsoft AI Playground-1740954316835.png|150x84]]
+
+![[IA Application - Microsoft AI Playground-1740954274393.png|150x81]]
+**je sais pas ou sont les log .....** 
+peut etre parceque j'ai pas le bon materiel arc ??? 
+- [ ] Déplacer les répertoires de model sur I:\ #todo #IA/application 
