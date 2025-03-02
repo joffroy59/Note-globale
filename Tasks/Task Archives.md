@@ -138,7 +138,7 @@ tags:
 - [/] **Obsidian**
 	- [/] [[Creating-note-from-template]] #obsidian  #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
 	- [/] [[Button pour creer Un wip long terme dans ForDailyNote]]  #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
-	- [ ]  [Taking the Zettelkasten Method to the Next Level with AI](https://www.jasongilbertson.com/taking-the-zettelkasten-method-to-the-next-level-with-ai-in-obsidian/) #todo  ➕ 2025-01-07- [ ] Rangement , tri et trash ➕ 2024-12-30
+	- [ ]  [Taking the Zettelkasten Method to the Next Level with AI](https://www.jasongilbertson.com/taking-the-zettelkasten-method-to-the-next-level-with-ai-in-obsidian/) #todo  ➕ 2025-01-07
 	- [x] [[Obsidian Vault Transfert]] #test #status/wip ➕ 2025-01-15 ✅ 2025-01-16
 	- [x] Utilisation de "SNIPPETS" avec Templater par exemple pour liste des plugin ➕ 2024-12-30 ✅ 2025-01-16
 		- [x] [[🛠️Plugin Obsidian IA - 2024-12-30]] +  Plugin List OK  '3 formes a choisr "' QuickAction ???[[Plugin List All with Id - 2025-01-16]] #idea ✅ 2025-01-16 ^03c067
@@ -174,6 +174,7 @@ tags:
 		- [ ] create a admonition type prompt fo ia prompt   #todo  ➕ 2025-02-04 
 	- [ ]   Hacking Obsidian series https://tfthacker.com/HackingObsidian  #toview ➕ 2025-02-04 
 - [/] **Autres**
+	- [/] Rangement , tri et trash ➕ 2024-12-28
 	- [ ] Ajout au menu contextuel Windows création de fichier README.md ➕ 2025-01-02
 	- [ ] Amener la voiture chez Norauto pour une vérification de la batterie. #voiture 🔺 ➕ 2025-01-11 ⏳ 2025-01-24 📅 2025-01-2
 	- [ ]  https://img.icons8.com/  #toview ➕ 2025-01-29 
