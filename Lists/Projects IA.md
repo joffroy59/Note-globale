@@ -5,17 +5,6 @@ author: Jerome Offroy
 note type: project-list
 tag: list/projects
 ---
-```dataviewjs
-await dv.view("/assets/javascript/dataview/views/navbar", {});
-```
-
-```button
-name New Project
-type command
-action Templater: Insert Templates/Insert assets/templates/New Project.md
-class accent-button
-```
-
 ## Active IA Projects
 
 ### task (IA) incompleted

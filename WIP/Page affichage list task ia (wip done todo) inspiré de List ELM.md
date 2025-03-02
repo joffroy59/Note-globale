@@ -13,8 +13,13 @@ tags:
 
 Pour voir évolution en cours 
 
-prendre exemple sur [[Projects]]
+> [!info]
+> prendre exemple sur [[Projects]]
 
 
-duplication  [[Projects IA]]
+- [x] duplication  [[Projects IA]]
+- [x] dataview 
 
+Result 
+
+![[Page affichage list task ia _wip done todo_ inspiré de List ELM-1740944806040.png|150x205]]
