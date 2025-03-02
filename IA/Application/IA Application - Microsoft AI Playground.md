@@ -27,7 +27,7 @@ title: Note
 
 ````
 
-
+![[IA Application - Microsoft AI Playground-1740954752510.png|400]]
 
 ![[IA Application - Microsoft AI Playground-1740954316835.png|150x84]]
 
