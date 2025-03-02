@@ -1,7 +1,5 @@
 
 - [ ] **Missed Tasks**
- - [/] **WIP** ➕ 2025-02-01 🛫 2025-02-01
-- [/] [[deepseek-r1]]  #status/wip #IA #IA/model  ➕ 2025-02-01 🛫 2025-02-01
  - [/] **WIP** ➕ 2025-01-31 🛫 2025-01-31
 - [/] [[Simplification Daily Note - reductrion section Todays ]] #obsidian  #test #status/wip  ➕ 2025-01-31 🛫 2025-01-31 
 - [ ] **Missed Tasks**
