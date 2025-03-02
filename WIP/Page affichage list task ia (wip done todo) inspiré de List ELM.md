@@ -11,7 +11,10 @@ tags:
   - status/wip
 ---
 
----
+Pour voir évolution en cours 
 
----
+prendre exemple sur [[Projects]]
+
+
+duplication  [[Projects IA]]
 
