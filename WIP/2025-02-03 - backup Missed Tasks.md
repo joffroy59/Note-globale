@@ -1,6 +1,6 @@
 - [/] **WIP** ➕ 2025-02-02 🛫 2025-02-02
 - [/] [[IA/ComfyUI/civitai/A voir]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
-- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-02 🛫 2025-02-02
+- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/civitai   ➕ 2025-02-02 🛫 2025-02-02
 - [ ] **Missed Tasks**
  - [/] **WIP** ➕ 2025-02-01 🛫 2025-02-01
 - [/] [[deepseek-r1]]  #status/wip #IA #IA/model  ➕ 2025-02-01 🛫 2025-02-01

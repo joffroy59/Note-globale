@@ -33,9 +33,9 @@ tags:
     - [/] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux Dev NF4 v.2 Workflow_ High-Power AI for Advanced Model Creation]]  #status/wip #IA #IA/comfyui/flux  #flux_NF4➕ 2025-02-25 🛫 2025-02-25
     - [/] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux clean 3 in 1 model loader for low vram GPU]]  #status/wip #IA #IA/comfyui/flux  #flux_NF4➕ 2025-02-25 🛫 2025-02-25
     - [/] [[IA/ComfyUI/Flux NF4/Flux NF4 - civitai - Flux.1-Dev Hyper NF4]]  #status/wip #IA #IA/comfyui/flux  #flux_NF4➕ 2025-02-25 🛫 2025-02-25
-    - [/] [[IA/ComfyUI/civitai/civitai - 13092936]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-25 🛫 2025-02-25
-    - [x] [[civitai - 35488618 ⭐⭐⭐]] #status/wip #IA #IA/comfyui/flux ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[civitai - 35487025 ⭐⭐⭐]] #status/wip #IA #IA/comfyui/flux ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [/] [[IA/ComfyUI/civitai/civitai - 13092936]] #status/wip #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25
+    - [x] [[civitai - 35488618 ⭐⭐⭐]] #status/wip #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[civitai - 35487025 ⭐⭐⭐]] #status/wip #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/civitai/civitai - 11643971]] #status/wip #IA #IA/comfyui/flux ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-26
 - [/] **WIP** ➕ 2025-02-24 🛫 2025-02-24 #status/wip
     - [/] [[WIP/Obsidian Stuck - remove disable plugin and check if Obsidian more stable]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 

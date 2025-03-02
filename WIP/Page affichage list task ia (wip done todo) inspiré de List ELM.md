@@ -25,4 +25,5 @@ Result
 ![[Page affichage list task ia _wip done todo_ inspiré de List ELM-1740944806040.png|150x205]]
 
 - [ ] include quelque par 
-	- [ ] duplicquer [[Lists]] en 
+	- [ ] duplicquer [[Lists]] en [[My Lists]]
+- [ ] 
