@@ -1,9 +1,10 @@
 ---
 ELN info:
-  template: Create IA - Task - ComFyUI - workflow
+ELN info:
+  template: <% tp.file.title %>
   version: 0.3.2
   author: Jerome Offroy
-  modified: 2025-02-25
+  modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
 
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
