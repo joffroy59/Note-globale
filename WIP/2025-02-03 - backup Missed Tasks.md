@@ -8,7 +8,6 @@
 - [/] [[Faire fonctionner Open WebUI avec ComfyUI (Stability Matrix)]]   #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
 - [/] [[flux exemple]]https://civitai.com/images/38271696  #test #status/wip  ➕ 2025-01-30 🛫 2025-01-30 
 - [/] [[Creating-note-from-template]] #obsidian  #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
-- [/] [[civitai_flux_t2i_workflow_OK]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-29 🛫 2025-01-29
 - [/] [[Button pour creer Un wip long terme dans ForDailyNote]]  #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
 - [ ] Rangement , tri et trash ➕ 2024-12-30
 - [ ] Ajout au menu contextuel Windows création de fichier README.md ➕ 2025-01-02
