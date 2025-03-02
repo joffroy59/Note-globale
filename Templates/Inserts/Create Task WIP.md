@@ -25,19 +25,14 @@ let url = await tp.system.prompt("url");
 let note = await tp.system.prompt("Note");
 -%>
 
----
-
-<%* tp.file.cursor() -%> 
+<%* if (url) { %> 
 ````ad-tip
 Source : <% url %>
 
 ````
-
+<%* } %>
 ````ad-note
 title: Note
 <% note %> 
 
 ````
-
----
-
