@@ -892,7 +892,7 @@
       ]
     },
     {
-      "label": "New Chemical",
+      "label": "Add  Chemical",
       "icon": "",
       "style": "default",
       "class": "",
@@ -909,7 +909,7 @@
       ]
     },
     {
-      "label": "New Daily Note",
+      "label": "Add Daily Note",
       "icon": "",
       "style": "default",
       "class": "",
@@ -926,7 +926,7 @@
       ]
     },
     {
-      "label": "New Instrument",
+      "label": "Add Instrument",
       "icon": "",
       "style": "default",
       "class": "",
@@ -943,7 +943,7 @@
       ]
     },
     {
-      "label": "New Lab",
+      "label": "Add Lab",
       "icon": "",
       "style": "default",
       "class": "",
@@ -960,7 +960,7 @@
       ]
     },
     {
-      "label": "New Note",
+      "label": "Add Note",
       "icon": "",
       "style": "default",
       "class": "",
@@ -977,7 +977,7 @@
       ]
     },
     {
-      "label": "New Process",
+      "label": "Add Process",
       "icon": "",
       "style": "default",
       "class": "",
@@ -994,7 +994,7 @@
       ]
     },
     {
-      "label": "New Project",
+      "label": "Add Project",
       "icon": "",
       "style": "default",
       "class": "",
@@ -1011,7 +1011,7 @@
       ]
     },
     {
-      "label": "New Sample",
+      "label": "Add Sample",
       "icon": "",
       "style": "default",
       "class": "",
@@ -1028,7 +1028,7 @@
       ]
     },
     {
-      "label": "New Wip",
+      "label": "Add Wip",
       "icon": "",
       "style": "default",
       "class": "",
