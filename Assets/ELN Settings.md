@@ -14,6 +14,7 @@ folder:
   contacts: Contacts
   daily notes: Daily Note
   projects: Projects
+  projects perso: Projects Perso
   samples: Experiments/Samples
   analyses: Experiments/Analyses
   processes: Experiments/Processes

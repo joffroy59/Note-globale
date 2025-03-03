@@ -1092,6 +1092,23 @@
           "command": "quickadd:choice:f53926ed-756d-483d-a018-28621cf0a889"
         }
       ]
+    },
+    {
+      "label": "Add Project Perso",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-project-perso",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Project Perso.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [
