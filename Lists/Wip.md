@@ -26,7 +26,7 @@ SORT value DESC
 ```dataview
 TASK 
 FROM ""
-WHERE completed and contains(tags, "wip") and !contains(path, "Templates/")
+WHERE completed and contains(tags, "wip") and !contains(path, "Templates/") and !contains(path, "Test Liste de toutes les sections daily note")
 GROUP BY (file.name)
 SORT value DESC
 ```

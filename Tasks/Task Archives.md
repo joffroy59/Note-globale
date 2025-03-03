@@ -16,7 +16,7 @@ tags:
     - [x] [[WIP/Add Wip IA - WAN2.1]] #done ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27
     - [x] [[IA/ComfyUI/WAN 2.1/WAN 2.1 - (Updated) WAN 2.1 The REAL VIDEO EVOLUTION - Models + WF + Tips (COMFYUI)]] #done #IA #IA/comfyui #WAN_2_1 ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27 #failed
 - [/] **WIP** ➕ 2025-02-26 🛫 2025-02-26 #status/wip
-    - [/] [[IA/ComfyUI/civitai/civitai - 48508726]]  #status/wip #IA #IA/civitai  ➕ 2025-02-26 🛫 2025-02-26
+    - [/] [[I#doneivitai/civitai - 48508726]]  #status/wip #IA #IA/civitai  ➕ 2025-02-26 🛫 2025-02-26
     - [/] [[WIP/Remove Admonition DONE WIN - task done task win ]] #status/wip  ➕ 2025-02-26 🛫 2025-02-26 
     - [/] [[Test Reminder Sync for Obsidian pour sync rappel ios to obsidian]]  #status/wip  ➕ 2025-02-26 🛫 2025-02-26 
     - [/] List des template insert utiles : [[Liste des tempate Insert]] #status/wip #obsidian ➕ 2025-02-26 🛫 2025-02-26 
@@ -41,7 +41,7 @@ tags:
     - [/] [[WIP/Obsidian Stuck - remove disable plugin and check if Obsidian more stable]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
     - [/] [[WIP/Create a Button for Obsidian Classify By Graph]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
     - [/] [[IA/ComfyUI/Flux/ComfyUI-Flux-lowVram]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
-    - [x] [[WIP/Wip IA (Select) - like To view with no admonition]] #status/wip ➕ 2025-02-24 🛫 2025-02-24 ✅ 2025-02-24
+    - [x] [[WIP/Wip IA (Select) - like To view with no admonition]] #done➕ 2025-02-24 🛫 2025-02-24 ✅ 2025-02-24
     - [x] [[WIP/CSS pour les Task In Progress]] #done ➕ 2025-02-24 🛫 2025-02-24 ✅ 2025-02-24
     - [/] [[WIP/Button to change TODO to WIP section and tag]] #done  ➕ 2025-02-24 🛫 2025-02-24 
     - [-] [[Templater - Move selected text to a different note, then embed the text back]] #done #obsidian #helper ➕ 2025-02-24 🛫 2025-02-24 ❌ 2025-02-24

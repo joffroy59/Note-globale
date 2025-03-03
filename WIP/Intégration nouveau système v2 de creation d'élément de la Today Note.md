@@ -41,11 +41,11 @@ version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite
 		- [x] test ✅ 2025-02-03
 - [x] généralisation aux autres catégories ✅ 2025-02-04
 	- [x] IA - model ✅ 2025-02-04
-	- [x] [[#wip]] ✅ 2025-02-04
+	- [x] [[#detail wip]]  ✅ 2025-02-04
 	- [ ] [[#problems]]
 
 
-### wip
+### detail wip
 
 |                    |                                 | wip               |
 | :----------------- | :------------------------------ | ----------------- |
