@@ -57,7 +57,7 @@ title: Note
       ![[Obsidian Electronic Lab Notebook vault released-1740960834237.png|150x97]]
 - [-] Theme 
         ![[Obsidian Electronic Lab Notebook vault released-1740605743452.png]]
-- [ ] [[#utiliser bouton metabind]] (ca a deja marché mais u ? note [[Samples]] ? ) #todo
+- [x] [[#utiliser bouton metabind]] (ca a deja marché mais u ? note [[Samples]] ? ) #todo ✅ 2025-03-03
 	  
 #### Note [[Home]]
 
@@ -96,8 +96,8 @@ await dv.view("/assets/javascript/dataview/views/navbar", {});
 - [x] css  copy from edn [D:\obsidian\MyNote\Note-globale\.obsidian\snippets\page-styles.css](file:///d%3A/obsidian/MyNote/Note-globale/.obsidian/snippets/page-styles.css) ✅ 2025-03-01
       ![[Obsidian Electronic Lab Notebook vault released-1740855176823.png|150x18]]
       ![[Obsidian Electronic Lab Notebook vault released-1740855204390.png|300]]
-- [ ] remettre dans 
-	- [ ] trouver ou enlever dans [[Lists]]
+- [x] remettre dans ✅ 2025-03-03
+	- [x] trouver ou enlever dans [[Lists]] ✅ 2025-03-03
 
 
 ### Task Achieved
@@ -118,7 +118,7 @@ un peu gros #idea  essayer de
 - [ ] faire un header avec code deja trouvé [[#header]]
 
 
-- [ ] faire un template a inserver et inclure le template (factorisatoin) 
+- [ ] faire un template a insérer et inclure le template (factorisation) 
 
 
 ### utiliser bouton metabind
@@ -142,11 +142,13 @@ class accent-button
 - [x] test OK 
 - [x] remplacement  [[Chemicals]] ✅ 2025-03-03
 - [x] test ✅ 2025-03-03
-- [ ] remlpacement all 
+- [x] remlpacement all ✅ 2025-03-03
 
 new-sample
 
 `BUTTON[new-chemicals]`
 
 
-- [ ] si ok desativer plugin 
+- [x] si ok desativer plugin ✅ 2025-03-03
+
+![[Obsidian Electronic Lab Notebook vault released-1740963256575.png]]![[Obsidian Electronic Lab Notebook vault released-1740963276856.png|150x204]]
