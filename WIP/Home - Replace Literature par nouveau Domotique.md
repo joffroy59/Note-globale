@@ -27,15 +27,17 @@ title: Note
 - [/] [[#Create Action Domotique]] #status/wip   #domotique #todo
 - [ ] [[#Create button to create New Domotique Task]]  #domotique #todo
 - [ ] [[#Create a page for all domotique things and note]] #domotique #todo
-- [ ] do like for instrument and process ELN to add Domotique element #domotique #todo
+- [ ] do like for instrument and process ELN to add Domotique élément #domotique #todo
 
 Original : 
 ![[Home - Replace Literature par nouveau Domotique-1741027791051.png|400]]
 
 ### Create Action Domotique
-[[Action Domotique]]
-based on [[Analyses]]
 
+based on [[Analyses]]
+tags: domotique et domotique/actions
+- [x] Create [[Action Domotique]]
+- [ ] 
 ### Create button to create New Domotique Task
 in [[#Tasks]] Section 
 

@@ -3,8 +3,8 @@ ELN version: 0.3.2
 cssclass: wide-page
 date created: 2025-03-01
 author: Jerome Offroy
-note type: analysis-list
-tag: list/analysis
+note type: domotic-actions-list
+tag: list/domotic
 ---
 ```dataviewjs
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
@@ -17,7 +17,7 @@ TABLE WITHOUT ID
   analysis.method as Method,
   file.ctime as Created,
   file.mtime as Modified
-FROM #analysis AND !"Assets"
+FROM #domotique/actions  AND !"Assets" AND !"Templates"
 SORT project.name, sample.name, analysis.method ASC
 ```
 
