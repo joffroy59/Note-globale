@@ -15,6 +15,7 @@ await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ## 🏠Tasks
 
 - [/] **Domotique**
+    - [/] [[Domotique - TV - Configuration suite perte dans Homekit]] #status/wip #domotique/action #domotique   ➕ 2025-03-03 🛫 2025-03-03 
 
 ## List
 ```dataview
@@ -24,7 +25,10 @@ TABLE WITHOUT ID
   analysis.method as Method,
   file.ctime as Created,
   file.mtime as Modified
-FROM #domotique/actions  AND !"Assets" AND !"Templates"
+FROM #domotique/action   
+AND !"Assets" 
+AND !"Templates" 
+WHERE file.name !=this.file.name
 SORT project.name, analysis.method ASC
 ```
 

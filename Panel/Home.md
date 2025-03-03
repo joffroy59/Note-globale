@@ -69,7 +69,7 @@ sliceSize: 16
 	 - [[Electrochemical Glossary]]
 	 - [[Conferences]]
 
-- ### Domotique
+- ### 🏠Domotique
 	 - [[Action Domotique List]]
 
 

@@ -24,9 +24,9 @@ title: Note
 ````
 
 ### Tasks
-- [/] [[#Create Action Domotique]] #status/wip   #domotique #todo
-- [ ] [[#Create button to create New Domotique Task]]  #domotique #todo
-- [ ] [[#Create a page for all domotique things and note]] #domotique #todo
+- [x] [[#Create Action Domotique]] #status/wip #domotique #todo ✅ 2025-03-03
+- [x] [[#Create button to create New Domotique Task]] #domotique #todo ✅ 2025-03-03
+- [x] [[#Create a page for all domotique things and note]] #domotique #todo ✅ 2025-03-03
 - [ ] do like for instrument and process ELN to add Domotique élément #domotique #todo
 
 Original : 
@@ -39,14 +39,13 @@ Original :
 juste 
 - [x] une liste comme ELN [[Analyses]], [[Action Domotique List]] ✅ 2025-03-03
 - [x] [[#un bouton]] , comme daily note et wip header de la liste [[Labs]] ✅ 2025-03-03
-- [ ] une entrée pour la liste dans [[Home]] (remplacement Literature )
+- [x] une entrée pour la liste dans [[Home]] (remplacement Literature ) ✅ 2025-03-03
 
 autre tasklist: [[Home - Replace Literature par nouveau Domotique#Tasks]]
 #### TODO more ELN complex
 based on [[Analyses]]
 tags: domotique et domotique/actions
 - [x] Create [[Action Domotique List]]
-- [ ] 
 ### Create button to create New Domotique Task
 in [[#Tasks]] Section 
 
