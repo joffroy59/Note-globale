@@ -5,16 +5,15 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-02-25
   copyright: GNU Affero General Public License v3.0
-
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
-  - status/wip
   - IA
   - IA/comfyui
   - IA/comfyui/flux
   - IA/StabilityMatrix
   - flux_NF4➕
+  - "#done"
 ---
 ```ad-tip
 Source : https://openart.ai/workflows/ailab/flux-controlnet-v3-canny-depth-hed/1VE0TT4f8ohI8fQp6wNb

@@ -5,10 +5,8 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-03-03
   copyright: GNU Affero General Public License v3.0
-  
-
 tags:
-  - status/wip
+  - "#status/cancel"
 ---
 
 

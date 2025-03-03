@@ -5,13 +5,12 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-02-25
   copyright: GNU Affero General Public License v3.0
-
 tags:
-  - status/wip
   - IA
   - IA/comfyui
   - IA/comfyui/flux
   - IA/StabilityMatrix
+  - "#done"
 ---
 
 `````ad-example

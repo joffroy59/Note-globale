@@ -2,7 +2,7 @@
 tags:
   - IA
   - obsidian
-  - status/wip
+  - "#done"
 ---
 
 

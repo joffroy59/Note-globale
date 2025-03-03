@@ -1,11 +1,11 @@
 ---
 tags:
-  - status/wip
   - IA
   - IA/comfyui
   - IA/civitai
   - IA/StabilityMatrix
   - IA/comfyui/flux
+  - "#done"
 ---
 
 ```embed

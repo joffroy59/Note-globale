@@ -1,18 +1,17 @@
 ---
 banner: "[[top.png]]"
 ELN info:
-  template: ByTrophy - Create Saison 2025 #golf #BT #BT2025
+  template: ByTrophy - Create Saison 2025
   version: 0.3.2
   author: Jerome Offroy
   modified: 2025-03-02
   copyright: GNU Affero General Public License v3.0
-  
-
 tags:
   - status/wip
   - golf
   - BT
   - BT2025
+  - "#todo"
 ---
 
 ---

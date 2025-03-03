@@ -52,7 +52,7 @@ sliceSize: 16
   TABLE
   FROM #status/wip AND !"Assets" AND !"Templates"
   SORT file.mtime DESC
-  LIMIT 8
+  LIMIT 9
   ```
 
 - ### Tutorials

@@ -1,6 +1,6 @@
 ---
 tags:
-  - status/wip
+  - "#done"
 ---
 
 ---
