@@ -15,14 +15,14 @@ banner-height: 250
 sliceSize: 16
 ---
 # Work
-- ### [[Projects]]
+- ### 📽️[[Projects]]
   ```dataview
   LIST
   FROM #project
   WHERE project.status = "active"
   ```
 
-- ### [[Lists]]
+- ### 📕[[Lists]]
 	- [[Processes]]
 	- [[Samples]]
 	- [[Analyses]]
@@ -30,7 +30,7 @@ sliceSize: 16
 	- [[Devices]]
 	- [[Instruments]]
 
-- ### [[Inbox/Notes]]
+- ### 🗒️[[Inbox/Notes]]
   ```dataview
   LIST
   FROM "Note" AND !"Assets"
@@ -39,7 +39,7 @@ sliceSize: 16
   LIMIT 6
   ```
 
-- ### [[Daily Notes]]
+- ### 📒[[Daily Notes]]
   ```dataview
   LIST
   FROM #dailynotes   AND !"Assets" AND -"Templates" AND "Daily Note"
@@ -47,7 +47,7 @@ sliceSize: 16
   LIMIT 6
   ```
 
-- ### [[!Wip]]
+- ### [[🚧Wip]]
   ```dataview
   TABLE
   FROM #status/wip AND !"Assets" AND !"Templates"
@@ -73,7 +73,7 @@ sliceSize: 16
 	 - [[Action Domotique List]]
 
 
-- ### [[Meetings]]
+- ### 🤝 [[Meetings]]
   ```dataview
   LIST
   FROM #status/wip  AND !"Assets"
