@@ -1060,6 +1060,23 @@
           "templateFile": "Templates/Insert assets/templates/New Device.md"
         }
       ]
+    },
+    {
+      "label": "+ Domotique Action",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-domotic-action",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Inserts/Insert Domotique - Action.md.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

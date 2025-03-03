@@ -1,1 +1,0 @@
-<% await tp.user.new_domotic_action(tp) -%>

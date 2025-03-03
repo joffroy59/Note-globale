@@ -28,6 +28,7 @@ folder:
   dataview queries: Templates/DataView Queries
   mermaid charts: Templates/Mermaid Charts
   sample types: Assets/Sample Types
+  domotic action: Domotique/Actions
 chemical:
   type:
     - active material

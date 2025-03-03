@@ -1577,9 +1577,44 @@
           },
           "openFile": false,
           "openFileInMode": "default"
+        },
+        {
+          "id": "95578831-49c3-4418-86a8-f3524186ae38",
+          "name": "🏠Insert Domotique - Action",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Lists/Action Domotique List.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Domotique - Action.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🏠Tasks",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "46c9028d-ca93-42ef-bd0f-5ef999ca6315",

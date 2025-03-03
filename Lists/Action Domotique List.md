@@ -10,6 +10,13 @@ tag: list/domotic
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ```
 
+`BUTTON[new-domotic-action]`
+
+## 🏠Tasks
+
+- [ ] **Domotique**
+
+--- 
 ```dataview
 TABLE WITHOUT ID
   file.link as Action,

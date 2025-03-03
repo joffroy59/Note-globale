@@ -34,6 +34,16 @@ Original :
 
 ### Create Action Domotique
 
+#### simple version
+
+juste 
+- [ ] une liste comme ELN [[Analyses]], [[Action Domotique List]]
+- [ ] [[#un bouton]] , comme daily note et wip header de la liste [[Labs]]
+	- [ ] [[]]
+- [ ] une entrée pour la liste dans [[Home]] (remplacement Literature )
+
+autre tasklist: [[Home - Replace Literature par nouveau Domotique#Tasks]]
+#### TODO more ELN complex
 based on [[Analyses]]
 tags: domotique et domotique/actions
 - [x] Create [[Action Domotique List]]
@@ -42,3 +52,18 @@ tags: domotique et domotique/actions
 in [[#Tasks]] Section 
 
 ### Create a page for all domotique things and note
+
+###  un bouton
+
+- [x] quickadd : 
+🚧Insert Task - WIP (copy)  
+⏬
+🏠Insert Domotique - Action
+
+- [x] un template d'insertion [[Templates/Inserts/Insert Task - WIP.md]]  👉 [[Insert Domotique - Action.md]] ✅ 2025-03-03
+- [x] [[Create Task WIP]]  👉[[Templates/Inserts/Create Domotic Action]] ✅ 2025-03-03
+- [x] aautre ✅ 2025-03-03
+- [ ] button  `BUTTON[new-domotic-action]`
+	- [ ] test 
+	- [ ] remplace dans [[Action Domotique List]]
+	- [ ] ajouter dans [[Panel/Actions|Actions]]
