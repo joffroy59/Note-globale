@@ -9,7 +9,7 @@ tags:
 
 version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite 
 
-- [x] intégration nouvelle version #status/wip ➕ 2025-02-02 🛫 2025-02-02 ✅ 2025-02-03
+- [x] intégration nouvelle version #done ➕ 2025-02-02 🛫 2025-02-02 ✅ 2025-02-03
 	- [ ] release sandbox1
 		- [x] renommer sandbox1 et autre en civitai v2 ✅ 2025-02-03
 		- [x] create bouton definitif dan metabind ✅ 2025-02-02
