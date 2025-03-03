@@ -6,12 +6,6 @@ note type: project-list
 tag: list/projects
 ---
 
-```button
-name New Wip
-type command
-action Templater: Insert Assets/templates/New Project.md
-class accent-button
-```
 `BUTTON[new-wip]`
 
 ## Incomplete Tasks Wip
