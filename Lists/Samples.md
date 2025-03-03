@@ -11,12 +11,6 @@ tag: list/projects
 await dv.view("/assets/javascript/dataview/views/navbar", {});
 ```
 
-```button
-name New Sample
-type command
-action Templater: Insert Templates/Insert assets/templates/New Sample.md
-class accent-button
-```
 `BUTTON[new-sample]`
 
 > [!Example] TOC
