@@ -1047,7 +1047,7 @@ div.nav-file-title-content::before {
 }
 
  .modal-content button {
-    background-color: rgb(var(--ctp-accent, var(--ctp-ext-accent, 23, 146, 153)));
+    /* background-color: rgb(var(--ctp-accent, var(--ctp-ext-accent, 23, 146, 153))); */
     color: white;
     padding-left: 30px;
     padding-right: 30px;
