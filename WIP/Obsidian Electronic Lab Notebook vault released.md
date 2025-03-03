@@ -139,6 +139,10 @@ action Templater: Insert Templates/Insert Assets/templates/New Chemical.md
 class accent-button
 ```
 
+- [x] test OK 
+- [ ] remplacement 
+- [ ] remlpacement all 
+
 new-sample
 
 `BUTTON[new-sample]`

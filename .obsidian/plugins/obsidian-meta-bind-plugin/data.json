@@ -896,7 +896,7 @@
       "icon": "",
       "style": "default",
       "class": "",
-      "cssStyle": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
       "backgroundImage": "",
       "tooltip": "",
       "id": "new-sample",
