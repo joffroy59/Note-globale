@@ -9,12 +9,9 @@ tags:
 {New}
 - [/] **WIP** ➕ 2025-02-27 🛫 2025-02-27 #status/wip 
     - [/] [[IA/Wip/Tableau des workflow utilisable pour type de model de civitai]]  #status/wip #IA   ➕ 2025-02-27 🛫 2025-02-27 
-    - [x] [[ComfyUI - Comfy UI Workflow XL6 Hephaistos ⭐⭐⭐]] #done #IA #IA/comfyui ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27
     - [x] [[WIP/Liste all tags and Tempalte]] #done ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27
     - [/] [[IA/ComfyUI/ComfyUI - Flux-Turbo1]]  #status/wip #IA #IA/comfyui   ➕ 2025-02-27 🛫 2025-02-27
     - [/] [[IA/Wip/Page IA Bookmark]]  #status/wip #IA   ➕ 2025-02-27 🛫 2025-02-27 
-    - [x] [[WIP/Add Wip IA - WAN2.1]] #done ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27
-    - [x] [[IA/ComfyUI/WAN 2.1/WAN 2.1 - (Updated) WAN 2.1 The REAL VIDEO EVOLUTION - Models + WF + Tips (COMFYUI)]] #done #IA #IA/comfyui #WAN_2_1 ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27 #failed
 - [/] **WIP** ➕ 2025-02-26 🛫 2025-02-26 #status/wip
     - [/] [[I#doneivitai/civitai - 48508726]]  #status/wip #IA #IA/civitai  ➕ 2025-02-26 🛫 2025-02-26
     - [/] [[WIP/Remove Admonition DONE WIN - task done task win ]] #status/wip  ➕ 2025-02-26 🛫 2025-02-26 
@@ -23,20 +20,10 @@ tags:
     - [/] [[Plugin - slow Obsidian]]  suivi dans [[Plugin - slow Obsidian - Disable all plugin and restore by one ]]  #status/wip #obsidian ➕ 2025-02-26 🛫 2025-02-26 
 - [/] **WIP** ➕ 2025-02-25 🛫 2025-02-25 #status/wip
     - [/] [[WIP/Add Wip IA Flux NF4]] #status/wip  ➕ 2025-02-25 🛫 2025-02-25 
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux NF4 ComfyUI Basic Workflow]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux NF4 V2]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux BnB NF4 v2 (Fastest Flux Dev)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux (NF4)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux-Dev (NF4)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - FLUX NF4 + CONTROLNET]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - FLUX.1 - NF4 -Upscale]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [/] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux Dev NF4 v.2 Workflow_ High-Power AI for Advanced Model Creation]]  #status/wip #IA #IA/comfyui/flux  #flux_NF4➕ 2025-02-25 🛫 2025-02-25
     - [/] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux clean 3 in 1 model loader for low vram GPU]]  #status/wip #IA #IA/comfyui/flux  #flux_NF4➕ 2025-02-25 🛫 2025-02-25
     - [/] [[IA/ComfyUI/Flux NF4/Flux NF4 - civitai - Flux.1-Dev Hyper NF4]]  #status/wip #IA #IA/comfyui/flux  #flux_NF4➕ 2025-02-25 🛫 2025-02-25
     - [/] [[IA/ComfyUI/civitai/civitai - 13092936]] #status/wip #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25
-    - [x] [[civitai - 35488618 ⭐⭐⭐]] #done #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[civitai - 35487025 ⭐⭐⭐]] #done #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/civitai/civitai - 11643971]] #done #IA #IA/civitai  ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-26
 - [/] **WIP** ➕ 2025-02-24 🛫 2025-02-24 #status/wip
     - [/] [[WIP/Obsidian Stuck - remove disable plugin and check if Obsidian more stable]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
     - [/] [[WIP/Create a Button for Obsidian Classify By Graph]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
@@ -48,28 +35,15 @@ tags:
     - [/] [[IA/ComfyUI/civitai/civitai - 56205732]]  #done #IA #IA/civitai   ➕ 2025-02-24 🛫 2025-02-24
     - [/] [[IA/ComfyUI/civitai/civitai - 34567354]]  #done #IA #IA/civitai  ➕ 2025-02-24 🛫 2025-02-24
     - [/] [[IA/ComfyUI/civitai/civitai - 34584657]]  #done #IA #IA/civitai  ➕ 2025-02-24 🛫 2025-02-24
-- [/] **WIP** ➕ 2025-02-23 🛫 2025-02-23 #done
-    - [/] [[IA/Application/IA Application - Leonnardo AI]]  #done #IA #IA/application   ➕ 2025-02-23 🛫 2025-02-23
-    - [/] [[IA/ComfyUI/civitai/civitai - TMND-Mix_II]]  #done #IA #IA/civitai ➕ 2025-02-23 🛫 2025-02-23
-    - [x] [[WIP/To View - like todo with no admonition]] #done ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-23
-    - [/] [[IA/ComfyUI/Flux/Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai Note]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
-    - [x] [[WIP/Wip - like Wip ai with no admonition]] #done ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-24
-- [/] **WIP** ➕ 2025-02-22 🛫 2025-02-22 #status/wip
-	- [/] [[Suivre Missed Task]]  #test #status/wip  ➕ 2025-02-22 🛫 2025-02-22 
-    - [/] [[IA/StabilityMatrix/Application/StabilityMatrix - Invoke AI]]  #status/wip #IA #IA/StabilityMatrix   ➕ 2025-02-22 🛫 2025-02-22
 - [/] **WIP** ➕ 2025-02-07 🛫 2025-02-07 #status/wip
 	- [/] [[WIP/Daily Note - Remplacer ce jour par le jour en dure]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
-	- [x] [[Préparatifs Sac Vacance es 2 Alpes]] #done ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-23
 	- [/] [[WIP/Creation QuickAdd + template pour ajouter avant - action - après]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
-	- [x] [[WIP/Creation QuickAdd + template pour ajouter QuickAdd et Bouton et Template]] #done ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
-	- [x] [[🏆🏆🏆 Ajout iconPack Jira]] #done  ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
 	- [/] [[WIP/Create Icon template for GTD]] #status/wip  ➕ 2025-02-07 🛫 2025-02-07 
 - [/] **WIP** ➕ 2025-02-06 🛫 2025-02-06  #status/wip
 	- [ ] [[Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA]]  #todo  ➕ 2025-02-05 
 - [/] **WIP** ➕ 2025-02-05 🛫 2025-02-05  #status/wip
 	 - [/] [[Fix Obsidian Latency]]  #test #status/wip  ➕ 2025-02-05 🛫 2025-02-05 
 - [/] **WIP** ➕ 2025-02-03 🛫 2025-02-03  #status/wip
-	- [x] [[Intégration nouveau système v2 de creation d'élément de la Today Note]] #test #done ➕ 2025-02-03 🛫 2025-02-03 ✅ 2025-02-05
 	- [/] [[IA/ComfyUI/civitai/A voir]]  #status/wip #IA #IA/civitai   ➕ 2025-02-02 🛫 2025-02-02
 	- [/] [[IA/ComfyUI/civitai/MirrorStyle]]  #status/wip #IA #IA/civitai   ➕ 2025-02-02 🛫 2025-02-02
 	- [/] [[deepseek-r1]]  #status/wip #IA #IA/model  ➕ 2025-02-01 🛫 2025-02-01
@@ -125,6 +99,10 @@ tags:
 
 #### Thème 
 - [/] **IA**
+    - [/] [[IA/Application/IA Application - Leonnardo AI]]  #done #IA #IA/application   ➕ 2025-02-23 🛫 2025-02-23
+    - [/] [[IA/ComfyUI/civitai/civitai - TMND-Mix_II]]  #done #IA #IA/civitai ➕ 2025-02-23 🛫 2025-02-23
+    - [/] [[IA/ComfyUI/Flux/Flux.1 dev Inpaint Enhanced Workflow - v1.0  Flux Workflows  Civitai Note]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-23 🛫 2025-02-23
+    - [/] [[IA/StabilityMatrix/Application/StabilityMatrix - Invoke AI]]  #status/wip #IA #IA/StabilityMatrix   ➕ 2025-02-22 🛫 2025-02-22
 	- [/] [[Faire fonctionner Open WebUI avec ComfyUI (Stability Matrix)]]   #test #status/wip  ➕ 2025-01-29 🛫 2025-01-29 
 	- [/] [[flux exemple]]https://civitai.com/images/38271696  #test #status/wip  ➕ 2025-01-30 🛫 2025-01-30 
 	- [ ]  [[civitai_flux_t2i_workflow_OK]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-01-29 🛫 2025-01-29
@@ -181,3 +159,32 @@ tags:
 	- [ ]  [[Here Are the 5 DeepSeek R1 Prompts I Use for Coding as a Developer]]  #toview ➕ 2025-02-01 
 	- [ ]  [[Phone Link]]  #test   #toview ➕ 2025-02-02 
 	- [ ]   [[Obsidian Code Block]] Copy Newer versions of Obsidian have this built-in and without issue  #toview ➕ 2025-02-04 
+
+### ✅ DONE
+- [x] **IA**
+    - [x] [[ComfyUI - Comfy UI Workflow XL6 Hephaistos ⭐⭐⭐]] #done #IA #IA/comfyui ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27
+    - [x] [[WIP/Add Wip IA - WAN2.1]] #done ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27
+    - [x] [[IA/ComfyUI/WAN 2.1/WAN 2.1 - (Updated) WAN 2.1 The REAL VIDEO EVOLUTION - Models + WF + Tips (COMFYUI)]] #done #IA #IA/comfyui #WAN_2_1 ➕ 2025-02-27 🛫 2025-02-27 ✅ 2025-02-27 #failed
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux NF4 ComfyUI Basic Workflow]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux NF4 V2]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux BnB NF4 v2 (Fastest Flux Dev)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux (NF4)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux-Dev (NF4)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - FLUX NF4 + CONTROLNET]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - FLUX.1 - NF4 -Upscale]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[civitai - 35488618 ⭐⭐⭐]] #done #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[civitai - 35487025 ⭐⭐⭐]] #done #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[IA/ComfyUI/civitai/civitai - 11643971]] #done #IA #IA/civitai  ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-26
+
+- [/] **Obsidian**
+    - [x] [[WIP/To View - like todo with no admonition]] #done ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-23
+    - [x] [[WIP/Wip - like Wip ai with no admonition]] #done ➕ 2025-02-23 🛫 2025-02-23 ✅ 2025-02-24
+	- [x] [[Suivre Missed Task]] #test #status/wip ➕ 2025-02-22 🛫 2025-02-22 ✅ 2025-03-03
+	- [x] [[Intégration nouveau système v2 de creation d'élément de la Today Note]] #test #done ➕ 2025-02-03 🛫 2025-02-03 ✅ 2025-02-05
+	- [x] [[WIP/Creation QuickAdd + template pour ajouter QuickAdd et Bouton et Template]] #done ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
+	- [x] [[🏆🏆🏆 Ajout iconPack Jira]] #done  ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-07
+
+- [/] **Autres**
+	- [x] [[Préparatifs Sac Vacance es 2 Alpes]] #done ➕ 2025-02-07 🛫 2025-02-07 ✅ 2025-02-23
+
+

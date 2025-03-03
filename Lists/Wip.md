@@ -9,6 +9,9 @@ tag: list/projects
 `BUTTON[new-wip]`
 
 ## Incomplete Tasks Wip
+``````ad-caution
+Titlle: Incomplete Tasks Wip
+Collapse: Open
 
 ```dataview
 TASK 
@@ -18,10 +21,15 @@ GROUP BY (file.name)
 SORT value DESC 
 ```
 
+``````
+
 #todo bouton pour transformer le tag status/wip en done 
 
 
-## Complete Tasks Wip
+
+``````ad-done  
+title: Complete Tasks Wip
+collapse: closed 
 
 ```dataview
 TASK 
@@ -31,6 +39,8 @@ GROUP BY (file.name)
 SORT value DESC
 ```
 
+
+``````
 
 
 
