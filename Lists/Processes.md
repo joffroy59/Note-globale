@@ -10,12 +10,6 @@ tag: list/processes
 await dv.view("/assets/javascript/dataview/views/navbar", {});
 ```
 
-```button
-name New Process
-type command
-action Templater: Insert Templates/Insert assets/templates/New Process.md
-class accent-button
-```
 `BUTTON[new-process]`
 
 ```dataview

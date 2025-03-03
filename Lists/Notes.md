@@ -15,12 +15,6 @@ await dv.view("/Assets/javascript/dataview/views/navbar", {});
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ```
 
-```button
-name New Note
-type command
-action Templater: Insert Templates/Insert assets/templates/New Note.md
-class accent-button
-```
 `BUTTON[new-note]`
 
 ```dataview

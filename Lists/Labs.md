@@ -15,12 +15,6 @@ await dv.view("/Assets/javascript/dataview/views/navbar", {});
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ```
 
-```button
-name Add Lab
-type command
-action Templater: Insert Assets/templates/New Lab.md
-class accent-button
-```
 `BUTTON[new-lab]`
 
 ## Building 421
