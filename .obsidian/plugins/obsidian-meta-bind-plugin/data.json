@@ -1109,6 +1109,23 @@
           "templateFile": "Templates/Insert assets/templates/New Project Perso.md"
         }
       ]
+    },
+    {
+      "label": "Add Appareil",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-appareil",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Appareil.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

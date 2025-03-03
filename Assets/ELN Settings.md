@@ -30,6 +30,7 @@ folder:
   mermaid charts: Templates/Mermaid Charts
   sample types: Assets/Sample Types
   domotic action: Domotique/Actions
+  appareils: Domotique/Appareils
 chemical:
   type:
     - active material
@@ -140,6 +141,12 @@ analysis:
     - running
     - completed
     - failed
+appareil:
+  type:
+    - HUB
+    - Lamp
+    - Prise
+    - undefined
 ---
 
 ## Settings
