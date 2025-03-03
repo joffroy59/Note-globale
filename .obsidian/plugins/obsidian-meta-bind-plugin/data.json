@@ -1077,6 +1077,21 @@
           "command": "quickadd:choice:95578831-49c3-4418-86a8-f3524186ae38"
         }
       ]
+    },
+    {
+      "label": "+ Wip (Obsidian)",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-3-button",
+      "tooltip": "",
+      "id": "insert-daily-task-wip-obsidian",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:f53926ed-756d-483d-a018-28621cf0a889"
+        }
+      ]
     }
   ],
   "excludedFolders": [
