@@ -21,6 +21,7 @@ type command
 action Templater: Insert Templates/Insert assets/templates/New Note.md
 class accent-button
 ```
+`BUTTON[new-note]`
 
 ```dataview
 TABLE WITHOUT ID

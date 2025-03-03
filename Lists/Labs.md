@@ -21,6 +21,7 @@ type command
 action Templater: Insert Assets/templates/New Lab.md
 class accent-button
 ```
+`BUTTON[new-lab]`
 
 ## Building 421
 

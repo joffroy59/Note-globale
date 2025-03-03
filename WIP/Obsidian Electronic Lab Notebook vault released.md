@@ -140,7 +140,8 @@ class accent-button
 ```
 
 - [x] test OK 
-- [ ] remplacement  [[Chemicals]]
+- [x] remplacement  [[Chemicals]] ✅ 2025-03-03
+- [x] test ✅ 2025-03-03
 - [ ] remlpacement all 
 
 new-sample

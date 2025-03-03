@@ -907,6 +907,159 @@
           "templateFile": "Templates/Insert assets/templates/New Chemical.md"
         }
       ]
+    },
+    {
+      "label": "New Daily Note",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-daily-note",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Daily Note.md"
+        }
+      ]
+    },
+    {
+      "label": "New Instrument",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-instrument",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Instrument.md"
+        }
+      ]
+    },
+    {
+      "label": "New Lab",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-lab",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Daily Note.md"
+        }
+      ]
+    },
+    {
+      "label": "New Note",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-note",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Note.md"
+        }
+      ]
+    },
+    {
+      "label": "New Process",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-process",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Process.md"
+        }
+      ]
+    },
+    {
+      "label": "New Project",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-project",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Project.md"
+        }
+      ]
+    },
+    {
+      "label": "New Sample",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-sample",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Sample.md"
+        }
+      ]
+    },
+    {
+      "label": "New Wip",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-wip",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Sample.md"
+        }
+      ]
+    },
+    {
+      "label": "Add Device",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-device",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Device.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

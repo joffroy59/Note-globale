@@ -17,6 +17,7 @@ type command
 action Templater: Insert Templates/Insert assets/templates/New Sample.md
 class accent-button
 ```
+`BUTTON[new-sample]`
 
 > [!Example] TOC
 > [[#Samples]]

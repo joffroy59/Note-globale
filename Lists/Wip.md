@@ -12,7 +12,7 @@ type command
 action Templater: Insert Assets/templates/New Project.md
 class accent-button
 ```
-#todo
+`BUTTON[new-wip]`
 
 ## Incomplete Tasks Wip
 

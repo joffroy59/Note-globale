@@ -15,12 +15,7 @@ await dv.view("/assets/javascript/dataview/views/navbar", {});
 await dv.view("/assets/javascript/dataview/views/note_header", {});
 ```
 
-```button
-name New Daily Note
-type command
-action Templater: Insert Templates/Insert assets/templates/New Daily Note.md
-class accent-button
-```
+`BUTTON[new-daily-note]`
 
 ```dataview
 TABLE WITHOUT ID

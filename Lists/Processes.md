@@ -16,6 +16,7 @@ type command
 action Templater: Insert Templates/Insert assets/templates/New Process.md
 class accent-button
 ```
+`BUTTON[new-process]`
 
 ```dataview
 TABLE WITHOUT ID

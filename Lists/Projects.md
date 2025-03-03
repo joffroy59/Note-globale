@@ -15,6 +15,7 @@ type command
 action Templater: Insert Templates/Insert assets/templates/New Project.md
 class accent-button
 ```
+`BUTTON[new-project]`
 
 ## Active Projects
 
