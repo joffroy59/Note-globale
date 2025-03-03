@@ -36,7 +36,7 @@ Original :
 
 based on [[Analyses]]
 tags: domotique et domotique/actions
-- [x] Create [[Action Domotique]]
+- [x] Create [[Action Domotique List]]
 - [ ] 
 ### Create button to create New Domotique Task
 in [[#Tasks]] Section 
