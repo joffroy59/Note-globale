@@ -12,6 +12,8 @@ cov:
 
 `BUTTON[insert-daily-task-wip,insert-daily-wip-ia-task-select,insert-daily-wip,insert-daily-task-wip-graph]`
 
+`BUTTON[insert-daily-task-wip-obsidian]`
+
 `BUTTON[insert-daily-todo,insert-daily-task-toview]`
 
 `BUTTON[insert-daily-task,insert-daily-task-obsidian]`
