@@ -904,7 +904,7 @@
       "actions": [
         {
           "type": "runTemplaterFile",
-          "templateFile": "Insert assets/templates/New Sample.md"
+          "templateFile": "Templates/Insert assets/templates/New Chemical.md"
         }
       ]
     }

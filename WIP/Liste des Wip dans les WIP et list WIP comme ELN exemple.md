@@ -23,4 +23,5 @@ title: Note
 ---
 
 [[Obsidian Electronic Lab Notebook vault released#^7b6524]]
-- [ ] liste des wip comme Books et  [[Projects]] : 
+- [x] liste des wip comme Books et  [[Projects]] : [[Lists/Wip|Wip]] ✅ 2025-03-03
+

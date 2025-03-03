@@ -1,9 +1,8 @@
 
-- [ ] Tutorials
-- [ ] Miscellaneous
-- [ ] Electrochemical
+- [-] Tutorials
+- [-] Miscellaneous
+- [-] Electrochemical
 
-- [ ] utiliser bouton metabind (ca a deja marché mais u ? note [[Samples]] ? ) #todo
 
 
 ## Tutorials

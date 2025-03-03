@@ -5,12 +5,12 @@
 - [x] Daily Notes ✅ 2025-03-02
 - [x] Devices ✅ 2025-03-01
 - [x] Electrodes ✅ 2025-03-02
-- [ ] ELN Note Versions
+- [x] ELN Note Versions ✅ 2025-03-03
 - [x] Instruments ✅ 2025-03-02
 - [x] Labs ✅ 2025-03-02
 - [x] Lists ✅ 2025-03-02
-- [ ] Meetings
+- [-] Meetings
 - [x] Notes ✅ 2025-03-02
 - [x] Processes ✅ 2025-03-02
 - [x] Projects ✅ 2025-03-02
-- [ ] Publications
+- [-] Publications

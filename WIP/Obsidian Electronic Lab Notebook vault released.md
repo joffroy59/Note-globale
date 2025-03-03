@@ -36,26 +36,28 @@ title: Note
 
 ### A Reprendre
 
-- [/] [[#Note Home]]
+- [x] [[#Note Home]] ✅ 2025-03-03
 	- [x] [[#Duplication dans mon vault]]  ✅ 2025-02-27
 - [x] [[Obsidian Electronic Lab Notebook vault released - Home section  element|Home section  element]] ✅ 2025-03-01
-- [ ] [[Obsidian Electronic Lab Notebook vault released - Home section  element 1 - Other]]
-- [ ] [[#voir]] 
-- [ ] Action
+- [-] [[Obsidian Electronic Lab Notebook vault released - Home section  element 1 - Other]]
+- [-] [[#voir]] 
+- [-] Action
         ![[Obsidian Electronic Lab Notebook vault released-1740606622669.png|150x36]]
-- [ ] folder tree color bar (theme ? )
+- [-] folder tree color bar (theme ? )
 - [x] [[#Task Achieved]] ✅ 2025-03-01
 - [x] [[#Menu]] ✅ 2025-03-01
       ![[Obsidian Electronic Lab Notebook vault released-1740771528761.png]]
-- [ ] home ? (pour ne pas etre obligé par daily note )
-- [/] [[Obsidian Electronic Lab Notebook vault released - Structure folder et asset|Structure folder et asset]] 
+- [x] home ? (pour ne pas etre obligé par daily note ) [[Home]] ✅ 2025-03-03
+- [-] [[Obsidian Electronic Lab Notebook vault released - Structure folder et asset|Structure folder et asset]] 
         ![[Obsidian Electronic Lab Notebook vault released-1740605834462.png|150x134]]
-- [/] [[Obsidian Electronic Lab Notebook vault released - List|List]]
+- [x] [[Obsidian Electronic Lab Notebook vault released - List|List]] ✅ 2025-03-03
       ![[Obsidian Electronic Lab Notebook vault released-1740605847300.png|150x242]]
-- [ ] Note
+- [x] Note ✅ 2025-03-03
       ![[Obsidian Electronic Lab Notebook vault released-1740605857470.png|150x53]]
-- [ ] Theme 
+      ![[Obsidian Electronic Lab Notebook vault released-1740960834237.png|150x97]]
+- [-] Theme 
         ![[Obsidian Electronic Lab Notebook vault released-1740605743452.png]]
+- [ ] [[#utiliser bouton metabind]] (ca a deja marché mais u ? note [[Samples]] ? ) #todo
 	  
 #### Note [[Home]]
 
@@ -118,3 +120,28 @@ un peu gros #idea  essayer de
 
 - [ ] faire un template a inserver et inclure le template (factorisatoin) 
 
+
+### utiliser bouton metabind
+exemple [[Chemicals]]
+
+``````
+```button
+name New Chemical
+type command
+action Templater: Insert Templates/Insert Assets/templates/New Chemical.md
+class accent-button
+```
+``````
+```button
+name New Chemical
+type command
+action Templater: Insert Templates/Insert Assets/templates/New Chemical.md
+class accent-button
+```
+
+new-sample
+
+`BUTTON[new-sample]`
+
+
+- [ ] si ok desativer plugin 
