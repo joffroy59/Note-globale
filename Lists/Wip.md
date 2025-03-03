@@ -14,7 +14,8 @@ tag: list/projects
 TASK 
 FROM ""
 WHERE !completed and contains(tags, "wip") and !contains(path, "Templates/")
-SORT BY 
+GROUP BY (file.name)
+SORT value DESC 
 ```
 
 #todo bouton pour transformer le tag status/wip en done 
@@ -26,7 +27,8 @@ SORT BY
 TASK 
 FROM ""
 WHERE completed and contains(tags, "wip") and !contains(path, "Templates/")
-SORT BY 
+GROUP BY (file.name)
+SORT value DESC
 ```
 
 
