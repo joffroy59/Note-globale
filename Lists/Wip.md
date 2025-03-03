@@ -19,6 +19,7 @@ SORT BY
 
 #todo bouton pour transformer le tag status/wip en done 
 
+
 ## Complete Tasks Wip
 
 ```dataview
@@ -27,6 +28,9 @@ FROM ""
 WHERE completed and contains(tags, "wip") and !contains(path, "Templates/")
 SORT BY 
 ```
+
+
+
 
 ## Notes
 [[Lists/Wip-Note]]
