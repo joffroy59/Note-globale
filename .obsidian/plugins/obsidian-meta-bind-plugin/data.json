@@ -892,14 +892,14 @@
       ]
     },
     {
-      "label": "New Sample",
+      "label": "New Chemical",
       "icon": "",
       "style": "default",
       "class": "",
       "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
       "backgroundImage": "",
       "tooltip": "",
-      "id": "new-sample",
+      "id": "new-chemicals",
       "hidden": false,
       "actions": [
         {

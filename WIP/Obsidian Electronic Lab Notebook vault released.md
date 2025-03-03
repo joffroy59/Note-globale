@@ -140,12 +140,12 @@ class accent-button
 ```
 
 - [x] test OK 
-- [ ] remplacement 
+- [ ] remplacement  [[Chemicals]]
 - [ ] remlpacement all 
 
 new-sample
 
-`BUTTON[new-sample]`
+`BUTTON[new-chemicals]`
 
 
 - [ ] si ok desativer plugin 

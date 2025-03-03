@@ -28,6 +28,7 @@ type command
 action Templater: Insert Templates/Insert Assets/templates/New Chemical.md
 class accent-button
 ```
+`BUTTON[new-chemicals]`
 
 ## Inorganic Compounds
 
