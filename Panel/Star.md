@@ -23,6 +23,11 @@ context: true
 file:("⭐")
 ```
 
+## Suivi
+```dataview
+LIST
+from #suivi   
+```
 
 ## 🚧 `#status/wip_star` 
 ```dataview
