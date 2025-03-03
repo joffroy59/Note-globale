@@ -9,12 +9,6 @@ tag: list/projects
 await dv.view("/assets/javascript/dataview/views/navbar", {});
 ```
 
-```button
-name New Project
-type command
-action Templater: Insert Templates/Insert assets/templates/New Project.md
-class accent-button
-```
 `BUTTON[new-project]`
 
 ## Active Projects
