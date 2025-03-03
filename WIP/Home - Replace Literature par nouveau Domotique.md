@@ -37,9 +37,8 @@ Original :
 #### simple version
 
 juste 
-- [ ] une liste comme ELN [[Analyses]], [[Action Domotique List]]
-- [ ] [[#un bouton]] , comme daily note et wip header de la liste [[Labs]]
-	- [ ] [[]]
+- [x] une liste comme ELN [[Analyses]], [[Action Domotique List]] ✅ 2025-03-03
+- [x] [[#un bouton]] , comme daily note et wip header de la liste [[Labs]] ✅ 2025-03-03
 - [ ] une entrée pour la liste dans [[Home]] (remplacement Literature )
 
 autre tasklist: [[Home - Replace Literature par nouveau Domotique#Tasks]]
@@ -63,7 +62,7 @@ in [[#Tasks]] Section
 - [x] un template d'insertion [[Templates/Inserts/Insert Task - WIP.md]]  👉 [[Insert Domotique - Action]] ✅ 2025-03-03
 - [x] [[Create Task WIP]]  👉[[Templates/Inserts/Create Domotic Action]] ✅ 2025-03-03
 - [x] aautre ✅ 2025-03-03
-- [ ] button  `BUTTON[new-domotic-action]`
-	- [ ] test 
-	- [ ] remplace dans [[Action Domotique List]]
-	- [ ] ajouter dans [[Panel/Actions|Actions]]
+- [x] button  `BUTTON[new-domotic-action]` ✅ 2025-03-03
+	- [x] test ✅ 2025-03-03
+	- [x] remplace dans [[Action Domotique List]] ✅ 2025-03-03
+	- [x] ajouter dans [[Panel/Actions|Actions]] ✅ 2025-03-03

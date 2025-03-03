@@ -14,7 +14,9 @@ cov:
 
 `BUTTON[insert-daily-todo,insert-daily-task-toview]`
 
-`BUTTON[insert-daily-task,insert-daily-task-obsidian]` 
+`BUTTON[insert-daily-task,insert-daily-task-obsidian]`
+
+ `BUTTON[new-domotic-action]`  
 
 `BUTTON[insert-daily-bote-select]`
 

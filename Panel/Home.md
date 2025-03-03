@@ -69,9 +69,9 @@ sliceSize: 16
 	 - [[Electrochemical Glossary]]
 	 - [[Conferences]]
 
-- ### Literature
-	 - [[Books]]
-	 - [[Publications]]
+- ### Domotique
+	 - [[Action Domotique List]]
+
 
 - ### [[Meetings]]
   ```dataview
