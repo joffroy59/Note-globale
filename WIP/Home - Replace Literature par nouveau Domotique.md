@@ -60,7 +60,7 @@ in [[#Tasks]] Section
 ⏬
 🏠Insert Domotique - Action
 
-- [x] un template d'insertion [[Templates/Inserts/Insert Task - WIP.md]]  👉 [[Insert Domotique - Action.md]] ✅ 2025-03-03
+- [x] un template d'insertion [[Templates/Inserts/Insert Task - WIP.md]]  👉 [[Insert Domotique - Action]] ✅ 2025-03-03
 - [x] [[Create Task WIP]]  👉[[Templates/Inserts/Create Domotic Action]] ✅ 2025-03-03
 - [x] aautre ✅ 2025-03-03
 - [ ] button  `BUTTON[new-domotic-action]`

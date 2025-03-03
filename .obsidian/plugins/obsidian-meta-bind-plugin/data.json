@@ -1073,8 +1073,8 @@
       "hidden": false,
       "actions": [
         {
-          "type": "runTemplaterFile",
-          "templateFile": "Templates/Inserts/Insert Domotique - Action.md.md"
+          "type": "command",
+          "command": "quickadd:choice:95578831-49c3-4418-86a8-f3524186ae38"
         }
       ]
     }

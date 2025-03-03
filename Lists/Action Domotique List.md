@@ -14,9 +14,9 @@ await dv.view("/Assets/javascript/dataview/views/note_header", {});
 
 ## 🏠Tasks
 
-- [ ] **Domotique**
+- [/] **Domotique**
 
---- 
+## List
 ```dataview
 TABLE WITHOUT ID
   file.link as Action,
