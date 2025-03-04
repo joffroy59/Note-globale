@@ -314,8 +314,8 @@ Les applications ne sont plus présente dans [[Domotique/Homekit|Homekit]]
 	- [x] plus de [[Télé C4EF]] dans [[Homebridge]] alors qu'il y a bien des log ... ? ✅ 2025-03-04
 	- [x] apres plusieur restart c'est ok ✅ 2025-03-04
 - [x] figer la config pour ne plus fetch inputs ✅ 2025-03-04
-- [ ] restart 
-- [ ] test  depuis iphone 
+- [x] restart ✅ 2025-03-04
+- [x] test  depuis iphone ✅ 2025-03-04
 
 
 

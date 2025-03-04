@@ -15,8 +15,8 @@ await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ## 🏠Tasks
 
 - [/] **Domotique**
-    - [/] [[Domotique - TV - Configuration suite perte dans Homekit]] #status/wip #domotique/action #domotique   ➕ 2025-03-03 🛫 2025-03-03 
-
+    - [x] [[Domotique - TV - Configuration suite perte dans Homekit]] #status/wip #domotique/action #domotique ➕ 2025-03-03 🛫 2025-03-03 ✅ 2025-03-04
+    - [ ] [[Domotique - Config - upgrade]] #status/wip #domotique/action #domotique ➕ 2025-03-04
 ## List
 ```dataview
 TABLE WITHOUT ID
