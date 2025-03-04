@@ -12,7 +12,7 @@ async function new_application(tp, return_type, out_folder) {
   // initialize OUTPUT FOLDER(S)
   let folder_application = 'Domotique/Applications';
   try {
-    folder_application = eln_settings.folder.application
+    folder_application = eln_settings.folder.applications
   }
   catch (error) {
     console.log(`folder.applications not found in ELN settings. Using default folder "${folder_application}"`);
