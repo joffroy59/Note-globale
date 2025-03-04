@@ -225,7 +225,7 @@ await dv.view("/Assets/javascript/dataview/views/navbar", {});
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 \`\`\`
 
-![[dummy-image-appareil.png]]
+![[dummy-image-appareil.png|150]]
 
 \`\`\`dataviewjs
 await dv.view("/Assets/javascript/dataview/views/appareil", {});
