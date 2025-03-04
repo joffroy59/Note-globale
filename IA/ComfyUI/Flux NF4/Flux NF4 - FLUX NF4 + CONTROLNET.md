@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -22,9 +26,9 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/ailab/flux-controlnet-v3-canny-depth-hed/1VE0TT4f8ohI8fQp6wNb
 
-worflow: workflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai 
+worflow: workflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai
 ⭐🚧 [workflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai.json)
-✅ #todo 
+✅ #todo
 
 image: ![](https://cdn.openart.ai/workflow_thumbnails/xvAWefVo6RPNDnhmmGcn/image_a8XM-Qvl_1723932260511_raw.jpg)
 
@@ -34,14 +38,14 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/xvAWefVo6RPNDnhmmGcn/image
 ````ad-quote
 title: Generation data
 
-A hyper-realistic 3D render of a futuristic robotic version of the Egyptian god Seth.standing, His body is a sleek and advanced robot design, with intricate mechanical details, metallic textures, and glowing accents. His head is shaped like a jackal, with cybernetic eyes and advanced mechanical features, giving him a powerful yet mystical appearance. The background is plain gray, highlighting the incredible detail of the model, making it look as if the robot could exist in the real world. 
+A hyper-realistic 3D render of a futuristic robotic version of the Egyptian god Seth.standing, His body is a sleek and advanced robot design, with intricate mechanical details, metallic textures, and glowing accents. His head is shaped like a jackal, with cybernetic eyes and advanced mechanical features, giving him a powerful yet mystical appearance. The background is plain gray, highlighting the incredible detail of the model, making it look as if the robot could exist in the real world.
 
 ````
 
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info
@@ -66,7 +70,7 @@ collapse: closed
 ##### Execution
 ![[Flux NF4 - FLUX NF4 + CONTROLNET-1740445974368.png|150x102]]
 ##### Result
-![[Flux NF4 - FLUX NF4 + CONTROLNET-1740445990105.png|150x188]]  
+![[Flux NF4 - FLUX NF4 + CONTROLNET-1740445990105.png|150x188]]
 
 
 

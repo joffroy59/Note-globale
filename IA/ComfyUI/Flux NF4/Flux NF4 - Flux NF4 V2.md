@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -22,10 +26,10 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/datou/flux-nf4-v2/ewl8i7fqvv8hDFvzntMn
 
-worflow: workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai 
+worflow: workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai
 ⭐ [workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json)
 🚧 [workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5Cworkflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json)
-✅ #todo 
+✅ #todo
 
 image: ![](https://cdn.openart.ai/workflow_thumbnails/i0Fw5vnAPfyXOXA92IIF/image_O8UPcs2W_1723880341291_raw.jpg)
 
@@ -35,14 +39,14 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/i0Fw5vnAPfyXOXA92IIF/image
 ````ad-quote
 title: Generation data
 
-The image shows a young man and a young woman in a futuristic space station. They are both wearing orange spacesuits and helmets, and one of them is holding a rifle. The man in the foreground has curly hair and a beard, and is looking off to the side with a serious expression on his face. Behind him, there is a large screen displaying a view of the Earth. The background is filled with various electronic devices and controls, suggesting that the men are in a control room or a spaceship. 
+The image shows a young man and a young woman in a futuristic space station. They are both wearing orange spacesuits and helmets, and one of them is holding a rifle. The man in the foreground has curly hair and a beard, and is looking off to the side with a serious expression on his face. Behind him, there is a large screen displaying a view of the Earth. The background is filled with various electronic devices and controls, suggesting that the men are in a control room or a spaceship.
 
 ````
 
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info

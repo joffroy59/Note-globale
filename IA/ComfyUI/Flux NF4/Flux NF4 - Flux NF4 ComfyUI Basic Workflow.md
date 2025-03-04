@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -22,9 +26,9 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/mentor_ai/flux-nf4-comfyui-basic-workflow/7QgBrjXFKDO57w0orNVc
 
-worflow: workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai 
+worflow: workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai
 ⭐🚧 [workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json)
-✅ #todo 
+✅ #todo
 
 image: ![|400](https://cdn.openart.ai/workflow_thumbnails/I9BNwZz6ZNwdAGuhRSNl/image_Qv63hc0s_1724132163516_raw.jpg)
 
@@ -34,14 +38,14 @@ image: ![|400](https://cdn.openart.ai/workflow_thumbnails/I9BNwZz6ZNwdAGuhRSNl/i
 ````ad-quote
 title: Generation data
 
-Cinematic, photorealistic, the text "FLUX-NF4" made up of metals and crystals written in a magical glowing circuit lines integrated into a circuit board, futuristic sci-fi look, intricate deisgn of a circuit board, extremely highly detailed 
+Cinematic, photorealistic, the text "FLUX-NF4" made up of metals and crystals written in a magical glowing circuit lines integrated into a circuit board, futuristic sci-fi look, intricate deisgn of a circuit board, extremely highly detailed
 
 ````
 
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info
@@ -58,7 +62,7 @@ collapse: closed
 ---
 
 ## Test reproduction en local
-### StabilityMatrix 
+### StabilityMatrix
 #### Inference
 ##### Config
 ![[Flux NF4 - Flux NF4 ComfyUI Basic Workflow-1740442928434.png|150x121]]
@@ -70,7 +74,7 @@ collapse: closed
 ##### Execution
 ##### Result
 
-#### Stable Diffusion WebUI 
+#### Stable Diffusion WebUI
 ##### Config
 ##### Execution
 ##### Result

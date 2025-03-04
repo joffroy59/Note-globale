@@ -9,6 +9,11 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+---
+
 <%*
 let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
 

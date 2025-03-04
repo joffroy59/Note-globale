@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -22,9 +26,9 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/reverentelusarca/flux-bnb-nf4-v2-fastest-flux-dev/moAPwvEbR9YZRVIZvyjA
 
-worflow: workflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai (1) 
+worflow: workflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai (1)
 ⭐🚧 [workflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai (1).json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai%20(1).json)
-✅ #todo 
+✅ #todo
 
 image: ![](https://cdn.openart.ai/workflow_thumbnails/C9lpCxtlh5XN7pEiuCts/image_2dVGhGmD_1723428779001_raw.jpg)
 
@@ -34,14 +38,14 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/C9lpCxtlh5XN7pEiuCts/image
 ````ad-quote
 title: Generation data
 
-The image shows two young men in a futuristic space station. They are both wearing orange spacesuits and helmets, and one of them is holding a rifle. The man in the foreground has curly hair and a beard, and is looking off to the side with a serious expression on his face. Behind him, there is a large screen displaying a view of the Earth. The background is filled with various electronic devices and controls, suggesting that the men are in a control room or a spaceship. 
+The image shows two young men in a futuristic space station. They are both wearing orange spacesuits and helmets, and one of them is holding a rifle. The man in the foreground has curly hair and a beard, and is looking off to the side with a serious expression on his face. Behind him, there is a large screen displaying a view of the Earth. The background is filled with various electronic devices and controls, suggesting that the men are in a control room or a spaceship.
 
 ````
 
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info

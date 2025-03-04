@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -20,7 +24,7 @@ tags:
 ---
 
 ---
- 
+
 `````ad-example
 title: WIP IA - ComfyUI
 collapse: open
@@ -28,19 +32,19 @@ collapse: open
 ```ad-tip
 Source : https://aivideo.hunyuan.tencent.com/
 
-worflow:  
+worflow:
 🚧 [hunyuan_video_text_to_video.json](file:///D:%5Cdev-data%5CIA%5CComfyUI%20workflow%5Chunyuan_video_text_to_video.json)
 ✅ [OK - hunyuan_video_text_to_video.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5COK%20-%20hunyuan_video_text_to_video.json)
 
 
-image:  
+image:
 ![[ComfyUI - Hunyuan-1740343740847.png]]
 
 ```
 
 ```ad-note
 title: Note
- 
+
 
 ```
 
@@ -52,7 +56,7 @@ title: Note
 
 ---
 
-## Test on low ram 
+## Test on low ram
 
 
 ```embed
@@ -70,23 +74,23 @@ url: "https://digialps.com/running-hunyuan-on-8gb-vram-your-guide-to-low-memory-
 		- [x] [clip_l.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/clip_l.safetensors?download=true) and [llava_llama3_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp8_scaled.safetensors?download=true) → Place in `ComfyUI/models/text_encoders`. ✖️ ✅ 2025-02-22
 		      --> [llava_llama3_fp8_scaled.safetensors](file:///D:%5CIA%5CStabilityMatrix%5CModels%5CCLIP%5Cllava_llama3_fp8_scaled.safetensors)
 		- [x] [hunyuan_video_vae_bf16.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true) → Place in `ComfyUI/models/vae`  deja dans [hyvid](file:///D:%5CIA%5CStabilityMatrix%5CModels%5CVAE%5Chyvid) ✅ 2025-02-22
-- [x] ### [[#Step-by-Step Guide]] 737.58 seconds ✅ 2025-02-22 
+- [x] ### [[#Step-by-Step Guide]] 737.58 seconds ✅ 2025-02-22
 
 ### Step-by-Step Guide   **737.58 seconds**
 
-**737.58 seconds** ✅ 2025-02-22 
+**737.58 seconds** ✅ 2025-02-22
 #### My Résultat 0 **737.58 seconds**
-##### Config 
-[hunyuan_video_text_to_video.json](file:///D:%5CIA%5CComfyUI%20workflow%5Chunyuan_video_text_to_video.json) 🆗 
+##### Config
+[hunyuan_video_text_to_video.json](file:///D:%5CIA%5CComfyUI%20workflow%5Chunyuan_video_text_to_video.json) 🆗
 ![[ComfyUI - Hunyuan-1740251531462.png|150x96]]
 
 ##### Exécution  : test ✅ 2025-02-22
 
-![[ComfyUI - Hunyuan-1740251724870.png|150x94]]  ![[ComfyUI - Hunyuan-1740251738285.png|150x88]]  
+![[ComfyUI - Hunyuan-1740251724870.png|150x94]]  ![[ComfyUI - Hunyuan-1740251738285.png|150x88]]
 ⚠ temps de génération très long : **737.58 seconds**
 ![[ComfyUI - Hunyuan-1740252081153.png|150x78]]
 ⚠ long
-![[ComfyUI - Hunyuan-1740252286225.png|150x72]]  
+![[ComfyUI - Hunyuan-1740252286225.png|150x72]]
 ⚠ long
 résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 ![[ComfyUI - Hunyuan-1740252500336.png|150x92]]
@@ -99,9 +103,9 @@ résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 ```ad-done
 
 🕔temps :  time: Prompt executed in **737.58 seconds**
-📷résultat: 
+📷résultat:
 ![[ComfyUI - Hunyuan-1740256426240.png]]
-🗒️commentaire:  pas mal 
+🗒️commentaire:  pas mal
 ```
 
 ### changement paramètre 1 **570.50 seconds**
@@ -110,11 +114,11 @@ résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
     - overlap
     - temporal_size
     - temporal_overlap
-   
-  Lowering these values tells ComfyUI to process even smaller temporal chunks, further reducing VRAM usage. ^1337d6 
+
+  Lowering these values tells ComfyUI to process even smaller temporal chunks, further reducing VRAM usage. ^1337d6
   ![Running Hunyuan on 8GB VRAM : Your Guide to Low-Memory AI Video](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/image-53-1024x480.png)
 #### My Résultat 1 **570.50 seconds**
-##### Config 
+##### Config
 ![[ComfyUI - Hunyuan-1740253490536.png|150x102]]
 
 ##### Exécution  ✅ 2025-02-22
@@ -122,7 +126,7 @@ résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 ```ad-done
 
 🕔temps:  time: Prompt executed in **570.50 seconds**
-📷résultat: 
+📷résultat:
 ![[ComfyUI - Hunyuan-1740255644087.png]]
 
 🗒️commentaire: nul naif
@@ -132,12 +136,12 @@ résultat 🆗  : `Prompt executed in 737.58 seconds `✅ 2025-02-22
 
 ### changement paramètre 1 (bis)  **507.42 seconds**
 #### My Résultat 1bis **507.42 seconds**
-##### Config 
+##### Config
 ![[ComfyUI - Hunyuan-1740253490536.png|150x102]]
 
 
 ##### Exécution  ✅ 2025-02-22
-![[ComfyUI - Hunyuan-1740257531868.png|150x136]]  ![[ComfyUI - Hunyuan-1740257683158.png|150x90]]  
+![[ComfyUI - Hunyuan-1740257531868.png|150x136]]  ![[ComfyUI - Hunyuan-1740257683158.png|150x90]]
 
 ```log
 got prompt
@@ -162,10 +166,10 @@ loaded partially 6020.759999999999 6018.549865722656 0
 ```ad-done
 
 🕔temps:  time: Prompt executed in **507.42 seconds**
-📷résultat: 
+📷résultat:
 ![[ComfyUI - Hunyuan-1740258287816.png]]
 
-🗒️commentaire:  bizarre mais pas naif comme le 1er  
+🗒️commentaire:  bizarre mais pas naif comme le 1er
 
 ```
 
@@ -174,7 +178,7 @@ loaded partially 6020.759999999999 6018.549865722656 0
       ![](https://digialpsltd.b-cdn.net/wp-content/uploads/2024/12/image-54-1024x226.png)
 
 #### My Résultat 2 **478.22 seconds**
-##### Config 
+##### Config
 ![[ComfyUI - Hunyuan-1740255825909.png|150x167]]
 
 ##### Exécution ✅ 2025-02-22
@@ -189,7 +193,7 @@ loaded completely 9633.8 7894.8529052734375 True
 Requested to load HunyuanVideo
 loaded partially 6020.759999999999 6018.549865722656 0
   0%|          | 0/20 [00:00<?, ?it/s]
-  
+
 ```
 
 ![[ComfyUI - Hunyuan-1740256792514.png|150x94]]
@@ -212,10 +216,10 @@ Prompt executed in 478.22 seconds
 ```ad-done
 
 🕔temps:  time: Prompt executed in **478.22 seconds**
-📷résultat: 
+📷résultat:
 ![[ComfyUI - Hunyuan-1740257428414.png]]
 
-🗒️commentaire: 
+🗒️commentaire:
 
 ```
 
@@ -231,7 +235,7 @@ Prompt executed in 478.22 seconds
 Using temporal tiling with settings like tile_size = 128, overlap=32, temporal_size=32, and temporal_overlap=4, this complex scene can now be brought to life even on an 8GB card.
 
 #### My Résultat 3 **??? seconds**
-##### Config 
+##### Config
 ![[ComfyUI - Hunyuan-1740255825909.png|150x167]]
 
 ##### Exécution ✅ 2025-02-22
@@ -246,7 +250,7 @@ loaded completely 9633.8 7894.8529052734375 True
 Requested to load HunyuanVideo
 loaded partially 6020.759999999999 6018.549865722656 0
   0%|          | 0/20 [00:00<?, ?it/s]
-  
+
 ```
 
 ![[ComfyUI - Hunyuan-1740256792514.png|150x94]]
@@ -269,16 +273,16 @@ Prompt executed in 478.22 seconds
 ```ad-done
 
 🕔temps:  time: Prompt executed in **478.22 seconds**
-📷résultat: 
+📷résultat:
 
-🗒️commentaire: 
+🗒️commentaire:
 
 ```
 
 
 ---
 
-## Compare résultats 
+## Compare résultats
 
 
 |                                                      | 🕔 **seconds** | 📷                                            | 🗒️                                |

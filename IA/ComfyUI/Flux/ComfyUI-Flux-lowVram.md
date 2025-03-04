@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
@@ -23,7 +27,7 @@ tags:
 
 
 ---
- 
+
 `````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
@@ -31,9 +35,9 @@ collapse: open
 ```ad-tip
 Source : https://www.bing.com/videos/riverview/relatedvideo?&q=flux1+vram+low&qpvt=flux1+vram+low&mid=B5AEBE488DC77195EEC2B5AEBE488DC77195EEC2&mmscn=mtsc&aps=144&FORM=VRDGAR
 
-worflow: 
+worflow:
 
-image: 
+image:
 ```embed
 title: "Running Flux.1 on Low VRAM: A Practical Guide"
 image: "https://i.ytimg.com/vi/bwPk-NXggp0/maxresdefault.jpg"
@@ -47,7 +51,7 @@ url: "https://youtu.be/bwPk-NXggp0"
 ```ad-note
 title: Note
 
-StableDiffusion Forge from StabilityMatrix 
+StableDiffusion Forge from StabilityMatrix
 
 ```ad-info
 title: Workflow Directories

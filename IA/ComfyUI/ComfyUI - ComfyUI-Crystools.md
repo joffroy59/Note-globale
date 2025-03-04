@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -20,13 +24,13 @@ tags:
 ---
 
 ---
- 
+
 `````ad-example
 title: WIP IA - ComfyUI
 collapse: open
 
 ```ad-tip
-Source : 
+Source :
 ```embed
 title: "GitHub - crystian/ComfyUI-Crystools: A powerful set of tools for ComfyUI"
 image: "https://opengraph.githubassets.com/6ccb84dd0661352fce57792fbee956dad4dd9667e53d4d89c3a7c72ad1ea84b0/crystian/ComfyUI-Crystools"
@@ -34,18 +38,18 @@ description: "A powerful set of tools for ComfyUI. Contribute to crystian/ComfyU
 url: "https://github.com/crystian/ComfyUI-Crystools/tree/main"
 ```
 
-worflow:  
+worflow:
 [.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C.json)
 
 
-image:  
+image:
 
 
 ```
 
 ```ad-note
 title: Note
- 
+
 
 ```
 

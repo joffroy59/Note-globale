@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -20,7 +24,7 @@ tags:
 ```ad-tip
 Source : https://civitai.com/articles/11827/flux-turbo1
 
-worflow: FLUX-TURBO1 
+worflow: FLUX-TURBO1
 [FLUX-TURBO1.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5CFLUX-TURBO1.json)
 
 
@@ -31,7 +35,7 @@ image: ![|400](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/014f9036-3c6d-45
 
 ```ad-note
 title: Note
- 
+
 
 ```
 
@@ -55,9 +59,9 @@ creation date:: [[2025/02/09/📒2025-02-27]]  08:52
 ## Test reproduction en local
 
 ---
-### StabilityMatrix 
+### StabilityMatrix
 
-#### ComfyUI 
+#### ComfyUI
 ##### Config
 Seed :  223527542545847
 ##### Execution

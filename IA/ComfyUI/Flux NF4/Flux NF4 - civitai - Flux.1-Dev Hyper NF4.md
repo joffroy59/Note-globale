@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -22,9 +26,9 @@ tags:
 ```ad-tip
 Source : https://civitai.com/models/638187/flux1-dev-hyper-nf4-flux1-dev-bnb-nf4-flux1-schnell-bnb-nf4?modelVersionId=819165
 
-worflow: workflow_test 
+worflow: workflow_test
 ⭐🚧 [workflow_test.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow_test.json)
-✅ #todo 
+✅ #todo
 
 image: ![](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/205a41c4-1883-4158-8a6b-4c867ff36426/anim=false,width=450/Flux-Dev-Hyper-8step-NF4.jpeg)
 
@@ -34,14 +38,14 @@ image: ![](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/205a41c4-1883-4158-8
 ````ad-quote
 title: Generation data
 
- 
+
 
 ````
 
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info
@@ -58,7 +62,7 @@ collapse: closed
 ---
 
 ## Test reproduction en local
-### StabilityMatrix 
+### StabilityMatrix
 #### Inference
 ##### Config
 ##### Execution
@@ -69,7 +73,7 @@ collapse: closed
 ##### Execution
 ##### Result
 
-#### Stable Diffusion WebUI 
+#### Stable Diffusion WebUI
 ##### Config
 ##### Execution
 ##### Result

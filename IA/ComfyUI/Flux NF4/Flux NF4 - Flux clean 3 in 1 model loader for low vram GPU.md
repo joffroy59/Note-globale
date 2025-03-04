@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -22,9 +26,9 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/ailab/flux-clean-3-in-1-model-loader-for-low-vram-gpu/8Y9ls7RDnKvi7l7zdake
 
-worflow: workflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai 
+worflow: workflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai
 ⭐🚧 [workflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai.json)
-✅ #todo 
+✅ #todo
 
 image: ![](https://cdn.openart.ai/workflow_thumbnails/xvAWefVo6RPNDnhmmGcn/image_gLQ6rQB6_1724106516081_raw.jpg)
 
@@ -34,14 +38,14 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/xvAWefVo6RPNDnhmmGcn/image
 ````ad-quote
 title: Generation data
 
-A lovely tiny angry godzilla standing on the palm of a man growling, open mouth, laser from mouth, cute, real, natural light.A lovely tiny angry godzilla standing on the palm of a man growling, open mouth, laser from mouth, cute, real, natural light. 
+A lovely tiny angry godzilla standing on the palm of a man growling, open mouth, laser from mouth, cute, real, natural light.A lovely tiny angry godzilla standing on the palm of a man growling, open mouth, laser from mouth, cute, real, natural light.
 
 ````
 
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info

@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
@@ -25,7 +29,7 @@ tags:
 ```ad-tip
 Source : https://civitai.com/articles/1648/comfy-ui-workflow-xl6-hephaistos
 
-worflow: comfy_workflow_hephaistos 
+worflow: comfy_workflow_hephaistos
 [comfy_workflow_hephaistos.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5Ccomfy_workflow_hephaistos.json)
 
 
@@ -36,7 +40,7 @@ image: ![|400](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/472dc56c-ba34-4c
 
 ```ad-note
 title: Note
- 
+
 
 ```
 
@@ -58,11 +62,11 @@ creation date:: [[2025/02/09/📒2025-02-27]]  01:08
 ## Test reproduction en local
 
 ---
-### StabilityMatrix 
+### StabilityMatrix
 
-#### ComfyUI 
+#### ComfyUI
 ##### Config
-Seed : 
+Seed :
 ##### Execution
 ![[ComfyUI - Comfy UI Workflow XL6 Hephaistos-1740642256469.png]]
 ##### Result

@@ -9,6 +9,10 @@ ELN info:
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -22,9 +26,9 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/seal_harmful_40/flux-nf4/JbkjTOrhQeL8vFKDB554
 
-worflow: workflow-flux-nf4-JbkjTOrhQeL8vFKDB554-seal_harmful_40-openart.ai 
+worflow: workflow-flux-nf4-JbkjTOrhQeL8vFKDB554-seal_harmful_40-openart.ai
 ⭐🚧 [workflow-flux-nf4-JbkjTOrhQeL8vFKDB554-seal_harmful_40-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-JbkjTOrhQeL8vFKDB554-seal_harmful_40-openart.ai.json)
-✅ #todo 
+✅ #todo
 
 image: ![](https://cdn.openart.ai/workflow_thumbnails/ud6FMBOsEDAqbhgnwEUv/image_rnLVBOHr_1723543947022_raw.jpg)
 
@@ -34,14 +38,14 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/ud6FMBOsEDAqbhgnwEUv/image
 ````ad-quote
 title: Generation data
 
-A pirate ship sailing through different eras, from ancient Egypt to the distant future, blending historical and futuristic elements, time vortex in the background, adventurous and surreal. 
+A pirate ship sailing through different eras, from ancient Egypt to the distant future, blending historical and futuristic elements, time vortex in the background, adventurous and surreal.
 
 ````
 
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info

@@ -2,6 +2,10 @@
 project:
   name: IA
 
+wip:
+  type: IA
+  description: Travaux sur IA
+
 tags:
   - IA
   - IA/comfyui
