@@ -17,3 +17,14 @@ title: Note
  
 
 ````
+
+---
+ 
+### Tasks 
+- [x] [[#Create]] ✅ 2025-03-04
+- [ ] adaptation 
+	- [ ] remove unnecessary info
+
+#### Create
+ [[Projects/IA/IA|IA]]
+ 
