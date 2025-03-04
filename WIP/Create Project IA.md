@@ -63,7 +63,6 @@ docn peut etre plutot transformer en create Wip IA (voir sur quoi ce base la lis
 
 
 - [ ] ajout dans reste Obsidian 
-	- [ ] create tags status/wip/IA
 	- [ ] wip.type
 	- [ ] wip.description
 	- [ ] add info eln like project.name = 'IA'  in status/wip + IA Notes
