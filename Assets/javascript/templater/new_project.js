@@ -95,7 +95,7 @@ project:
 - ### [[Analyses]]
   \`\`\`dataview
   LIST
-  FROM #analysis  AND!"Assets"
+  FROM #analysis  AND !"Assets"
   WHERE project.name = this.project.name
   SORT file.mtime.ts DESC
   LIMIT 6
@@ -104,7 +104,7 @@ project:
 - ### [[ Processes]]
   \`\`\`dataview
   LIST
-  FROM #process  AND!"Assets"
+  FROM #process  AND !"Assets"
   SORT file.mtime.ts DESC
   LIMIT 6
   \`\`\`
@@ -112,7 +112,7 @@ project:
 - ### Project Meetings
   \`\`\`dataview
   LIST
-  FROM #meeting AND!"Assets"
+  FROM #meeting AND !"Assets"
   WHERE project.name = this.project.name
   SORT file.mtime.ts DESC
   LIMIT 6
