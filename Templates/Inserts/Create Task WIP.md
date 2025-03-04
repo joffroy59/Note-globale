@@ -23,6 +23,9 @@ if (title.startsWith(defaultTitle)) {
 
 let url = await tp.system.prompt("url");
 let note = await tp.system.prompt("Note");
+
+const question = "Tasks ?" 
+let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
 -%>
 
 <%* if (url) { %> 
@@ -36,3 +39,10 @@ title: Note
 <% note %> 
 
 ````
+
+
+<%* if (taskEnable) { %> 
+### Tasks 
+- [ ] Task1
+<%* } %>
+

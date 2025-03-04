@@ -207,7 +207,8 @@
     "appareil/none": 2,
     "appareil/none/A_Q": 1,
     "device/broad_ion_beam_cutter/a_b": 2,
-    "list/appareil": 14
+    "list/appareil": 14,
+    "project/IA": 5
   },
   "_version": 3
 }
