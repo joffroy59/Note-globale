@@ -14,6 +14,8 @@ wip:
   description: Travaux sur IA
 
 
+date-created: 2025-02-23
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 star:

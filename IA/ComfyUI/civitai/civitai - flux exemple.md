@@ -6,6 +6,8 @@ wip:
   type: IA
   description: Travaux sur IA
 
+date-created: 2025-01-30
+
 tags:
   - IA
   - IA/comfyui

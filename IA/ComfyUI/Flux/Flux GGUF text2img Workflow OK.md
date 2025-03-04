@@ -13,6 +13,8 @@ wip:
   type: IA
   description: Travaux sur IA
 
+date-created: 2025-01-28
+
 tags:
   - status/wip
   - IA
