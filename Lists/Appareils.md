@@ -3,8 +3,8 @@ ELN version: 0.3.2
 cssclass: wide-page
 date created: 2025-03-01
 author: Jerome Offroy
-note type: analysis-list
-tag: list/analysis
+note type: appareil-list
+tag: list/appareil
 ---
 ```dataviewjs
 await dv.view("/assets/javascript/dataview/views/navbar", {});
@@ -14,23 +14,20 @@ await dv.view("/assets/javascript/dataview/views/navbar", {});
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ```
 
-```button
-name Add Instrument
-type command
-action Templater: Insert Templates/Insert assets/templates/New Instrument.md
-class accent-button
-```
 `BUTTON[new-appareil]`
 
 ```dataview
 TABLE WITHOUT ID
-  file.link as Analysis,
+  file.link as Appareil,
+  appareil.manufacturer as Manufacturer,
   project.name as Project,
-  analysis.method as Method,
+  appareil.model as Model,
+  appareil.protocols as "Protocols",
+  appareil.location.building as Building,
   file.ctime as Created,
   file.mtime as Modified
-FROM #analysis AND !"Assets"
-SORT project.name, sample.name, analysis.method ASC
+FROM #appareil AND !"Assets"
+SORT project.name, sample.name ASC
 ```
 
 ```dataviewjs

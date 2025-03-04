@@ -10,9 +10,45 @@ if (input && dv) {
   if (Object.keys(input).length === 0 && input.constructor === Object && frontmatter.hasOwnProperty("note type")) {
     const note_type = frontmatter["note type"];
     switch (note_type) {
-      case "appareil":
-        header = "Appareil Properties";
-        obj = frontmatter["appareil"];
+      case "electrochemical cell":
+        header = "Cell Properties";
+        obj = frontmatter["cell"];
+        break;
+      case "device":
+        header = "Device Properties";
+        obj = frontmatter["device"];
+        break;
+      case "instrument":
+        header = "Instrument Properties";
+        obj = frontmatter["instrument"];
+        break;
+      case "chemical":
+        header = "Chemical Properties";
+        obj = frontmatter["chemical"];
+        break;
+      case "electrode":
+        header = "Electrode Properties";
+        obj = frontmatter["electrode"];
+        break;
+      case "reference electrode":
+        header = "Reference Electrode Properties";
+        obj = frontmatter["electrode"];
+        break;
+      case "process":
+        header = "Process Properties";
+        obj = frontmatter["process"];
+        break;
+      case "sample":
+        header = "Sample Properties";
+        obj = frontmatter["sample"];
+        break;
+      case "analysis":
+        header = "Analysis Properties";
+        obj = frontmatter["analysis"];
+        break;
+      case "lab":
+        header = "Lab Properties";
+        obj = frontmatter["lab"];
         break;
       default:
         obj = frontmatter;
