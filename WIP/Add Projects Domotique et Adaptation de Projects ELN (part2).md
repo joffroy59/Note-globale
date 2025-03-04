@@ -17,7 +17,7 @@ trouver équivalent dans ELN
 	- [ ] Prise
 	- [ ] Ampoule
 	- [ ] Thermomètre
-- [ ] [[Action Domotique List]] Domotique Action
+- [x] [[Action Domotique List]] Domotique Action ✅ 2025-03-05
 - [ ] tag problem domotique existant
 
 ### Appareil
@@ -61,3 +61,8 @@ button : new-application
 - [x] Create ✅ 2025-03-05
 	- [x] Homebridge ✅ 2025-03-05
 	- [x] Apple Maison ✅ 2025-03-05
+- [x] Add list to domotique Home ✅ 2025-03-05
+
+[[Applications]]
+
+![[Add Projects Domotique et Adaptation de Projects ELN _part2_-1741132524264.png|400x209]]
