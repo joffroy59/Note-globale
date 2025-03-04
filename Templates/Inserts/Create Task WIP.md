@@ -40,9 +40,9 @@ title: Note
 
 ````
 
-
-<%* if (taskEnable) { %> 
+---
+<%* if (taskEnable) { -%> 
 ### Tasks 
 - [ ] Task1
-<%* } %>
+<%* } -%>
 
