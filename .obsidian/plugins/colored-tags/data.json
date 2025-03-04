@@ -209,7 +209,21 @@
     "device/broad_ion_beam_cutter/a_b": 2,
     "list/appareil": 14,
     "project/IA": 5,
-    "list/wip": 15
+    "list/wip": 15,
+    "project/JIA": 6,
+    "list/applications": 16,
+    "appliccation": 116,
+    "application": 117,
+    "application/Thread": 1,
+    "application/Thread/A_Q": 1,
+    "application/none": 2,
+    "application/none/A_Q": 1,
+    "application/Homekit": 3,
+    "application/Homekit/A_Q": 1,
+    "application/zigbee": 4,
+    "application/zigbee/A_Q": 1,
+    "application/Goolge": 5,
+    "application/Goolge/A_Q": 1
   },
   "_version": 3
 }

@@ -4,10 +4,11 @@ Add [[Projects]] Domotique et Adaptation de Projects ELN
 trouver équivalent dans ELN
 ### Tasks
 
-- [ ] Add Protocol
-	- [ ] HomeKit 
-	- [ ] ZigBee
-- [ ] Add Application
+- [ ] [[#Add Protocol - Create Element Simple ]]
+	- [x] HomeKit ✅ 2025-03-05
+	- [x] ZigBee ✅ 2025-03-05
+	- [x] autre ✅ 2025-03-05
+- [ ] [[#Add Application]]
 	- [ ] Homebridge
 	- [ ] Apple Maison
 - [/] [[#Appareil]]
@@ -15,9 +16,9 @@ trouver équivalent dans ELN
 	- [ ] SwitchBot Hub2
 	- [ ] Prise
 	- [ ] Ampoule
-	- [ ] Thermomètre 
+	- [ ] Thermomètre
 - [ ] [[Action Domotique List]] Domotique Action
-- [ ] tag problem domotique existant 
+- [ ] tag problem domotique existant
 
 ### Appareil
 
@@ -31,12 +32,32 @@ trouver équivalent dans ELN
     - undefined
 - [ ] methods 👉 protocoles
 	- [ ] homekit   (SE inlens)
-	- [ ] zigbee 
-	- [ ] google 
+	- [ ] zigbee
+	- [ ] google
 	- [ ] alexa
-[D:\obsidian\MyNote\Note-globale\Assets\javascript\templater\new_instrument.js](file:///d%3A/obsidian/MyNote/Note-globale/Assets/javascript/templater/new_instrument.js) 👉 
+[D:\obsidian\MyNote\Note-globale\Assets\javascript\templater\new_instrument.js](file:///d%3A/obsidian/MyNote/Note-globale/Assets/javascript/templater/new_instrument.js) 👉
 	[[new_instrument.js]] 👉 [[new_appareil.js]]
 
 
 - [x] instrument.techniques:  👉  appareil.protocols ✅ 2025-03-04
 
+
+
+### Add Protocol - Create Element Simple
+le faire par configuration comme project
+
+### Add Application
+vrai element car plus facile den ajouter et non figé
+
+exemple [[Devices]] [[Applications]]
+
+[[New Appareil]] 👉 [[New Application]]
+
+#device 👉 #appliccation
+
+button : new-application
+
+
+- [ ] Create
+	- [ ] Homebridge
+	- [ ] Apple Maison

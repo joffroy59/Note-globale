@@ -1126,6 +1126,23 @@
           "templateFile": "Templates/Insert assets/templates/New Appareil.md"
         }
       ]
+    },
+    {
+      "label": "Add Application",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-application",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/New Application.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

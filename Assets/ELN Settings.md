@@ -31,6 +31,7 @@ folder:
   sample types: Assets/Sample Types
   domotic action: Domotique/Actions
   appareils: Domotique/Appareils
+  applications: Domotique/Application
 chemical:
   type:
     - active material
@@ -165,6 +166,12 @@ appareil:
       - Goolge
     undefined:
       - undefined
+application:
+  protocols:
+    - Homekit
+    - Thread
+    - zigbee
+    - Goolge
 ---
 
 ## Settings
