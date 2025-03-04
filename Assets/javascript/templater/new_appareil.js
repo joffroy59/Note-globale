@@ -35,15 +35,15 @@ async function new_appareil(tp, return_type, out_folder) {
   const appareil_name = await tp.system.prompt("Enter appareil name:", manufacturer + " - " + model)
   const appareil_type_list = eln_settings.appareil.type
   const appareil_type = await tp.system.suggester(appareil_type_list, appareil_type_list, false, "Choose appareil type:", "")
-  const building = await tp.system.prompt("Enter building:", "")
+  // const building = await tp.system.prompt("Enter building:", "")
   const room = await tp.system.prompt("Enter room:", "")
 
   /**********************************************************************************/
   /*                             Choose METHOD(S)                                  */
   /**********************************************************************************/
-  const method_list = eln_settings.appareil.techniques[appareil_type]
+  const method_list = eln_settings.appareil.protocols[appareil_type]
   // initialize variables for selection dialog
-  var prompt = 'Choose analytical methods available for the appareil:'
+  var prompt = 'Choose protocol marque:'
   var option_string = ''
   var abort_string = 'Exit selection'
   var list = method_list

@@ -38,3 +38,5 @@ trouver équivalent dans ELN
 	[[new_instrument.js]] 👉 [[new_appareil.js]]
 
 
+- [x] instrument.techniques:  👉  appareil.protocols ✅ 2025-03-04
+

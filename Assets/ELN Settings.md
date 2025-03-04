@@ -147,6 +147,21 @@ appareil:
     - Lamp
     - Prise
     - undefined
+  protocols:
+    HUB:
+      - appareils
+    Lamp:
+      - Homekit
+      - Thread
+      - zigbee
+      - Goolge
+    Prise:
+      - Homekit
+      - Thread
+      - zigbee
+      - Goolge
+    undefined:
+      - undefined
 ---
 
 ## Settings
