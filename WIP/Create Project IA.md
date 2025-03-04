@@ -20,11 +20,27 @@ title: Note
 
 ---
  
-### Tasks 
-- [x] [[#Create]] ✅ 2025-03-04
-- [ ] adaptation 
+## Tasks 
+- [x] [[#Create Project]] ✅ 2025-03-04
+- [/] adaptation 
 	- [ ] remove unnecessary info
+	- [ ] remove  creation of Sample
 
-#### Create
- [[Projects/IA/IA|IA]]
+
+---
+### Create Project
+ ##### [[Projects/IA/IA|IA]]
+
+![[Create Project IA-1741114687688.png|400x656]]
+![[Create Project IA-1741114693061.png|400x437]]
+
+ and 
+ ##### [[Samples - IA]]
+
+
+
+![[Create Project IA-1741114753052.png|400x571]]
+![[Create Project IA-1741114749713.png|400x554]]
+
+
  
