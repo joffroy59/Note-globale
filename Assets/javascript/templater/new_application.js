@@ -37,7 +37,7 @@ async function new_application(tp, return_type, out_folder) {
   /**********************************************************************************/
   /*                             Choose METHOD(S)                                  */
   /**********************************************************************************/
-  const method_list = eln_settings.application.protocols
+  const method_list = Array.from(eln_settings.application.protocols)
   // initialize variables for selection dialog
   var prompt = 'Choose protocol marque:'
   var option_string = ''
@@ -73,18 +73,8 @@ async function new_application(tp, return_type, out_folder) {
 
   const methods = selected_items
 
-  // const method_str = await tp.system.prompt("Enter analytical method(s) separated by colon (,):", "")
-
-  // parse method_str
-  //const methods = method_str.split(',').map(string => string.trim())
-
   // create METHOD and TAG string for YAML frontmatter
   var tags_yaml = '\n'
-  const yaml_parameter_set = [
-    'parameter_1: ~~ unit\n',
-    'parameter_2: ~~ unit\n',
-    'parameter_3: ~~ unit\n'
-  ]
   var application_parameters_yaml = '\n'
   if (methods.length > 0) {
     for (var index in methods) {
