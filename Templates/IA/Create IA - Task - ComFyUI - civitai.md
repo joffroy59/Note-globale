@@ -1,6 +1,5 @@
 ---
 ELN info:
-ELN info:
   template: <% tp.file.title %>
   version: 0.3.2
   author: Jerome Offroy
@@ -18,10 +17,10 @@ tags:
 ---
 <%*
 let workflowDirList = [
-	"D:\\IA\\ComfyUI workflow\\Download", 
-	"D:\\IA\\ComfyUI workflow\\totest", 
-	"D:\\IA\\ComfyUI workflow", 
-	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", 
+	"D:\\IA\\ComfyUI workflow\\Download",
+	"D:\\IA\\ComfyUI workflow\\totest",
+	"D:\\IA\\ComfyUI workflow",
+	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
   title = tp.file.title
@@ -30,7 +29,7 @@ let workflowDirList = [
     title = await tp.system.prompt("Title from page");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let sourceUrl = await tp.system.prompt("Source Url");
 
@@ -51,7 +50,7 @@ image: ![|400](<% image %>)
 title: Generation data
 collapse: closed
 
-<% generationData %> 
+<% generationData %>
 
 ````
 
@@ -59,13 +58,13 @@ collapse: closed
 title: Nodes
 collapse: closed
 
-<% nodeWorfklow %> 
+<% nodeWorfklow %>
 
 ````
 
 ````ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ````
 ```ad-info

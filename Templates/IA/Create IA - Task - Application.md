@@ -1,6 +1,5 @@
 ---
 ELN info:
-ELN info:
   template: <% tp.file.title %>
   version: 0.3.2
   author: Jerome Offroy
@@ -23,7 +22,7 @@ tags:
     title = await tp.system.prompt("Title from page");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let url = await tp.system.prompt("url");
 
@@ -40,7 +39,7 @@ image: ![](<% image %>)
 
 ````ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ````
 

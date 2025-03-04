@@ -1,12 +1,11 @@
 ---
 ELN info:
-ELN info:
   template: <% tp.file.title %>
   version: 0.3.2
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-  
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 
@@ -19,22 +18,22 @@ tags:
 ---
 <%*
 let workflowDirList = [
-	"D:\\IA\\ComfyUI workflow\\Download", 
-	"D:\\IA\\ComfyUI workflow\\totest", 
-	"D:\\IA\\ComfyUI workflow", 
-	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", 
+	"D:\\IA\\ComfyUI workflow\\Download",
+	"D:\\IA\\ComfyUI workflow\\totest",
+	"D:\\IA\\ComfyUI workflow",
+	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
 let worflowBaseFolder= workflowDirList[0]
 let defaultWorkflowName = "workflow_test"
-  
+
   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
     title = await tp.system.prompt("Title");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let worflow = await tp.system.prompt("Worflow file path");
 
@@ -53,9 +52,9 @@ let note = await tp.system.prompt("Note");
 ```ad-tip
 Source : <% sourceUrl %>
 
-worflow: <% worflow %> 
+worflow: <% worflow %>
 ⭐🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
-✅ #todo 
+✅ #todo
 
 image: ![|400](<% image %>)
 
@@ -64,7 +63,7 @@ image: ![|400](<% image %>)
 
 ```ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ```ad-info
 title: Workflow Directories
