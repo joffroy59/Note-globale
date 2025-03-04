@@ -86,7 +86,7 @@ project:
 - ### [[Wip - ${project_name}|🚧Wip]]
   \`\`\`dataview
   LIST
-  FROM #status/wip/IA AND !"Assets" AND !"Templates"
+  FROM #status/wip AND #IA AND !"Assets" AND !"Templates"
   WHERE project.name = this.project.name
   SORT file.mtime.ts DESC
   LIMIT 6

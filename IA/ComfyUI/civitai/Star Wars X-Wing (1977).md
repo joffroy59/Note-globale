@@ -1,4 +1,14 @@
 ---
+ELN info:
+  template: Create IA - Task - ComFyUI - civitai
+  version: 0.3.2
+  author: Jerome Offroy
+  modified: 2025-02-25
+  copyright: GNU Affero General Public License v3.0
+
+project:
+  name: IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -9,7 +19,7 @@ tags:
   - IA/StabilityMatrix
 ---
 
- 
+
 `````ad-example
 title: WIP IA - ComfyUI - civitai
 collapse: open
@@ -33,13 +43,13 @@ description: "\"Lock S-foils in attack position. Hold tight. Accelerate to attac
 url: " https://civitai.com/models/87231/star-wars-x-wing-1977"
 ```
 
-image:  
+image:
 
 
 
 ```ad-note
 title: Note
- 
+
 
 ```
 
@@ -59,9 +69,9 @@ COMIC_protogenX34Photorealism_1
 
 ne marche pas tel quel (pas assez de vram je sais plus , ou noeud pas installable (conflicts) )
 
-### Adaptation sans trop comprendre 
+### Adaptation sans trop comprendre
 
-Save As: **Star Wars - Xwing - adapted** 
+Save As: **Star Wars - Xwing - adapted**
 `= "[Star Wars - Xwing - adapted.json]" + "(<file:///" + this.workflow_dir + "/Star Wars - Xwing - adapted.json>)"`
 
 
@@ -69,7 +79,7 @@ Save As: **Star Wars - Xwing - adapted**
 
 ![[Pasted image 20250131005727-1.png]]
 
-aurais du être 
+aurais du être
 ![[Pasted image 20250131005854-1.png]]
 
 avec meme seed  3415023074
@@ -77,7 +87,7 @@ avec meme seed  3415023074
 
 ![[Pasted image 20250131010519-1.png]]
 
-avec autre sampler_name 
+avec autre sampler_name
 ![[Pasted image 20250131010652-1.png|100]]
 ![[Pasted image 20250131010741-1.png]]
 bof

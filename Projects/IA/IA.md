@@ -46,10 +46,10 @@ project:
 
 # Experiments
 
-- ### [[Samples - IA|Samples]]
+- ### [[Wip - IA|🚧Wip]]
   ```dataview
   LIST
-  FROM #sample AND!"Assets"
+  FROM #status/wip AND #IA AND !"Assets" AND !"Templates"
   WHERE project.name = this.project.name
   SORT file.mtime.ts DESC
   LIMIT 6

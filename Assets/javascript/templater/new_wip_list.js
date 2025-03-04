@@ -1,4 +1,4 @@
-async function new_wip_ia_list(tp, project_name=null, show=false) {
+async function new_wip_list(tp, project_name=null, show=false) {
   var path = require('path');
 
   /**********************************************************************************/
@@ -49,9 +49,9 @@ ELN version: ${eln_version}
 cssclass: wide-page
 date created: ${date_created}
 author: ${author}
-note type: wip-ia-list
+note type: wip-list
 tag:
-  - " #list/wip/ia"
+  - " #list/wip"
 project:
   name: ${project_name}
 ---
@@ -64,67 +64,19 @@ await dv.view("/Assets/javascript/dataview/views/navbar", {});
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 \`\`\`
 
-\`BUTTON[insert-daily - task - wip]\`
+\`BUTTON[insert-daily-task-wip]\`
 
 > [!Example] TOC
-> - [[#Compounds]]
-> - [[#Electrodes]]
-> - [[#Electrochemical Cells / Batteries]]
-> - [[#All Samples]]
+> - [[#All Wip]]
 
-## Compounds
+## All Wip
 
 \`\`\`dataview
 TABLE WITHOUT ID
-  file.link as Sample,
-  sample["chemical formula"] as "Formula",
-  sample.educts.name as "Educts",
-  sample.educts.mass as "Mass",
-  date-created
-FROM #sample
-WHERE project.name = this.project.name AND sample.type = "compound"
-SORT sample.type, file.link asc
-\`\`\`
-
-## Electrodes
-
-\`\`\`dataview
-TABLE WITHOUT ID
-  file.link as Sample,
-  sample["active material"].name as "Active material",
-  sample["active material"].mass as "AM mass",
-  sample.binder.mass as "Binder mass",
-  sample["conductive additive"].mass as "Cond. additive mass",
-  date-created
-FROM #sample
-WHERE project.name = this.project.name AND sample.type = "electrode"
-SORT electrode["active-material"], sample.type, file.link asc
-\`\`\`
-
-## Electrochemical Cells / Batteries
-
-\`\`\`dataview
-TABLE WITHOUT ID
-  file.link as Sample,
-  sample["working electrode"]["name"] as "Working",
-  sample["counter electrode"]["name"] as "Counter",
-  sample["reference electrode"]["name"] as "Reference",
-  sample["electrolyte"]["name"] as "Electrolyte",
-  date-created
-FROM #sample
-WHERE project.name = this.project.name AND sample.type = "electrochemical cell"
-SORT sample.type, file.link asc
-\`\`\`
-
-## All Wip IA
-
-\`\`\`dataview
-TABLE WITHOUT ID
-  file.link as Sample,
-  wip.type as Type,
+  file.link as Wip,
   wip.description as Description,
   date-created
-FROM #status/wip/IA
+FROM #status/wip AND #IA AND !"Templates"
 WHERE project.name = this.project.name
 SORT wip.type, file.link asc
 \`\`\`
@@ -151,4 +103,4 @@ await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 
 }
 
-module.exports = new_wip_ia_list;
+module.exports = new_wip_list;

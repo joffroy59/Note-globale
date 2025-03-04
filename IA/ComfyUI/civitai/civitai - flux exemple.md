@@ -1,4 +1,7 @@
 ---
+project:
+  name: IA
+
 tags:
   - IA
   - IA/comfyui
@@ -20,7 +23,7 @@ url: "https://civitai.com/images/38271696"
 
 ![[Pasted image 20250130003814-1.png]]
 
-2 warning 
+2 warning
 ![[Pasted image 20250130003932-1.png]]
 
-ca v pa marcher du coup 
+ca v pa marcher du coup
