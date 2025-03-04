@@ -13,9 +13,9 @@ project:
    abbreviation: IA
    type: science
    status: active
-   start: 2023-03-01
-   end: 2024-02-28
-   duration: 3 years
+   start: 2025-03-04
+   end:
+   duration:
    funding agency: ~~
    funding code: ~~
    title: ~~
@@ -25,21 +25,21 @@ project:
    project manager administation: ~~
    reports:
       -
-         type: interim report
+         type: wip report
          due date: YYYY-MM-dd
-         link: "[[Interim Report-IA-YYYY-MM]]"
+         link: "[[Result-IA-YYYY-MM]]"
       -
-         type: interim report
+         type: wip report
          due date: YYYY-MM-dd
-         link: "[[Interim Report-IA-YYYY-MM]]"
+         link: "[[Result-IA-YYYY-MM]]"
       -
          type: milestone report
          due date: YYYY-MM-dd
-         link: "[[Milestone Report-IA-YYYY-MM]]"
+         link: "[[Milestone-Result-IA-YYYY-MM]]"
       -
          type: final report
          due date: YYYY-MM-dd
-         link: "[[Milestone Report-IA-YYYY-MM]]"
+         link: "[[Final Result-IA-YYYY-MM]]"
 ---
 
 `= "<div class='title' style='color:#edf'>" + this.file.name + "</div>"`
@@ -82,7 +82,7 @@ project:
   ```
 
 - ### Other Meetings
-	- [[Clustertreffen 3 (2022 Nov, München)]]
+	- [[Exemple (2025 March, Lieu)]]
 
 
 # Important Dates
@@ -94,14 +94,12 @@ project:
 - ### Reports
   ```dataviewjs
   var querry = Object.entries(dv.current().file.frontmatter.project.reports)
-        .map(q => '- [ ] ' + q[1].type + '[due::' + q[1]['due date'] + ']')
+        .map(q => '- [ ] ' + q[1].type + '&nbsp;&nbsp;' + ' [due::' + q[1]['due date'] + ']')
   dv.paragraph(querry)
   ```
 
 - ### Upcoming Meetings
-	- 17.11.2022 Clustertreffen München
-
-# People
+	- <date> Exemple Meeting
 
 ```dataviewjs
     await dv.view("/Assets/javascript/dataview/views/note_footer", {});

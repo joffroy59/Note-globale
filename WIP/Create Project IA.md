@@ -24,8 +24,8 @@ title: Note
 - [x] [[#Create Project]] ✅ 2025-03-04
 - [x] delete and redo with  Project Perso [[Create Project Perso]] ✅ 2025-03-04
 - [x] recreate avecc Project ✅ 2025-03-04
-- [/] adaptation 
-	- [ ] remove unnecessary info
+- [x] adaptation ✅ 2025-03-04
+	- [x] remove unnecessary info ✅ 2025-03-04
 	- [x] [[#remove  creation of Sample]] ✅ 2025-03-04
 
 
