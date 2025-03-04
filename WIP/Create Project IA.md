@@ -62,10 +62,10 @@ docn peut etre plutot transformer en create Wip IA (voir sur quoi ce base la lis
 - [x] duplicate create liste ✅ 2025-03-04
 
 
-- [ ] ajout dans reste Obsidian 
-	- [ ] wip.type
-	- [ ] wip.description
-	- [ ] add info eln like project.name = 'IA'  in status/wip + IA Notes
-	- [ ] tags status/wip/IA  = status/wip + IA
+- [x] ajout dans reste Obsidian ✅ 2025-03-04
+	- [x] wip.type ✅ 2025-03-04
+	- [x] wip.description ✅ 2025-03-04
+	- [x] add info eln like project.name = 'IA'  in status/wip + IA Notes ✅ 2025-03-04
+
 
 
