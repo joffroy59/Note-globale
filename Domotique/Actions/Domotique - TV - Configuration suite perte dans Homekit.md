@@ -310,7 +310,13 @@ Les applications ne sont plus présente dans [[Domotique/Homekit|Homekit]]
 - [x] restart ✅ 2025-03-03
 - [x] test ❌ ✅ 2025-03-03
 - [x] restart et attente plus d1h pour forcezr refresh inputs start: 22:48 ✅ 2025-03-03 #suivi 
-- [ ] test 
+- [x] test  KO ✅ 2025-03-04
+	- [x] plus de [[Télé C4EF]] dans [[Homebridge]] alors qu'il y a bien des log ... ? ✅ 2025-03-04
+	- [x] apres plusieur restart c'est ok ✅ 2025-03-04
+- [x] figer la config pour ne plus fetch inputs ✅ 2025-03-04
+- [ ] restart 
+- [ ] test  depuis iphone 
+
 
 
 > [!NOTE]
