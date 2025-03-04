@@ -21,7 +21,8 @@ sliceSize: 16
   FROM #project
   WHERE project.status = "active"
   ```
-
+ 📽️[[Projects Perso]]
+ 
 - ### 📕[[Lists]]
 	- [[Processes]]
 	- [[Samples]]
