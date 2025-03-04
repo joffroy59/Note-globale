@@ -7,6 +7,9 @@ ELN info:
   copyright: GNU Affero General Public License v3.0
 
 
+project:
+  name: IA
+
 ollama_model_dir: I:\IA\ollama\models
 tags:
   - status/wip
@@ -22,7 +25,7 @@ tags:
     title = await tp.system.prompt("Title from page");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let url = await tp.system.prompt("url");
 
@@ -39,7 +42,7 @@ image: ![|400](<% image %>)
 
 ````ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ````
 

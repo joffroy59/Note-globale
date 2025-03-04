@@ -5,7 +5,10 @@ ELN info:
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-  
+
+project:
+  name: IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
@@ -18,7 +21,7 @@ stability_project_path: D:\dev-data\IA\Stability Matrix Project
     title = await tp.system.prompt("Title");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let url = await tp.system.prompt("url");
 
@@ -28,7 +31,7 @@ let note = await tp.system.prompt("Note");
 %>
 ---
 
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 ``````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
@@ -44,7 +47,7 @@ image: ![](<% image %>)
 
 ````ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ````
 

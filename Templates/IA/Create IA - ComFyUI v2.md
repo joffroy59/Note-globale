@@ -6,6 +6,9 @@ ELN info:
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
 
+project:
+  name: IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
@@ -18,11 +21,11 @@ let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5
     title = await tp.system.prompt("Title");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let worflow = await tp.system.prompt("Worflow file path", title);
 
-let defaultValue = "WIP IA"  
+let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
@@ -31,7 +34,7 @@ let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
 ---
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 `````ad-example
 title: WIP IA - ComfyUI
 collapse: open
@@ -39,7 +42,7 @@ collapse: open
 ```ad-tip
 Source : <% sourceUrl %>
 
-worflow: <% worflow %> 
+worflow: <% worflow %>
 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
 
 
@@ -50,7 +53,7 @@ image: ![](<% image %>)
 
 ```ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ```
 

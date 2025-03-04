@@ -6,20 +6,23 @@ ELN info:
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
 
+project:
+  name: IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
 <%*
   let baseFolder = "IA/ComfyUI/civitai"
 
-  //let 
+  //let
   title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
     title = await tp.system.prompt("Title from page");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let url = await tp.system.prompt("url");
 
@@ -29,7 +32,7 @@ let generationData = await tp.system.prompt("Generation Data", null, false, true
 let note = await tp.system.prompt("Note");
 %>
 ---
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 ``````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
@@ -44,13 +47,13 @@ image: ![](<% image %>)
 ````ad-quote
 title: Generation data
 
-<% generationData %> 
+<% generationData %>
 
 ````
 
 ````ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ````
 

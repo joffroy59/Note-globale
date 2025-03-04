@@ -7,6 +7,9 @@ ELN info:
   copyright: GNU Affero General Public License v3.0
 
 
+project:
+  name: IA
+
 stability_matrix_path: D:\dev-data\IA\Stability Matrix
 tags:
   - status/wip
@@ -22,10 +25,10 @@ tags:
     title = await tp.system.prompt("Title");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 
-let defaultValue = "WIP IA"  
+let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
@@ -43,7 +46,7 @@ image: ![](<% imageUrl %> )
 
 ```ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ```
 

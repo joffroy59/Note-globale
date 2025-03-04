@@ -6,6 +6,9 @@ ELN info:
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
 
+project:
+  name: IA
+
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 
@@ -18,22 +21,22 @@ tags:
 ---
 <%*
 let workflowDirList = [
-	"D:\\IA\\ComfyUI workflow\\Download", 
-	"D:\\IA\\ComfyUI workflow\\totest", 
-	"D:\\IA\\ComfyUI workflow", 
-	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto", 
+	"D:\\IA\\ComfyUI workflow\\Download",
+	"D:\\IA\\ComfyUI workflow\\totest",
+	"D:\\IA\\ComfyUI workflow",
+	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
 let worflowBaseFolder= workflowDirList[0]
 let defaultWorkflowName = "workflow_test"
-  
+
   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
     title = await tp.system.prompt("Title");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 let worflow = await tp.system.prompt("Worflow file path");
 
@@ -45,7 +48,7 @@ if (worflow){
 
 workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
-let defaultValue = "WIP IA"  
+let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
@@ -54,7 +57,7 @@ let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 %>
 ---
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 `````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
@@ -62,9 +65,9 @@ collapse: open
 ```ad-tip
 Source : <% sourceUrl %>
 
-worflow: <% worflow %> 
+worflow: <% worflow %>
 ⭐🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
-✅ #todo 
+✅ #todo
 
 image: ![](<% image %>)
 
@@ -73,7 +76,7 @@ image: ![](<% image %>)
 
 ```ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ```ad-info
 title: Workflow Directories

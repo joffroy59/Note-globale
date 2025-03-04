@@ -6,6 +6,9 @@ ELN info:
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
 
+project:
+  name: IA
+
 stability_matrix_path: D:\dev-data\IA\Stability Matrix
 ---
 <%*
@@ -16,10 +19,10 @@ stability_matrix_path: D:\dev-data\IA\Stability Matrix
     title = await tp.system.prompt("Title");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
 
-let defaultValue = "WIP IA"  
+let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
@@ -28,7 +31,7 @@ let imageUrl = await tp.system.prompt("Image Url");
 let note = await tp.system.prompt("Note");
 %>
 ---
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 `````ad-example
 title: WIP IA - <% title %>
 collapse: open
@@ -43,7 +46,7 @@ image: ![](<% imageUrl %> )
 
 ```ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ```
 
