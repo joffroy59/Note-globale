@@ -223,7 +223,26 @@
     "application/zigbee": 4,
     "application/zigbee/A_Q": 1,
     "application/Goolge": 5,
-    "application/Goolge/A_Q": 1
+    "application/Goolge/A_Q": 1,
+    "application/none/B_Q": 2,
+    "application/Thread/B_Q": 2,
+    "application/zigbee/B_Q": 2,
+    "application/Goolge/B_Q": 2,
+    "application/none/C_Q": 3,
+    "application/Homekit/D_Q": 2,
+    "application/Homekit/E_Q": 3,
+    "application/Homekit/F_Q": 4,
+    "application/Thread/F_Q": 3,
+    "application/Homekit/Q_A": 5,
+    "application/Thread/Q_A": 4,
+    "application/zigbee/Q_A": 3,
+    "application/Goolge/Q_A": 3,
+    "application/Homekit/Q_B": 6,
+    "application/Thread/Q_B": 5,
+    "application/zigbee/Q_B": 4,
+    "application/Homekit/Opensource_Homebridge": 7,
+    "application/zigbee/Opensource_Homebridge": 5,
+    "application/Goolge/Opensource_Homebridge": 4
   },
   "_version": 3
 }

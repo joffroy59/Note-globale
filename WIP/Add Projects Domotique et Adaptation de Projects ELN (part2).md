@@ -9,7 +9,7 @@ trouver équivalent dans ELN
 	- [x] ZigBee ✅ 2025-03-05
 	- [x] autre ✅ 2025-03-05
 - [ ] [[#Add Application]]
-	- [ ] Homebridge
+	- [x] Homebridge ✅ 2025-03-05
 	- [ ] Apple Maison
 - [/] [[#Appareil]]
 	- [ ] HomePod mini
@@ -59,5 +59,5 @@ button : new-application
 
 
 - [ ] Create
-	- [ ] Homebridge
+	- [x] Homebridge ✅ 2025-03-05
 	- [ ] Apple Maison
