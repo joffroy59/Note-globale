@@ -1,0 +1,74 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "Assets/javascript/templater",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Templates/Banner",
+      "template": "Templates/New Note/Banner.md"
+    },
+    {
+      "folder": "Exemples",
+      "template": "Templates/New Note/Exemple.md"
+    },
+    {
+      "folder": "IA/output",
+      "template": "Templates/New Note/IA - Result.md"
+    },
+    {
+      "folder": "IA",
+      "template": "Templates/New Note/IA.md"
+    },
+    {
+      "folder": "Tasks",
+      "template": "Templates/New Note/Tasks.md"
+    },
+    {
+      "folder": "IA/Sandbox/Test",
+      "template": "Templates/IA/IA civitai - exemple.md"
+    },
+    {
+      "folder": "IA/ComfyUI/civitai",
+      "template": "Templates/IA/IA civitai - Daily.md"
+    },
+    {
+      "folder": "Templates",
+      "template": "Templates/Templates.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "Templates/Insert assets/templates/New Project.md",
+    "Templates/Insert assets/templates/New Process.md",
+    "Templates/Insert assets/templates/New Device.md",
+    "Templates/Insert assets/templates/New Chemical.md",
+    "Templates/Insert assets/templates/New Sample.md",
+    "Templates/Insert assets/templates/New Analysis.md",
+    "",
+    "Templates/Action/Suivi Recharge Clavier et Souris - Add.md",
+    "Templates/Insert assets/templates/New Note.md",
+    "Templates/Inserts/ELN info.md"
+  ],
+  "startup_templates": [
+    ""
+  ]
+}

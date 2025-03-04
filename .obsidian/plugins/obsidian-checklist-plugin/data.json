@@ -1,0 +1,43 @@
+{
+  "todoPageName": "todo\nstatus/wip",
+  "showChecked": true,
+  "showAllTodos": false,
+  "showOnlyActiveFile": false,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "tag",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "new->old",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [
+    "#dailynotes",
+    "#toview",
+    "#todo",
+    "#obsidian",
+    "#task",
+    "#voiture",
+    "#idea",
+    "#plugins"
+  ],
+  "_hiddenTags": [
+    "task",
+    "tasks",
+    "tocheck",
+    "toview",
+    "voiture",
+    "workflow",
+    "status/open",
+    "problem",
+    "plugins",
+    "other",
+    "obsidian",
+    "note",
+    "idea",
+    "fix",
+    "dailynotes",
+    "appartement",
+    "todo"
+  ]
+}

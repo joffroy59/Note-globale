@@ -1,0 +1,7 @@
+{
+  "templateHeading": "### 🥷Missed Tasks",
+  "deleteOnComplete": true,
+  "removeEmptyTodos": false,
+  "rolloverChildren": true,
+  "rolloverOnFileCreate": true
+}

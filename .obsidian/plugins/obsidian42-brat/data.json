@@ -1,0 +1,21 @@
+{
+  "pluginList": [
+    "reply2za/obsidian-query-control"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "reply2za/obsidian-query-control",
+      "version": "0.7.13"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
+}

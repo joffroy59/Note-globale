@@ -1,32 +1,15 @@
-#
-!.vscode/*
-!.obsidian/core-plugins.json
-!.obsidian/**/
-!.obsidian/snippets/**
-!.obsidian/plugins/**
-!.obsidian/plugins/obsidian-meta-bind-plugin/**
+# .obsidian/plugins/*/**
+# !.obsidian/plugins/*/data.json
 
-# to exclude Obsidian's settings (including plugin and hotkey configurations)
-#.obsidian/
-
-# to only exclude plugin configuration. Might be useful to prevent some plugin from exposing sensitive data
-.obsidian/plugins
-
-# OR only to exclude workspace cache
-.obsidian/workspace.json
-
-# to exclude workspace cache specific to mobile devices
-.obsidian/workspace-mobile.json
+.obsidian/plugins/**/main.js
 
 # Add below lines to exclude OS settings and caches
 .trash/
 .DS_Store
 .makemd/
 
-
-
-
 # Ignore Smart Environment folder
 .smart-env
+
 .obsidian/workspace*
 .obsidian/copilot*
