@@ -149,7 +149,10 @@ appareil:
     - undefined
   protocols:
     HUB:
-      - appareils
+      - Homekit
+      - Thread
+      - zigbee
+      - Goolge
     Lamp:
       - Homekit
       - Thread

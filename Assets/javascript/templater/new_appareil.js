@@ -180,17 +180,17 @@ async function new_appareil(tp, return_type, out_folder) {
     }
   }
 
-  var yaml_list = '\n'
-  if (selected_items.length > 0) {
-    for (var index in selected_items) {
-      yaml_list += ' '.repeat(2*2) + `- "[[${selected_items[index]}]]"\n`
-    }
-  } else {
-    yaml_list = ' '.repeat(2*2) + '- no contact' + '\n'
-  }
+  // var yaml_list = '\n'
+  // if (selected_items.length > 0) {
+  //   for (var index in selected_items) {
+  //     yaml_list += ' '.repeat(2*2) + `- "[[${selected_items[index]}]]"\n`
+  //   }
+  // } else {
+  //   yaml_list = ' '.repeat(2*2) + '- no contact' + '\n'
+  // }
 
-  // trim last line break from contact_persons_yaml
-  const contact_persons_yaml = yaml_list.slice(0, -1)
+  // // trim last line break from contact_persons_yaml
+  // const contact_persons_yaml = yaml_list.slice(0, -1)
 
   const note_content = `---
 ELN version: ${eln_version}
@@ -205,10 +205,8 @@ appareil:
   manufacturer: ${manufacturer}
   model: ${model}
   location:
-    building: ${building}
+    building: Maison
     room: ${room}
-  contact:
-  ${contact_persons_yaml}
   documentation:
     - "[[${appareil_name} (Manual).pdf|Manual]]"
   url: "[link to manufacturer]()"
