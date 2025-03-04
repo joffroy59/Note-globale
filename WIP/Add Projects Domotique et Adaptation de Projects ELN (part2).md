@@ -8,9 +8,9 @@ trouver équivalent dans ELN
 	- [x] HomeKit ✅ 2025-03-05
 	- [x] ZigBee ✅ 2025-03-05
 	- [x] autre ✅ 2025-03-05
-- [ ] [[#Add Application]]
+- [x] [[#Add Application]] ✅ 2025-03-05
 	- [x] Homebridge ✅ 2025-03-05
-	- [ ] Apple Maison
+	- [x] Apple Maison ✅ 2025-03-05
 - [/] [[#Appareil]]
 	- [ ] HomePod mini
 	- [ ] SwitchBot Hub2
@@ -58,6 +58,6 @@ exemple [[Devices]] [[Applications]]
 button : new-application
 
 
-- [ ] Create
+- [x] Create ✅ 2025-03-05
 	- [x] Homebridge ✅ 2025-03-05
-	- [ ] Apple Maison
+	- [x] Apple Maison ✅ 2025-03-05

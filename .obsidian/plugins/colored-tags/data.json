@@ -242,7 +242,9 @@
     "application/zigbee/Q_B": 4,
     "application/Homekit/Opensource_Homebridge": 7,
     "application/zigbee/Opensource_Homebridge": 5,
-    "application/Goolge/Opensource_Homebridge": 4
+    "application/Goolge/Opensource_Homebridge": 4,
+    "application/Homekit/Apple_Maison": 8,
+    "application/Thread/Apple_Maison": 6
   },
   "_version": 3
 }
