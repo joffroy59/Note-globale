@@ -26,7 +26,7 @@ title: Note
 - [x] recreate avecc Project ✅ 2025-03-04
 - [/] adaptation 
 	- [ ] remove unnecessary info
-	- [ ] [[#remove  creation of Sample]]
+	- [x] [[#remove  creation of Sample]] ✅ 2025-03-04
 
 
 ---
