@@ -26,7 +26,7 @@ title: Note
 - [x] recreate avecc Project ✅ 2025-03-04
 - [/] adaptation 
 	- [ ] remove unnecessary info
-	- [ ] remove  creation of Sample
+	- [ ] [[#remove  creation of Sample]]
 
 
 ---
@@ -35,12 +35,13 @@ title: Note
 ![[Create Project IA-1741116123952.png|400x112]]
 
 
- ##### [[Projects/IA/IA|IA]]
+##### Note [[Projects/IA/IA|IA]]
+ 
+ 
 ![[Create Project IA-1741114687688.png|400x656]]
 ![[Create Project IA-1741114693061.png|400x437]]
-
- and 
-#####  [[Samples - IA]]
+ 
+##### Note  [[Samples - IA]]
 
 
 
@@ -52,4 +53,20 @@ title: Note
 
 ### Create Project Perso
 rien dans projet c'est pire 
+
 ![[Create Project IA-1741116026977.png|400x321]]
+
+### remove  creation of Sample
+peut etre mieux conserver car ca creer une liste et pas de sample et ca pourrait servir a liste des Wip IA 
+docn peut etre plutot transformer en create Wip IA (voir sur quoi ce base la liste) , duplication conservation sample fonction 
+- [x] duplicate create liste ✅ 2025-03-04
+
+
+- [ ] ajout dans reste Obsidian 
+	- [ ] create tags status/wip/IA
+	- [ ] wip.type
+	- [ ] wip.description
+	- [ ] add info eln like project.name = 'IA'  in status/wip + IA Notes
+	- [ ] tags status/wip/IA  = status/wip + IA
+
+

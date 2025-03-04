@@ -83,10 +83,10 @@ project:
 
 # Experiments
 
-- ### [[Samples - ${project_name}|Samples]]
+- ### [[Wip - ${project_name}|🚧Wip]]
   \`\`\`dataview
   LIST
-  FROM #sample AND!"Assets"
+  FROM #status/wip/IA AND !"Assets" AND !"Templates"
   WHERE project.name = this.project.name
   SORT file.mtime.ts DESC
   LIMIT 6
@@ -170,18 +170,16 @@ project:
   } else {
       console.log(`${folder} exists.`);
   }
-  // Create new Sample List for project
-  await tp.user.new_sample_list(tp, project_name);
+  await tp.user.new_wip_list(tp, project_name);
 
   if (return_type === "insert") {
     // move and rename file
-    // const new_file_path = path.join(folder, filename + ".md");
     const new_file_path = folder + '/' + filename + ".md";
     await app.vault.rename(active_file, new_file_path);
     return note_content;
   }
   else if (return_type === "create") {
-    console.log(`Creating new sample note in folder ${folder} with name ${filename}`);
+    console.log(`Creating new project note in folder ${folder} with name ${filename}`);
     const tfolder = app.vault.getAbstractFileByPath(folder);
     await tp.file.create_new(note_content, filename, true, tfolder);
     // function needs to retutn an empty string, since it is called by a button
