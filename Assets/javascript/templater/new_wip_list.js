@@ -40,6 +40,8 @@ async function new_wip_list(tp, project_name=null, show=false) {
     console.log(`note.author not found in ELN settings.`);
   }
 
+  button_insert_id = eln_settings.project[project_name].button_id
+
   // get current date and format it to ISO 8601
   const date = new Date();
   const date_created = date.toISOString().split('T')[0];
@@ -64,7 +66,7 @@ await dv.view("/Assets/javascript/dataview/views/navbar", {});
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 \`\`\`
 
-\`BUTTON[insert-daily-task-wip]\`
+\`BUTTON[${button_insert_id}]\`
 
 > [!Example] TOC
 > - [[#All Wip]]

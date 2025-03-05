@@ -36,6 +36,6 @@ attention a maction button appele (en dur ? )
 	- [x] delete Project [[Domotique]] ✅ 2025-03-05
 	- [x] creation avec [[Projects]] ✅ 2025-03-05
 	- [x] adaptation pour fonctionner avec #domotique/action ✅ 2025-03-05
-	- [ ] adaptation [[Projects]] pour avoir un settings (solution simple) pour definir le nom de l'acction du bouton 
+	- [/] adaptation [[Projects]] pour avoir un settings (solution simple) pour definir le nom de l'action du bouton 
 	- [ ] template a creer ? 
  

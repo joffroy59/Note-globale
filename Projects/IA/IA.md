@@ -4,7 +4,7 @@ cssclass: dashboard, wide-page
 banner: "[[obsidian-eln-banner.png]]"
 banner_y: 0.5
 author: Jerome Offroy
-date created: 2025-03-04
+date created: 2025-03-05
 note type: project
 tag:
   - " #project/IA "
@@ -13,11 +13,9 @@ project:
    abbreviation: IA
    type: perso
    status: active
-   start: 2025-03-04
+   start: 2025-03-05
    end:
    duration:
-   funding agency: ~~
-   funding code: ~~
    title: ~~
    subproject: ~~
    acronym: ~~

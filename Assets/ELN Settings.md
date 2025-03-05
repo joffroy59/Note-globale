@@ -12,6 +12,10 @@ project:
   type:
     - science
     - perso
+  IA:
+    button_id: insert-daily-task-wip
+  Domotique:
+    button_id: new-domotic-action
 folder:
   local data: /path/to_your/local_data/folder
   remote data: /path/to_your/remote_data/folder
