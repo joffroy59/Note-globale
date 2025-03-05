@@ -31,8 +31,16 @@ if (heading.length > MAX_HEADING_LENGTH) {
 	text = "#todo"
 }
 
+base_folder = destination.slice(0, -3)
+const currentNote = app.workspace.activeEditor.file.path
+console.log("currentNote="+currentNote)
+console.log("base_folder="+base_folder)
+if (destination === currentNote) {
+	base_folder = ""
+}
+console.log("base_folder="+base_folder)
 text = `\n\n### ${heading.trim()}\n\n${text.trim()}\n\n`
-embed = `[[${destination.slice(0, -3)}#${heading}]]`
+embed = `[[${base_folder}#${heading}]]`
 
 // Add the text to the destination note
 await app.vault.adapter.append(destination, text)
