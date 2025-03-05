@@ -1143,6 +1143,23 @@
           "templateFile": "Templates/Insert assets/templates/New Application.md"
         }
       ]
+    },
+    {
+      "label": "Add Suivi Charge Clavier",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-suivi-charge-keyboard",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "templater-obsidian:Templates/Action/Suivi Recharge Clavier et Souris - Add.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

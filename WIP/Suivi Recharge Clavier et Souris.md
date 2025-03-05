@@ -22,17 +22,13 @@ tags:
 | 2025-03-01 18:26                        | 1:51                     | 6     | 🔍     |                   | Ajout automatique          |
 | 2025-03-01 19:05                        | 2:30                     | 7     | 🔍     |                   | Ajout automatique          |
 | 2025-03-02 00:46                        | 8:11                     | 10  ✅ | 🔍     |                   | Ajout automatique          |
+| 2025-03-05 08:43                        |                          | 3     | 🔌     |                   | Ajout automatique          |
 | **Ajouter une nouvelle recharge ici :** |                          |       |        |                   |                            |
 
 
 ^bbe402
 
-```button
-name Ajouter une Recharge
-type command
-action Templater: Insert Templates/Action/Suivi Recharge Clavier et Souris - Add.md
-class accent-button
-```
+`BUTTON[new-suivi-charge-keyboard]`
 ^2abdb2
 
 Action:
