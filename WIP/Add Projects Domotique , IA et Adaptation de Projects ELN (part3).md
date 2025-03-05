@@ -4,6 +4,8 @@ Add [[Projects]] Domotique et Adaptation de Projects ELN
 trouver équivalent dans ELN
 ### Tasks
 
+- [ ] WIP Domotique 
+
 
 - [ ] different type de wip ia 
 	- [ ] civitai
