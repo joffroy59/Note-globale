@@ -248,7 +248,10 @@
     "appareil/Homekit": 3,
     "appareil/Homekit/Apple_HomePod_mini": 1,
     "appareil/Thread": 4,
-    "appareil/Thread/Apple_HomePod_mini": 1
+    "appareil/Thread/Apple_HomePod_mini": 1,
+    "appareil/Homekit/SwitchBot_Hub2": 2,
+    "appareil/Thread/SwitchBot_Hub2": 2,
+    "appareil/Goolge/SwitchBot_Hub2": 2
   },
   "_version": 3
 }

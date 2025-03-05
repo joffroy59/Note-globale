@@ -4,7 +4,7 @@ Add [[Projects]] Domotique et Adaptation de Projects ELN
 trouver équivalent dans ELN
 ### Tasks
 
-- [ ] [[#Add Protocol - Create Element Simple ]]
+- [x] [[#Add Protocol - Create Element Simple ]] ✅ 2025-03-05
 	- [x] HomeKit ✅ 2025-03-05
 	- [x] ZigBee ✅ 2025-03-05
 	- [x] autre ✅ 2025-03-05
@@ -13,7 +13,7 @@ trouver équivalent dans ELN
 	- [x] Apple Maison ✅ 2025-03-05
 - [/] [[#Appareil]]
 	- [x] HomePod mini ✅ 2025-03-05
-	- [ ] SwitchBot Hub2
+	- [x] SwitchBot Hub2 ✅ 2025-03-05
 	- [ ] Prise
 	- [ ] Ampoule
 	- [ ] Thermomètre
@@ -30,11 +30,11 @@ trouver équivalent dans ELN
     - Lamp
     - Prise
     - undefined
-- [ ] methods 👉 protocoles
-	- [ ] homekit   (SE inlens)
-	- [ ] zigbee
-	- [ ] google
-	- [ ] alexa
+- [x] methods 👉 protocoles ✅ 2025-03-05
+	- [x] homekit   (SE inlens) ✅ 2025-03-05
+	- [x] zigbee ✅ 2025-03-05
+	- [x] google ✅ 2025-03-05
+	- [x] alexa ✅ 2025-03-05
 [D:\obsidian\MyNote\Note-globale\Assets\javascript\templater\new_instrument.js](file:///d%3A/obsidian/MyNote/Note-globale/Assets/javascript/templater/new_instrument.js) 👉
 	[[new_instrument.js]] 👉 [[new_appareil.js]]
 
