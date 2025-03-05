@@ -16,9 +16,10 @@ trouver équivalent dans ELN
 	- [x] SwitchBot Hub2 ✅ 2025-03-05
 	- [x] Prise ✅ 2025-03-05
 	- [x] Ampoule ✅ 2025-03-05
-	- [ ] Thermomètre
-	- [ ] selection piece from settings
-	- [ ] selection Manufactuer
+	- [x] Thermomètre ✅ 2025-03-05
+	- [x] selection piece from settings ✅ 2025-03-05
+	- [x] selection Manufactuer ✅ 2025-03-05
+	- [ ] type of appareil (for mesure)
 - [x] [[Action Domotique List]] Domotique Action ✅ 2025-03-05
 - [ ] tag problem domotique existant
 

@@ -147,6 +147,7 @@ appareil:
     - HUB
     - Lamp
     - Prise
+    - Temperature
     - undefined
   protocols:
     HUB:
@@ -160,6 +161,11 @@ appareil:
       - zigbee
       - Goolge
     Prise:
+      - Homekit
+      - Thread
+      - zigbee
+      - Goolge
+    Temperature:
       - Homekit
       - Thread
       - zigbee
@@ -180,6 +186,7 @@ domotique:
     - Boulanger
     - Leroy Merlin
     - Meross
+    - Quinpin
     - Autre ...
   rooms:
     - Salon
