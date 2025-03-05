@@ -254,7 +254,8 @@
     "appareil/Goolge/SwitchBot_Hub2": 2,
     "appareil/zigbee": 5,
     "appareil/zigbee/Bouulanger_InconnuA1": 1,
-    "appareil/zigbee/Boulanger_Inconnu2": 2
+    "appareil/zigbee/Boulanger_Inconnu2": 2,
+    "appareil/Homekit/Meross_Multiprise": 3
   },
   "_version": 3
 }

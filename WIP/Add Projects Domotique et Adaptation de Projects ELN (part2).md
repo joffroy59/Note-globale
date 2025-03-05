@@ -14,7 +14,7 @@ trouver équivalent dans ELN
 - [/] [[#Appareil]]
 	- [x] HomePod mini ✅ 2025-03-05
 	- [x] SwitchBot Hub2 ✅ 2025-03-05
-	- [ ] Prise
+	- [x] Prise ✅ 2025-03-05
 	- [x] Ampoule ✅ 2025-03-05
 	- [ ] Thermomètre
 	- [ ] selection piece from settings

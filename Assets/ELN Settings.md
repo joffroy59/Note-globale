@@ -179,6 +179,7 @@ domotique:
     - SwitchBot
     - Boulanger
     - Leroy Merlin
+    - Meross
     - Autre ...
   rooms:
     - Salon
