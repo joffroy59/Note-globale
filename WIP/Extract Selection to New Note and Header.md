@@ -28,7 +28,7 @@ title: Note
 
 - [x] [[#Test1]] ✅ 2025-03-05
 	- [x] [[#Original]]
-	- [x] [[#My version]] ✅ 2025-03-05
+	- [x] [[#My version]]  Simple extract to current note ✅ 2025-03-05
 
 # Test1
 ```embed

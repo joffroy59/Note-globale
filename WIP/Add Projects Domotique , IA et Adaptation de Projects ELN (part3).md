@@ -4,7 +4,7 @@ Add [[Projects]] Domotique et Adaptation de Projects ELN
 trouver équivalent dans ELN
 ## Tasks
 
-- [ ] WIP Domotique 
+- [ ] [[#WIP Domotique]] 
 
 
 - [ ] different type de wip ia 
@@ -20,4 +20,10 @@ trouver équivalent dans ELN
 ### Appareil
 
 ![[Obsidian ELN - Struktur.png|400]]
+
+
+
+### WIP Domotique
+
+#todo
 
