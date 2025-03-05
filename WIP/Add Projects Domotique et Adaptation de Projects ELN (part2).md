@@ -21,9 +21,9 @@ trouver équivalent dans ELN
 	- [x] selection Manufactuer ✅ 2025-03-05
 	- [x] type of appareil (for mesure) ✅ 2025-03-05
 - [x] [[Action Domotique List]] Domotique Action ✅ 2025-03-05
-- [ ] tag problem domotique existant
 
-### Appareil62580
+
+### Appareil
 
 ![[Obsidian ELN - Struktur.png|400]]
 62580[Instruments]] 👉 [[Appareils]]
