@@ -25,5 +25,13 @@ trouver équivalent dans ELN
 
 ### WIP Domotique
 
-#todo
+#status/wip_star 
+existe deja ? 
 
+[[Projects]] >  [[Domotique]] --> ❌
+
+re reer le projet mais avec projet et pas project peros ? 
+attention a maction button appele (en dur ? ) 
+- [/] recreation du projet Domotique avec Project classique comme fait avec [[Projects/IA/IA|IA]]
+	- [x] delete Project [[Domotique]] ✅ 2025-03-05
+	- [ ] creation avec [[Projects]]
