@@ -78,7 +78,7 @@ TABLE WITHOUT ID
   file.link as Wip,
   wip.description as Description,
   date-created
-FROM #status/wip AND #IA AND !"Templates"
+FROM #status/wip AND !"Templates"
 WHERE project.name = this.project.name
 SORT wip.type, file.link asc
 \`\`\`
