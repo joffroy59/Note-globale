@@ -36,7 +36,11 @@ async function new_appareil(tp, return_type, out_folder) {
   const appareil_type_list = eln_settings.appareil.type
   const appareil_type = await tp.system.suggester(appareil_type_list, appareil_type_list, false, "Choose appareil type:", "")
   // const building = await tp.system.prompt("Enter building:", "")
-  const room = await tp.system.prompt("Enter room:", "")
+  const room_list = eln_settings.domotique.rooms
+  const room = await tp.system.suggester(room_list, room_list, false, "Choose room:", "")
+  if (room == "Autre ..."){
+    room = await tp.system.prompt("Enter room:", "")
+  }
 
   /**********************************************************************************/
   /*                             Choose METHOD(S)                                  */

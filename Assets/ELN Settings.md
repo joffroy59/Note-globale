@@ -172,6 +172,11 @@ application:
     - Thread
     - zigbee
     - Goolge
+domotique:
+  rooms:
+    - Salon
+    - Chambre
+    - Autre ...
 ---
 
 ## Settings

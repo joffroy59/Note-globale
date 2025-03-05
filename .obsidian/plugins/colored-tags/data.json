@@ -251,7 +251,9 @@
     "appareil/Thread/Apple_HomePod_mini": 1,
     "appareil/Homekit/SwitchBot_Hub2": 2,
     "appareil/Thread/SwitchBot_Hub2": 2,
-    "appareil/Goolge/SwitchBot_Hub2": 2
+    "appareil/Goolge/SwitchBot_Hub2": 2,
+    "appareil/zigbee": 5,
+    "appareil/zigbee/Bouulanger_InconnuA1": 1
   },
   "_version": 3
 }
