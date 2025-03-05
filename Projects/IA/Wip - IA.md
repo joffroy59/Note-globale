@@ -101,6 +101,17 @@ WHERE project.name = this.project.name
 SORT wip.type, file.link asc
 ```
 
+# Porblems
+```dataview
+TABLE WITHOUT ID
+  file.link as Wip,
+  wip.description as Description,
+  date-created
+FROM #status/wip AND #IA AND #IA/StabilityMatrix    AND !"Templates"
+WHERE project.name = this.project.name
+SORT wip.type, file.link asc
+```
+
 
 ```dataviewjs
 await dv.view("/Assets/javascript/dataview/views/note_footer", {});
