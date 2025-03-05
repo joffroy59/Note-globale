@@ -1,3 +1,88 @@
+function isMultiple(appareil_type){
+  return appareil_type == "HUB"
+}
+
+/**********************************************************************************/
+/*                             Choose METHOD(S)                                  */
+/**********************************************************************************/
+async function get_protocol(tp, eln_settings, manufacturer, model, appareil_type){
+  var method_list = Array.from(eln_settings.appareil.protocols[appareil_type])
+  // initialize variables for selection dialog
+  var prompt = 'Choose protocol:'
+  var option_string = ''
+  var abort_string = 'Exit selection'
+  var list = method_list
+
+  var selected_items = []
+  if ((Array.isArray(list) && list.length)) {
+    if (!option_string.trim() === '') {
+      list.push(option_string)
+    }
+    list.push(abort_string)
+    while (true) {
+      var selection = await tp.system.suggester(list, list, false, prompt)
+      if (selection === abort_string) {
+        break
+      } else {
+        // add selected item to list of selected items
+        selected_items.push(selection)
+        // get index of selected item
+        const index = list.indexOf(selection);
+        if (index > -1) { // only remove item when item is found
+          list.splice(index, 1); // 2nd parameter means remove one item only
+        }
+      }
+    }
+  } else if (list.length == 0) {
+    console.log('Variable "list" passed to function tp_multiple_selection is empty.')
+  } else {
+    console.log(`Varibale "list" passed to function tp_multiple_selection is no Array but of type: ${typeof list}`)
+    console.log(`... and contains: ${JSON.stringify(list)}`)
+  }
+
+  const methods = selected_items
+
+  // create METHOD and TAG string for YAML frontmatter
+  var methods_yaml = ''
+  var tags_yaml = '\n'
+  var appareil_parameters_yaml = '\n'
+  if (methods.length > 0) {
+    console.log(methods)
+    methods_yaml += '\n'
+    for (var index in methods) {
+      methods_yaml += ' '.repeat(5) + `- ${methods[index]}\n`
+      appareil_parameters_yaml += ' '.repeat(2 * 2) +
+        methods[index] + ': ✅\n'
+      tags_yaml += '  - " #appareil/' +
+        methods[index].replace(/[\s]/g, '_') + '/' +
+        manufacturer.replace(/[\s]/g, '_') + '_' +
+        model.replace(/[\s]/g, '_') + '"\n'
+    }
+  } else {
+    methods_yaml += 'no method defined'
+    appareil_parameters_yaml += ' '.repeat(2 * 2) + 'no method: ❌\n'
+    tags_yaml += '  - " #appareil/' +
+      'none' + '/' +
+      manufacturer.replace(/[\s]/g, '_') + '_' +
+      model.replace(/[\s]/g, '_') + '"\n'
+  }
+
+  console.log("appareil_parameters_yaml: "+appareil_parameters_yaml)
+  console.log("tags_yaml: " + tags_yaml)
+
+  // trim last line break from methods_yaml, appareil_parameters_yaml and tags_yaml
+  appareil_parameters_yaml = appareil_parameters_yaml.slice(0, -1)
+  tags_yaml = tags_yaml.slice(0, -1)
+
+  console.log("appareil_parameters_yaml: " + appareil_parameters_yaml)
+  console.log("tags_yaml: " + tags_yaml)
+  console.log("methods_yaml: " + methods_yaml)
+
+
+  result = [appareil_parameters_yaml, methods_yaml, tags_yaml]
+  return result
+}
+
 async function new_appareil(tp, return_type, out_folder) {
   const path = require('path');
 
@@ -39,79 +124,31 @@ async function new_appareil(tp, return_type, out_folder) {
   const model = await tp.system.prompt("Enter model:", "")
   const appareil_name = await tp.system.prompt("Enter appareil name:", manufacturer + " - " + model)
   const appareil_type_list = eln_settings.appareil.type
+  const appareil_mesure_type_list = eln_settings.appareil.mesure_type
   const appareil_type = await tp.system.suggester(appareil_type_list, appareil_type_list, false, "Choose appareil type:", "")
+  var appareil_mesure_type = ""
+  if (isMultiple(appareil_type)){
+    appareil_mesure_type = await tp.system.suggester(appareil_mesure_type_list, appareil_mesure_type_list, false, "Choose appareil mesure type:", "")
+  } else {
+    appareil_mesure_type = appareil_type
+  }
+
   // const building = await tp.system.prompt("Enter building:", "")
   const room_list = eln_settings.domotique.rooms
-  const room = await tp.system.suggester(room_list, room_list, false, "Choose room:", "")
+  var room = await tp.system.suggester(room_list, room_list, false, "Choose room:", "")
   if (room == "Autre ..."){
     room = await tp.system.prompt("Enter room:", "")
   }
 
-  /**********************************************************************************/
-  /*                             Choose METHOD(S)                                  */
-  /**********************************************************************************/
-  const method_list = Array.from(eln_settings.appareil.protocols[appareil_type])
-  // initialize variables for selection dialog
-  var prompt = 'Choose protocol marque:'
-  var option_string = ''
-  var abort_string = 'Exit selection'
-  var list = method_list
+  var result = await get_protocol(tp, eln_settings, manufacturer, model, appareil_type)
+  var appareil_parameters_yaml = result[0]
+  var methods_yaml = result[1]
+  var tags_yaml = result[2]
 
-  var selected_items = []
-  if ((Array.isArray(list) && list.length)) {
-    if (!option_string.trim() === '') {
-      list.push(option_string)
-    }
-    list.push(abort_string)
-    while (true) {
-      var selection = await tp.system.suggester(list, list, false, prompt)
-      if (selection === abort_string) {
-        break
-      } else {
-        // add selected item to list of selected items
-        selected_items.push(selection)
-        // get index of selected item
-        const index = list.indexOf(selection);
-        if (index > -1) { // only remove item when item is found
-          list.splice(index, 1); // 2nd parameter means remove one item only
-        }
-      }
-    }
-  } else if (list.length == 0) {
-    console.log('Variable "list" passed to function tp_multiple_selection is empty.')
-  } else {
-    console.log(`Varibale "list" passed to function tp_multiple_selection is no Array but of type: ${typeof list}`)
-    console.log(`... and contains: ${JSON.stringify(list)}`)
-  }
+  console.log("appareil_parameters_yaml: " + appareil_parameters_yaml)
+  console.log("tags_yaml: " + tags_yaml)
+  console.log("methods_yaml: " + methods_yaml)
 
-  const methods = selected_items
-
-  // create METHOD and TAG string for YAML frontmatter
-  var methods_yaml = ''
-  var tags_yaml = '\n'
-  var appareil_parameters_yaml = '\n'
-  if (methods.length > 0) {
-    methods_yaml += '\n'
-    for (var index in methods) {
-      methods_yaml += ' '.repeat(5) + `- ${methods[index]}\n`
-      appareil_parameters_yaml += ' '.repeat(2 * 2) +
-        methods[index] + ': ✅\n'
-      tags_yaml += '  - " #appareil/' +
-        methods[index].replace(/[\s]/g, '_') + '/' +
-        manufacturer.replace(/[\s]/g, '_') + '_' +
-        model.replace(/[\s]/g, '_') + '"\n'
-    }
-  } else {
-    methods_yaml += 'no method defined'
-    appareil_parameters_yaml += ' '.repeat(2 * 2) + 'no method: ❌\n'
-    tags_yaml += '  - " #appareil/' +
-      'none' + '/' +
-      manufacturer.replace(/[\s]/g, '_') + '_' +
-      model.replace(/[\s]/g, '_') + '"\n'
-  }
-  // trim last line break from methods_yaml, appareil_parameters_yaml and tags_yaml
-  appareil_parameters_yaml = appareil_parameters_yaml.slice(0, -1)
-  tags_yaml = tags_yaml.slice(0, -1)
 
 
   const note_content = `---
@@ -124,6 +161,7 @@ tag: ${tags_yaml}
 appareil:
   name: ${appareil_name}
   type: ${appareil_type}
+  mesure_type: ${appareil_mesure_type}
   manufacturer: ${manufacturer}
   model: ${model}
   location:

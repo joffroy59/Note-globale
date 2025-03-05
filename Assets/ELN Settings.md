@@ -172,6 +172,11 @@ appareil:
       - Goolge
     undefined:
       - undefined
+  mesure_type:
+    - Lamp
+    - Prise
+    - Temperature
+    - undefined
 application:
   protocols:
     - Homekit

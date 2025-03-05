@@ -257,7 +257,9 @@
     "appareil/zigbee/Boulanger_Inconnu2": 2,
     "appareil/Homekit/Meross_Multiprise": 3,
     "appareil/Thread/Quinpin_CGGT": 3,
-    "appareil/Homekit/Quinpin_CGGT": 4
+    "appareil/Homekit/Quinpin_CGGT": 4,
+    "appareil/none/Quinpin_CGGT": 2,
+    "undefined": 118
   },
   "_version": 3
 }

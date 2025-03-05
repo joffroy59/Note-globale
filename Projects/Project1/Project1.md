@@ -16,13 +16,9 @@ project:
    start: 2023-03-01
    end: 2024-02-28
    duration: 3 years
-   funding agency: ~~
-   funding code: ~~
    title: ~~
    subproject: ~~
    acronym: ~~
-   project coordinator science: ~~
-   project manager administation: ~~
    reports:
       -
          type: interim report

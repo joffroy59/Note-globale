@@ -23,11 +23,10 @@ trouver équivalent dans ELN
 - [x] [[Action Domotique List]] Domotique Action ✅ 2025-03-05
 - [ ] tag problem domotique existant
 
-### Appareil
+### Appareil62580
 
 ![[Obsidian ELN - Struktur.png|400]]
-
-[[Instruments]] 👉 [[Appareils]]
+62580[Instruments]] 👉 [[Appareils]]
 - [x] type dans [[ELN Settings]] appareil:   type ✅ 2025-03-04
     - HUB
     - Lamp
@@ -43,7 +42,6 @@ trouver équivalent dans ELN
 
 
 - [x] instrument.techniques:  👉  appareil.protocols ✅ 2025-03-04
-
 
 
 ### Add Protocol - Create Element Simple

@@ -5,11 +5,12 @@ date created: 2025-03-05
 author: Jerome Offroy
 note type: appareil
 tag: 
-  - " #appareil/Thread/Quinpin_CGGT"
   - " #appareil/Homekit/Quinpin_CGGT"
+  - " #appareil/Thread/Quinpin_CGGT"
 appareil:
   name: Quinpin - CGGT
   type: Temperature
+  mesure_type: Temperature
   manufacturer: Quinpin
   model: CGGT
   location:
@@ -19,15 +20,15 @@ appareil:
     - "[[Quinpin - CGGT (Manual).pdf|Manual]]"
   url: "[link to manufacturer]()"
   methods:  
-     - Thread
      - Homekit
+     - Thread
 
   info:
     info_1: ~~
     info_2: ~~
   parameters: 
-    Thread: ✅
     Homekit: ✅
+    Thread: ✅
 ---
 
 ```dataviewjs

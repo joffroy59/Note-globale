@@ -58,8 +58,6 @@ project:
    title: ~~
    subproject: ~~
    acronym: ~~
-   project coordinator science: ~~
-   project manager administation: ~~
    reports:
       -
          type: wip report
