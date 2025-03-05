@@ -31,14 +31,14 @@ if (heading.length > MAX_HEADING_LENGTH) {
 	text = "#todo"
 }
 
-base_folder = destination.slice(0, -3)
+
 const currentNote = app.workspace.activeEditor.file.path
-console.log("currentNote="+currentNote)
-console.log("base_folder="+base_folder)
 if (destination === currentNote) {
 	base_folder = ""
+} else {
+	base_folder = destination.slice(0, -3)
 }
-console.log("base_folder="+base_folder)
+
 text = `\n\n### ${heading.trim()}\n\n${text.trim()}\n\n`
 embed = `[[${base_folder}#${heading}]]`
 
