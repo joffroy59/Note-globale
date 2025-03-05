@@ -57,8 +57,7 @@ rien dans projet c'est pire
 ![[Create Project IA-1741116026977.png|400x321]]
 
 ### remove  creation of Sample
-peut etre mieux conserver car ca creer une liste et pas de sample et ca pourrait servir a liste des Wip IA 
-docn peut etre plutot transformer en create Wip IA (voir sur quoi ce base la liste) , duplication conservation sample fonction 
+Peut-être mieux conserver car cela crée une liste et pas de sample, et cela pourrait servir à lister les WIP IA. Donc, peut-être plutôt transformer en création de WIP IA (voir sur quoi se base la liste), duplication, conservation, sample, fonction.
 - [x] duplicate create liste ✅ 2025-03-04
 
 

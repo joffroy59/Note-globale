@@ -4,7 +4,7 @@ Add [[Projects]] Domotique et Adaptation de Projects ELN
 trouver équivalent dans ELN
 ### Tasks
 
-- [ ] tag problem domotique existant [[Wip - IA]]
+
 - [ ] different type de wip ia 
 	- [ ] civitai
 	- [ ] comfyui 
