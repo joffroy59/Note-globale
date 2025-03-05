@@ -18,7 +18,7 @@ await dv.view("/Assets/javascript/dataview/views/navbar", {});
 await dv.view("/Assets/javascript/dataview/views/note_header", {});
 ```
 
-`BUTTON[insert-daily-task-wip]`
+`BUTTON[new-domotic-action]`
 
 > [!Example] TOC
 > - [[#All Wip]]
@@ -30,7 +30,7 @@ TABLE WITHOUT ID
   file.link as Wip,
   wip.description as Description,
   date-created
-FROM #status/wip AND #IA AND !"Templates"
+FROM #status/wip  AND !"Templates"
 WHERE project.name = this.project.name
 SORT wip.type, file.link asc
 ```

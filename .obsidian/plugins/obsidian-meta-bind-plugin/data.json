@@ -1160,6 +1160,22 @@
           "command": "templater-obsidian:Templates/Action/Suivi Recharge Clavier et Souris - Add.md"
         }
       ]
+    },
+    {
+      "label": "+ Wip Domotique",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "insert-daily-wip-domotique",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:b9040ac3-f665-42eb-a086-6d9dfbf32a06"
+        }
+      ],
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;"
     }
   ],
   "excludedFolders": [

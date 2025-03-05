@@ -4,7 +4,7 @@ Add [[Projects]] Domotique et Adaptation de Projects ELN
 trouver équivalent dans ELN
 ## Tasks
 
-- [ ] [[#WIP Domotique]] 
+- [/] [[#WIP Domotique]] 
 
 
 - [ ] different type de wip ia 
@@ -32,6 +32,10 @@ existe deja ?
 
 re reer le projet mais avec projet et pas project peros ? 
 attention a maction button appele (en dur ? ) 
-- [/] recreation du projet Domotique avec Project classique comme fait avec [[Projects/IA/IA|IA]]
+- [x] recreation du projet Domotique avec Project classique comme fait avec [[Projects/IA/IA|IA]] ✅ 2025-03-05
 	- [x] delete Project [[Domotique]] ✅ 2025-03-05
-	- [ ] creation avec [[Projects]]
+	- [x] creation avec [[Projects]] ✅ 2025-03-05
+	- [x] adaptation pour fonctionner avec #domotique/action ✅ 2025-03-05
+	- [ ] adaptation [[Projects]] pour avoir un settings (solution simple) pour definir le nom de l'acction du bouton 
+	- [ ] template a creer ? 
+ 

@@ -5,10 +5,14 @@ ELN info:
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-  
+
+project:
+  name: Domotique
 
 tags:
   - status/wip
+  - domotique/action
+
 ---
 <%*
 let baseFolder = "Domotique/Actions"
@@ -19,13 +23,13 @@ if (title.startsWith(defaultTitle)) {
 	title = await tp.system.prompt("Title from page");
 	if (!title) title = defaultTitle
 	await tp.file.rename(`${title}`);
-} 
+}
 
 let actionDesc = await tp.system.prompt("Action Description");
 let note = await tp.system.prompt("Note");
 -%>
 
-<%* if (actionDesc) { %> 
+<%* if (actionDesc) { %>
 ````ad-tip
 Action : <% actionDesc %>
 
@@ -33,6 +37,6 @@ Action : <% actionDesc %>
 <%* } %>
 ````ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ````
