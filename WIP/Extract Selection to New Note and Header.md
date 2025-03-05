@@ -41,7 +41,7 @@ url: "https://share.note.sx/tus76cc6"
 
 ## Original
 
-- [ ] Template: [[Templates/Inserts/ExtractHeader]] ✅ 2025-03-05
+- [x] Template: [[Templates/Inserts/ExtractHeader]] ✅ 2025-03-05
   de la doc Obsidian 
 	- [x] Templater Shortcut [[Templates/Inserts/ExtractHeader.md]] ✅ 2025-03-05
 	- [x] [[#test]] ✅ 2025-03-05
@@ -99,10 +99,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 TEst
 
-- [ ] TEst4 
-- [ ] [[WIP/Extract Selection to New Note and Header#sdfsdfsdf]]
+- [x] TEst4 ✅ 2025-03-05
+- [x] [[WIP/Extract Selection to New Note and Header#sdfsdfsdf]] ✅ 2025-03-05
 
-- [ ] sdf
+- [x] sdf ✅ 2025-03-05
 - [ ] sdfsdf
 
 
@@ -125,13 +125,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-### WIP Domotique
 
-WIP Domotique
-
-
-
-### aze azE azEazE aze
-
-#todo
 
