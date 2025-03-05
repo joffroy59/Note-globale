@@ -35,6 +35,13 @@ async function new_project(tp, return_type, out_folder) {
   // Ask user for project abbreviation
   const project_abbreviation = await tp.system.prompt("Enter project abbreviation:", "");
 
+  // Ask user for project Type
+  const project_type_list = eln_settings.project.type
+  const project_type = await tp.system.suggester(project_type_list, project_type_list, false, "Choose Type:", "")
+  if (project_type == "Autre ...") {
+    project_type = await tp.system.prompt("Enter Type:", "")
+  }
+
 const note_content = `---
 ELN version: ${eln_version}
 cssclass: dashboard, wide-page
@@ -48,13 +55,11 @@ tag:
 project:
    name: ${project_name}
    abbreviation: ${project_abbreviation}
-   type: science
+   type: ${project_type}
    status: active
    start: ${date_created}
    end:
    duration:
-   funding agency: ~~
-   funding code: ~~
    title: ~~
    subproject: ~~
    acronym: ~~

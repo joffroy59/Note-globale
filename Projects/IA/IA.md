@@ -11,7 +11,7 @@ tag:
 project:
    name: IA
    abbreviation: IA
-   type: science
+   type: perso
    status: active
    start: 2025-03-04
    end:

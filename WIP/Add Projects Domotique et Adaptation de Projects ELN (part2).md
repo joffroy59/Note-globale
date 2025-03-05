@@ -11,7 +11,7 @@ trouver équivalent dans ELN
 - [x] [[#Add Application]] ✅ 2025-03-05
 	- [x] Homebridge ✅ 2025-03-05
 	- [x] Apple Maison ✅ 2025-03-05
-- [/] [[#Appareil]]
+- [x] [[#Appareil]] ✅ 2025-03-05
 	- [x] HomePod mini ✅ 2025-03-05
 	- [x] SwitchBot Hub2 ✅ 2025-03-05
 	- [x] Prise ✅ 2025-03-05
@@ -19,7 +19,7 @@ trouver équivalent dans ELN
 	- [x] Thermomètre ✅ 2025-03-05
 	- [x] selection piece from settings ✅ 2025-03-05
 	- [x] selection Manufactuer ✅ 2025-03-05
-	- [ ] type of appareil (for mesure)
+	- [x] type of appareil (for mesure) ✅ 2025-03-05
 - [x] [[Action Domotique List]] Domotique Action ✅ 2025-03-05
 - [ ] tag problem domotique existant
 

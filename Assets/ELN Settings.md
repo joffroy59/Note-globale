@@ -8,6 +8,10 @@ operators:
     initials: JO
   Ansible:
     initials: AN
+project:
+  type:
+    - science
+    - perso
 folder:
   local data: /path/to_your/local_data/folder
   remote data: /path/to_your/remote_data/folder
