@@ -67,7 +67,9 @@
     "Templates/Action/Suivi Recharge Clavier et Souris - Add.md",
     "Templates/Insert assets/templates/New Note.md",
     "Templates/Inserts/ELN info.md",
-    ""
+    "",
+    "Templates/Inserts/ExtractHeader.md",
+    "Templates/Inserts/ExtractHeaderSimple.md"
   ],
   "startup_templates": [
     ""

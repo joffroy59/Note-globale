@@ -259,7 +259,8 @@
     "appareil/Thread/Quinpin_CGGT": 3,
     "appareil/Homekit/Quinpin_CGGT": 4,
     "appareil/none/Quinpin_CGGT": 2,
-    "undefined": 118
+    "undefined": 118,
+    "ref1": 119
   },
   "_version": 3
 }
