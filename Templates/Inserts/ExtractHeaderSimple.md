@@ -23,11 +23,12 @@ const destination = (await tp.system.suggester(files.map(x => x.display), files,
 
 // Get the heading
 let embed
-//const heading = await tp.system.prompt('Enter the new heading or escape/cancel to use a block reference')
 let heading = text
 // If the heading is longer than the maximum length, truncate it to the maximum length
 if (heading.length > MAX_HEADING_LENGTH) {
     heading = heading.substring(0, MAX_HEADING_LENGTH) + "..."
+} else {
+	text = "#todo"
 }
 
 text = `\n\n### ${heading.trim()}\n\n${text.trim()}\n\n`
@@ -38,4 +39,6 @@ await app.vault.adapter.append(destination, text)
 
 // Replace the selection with an embedded link to the new location
 app.workspace.activeEditor.editor.replaceSelection(embed)
+
+app.workspace.activeEditor.editor.setCursor({line: app.workspace.activeEditor.editor.lastLine(), ch: 0});
 -%>
