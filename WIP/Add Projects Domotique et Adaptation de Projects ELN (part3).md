@@ -9,6 +9,10 @@ trouver équivalent dans ELN
 	- [ ] civitai
 	- [ ] comfyui 
 	- [ ] autres
+- [ ] différent type de state : create auto de 
+	- [ ] todo
+	- [ ] done
+
 
 
 ### Appareil
