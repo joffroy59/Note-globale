@@ -1,4 +1,12 @@
 ---
+
+project:
+  name: IA
+
+wip:
+  type: IA
+  description: Travaux sur IA
+
 ollama_model_dir: I:\IA\ollama\models
 tags:
   - IA/application

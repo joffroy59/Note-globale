@@ -35,16 +35,72 @@ WHERE project.name = this.project.name
 SORT wip.type, file.link asc
 ```
 
-
+## civitai
 ```dataview
 TABLE WITHOUT ID
   file.link as Wip,
   wip.description as Description,
   date-created
-FROM #status/wip AND #IA AND !"Templates"
+FROM #status/wip AND #IA AND #IA/civitai   AND !"Templates"
 WHERE project.name = this.project.name
 SORT wip.type, file.link asc
 ```
+
+## model
+```dataview
+TABLE WITHOUT ID
+  file.link as Wip,
+  wip.description as Description,
+  date-created
+FROM #status/wip AND #IA AND #IA/model    AND !"Templates"
+WHERE project.name = this.project.name
+SORT wip.type, file.link asc
+```
+
+## comfyui
+```dataview
+TABLE WITHOUT ID
+  file.link as Wip,
+  wip.description as Description,
+  date-created
+FROM #status/wip AND #IA AND #IA/comfyui    AND !"Templates"
+WHERE project.name = this.project.name
+SORT wip.type, file.link asc
+```
+
+## application
+```dataview
+TABLE WITHOUT ID
+  file.link as Wip,
+  wip.description as Description,
+  date-created
+FROM #status/wip AND #IA AND #IA/application     AND !"Templates"
+WHERE project.name = this.project.name
+SORT wip.type, file.link asc
+```
+
+## flux
+```dataview
+TABLE WITHOUT ID
+  file.link as Wip,
+  wip.description as Description,
+  date-created
+FROM #status/wip AND #IA AND #IA/comfyui/flux    AND !"Templates"
+WHERE project.name = this.project.name
+SORT wip.type, file.link asc
+```
+
+## StabilityMatrix
+```dataview
+TABLE WITHOUT ID
+  file.link as Wip,
+  wip.description as Description,
+  date-created
+FROM #status/wip AND #IA AND #IA/StabilityMatrix    AND !"Templates"
+WHERE project.name = this.project.name
+SORT wip.type, file.link asc
+```
+
 
 ```dataviewjs
 await dv.view("/Assets/javascript/dataview/views/note_footer", {});
