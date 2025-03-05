@@ -4,7 +4,7 @@ Add [[Projects]] Domotique et Adaptation de Projects ELN
 trouver équivalent dans ELN
 ## Tasks
 
-- [/] [[#WIP Domotique]] 
+- [x] [[#WIP Domotique]] ✅ 2025-03-05
 
 
 - [ ] different type de wip ia 
@@ -36,6 +36,6 @@ attention a maction button appele (en dur ? )
 	- [x] delete Project [[Domotique]] ✅ 2025-03-05
 	- [x] creation avec [[Projects]] ✅ 2025-03-05
 	- [x] adaptation pour fonctionner avec #domotique/action ✅ 2025-03-05
-	- [/] adaptation [[Projects]] pour avoir un settings (solution simple) pour definir le nom de l'action du bouton 
-	- [ ] template a creer ? 
+	- [x] adaptation [[Projects]] pour avoir un settings (solution simple) pour definir le nom de l'action du bouton ✅ 2025-03-05
+	- [x] template a creer ? non a priro ✅ 2025-03-05
  
