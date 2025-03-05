@@ -12,7 +12,7 @@ trouver équivalent dans ELN
 	- [x] Homebridge ✅ 2025-03-05
 	- [x] Apple Maison ✅ 2025-03-05
 - [/] [[#Appareil]]
-	- [ ] HomePod mini
+	- [x] HomePod mini ✅ 2025-03-05
 	- [ ] SwitchBot Hub2
 	- [ ] Prise
 	- [ ] Ampoule

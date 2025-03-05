@@ -73,6 +73,7 @@ sliceSize: 16
 - ### 🏠Domotique
 	 - [[Action Domotique List]]
 	 - [[Applications]]
+	 - [[Appareils]]
 
 
 - ### 🤝 [[Meetings]]

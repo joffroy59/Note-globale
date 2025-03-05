@@ -244,7 +244,11 @@
     "application/zigbee/Opensource_Homebridge": 5,
     "application/Goolge/Opensource_Homebridge": 4,
     "application/Homekit/Apple_Maison": 8,
-    "application/Thread/Apple_Maison": 6
+    "application/Thread/Apple_Maison": 6,
+    "appareil/Homekit": 3,
+    "appareil/Homekit/Apple_HomePod_mini": 1,
+    "appareil/Thread": 4,
+    "appareil/Thread/Apple_HomePod_mini": 1
   },
   "_version": 3
 }
