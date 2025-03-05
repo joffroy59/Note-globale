@@ -30,7 +30,12 @@ async function new_appareil(tp, return_type, out_folder) {
   const date_created = date.toISOString().split('T')[0];
 
   /**********************************************************************************/
-  const manufacturer = await tp.system.prompt("Enter manufacturer:", "")
+  const manufacturer_liost = eln_settings.domotique.manufacturer
+  const manufacturer = await tp.system.suggester(manufacturer_liost, manufacturer_liost, false, "Choose Manufacturer:", "")
+  if (manufacturer == "Autre ...") {
+    manufacturer = await tp.system.prompt("Enter Manufacturer:", "")
+  }
+
   const model = await tp.system.prompt("Enter model:", "")
   const appareil_name = await tp.system.prompt("Enter appareil name:", manufacturer + " - " + model)
   const appareil_type_list = eln_settings.appareil.type

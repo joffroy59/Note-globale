@@ -173,6 +173,13 @@ application:
     - zigbee
     - Goolge
 domotique:
+  manufacturer:
+    - Apple
+    - Google
+    - SwitchBot
+    - Boulanger
+    - Leroy Merlin
+    - Autre ...
   rooms:
     - Salon
     - Chambre
