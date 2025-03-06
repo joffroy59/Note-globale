@@ -1,4 +1,3 @@
-
 ---
 Title: "Qui sont les profils des générations X, Y et Z ?"
 URL: https://www.journalducm.com/generations-x-y-z/

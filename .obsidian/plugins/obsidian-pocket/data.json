@@ -1,3 +1,5 @@
 {
-  "item-notes-folder": "Pocket"
+  "item-notes-folder": "Pocket",
+  "item-note-template": "Pocket/Pocket-default.md",
+  "frontmatter-url-key": "URL"
 }
