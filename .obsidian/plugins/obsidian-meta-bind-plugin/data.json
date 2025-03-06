@@ -1176,6 +1176,57 @@
         }
       ],
       "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;"
+    },
+    {
+      "label": "Pocket Sync 🔄",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgba(var(--neutral-red_x), 0.5);",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "pocket-sync",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-pocket:sync-pocket-list"
+        }
+      ]
+    },
+    {
+      "label": "Pocket Open List",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgba(var(--neutral-red_x), 0.2);",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "pocket-open-list",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-pocket:open-pocket-list"
+        }
+      ]
+    },
+    {
+      "label": "Pocket Create All notes",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgba(var(--neutral-red_x), 0.3);",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "pocket-create-all-notes",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-pocket:create-all-pocket-item-notes"
+        }
+      ]
     }
   ],
   "excludedFolders": [
