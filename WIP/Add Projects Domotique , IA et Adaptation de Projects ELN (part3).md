@@ -5,15 +5,8 @@ trouver équivalent dans ELN
 ## Tasks
 
 - [x] [[#WIP Domotique]] ✅ 2025-03-05
-
-
-- [ ] different type de wip ia 
-	- [ ] civitai
-	- [ ] comfyui 
-	- [ ] autres
-- [ ] différent type de state : create auto de 
-	- [ ] todo
-	- [ ] done
+- [ ] [[#Different type de wip IA ]]
+- [ ] [[#Différent type de state]]
 
 
 
@@ -39,3 +32,17 @@ attention a maction button appele (en dur ? )
 	- [x] adaptation [[Projects]] pour avoir un settings (solution simple) pour definir le nom de l'action du bouton ✅ 2025-03-05
 	- [x] template a creer ? non a priro ✅ 2025-03-05
  
+
+### Different type de wip IA
+
+- [ ] civitai
+- [ ] comfyui 
+- [ ] autres#todo
+
+
+
+### Différent type de state
+
+#### create auto de 
+- [ ] todo
+- [ ] done

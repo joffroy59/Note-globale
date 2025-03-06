@@ -4,7 +4,7 @@ const MAX_HEADING_LENGTH = 50;
 
 
 // Get the selected text
-let text = app.workspace.activeEditor.getSelection()
+let text = app.workspace.activeEditor.getSelection().split("\n")[0]
 
 // Get the heading
 let heading = text
@@ -12,10 +12,10 @@ let heading = text
 if (heading.length > MAX_HEADING_LENGTH) {
     heading = heading.substring(0, MAX_HEADING_LENGTH) + "..."
 } else {
-	text = "#todo"
+	text = ""
 }
-
-text = `\n\n### ${heading.trim()}\n\n${text.trim()}\n\n`
+text = `\n\n### ${heading.trim()}\n${text.trim()}\n`
+text += "#todo" + "\n"
 let embed = `[[#${heading}]]`
 
 // Add the text to the destination note
