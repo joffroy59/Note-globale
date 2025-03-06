@@ -29,6 +29,7 @@ title: Note
 
 
 ### fix problem doublon on each  open note or sync from  list of note
-- [ ] find template to remove first blank line which break definiton on metadata
-- [ ] replace by one from me [[Pocket-default]]
+- [x] find template to remove first blank line which break definiton on metadata ✅ 2025-03-07
+      pas trouvé le ficheir mais dans le readme github
+- [x] replace by one from me [[Pocket-default]] ✅ 2025-03-07
 
