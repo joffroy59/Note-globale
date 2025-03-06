@@ -36,7 +36,7 @@ title: Note
 - [x] replace by one from me [[Pocket-default]] ✅ 2025-03-07
 - [ ] in note
 	- [x] [[Home]] dans [[Home# Miscellaneous]] ✅ 2025-03-07
-	- [ ] [[📒Daily Note Template]]
+	- [x] [[📒Daily Note Template]] ✅ 2025-03-07
 
 
 
