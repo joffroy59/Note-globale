@@ -261,7 +261,8 @@
     "appareil/none/Quinpin_CGGT": 2,
     "undefined": 118,
     "ref1": 119,
-    "status/failed": 5
+    "status/failed": 5,
+    "achat": 120
   },
   "_version": 3
 }
