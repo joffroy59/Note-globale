@@ -12,7 +12,7 @@ note type: dashboard
 tags:
   - dashboard
 banner-height: 250
-sliceSize: 16
+sliceSize: 6
 ---
 # Work
 - ### 📽️[[Projects]]
@@ -71,6 +71,7 @@ sliceSize: 16
 	 - [[Conferences]]
   ### Pocket
  `BUTTON[pocket-sync,pocket-open-list,pocket-create-all-notes]` 
+
 
 - ### 🏠Domotique
 	 - [[Action Domotique List]]
