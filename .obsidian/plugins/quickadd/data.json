@@ -2600,6 +2600,19 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "pocket-sync",
+      "id": "ab72b81b-2ce3-46d3-bbe4-99f66056d3e6",
+      "commands": [
+        {
+          "name": "Pocket: Sync Pocket list",
+          "type": "Obsidian",
+          "id": "bbd95813-b141-41ae-8f11-4df0e10eaabf",
+          "commandId": "obsidian-pocket:sync-pocket-list"
+        }
+      ],
+      "runOnStartup": true
     }
   ],
   "inputPrompt": "single-line",

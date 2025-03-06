@@ -37,6 +37,9 @@ title: Note
 - [ ] in note
 	- [x] [[Home]] dans [[Home# Miscellaneous]] ✅ 2025-03-07
 	- [x] [[📒Daily Note Template]] ✅ 2025-03-07
+	- [ ] macro dans quickadd
+	      ![[Plugin Add Pocket-1741305442257.png|150]]  ![[Plugin Add Pocket-1741305465629.png|400]]
+	- [ ] test reload Obsidian and check monte sync
 
 
 
