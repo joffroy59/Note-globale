@@ -1,6 +1,6 @@
 <%*
 // Define the maximum length of the heading
-const MAX_HEADING_LENGTH = 50;
+const MAX_HEADING_LENGTH = 75;
 
 
 // Get the selected text
