@@ -4,7 +4,7 @@ cssclass: dashboard, wide-page
 banner: "[[obsidian-eln-banner.png]]"
 banner_y: 0.5
 author: Jerome Offroy
-date created: 2025-03-05
+date created: 2025-03-06
 note type: project
 tag:
   - " #project/IA "

@@ -260,7 +260,8 @@
     "appareil/Homekit/Quinpin_CGGT": 4,
     "appareil/none/Quinpin_CGGT": 2,
     "undefined": 118,
-    "ref1": 119
+    "ref1": 119,
+    "status/failed": 5
   },
   "_version": 3
 }

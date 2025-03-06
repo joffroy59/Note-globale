@@ -16,6 +16,7 @@ tags:
   - IA/comfyui/flux
   - IA/application
   - "#status/cancel"
+  - "#status/failed"
 ---
 ````ad-tip
 Source : https://game.intel.com/us/stories/introducing-ai-playground/
