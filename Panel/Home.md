@@ -69,6 +69,8 @@ sliceSize: 16
 - ### Miscellaneous
 	 - [[Electrochemical Glossary]]
 	 - [[Conferences]]
+  ### Pocket
+ `BUTTON[pocket-sync,pocket-open-list,pocket-create-all-notes]` 
 
 - ### 🏠Domotique
 	 - [[Action Domotique List]]
