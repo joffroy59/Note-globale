@@ -35,8 +35,8 @@ title: Note
       pas trouvé le ficheir mais dans le readme github
 - [x] replace by one from me [[Pocket-default]] ✅ 2025-03-07
 - [ ] in note
-	- [ ] [[Home]] dans [[Home# Miscellaneous]]
-	- [ ] 
+	- [x] [[Home]] dans [[Home# Miscellaneous]] ✅ 2025-03-07
+	- [ ] [[📒Daily Note Template]]
 
 
 
