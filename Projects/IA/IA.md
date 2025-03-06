@@ -60,6 +60,15 @@ project:
   LIMIT 6
   ```
 
+- ### [[Todo - IA|👉TODO]]
+  ```dataview
+  LIST
+  FROM #done AND !"Assets" AND !"Templates"
+  WHERE project.name = this.project.name
+  SORT file.mtime.ts DESC
+  LIMIT 6
+  ```
+
 - ### [[Analyses]]
   ```dataview
   LIST
