@@ -3,7 +3,7 @@
 		{"id":"c3dfb21356ff7c20","type":"group","x":-800,"y":-1020,"width":1500,"height":860,"label":"Untitled group"},
 		{"id":"976a53d48e2e53e0","type":"text","text":"```query  \ntask-todo:\"\"\n```\n","x":-780,"y":-1000,"width":420,"height":820},
 		{"id":"92b3011b0fcafc82","type":"text","text":"```tasks\nstatus.name includes todo\n```\n\n```tasks:\nstatus.name includes todo\n```\n\n","x":-340,"y":-1000,"width":600,"height":820},
-		{"id":"6676979e903d9cd1","type":"file","file":"Tasks/Sandbox test task.md","x":280,"y":-1000,"width":400,"height":340},
+		{"id":"6676979e903d9cd1","type":"file","file":"Tasks/🚧WIP/Sandbox test task.md","x":280,"y":-1000,"width":400,"height":340},
 		{"id":"44441e8381245516","type":"text","text":"Note de Travail\n- [[Sandbox test task]]\n- [[Test Tag By query]]\n- autre","x":-780,"y":-1240,"width":250,"height":160},
 		{"id":"a722c97f00c9d079","x":-720,"y":-2120,"width":782,"height":829,"type":"link","url":"https://www.lazysnail.net/obsidian/Obsdian-dataview-tasks"}
 	],

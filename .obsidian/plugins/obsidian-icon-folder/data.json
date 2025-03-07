@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SvMicrosoftTodoSvgrepoCom",
       "IbIphone",
       "SvIphoneStyleSmartphoneSvgrepoCom",
       "SvExperimentSvgrepoCom",
-      "🧪",
-      "MyNoteSvgrepoCom"
+      "🧪"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -137,5 +137,6 @@
   "Panel/Task Archives.md": "💾",
   "Tasks/List": "MyYellowListOrder13190",
   "Tasks/note": "MyNoteSvgrepoCom",
-  "Experiments": "SvExperimentSvgrepoCom"
+  "Experiments": "SvExperimentSvgrepoCom",
+  "Tasks/TODO.md": "SvMicrosoftTodoSvgrepoCom"
 }

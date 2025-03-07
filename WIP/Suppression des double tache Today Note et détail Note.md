@@ -55,63 +55,63 @@ Exemple
 	    - [x] bouton `BUTTON[insert-daily-other-v2]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert Problem]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Problem]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert Problem - Appart]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Problem - Appart]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert Problem - Ask]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Problem - Ask]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert Problem - Domotique]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Problem - Domotique]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert Problem - PC]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Problem - PC]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert ToView]] - Insert Note: [[Insert ToView v2]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert ToView]] - Insert Note: [[Insert ToView v2]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[insert-daily-toview-v2]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [-] [[Insert Win]] - Insert Note: [[todo]] - Détails note: [[todo]]
+	- [-] [[Insert Win]] - Insert Note: [[TODO]] - Détails note: [[TODO]]
 	    - [-] action
 	    - [-] bouton `BUTTON[TODO]`
 	    - [-] test
 	    - [-] remplacement [[Panel/Actions|Actions]]
-	- [x] [[Insert WIP IA]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert WIP IA]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert Wip IA - ComFyUI - Flux]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Wip IA - ComFyUI - Flux]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
 
-	- [x] [[Insert Wip IA - IA civitai]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Wip IA - IA civitai]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert Wip IA - Model]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert Wip IA - Model]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04
 	    - [x] remplacement [[Panel/Actions|Actions]] ✅ 2025-02-04
-	- [x] [[Insert WIP New]] - Insert Note: [[todo]] - Détails note: [[todo]] ✅ 2025-02-04
+	- [x] [[Insert WIP New]] - Insert Note: [[TODO]] - Détails note: [[TODO]] ✅ 2025-02-04
 	    - [x] action ✅ 2025-02-04
 	    - [x] bouton `BUTTON[TODO]` ✅ 2025-02-04
 	    - [x] test ✅ 2025-02-04

@@ -78,7 +78,7 @@ tags:
     - [ ] https://github.com/ltdrdata/ComfyUI-extension-tutorials |  [[GitHub - ltdrdataComfyUI-extension-tutorials]] #todo  ➕ 2025-02-23 
     - [ ] Remove Admonition des page insert todo or wip - Detail Note car ca empeche de changer le status des taches dans l'admonition  #todo  ➕ 2025-02-23 
     - [ ] Create a template pour créer un Bouton avec action voir [[Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA]]   #todo  ➕ 2025-02-06 
-      - [ ] [[Tasks/Todo]]  #todo  ➕ 2025-02-06  
+      - [ ] [[TODO]]  #todo  ➕ 2025-02-06  
 - [ ] **TODO**  ➕ 2025-02-26
 	- [ ] [[lien vers  note créés ce jour et autre qui ont été enlevé de daily note]]  #todo #obsidian  ➕ 2025-02-26 
 	- [ ] Test [[Reminder Sync for Obsidian]] pour sync rappel ios to obsidian #obsidian #status/wip 
