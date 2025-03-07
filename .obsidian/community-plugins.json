@@ -3,7 +3,6 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "obsidian-rollover-daily-todos",
-  "periodic-notes",
   "obsidian-meta-bind-plugin",
   "homepage",
   "obsidian-icon-folder",
@@ -24,5 +23,6 @@
   "open-vscode",
   "query-control",
   "copilot",
-  "obsidian-pocket"
+  "obsidian-pocket",
+  "periodic-notes"
 ]

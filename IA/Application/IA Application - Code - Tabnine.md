@@ -21,7 +21,7 @@ tags:
 ````ad-tip
 Source : https://www.tabnine.com/
 
-<video width="640" height="360" controls>
+<video  controls>
   <source src="https://d3monxcmeifzlf.cloudfront.net/wp-content/uploads/2024/04/NWS-04-2128_996.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
