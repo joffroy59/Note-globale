@@ -2,7 +2,7 @@
 const type_list = ["Clavier", "Souris"]
 const type = await tp.system.suggester((item) => item, type_list);
 
-const tableStart = "Date de Recharge<br>${type}";
+const tableStart = "Recharge ${type} 🔌";
 const tableEnd = "| **Ajouter une nouvelle recharge ici :";
 
 let content = tp.file.content;

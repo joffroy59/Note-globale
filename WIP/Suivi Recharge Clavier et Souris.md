@@ -14,7 +14,7 @@ tags:
 
 #### Historique des Recharges
 
-| Date de Recharge<br>Clavier            | Durée de Charge (heures) | etat  | Action | Autonomie (jours) | Notes                      |
+| Date de Recharge Clavier 🔌             | Durée de Charge (heures) | etat  | Action | Autonomie (jours) | Notes                      |
 | --------------------------------------- | ------------------------ | ----- | ------ | ----------------- | -------------------------- |
 | [Date]                                  | [Durée]                  |       |        | [Autonomie]       | [Notes supplémentaires]    |
 | 2025-03-01 16:35                        |                          | 4 🪫  | 🔌     |                   | Première recharge  suivie. |
@@ -74,7 +74,7 @@ Action:
 
 #### Historique des Recharges
 
-| Date de Recharge<br>Souris              | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes |
+| Date de Recharge Souris 🔌              | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes |
 | --------------------------------------- | ------------------------ | ---- | ------ | ----------------- | ----- |
 | **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |       |
 
