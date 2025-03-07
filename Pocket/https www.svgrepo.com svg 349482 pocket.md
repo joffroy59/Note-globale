@@ -8,3 +8,10 @@ Excerpt: >
 ---
 
 
+
+<%*
+const url = tp.file.cursor();
+const embed = await tp.obsidianLinkEmbed.embed('https://www.svgrepo.com/svg/349482/pocket');
+%>
+<% embed %>
+
