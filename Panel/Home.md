@@ -69,9 +69,10 @@ sliceSize: 6
 - ### Miscellaneous
 	 - [[Electrochemical Glossary]]
 	 - [[Conferences]]
-  ### Pocket
+  ###  ![[pocket-svgrepo-com.svg|24]] Pocket
+ &nbsp;
  `BUTTON[pocket-sync,pocket-open-list,pocket-create-all-notes]` 
-
+ &nbsp;
 
 - ### 🏠Domotique
 	 - [[Action Domotique List]]
