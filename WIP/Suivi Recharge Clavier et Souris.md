@@ -14,7 +14,7 @@ tags:
 
 #### Historique des Recharges
 
-| Date de Recharge                        | Durée de Charge (heures) | etat  | Action | Autonomie (jours) | Notes                      |
+| Date de Recharge<br>Clavier            | Durée de Charge (heures) | etat  | Action | Autonomie (jours) | Notes                      |
 | --------------------------------------- | ------------------------ | ----- | ------ | ----------------- | -------------------------- |
 | [Date]                                  | [Durée]                  |       |        | [Autonomie]       | [Notes supplémentaires]    |
 | 2025-03-01 16:35                        |                          | 4 🪫  | 🔌     |                   | Première recharge  suivie. |
@@ -62,3 +62,29 @@ Action:
 - [ ] Tester l'autonomie avec différents niveaux de rétroéclairage.
 - [ ] Comparer avec les spécifications du fabricant pour évaluer les performances de la batterie.
 
+
+
+### Suivi de la Recharge de la Souris
+
+**Date d'Achat :** [Insérer la date d'achat] #todo 
+
+**Modèle du Clavier :** [Insérer le modèle] #todo 
+
+---
+
+#### Historique des Recharges
+
+| Date de Recharge<br>Souris              | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes |
+| --------------------------------------- | ------------------------ | ---- | ------ | ----------------- | ----- |
+| **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |       |
+
+
+^bbe402
+
+`BUTTON[new-suivi-charge-keyboard]`
+^2abdb2
+
+Action:
+- 🔌: recharge
+- 🔍 : status
+- 🛑: stop

@@ -1,5 +1,8 @@
 <%*
-const tableStart = "Date de Recharge";
+const type_list = ["Clavier", "Souris"]
+const type = await tp.system.suggester((item) => item, type_list);
+
+const tableStart = "Date de Recharge<br>${type}";
 const tableEnd = "| **Ajouter une nouvelle recharge ici :";
 
 let content = tp.file.content;
@@ -12,5 +15,7 @@ if (startIndex !== -1 && endIndex !== -1) {
   var file = app.workspace.getActiveFile()
 
   app.vault.modify(file, content)
+} else {
+	
 }
 -%>
