@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasPlugCircleExclamation",
-      "🔌",
-      "MyPluginSvgrepoCom",
-      "MyPluginSvgrepoCom(1)",
-      "🉐"
+      "IbIphone",
+      "SvIphoneStyleSmartphoneSvgrepoCom",
+      "SvExperimentSvgrepoCom",
+      "🧪",
+      "MyNoteSvgrepoCom"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -53,7 +53,10 @@
   "Backup": "📦",
   "Panel": "🚪",
   "attachments": "📎",
-  "From Iphone": "📱",
+  "From Iphone": {
+    "iconName": "IbIphone",
+    "iconColor": "#bca11a"
+  },
   "Admin/Procédure": "📋",
   "Admin/Backup": "💾",
   "Admin/Plugins": "🔌",
@@ -121,15 +124,18 @@
   "Panel/Star.md": "⭐",
   "IA/Model": "SiThemodelsresource",
   "Idea": "💡",
-  "Note": "📝",
+  "Note": "MyNoteSvgrepoCom",
   "Other": "👉",
   "ToView": "👀",
   "IA/Wip": "🚧",
   "IA/Application": "TiApps",
   "Problems": "🚨",
   "Lists": "MyList6248",
-  "Tasks/Task Archives.md": "💾",
   "Pocket": "MyPocketSvgrepoCom(2)",
   "Tasks/DONE.md": "✅",
-  "Panel/Home.md": "MyHomeSvgrepoCom(1)"
+  "Panel/Home.md": "MyHomeSvgrepoCom(1)",
+  "Panel/Task Archives.md": "💾",
+  "Tasks/List": "MyYellowListOrder13190",
+  "Tasks/note": "MyNoteSvgrepoCom",
+  "Experiments": "SvExperimentSvgrepoCom"
 }
