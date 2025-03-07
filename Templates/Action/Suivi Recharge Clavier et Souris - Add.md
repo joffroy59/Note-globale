@@ -15,7 +15,7 @@ if (startIndex !== -1 && endIndex !== -1) {
 	var file = app.workspace.getActiveFile()
 
 	app.vault.modify(file, content)
-	new Notice(error.message)
+	new Notice("Added Line")
 } else {
 		console.log("Error in insert")
 		new Notice(error.message)
