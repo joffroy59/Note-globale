@@ -74,9 +74,11 @@ Action:
 
 #### Historique des Recharges
 
-| Date de Recharge Souris 🔌              | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes |
-| --------------------------------------- | ------------------------ | ---- | ------ | ----------------- | ----- |
-| **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |       |
+| Date de Recharge Souris 🔌              | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes             |
+| --------------------------------------- | ------------------------ | ---- | ------ | ----------------- | ----------------- |
+| 2025-03-07 19:30                        |                          | 0    | 🔌     |                   | Ajout automatique |
+| 2025-03-07 20:19 | ❓ | ❓ | 🔌🔍🛑 | ❓ | Ajout automatique |
+| **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |                   |
 
 
 ^bbe402
