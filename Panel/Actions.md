@@ -18,6 +18,10 @@ cov:
 
 `BUTTON[insert-daily-task,insert-daily-task-obsidian]`
 
+ `BUTTON[pocket-sync]` 
+ 
+ `BUTTON[pocket-open-list,pocket-create-all-notes]` 
+
  `BUTTON[new-domotic-action]`  
 
 `BUTTON[insert-daily-bote-select]`
@@ -27,3 +31,4 @@ cov:
 `BUTTON[insert-problem-daily-insert-v2]`
 
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique]`
+
