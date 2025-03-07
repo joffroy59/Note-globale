@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SvTemplateSvgrepoCom(1)",
+      "SvToolScrewdriverSvgrepoCom",
       "SvMicrosoftTodoSvgrepoCom",
       "IbIphone",
-      "SvIphoneStyleSmartphoneSvgrepoCom",
-      "SvExperimentSvgrepoCom",
-      "🧪"
+      "SvIphoneStyleSmartphoneSvgrepoCom"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,9 +41,9 @@
   "Assets": "📼",
   "Perso": "👤",
   "Tasks": "🚀",
-  "Templates": "LiLayoutTemplate",
+  "Templates": "SvTemplateSvgrepoCom(1)",
   "Chats": "💬",
-  "Tools": "⚒",
+  "Tools": "SvToolScrewdriverSvgrepoCom",
   "Admin": "MyAdmin",
   "WIP": "🚧",
   "Panel/Actions.md": "🉐",
