@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "MyPocketSvgrepoCom(2)",
-      "MyPocketSvgrepoCom",
-      "SiPocket",
-      "💾",
-      "MyList6248"
+      "FasPlugCircleExclamation",
+      "🔌",
+      "MyPluginSvgrepoCom",
+      "MyPluginSvgrepoCom(1)",
+      "🉐"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -46,8 +46,8 @@
   "Tools": "⚒",
   "Admin": "MyAdmin",
   "WIP": "🚧",
-  "Panel/Actions.md": "㊗",
-  "Panel/Fix Plugins Actions.md": "LiPlug",
+  "Panel/Actions.md": "🉐",
+  "Panel/Fix Plugins Actions.md": "FasPlugCircleExclamation",
   "Domotique": "🏠",
   "Exemples": "📚",
   "Backup": "📦",
@@ -129,5 +129,7 @@
   "Problems": "🚨",
   "Lists": "MyList6248",
   "Tasks/Task Archives.md": "💾",
-  "Pocket": "MyPocketSvgrepoCom(2)"
+  "Pocket": "MyPocketSvgrepoCom(2)",
+  "Tasks/DONE.md": "✅",
+  "Panel/Home.md": "MyHomeSvgrepoCom(1)"
 }
