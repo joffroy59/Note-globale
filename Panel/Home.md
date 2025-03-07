@@ -48,7 +48,7 @@ sliceSize: 6
   LIMIT 6
   ```
 
-- ### [[Tasks/WIP]]
+- ### [[Tasks/🚧WIP/WIP]]
   ```dataview
   TABLE
   FROM #status/wip AND !"Assets" AND !"Templates"
