@@ -1,15 +1,10 @@
 ---
 Title: "https://www.svgrepo.com/svg/349482/pocket"
-URL:
-  "{ url }": 
-Pocket URL:
-  "{ pocket-url }": 
-tags:
-  - pocket
-  - toview
-  - clippings
-Excerpt: |
-  
+URL: https://www.svgrepo.com/svg/349482/pocket
+Pocket URL: https://getpocket.com/read/4186438914
+Tags: [pocket,toview,clippings, ]
+Excerpt: >
+    
 ---
 
 

@@ -1,15 +1,10 @@
 ---
 Title: "https://console.mistral.ai/build/agents"
-URL:
-  "{ url }": 
-Pocket URL:
-  "{ pocket-url }": 
-tags:
-  - pocket
-  - toview
-  - clippings
-Excerpt: |
-  
+URL: https://console.mistral.ai/build/agents
+Pocket URL: https://getpocket.com/read/4163009859
+Tags: [pocket,toview,clippings, ]
+Excerpt: >
+    
 ---
 
 
