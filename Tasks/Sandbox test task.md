@@ -15,7 +15,7 @@ tags:
 
 ## Moi 
 
-[[Tasks/ok1]]
+[[ok1]]
 ## Trouvés 
 
 [[Found OK]]
