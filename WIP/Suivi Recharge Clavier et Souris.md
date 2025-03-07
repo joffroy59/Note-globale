@@ -6,9 +6,9 @@ tags:
 ---
 ### Suivi de la Recharge du Clavier
 
-**Date d'Achat :** [Insérer la date d'achat] #todo 
+**Date d'Achat :** [Insérer la date d'achat] #todo
 
-**Modèle du Clavier :** [Insérer le modèle] #todo 
+**Modèle :** [Insérer le modèle] #todo
 
 ---
 
@@ -29,7 +29,7 @@ tags:
 
 ^bbe402
 
-`BUTTON[new-suivi-charge-keyboard]`
+`BUTTON[new-suivi-charge-periph]`
 ^2abdb2
 
 Action:
@@ -38,7 +38,7 @@ Action:
 - 🛑: stop
 
 
-- [ ] #todo bouton pour ajouter une date heure 
+- [ ] #todo bouton pour ajouter une date heure
 - [ ] #todo sélection des action
 
 ---
@@ -66,9 +66,9 @@ Action:
 
 ### Suivi de la Recharge de la Souris
 
-**Date d'Achat :** [Insérer la date d'achat] #todo 
+**Date d'Achat :** [Insérer la date d'achat] #todo
 
-**Modèle du Clavier :** [Insérer le modèle] #todo 
+**Modèle :** [Insérer le modèle] #todo
 
 ---
 
@@ -81,7 +81,7 @@ Action:
 
 ^bbe402
 
-`BUTTON[new-suivi-charge-keyboard]`
+`BUTTON[new-suivi-charge-periph]`
 ^2abdb2
 
 Action:

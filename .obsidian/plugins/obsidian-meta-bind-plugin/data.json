@@ -1145,14 +1145,14 @@
       ]
     },
     {
-      "label": "Add Suivi Charge Clavier",
+      "label": "Add Suivi Charge",
       "icon": "",
       "style": "default",
       "class": "",
       "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
       "backgroundImage": "",
       "tooltip": "",
-      "id": "new-suivi-charge-keyboard",
+      "id": "new-suivi-charge-periph",
       "hidden": false,
       "actions": [
         {
