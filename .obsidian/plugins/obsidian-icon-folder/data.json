@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "MyPocketSvgrepoCom(2)",
+      "MyPocketSvgrepoCom",
+      "SiPocket",
       "💾",
-      "MyList6248",
-      "MyList6250",
-      "MyList6215",
-      "MyList6251"
+      "MyList6248"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -128,5 +128,6 @@
   "IA/Application": "TiApps",
   "Problems": "🚨",
   "Lists": "MyList6248",
-  "Tasks/Task Archives.md": "💾"
+  "Tasks/Task Archives.md": "💾",
+  "Pocket": "MyPocketSvgrepoCom(2)"
 }
