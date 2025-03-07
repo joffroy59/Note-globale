@@ -8,3 +8,6 @@ Excerpt: >
 ---
 
 ![image](https://www.journalducm.com/media/G%C3%A9n%C3%A9ration-x-y-z.jpg)
+
+https://www.journalducm.com/generations-x-y-z/
+

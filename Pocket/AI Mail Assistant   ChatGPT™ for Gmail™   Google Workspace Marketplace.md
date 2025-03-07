@@ -8,3 +8,6 @@ Excerpt: >
 ---
 
 
+
+https://workspace.google.com/marketplace/app/ai_mail_assistant_chatgpt_for_gmail/793320270264
+

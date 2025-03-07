@@ -8,3 +8,6 @@ Excerpt: >
 ---
 
 ![image](https://images.frandroid.com/wp-content/uploads/2025/02/image-127-20.jpg)
+
+https://www.frandroid.com/comment-faire/tutoriaux/2524463_comment-utiliser-chatgpt-mistral-le-chat-perplexity-ou-grok-comme-moteur-de-recherche-par-defaut-sur-chrome-safari-ou-edge
+
