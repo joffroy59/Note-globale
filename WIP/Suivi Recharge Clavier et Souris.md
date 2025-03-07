@@ -76,8 +76,8 @@ Action:
 
 | Date de Recharge Souris 🔌              | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes             |
 | --------------------------------------- | ------------------------ | ---- | ------ | ----------------- | ----------------- |
-| 2025-03-07 19:30                        |                          | 0    | 🔌     |                   | Ajout automatique |
-| 2025-03-07 20:19 | ❓ | ❓ | 🔌🔍🛑 | ❓ | Ajout automatique |
+| 2025-03-07 19:30                        |                          | ?    | 🔌     |                   | Ajout automatique |
+| 2025-03-07 20:19                        | 0:49                     | 72%  | 🔍     | ❓                 | Ajout automatique |
 | **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |                   |
 
 
@@ -85,6 +85,8 @@ Action:
 
 `BUTTON[new-suivi-charge-periph]`
 ^2abdb2
+
+regarder la charge avec Ghub
 
 Action:
 - 🔌: recharge

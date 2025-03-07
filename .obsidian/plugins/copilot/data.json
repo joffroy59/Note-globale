@@ -43,7 +43,7 @@
     {
       "name": "copilot-plus-flash",
       "provider": "copilot-plus",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -53,7 +53,7 @@
     {
       "name": "gpt-4o",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -63,7 +63,7 @@
     {
       "name": "gpt-4o-mini",
       "provider": "openai",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -73,7 +73,7 @@
     {
       "name": "claude-3-5-sonnet-latest",
       "provider": "anthropic",
-      "enabled": true,
+      "enabled": false,
       "isBuiltIn": true,
       "core": true,
       "capabilities": [
@@ -97,66 +97,6 @@
       "enableCors": true
     },
     {
-      "name": "o1-mini",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "reasoning"
-      ]
-    },
-    {
-      "name": "o3-mini",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "reasoning"
-      ]
-    },
-    {
-      "name": "claude-3-5-haiku-latest",
-      "provider": "anthropic",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "command-r",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "command-r-plus",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
-      "name": "gemini-2.0-pro-exp",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision"
-      ]
-    },
-    {
-      "name": "gemini-2.0-flash",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision"
-      ]
-    },
-    {
-      "name": "azure-openai",
-      "provider": "azure openai",
-      "enabled": true,
-      "isBuiltIn": true
-    },
-    {
       "name": "phi3",
       "provider": "ollama",
       "enabled": true,
@@ -169,6 +109,77 @@
       ],
       "stream": true,
       "enableCors": false
+    },
+    {
+      "name": "deepseek-r1:14b",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true
+    },
+    {
+      "name": "o1-mini",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ]
+    },
+    {
+      "name": "o3-mini",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ]
+    },
+    {
+      "name": "claude-3-5-haiku-latest",
+      "provider": "anthropic",
+      "enabled": false,
+      "isBuiltIn": true
+    },
+    {
+      "name": "command-r",
+      "provider": "cohereai",
+      "enabled": false,
+      "isBuiltIn": true
+    },
+    {
+      "name": "command-r-plus",
+      "provider": "cohereai",
+      "enabled": false,
+      "isBuiltIn": true
+    },
+    {
+      "name": "gemini-2.0-pro-exp",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gemini-2.0-flash",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "azure-openai",
+      "provider": "azure openai",
+      "enabled": false,
+      "isBuiltIn": true
     }
   ],
   "activeEmbeddingModels": [
@@ -299,7 +310,7 @@
     {
       "name": "Generate glossary",
       "prompt": "<instruction>Create a glossary of important terms, concepts, and phrases from the text below. Format each entry as \"Term: Definition\". Sort entries alphabetically. Return only the glossary.</instruction>\n\n<text>{copilot-selection}</text>",
-      "showInContextMenu": false
+      "showInContextMenu": true
     },
     {
       "name": "Remove URLs",
@@ -319,7 +330,7 @@
     {
       "name": "Explain like I am 5",
       "prompt": "<instruction>Explain the text below in simple terms that a 5-year-old would understand:\n    1. Use basic vocabulary\n    2. Include simple analogies\n    3. Break down complex concepts\n    Return only the simplified explanation.</instruction>\n\n<text>{copilot-selection}</text>",
-      "showInContextMenu": false
+      "showInContextMenu": true
     },
     {
       "name": "Rewrite as press release",
