@@ -39,7 +39,7 @@ let note = await tp.system.prompt("Note");
 
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 -%>
-<%* tR+= await tp.file.include(`[[Source - Url - Image - Video]]`); %>
+<% tR+= await tp.file.include(`[[Source - Url - Image - Video]]`); %>
 
 
 ````ad-note
