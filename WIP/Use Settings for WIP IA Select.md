@@ -12,6 +12,7 @@ tags:
 ---
 
 
+# Use Settings for WIP IA Select
 For [[Insert Wip IA - Task - Select]]
 
 ---
@@ -30,3 +31,11 @@ For [[Insert Wip IA - Task - Select]]
 
 
 
+# Refactor WIP IA Select
+
+---
+## Tasks
+- [/] use only one insert note : [[InsertSelect]]
+
+
+---

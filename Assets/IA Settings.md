@@ -3,7 +3,7 @@ ELN version: 0.4.2
 note:
   author: Jerome Offroy
   initials: JO
-folder:
+
 wip:
   types:
     - Generic
@@ -16,9 +16,12 @@ wip:
     - WAN 2.1
     - Application
     - StabilityMatrix - Application
-  template:
-    insert: Insert Wip IA - Task -
-
+  civitai:
+    title: civitai
+    folder: IA/ComfyUI/civitai
+    template:
+      create: Templates/IA/Create IA - Task - ComFyUI - civitai
+    tag: IA/civitai
 ---
 
 ## Settings
