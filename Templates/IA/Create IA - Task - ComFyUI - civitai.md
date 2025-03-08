@@ -67,7 +67,6 @@ Source : <% url %>
 <%*   } -%>
 ````
 <%* } -%>
-````
 
 ````ad-quote
 title: Generation data
