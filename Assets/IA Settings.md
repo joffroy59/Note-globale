@@ -30,6 +30,12 @@ wip:
     template:
       create: Templates/IA/Create IA - Task - ComFyUI
     tag: IA/comfyui
+  ComFyUI - Flux:
+    title: ComfyUI-Flux -
+    folder: IA/ComfyUI/Flux
+    template:
+      create: Templates/IA/Create IA - Task - ComFyUI - Flux
+    tag: IA/comfyui/flux
 ---
 
 ## Settings
