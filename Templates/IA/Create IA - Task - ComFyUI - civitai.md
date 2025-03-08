@@ -38,19 +38,32 @@ let workflowDirList = [
     await tp.file.rename(`${title}`);
   }
 
-let sourceUrl = await tp.system.prompt("Source Url");
+let url = await tp.system.prompt("Source Url");
 
 let entree = title ;
 let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
 let nodeWorfklow = await tp.system.prompt("Nodes", null, false, true);
 let note = await tp.system.prompt("Note");
+
+const question = "Tasks ?"
+let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
+
+let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 -%>
 ````ad-tip
-Source : <% sourceUrl %>
+<%* if (url) { -%>
+Source : <% url %>
+<%* } -%>
 
-image: ![|400](<% image %>)
-
+<%* if (isVideo) { -%>
+<video controls>
+  <source src="<% image %>" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<%* } else if(image) { -%>
+![|400](<% image %>)
+<%* } -%>
 ````
 
 ````ad-quote
@@ -74,6 +87,7 @@ title: Note
 <% note %>
 
 ````
+
 ```ad-info
 title: Workflow Directories
 collapse: closed
@@ -84,6 +98,13 @@ for (workflowDir of workflowDirList)
 ```
 
 
+
+<%* if (taskEnable) { -%>
+---
+## Tasks
+- [ ] Task1
+
+<%* } -%>
 
 ---
 

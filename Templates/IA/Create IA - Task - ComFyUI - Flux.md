@@ -52,20 +52,32 @@ if (worflow){
 
 workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
-let sourceUrl = await tp.system.prompt("Source Url");
+let url = await tp.system.prompt("Source Url");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
+
+const question = "Tasks ?"
+let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
+
+let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 -%>
 ```ad-tip
-Source : <% sourceUrl %>
+<%* if (url) { -%>
+Source : <% url %>
+<%* } -%>
 
 worflow: <% worflow %>
 ⭐🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
 ✅ #todo
 
-image: ![|400](<% image %>)
-
-
+<%* if (isVideo) { -%>
+<video controls>
+  <source src="<% image %>" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<%* } else if(image) { -%>
+![|400](<% image %>)
+<%* } -%>
 ```
 
 ```ad-note
@@ -81,7 +93,13 @@ for (workflowDir of workflowDirList)
 -%>
 ```
 
-[[<% title %>]]
+
+<%* if (taskEnable) { -%>
+---
+## Tasks
+- [ ] Task1
+
+<%* } -%>
 
 ---
 
