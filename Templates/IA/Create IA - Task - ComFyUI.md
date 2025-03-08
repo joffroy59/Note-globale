@@ -44,7 +44,7 @@ const question = "Tasks ?"
 let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
 
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
-let hasTip = (url || image)
+let hasTip = (url || image || worflow)
 -%>
 <%* if (hasTip) { -%>
 ````ad-tip
@@ -66,7 +66,6 @@ worflow: <% worflow %>
 <%*   } -%>
 ````
 <%* } -%>
-````
 
 <%* if (note) { -%>
 ````ad-note
@@ -75,8 +74,6 @@ title: Note
 
 ````
 <%* } -%>
-
-
 
 <%* if (taskEnable) { -%>
 ---
