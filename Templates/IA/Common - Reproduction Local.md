@@ -9,9 +9,10 @@ let packageList = [
 	"SwarmUI", 
 	"InvokeAI"]
 
-	package = await tp.system.suggester((item) => item, packageList);
+	package = await tp.system.suggester((item) => item, packageList, false, "StabilityMatrix - Test Avec :");
 -%>
 
+<%* if (hasTip) { -%>
 ---
 ### StabilityMatrix 
 
@@ -21,5 +22,5 @@ Seed :
 ##### Execution
 ##### Result
 
-
 ---
+<%* } -%>
