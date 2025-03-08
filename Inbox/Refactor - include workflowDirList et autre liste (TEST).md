@@ -1,11 +1,8 @@
-template create
-[[Create IA - Task - ComFyUI - Flux NF4]]
-[[Create IA - Task - ComFyUI - Flux]]
-[[Create IA - Task - ComFyUI - WAN 2.1]]
-
-#tofinish
-
-
+##### Page contenant la variable 
+```query
+"let workflowDirList"
+```
+##### Note 
 
 like for typeList
 with [[Liste ComfyUI Type of Subject]]

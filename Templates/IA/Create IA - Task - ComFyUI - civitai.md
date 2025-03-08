@@ -30,6 +30,13 @@ let workflowDirList = [
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
+const eln_settings_file = "Assets/ELN Settings.md";
+const eln_settings_tfile = app.vault.getAbstractFileByPath(eln_settings_file);
+const eln_settings = app.metadataCache.getFileCache(eln_settings_tfile).frontmatter;
+
+let test  = eln_settings.note.author
+console.log(test)
+
 let title = tp.file.title
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {

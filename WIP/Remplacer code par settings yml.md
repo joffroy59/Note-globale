@@ -1,5 +1,6 @@
 
-vior [[Refactor - include workflowDirList et autre liste (TEST)]]
+voir  [[Refactor - include workflowDirList et autre liste (TEST)]]
+![[Refactor - include workflowDirList et autre liste (TEST)#Page contenant la variable]]
 
 let workflowDirList = [
 	"D:\\IA\\ComfyUI workflow\\Download",
@@ -20,3 +21,4 @@ comme ELN  [[ELN Settings]]
 
 
 a tester 
+- [/] test sur une page : [[Create IA - Task - ComFyUI - civitai]]
