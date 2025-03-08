@@ -39,7 +39,18 @@ let note = await tp.system.prompt("Note");
 
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 -%>
-<% tR+= await tp.file.include(`[[Source - Url - Image - Video]]`); %>
+````ad-tip
+Source : <% url %>
+
+<%* if (isVideo) { -%>
+<video controls>
+  <source src="<% image %>" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<%* } else { -%>
+![](<% image %>)
+<%* } -%>
+````
 
 
 ````ad-note
