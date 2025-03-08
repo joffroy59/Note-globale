@@ -70,5 +70,5 @@ test de modification faite sur [[📒2025-01-31]]
 	- [-] 📅 Planning Tasks ✅ 2025-01-31
 	- [x] 🏆Wins ✅ 2025-01-31
 	      ![[Pasted image 20250131235949-1.png|150]]
-- [/] rollover ## 🥷Missed Tasks ———— (doit être fait sur le template pour les section existante)
+- [x] rollover ## 🥷Missed Tasks ———— (doit être fait sur le template pour les section existante) ✅ 2025-03-08
 
