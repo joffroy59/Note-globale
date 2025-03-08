@@ -17,7 +17,6 @@ ollama_model_dir: I:\IA\ollama\models
 tags:
   - status/wip
   - IA
-  - IA/comfyui/flux
   - IA/application
 ---
 <%*
