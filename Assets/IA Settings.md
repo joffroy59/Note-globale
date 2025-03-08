@@ -18,6 +18,12 @@ wip:
     - StabilityMatrix - Application
   template:
     insert: Insert Wip IA - Task -
+  Model:
+    title: IA Model -
+    folder: IA/Model
+    template:
+      create: Templates/IA/Create IA - Task - Model
+    tag: IA/model
   Generic:
     title: IA Wip -
     folder: IA/Wip
