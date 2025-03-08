@@ -37,17 +37,22 @@ let entree = title ;
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
 
+const question = "Tasks ?"
+let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
+
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 -%>
 ````ad-tip
+<%* if (url) { -%>
 Source : <% url %>
+<%* } -%>
 
 <%* if (isVideo) { -%>
 <video controls>
   <source src="<% image %>" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<%* } else { -%>
+<%* } else if(image) { -%>
 ![](<% image %>)
 <%* } -%>
 ````
@@ -59,4 +64,10 @@ title: Note
 
 ````
 
+<%* if (taskEnable) { -%>
+---
+## Tasks
+- [ ] Task1
+---
+<%* } -%>
 
