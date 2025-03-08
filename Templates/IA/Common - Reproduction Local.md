@@ -12,7 +12,7 @@ let packageList = [
 	package = await tp.system.suggester((item) => item, packageList, false, "StabilityMatrix - Test Avec :");
 -%>
 
-<%* if (hasTip) { -%>
+<%* if (package) { -%>
 ---
 ### StabilityMatrix 
 
