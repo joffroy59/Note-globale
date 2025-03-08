@@ -1,1 +1,0 @@
-il y a deucoup de plien d'erreur a coriger 

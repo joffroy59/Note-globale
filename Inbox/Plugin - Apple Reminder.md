@@ -1,4 +1,0 @@
-
-
-- [ ] test ios from obsidian 
-- [ ] 
