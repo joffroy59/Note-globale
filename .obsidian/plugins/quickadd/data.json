@@ -247,6 +247,56 @@
       "command": true,
       "choices": [
         {
+          "id": "588adc3b-1904-44d1-80f3-0109501536a5",
+          "name": "Old",
+          "type": "Multi",
+          "command": false,
+          "choices": []
+        },
+        {
+          "id": "10d66673-bc29-421f-aa16-c69648990bbd",
+          "name": "New",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "7f55886d-6c2d-44e0-a7b1-fd92a29a840f",
+              "name": "🚧Insert WIP IA - Task - Select",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Select.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            }
+          ]
+        },
+        {
           "id": "c4ec61c6-4901-4d17-8616-cfb4a2f06422",
           "name": "🚀Action",
           "type": "Multi",
@@ -1649,7 +1699,77 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": true
+      "collapsed": false
+    },
+    {
+      "id": "726f20c5-3f98-4be2-9bcf-28f7235f67b7",
+      "name": "🚧Insert WIP (New)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Panel/List  of WIP.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Inserts/Insert WIP New.md}}\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "## 🚧 Wip",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "39135df6-99df-44fa-bc18-76c8ef4c1a1b",
+      "name": "🚧Insert Backlog",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": false,
+        "format": "\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "## 🚧 Wip",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     },
     {
       "id": "46c9028d-ca93-42ef-bd0f-5ef999ca6315",
@@ -1696,81 +1816,11 @@
       "collapsed": false
     },
     {
-      "id": "726f20c5-3f98-4be2-9bcf-28f7235f67b7",
-      "name": "🚧Insert WIP (New)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Panel/List  of WIP.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/Inserts/Insert WIP New.md}}\n"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "## 🚧 Wip",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "bottom"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
       "id": "23ffd3c3-541e-4288-bf3d-3ed2ec165425",
       "name": "Sandbox1",
       "type": "Macro",
       "command": true,
       "macroId": "4458c4f3-4073-4ef8-8c3e-c7dcce969d6f"
-    },
-    {
-      "id": "39135df6-99df-44fa-bc18-76c8ef4c1a1b",
-      "name": "🚧Insert Backlog",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": false,
-        "format": "\n"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "## 🚧 Wip",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "bottom"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
     },
     {
       "id": "b9c078f7-fdf8-4dd8-a048-77a93037b4e1",
@@ -1820,41 +1870,6 @@
       "insertAfter": {
         "enabled": true,
         "after": "### 📎TODO's",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "bottom"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "7f55886d-6c2d-44e0-a7b1-fd92a29a840f",
-      "name": "🚧Insert WIP IA - Task - Select",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Select.md}}\n"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## 🚧 Wip",
         "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": true,
@@ -2013,6 +2028,41 @@
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "52125d79-932e-44f6-b2a5-ba227e57d1e7",
+      "name": "🚧Insert WIP IA - Task - Multi",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Multi.md}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## 🚧 Wip",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
       },
       "prepend": false,
       "task": false,

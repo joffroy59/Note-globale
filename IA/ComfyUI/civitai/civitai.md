@@ -3,7 +3,7 @@ ELN info:
   template: civitai
   version: 0.3.2
   author: Jerome Offroy
-  modified: 2025-03-08
+  modified: 2025-03-09
   copyright: GNU Affero General Public License v3.0
 
 project:
@@ -84,6 +84,6 @@ collapse: Closed
 ```
 
 ---
-creation date:: [[2025/03/10/📒2025-03-08]]  23:27
+creation date:: [[2025/03/10/📒2025-03-09]]  00:06
 
 

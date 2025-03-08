@@ -16,6 +16,8 @@ wip:
     - WAN 2.1
     - Application
     - StabilityMatrix - Application
+  template:
+    insert: Insert Wip IA - Task -
   civitai:
     title: civitai
     folder: IA/ComfyUI/civitai
