@@ -22,22 +22,41 @@ if (title.startsWith(defaultTitle)) {
 } 
 
 let url = await tp.system.prompt("url");
+
+let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note");
+
+const question = "Tasks ?"
+let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
+
+let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 -%>
-
----
-
-<%* tp.file.cursor() -%> 
 ````ad-tip
+<%* if (url) { -%>
 Source : <% url %>
+<%* } -%>
 
+<%* if (isVideo) { -%>
+<video controls>
+  <source src="<% image %>" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<%* } else if(image) { -%>
+![](<% image %>)
+<%* } -%>
 ````
+
 
 ````ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ````
 
+<%* if (taskEnable) { -%>
 ---
+## Tasks
+- [ ] Task1
+---
+<%* } -%>
 
