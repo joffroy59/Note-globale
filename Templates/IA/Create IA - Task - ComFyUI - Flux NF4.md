@@ -50,9 +50,9 @@ if (worflow){
 	worflow = defaultWorkflowName
 }
 
-url = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
+workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
-let sourceUrl = await tp.system.prompt("Source Url");
+let url = await tp.system.prompt("Source Url");
 let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
 let note = await tp.system.prompt("Note");
@@ -77,7 +77,7 @@ worflow: <% worflow %>
   Your browser does not support the video tag.
 </video>
 <%* } else if(image) { -%>
-[|400](<% image %>)
+![|400](<% image %>)
 <%* } -%>
 ```
 

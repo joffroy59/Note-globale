@@ -5,13 +5,15 @@ ELN info:
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
+tags:
+  - IA
+  - IA/comfyui
+  - IA/comfyui/flux
 ---
 
 <%*

@@ -5,14 +5,11 @@ ELN info:
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
-
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -21,7 +18,7 @@ tags:
   - IA/comfyui
   - IA/comfyui/flux
   - IA/StabilityMatrix
-  - flux_NF4➕
+  - WAN_2_1
 ---
 <%*
 let workflowDirList = [
@@ -79,7 +76,6 @@ worflow: <% worflow %>
 <%* } else if(image) { -%>
 ![|400](<% image %>)
 <%* } -%>
-
 ```
 
 ````ad-quote
