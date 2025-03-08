@@ -12,9 +12,11 @@ tags:
 ---
 
 
+For [[Insert Wip IA - Task - Select]]
+
 ---
 ## Tasks
-- [ ] [[#Transform use of js for init list of type of IA WIP]] 
+- [x] [[#Transform use of js for init list of type of IA WIP]] ✅ 2025-03-08
 
 
 ---
