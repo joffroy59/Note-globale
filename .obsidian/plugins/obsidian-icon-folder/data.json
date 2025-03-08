@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SvTemplateSvgrepoCom(1)",
-      "SvToolScrewdriverSvgrepoCom",
-      "SvMicrosoftTodoSvgrepoCom",
-      "IbIphone",
-      "SvIphoneStyleSmartphoneSvgrepoCom"
+      "SvResourcesSvgrepoCom(3)",
+      "SvPlanSvgrepoCom(2)",
+      "SvPlanSvgrepoCom",
+      "SvProjSvgrepoCom",
+      "SvScissorsSvgrepoCom"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,7 +37,7 @@
   "Inbox": "📥",
   "IA": "🧠",
   "Daily Note": "📒",
-  "Clippings": "✂",
+  "Clippings": "SvScissorsSvgrepoCom",
   "Assets": "📼",
   "Perso": "👤",
   "Tasks": "🚀",
@@ -84,7 +84,7 @@
   "Daily Note/2025": "📅",
   "Admin/Obsidian": "SiObsidian",
   "Inbox/Poub": "MyTrashCanSvgrepoCom",
-  "Aide": "RaHelp",
+  "Aide": "SvHelpSvgrepoCom",
   "From Iphone/Wip": "🚧",
   "From Iphone/All": "FasAsterisk",
   "Exemples/Button": "🆕",
@@ -138,5 +138,8 @@
   "Tasks/List": "MyYellowListOrder13190",
   "Tasks/note": "MyNoteSvgrepoCom",
   "Experiments": "SvExperimentSvgrepoCom",
-  "Tasks/TODO.md": "SvMicrosoftTodoSvgrepoCom"
+  "Tasks/TODO.md": "SvMicrosoftTodoSvgrepoCom",
+  "Projects": "SvPlanSvgrepoCom",
+  "Projects Perso": "SvPlanSvgrepoCom(2)",
+  "Resources": "SvResourcesSvgrepoCom(3)"
 }
