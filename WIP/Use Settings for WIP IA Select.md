@@ -14,8 +14,17 @@ tags:
 
 ---
 ## Tasks
-- [ ] transform use of js for init list of type of IA WIP
+- [ ] [[#Transform use of js for init list of type of IA WIP]] 
 
 
 ---
+
+
+
+### Transform use of js for init list of type of IA WIP
+
+`tp.user.ComFyUIType(tp)`
+[D:\obsidian\MyNote\Note-globale\Assets\javascript\templater\Scripts\ComFyUIType.js](file:///d%3A/obsidian/MyNote/Note-globale/Assets/javascript/templater/Scripts/ComFyUIType.js)
+
+
 

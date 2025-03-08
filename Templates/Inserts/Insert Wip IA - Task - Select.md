@@ -1,8 +1,12 @@
  <%*
-let defaultValue = "WIP IA"
+const ia_settings_file = "Assets/IA Settings.md";
+const ia_settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(ia_settings_file)).frontmatter;
+const config_wip = ia_settings.wip
 
-let typeList = await tp.user.ComFyUIType(tp)
+const typeList = config_wip.types
+const template_name_base = config_wip.template.insert
+
 let type = await tp.system.suggester((item) => item, typeList)
 
-tR+= await tp.file.include(`[[Insert Wip IA - Task - ${type}]]`);
+tR+= await tp.file.include(`[[${template_name_base} ${type}]]`);
 %>
