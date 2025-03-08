@@ -18,6 +18,12 @@ wip:
     - StabilityMatrix - Application
   template:
     insert: Insert Wip IA - Task -
+  Generic:
+    title: IA Wip -
+    folder: IA/Wip
+    template:
+      create: Templates/IA/Create IA - Task - Generic
+    tag: IA
   civitai:
     title: civitai -
     folder: IA/ComfyUI/civitai
