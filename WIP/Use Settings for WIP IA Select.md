@@ -39,6 +39,7 @@ For [[Insert Wip IA - Task - Select]]
       ![[Use Settings for WIP IA Select-1741475733961.png|400x83]]
 - [ ] generalize type
 	- [x] civitai ✅ 2025-03-09
+	- [ ] ComFyUI
 - [ ] delete exempe lproduce for test 
 
 ---

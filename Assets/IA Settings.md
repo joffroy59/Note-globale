@@ -19,11 +19,17 @@ wip:
   template:
     insert: Insert Wip IA - Task -
   civitai:
-    title: civitai
+    title: civitai -
     folder: IA/ComfyUI/civitai
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - civitai
     tag: IA/civitai
+  ComFyUI:
+    title: ComfyUI -
+    folder: IA/ComfyUI
+    template:
+      create: Templates/IA/Create IA - Task - ComFyUI
+    tag: IA/comfyui
 ---
 
 ## Settings
