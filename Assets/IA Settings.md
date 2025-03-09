@@ -75,12 +75,16 @@ wip:
     type:
       - local
       - online
+
   StabilityMatrix - Application:
     title: StabilityMatrix - Application -
     folder: IA/StabilityMatrix/Application
     template:
       create: Templates/IA/Create IA - Task - StabilityMatrix - Application
     tag: IA/StabilityMatrix #IA/StabilityMatrix/application #application
+execution:
+  - docker
+  - windows
 
 ---
 

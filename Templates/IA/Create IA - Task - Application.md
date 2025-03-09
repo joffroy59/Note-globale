@@ -6,6 +6,12 @@ const config_wip = ia_settings.wip
 const typeList = config_wip.types
 
 let application_type = await tp.system.suggester((item) => item, config_wip['Application'].type)
+let is_local = (application_type == "local")
+
+let execution_type
+if (is_local){
+execution_type = await tp.system.suggester((item) => item, ia_settings.execution)
+}
 -%>---
 ELN info:
   template: <% tp.file.title %>
@@ -27,6 +33,7 @@ tags:
   - IA
   - IA/application
   - <% application_type %>
+<%* if (is_local) { -%>  - <% execution_type %><%*   } %>
 ---
 <%*
 let baseFolder = "IA/Application"
