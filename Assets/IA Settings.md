@@ -16,7 +16,6 @@ wip:
     - WAN 2.1
     - Application
     - StabilityMatrix - Application
-    - Open WebUI - Model
   template:
     insert: Insert Wip IA - Task -
   Generic:
@@ -76,19 +75,13 @@ wip:
     type:
       - local
       - online
+
   StabilityMatrix - Application:
     title: StabilityMatrix - Application -
     folder: IA/StabilityMatrix/Application
     template:
       create: Templates/IA/Create IA - Task - StabilityMatrix - Application
     tag: IA/StabilityMatrix #IA/StabilityMatrix/application #application
-  Open WebUI - Model:
-    title: IA Open WebUI - Model -
-    folder: IA/Open WebUI - Model
-    template
-      create: Templates/IA/Create IA - Open WebUI - Model
-    tag: IA/model #IA/open_webui/model
-
 execution:
   - docker
   - windows
