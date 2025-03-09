@@ -84,7 +84,6 @@ worflow: <% worflow %>
 <%*   } -%>
 ````
 <%* } -%>
-````
 
 ````ad-quote
 title: Generation data
