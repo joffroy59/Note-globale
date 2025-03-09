@@ -9,9 +9,15 @@ let application_type = await tp.system.suggester((item) => item, config_wip['App
 let is_local = (application_type == "local")
 
 let execution_type
+let has_docker
 if (is_local){
-execution_type = await tp.system.suggester((item) => item, ia_settings.execution)
+	execution_type = await tp.system.suggester((item) => item, ia_settings.execution)
+	has_docker = (execution_type == "docker")
+	if (has_docker){
+		docker_expose_url = await tp.system.prompt("Docker expose url :");
+	}
 }
+
 -%>---
 ELN info:
   template: <% tp.file.title %>
@@ -57,6 +63,14 @@ let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, qu
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 let hasTip = (url || image)
 -%>
+
+<%* if (has_docker) { -%>
+```ad-abstract 
+title: Docker
+[<% docker_expose_url %>](<% docker_expose_url %>)
+ 
+```
+<%* } -%>
 <%* if (hasTip) { -%>
 ````ad-tip
 <%*   if (url) { -%>

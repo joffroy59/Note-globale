@@ -22,6 +22,12 @@ tags:
   - docker
 ---
 
+```ad-abstract 
+title: Docker
+[http://localhost:3000/](http://localhost:3000/)
+ 
+```
+
 
 ---
 ## Tasks
@@ -29,5 +35,5 @@ tags:
 ---
 
 ---
-creation date:: [[2025/03/10/📒2025-03-09]]  08:26
+creation date:: [[2025/03/10/📒2025-03-09]]  08:38
 
