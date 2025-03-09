@@ -31,9 +31,20 @@ title: Docker
 
 ---
 ## Tasks
-- [ ] Task1
+- [x] [[#Upgrade v0.5.20]] ✅ 2025-03-09
+
 ---
 
 ---
 creation date:: [[2025/03/10/📒2025-03-09]]  08:38
 
+
+
+### Upgrade v0.5.20
+
+
+ ![[IA Application - open-webui-1741505953088.png|400x95]] 
+
+- [x] re pull (upgrade) Portainer stack 
+
+![[IA Application - open-webui-1741506114617.png|400x243]]
