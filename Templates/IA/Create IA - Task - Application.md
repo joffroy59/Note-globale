@@ -1,4 +1,12 @@
----
+<%*
+const ia_settings_file = "Assets/IA Settings.md";
+const ia_settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(ia_settings_file)).frontmatter;
+const config_wip = ia_settings.wip
+
+const typeList = config_wip.types
+
+let application_type = await tp.system.suggester((item) => item, config_wip['Application'].type)
+-%>---
 ELN info:
   template: <% tp.file.title %>
   version: 0.3.2
@@ -18,6 +26,7 @@ tags:
   - status/wip
   - IA
   - IA/application
+  - <% application_type %>
 ---
 <%*
 let baseFolder = "IA/Application"

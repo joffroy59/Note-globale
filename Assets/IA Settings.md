@@ -72,12 +72,16 @@ wip:
     template:
       create: Templates/IA/Create IA - Task - Application
     tag: IA/application
+    type:
+      - local
+      - online
   StabilityMatrix - Application:
     title: StabilityMatrix - Application -
     folder: IA/StabilityMatrix/Application
     template:
       create: Templates/IA/Create IA - Task - StabilityMatrix - Application
     tag: IA/StabilityMatrix #IA/StabilityMatrix/application #application
+
 ---
 
 ## Settings
