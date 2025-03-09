@@ -5,23 +5,20 @@ ELN info:
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-
-
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
-
 ollama_model_dir: I:\IA\ollama\models
 tags:
   - status/wip
   - IA
   - IA/model
+  - IA/open_webui/model
 ---
 <%*
-  let baseFolder = "IA/Model"
+  let baseFolder = "IA/Open WebUI - Model"
 
 let title = tp.file.title
 let defaultTitle = "Untitled"
@@ -76,12 +73,14 @@ title: Note
 <%* } -%>
 
 
-```ad-tip
-title: Ollama Models
+````ad-tip
+title: Open WebUI Models
 collapse: Closed
 
-- `= "[Ollama model]" + "(<file:///" + this.ollama_model_dir + ">)"`
+```query
+#openwebui 
 ```
+````
 
 ---
 creation date:: [[<%tp.file.creation_date("YYYY")%>/<%tp.file.creation_date("MM")%>/<%tp.file.creation_date("WW")%>/📒<%tp.file.creation_date("YYYY-MM-DD")%>]]  <%tp.file.creation_date("HH:mm")%>
