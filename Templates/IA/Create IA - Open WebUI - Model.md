@@ -70,7 +70,8 @@ title: Note
 <%* if (taskEnable) { -%>
 ---
 ## Tasks
-- [ ] Task1
+- [ ] Integrate in Open WebUI 
+- [ ] Test
 ---
 <%* } -%>
 
