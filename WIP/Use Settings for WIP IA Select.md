@@ -37,10 +37,18 @@ For [[Insert Wip IA - Task - Select]]
 ## Tasks
 - [x] use only one insert note : [[Insert Wip IA - Task - Common]] with [[Insert Wip IA - Task - Multi]] test avec civitai type ✅ 2025-03-09
       ![[Use Settings for WIP IA Select-1741475733961.png|400x83]]
-- [ ] generalize type
+- [x] generalize type ✅ 2025-03-09
 	- [x] civitai ✅ 2025-03-09
 	- [x] ComFyUI ✅ 2025-03-09
 	- [x] all other ✅ 2025-03-09
 - [x] delete exempe lproduce for test ✅ 2025-03-09
 
 ---
+
+## Clean Old system wip ia task et v2 et v1 
+- [/] task
+	- [ ] insert 
+	- [ ] create
+- [ ] v2
+- [ ] v1
+
