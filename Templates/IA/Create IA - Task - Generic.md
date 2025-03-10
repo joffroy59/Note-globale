@@ -19,8 +19,6 @@ tags:
   - IA
 ---
 <%*
-  let baseFolder = "IA"
-
 let title = tp.file.title
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {

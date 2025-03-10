@@ -42,8 +42,6 @@ tags:
 <%* if (is_local) { -%>  - <% execution_type %><%*   } %>
 ---
 <%*
-let baseFolder = "IA/Application"
-
 let title = tp.file.title
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {

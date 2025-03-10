@@ -17,10 +17,7 @@ workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 ---
 <%*
-  let baseFolder = "IA/ComfyUI/civitai"
-
-  //let
-  title = tp.file.title
+   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {
     title = await tp.system.prompt("Title from page");

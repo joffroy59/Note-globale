@@ -16,8 +16,6 @@ wip:
 ollama_model_dir: I:\IA\ollama\models
 ---
 <%*
-  let baseFolder = "IA/Model"
-
   let title = tp.file.title
   let defaultTitle = "Untitled"
   if (title.startsWith(defaultTitle)) {

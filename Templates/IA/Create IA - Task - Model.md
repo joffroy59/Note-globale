@@ -21,8 +21,6 @@ tags:
   - IA/model
 ---
 <%*
-  let baseFolder = "IA/Model"
-
 let title = tp.file.title
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {

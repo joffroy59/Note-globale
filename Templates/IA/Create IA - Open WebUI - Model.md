@@ -18,8 +18,6 @@ tags:
   - IA/open_webui/model
 ---
 <%*
-  let baseFolder = "IA/Open WebUI - Model"
-
 let title = tp.file.title
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {
