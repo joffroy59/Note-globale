@@ -42,7 +42,7 @@ wip:
     folder: IA/ComfyUI/workflow
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - workflow
-    tag:  '#IA/comfyui  #workflow'
+    tag:  '#IA/comfyui #workflow'
   ComFyUI - Flux:
     title: ComfyUI-Flux -
     folder: IA/ComfyUI/Flux
@@ -60,13 +60,13 @@ wip:
     folder: IA/ComfyUI/Flux NF4
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - Flux NF4
-    tag:  '#IA/comfyui/flux  #flux_NF4'
+    tag:  '#IA/comfyui/flux #flux_NF4'
   WAN 2.1:
     title: WAN 2.1 -
     folder: IA/ComfyUI/WAN 2.1
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - WAN 2.1
-    tag:  '#IA/comfyui   #WAN_2_1'
+    tag:  '#IA/comfyui #WAN_2_1'
   Application:
     title: IA Application -
     folder: IA/Application
@@ -81,7 +81,7 @@ wip:
     folder: IA/StabilityMatrix/Application
     template:
       create: Templates/IA/Create IA - Task - StabilityMatrix - Application
-    tag:  '#IA/StabilityMatrix #IA/StabilityMatrix/application #application'
+    tag:  '#IA/StabilityMatrix #application #IA/StabilityMatrix/application'
   Open WebUI:
     title: IA Open WebUI -
     folder: IA/Open WebUI
