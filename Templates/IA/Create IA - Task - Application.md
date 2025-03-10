@@ -15,6 +15,7 @@ if (is_local){
 	has_docker = (execution_type == "docker")
 	if (has_docker){
 		docker_expose_url = await tp.system.prompt("Docker expose url :");
+		if (!docker_expose_url ) has_docker = false
 	}
 }
 
