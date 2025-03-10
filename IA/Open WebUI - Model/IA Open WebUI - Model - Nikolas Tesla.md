@@ -29,7 +29,7 @@ Source : https://openwebui.com/m/nihaal007/nikolas-tesla
 
 ---
 ## Tasks
-- [ ] Integrate in Open WebUI 
+- [ ] [[#Integrate in Open WebUI ]]
 - [ ] Test
 ---
 
@@ -44,5 +44,12 @@ collapse: Closed
 ---
 creation date:: [[2025/03/11/📒2025-03-10]]  00:00
 
+
+
+
+
+### Integrate in Open WebUI
+
+![[IA Open WebUI - Model - Nikolas Tesla-1741590439596.png|400x143]]
 
 
