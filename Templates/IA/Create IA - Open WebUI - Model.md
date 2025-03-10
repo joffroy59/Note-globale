@@ -11,8 +11,7 @@ let type = parts[0].trim().replace(/IA/g, '').trim()
 console.log(`Found sub type: ${type}`)
 const config_wip_type = config_wip[type]
 
-let tag_list =  config_wip_type.tag.split("-")
-alert()
+let tag_list =  config_wip_type.tag.split(" ")
 %>
 ELN info:
   template: <% tp.file.title %>
@@ -29,7 +28,8 @@ ollama_model_dir: I:\IA\ollama\models
 tags:
   - status/wip
   - IA
-<%* for(tag in tag_list) { -%>
+<%* for(let i=0; i<tag_list.length; i++){ 
+    let tag = tag_list[i].trim().replace(/\#/g,'') -%>
   - <% tag %>
 <%* } -%>
 ---
