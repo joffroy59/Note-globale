@@ -81,13 +81,13 @@ wip:
     folder: IA/StabilityMatrix/Application
     template:
       create: Templates/IA/Create IA - Task - StabilityMatrix - Application
-    tag:  '#IA/StabilityMatrix #application #IA/StabilityMatrix/application'
+    tag:  '#IA/StabilityMatrix #IA/StabilityMatrix/application #application'
   Open WebUI:
     title: IA Open WebUI -
     folder: IA/Open WebUI
     template:
       create: Templates/IA/Create IA - Open WebUI
-    tag:  '#IA/model   #IA/open_webui'
+    tag:  '#IA/model #IA/open_webui'
     sub_type:
       - Model
       - Tool
