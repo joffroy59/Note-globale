@@ -88,7 +88,9 @@ wip:
     template:
       create: Templates/IA/Create IA - Open WebUI
     tag: IA/model   #IA/open_webui/model
-    sub_type: yes
+    sub_type:
+      - Model
+      - Tool
 execution:
   - docker
   - windows
