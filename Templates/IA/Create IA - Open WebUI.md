@@ -11,7 +11,11 @@ let type = parts[0].trim().replace(/IA/g, '').trim()
 console.log(`Found sub type: ${type}`)
 const config_wip_type = config_wip[type]
 
-let tag_list =  config_wip_type.tag.split(" ")
+let tag_list =  config_wip_type.tag.split(" ").concat()
+let tag_type_list = config_wip_type.tag_type.split(" ")
+for(let i=0; i<tag_type_list.length; i++){
+	tag_list.add(tag_type_list[i] + type.toLowerCase())
+}
 %>
 ELN info:
   template: <% tp.file.title %>
@@ -29,7 +33,7 @@ tags:
   - status/wip
   - IA
 <%* for(let i=0; i<tag_list.length; i++){ 
-    let tag = tag_list[i].trim().replace(/\#/g,'') -%>
+    let tag = tag_list[i].trim().replace(/\#/g,'')+`/${type}` -%>
   - <% tag %>
 <%* } -%>
 ---
