@@ -91,7 +91,7 @@ wip:
     tag_type: '#IA/open_webui'
     sub_type:
         - Model
-		- Tool
+        - Tool
 execution:
   - docker
   - windows

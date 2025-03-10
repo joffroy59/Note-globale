@@ -93,7 +93,7 @@ title: Note
 
 
 ````ad-tip
-title: Open WebUI  <% type %>
+title: Open WebUI  <% sub_type %> 
 collapse: Closed
 
 ```query
