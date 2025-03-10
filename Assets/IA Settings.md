@@ -54,7 +54,7 @@ wip:
     folder: IA/ComfyUI/civitai
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - civitai
-    tag: IA/civitai
+    tag: '#IA/civitai'
   Flux NF4:
     title: ComfyUI-Flux NF4 -
     folder: IA/ComfyUI/Flux NF4

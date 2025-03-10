@@ -36,4 +36,6 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #<% ia_type_tag %>   ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+let tags = ia_type_tag
+
+%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
