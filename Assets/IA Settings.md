@@ -87,11 +87,11 @@ wip:
     folder: IA/Open WebUI
     template:
       create: Templates/IA/Create IA - Open WebUI
-    tag: '#IA/model'
+    tag: ''
     tag_type: '#IA/open_webui'
     sub_type:
         - Model
-        - Tool
+		- Tool
 execution:
   - docker
   - windows
