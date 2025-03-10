@@ -17,7 +17,7 @@ let ia_type_tag = config_wip_type.tag
 const sub_type_type = config_wip_type.sub_type
 let sub_type = ""
 if (sub_type_type) {
-	sub_type = await tp.system.suggester((item) => item, config_wip_type.sub_type_type)
+	sub_type = await tp.system.suggester((item) => item, sub_type_type)
 	template_create += ` - ${sub_type}`
 	baseFolder += `/${sub_type}`
 	defaultTitle += ` ${sub_type} - `
@@ -36,6 +36,6 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-let tags = ia_type_tag
+let tags = ia_type_tag.toLowerCase()
 
 %>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

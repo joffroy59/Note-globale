@@ -83,7 +83,7 @@ wip:
       create: Templates/IA/Create IA - Task - StabilityMatrix - Application
     tag:  '#IA/StabilityMatrix #IA/StabilityMatrix/application #application'
   Open WebUI:
-    title: IA Open WebUI - 
+    title: IA Open WebUI -
     folder: IA/Open WebUI
     template:
       create: Templates/IA/Create IA - Open WebUI
