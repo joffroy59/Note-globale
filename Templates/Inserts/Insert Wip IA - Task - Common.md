@@ -21,7 +21,7 @@ if (sub_type_type) {
 	template_create += ` - ${sub_type}`
 	baseFolder += `/${sub_type}`
 	defaultTitle += ` ${sub_type} - `
-	ia_type_tag += `/${sub_type}`
+	ia_type_tag += `/${sub_type}`.toLowerCase()
 }
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
@@ -36,6 +36,6 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-let tags = ia_type_tag.toLowerCase()
+let tags = ia_type_tag
 
 %>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

@@ -1,4 +1,9 @@
 ---
+<%*
+const ia_settings_file = "Assets/IA Settings.md";
+const ia_settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(ia_settings_file)).frontmatter;
+const config_wip = ia_settings.wip
+%>
 ELN info:
   template: <% tp.file.title %>
   version: 0.3.2
@@ -14,21 +19,27 @@ ollama_model_dir: I:\IA\ollama\models
 tags:
   - status/wip
   - IA
-  - IA/model
-  - IA/open_webui/model
 ---
 <%*
 let title = tp.file.title
+
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {
   title = await tp.system.prompt("Title :");
   if (!title) title = defaultTitle
   await tp.file.rename(`${title}`);
 }
-
 let parts = title.split("-")
-let sub_type = title[parts.length - 1].trim()
+let sub_type = parts[1].trim()
 console.log(`Found sub type: ${sub_type}`)
+const config_wip_type = config_wip[sub_type]
+alert(config_wip_type)
+
+let tag_list =  config_wip_type.tag
+alert(config_wip_type.tag)
+for(tag in tag_list) {
+	tp.file.tags.includes(tag)
+}
 
 let url = await tp.system.prompt("url");
 
