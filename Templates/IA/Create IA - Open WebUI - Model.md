@@ -26,6 +26,10 @@ if (title.startsWith(defaultTitle)) {
   await tp.file.rename(`${title}`);
 }
 
+let parts = title.split("-")
+let sub_type = title[parts.length - 1].trim()
+console.log(`Found sub type: ${sub_type}`)
+
 let url = await tp.system.prompt("url");
 
 let image = await tp.system.prompt("Image");
@@ -72,7 +76,7 @@ title: Note
 
 
 ````ad-tip
-title: Open WebUI Models
+title: Open WebUI  <% sub_type %>
 collapse: Closed
 
 ```query

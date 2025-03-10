@@ -13,13 +13,14 @@ const config_wip_type = config_wip[type]
 let baseFolder = config_wip_type.folder
 let template_create = config_wip_type.template.create
 let defaultTitle = config_wip_type.title
-const ia_type_tag = config_wip_type.tag
+let ia_type_tag = config_wip_type.tag
 
 let sub_type = await tp.system.suggester((item) => item, config_wip_type.sub_type)
 if (sub_type){
 	template_create += ` - ${sub_type}`
 	baseFolder += `/${sub_type}`
 	defaultTitle += ` ${sub_type} - `
+	ia_type_tag += `/${sub_type}`
 }
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
