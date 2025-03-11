@@ -93,7 +93,11 @@ wip:
     sub_type:
         - Model
         - Tool
-  Comfy UI:
+        - Knowedge
+    Knowedge:
+      tag:
+        - '#IA/rag'
+Comfy UI:
     title: IA Comfy UI -
     folder: IA/ComfyUI
     template:
@@ -103,6 +107,7 @@ wip:
     sub_type:
       - civitai
       - WAN 2.1
+      - Knowedge
     civitai:
       tag:
     WAN 2.1:
