@@ -11,7 +11,7 @@ wip:
     - ComFyUI
     - workflow
     - ComFyUI - Flux
-    - civitai
+    # - civitai
     - Flux NF4
     - WAN 2.1
     - Application
