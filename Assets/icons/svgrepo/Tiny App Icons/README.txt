@@ -1,0 +1,65 @@
+Downloaded by "Download All Images" extension
+
+Page: https://www.svgrepo.com/collection/tiny-app-icons/3
+Date: 12/03/2025 00:21:41
+
+Name, Link
+----------
+logo.svg, https://www.svgrepo.com/logo.svg
+spin-6ffd8bb2.svg, https://www.svgrepo.com/_next/static/media/spin.6ffd8bb2.svg
+google-podcasts.svg, https://www.svgrepo.com/show/349395/google-podcasts.svg
+google-scholar.svg, https://www.svgrepo.com/show/349396/google-scholar.svg
+hackernews.svg, https://www.svgrepo.com/show/349397/hackernews.svg
+grafana.svg, https://www.svgrepo.com/show/349398/grafana.svg
+gradle.svg, https://www.svgrepo.com/show/349399/gradle.svg
+hackerone.svg, https://www.svgrepo.com/show/349400/hackerone.svg
+homekit.svg, https://www.svgrepo.com/show/349401/homekit.svg
+html5.svg, https://www.svgrepo.com/show/349402/html5.svg
+hp.svg, https://www.svgrepo.com/show/349403/hp.svg
+heroku.svg, https://www.svgrepo.com/show/349404/heroku.svg
+haml.svg, https://www.svgrepo.com/show/349405/haml.svg
+humblebundle.svg, https://www.svgrepo.com/show/349406/humblebundle.svg
+ibm.svg, https://www.svgrepo.com/show/349407/ibm.svg
+iheartradio.svg, https://www.svgrepo.com/show/349408/iheartradio.svg
+imdb.svg, https://www.svgrepo.com/show/349409/imdb.svg
+instagram.svg, https://www.svgrepo.com/show/349410/instagram.svg
+imgur.svg, https://www.svgrepo.com/show/349411/imgur.svg
+intel.svg, https://www.svgrepo.com/show/349412/intel.svg
+intercom.svg, https://www.svgrepo.com/show/349413/intercom.svg
+internet-archive.svg, https://www.svgrepo.com/show/349414/internet-archive.svg
+itch-io.svg, https://www.svgrepo.com/show/349415/itch-io.svg
+itunes-podcasts.svg, https://www.svgrepo.com/show/349416/itunes-podcasts.svg
+jacobin.svg, https://www.svgrepo.com/show/349417/jacobin.svg
+java.svg, https://www.svgrepo.com/show/349418/java.svg
+javascript.svg, https://www.svgrepo.com/show/349419/javascript.svg
+jellyfin.svg, https://www.svgrepo.com/show/349420/jellyfin.svg
+json.svg, https://www.svgrepo.com/show/349421/json.svg
+kaggle.svg, https://www.svgrepo.com/show/349422/kaggle.svg
+julia.svg, https://www.svgrepo.com/show/349423/julia.svg
+keepassdx.svg, https://www.svgrepo.com/show/349424/keepassdx.svg
+kemal.svg, https://www.svgrepo.com/show/349425/kemal.svg
+keskonfai.svg, https://www.svgrepo.com/show/349426/keskonfai.svg
+keybase.svg, https://www.svgrepo.com/show/349427/keybase.svg
+kickstarter.svg, https://www.svgrepo.com/show/349428/kickstarter.svg
+kodi.svg, https://www.svgrepo.com/show/349429/kodi.svg
+ko-fi.svg, https://www.svgrepo.com/show/349430/ko-fi.svg
+kotlin.svg, https://www.svgrepo.com/show/349431/kotlin.svg
+laravel.svg, https://www.svgrepo.com/show/349432/laravel.svg
+lastpass.svg, https://www.svgrepo.com/show/349433/lastpass.svg
+line.svg, https://www.svgrepo.com/show/349434/line.svg
+liberapay.svg, https://www.svgrepo.com/show/349435/liberapay.svg
+linkedin.svg, https://www.svgrepo.com/show/349436/linkedin.svg
+linux.svg, https://www.svgrepo.com/show/349437/linux.svg
+linux-mint.svg, https://www.svgrepo.com/show/349438/linux-mint.svg
+lobsters.svg, https://www.svgrepo.com/show/349439/lobsters.svg
+lock.svg, https://www.svgrepo.com/show/349440/lock.svg
+luckyframework.svg, https://www.svgrepo.com/show/349441/luckyframework.svg
+macos.svg, https://www.svgrepo.com/show/349442/macos.svg
+mail.svg, https://www.svgrepo.com/show/349443/mail.svg
+malt.svg, https://www.svgrepo.com/show/349444/malt.svg
+twitter-29b6fbd9.svg, https://www.svgrepo.com/_next/static/media/twitter.29b6fbd9.svg
+instagram-7062f55e.svg, https://www.svgrepo.com/_next/static/media/instagram.7062f55e.svg
+dribbble-e6cbf389.svg, https://www.svgrepo.com/_next/static/media/dribbble.e6cbf389.svg
+producthunt-fabbb697.svg, https://www.svgrepo.com/_next/static/media/producthunt.fabbb697.svg
+logo.png, https://www.svgrepo.com/logo.png
+social.png, https://www.svgrepo.com/social.png

@@ -95,12 +95,16 @@ wip:
         - Tool
         - Function
         - Knowedge
+        - Pipeline
     Knowedge:
       tag:
         - '#IA/rag'
     Function:
       tag:
         - '#IA/function'
+    Pipeline:
+      tag:
+        - '#IA/pipeline'
 Comfy UI:
     title: IA Comfy UI -
     folder: IA/ComfyUI
