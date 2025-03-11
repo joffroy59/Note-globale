@@ -21,12 +21,16 @@ tags:
 ````ad-tip
 Source : https://openwebui.com/f/darkhorse369/run_code
 
-![](qsdqsdqsd)
+![[IA Open WebUI - Function - run code-1741729801738.png]]
 ````
 
 ````ad-note
 title: Note
 #win
+
+Install
+configuration
+![[IA Open WebUI - Function - run code-1741729875089.png]]
 
 ````
 
