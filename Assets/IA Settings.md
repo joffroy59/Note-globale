@@ -98,6 +98,9 @@ wip:
     Knowedge:
       tag:
         - '#IA/rag'
+    Function:
+      tag:
+        - '#IA/function'
 Comfy UI:
     title: IA Comfy UI -
     folder: IA/ComfyUI

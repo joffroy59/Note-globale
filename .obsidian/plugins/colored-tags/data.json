@@ -290,7 +290,13 @@
     "u": 138,
     "IA/model/Open": 2,
     "WebUI": 139,
-    "IA/open_webui/Open": 4
+    "IA/open_webui/Open": 4,
+    "IA/open_webui/knowedge": 5,
+    "IA/rag": 10,
+    "IA/rag/knowedge": 1,
+    "IA/open_webui/function": 6,
+    "IA/function": 11,
+    "IA/function/function": 1
   },
   "_version": 3
 }
