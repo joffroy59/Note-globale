@@ -17,6 +17,7 @@ wip:
     - Application
     - StabilityMatrix - Application
     - Open WebUI
+    - Comfy UI
   template:
     insert: Insert Wip IA - Task -
   Generic:
@@ -92,6 +93,15 @@ wip:
     sub_type:
         - Model
         - Tool
+  Comfy UI:
+    title: IA Comfy UI -
+    folder: IA/ComfyUI
+    template:
+      create: Templates/IA/Create IA - Comfy UI
+    tag: ''
+    tag_type: '#IA #IA/comfy_ui'
+    sub_type:
+        - civitai
 execution:
   - docker
   - windows
