@@ -93,6 +93,7 @@ wip:
     sub_type:
         - Model
         - Tool
+        - Function
         - Knowedge
     Knowedge:
       tag:

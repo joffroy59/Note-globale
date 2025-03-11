@@ -49,3 +49,8 @@ creation date:: [[2025/03/11/📒2025-03-11]]  08:28
 
 
 
+```ad-note
+[How do I talk to my Obsidian Vault with Ollama / Open WebUI? : r/ollama](https://www.reddit.com/r/ollama/comments/1h8xyb7/how_do_i_talk_to_my_obsidian_vault_with_ollama/)
+
+```
+
