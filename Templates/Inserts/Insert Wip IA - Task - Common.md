@@ -19,9 +19,12 @@ const sub_type_type = config_wip_type.sub_type
 let sub_type = ""
 if (sub_type_type) {
 	sub_type = await tp.system.suggester((item) => item, sub_type_type)
+	const config_wip_subtype = config_wip_type[sub_type]
 	baseFolder += `/${sub_type}`
 	defaultTitle += ` ${sub_type} - `
-	ia_type_tag = `${config_wip_type.tag_type}/${sub_type.toLowerCase()}`
+	ia_type_tag = `${config_wip_type.tag_type}/${sub_type.toLowerCase().replace(/ /g,'_').replace(/\./g,'_')}`
+	ia_sub_type_tags = `${config_wip_subtype.tag} ${config_wip_subtype.tag}/${sub_type.toLowerCase().replace(/ /g,'_').replace(/\./g,'_')}`
+
 }
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
@@ -36,6 +39,6 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-let tags = ia_tag + " " + ia_type_tag
+let tags = ia_tag + " " + ia_type_tag + " " + ia_sub_type_tags
 
 %>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

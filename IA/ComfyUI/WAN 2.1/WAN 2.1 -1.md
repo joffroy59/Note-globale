@@ -23,15 +23,6 @@ tags:
   - IA/comfyui/flux
   - WAN_2_1
 ---
-````ad-tip
-Source : qsd
-
-worflow: wwww
-⭐🚧 [wwww.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cwwww.json)
-✅ #todo
-
-![](sdqdqsd)
-````
 
 ````ad-quote
 title: Generation data
@@ -90,6 +81,6 @@ collapse: Closed
 ```
 
 ---
-creation date:: [[2025/03/11/📒2025-03-11]]  01:14
+creation date:: [[2025/03/11/📒2025-03-11]]  01:50
 
 

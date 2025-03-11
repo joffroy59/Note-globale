@@ -98,10 +98,17 @@ wip:
     folder: IA/ComfyUI
     template:
       create: Templates/IA/Create IA - Comfy UI
-    tag: ''
+    tag: '#IA/comfyui/flux #WAN_2_1'
     tag_type: '#IA #IA/comfy_ui'
     sub_type:
-        - civitai
+      - civitai
+      - WAN 2.1
+    civitai:
+      tag:
+    WAN 2.1:
+      tag:
+        - '#IA/comfyui/flux'
+
 execution:
   - docker
   - windows

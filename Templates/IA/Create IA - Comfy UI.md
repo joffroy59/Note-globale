@@ -8,14 +8,23 @@ let title = await tp.file.title
 
 let parts = title.split("-")
 let type = parts[0].trim().replace(/IA/g, '').trim()
-console.log(`Found sub type: ${type}`)
+console.log(`Found type: ${type}`)
 const config_wip_type = config_wip[type]
 alert(config_wip_type)
 let sub_type = parts[1].trim()
+console.log(`Found sub type: ${sub_type}`)
 let tag_list =  config_wip_type.tag.split(" ")
-let tag_type_list = config_wip_type?config_wip_type.tag_type.split(" "):[]
+let tag_type_list = config_wip_type.tag_type?config_wip_type.tag_type.split(" "):[]
 for(let i=0; i<tag_type_list.length; i++){
-	tag_list.push(tag_type_list[i] + "/" + sub_type.toLowerCase())
+	tag_list.push(tag_type_list[i] + "/" + sub_type.toLowerCase().replace(/ /g,'_').replace(/\./g,'_'))
+}
+
+const config_wip_subtype = config_wip_type[sub_type]
+
+alert(config_wip_subtype.tag[0])
+let tag_type_sub_type_list = config_wip_subtype.tag?config_wip_subtype.tag:[]
+for(let i=0; i<tag_type_sub_type_list.length; i++){
+	tag_list.push(tag_type_sub_type_list[i] + "/" + sub_type.toLowerCase().replace(/ /g,'_').replace(/\./g,'_'))
 }
 %>
 ELN info:
@@ -52,12 +61,25 @@ let workflowDirList = [
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
+let worflowBaseFolder= workflowDirList[0]
+let defaultWorkflowName = "workflow_test"
+
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {
   title = await tp.system.prompt("Title :");
   if (!title) title = defaultTitle
   await tp.file.rename(`${title}`);
 }
+
+let worflow = await tp.system.prompt("Worflow file path");
+
+if (worflow){
+	worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList);
+} else {
+	worflow = defaultWorkflowName
+}
+
+workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
 let url = await tp.system.prompt("url");
 
@@ -77,6 +99,10 @@ let hasTip = (url || image)
 <%*   if (url) { -%>
 Source : <% url %>
 <%*   } -%>
+
+worflow: <% worflow %>
+⭐🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
+✅ #todo
 
 <%*   if (isVideo) { -%>
 <video controls>
