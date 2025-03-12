@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IpIphoneStyleSmartphoneSvgrepoCom(1)",
+      "SaccliPocketColorSvgrepoCom",
+      "TaiPocket",
       "SvResourcesSvgrepoCom(3)",
-      "SvPlanSvgrepoCom(2)",
-      "SvPlanSvgrepoCom",
-      "SvProjSvgrepoCom",
-      "SvScissorsSvgrepoCom"
+      "SvPlanSvgrepoCom(2)"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -53,10 +53,7 @@
   "Backup": "📦",
   "Panel": "🚪",
   "attachments": "📎",
-  "From Iphone": {
-    "iconName": "IbIphone",
-    "iconColor": "#bca11a"
-  },
+  "From Iphone": "IpIphoneStyleSmartphoneSvgrepoCom(1)",
   "Admin/Procédure": "📋",
   "Admin/Backup": "💾",
   "Admin/Plugins": "🔌",
@@ -131,7 +128,7 @@
   "IA/Application": "TiApps",
   "Problems": "🚨",
   "Lists": "MyList6248",
-  "Pocket": "MyPocketSvgrepoCom(2)",
+  "Pocket": "SaccliPocketColorSvgrepoCom",
   "Tasks/DONE.md": "✅",
   "Panel/Home.md": "MyHomeSvgrepoCom(1)",
   "Panel/Task Archives.md": "💾",
