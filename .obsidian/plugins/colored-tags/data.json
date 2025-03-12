@@ -296,7 +296,10 @@
     "IA/rag/knowedge": 1,
     "IA/open_webui/function": 6,
     "IA/function": 11,
-    "IA/function/function": 1
+    "IA/function/function": 1,
+    "IA/open_webui/pipeline": 7,
+    "IA/pipeline": 12,
+    "IA/pipeline/pipeline": 1
   },
   "_version": 3
 }

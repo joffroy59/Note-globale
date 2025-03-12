@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="calendar">
+  <g>
+    <path fill="#ef314c" d="M20,3.25H16.75V3a.75.75,0,0,0-1.5,0v.25H8.75V3a.75.75,0,0,0-1.5,0v.25H4A1.76,1.76,0,0,0,2.25,5V20A1.76,1.76,0,0,0,4,21.75H20A1.76,1.76,0,0,0,21.75,20V5A1.76,1.76,0,0,0,20,3.25Z"></path>
+    <rect width="4.5" height="4" x="3.75" y="10.75" fill="#fac1c9"></rect>
+    <rect width="4.5" height="4" x="9.75" y="16.25" fill="#fac1c9"></rect>
+    <rect width="4.5" height="4" x="9.75" y="10.75" fill="#fac1c9"></rect>
+    <rect width="4.5" height="4" x="15.75" y="10.75" fill="#fac1c9"></rect>
+    <path fill="#fac1c9" d="M4 4.75H7.25V5a.75.75 0 001.5 0V4.75h6.5V5a.75.75 0 001.5 0V4.75H20a.25.25 0 01.25.25V9.25H3.75V5A.25.25 0 014 4.75zM3.75 20V16.25h4.5v4H4A.25.25 0 013.75 20zM20 20.25H15.75v-4h4.5V20A.25.25 0 0120 20.25z"></path>
+  </g>
+</svg>
