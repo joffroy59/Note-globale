@@ -299,7 +299,8 @@
     "IA/function/function": 1,
     "IA/open_webui/pipeline": 7,
     "IA/pipeline": 12,
-    "IA/pipeline/pipeline": 1
+    "IA/pipeline/pipeline": 1,
+    "IA/open_webui/generic": 8
   },
   "_version": 3
 }

@@ -91,11 +91,12 @@ wip:
     tag: ''
     tag_type: '#IA/open_webui'
     sub_type:
-        - Model
-        - Tool
         - Function
+        - Generic
         - Knowedge
+        - Model
         - Pipeline
+        - Tool
     Knowedge:
       tag:
         - '#IA/rag'
@@ -105,6 +106,8 @@ wip:
     Pipeline:
       tag:
         - '#IA/pipeline'
+    Generic:
+      tag:
 Comfy UI:
     title: IA Comfy UI -
     folder: IA/ComfyUI
