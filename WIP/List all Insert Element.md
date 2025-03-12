@@ -13,7 +13,7 @@ tags:
 
 ````ad-note
 title: Note
-- [[embed_link_template]]
+![[#List]]
 
 ````
 
@@ -21,4 +21,8 @@ title: Note
 ## Tasks
 - [ ] Task1
 ---
-
+## List 
+- [[embed_link_template]]
+- [[Rollover Button]]
+- [[To be Continued]]
+- 

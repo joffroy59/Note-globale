@@ -1,3 +1,6 @@
+---
+type: Add
+---
 <%*
 const type_list = ["Clavier", "Souris"]
 const type = await tp.system.suggester((item) => item, type_list);

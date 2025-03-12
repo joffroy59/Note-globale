@@ -4,6 +4,8 @@ tags:
   - template/insert
   - embed
   - link
+
+type: fragment
 ---
 <%*
 // Demander à l'utilisateur de fournir un lien
