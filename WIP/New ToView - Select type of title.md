@@ -15,13 +15,13 @@ tags:
 [[Create Task ToView]]
 
 
-- [/] Généralisation
+- [x] Généralisation ✅ 2025-03-13
 	- [x] TODO ✅ 2025-03-13
 	- [x] Task ✅ 2025-03-13
 	- [x] Task Obsidian ✅ 2025-03-13
-	- [ ] Wip 
-	- [ ] Wip IA (Multi) 
-	- [ ] Wip IA task ??? 
+	- [-] Wip 
+	- [-] Wip IA (Multi) 
+	- [-] Wip IA task ??? 
 	- [ ] [[FIx Todo Select and use it - 👀 Wip IA (Multi)]]
 
 
