@@ -15,7 +15,7 @@ collapse: closed
 title: Prompt
 collapse: closed 
 
-![[IA Open WebUI - Generic - Generation Image-1741803411611.png|400x510]]
+<% tp.file.include("[[Insert Image v1]]") %>
 
 ```
 

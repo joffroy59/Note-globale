@@ -1,8 +1,7 @@
----
-type: add
----
 <%*
-let image = await tp.system.prompt("Image");
+let image = await tp.system.prompt("Image:");
+const regex = /^[a-zA-Z]/;
+let is_internal = regex.test(image) 
 
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 %>
@@ -12,5 +11,9 @@ let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.i
   Your browser does not support the video tag.
 </video>
 <%*   } else if(image) { -%>
+<%*     if(is_internal) { -%>
+![[<% image %>|400]]
+<%*     } else { -%>
 ![|400](<% image %>)
+<%*     } -%>
 <%*   } -%>
