@@ -18,4 +18,6 @@ collapse: closed
 
 ````
 
-
+to finish  find a way to pass type of link in selection  
+abandonner ou reprendre version avec js 
+>  probleme de insert a l'endroit demandé sous le curseur  ... a verifier je sais plus trop 
