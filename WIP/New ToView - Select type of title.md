@@ -16,9 +16,9 @@ tags:
 
 
 - [/] Généralisation
-	- [ ] TODO
-	- [ ] Task
-	- [ ] Task Obsidian 
+	- [x] TODO ✅ 2025-03-13
+	- [x] Task ✅ 2025-03-13
+	- [x] Task Obsidian ✅ 2025-03-13
 	- [ ] Wip 
 	- [ ] Wip IA (Multi) 
 	- [ ] Wip IA task ??? 
