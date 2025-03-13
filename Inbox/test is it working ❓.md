@@ -7,8 +7,29 @@
 - [ ] [[Exemple]]
 - [ ] [[Templates/New Note/IA]]
 
+```dataviewjs
+let parentFolder = "Templates/Snippets"
+const lsFolder = app.vault.getFiles()
+  .filter(file => file.parent.path == parentFolder )
+  .map(file => dv.fileLink(file.path))
+dv.list(lsFolder)
 
-{{{!temples/}}}
+lsFolder.forEach(aaa => dv.("b", "- [ ] " + aaa));
+
+
+```
+
+### 1 
+```dataview
+table 
+from "Templates/Snippets"
+```
+
+```dataview
+TABLE  from "Templates/Snippets"
+```
+
+
 
 ### add type
 dans la liste ou nouveau 
