@@ -30,7 +30,7 @@ let url = await tp.system.prompt("url");
 let entree = title ;
 let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 %>
 ---
 <%* tp.file.cursor() %>

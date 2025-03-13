@@ -32,7 +32,7 @@ if (!entree) entree = defaultValue
 
 let sourceUrl = await tp.system.prompt("source Url");
 let imageUrl = await tp.system.prompt("Image Url");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 
 const question = "Tasks ?"
 let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';

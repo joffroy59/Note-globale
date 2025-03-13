@@ -5,15 +5,15 @@
     title = await tp.system.prompt("Title");
     if (!title) title = defaultTitle
     await tp.file.rename(`${title}`);
-  } 
+  }
 
-let defaultValue = "WIP IA"  
+let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :");
 if (!entree) entree = defaultValue
 
 let worflow = await tp.system.prompt("Worflow file paht");
 let image = await tp.system.prompt("Image");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 %>
 `````ad-example
 title: WIP IA - Model
@@ -22,13 +22,13 @@ collapse: open
 - [/] <% entree %>  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ```ad-tip
-worflow: <% worflow %> 
+worflow: <% worflow %>
 image: ![](<% image %>)
 ```
 
 ```ad-note
 title: Note
-<% note %> 
+<% note %>
 ```
 
 `````

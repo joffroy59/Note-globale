@@ -35,7 +35,7 @@ if (!entree) entree = defaultValue
 
 
 let image = await tp.system.prompt("Image");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 %>
 ---
 <%* tp.file.cursor() %>

@@ -47,16 +47,16 @@ let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5
 let title = config.filename.value
 let worflow = config.filename.value
 
-let defaultValue = "WIP IA"  
+let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
 if (!entree) entree = defaultValue
 
 
 let image = await tp.system.prompt("Image");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 %>
 ---
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 `````ad-example
 title: WIP IA - ComfyUI - Flux
 collapse: open
@@ -64,9 +64,9 @@ collapse: open
 - [/] <% entree %>  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ```ad-tip
-source: 
+source:
 
-worflow: <% worflow %> 
+worflow: <% worflow %>
 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
 
 
@@ -77,7 +77,7 @@ image: ![](<% image %>)
 
 ```ad-note
 title: Note
-<% note %> 
+<% note %>
 
 ```
 

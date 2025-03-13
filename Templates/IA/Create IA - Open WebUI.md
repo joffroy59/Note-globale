@@ -34,7 +34,7 @@ ollama_model_dir: I:\IA\ollama\models
 tags:
   - status/wip
   - IA
-<%* for(let i=0; i<tag_list.length; i++){ 
+<%* for(let i=0; i<tag_list.length; i++){
     let tag = tag_list[i].trim().replace(/\#/g,'')-%>
   - <% tag %>
 <%* } -%>
@@ -50,7 +50,7 @@ if (title.startsWith(defaultTitle)) {
 let url = await tp.system.prompt("url");
 
 let image = await tp.system.prompt("Image");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 
 const question = "Tasks ?"
 let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
@@ -86,18 +86,18 @@ title: Note
 <%* if (taskEnable) { -%>
 ---
 ## Tasks
-- [ ] Integrate in Open WebUI 
+- [ ] Integrate in Open WebUI
 - [ ] Test
 ---
 <%* } -%>
 
 
 ````ad-tip
-title: Open WebUI  <% sub_type %> 
+title: Open WebUI  <% sub_type %>
 collapse: Closed
 
 ```query
-#openwebui 
+#openwebui
 ```
 ````
 

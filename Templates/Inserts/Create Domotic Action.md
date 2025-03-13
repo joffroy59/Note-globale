@@ -26,7 +26,7 @@ if (title.startsWith(defaultTitle)) {
 }
 
 let actionDesc = await tp.system.prompt("Action Description");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 -%>
 
 <%* if (actionDesc) { %>

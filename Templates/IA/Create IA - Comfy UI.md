@@ -86,7 +86,7 @@ let url = await tp.system.prompt("url");
 let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
 let nodeWorfklow = await tp.system.prompt("Nodes", null, false, true);
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 
 const question = "Tasks ?"
 let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';

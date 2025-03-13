@@ -8,12 +8,12 @@ if (title.startsWith(defaultTitle)) {
 	title = await tp.system.prompt("Title from page");
 	if (!title) title = defaultTitle
 	await tp.file.rename(`${title}`);
-} 
+}
 
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 %>
 ---
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 `````ad-danger
 title: Les Problèmes
 collapse: open
@@ -24,13 +24,13 @@ collapse: open
 title: <% type %>
 collapse: open
 
-- [ ] <% tp.date.now("HH:mm") %> FIX #todo ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %> 
+- [ ] <% tp.date.now("HH:mm") %> FIX #todo ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ````
 ---
 ````ad-quote
 title: Note
-<% note %> 
+<% note %>
 
 ````
 

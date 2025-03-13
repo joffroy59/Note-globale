@@ -54,7 +54,7 @@ if (title.startsWith(defaultTitle)) {
 let url = await tp.system.prompt("url");
 
 let image = await tp.system.prompt("Image");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 
 const question = "Tasks ?"
 let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
@@ -64,10 +64,10 @@ let hasTip = (url || image)
 -%>
 
 <%* if (has_docker) { -%>
-```ad-abstract 
+```ad-abstract
 title: Docker
 [<% docker_expose_url %>](<% docker_expose_url %>)
- 
+
 ```
 <%* } -%>
 <%* if (hasTip) { -%>

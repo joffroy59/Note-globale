@@ -592,21 +592,6 @@
       ]
     },
     {
-      "label": "+ Wip IA ComFyUI Flux",
-      "icon": "",
-      "hidden": false,
-      "class": "purple-6-button",
-      "tooltip": "",
-      "id": "insert-daily-wip-ia_comfyui-flux-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:0d262538-9bb6-45ac-8900-1879465a5b4d"
-        }
-      ]
-    },
-    {
       "label": "+ Wip IA",
       "icon": "",
       "hidden": false,

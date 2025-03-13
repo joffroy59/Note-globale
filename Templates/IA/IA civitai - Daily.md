@@ -31,7 +31,7 @@ let url = await tp.system.prompt("url");
 
 let entree = title ;
 let image = await tp.system.prompt("Image");
-let note = await tp.system.prompt("Note");
+let note = await tp.system.prompt("Note", null, true, true);
 %>
 ---
 
