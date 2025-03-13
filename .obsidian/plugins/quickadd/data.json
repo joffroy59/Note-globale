@@ -1699,7 +1699,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "726f20c5-3f98-4be2-9bcf-28f7235f67b7",
@@ -1793,6 +1793,41 @@
           "format": {
             "enabled": true,
             "format": "{{TEMPLATE:Templates/Snippets/AvantAprès.md}}"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "0a631ff1-f701-43d8-821c-26f2d8bdc0e2",
+          "name": "insert Chat Note",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Elements/insert Chat Note.md}}"
           },
           "insertAfter": {
             "enabled": false,

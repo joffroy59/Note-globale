@@ -4,6 +4,15 @@ note:
   author: Jerome Offroy
   initials: JO
 
+chat:
+  list:
+    - Lechat
+    - Microsoft Copilot
+  Lechat:
+    logo: todo.svgh
+  Microsoft Copilot:
+    logo: todo.svgh
+
 wip:
   types:
     - Generic
@@ -108,22 +117,22 @@ wip:
         - '#IA/pipeline'
     Generic:
       tag:
-Comfy UI:
-    title: IA Comfy UI -
-    folder: IA/ComfyUI
-    template:
-      create: Templates/IA/Create IA - Comfy UI
-    tag: '#IA/comfyui/flux #WAN_2_1'
-    tag_type: '#IA #IA/comfy_ui'
-    sub_type:
-      - civitai
-      - WAN 2.1
-      - Knowedge
-    civitai:
-      tag:
-    WAN 2.1:
-      tag:
-        - '#IA/comfyui/flux'
+  Comfy UI:
+      title: IA Comfy UI -
+      folder: IA/ComfyUI
+      template:
+        create: Templates/IA/Create IA - Comfy UI
+      tag: '#IA/comfyui/flux #WAN_2_1'
+      tag_type: '#IA #IA/comfy_ui'
+      sub_type:
+        - civitai
+        - WAN 2.1
+        - Knowedge
+      civitai:
+        tag:
+      WAN 2.1:
+        tag:
+          - '#IA/comfyui/flux'
 
 execution:
   - docker
