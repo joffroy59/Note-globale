@@ -17,7 +17,7 @@ tags:
 
 - [/] Généralisation
 	- [ ] TODO -->  [[FIx Todo Select and use it - 👀 Wip IA (Multi)]]
-	- [ ] Task  ? [[FIx Todo Select and use it - 👀 Wip IA (Multi)]]
+	- [ ] Task -->  [[FIx Todo Select and use it - 👀 Wip IA (Multi)]]
 	- [ ] Task Obsidian 
 	- [ ] Wip 
 	- [ ] Wip IA (Multi) 
