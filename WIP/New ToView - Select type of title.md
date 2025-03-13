@@ -15,6 +15,12 @@ tags:
 [[Create Task ToView]]
 
 
-
+- [/] Généralisation
+	- [ ] TODO
+	- [ ] Task 
+	- [ ] Task Obsidian 
+	- [ ] Wip 
+	- [ ] Wip IA (Multi) 
+	- [ ] Wip IA task ??? 
 
 
