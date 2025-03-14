@@ -20,7 +20,7 @@ select sur le pc asusJah ou autre ou raspberry
 ---
 ## Tasks
 - [ ] Create Pc Action like WIP IA hor Done or todo
-	- [ ] templater
+	- [ ] [[#templater]]
 		- [ ] insert 
 		- [ ] create note
 	- [ ] test templater 
@@ -29,4 +29,13 @@ select sur le pc asusJah ou autre ou raspberry
 
 
 ---
+
+
+
+### templater
+
+- [x] [[Insert Wip IA - Task - Multi]] 👉 [[Insert Task - PC - Multi]]
+- [ ] [[Insert Wip IA - Task - Common]] 👉 [[Insert Task - PC - Common]]
+- [ ] [[IA Settings]]  👉 [[Pc Settings.md]]
+
 
