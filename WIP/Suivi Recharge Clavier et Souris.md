@@ -7,6 +7,15 @@ tags:
 ---
 type: Add
 ---
+---
+type: Add
+---
+---
+type: Add
+---
+---
+type: Add
+---
 ### Suivi de la Recharge du Clavier
 
 **Date d'Achat :** [Insérer la date d'achat] #todo
@@ -30,6 +39,8 @@ type: Add
 | 2025-03-10 23:29                        |                          | 2     | 🔌     |                   | Ajout automatique          |
 | 2025-03-11 08:09                        |                          | 10    | 🛑     |                   | Ajout automatique          |
 | 2025-03-14 21:12                        |                          | 2     | 🔌     |                   | Ajout automatique          |
+| 2025-03-14 23:01                        |                          | 6     | 🔍     | ❓                 | Ajout automatique          |
+| 2025-03-14 23:12 |   | 7 | 🔍 | ❓ | Ajout automatique |
 | **Ajouter une nouvelle recharge ici :** |                          |       |        |                   |                            |
 
 

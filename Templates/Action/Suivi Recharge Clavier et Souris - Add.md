@@ -5,6 +5,10 @@ type: Add
 const type_list = ["Clavier", "Souris"]
 const type = await tp.system.suggester((item) => item, type_list);
 
+const event = await tp.system.suggester((item) => item, ["🔌", "🔍", "🛑"]);
+
+let batterie_state = await tp.system.prompt("batterie_state: ");
+
 var tableStart = `Recharge ${type} 🔌`;
 const tableEnd = "| **Ajouter une nouvelle recharge ici :";
 
@@ -13,7 +17,7 @@ let startIndex = content.indexOf(tableStart);
 let endIndex = content.indexOf(tableEnd, startIndex);
 
 if (startIndex !== -1 && endIndex !== -1) {
-	let newRow = `| ${tp.date.now("YYYY-MM-DD HH:mm")} | ❓ | ❓ | 🔌🔍🛑 | ❓ | Ajout automatique |\n`;
+	let newRow = `| ${tp.date.now("YYYY-MM-DD HH:mm")} |   | ${batterie_state} | ${event} | ❓ | Ajout automatique |\n`;
 	content = content.slice(0, endIndex) + newRow + content.slice(endIndex);
 	var file = app.workspace.getActiveFile()
 
