@@ -28,7 +28,7 @@ tags:
     - [/] [[WIP/Obsidian Stuck - remove disable plugin and check if Obsidian more stable]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
     - [/] [[WIP/Create a Button for Obsidian Classify By Graph]] #status/wip  ➕ 2025-02-24 🛫 2025-02-24 
     - [/] [[IA/ComfyUI/Flux/ComfyUI-Flux-lowVram]]  #status/wip #IA #IA/comfyui/flux  ➕ 2025-02-24 🛫 2025-02-24
-    - [x] [[WIP/Wip IA (Select) - like To view with no admonition]] #done➕ 2025-02-24 🛫 2025-02-24 ✅ 2025-02-24
+    - [x] [[WIP/Wip IA (Select) - like To view with no admonition]] #done ➕ 2025-02-24 🛫 2025-02-24 ✅ 2025-02-24
     - [x] [[WIP/CSS pour les Task In Progress]] #done ➕ 2025-02-24 🛫 2025-02-24 ✅ 2025-02-24
     - [/] [[WIP/Button to change TODO to WIP section and tag]] #done  ➕ 2025-02-24 🛫 2025-02-24 
     - [-] [[Templater - Move selected text to a different note, then embed the text back]] #done #obsidian #helper ➕ 2025-02-24 🛫 2025-02-24 ❌ 2025-02-24

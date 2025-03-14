@@ -1,10 +1,9 @@
  <%*
 let baseFolder = "Tasks"
+const templateName = "Templates/Inserts/Create Todo"
 const defaultTitle = "Todo"
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
-
-const templateName = "Templates/Inserts/Create Todo"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
@@ -15,4 +14,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [ ] [[<% baseFolder %>/<% title %>]]  #todo  ➕ <% tp.date.now() %>  
+%>   - [ ] [[<% baseFolder %>/<% title %>]]  #todo #task ➕ <% tp.date.now() %>

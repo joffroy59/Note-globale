@@ -1,6 +1,6 @@
  <%*
 let defaultValue = "Win"  
-let entree = await tp.system.prompt("Enter a value :");
+let entree = await tp.system.prompt("Enter a value :", null, true);
 if (!entree) entree = defaultValue
 -%>
-- [x] <% entree %>  #wins ➕ {{DATE}} ✅ {{DATE}}
+- [x] <% entree %>  #wins #done   #task ➕ {{DATE}} ✅ {{DATE}}

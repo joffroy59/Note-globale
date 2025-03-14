@@ -1,10 +1,9 @@
  <%*
 let baseFolder = "Done"
+const templateName = "Templates/Inserts/Create Done"
 const defaultTitle = "Done"
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
-
-const templateName = "Templates/Inserts/Create Done"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
@@ -16,11 +15,11 @@ if (existing) {
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
 _%>
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 `````ad-done
 title: DONE
 collapse: open
-#done 
+#done
 
-- [x] [[<% baseFolder %>/<% title %>]]  #done ➕ <% tp.date.now() %>  ✅ <% tp.date.now() %>
+- [x] [[<% baseFolder %>/<% title %>]]  #done #task ➕ <% tp.date.now() %>  ✅ <% tp.date.now() %>
 `````

@@ -1,6 +1,6 @@
 <%*
 let baseFolder = "IA/ComfyUI/civitai"
-const defaultTitle = "civitai"
+const defaultTitle = "civitai - "
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
@@ -15,4 +15,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/civitai   ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #task  #IA #IA/civitai   ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

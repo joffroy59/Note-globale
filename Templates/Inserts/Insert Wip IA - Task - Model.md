@@ -1,10 +1,9 @@
 <%*
 let baseFolder = "IA/Model"
-const defaultTitle = "IA Model"
+const templateName = "Templates/IA/Create IA - Task - Model"
+const defaultTitle = "model - "
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
-
-const templateName = "Templates/IA/Create IA - Task - Model"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
@@ -15,4 +14,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/model  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip   #task  #IA #IA/model  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

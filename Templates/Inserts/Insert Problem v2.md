@@ -1,16 +1,14 @@
  <%*
-let baseFolder = "Problems"
-const defaultTitle = "Problem"
-
 let typeList = ["Général", "Appart", "PC", "Domotique"]
 
 let typeDefaultValue = "Général"
 let type = await tp.system.suggester((item) => item, typeList)
 if (!type) type = typeDefaultValue
 
-let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
-
+let baseFolder = "Problems"
 const templateName = "Templates/Inserts/Create Problem " + type + " v2"
+
+let title = await tp.system.prompt("Title (create Note Link)", null, true, false);
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
@@ -23,7 +21,7 @@ if (existing) {
 
 _%>
 ---
-<%* tp.file.cursor() %> 
+<%* tp.file.cursor() %>
 `````ad-danger
 title: Les Problèmes
 collapse: open

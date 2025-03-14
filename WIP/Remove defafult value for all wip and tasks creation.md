@@ -20,25 +20,25 @@ exemple wip Obsidian or Toview
 
 ---
 ## Tasks
-- [/] [[Insert Task - ToView]]
+- [x] [[Insert Task - ToView]] ✅ 2025-03-14
 - [x] [[Insert Task (Obsidian)]] ✅ 2025-03-14
-- [/] [[Insert Task - WIP- Obsidian]] or [[Insert Task - WIP - Obsidian]] which one is used ??? 
+- [x] [[Insert Task - WIP- Obsidian]] or [[Insert Task - WIP - Obsidian]] which one is used ??? ✅ 2025-03-14
 - [x] [[Insert Task]] ✅ 2025-03-14
-- [ ] [[Insert Task Win]]
-- [ ] [[Insert Task DONE]]
-- [ ] [[Insert Task - WIP]]
-- [ ] [[Insert Task - WIP - Graph]]
-- [ ] [[Insert Wip IA - Task - Multi]]
-- [ ] [[Insert Wip IA - Task - Model]]
-- [ ] [[Insert Wip IA - Task - Select]]
-- [ ] [[Insert Wip IA - Task - Common]]
-- [ ] [[Insert Wip IA - Task - WAN 2.1]]
-- [ ] [[Insert Wip IA - Task - Generic]]
-- [ ] [[Insert Wip IA - Task - ComFyUI]]
-- [ ] [[Insert Wip IA - Task - civitai]]
-- [ ] [[Insert Wip IA - Task - workflow]]
-- [ ] [[Insert Wip IA - Task - Flux NF4]]
-- [ ] [[Insert Wip IA - Task - StabilityMatrix - Application]]
+- [x] [[Insert Task Win]] ✅ 2025-03-14
+- [x] [[Insert Task DONE]] ✅ 2025-03-14
+- [x] [[Insert Task - WIP]] ✅ 2025-03-14
+- [x] [[Insert Task - WIP - Graph]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - Multi]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - Model]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - Select]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - Common]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - WAN 2.1]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - Generic]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - ComFyUI]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - civitai]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - workflow]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - Flux NF4]] ✅ 2025-03-14
+- [x] [[Insert Wip IA - Task - StabilityMatrix - Application]] ✅ 2025-03-14
 
 ---
 

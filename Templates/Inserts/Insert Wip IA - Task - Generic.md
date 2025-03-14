@@ -1,10 +1,9 @@
 <%*
 let baseFolder = "IA/Wip"
-const defaultTitle = "IA Wip"
+const templateName = "Templates/IA/Create IA - Task - Generic"
+const defaultTitle = "IA Wip - "
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
-
-const templateName = "Templates/IA/Create IA - Task - Generic"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;

@@ -1,10 +1,9 @@
 <%*
 let baseFolder = "IA/ComfyUI/Flux"
-const defaultTitle = "ComfyUI-Flux"
+const templateName = "Templates/IA/Create IA - Task - ComFyUI - Flux"
+const defaultTitle = "ComfyUI-Flux - "
 
 let title = await tp.system.prompt("Title from page", defaultTitle);
-
-const templateName = "Templates/IA/Create IA - Task - ComFyUI - Flux"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
@@ -15,4 +14,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+%>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #task #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
