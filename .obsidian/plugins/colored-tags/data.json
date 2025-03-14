@@ -300,7 +300,8 @@
     "IA/open_webui/pipeline": 7,
     "IA/pipeline": 12,
     "IA/pipeline/pipeline": 1,
-    "IA/open_webui/generic": 8
+    "IA/open_webui/generic": 8,
+    "status/next": 6
   },
   "_version": 3
 }

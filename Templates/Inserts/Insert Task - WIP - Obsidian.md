@@ -1,10 +1,8 @@
  <%*
 let baseFolder = "WIP"
-const defaultTitle = "WorkInProgress"
-
-let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
-
 const templateName = "Templates/Inserts/Create Task WIP Obsidian"
+
+let title = await tp.system.prompt("Title (create Note Link)", null, true, false);
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
@@ -15,4 +13,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip  #obsidian ➕ {{DATE}} 🛫 {{DATE}} 
+%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip #status/next  #task #obsidian ➕ {{DATE}} 🛫 {{DATE}} 
