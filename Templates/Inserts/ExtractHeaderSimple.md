@@ -7,14 +7,16 @@ const MAX_HEADING_LENGTH = 75;
 let text = app.workspace.activeEditor.getSelection().split("\n")[0]
 
 // Get the heading
-let heading = text
+let heading = ""
 // If the heading is longer than the maximum length, truncate it to the maximum length
-if (heading.length > MAX_HEADING_LENGTH) {
-    heading = heading.substring(0, MAX_HEADING_LENGTH) + "..."
+if (text.length > MAX_HEADING_LENGTH) {
+alert()
+    heading = text.substring(0, MAX_HEADING_LENGTH) + "...\n"
+    heading += text + "\n"
 } else {
-	text = ""
+	heading = text
 }
-text = `\n\n### ${heading.trim()}\n${text.trim()}\n`
+text = `\n\n### ${heading.trim()}\n`
 text += "#todo" + "\n"
 let embed = `[[#${heading}]]`
 

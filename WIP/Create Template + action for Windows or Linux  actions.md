@@ -19,6 +19,14 @@ select sur le pc asusJah ou autre ou raspberry
 
 ---
 ## Tasks
-- [ ] Task1
+- [ ] Create Pc Action like WIP IA hor Done or todo
+	- [ ] templater
+		- [ ] insert 
+		- [ ] create note
+	- [ ] test templater 
+	- [ ] quickadd 
+	- [ ] button
+
+
 ---
 
