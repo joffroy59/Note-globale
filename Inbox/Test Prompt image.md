@@ -11,6 +11,461 @@ exemple isnert avec templater et select
 
 
 
-![[mistral-ai-icon-seeklogo.svg|24]]
 
+![[mistral-ai-icon-seeklogo.svg|24]]  ![[Microsoft_Copilot.svg|24]]  ![[google-gemini-icon.svg|24]]  ![[open-webui-circle.png|24]] ![[open-webui.png|24]] ![[mistral-ai-seeklogo.svg|24]]
+
+
+
+
+
+use in [[insert Chat Note]]
+
+````ad-caution
+title:   ![[mistral-ai-icon-seeklogo.svg|24]]                       <span>Lechat</span>
+collapse: closed 
+
+
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+
+
+```
+
+````
+
+````ad-caution
+title: Microsoft Copilot
+collapse: closed 
+![[Microsoft_Copilot.svg|24]]
+
+![[qsdqsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[qdqsd|400]]
+
+
+```
+
+````
+
+
+
+````ad-caution
+title: NaNLechat
+collapse: closed 
+
+
+![[qsdqsdqsdqdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[qsdqsd|400]]
+
+
+```
+
+````
+
+````ad-quote
+title:  Lechat ![[google-gemini-icon.svg|24]] 
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[qsdqdqd|400]]
+
+
+```
+
+````
+
+
+````ad-caution
+title:  ![[mistral-ai-icon-seeklogo.svg|24]]  Lechat
+collapse: closed 
+
+
+![[dqsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[qsdqsd|400]]
+
+
+```
+
+````
+
+
+
+````ad-caution
+title:   Lechat   ![[mistral-ai-icon-seeklogo.svg|24]] 
+collapse: closed 
+
+
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+
+
+```
+
+````
+
+````ad-info
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+
+
+
+ 
+````ad-note
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+ 
+````ad-abstract
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-info
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+ 
+````ad-tip
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-info
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-success
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-question
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-warning
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-failure
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-danger
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-example
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-quote
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+````ad-info
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+icon: Microsoft_Copilot.svg
+
+![[qsdqsd|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ddqsd|400]]
+
+
+```
+
+````
+
+
+ 
+````ad-info
+title:   Lechat &nbsp; ![[mistral-ai-icon-seeklogo.svg|24]] 
+collapse: closed 
+
+
+![[zzzz|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[ssss|400]]
+
+
+```
+
+````
+
+ ````ad-note
+title:   Microsoft Copilot &nbsp; ![[Microsoft_Copilot.svg|24]] 
+collapse: closed 
+
+
+![[sss|400]]
+
+
+```ad-cite
+title: Prompt
+collapse: closed 
+
+
+![[sss|400]]
+
+
+```
+
+````
+
+ 
 

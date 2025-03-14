@@ -9,9 +9,9 @@ chat:
     - Lechat
     - Microsoft Copilot
   Lechat:
-    logo: todo.svgh
+    logo: mistral-ai-icon-seeklogo.svg
   Microsoft Copilot:
-    logo: todo.svgh
+    logo: Microsoft_Copilot.svg
 
 wip:
   types:
