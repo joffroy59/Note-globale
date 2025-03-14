@@ -1,5 +1,6 @@
 <%*
-let image = await tp.system.prompt("Image:");
+let prompt = "Image:"
+let image = await tp.system.prompt(prompt);
 const regex = /^[a-zA-Z]/;
 let is_internal = regex.test(image) 
 
