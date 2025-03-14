@@ -22,26 +22,28 @@ type: Add
 
 **Modèle :** [Insérer le modèle] #todo
 
+
+
 ---
 
 #### Historique des Recharges
 
-| Date de Recharge Clavier 🔌             | Durée de Charge (heures) | etat  | Action | Autonomie (jours) | Notes                      |
-| --------------------------------------- | ------------------------ | ----- | ------ | ----------------- | -------------------------- |
-| [Date]                                  | [Durée]                  |       |        | [Autonomie]       | [Notes supplémentaires]    |
-| 2025-03-01 16:35                        |                          | 4 🪫  | 🔌     |                   | Première recharge  suivie. |
-| 2025-03-01 16:48                        | 0:13                     | 5     | 🔍     |                   |                            |
-| 2025-03-01 18:26                        | 1:51                     | 6     | 🔍     |                   | Ajout automatique          |
-| 2025-03-01 19:05                        | 2:30                     | 7     | 🔍     |                   | Ajout automatique          |
-| 2025-03-02 00:46                        | 8:11                     | 10  ✅ | 🛑     |                   | Ajout automatique          |
-| 2025-03-05 08:43                        |                          | 3     | 🔌     |                   | Ajout automatique          |
-| 2025-03-05 23:16                        | *14:33*                  | 10    | 🛑     |                   | Ajout automatique          |
-| 2025-03-10 23:29                        |                          | 2     | 🔌     |                   | Ajout automatique          |
-| 2025-03-11 08:09                        |                          | 10    | 🛑     |                   | Ajout automatique          |
-| 2025-03-14 21:12                        |                          | 2     | 🔌     |                   | Ajout automatique          |
-| 2025-03-14 23:01                        |                          | 6     | 🔍     | ❓                 | Ajout automatique          |
-| 2025-03-14 23:12 |   | 7 | 🔍 | ❓ | Ajout automatique |
-| **Ajouter une nouvelle recharge ici :** |                          |       |        |                   |                            |
+| Date de <br>Recharge Clavier 🔌         |       | Durée de Charge (heures) | etat  | Action | Autonomie (jours) | Notes                  |
+| --------------------------------------- | ----- | ------------------------ | ----- | ------ | ----------------- | ---------------------- |
+| 2025-03-01                              | 16:35 |                          | 4 🪫  | 🔌     |                   | 1ere recharge  suivie. |
+| 2025-03-01                              | 16:48 | 0:13                     | 5     | 🔍     |                   |                        |
+| 2025-03-01                              | 18:26 | 1:51                     | 6     | 🔍     |                   | Ajout automatique      |
+| 2025-03-01                              | 19:05 | 2:30                     | 7     | 🔍     |                   | Ajout automatique      |
+| 2025-03-02                              | 00:46 | 8:11                     | 10  ✅ | 🛑     |                   | Ajout automatique      |
+| 2025-03-05                              | 08:43 |                          | 3     | 🔌     |                   | Ajout automatique      |
+| 2025-03-05                              | 23:16 | *14:33*                  | 10    | 🛑     |                   | Ajout automatique      |
+| 2025-03-10                              | 23:29 |                          | 2     | 🔌     |                   | Ajout automatique      |
+| 2025-03-11                              | 08:09 |                          | 10    | 🛑     |                   | Ajout automatique      |
+| 2025-03-14                              | 21:12 |                          | 2     | 🔌     |                   | Ajout automatique      |
+| 2025-03-14                              | 23:01 |                          | 6     | 🔍     | ❓                 | Ajout automatique      |
+| 2025-03-14                              | 23:15 |                          | 7     | 🔍     | ❓                 | Ajout automatique      |
+| 2025-03-14                              | 23:19 |                          | 7     | 🔍     | ❓                 | Ajout automatique      |
+| **Ajouter une nouvelle recharge ici :** |       |                          |       |        |                   |                        |
 
 
 ^bbe402
