@@ -7,10 +7,33 @@ tags:
 
 type: fragment
 ---
-<%*
-// Demander à l'utilisateur de fournir un lien
-let userLink = await tp.system.prompt("Entrez le lien à embarquer :");
 
-// Embarquer le lien en utilisant la commande "Link Embedder: Embed link"
-await tp.commands.executeCommand("link-embedder:embed-link", { url: userLink });
-%>
+<%* 
+
+app.commands.executeCommandById = function executeCommandById(id, t, options) {
+  this.app.lastEvent = t || null;
+  var n = this.findCommand(id);
+  if (!n) return !1;
+  try {
+    (function(e) {
+        console.log(options)
+        e.checkCallback ? e.checkCallback(!1, options) : e.callback ? e.callback(options) : console.error("Command " + e + " did not provide a callback")
+    })(n);
+  } catch (id) {
+    return (
+      console.log("Command failed to execute: ", n.id), console.error(e), !1
+    );
+  }
+  return !0;
+}
+this.addCommand({
+  id: "open-sample-modal-simple",
+  name: "Open sample modal (simple)",
+  callback: (options: any) => {
+    console.log(111, options);
+    new SampleModal(this.app).open();
+  },
+});
+app.commands.executeCommandById('app:open-command-palette')
+
+_%>

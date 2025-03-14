@@ -6,3 +6,11 @@
 
 exemple isnert avec templater et select 
 
+
+
+
+
+
+![[mistral-ai-icon-seeklogo.svg|24]]
+
+

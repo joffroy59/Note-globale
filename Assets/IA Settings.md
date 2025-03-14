@@ -138,6 +138,31 @@ execution:
   - docker
   - windows
 
+
+
+logo:
+  ia:
+    list:
+      - mistral-ai-icon
+      - Microsoft_Copilot
+      - google-gemini
+      - open-webui-circle
+      - open-webui
+      - mistral-ai
+    mistral-ai-icon:
+      image: mistral-ai-icon-seeklogo.svg
+    Microsoft_Copilot:
+      image: Microsoft_Copilot.svg
+    google-gemini:
+      image: google-gemini-icon.svg
+    open-webui-circle:
+      image: open-webui-circle.png
+    open-webui:
+      image: open-webui.png
+    mistral-ai:
+      image: mistral-ai-seeklogo.svg
+
+
 ---
 
 ## Settings

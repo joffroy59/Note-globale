@@ -238,7 +238,7 @@
           "setFileExistsBehavior": true
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "16adb884-fe7e-4ab2-ac1e-ec590bce0491",
@@ -2098,6 +2098,48 @@
         "considerSubsections": false,
         "createIfNotFound": true,
         "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e7f171be-8bcf-4765-83a0-802da8915abf",
+      "name": "Embed Link2 (copy)",
+      "type": "Macro",
+      "command": true,
+      "macroId": "7246ca6d-6b6f-473e-8f89-431337fbd597"
+    },
+    {
+      "id": "6b864f99-feba-485d-8c0e-5fb6b659d03f",
+      "name": "test-embeded",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Elements/Insert - Failed.md}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
       },
       "prepend": false,
       "task": false,

@@ -68,7 +68,9 @@
     "Templates/Inserts/ELN info.md",
     "",
     "Templates/Inserts/ExtractHeader.md",
-    "Templates/Inserts/ExtractHeaderSimple.md"
+    "Templates/Inserts/ExtractHeaderSimple.md",
+    "Templates/Elements/Insert - Failed.md",
+    "Templates/Elements/Insert - Logo IA.md"
   ],
   "startup_templates": [
     ""
