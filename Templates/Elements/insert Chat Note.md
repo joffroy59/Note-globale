@@ -14,13 +14,13 @@ const ad_collapse = "closed"
 title:   <% chat_name %> &nbsp; ![[<% chat_logo %>|24]] 
 collapse: <% ad_collapse %> 
 
-<% tp.file.include("[[Insert Image v1]]") %>
+<%- tp.file.include("[[Insert Image v1]]") %>
 
 ```ad-cite
 title: Prompt
 collapse: closed 
 
-<% tp.file.include("[[Insert Image v1]]") %>
+<%- tp.file.include("[[Insert Image v1]]") %>
 
 ```
 

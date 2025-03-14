@@ -1,5 +1,5 @@
 ### is it working ❓
-- [ ] [[embed_link_template]]
+- [x] [[embed_link_template]] NO ✅ 2025-03-14
 - [ ] [[Templates/Action/wip_to_done_button]]  + [[WIP/wip_to_done_button]]
 - [ ] [[Backup - Template - DailyNote]]
 - [ ] [[Correctif Plugin Obsidian]]
