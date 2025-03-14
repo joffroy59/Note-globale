@@ -120,28 +120,84 @@ li[data-task="/"]>p>input:checked:after {
     -webkit-mask-image: none;
 }
 
-/* [-] Canceled */
-input[data-task="-"]:checked,
-li[data-task="-"]>input:checked,
-li[data-task="-"]>p>input:checked {
-    color: var(--text-faint);
-    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z' clip-rule='evenodd' /%3E%3C/svg%3E");
+/* [-]: Cancelled/Non-Task: Line */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="-"],
+.cm-s-obsidian span.hmd-hidden-token.cm-formatting-task[data-task="-"],
+.task-list-item.is-checked .task-list-item-checkbox[data-task="-"],
+.task-list-item.is-checked[data-task="-"]>input[type=checkbox]:checked,
+.task-list-item.is-checked[data-task="-"] p>input[type=checkbox]:checked {
+    &::before {
+        color: var(--checkbox-wip-color);
+        content: "⛔";
+        font-size: small;
+        margin-left: 3px;
+    }
 }
-body:not(.tasks) .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task]:is([data-task="-"]),
-body:not(.tasks) .markdown-preview-view ul li[data-task="-"].task-list-item.is-checked,
-body:not(.tasks) li[data-task="-"].task-list-item.is-checked {
-    color: var(--checkbox-wip-color);
-    text-decoration: line-through solid var(--checkbox-color) 1px;
+
+/* [k]: Cancelled/Non-Task: Line */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="k"],
+.cm-s-obsidian span.hmd-hidden-token.cm-formatting-task[data-task="k"],
+.task-list-item.is-checked .task-list-item-checkbox[data-task="k"],
+.task-list-item.is-checked[data-task="k"]>input[type=checkbox]:checked,
+.task-list-item.is-checked[data-task="k"] p>input[type=checkbox]:checked {
+    &::before {
+        color: var(--checkbox-wip-color);
+        content: "❌";
+        font-size: small;
+        margin-left: 3px;
+    }
 }
+
+/* [f]: Cancelled/Non-Task: Line */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="f"],
+.cm-s-obsidian span.hmd-hidden-token.cm-formatting-task[data-task="f"],
+.task-list-item.is-checked .task-list-item-checkbox[data-task="f"],
+.task-list-item.is-checked[data-task="f"]>input[type=checkbox]:checked,
+.task-list-item.is-checked[data-task="f"] p>input[type=checkbox]:checked {
+    &::before {
+        color: var(--checkbox-wip-color);
+        content: "💥";
+        font-size: large;
+        margin-left: 0px;
+    }
+}
+
+/* [o]: Cancelled/Non-Task: Line */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="o"],
+.cm-s-obsidian span.hmd-hidden-token.cm-formatting-task[data-task="o"],
+.task-list-item.is-checked .task-list-item-checkbox[data-task="o"],
+.task-list-item.is-checked[data-task="o"]>input[type=checkbox]:checked,
+.task-list-item.is-checked[data-task="o"] p>input[type=checkbox]:checked {
+    &::before {
+        color: var(--checkbox-wip-color);
+        content: "✅";
+        font-size: small;
+        margin-left: 3px;
+    }
+}
+
+/* [§?]: Cancelled/Non-Task: Line */
+/* .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task="?"],
+.cm-s-obsidian span.hmd-hidden-token.cm-formatting-task[data-task="?"],
+.task-list-item.is-checked .task-list-item-checkbox[data-task="?"],
+.task-list-item.is-checked[data-task="?"]>input[type=checkbox]:checked,
+.task-list-item.is-checked[data-task="?"] p>input[type=checkbox]:checked {
+    &::before {
+        color: var(--checkbox-wip-color);
+        content: "❓";
+        font-size: medium;
+        margin-left: -5px;
+    }
+} */
+
 
 /* [i] Info */
 input[data-task=i]:checked,
 li[data-task=i]>input:checked,
 li[data-task=i]>p>input:checked {
     --checkbox-marker-color: transparent;
-    /* background-color: var(--text-faint); */
-    /* border-color: var(--color-blue); */
-    /* color: var(--text-faint); */
+    background-color: var(--neutral-orange);
+    border-color: var(--neutral-orange);
     background-position: 50%;
     background-size: 100%;
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"%3E%3Cpath fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" d="M196 220h64v172"%2F%3E%3Cpath fill="none" stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" d="M187 396h138"%2F%3E%3Cpath fill="white" d="M256 160a32 32 0 1 1 32-32a32 32 0 0 1-32 32Z"%2F%3E%3C%2Fsvg%3E');
@@ -152,3 +208,58 @@ li[data-task=i]>p>input:checked {
 .theme-dark li[data-task=i]>p>input:checked {
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"%3E%3Cpath fill="none" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" d="M196 220h64v172"%2F%3E%3Cpath fill="none" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" d="M187 396h138"%2F%3E%3Cpath fill="black" fill-opacity="0.8" d="M256 160a32 32 0 1 1 32-32a32 32 0 0 1-32 32Z"%2F%3E%3C%2Fsvg%3E');
 }
+
+/* [*] Star */
+input[data-task="*"]:checked,
+li[data-task="*"]>input:checked,
+li[data-task="*"]>p>input:checked {
+    background-color: #c57c14;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z' /%3E%3C/svg%3E");
+
+    width: 18px;
+    height: 18px;
+}
+
+
+body:not(.disable-alternative-checkboxes) input[data-task="?"]:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="?"]>input:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="?"]>p>input:checked {
+--checkbox-marker-color: transparent;
+    border: none;
+    border-radius: 0;
+    background-image: none;
+    background-color: currentColor;
+    -webkit-mask-size: var(--neutral-orange);
+    -webkit-mask-position: 50% 50%
+    background-color: var(--neutral-orange);
+    color: var(--neutral-orange);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style></defs><rect class="cls-1" width="14" height="14"/><path class="cls-2" d="M8,16c4.42,0,8-3.58,8-8S12.42,0,8,0,0,3.58,0,8s3.58,8,8,8ZM4.84,3.66c-.32,.48-.09,1.14,.44,1.37,.23,.1,.49,.1,.72,0,.17-.07,.31-.18,.41-.34,.31-.49,.82-.89,1.6-.89,1.72,0,2.06,1.61,1.45,2.47-.36,.51-.87,.91-1.33,1.37-.28,.28-.55,.58-.74,.93-.19,.33-.27,.69-.31,1.03-.04,.31,.08,.59,.28,.79,.18,.18,.43,.29,.71,.29,.49,0,.89-.38,.95-.87,.04-.3,.1-.45,.2-.63,.41-.76,1.18-1.12,1.98-2.3,.72-1.07,.45-2.5-.02-3.27-.55-.89-1.62-1.61-3.19-1.61-1.43,0-2.51,.7-3.15,1.66Zm3.16,11.01c.73,0,1.33-.6,1.33-1.33s-.6-1.33-1.33-1.33-1.33,.6-1.33,1.33,.6,1.33,1.33,1.33Z"/></svg>');
+}
+
+body:not(.disable-alternative-checkboxes) input[data-task="!"]:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="!"]>input:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="!"]>p>input:checked {
+    --checkbox-marker-color: transparent;
+    border: none;
+    border-radius: 0;
+    background-image: none;
+    background-color: currentColor;
+    -webkit-mask-size: var(--neutral-orange);
+    -webkit-mask-position: 50% 50% background-color: var(--neutral-orange);
+    color: var(--neutral-orange);
+   -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style></defs><rect class="cls-1" width="16" height="16"/><path class="cls-2" d="M8,16c4.42,0,8-3.58,8-8S12.42,0,8,0,0,3.58,0,8s3.58,8,8,8ZM6.07,3.55c-.08,.29-.09,.6-.03,.9l.86,4.56c.05,.28,.2,.52,.42,.7,.22,.18,.49,.28,.77,.28s.55-.1,.77-.28c.22-.18,.36-.43,.42-.7l.86-4.56c.06-.3,.04-.61-.03-.9-.08-.29-.22-.57-.41-.8-.19-.23-.44-.42-.71-.55-.28-.13-.58-.2-.88-.2s-.61,.07-.88,.2c-.28,.13-.52,.32-.71,.55-.19,.23-.34,.51-.41,.8Zm3.07,10.01c.28-.28,.44-.66,.44-1.06s-.16-.78-.44-1.06c-.28-.28-.66-.44-1.06-.44s-.78,.16-1.06,.44c-.28,.28-.44,.66-.44,1.06s.16,.78,.44,1.06c.28,.28,.66,.44,1.06,.44s.78-.16,1.06-.44Z"/></svg>');
+}
+
+/* body:not(.disable-alternative-checkboxes) input[data-task="/"]:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>input:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="/"]>p>input:checked {
+    --checkbox-marker-color: transparent;
+    border: none;
+    border-radius: 0;
+    background-image: none;
+    background-color: currentColor;
+
+    --checkbox-color-hover: var(--color-yellow);
+    color: var(--color-yellow);
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="svg0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style></defs><rect class="cls-1" width="16" height="16"/><path class="cls-2" d="M13.66,13.66c-1.45,1.45-3.45,2.34-5.66,2.34C3.58,16,0,12.42,0,8S3.58,0,8,0c2.17,0,4.15,.87,5.59,2.28,.06,.06,.12,.12,.18,.18,1.37,1.43,2.22,3.36,2.23,5.5,0,.03,0,.07,0,.1-.01,2.19-.91,4.17-2.34,5.6Zm-1.41-1.41c-1.09,1.09-2.59,1.76-4.24,1.76-3.31,0-6-2.69-6-6S4.69,2,8,2v6l4.24,4.24Z"/></svg>');
+} */
