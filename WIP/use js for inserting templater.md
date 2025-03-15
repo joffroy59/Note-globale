@@ -47,5 +47,5 @@ make multiple fonction and some with parameter
 ### integration in Note
 #todo
 - [[Insert Image v1]]
-- [[Untitled 2]]
+- [[IA untitled 2]]
 - [[insert Chat Note]]
