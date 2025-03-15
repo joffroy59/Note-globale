@@ -2,7 +2,7 @@
 
 const settings_file = "Assets/Pc Settings.md";
 const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
-alert(settings)
+
 const task_type_list = settings.pc.task_type.list
 const pc_type_list = settings.pc.type
 
@@ -20,7 +20,7 @@ let template_create = `${template_task_type_base}/${task_type}/${pc_type}/${temp
 let defaultTitle = `${pc_type} - `
 
 let task_type_tags = settings.pc.task_type[task_type.trim()].tags
-alert(task_type)
+
 let tags = `${task_type_tags} #${pc_type}`
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
