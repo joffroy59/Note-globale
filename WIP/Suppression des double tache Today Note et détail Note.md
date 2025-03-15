@@ -138,7 +138,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [-] [[#Insert Idea.md]]
 	- [ ] Insert Note.md
 	- [ ] Insert Other.md
-	- [ ] Insert Problem.md
+	- [-] [[#Insert Problem.md]]
 	- [ ] Insert Problem - Appart.md
 	- [ ] Insert Problem - Ask.md
 	- [ ] Insert Problem - Domotique.md
@@ -591,4 +591,63 @@ encore utilisé dans DAly Note > ⛔
 		- [x] 8a9b994e-5749-45fb-ab86-b095616a334f ✅ 2025-03-15
 			- [x] insert-daily-wip-ia ✅ 2025-03-15
 				- [x] Test\Test Button - Cimetiére.md ✅ 2025-03-15
+
+
+
+### Insert Problem.md
+
+encore utilisé dans DAly Note > ⛔
+
+```yml
+        {
+          "id": "da7c48b8-d948-454a-bda8-2ccecebabf35",
+          "name": "🚨Insert Problems Insert",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚨Problème",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] Insert Problem.md
+		- [ ] da7c48b8-d948-454a-bda8-2ccecebabf35
+			- [ ] insert-problem-daily
+				- [ ] 
+		- [ ] Tools\Site Button.md
+			- [ ] Daily Note\2025\01\02\📒2025-01-06.md
+		- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+			- [ ] WIP\Use Settings for WIP IA Select.md
+		- [ ] WIP\Poub\test button insert tempalte in note.md
 
