@@ -158,7 +158,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[#Insert Wip IA - StabilityMatrix - Application v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - Generic v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - Select v2.md]] ✅ 2025-03-15
-	- [ ] Insert Wip IA - Select.md
+	- [/] [[#Insert Wip IA - Select.md]]
 
 ## info
 
@@ -1220,4 +1220,55 @@ encore utilisé dans [[Panel/Actions|Actions]]> ⛔ et Daily Note
 			- [-] WIP\Use Settings for WIP IA Select.md
 			- [-] WIP\Wip IA (Select) - like To view with no admonition.md
 
+
+
+
+### Insert Wip IA - Select.md
+
+```yml
+        {
+          "id": "650e702a-98a7-4fdb-8ca6-1db07dc13779",
+          "name": "🚧Insert WIP IA - Select",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Select.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚧 Wip",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - Select.md ✅ 2025-03-15
+		- [x] 650e702a-98a7-4fdb-8ca6-1db07dc13779 ✅ 2025-03-15
+			- [x] insert-daily-wip-ia-select ✅ 2025-03-15
 

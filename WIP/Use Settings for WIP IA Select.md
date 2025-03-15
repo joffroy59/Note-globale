@@ -51,10 +51,10 @@ For [[Insert Wip IA - Task - Select]]
 	- [ ] trouver le template generique pour cosntruction nom ... [[Insert Wip IA - Task - Select]]
 	- [ ] insert
 	- [ ] create
-- [-] [[#v2]]
-	- [-] trouver le template generique pour cosntruction nom ...v2 [[Insert Wip IA - Select v2]]
-- [ ] [[#v1]]
-	- [ ] trouver le template generique pour cosntruction nom ... [[Insert Wip IA - Select]]
+- [x] [[#v2]]
+	- [x] trouver le template generique pour cosntruction nom ...v2 [[Insert Wip IA - Select v2]]
+- [x] [[#v1]]
+	- [x] trouver le template generique pour cosntruction nom ... [[Insert Wip IA - Select]]
 
 
 ### v2
