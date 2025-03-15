@@ -57,6 +57,13 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 `BUTTON[insert-problem-daily-appart,insert-problem-daily-PC,insert-problem-daily-domotique,insert-problem-daily-ask]`
 
 - [ ] **Problem**  ➕ <% tp.date.now("YYYY-MM-DD") %>
+
+## 🗒️Today Modification
+```dataview
+TABLE file.ctime AS "Created", file.mtime AS "Updated", file.size AS "Size" 
+WHERE file.cday = date("{{DATE}}") OR file.mday = date("{{DATE}}")
+```
+
 ## 📝Note ———————————————————————
 
 `BUTTON[insert-daily-note]` `BUTTON[insert-daily-other]`
