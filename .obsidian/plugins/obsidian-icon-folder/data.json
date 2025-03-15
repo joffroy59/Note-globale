@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasPlugCircleExclamation",
       "IpIphoneStyleSmartphoneSvgrepoCom(1)",
       "SaccliPocketColorSvgrepoCom",
       "TaiPocket",
-      "SvResourcesSvgrepoCom(3)",
-      "SvPlanSvgrepoCom(2)"
+      "SvResourcesSvgrepoCom(3)"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,7 +47,10 @@
   "Admin": "MyAdmin",
   "WIP": "🚧",
   "Panel/Actions.md": "🉐",
-  "Panel/Fix Plugins Actions.md": "FasPlugCircleExclamation",
+  "Panel/Fix Plugins Actions.md": {
+    "iconName": "FasPlugCircleExclamation",
+    "iconColor": "#931515"
+  },
   "Domotique": "🏠",
   "Exemples": "📚",
   "Backup": "📦",

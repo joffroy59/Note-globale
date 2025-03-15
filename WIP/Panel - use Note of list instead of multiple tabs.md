@@ -18,6 +18,19 @@ Source : [[TODO]]
 
 ---
 ## Tasks
-- [ ] Task1
+- [ ] [[#create/find panel list of list]]
+- [ ] regrouper Panel list dans Panel/List
 ---
+
+
+
+### create/find panel list of list
+
+[[Panel]] folder lsit : 
+--> trop en mode vrac #todo clean 
+```dataview
+LIST
+FROM "Panel"
+SORT file.name
+```
 
