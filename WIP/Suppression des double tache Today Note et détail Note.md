@@ -136,8 +136,8 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 - [ ] Clean
 	- [-] [[#Insert DONE.md]]
 	- [-] [[#Insert Idea.md]]
-	- [ ] Insert Note.md
-	- [/] [[#Insert Other.md]]
+	- [-] [[#Insert Note.md]]
+	- [x] [[#Insert Other.md]] ✅ 2025-03-15
 	- [-] [[#Insert Problem.md]]
 	- [ ] Insert Problem - Appart.md
 	- [ ] Insert Problem - Ask.md
@@ -989,5 +989,67 @@ encore utilisé dans DAly Note > ⛔
 		- [ ] Daily Note\2025\01\01\📒2025-01-02.md
 		- [ ] Daily Note\2025\01\02\📒2025-01-10.md
 		- [ ] Tools\Site Button.md
+		- [ ] WIP\Poub\test button insert tempalte in note.md
+
+
+
+### Insert Note.md
+encore utilisé dans [[Panel/Actions|Actions]]> ⛔
+
+```yml
+        {
+          "id": "577934d8-4e55-4759-8b8e-119d0fb29b0a",
+          "name": "📝Insert Note",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Note.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 📝Note",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] Insert Note.md
+		- [ ] Daily Note\2025\01\01\📒2025-01-02.md
+		- [ ] Daily Note\2025\01\02\📒2025-01-10.md
+		- [ ] Templates\Inserts\Insert Note - Select.md
+			- [ ] b9205dd3-e269-49ef-b8da-414ecf69c0a8
+				- [ ] insert-daily-bote-select
+					- [ ] Panel\Actions.md
+					- [ ] WIP\Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA.md
+			- [ ] WIP\Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA.md
+		- [ ] WIP\Regrouper les bouton par section simplifiée et faire une sélection sous type comme pour wip IA.md
+			- [ ] Panel\Task Archives.md
+		- [ ] WIP\Use Settings for WIP IA Select.md
 		- [ ] WIP\Poub\test button insert tempalte in note.md
 
