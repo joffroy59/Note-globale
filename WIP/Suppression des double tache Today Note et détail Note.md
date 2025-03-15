@@ -134,7 +134,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 - utiliser  
 
 - [ ] Clean
-	- [ ] Insert DONE.md
+	- [/] [[#Insert DONE.md]]
 	- [ ] Insert Idea.md
 	- [ ] Insert Note.md
 	- [ ] Insert Other.md
@@ -209,3 +209,8 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[Panel/List  of WIP]] ✅ 2025-03-15
 	- [x] [[Templates/Inserts/Insert WIP New]] ✅ 2025-03-15
 	- [x] QuickAdd: 🚧Insert WIP (New) ✅ 2025-03-15
+
+### Insert DONE.md
+
+
+

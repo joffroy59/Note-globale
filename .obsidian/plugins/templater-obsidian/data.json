@@ -70,7 +70,8 @@
     "Templates/Inserts/ExtractHeader.md",
     "Templates/Inserts/ExtractHeaderSimple.md",
     "Templates/Elements/Insert - Failed.md",
-    "Templates/Elements/Insert - Logo IA.md"
+    "Templates/Elements/Insert - Logo IA.md",
+    "Templates/Elements/Insert - Clean Template Note and related Action.md"
   ],
   "startup_templates": [
     ""
