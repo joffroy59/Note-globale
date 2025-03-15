@@ -38,6 +38,16 @@ Repertoire de backup des download et isntallé par le plugin comme fontawesome s
 [emoji](file:///C:%5CUsers%5Cjerom%5COneDrive%5CImages%5Cmedia%5Cemoji)
 
 
-![[Problem icon delete disapear-1742059106654.png|400x82]]
+- [o] trouver les commit d'ajout et de suppression 
 
-trouver les commit d'ajout et de supression 
+ajout du zip 
+ajout icon dans
+- sdf
+- sdqsd 
+
+
+![[Fix Todo Select and use it - 👀 Wip IA _Multi_-1742059835642.png|400x82]]
+
+👉
+
+![[Fix Todo Select and use it - 👀 Wip IA _Multi_-1742059842916.png|400x109]]

@@ -14,16 +14,15 @@ tags:
 
 ---
 ## Tasks
-- [ ] Task1
----
-- [ ] test avec Templater open modal
+- [ ] [[#test avec Templater open modal]]
      - [ ] [[Tasks/Todo]]  #todo #task ➕ 2025-03-15
+---
 
+
+
+
+
+### test avec Templater open modal
 mais doit être le hasard la note template devait exister avant car list plutôt que create ou insert template
 semble pas fini et il faudrait prendre ce que fait la version utiliser pour reprendre 
-
-![[Fix Todo Select and use it - 👀 Wip IA _Multi_-1742059835642.png|400x82]]
-
-👉
-
-![[Fix Todo Select and use it - 👀 Wip IA _Multi_-1742059842916.png|400x109]]
+car les autre n'existent pas 
