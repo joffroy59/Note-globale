@@ -5,6 +5,6 @@ let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, qu
 if (taskEnable) { -%>
 ---
 ## Tasks
-- [ ] Task1
+- [ ] Task1 ➕ <% tp.date.now("YYYY-MM-DD") %>
 ---
 <%* } -%>
