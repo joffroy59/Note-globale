@@ -42,7 +42,5 @@ title: Note
 **{PRINTSCREEEN CONFIGURATION}**
 
 
-
-
 ### Create a button
 

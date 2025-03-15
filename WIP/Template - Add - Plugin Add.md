@@ -20,6 +20,6 @@ title: Note
 
 ---
 ## Tasks
-- [x] [[Plugin Add]] ➕ 2025-03-15 ✅ 2025-03-15
+- [x] [[Create Plugin Add]] ➕ 2025-03-15 ✅ 2025-03-15
 - [ ] 
 ---
