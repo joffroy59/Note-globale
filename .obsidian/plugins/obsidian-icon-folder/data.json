@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiSunrise",
-      "SvNotionSvgrepoCom(2)",
-      "SvNotionSvgrepoCom",
-      "SiObsidian",
-      "LiList"
+      "LiTrash2",
+      "JiiTaskListSvgrepoCom(5)",
+      "IdlTaskSquareSvgrepoCom",
+      "DaiTaskSvgrepoCom",
+      "SaccliPocketColorSvgrepoCom"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -65,7 +65,10 @@
   "Templates/Daily Note": "📙",
   "Templates/Fix": "🔧",
   "Templates/IA": "🧠",
-  "Templates/Inserts": "RiInsertRowBottom",
+  "Templates/Inserts": {
+    "iconName": "RiInsertRowBottom",
+    "iconColor": "#109827"
+  },
   "Templates/New Note": "📙",
   "Templates/sandbox": "🔬",
   "Templates/Snippets": "📃",
@@ -93,7 +96,10 @@
   "Exemples/Plugins": "🔌",
   "Exemples/texte": "LiText",
   "Exemples/Table": "CoTable",
-  "Templates/Elements": "CoCombineCells",
+  "Templates/Elements": {
+    "iconName": "LiLayoutDashboard",
+    "iconColor": "#3a8cd9"
+  },
   "Templates/Tasks": "MyTasksListSvgrepoCom(2)",
   "Tools/Excalidraw": "TiBrain",
   "Tools/Obsidian": "SiObsidian",
@@ -112,7 +118,10 @@
   "Templates/Inserts/List": "MyTasksListSvgrepoCom(2)",
   "Templates/Inserts/List/byTags": "TiTags",
   "Test": "🧪",
-  "Templates/Poub": "MyTrashSvgrepoCom(1)",
+  "Templates/Poub": {
+    "iconName": "LiTrash2",
+    "iconColor": "#3f5043"
+  },
   "Done/Docker": "SiDocker",
   "Sanbox": "MySandboxSvgrepoCom",
   "Sanbox/Test": "MyTestTubeSvgrepoCom(1)",
@@ -158,5 +167,11 @@
   "Panel/dataview/today": {
     "iconName": "LiSunrise",
     "iconColor": "#9d6515"
-  }
+  },
+  "Templates/Add": {
+    "iconName": "SvInsertColumnLeftSvgrepoCom",
+    "iconColor": "#308adf"
+  },
+  "Templates/Pocket": "SaccliPocketColorSvgrepoCom",
+  "Templates/Task": "JiiTaskListSvgrepoCom(5)"
 }
