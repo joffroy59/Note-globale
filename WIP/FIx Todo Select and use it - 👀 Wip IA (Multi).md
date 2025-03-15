@@ -16,4 +16,8 @@ tags:
 ## Tasks
 - [ ] Task1
 ---
+- [ ] test avec Templater open modal
+     - [ ] [[Tasks/Todo]]  #todo #task ➕ 2025-03-15
 
+mais doit être le hasard la note template devait exister avant car list plutôt que create ou insert template
+semble pas fini et il faudrait prendre ce que fait la version utiliser pour reprendre 

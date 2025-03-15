@@ -135,8 +135,8 @@
   "Tasks/List": "MyYellowListOrder13190",
   "Tasks/note": "MyNoteSvgrepoCom",
   "Experiments": "SvExperimentSvgrepoCom",
-  "Tasks/TODO.md": "SvMicrosoftTodoSvgrepoCom",
   "Projects": "SvPlanSvgrepoCom",
   "Projects Perso": "SvPlanSvgrepoCom(2)",
-  "Resources": "SvResourcesSvgrepoCom(3)"
+  "Resources": "SvResourcesSvgrepoCom(3)",
+  "Tasks/Todo.md": "SvMicrosoftTodoSvgrepoCom"
 }
