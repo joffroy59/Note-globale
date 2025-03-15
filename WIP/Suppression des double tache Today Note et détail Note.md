@@ -143,7 +143,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [ ] Insert Problem - Ask.md
 	- [ ] Insert Problem - Domotique.md
 	- [ ] Insert Problem - PC.md
-	- [ ] Insert Problem v2.md
+	- [-] [[#Insert Problem v2.md]]
 	- [x] [[#Insert ToView.md]] ✅ 2025-03-15
 	- [-] [[#Insert Win.md]]
 	- [x] [[#Insert WIP IA.md]] ✅ 2025-03-15
@@ -825,4 +825,58 @@ encore utilisé dans DAly Note > ⛔
 
 - [x] 🗑️ Delete ✅ 2025-03-15
 	- [x] Insert Wip IA - ComFyUI - Flux.md ✅ 2025-03-15
-		- [x] WIP\Ajout de metadata pour localisation des workflow ComfyUI.md �
+		- [x] WIP\Ajout de metadata pour localisation des workflow ComfyUI.md ✅ 2025-03-15
+
+
+
+### Insert Problem v2.md
+encore utilisé dans DAly Note > ⛔
+
+```yml
+        {
+          "id": "47d292fe-0edc-4201-8bd2-f4812524a866",
+          "name": "🚨Insert Problems v2",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem v2.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚨Problème",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] Insert Problem v2.md
+		- [ ] 47d292fe-0edc-4201-8bd2-f4812524a866
+			- [ ] insert-problem-daily-insert-v2
+		- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+
