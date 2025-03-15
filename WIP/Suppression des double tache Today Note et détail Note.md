@@ -149,7 +149,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [ ] Insert WIP IA.md
 	- [ ] Insert Wip IA - ComFyUI - Flux.md
 	- [ ] Insert Wip IA - ComFyUI - Flux v2.md
-	- [ ] [[#Insert Wip IA - IA civitai.md]]
+	- [/] [[#Insert Wip IA - IA civitai.md]]
 	- [/] [[#Insert Wip IA - IA civitai v2.md]]
 	- [-] Insert Wip IA - Model.md
 	- [ ] Insert Wip IA - Model v2.md
