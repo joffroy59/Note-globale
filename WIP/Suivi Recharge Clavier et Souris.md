@@ -4,21 +4,11 @@ tags:
   - suivi
   - status/wip_star
 ---
----
-type: Add
----
----
-type: Add
----
----
-type: Add
----
----
-type: Add
----
 ### Suivi de la Recharge du Clavier
 
 **Date d'Achat :** [Insérer la date d'achat] #todo
+
+
 
 **Modèle :** [Insérer le modèle] #todo
 
@@ -43,7 +33,10 @@ type: Add
 | 2025-03-14                              | 23:01 |                          | 6     | 🔍     | ❓                 | Ajout automatique      |
 | 2025-03-14                              | 23:15 |                          | 7     | 🔍     | ❓                 | Ajout automatique      |
 | 2025-03-14                              | 23:19 |                          | 7     | 🔍     | ❓                 | Ajout automatique      |
-| **Ajouter une nouvelle recharge ici :** |       |                          |       |        |                   |                        |
+| 2025-03-15                              | 02:24 | 5h                       | 10  ✅ | 🛑     | ❓                 | Ajout automatique      |
+| **Ajouter une nouvelle recharge ici :** |       |                          |       |        |                   | <br><br>               |
+
+
 
 
 ^bbe402

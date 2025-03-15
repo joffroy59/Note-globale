@@ -12,9 +12,9 @@ let pc_type = await tp.system.suggester((item) => item, pc_type_list)
 
 let folder_base = `${settings.pc.folder_base}/${pc_type}/${task_type}`
 
-const template_task_type_base = settings.pc.task_type.template_base
-let template_create_name = `Create Task ${task_type} ${pc_type}`
-let template_create = `${template_task_type_base}/${task_type}/${pc_type}/${template_create_name}`
+const template_task_type_base = settings.pc.template.template_base
+let template_create_name = settings.pc.template.create
+let template_create = `${template_task_type_base}/${template_create_name}`
 
 let defaultTitle = `${pc_type} - `
 
@@ -35,7 +35,7 @@ if (existing) {
   new Notice(`${title} Created.`, "/"+ folder_base + "/")
 }
 //await tp.file.move("/"+ folder_base + "/" + title, folder_basetp.file.find_tfile(title));
-
+alert(template_create)
 let task_state = ""
 if (task_type == "Wip") task_state = "/"
 

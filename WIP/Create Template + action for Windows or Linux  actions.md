@@ -36,7 +36,7 @@ select sur le pc asusJah ou autre ou raspberry
 
 - [x] [[Insert Wip IA - Task - Multi]] 👉 [[Insert Task - PC - Multi]]
 - [x] [[Insert Wip IA - Task - Common]] 👉 [[Insert Task - PC - Common]] ✅ 2025-03-15
-- [x] [[Create Task WIP Obsidian]] 👉 [[Create Task Wip Asus Game]] ✅ 2025-03-15
+- [x] [[Create Task WIP Obsidian]] 👉 [[Create Task PC]] ✅ 2025-03-15
 - [x] [[IA Settings]]  👉 [[Pc Settings.md]] ✅ 2025-03-15
 - [x] 🖥️Insert Task - Pc ✅ 2025-03-15
       ![[Create Template + action for Windows or Linux  actions-1741998272204.png|400x116]]

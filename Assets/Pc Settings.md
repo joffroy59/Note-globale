@@ -6,8 +6,10 @@ note:
 
 pc:
   folder_base: "Tasks/PC"
+  template:
+    create: "Create Task PC"
+    template_base: "Templates/Task/PC"
   task_type:
-    template_base: "Templates/Task"
     list:
       - Wip
       - Task
