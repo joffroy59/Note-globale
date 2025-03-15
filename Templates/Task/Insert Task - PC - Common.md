@@ -10,8 +10,7 @@ let task_type = await tp.system.suggester((item) => item, task_type_list)
 
 let pc_type = await tp.system.suggester((item) => item, pc_type_list)
 
-
-let folder_base = settings.pc.folder_base
+let folder_base = `${settings.pc.folder_base}/${pc_type}/${task_type}`
 
 const template_task_type_base = settings.pc.task_type.template_base
 let template_create_name = `Create Task ${task_type} ${pc_type}`
@@ -21,7 +20,7 @@ let defaultTitle = `${pc_type} - `
 
 let task_type_tags = settings.pc.task_type[task_type.trim()].tags
 
-let tags = `${task_type_tags} #${pc_type}`
+let tags = `${task_type_tags} #${pc_type.replace(/ /g,"_").toLowerCase()}`
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
@@ -32,10 +31,10 @@ if (existing) {
   createdFileDisplay = existing.basename;
   new Notice(`${title} exists`)
 } else {
-  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true));
-  new Notice(`${title} Created.`)
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true, folder_base));
+  new Notice(`${title} Created.`, "/"+ folder_base + "/")
 }
-await tp.file.move("/"+ folder_base + "/" + title, tp.file.find_tfile(title));
+//await tp.file.move("/"+ folder_base + "/" + title, folder_basetp.file.find_tfile(title));
 
 let task_state = ""
 if (task_type == "Wip") task_state = "/"

@@ -2,6 +2,15 @@
 <%*
 const settings_file = "Assets/Pc Settings.md";
 const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
+
+let title = tp.file.title
+let parent = tp.file.folder(true)
+let pc_type = parent.split("/")[2]
+let task_type = parent.split("/")[3]
+
+let task_type_tags = settings.pc.task_type[task_type.trim()].tags
+let tags = `${task_type_tags} #${pc_type.replace(/ /g,"_").toLowerCase()}`.replace(/#/g,"")
+alert(tags)
 %>
 ELN info:
   template: <% tp.file.title %>
@@ -11,17 +20,12 @@ ELN info:
   copyright: GNU Affero General Public License v3.0
 
 
-tags:
-  - status/wip
-  - task
-  - Asus_game
+tags: <% tags %> task
+
 ---
 
 <%*
 
-let baseFolder = "Tasks/PC"
-
-let title = tp.file.title
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {
   title = await tp.system.prompt("Title :");
