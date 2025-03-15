@@ -68,10 +68,7 @@ title: Note
 ````
 <%* } -%>
 
-<%* if (taskEnable) { -%>
----
-## Tasks
-- [ ] Task1
----
-<%* } -%>
+<%*
+tR+= await tp.file.include(`[[TaskList Simple]]`);
+%>
 
