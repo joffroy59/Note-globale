@@ -19,13 +19,13 @@ select sur le pc asusJah ou autre ou raspberry
 
 ---
 ## Tasks
-- [ ] Create Pc Action like WIP IA hor Done or todo
-	- [ ] [[#templater]]
-		- [ ] insert 
-		- [ ] create note
-	- [ ] test templater 
-	- [ ] quickadd 
-	- [ ] button
+- [x] Create Pc Action like WIP IA hor Done or todo ✅ 2025-03-15
+	- [x] [[#templater]] ✅ 2025-03-15
+		- [x] insert ✅ 2025-03-15
+		- [x] create note ✅ 2025-03-15
+	- [x] test templater ✅ 2025-03-15
+	- [x] quickadd ✅ 2025-03-15
+	- [x] button ✅ 2025-03-15
 
 
 ---
