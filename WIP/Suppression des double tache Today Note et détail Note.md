@@ -291,7 +291,7 @@ encore utilisé dans DAly Note > ⛔
 
 
 ### Insert Wip IA - IA civitai v2.md
-
+	
 ```yml
         {
           "id": "117a593c-e4ee-46ec-b9f3-a6e27ad40600",
@@ -337,15 +337,15 @@ analyse task et lien #done
 - [ ] 🗑️ Delete
 	- [ ] Insert Wip IA - IA civitai v2.md
 		- [ ] 117a593c-e4ee-46ec-b9f3-a6e27ad40600
-			- [ ] insert-daily-wip-ia_civitai-v2
-				- [ ] Test\Test Button - Cimetiére.md
-					- [ ] WIP\Use Settings for WIP IA Select.md
-					- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
-						- [ ] WIP\Use Settings for WIP IA Select.md
-				- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
-				- [ ] WIP\Use Settings for WIP IA Select.md
-			- [ ] 003bacad-8791-4e4c-b883-f05b53ea8e85
-				- [ ] WIP\Use Settings for WIP IA Select.md
+			- [-] insert-daily-wip-ia_civitai-v2
+				- [-] Test\Test Button - Cimetiére.md
+					- [-] WIP\Use Settings for WIP IA Select.md
+					- [-] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+						- [-] WIP\Use Settings for WIP IA Select.md
+				- [-] WIP\reprise sandbox1 creation auto wip IA civitai.md
+				- [-] WIP\Use Settings for WIP IA Select.md
+			- [-] 003bacad-8791-4e4c-b883-f05b53ea8e85
+				- [-] WIP\Use Settings for WIP IA Select.md
 					- [ ] Daily Note\2025\03\11\📒2025-03-15.md
 					- [ ] WIP\Use Settings for WIP IA Select.md
 			- [ ] 4458c4f3-4073-4ef8-8c3e-c7dcce969d6f
