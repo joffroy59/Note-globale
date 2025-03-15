@@ -2,7 +2,7 @@
 const question = "Tasks ?"
 let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
 
-<%* if (taskEnable) { -%>
+if (taskEnable) { -%>
 ---
 ## Tasks
 - [ ] Task1
