@@ -19,11 +19,9 @@ ELN info:
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
 
-
 tags: <% tags %> task
 
 ---
-
 <%*
 
 let defaultTitle = "Untitled"
