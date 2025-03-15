@@ -148,11 +148,11 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [-] [[#Insert Win.md]]
 	- [x] [[#Insert WIP IA.md]] ✅ 2025-03-15
 	- [ ] Insert Wip IA - ComFyUI - Flux.md
-	- [ ] Insert Wip IA - ComFyUI - Flux v2.md
+	- [x] [[#Insert Wip IA - ComFyUI - Flux v2.md]] ✅ 2025-03-15
 	- [/] [[#Insert Wip IA - IA civitai.md]]
 	- [/] [[#Insert Wip IA - IA civitai v2.md]]
 	- [-] Insert Wip IA - Model.md
-	- [ ] Insert Wip IA - Model v2.md
+	- [x] [[#Insert Wip IA - Model v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP New.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP v2.md]] ✅ 2025-03-15
 
@@ -745,4 +745,70 @@ encore utilisé dans DAly Note > ⛔
 			- [-] Daily Note\2025\01\02\📒2025-01-06.md
 			- [-] Tools\Site Button (Farouk Homepage).md
 		- [-] WIP\Poub\test button insert tempalte in note.md
+
+
+
+### Insert Wip IA - Model v2.md
+
+```yml
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - Model v2.md ✅ 2025-03-15
+		- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+
+
+
+
+### Insert Wip IA - ComFyUI - Flux v2.md
+
+```yml
+        {
+          "id": "0d262538-9bb6-45ac-8900-1879465a5b4d",
+          "name": "🚧Insert WIP IA - ComfyUI v2",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - ComFyUI - Flux v2.md}}\n\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚧 Wip",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - ComFyUI - Flux v2.md ✅ 2025-03-15
+		- [x] 0d262538-9bb6-45ac-8900-1879465a5b4d ✅ 2025-03-15
 

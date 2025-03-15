@@ -1251,41 +1251,6 @@
           "openFileInMode": "default"
         },
         {
-          "id": "0d262538-9bb6-45ac-8900-1879465a5b4d",
-          "name": "🚧Insert WIP IA - ComfyUI v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - ComFyUI - Flux v2.md}}\n\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
           "id": "1ce259ba-9603-48da-9168-2dd5884ea688",
           "name": "🚧Insert WIP STAR ⭐",
           "type": "Capture",

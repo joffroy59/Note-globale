@@ -36,7 +36,7 @@ For [[Insert Wip IA - Task - Select]]
 ---
 ## Tasks
 - [x] use only one insert note : [[Insert Wip IA - Task - Common]] with [[Insert Wip IA - Task - Multi]] test avec civitai type ✅ 2025-03-09
-      
+
 - [ ] ![[Use Settings for WIP IA Select-1741475733961.png|400x83]]
 - [x] generalize type ✅ 2025-03-09
 	- [x] civitai ✅ 2025-03-09
@@ -46,10 +46,10 @@ For [[Insert Wip IA - Task - Select]]
 
 ---
 
-## Clean Old system wip ia task et v2 et v1 
+## Clean Old system wip ia task et v2 et v1
 - [/] task
 	- [ ] trouver le template generique pour cosntruction nom ... [[Insert Wip IA - Task - Select]]
-	- [ ] insert 
+	- [ ] insert
 	- [ ] create
 - [ ] [[#v2]]
 	- [ ] trouver le template generique pour cosntruction nom ...v2 [[Insert Wip IA - Select v2]]
@@ -84,7 +84,7 @@ For [[Insert Wip IA - Task - Select]]
 		insert-daily-wip-ia_civitai-v2
 			🚧Insert WIP IA - Sanbox1
 			003bacad-8791-4e4c-b883-f05b53ea8e85
-- [ ] [[Insert Wip IA - Model v2]]
+- [x] [[Insert Wip IA - Model v2]]
 	[[Intégration nouveau système v2 de creation d'élément de la Today Note]]
 	[[Suppression des double tache Today Note et détail Note]]
 	[[Supprimer Admonition des éléments  créés dans la Today Note avec tache]]
