@@ -151,14 +151,14 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[#Insert Wip IA - ComFyUI - Flux v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - IA civitai.md]] ✅ 2025-03-15
 	- [/] [[#Insert Wip IA - IA civitai v2.md]]
-	- [/] [[#Insert Wip IA - Model.md]]
+	- [x] [[#Insert Wip IA - Model.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - Model v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP New.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP v2.md]] ✅ 2025-03-15
-	- [ ] Insert Wip IA - StabilityMatrix - Application v2
-	- [ ] Insert Wip IA - Generic v2
-	- [ ] Insert Wip IA - Select v2
-	- [ ] Insert Wip IA - Select
+	- [/] [[#Insert Wip IA - StabilityMatrix - Application v2.md]]
+	- [ ] Insert Wip IA - Generic v2.md
+	- [ ] Insert Wip IA - Select v2.md
+	- [ ] Insert Wip IA - Select.md
 
 ## info
 
@@ -1122,7 +1122,24 @@ encore utilisé dans [[Panel/Actions|Actions]]> ⛔ et Daily Note
 
 👉
 
-- [ ] 🗑️ Delete
-	- [ ] Insert Wip IA - Model.md
-		- [ ] WIP\Use Settings for WIP IA Select.md
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - Model.md ✅ 2025-03-15
+		- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+
+
+
+### Insert Wip IA - StabilityMatrix - Application v2.md
+
+```yml
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - StabilityMatrix - Application v2.md ✅ 2025-03-15
+		- [-] WIP\Use Settings for WIP IA Select.md
+		- [x] WIP\Wip IA (Select) - like To view with no admonition.md ✅ 2025-03-15
+	- [x] Create IA - StabilityMatrix - Application v2 ✅ 2025-03-15
 
