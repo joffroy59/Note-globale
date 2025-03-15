@@ -310,7 +310,8 @@
     "Asus": 145,
     "asus_game": 146,
     "raspberry": 147,
-    "portable": 148
+    "portable": 148,
+    "iphone": 149
   },
   "_version": 3
 }
