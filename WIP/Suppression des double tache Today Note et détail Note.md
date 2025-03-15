@@ -157,7 +157,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[#Insert WIP v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - StabilityMatrix - Application v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - Generic v2.md]] ✅ 2025-03-15
-	- [ ] Insert Wip IA - Select v2.md
+	- [x] [[#Insert Wip IA - Select v2.md]] ✅ 2025-03-15
 	- [ ] Insert Wip IA - Select.md
 
 ## info
@@ -1156,4 +1156,68 @@ encore utilisé dans [[Panel/Actions|Actions]]> ⛔ et Daily Note
 
 - [x] 🗑️ Delete ✅ 2025-03-15
 	- [x] Insert Wip IA - Generic v2.md ✅ 2025-03-15
+
+
+
+### Insert Wip IA - Select v2.md
+
+```yml
+        {
+          "id": "b9040ac3-f665-42eb-a086-6d9dfbf32a06",
+          "name": "🚧Insert WIP IA - Select v2",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Select v2.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚧 Wip",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - Select v2.md ✅ 2025-03-15
+		- [x] b9040ac3-f665-42eb-a086-6d9dfbf32a06 ✅ 2025-03-15
+			- [-] insert-daily-wip-ia-select-v2
+				- [-] Daily Note\2025\02\08\📒2025-02-22.md
+				- [-] Daily Note\2025\02\08\📒2025-02-23.md
+				- [-] Daily Note\2025\02\09\📒2025-02-24.md
+				- [-] Done\Add WIP IA StabilityMatrix - Application.md
+					- [-] Done\Add WIP IA StabilityMatrix - Application.md
+				- [-] Test\Test Button - Cimetiére.md
+				- [-] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+				- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+				- [-] WIP\Wip IA (Select) - like To view with no admonition.md
+			- [x] insert-daily-wip-domotique ✅ 2025-03-15
+			- [-] WIP\Use Settings for WIP IA Select.md
+			- [-] WIP\Wip IA (Select) - like To view with no admonition.md
+
 

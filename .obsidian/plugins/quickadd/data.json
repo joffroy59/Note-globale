@@ -1146,41 +1146,6 @@
           "openFileInMode": "default"
         },
         {
-          "id": "b9040ac3-f665-42eb-a086-6d9dfbf32a06",
-          "name": "🚧Insert WIP IA - Select v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Select v2.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
           "id": "1d9b6120-efbf-4de7-9ce3-11959dbbfa72",
           "name": "🖥️Insert Task - Pc",
           "type": "Capture",

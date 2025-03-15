@@ -547,21 +547,6 @@
       ]
     },
     {
-      "label": "+ Wip IA",
-      "icon": "",
-      "hidden": false,
-      "class": "purple-5-button",
-      "tooltip": "",
-      "id": "insert-daily-wip-ia-select-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:b9040ac3-f665-42eb-a086-6d9dfbf32a06"
-        }
-      ]
-    },
-    {
       "label": "test-A11",
       "icon": "",
       "hidden": false,
@@ -1100,22 +1085,6 @@
           "command": "templater-obsidian:Templates/Action/Suivi Recharge Clavier et Souris - Add.md"
         }
       ]
-    },
-    {
-      "label": "+ Wip Domotique",
-      "icon": "",
-      "hidden": false,
-      "class": "",
-      "tooltip": "",
-      "id": "insert-daily-wip-domotique",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:b9040ac3-f665-42eb-a086-6d9dfbf32a06"
-        }
-      ],
-      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;"
     },
     {
       "label": "Pocket Sync 🔄",

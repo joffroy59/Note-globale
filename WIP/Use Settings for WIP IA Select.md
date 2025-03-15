@@ -51,8 +51,8 @@ For [[Insert Wip IA - Task - Select]]
 	- [ ] trouver le template generique pour cosntruction nom ... [[Insert Wip IA - Task - Select]]
 	- [ ] insert
 	- [ ] create
-- [ ] [[#v2]]
-	- [ ] trouver le template generique pour cosntruction nom ...v2 [[Insert Wip IA - Select v2]]
+- [-] [[#v2]]
+	- [-] trouver le template generique pour cosntruction nom ...v2 [[Insert Wip IA - Select v2]]
 - [ ] [[#v1]]
 	- [ ] trouver le template generique pour cosntruction nom ... [[Insert Wip IA - Select]]
 
@@ -69,13 +69,13 @@ For [[Insert Wip IA - Task - Select]]
 			[[Test Button - Cimetiére]]
 		[[Create IA - ComFyUI - Flux v2]]
 - [x] [[Insert Wip IA - ComFyUI v2]] ✅ 2025-03-09
-- [ ] [[Insert Wip IA - Select v2]]
+- [x] [[Insert Wip IA - Select v2]]
 	🚧Insert WIP IA - Select v2
 	b9040ac3-f665-42eb-a086-6d9dfbf32a06
 		insert-daily-wip-ia-select-v2
 		insert-daily-wip-domotique
 			[[Wip IA (Select) - like To view with no admonition]]
-- [ ] [[Insert Wip IA - Generic v2]]
+- [x] [[Insert Wip IA - Generic v2]]
 	[[Add a WIP IA Type generic]]
 	[[Wip IA (Select) - like To view with no admonition]]
 - [x] [[Insert Wip IA - IA civitai v2]]
@@ -89,7 +89,7 @@ For [[Insert Wip IA - Task - Select]]
 	[[Suppression des double tache Today Note et détail Note]]
 	[[Supprimer Admonition des éléments  créés dans la Today Note avec tache]]
 	[[Wip IA (Select) - like To view with no admonition]]
-- [ ] [[Insert Wip IA - StabilityMatrix - Application v2]]
+- [x] [[Insert Wip IA - StabilityMatrix - Application v2]]
 	[[Wip IA (Select) - like To view with no admonition]]
 ### v1
 - [x] [[Insert Wip IA - IA civitai]]
