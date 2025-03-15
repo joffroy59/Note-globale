@@ -1,4 +1,8 @@
 ---
+<%*
+const settings_file = "Assets/Pc Settings.md";
+const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
+%>
 ELN info:
   template: <% tp.file.title %>
   version: 0.3.2
@@ -12,7 +16,9 @@ tags:
   - task
   - Asus_game
 ---
+
 <%*
+
 let baseFolder = "Tasks/PC"
 
 let title = tp.file.title
