@@ -158,7 +158,8 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[#Insert Wip IA - StabilityMatrix - Application v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - Generic v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - Select v2.md]] ✅ 2025-03-15
-	- [/] [[#Insert Wip IA - Select.md]]
+	- [x] [[#Insert Wip IA - Select.md]] ✅ 2025-03-15
+	- [ ] Insert Wip IA - Task - Select.md
 
 ## info
 
