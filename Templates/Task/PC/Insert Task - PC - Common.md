@@ -35,7 +35,7 @@ if (existing) {
   new Notice(`${title} Created.`, "/"+ folder_base + "/")
 }
 //await tp.file.move("/"+ folder_base + "/" + title, folder_basetp.file.find_tfile(title));
-alert(template_create)
+
 let task_state = ""
 if (task_type == "Wip") task_state = "/"
 

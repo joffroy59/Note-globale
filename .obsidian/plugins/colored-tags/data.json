@@ -306,7 +306,10 @@
     "tas": 141,
     "templaterdqs": 142,
     "toso": 143,
-    "Asus_game": 144
+    "Asus_game": 144,
+    "Asus": 145,
+    "asus_game": 146,
+    "raspberry": 147
   },
   "_version": 3
 }

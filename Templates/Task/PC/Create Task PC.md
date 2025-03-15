@@ -1,9 +1,9 @@
 ---
 <%*
-alert()
+
 const settings_file = "Assets/Pc Settings.md";
 const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
-alert(settings)
+
 let title = tp.file.title
 let parent = tp.file.folder(true)
 let pc_type = parent.split("/")[2]
