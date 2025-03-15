@@ -151,11 +151,14 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[#Insert Wip IA - ComFyUI - Flux v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - IA civitai.md]] ✅ 2025-03-15
 	- [/] [[#Insert Wip IA - IA civitai v2.md]]
-	- [/] Insert Wip IA - Model.md
+	- [/] [[#Insert Wip IA - Model.md]]
 	- [x] [[#Insert Wip IA - Model v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP New.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP v2.md]] ✅ 2025-03-15
-
+	- [ ] Insert Wip IA - StabilityMatrix - Application v2
+	- [ ] Insert Wip IA - Generic v2
+	- [ ] Insert Wip IA - Select v2
+	- [ ] Insert Wip IA - Select
 
 ## info
 
@@ -1107,4 +1110,19 @@ encore utilisé dans [[Panel/Actions|Actions]]> ⛔ et Daily Note
 				- [ ] Daily Note\2025\01\02\📒2025-01-09.md
 				- [ ] 
 		- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+
+
+
+### Insert Wip IA - Model.md
+
+```yml
+   
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] Insert Wip IA - Model.md
+		- [ ] WIP\Use Settings for WIP IA Select.md
 
