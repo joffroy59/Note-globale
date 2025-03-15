@@ -24,3 +24,10 @@ title: Note
 - [ ] modification au fil de l'eau des que trouver le besoin
 ---
 
+template utilisable 
+- [[TaskList Simple]]
+- [[TaskList]]
+
+```query
+file:TaskList
+```

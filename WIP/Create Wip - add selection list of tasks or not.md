@@ -21,11 +21,6 @@ title: Note
 
 Template: [[Create Task WIP]]
 
-bloc a  ajouter: 
-
-### Tasks 
-- [ ] Task1
-
 
 ### Result
 
