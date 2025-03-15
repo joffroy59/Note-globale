@@ -11,9 +11,7 @@ tags:
   - status/wip
 ---
 
-like in ? 
----
-## Tasks
-- [ ] Task1
----
+like in ? [[TaskList Simple]]
 
+👉 👀 See : 
+[[Use TaskList Templater]]

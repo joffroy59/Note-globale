@@ -22,6 +22,6 @@ tags:
 	- [-] Wip 
 	- [-] Wip IA (Multi) 
 	- [-] Wip IA task ??? 
-	- [ ] [[FIx Todo Select and use it - 👀 Wip IA (Multi)]]
+	- [ ] [[Fix Todo Select and use it - 👀 Wip IA (Multi)]]
 
 
