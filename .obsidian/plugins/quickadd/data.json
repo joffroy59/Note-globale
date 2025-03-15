@@ -1737,41 +1737,6 @@
       "collapsed": false
     },
     {
-      "id": "726f20c5-3f98-4be2-9bcf-28f7235f67b7",
-      "name": "🚧Insert WIP (New)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Panel/List  of WIP.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/Inserts/Insert WIP New.md}}\n"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "## 🚧 Wip",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "bottom"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
       "id": "39135df6-99df-44fa-bc18-76c8ef4c1a1b",
       "name": "🚧Insert Backlog",
       "type": "Capture",

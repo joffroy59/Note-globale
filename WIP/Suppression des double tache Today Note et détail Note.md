@@ -153,7 +153,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [ ] Insert Wip IA - IA civitai v2.md
 	- [ ] Insert Wip IA - Model.md
 	- [ ] Insert Wip IA - Model v2.md
-	- [ ] Insert WIP New.md
+	- [x] [[#Insert WIP New.md]] ✅ 2025-03-15
 	- [ ] Insert WIP v2.md
 
 
@@ -162,3 +162,50 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 ### Ok
 
 ![[Suppression des double tache Today Note et détail Note-1738700438689.png]]![[Suppression des double tache Today Note et détail Note-1738707020486.png|150x114]]
+
+### Insert WIP New.md
+
+```yml
+    {
+      "id": "726f20c5-3f98-4be2-9bcf-28f7235f67b7",
+      "name": "🚧Insert WIP (New)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Panel/List  of WIP.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Inserts/Insert WIP New.md}}\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "## 🚧 Wip",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+
+```
+
+👉
+- [x] 🗑️ Delete
+	- [x] [[Panel/List  of WIP]] ✅ 2025-03-15
+	- [x] [[Templates/Inserts/Insert WIP New]] ✅ 2025-03-15
+	- [x] QuickAdd: 🚧Insert WIP (New) ✅ 2025-03-15
