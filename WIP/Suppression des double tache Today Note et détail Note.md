@@ -137,7 +137,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [-] [[#Insert DONE.md]]
 	- [-] [[#Insert Idea.md]]
 	- [ ] Insert Note.md
-	- [ ] Insert Other.md
+	- [/] [[#Insert Other.md]]
 	- [-] [[#Insert Problem.md]]
 	- [ ] Insert Problem - Appart.md
 	- [ ] Insert Problem - Ask.md
@@ -933,4 +933,61 @@ encore utilisé dans DAly Note > ⛔
 				- [ ] Daily Note\2025\01\02\📒2025-01-09.md
 				- [ ] 
 	- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+
+
+
+### Insert Other.md
+encore utilisé dans DAly Note > ⛔
+
+```yml
+        {
+          "id": "26f94500-f0fc-4ce6-b5c9-60cd062c4871",
+          "name": "👉Insert Other",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Other.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### 👉Autre",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] Insert Other.md
+		- [ ] 26f94500-f0fc-4ce6-b5c9-60cd062c4871
+			- [ ] insert-daily-other
+				- [ ] Daily Note\2025\01\02\📒2025-01-11.md
+		- [ ] Daily Note\2025\01\01\📒2025-01-02.md
+		- [ ] Daily Note\2025\01\02\📒2025-01-10.md
+		- [ ] Tools\Site Button.md
+		- [ ] WIP\Poub\test button insert tempalte in note.md
 
