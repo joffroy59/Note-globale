@@ -26,7 +26,15 @@ let tags = `${task_type_tags} #${pc_type}`
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 // Create Note
-console.log(template_create)
-
+let existing = tp.file.find_tfile(title);
+let createdFileDisplay;
+if (existing) {
+  createdFileDisplay = existing.basename;
+  new Notice(`${title} exists`)
+} else {
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true));
+  new Notice(`${title} Created.`)
+}
+await tp.file.move("/"+ folder_base + "/" + title, tp.file.find_tfile(title));
 
 %>   - [/] [[<% folder_base %>/<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
