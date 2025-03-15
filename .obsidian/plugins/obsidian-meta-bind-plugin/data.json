@@ -1227,6 +1227,21 @@
           "command": "obsidian-pocket:create-all-pocket-item-notes"
         }
       ]
+    },
+    {
+      "label": "+ Task (PC)",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-3-button",
+      "tooltip": "",
+      "id": "insert-daily-task-pc",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:1d9b6120-efbf-4de7-9ce3-11959dbbfa72"
+        }
+      ]
     }
   ],
   "excludedFolders": [

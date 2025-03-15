@@ -41,5 +41,7 @@ select sur le pc asusJah ou autre ou raspberry
 - [x] 🖥️Insert Task - Pc ✅ 2025-03-15
       ![[Create Template + action for Windows or Linux  actions-1741998272204.png|400x116]]
 
-- [ ] test 
-- [ ] button 
+- [x] test ✅ 2025-03-15
+- [x] button  insert-daily-task-pc `BUTTON[insert-daily-task-pc]` ✅ 2025-03-15
+- [ ] test button 
+
