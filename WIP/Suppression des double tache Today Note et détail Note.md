@@ -144,7 +144,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [ ] Insert Problem - Domotique.md
 	- [ ] Insert Problem - PC.md
 	- [ ] Insert Problem v2.md
-	- [ ] Insert ToView.md
+	- [x] [[#Insert ToView.md]] ✅ 2025-03-15
 	- [-] [[#Insert Win.md]]
 	- [x] [[#Insert WIP IA.md]] ✅ 2025-03-15
 	- [ ] Insert Wip IA - ComFyUI - Flux.md
@@ -650,4 +650,99 @@ encore utilisé dans DAly Note > ⛔
 		- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
 			- [ ] WIP\Use Settings for WIP IA Select.md
 		- [ ] WIP\Poub\test button insert tempalte in note.md
+
+
+
+### Insert ToView.md
+
+```yml
+        {
+          "id": "e535fc59-9f52-4651-9916-09a64fbc98c9",
+          "name": "👀Insert ToView",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert ToView.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### 👀To View",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+
+
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "b7073e0a-ba1d-4b54-b599-430433db66fb",
+          "choice": {
+            "id": "7ce2c139-01dc-4831-922e-359f7b627262",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Inserts/Insert ToView.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert ToView.md ✅ 2025-03-15
+		- [x] e535fc59-9f52-4651-9916-09a64fbc98c9 ✅ 2025-03-15
+			- [x] insert-daily-toview ✅ 2025-03-15
+				- [-] Daily Note\2025\01\02\📒2025-01-11.md
+				- [-] WIP\To View - like todo with no admonition.md
+		- [x] 7ce2c139-01dc-4831-922e-359f7b627262 ✅ 2025-03-15
+		- [x] b7073e0a-ba1d-4b54-b599-430433db66fb ✅ 2025-03-15
+		- [-] Daily Note\2025\01\01\📒2025-01-02.md
+		- [-] Tools\Site Button.md
+			- [-] Daily Note\2025\01\02\📒2025-01-06.md
+			- [-] Tools\Site Button (Farouk Homepage).md
+		- [-] WIP\Poub\test button insert tempalte in note.md
 

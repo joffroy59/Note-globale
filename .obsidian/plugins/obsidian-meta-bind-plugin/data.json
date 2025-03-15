@@ -265,21 +265,6 @@
       ]
     },
     {
-      "label": "+ ToView",
-      "icon": "",
-      "hidden": false,
-      "class": "turquoise-5-button",
-      "tooltip": "",
-      "id": "insert-daily-toview",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:e535fc59-9f52-4651-9916-09a64fbc98c9"
-        }
-      ]
-    },
-    {
       "label": "+ TODO",
       "icon": "",
       "hidden": false,
