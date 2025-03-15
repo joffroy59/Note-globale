@@ -4,7 +4,7 @@ tags:
 ---
 
 ### config
-use : 
+use :
 - [[Templates/IA/IA civitai - Daily.md]]
 - [[Templates/Inserts/Insert Wip IA - Select]]
 	- [[Insert Wip IA - IA civitai]]
@@ -34,23 +34,23 @@ actions:
 
 ```
 
-- [ ] test fix problème de titre de la note créée 
+- [x] test fix problème de titre de la note créée
 	- [x] duplication [[IA civitai - Daily]]  en [[IA civitai - Daily v2]]
-	le problème : demande 2 fois le titre et l'url 
+	le problème : demande 2 fois le titre et l'url
 
 	- [x] duplication [[Insert Wip IA - IA civitai]] -> [[Insert Wip IA - IA civitai v2]]
 	- [x] changement de la quickadd Sandbox1 (+ duplication du Capture 🚧Insert WIP IA - Select en 🚧Insert WIP IA - Sanbox1 )
 	![[Pasted image 20250202211738-1.png|150]]
 
 
-test de creation de la note de puiis le termplate d'insertion dans todaynopte 
-avec Obsidian api 
+test de creation de la note de puiis le termplate d'insertion dans todaynopte
+avec Obsidian api
 [create - Developer Documentation](https://docs.obsidian.md/Reference/TypeScript+API/Vault/create)
 `create(path: string, data: string, options?: DataWriteOptions): Promise<TFile>;`
 
-Trouvé : 
+Trouvé :
 - [x] [Templater snippets](https://zachyoung.dev/posts/templater-snippets)
-test de 
+test de
 ```ad-note
 Here’s a script that will create an internal link in a template that will create a new file using a template if it doesn’t already exist.
 
@@ -70,7 +70,7 @@ _%>
 ```
 
 
-button de test pour créer seulement l'élément de today note 
+button de test pour créer seulement l'élément de today note
 
 - [x] Test et exemple : [[MirrorStyle]]
 

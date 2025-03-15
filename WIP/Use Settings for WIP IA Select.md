@@ -78,7 +78,7 @@ For [[Insert Wip IA - Task - Select]]
 - [ ] [[Insert Wip IA - Generic v2]]
 	[[Add a WIP IA Type generic]]
 	[[Wip IA (Select) - like To view with no admonition]]
-- [ ] [[Insert Wip IA - IA civitai v2]]
+- [x] [[Insert Wip IA - IA civitai v2]]
 	🚧Insert WIP IA - civitai v2
 	117a593c-e4ee-46ec-b9f3-a6e27ad40600
 		insert-daily-wip-ia_civitai-v2
@@ -92,7 +92,7 @@ For [[Insert Wip IA - Task - Select]]
 - [ ] [[Insert Wip IA - StabilityMatrix - Application v2]]
 	[[Wip IA (Select) - like To view with no admonition]]
 ### v1
-- [ ] [[Insert Wip IA - IA civitai]]
+- [x] [[Insert Wip IA - IA civitai]]
 	[[Ajout de metadata pour localisation des workflow ComfyUI]]
 	[[Intégration nouveau système v2 de creation d'élément de la Today Note]]
 	[[reprise sandbox1 creation auto wip IA civitai]]

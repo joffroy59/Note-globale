@@ -547,21 +547,6 @@
       ]
     },
     {
-      "label": "+ Wip IA civitai",
-      "icon": "",
-      "hidden": false,
-      "class": "purple-6-button",
-      "tooltip": "",
-      "id": "insert-daily-wip-ia_civitai-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:117a593c-e4ee-46ec-b9f3-a6e27ad40600"
-        }
-      ]
-    },
-    {
       "label": "+ Wip IA",
       "icon": "",
       "hidden": false,

@@ -3,22 +3,22 @@ workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 tags:
   - status/wip
 ---
-pour avoir le chemin de stockage local 
+pour avoir le chemin de stockage local
 
-pourra servir pour automatiser et pour trouver les workflow vite 
+pourra servir pour automatiser et pour trouver les workflow vite
 
---- 
+---
 
-- [ ] [[Insert Wip IA - IA civitai]]
-- [ ] [[Insert Wip IA - ComFyUI - Flux]] car besoin de workflow base folder
+- [-] [[Insert Wip IA - IA civitai]]
+- [-] [[Insert Wip IA - ComFyUI - Flux]] car besoin de workflow base folder
 
---- 
-### Test local 
+---
+### Test local
 
 [C](file:///C:%5C)
 [`= this.workflow_dir`](file:///)
---- 
-Metadata Ajoutées 
+---
+Metadata Ajoutées
 
 | metadata                     | value                                                 |
 | :--------------------------- | :---------------------------------------------------- |
@@ -27,7 +27,7 @@ Metadata Ajoutées
 
 ---
 
-- [ ] try solution 
+- [ ] try solution
 ```embed
 title: "Insert metadata as a link to a file/folder path - Help - Obsidian Forum"
 image: "https://forum.obsidian.md/uploads/default/original/3X/b/a/ba1a1301f580d34a881803aa5ed8cf7ff3cdf0ef.png"
@@ -36,16 +36,16 @@ url: "https://forum.obsidian.md/t/insert-metadata-as-a-link-to-a-file-folder-pat
 ```
 
 
-❌ using link 
+❌ using link
 [`= this.workflow_dir`]((`= link(this.workflow_dir)`))
 
 ❌ avec code source
 [test](`= this.workflow_dir`)
 
-✅ auter avec source 
+✅ auter avec source
 `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
 
-✅ sans passer par source 
+✅ sans passer par source
 `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
 
 

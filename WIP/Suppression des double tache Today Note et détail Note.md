@@ -139,9 +139,9 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [-] [[#Insert Note.md]]
 	- [x] [[#Insert Other.md]] ✅ 2025-03-15
 	- [-] [[#Insert Problem.md]]
-	- [ ] Insert Problem - Appart.md
-	- [ ] Insert Problem - Ask.md
-	- [ ] Insert Problem - Domotique.md
+	- [-] [[#Insert Problem - Appart.md]]
+	- [-] Insert Problem - Ask.md
+	- [-] Insert Problem - Domotique.md
 	- [-] [[#Insert Problem - PC.md]]
 	- [-] [[#Insert Problem v2.md]]
 	- [x] [[#Insert ToView.md]] ✅ 2025-03-15
@@ -401,27 +401,27 @@ analyse task et lien #done
 
 👉
 analyse task et lien #done 
-- [ ] 🗑️ Delete
-	- [ ] Insert Wip IA - IA civitai.md
-		- [ ] 117a593c-e4ee-46ec-b9f3-a6e27ad40600
-			- [ ] insert-daily-wip-ia_civitai-v2
-				- [ ] Test\Test Button - Cimetiére.md
-					- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
-					- [ ] WIP\Use Settings for WIP IA Select.md
-				- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
-					- [ ] WIP\Use Settings for WIP IA Select.md
-				- [ ] WIP\Use Settings for WIP IA Select.md
-			- [ ] 4458c4f3-4073-4ef8-8c3e-c7dcce969d6f
-				- [ ] 23ffd3c3-541e-4288-bf3d-3ed2ec165425
-					- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
-						- [ ] WIP\Use Settings for WIP IA Select.md
-			- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
-				- [ ] WIP\Use Settings for WIP IA Select.md
-			- [ ] WIP\Use Settings for WIP IA Select.md
-		- [ ] Templates/Inserts/Insert Wip IA - IA civitai v2.md
-		- [ ] WIP\Ajout de metadata pour localisation des workflow ComfyUI.md
-			- [ ] WIP\Use Settings for WIP IA Select.md
-		- [ ] WIP\Use Settings for WIP IA Select.md
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - IA civitai.md ✅ 2025-03-15
+		- [x] 117a593c-e4ee-46ec-b9f3-a6e27ad40600 ✅ 2025-03-15
+			- [x] insert-daily-wip-ia_civitai-v2 ✅ 2025-03-15
+				- [-] Test\Test Button - Cimetiére.md
+					- [-] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+					- [-] WIP\Use Settings for WIP IA Select.md
+				- [x] WIP\reprise sandbox1 creation auto wip IA civitai.md ✅ 2025-03-15
+					- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+				- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+			- [x] 4458c4f3-4073-4ef8-8c3e-c7dcce969d6f ✅ 2025-03-15
+				- [x] 23ffd3c3-541e-4288-bf3d-3ed2ec165425 ✅ 2025-03-15
+					- [x] WIP\reprise sandbox1 creation auto wip IA civitai.md ✅ 2025-03-15
+						- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+			- [x] WIP\reprise sandbox1 creation auto wip IA civitai.md ✅ 2025-03-15
+				- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+			- [-] WIP\Use Settings for WIP IA Select.md
+		- [x] Templates/Inserts/Insert Wip IA - IA civitai v2.md ✅ 2025-03-15
+		- [x] WIP\Ajout de metadata pour localisation des workflow ComfyUI.md ✅ 2025-03-15
+			- [x] WIP\Use Settings for WIP IA Select.md ✅ 2025-03-15
+		- [-] WIP\Use Settings for WIP IA Select.md
 
 
 
@@ -1052,4 +1052,59 @@ encore utilisé dans [[Panel/Actions|Actions]]> ⛔
 			- [ ] Panel\Task Archives.md
 		- [ ] WIP\Use Settings for WIP IA Select.md
 		- [ ] WIP\Poub\test button insert tempalte in note.md
+
+
+
+### Insert Problem - Appart.md
+encore utilisé dans [[Panel/Actions|Actions]]> ⛔ et Daily Note
+
+```yml
+        {
+          "id": "cfcfe280-9a87-43ce-a523-0c6d8263ad02",
+          "name": "🚨Insert Problems Insert (Appart)",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - Appart.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚨Problème",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] Insert Problem - Appart.md
+		- [ ] cfcfe280-9a87-43ce-a523-0c6d8263ad02
+			- [ ] insert-problem-daily-appart
+				- [ ] Daily Note\2025\01\02\📒2025-01-09.md
+				- [ ] 
+		- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
 

@@ -1181,41 +1181,6 @@
           "openFileInMode": "default"
         },
         {
-          "id": "117a593c-e4ee-46ec-b9f3-a6e27ad40600",
-          "name": "🚧Insert WIP IA - civitai v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - IA civitai v2.md}}\n\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
           "id": "1d9b6120-efbf-4de7-9ce3-11959dbbfa72",
           "name": "🖥️Insert Task - Pc",
           "type": "Capture",
@@ -1709,13 +1674,6 @@
         }
       ],
       "collapsed": false
-    },
-    {
-      "id": "23ffd3c3-541e-4288-bf3d-3ed2ec165425",
-      "name": "Sandbox1",
-      "type": "Macro",
-      "command": true,
-      "macroId": "4458c4f3-4073-4ef8-8c3e-c7dcce969d6f"
     },
     {
       "id": "b9c078f7-fdf8-4dd8-a048-77a93037b4e1",
@@ -2472,52 +2430,6 @@
             },
             "openFile": true,
             "openFileInMode": "default"
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Sandbox1",
-      "id": "4458c4f3-4073-4ef8-8c3e-c7dcce969d6f",
-      "commands": [
-        {
-          "name": "🚧Insert WIP IA - Sanbox1",
-          "type": "Choice",
-          "id": "003bacad-8791-4e4c-b883-f05b53ea8e85",
-          "choiceId": "117a593c-e4ee-46ec-b9f3-a6e27ad40600"
-        },
-        {
-          "name": "Untitled Template Choice",
-          "type": "NestedChoice",
-          "id": "31c1b54e-e8a7-4906-83b8-dca417cd6fd2",
-          "choice": {
-            "id": "87ea25b9-408f-4ab1-b823-bb1322ad9891",
-            "name": "Untitled Template Choice",
-            "type": "Template",
-            "command": false,
-            "templatePath": "Templates/IA/IA civitai - Daily sandbox1.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "Untitled"
-            },
-            "folder": {
-              "enabled": false,
-              "folders": [],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": false
           }
         }
       ],
