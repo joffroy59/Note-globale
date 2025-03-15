@@ -1,5 +1,8 @@
 ---
-cssclass: clean-embeds
+cssclasses:
+  - clean-embeds
+tags:
+  - dataview
 ---
 
 ```dataview

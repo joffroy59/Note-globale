@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasPlugCircleExclamation",
-      "IpIphoneStyleSmartphoneSvgrepoCom(1)",
-      "SaccliPocketColorSvgrepoCom",
-      "TaiPocket",
-      "SvResourcesSvgrepoCom(3)"
+      "SvNotionSvgrepoCom(2)",
+      "SvNotionSvgrepoCom",
+      "SiObsidian",
+      "LiList",
+      "MyList6248"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -141,5 +141,18 @@
   "Projects": "SvPlanSvgrepoCom",
   "Projects Perso": "SvPlanSvgrepoCom(2)",
   "Resources": "SvResourcesSvgrepoCom(3)",
-  "Tasks/Todo.md": "SvMicrosoftTodoSvgrepoCom"
+  "Tasks/Todo.md": "SvMicrosoftTodoSvgrepoCom",
+  "Panel/dataview": {
+    "iconName": "LiSheet",
+    "iconColor": "#3942c0"
+  },
+  "Panel/Liste": {
+    "iconName": "LiList",
+    "iconColor": "#c4780e"
+  },
+  "Aide/Obsidian": {
+    "iconName": "SiObsidian",
+    "iconColor": "#7724a3"
+  },
+  "Aide/Notion.md": "SvNotionSvgrepoCom(2)"
 }
