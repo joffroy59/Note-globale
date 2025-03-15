@@ -154,7 +154,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [-] Insert Wip IA - Model.md
 	- [ ] Insert Wip IA - Model v2.md
 	- [x] [[#Insert WIP New.md]] ✅ 2025-03-15
-	- [ ] Insert WIP v2.md
+	- [x] [[#Insert WIP v2.md]] ✅ 2025-03-15
 
 
 ## info
@@ -476,3 +476,67 @@ encore utilisé dans DAly Note > ⛔
 		- [ ] 9657e59b-6a1c-4038-8eba-e751297c9e86
 			- [ ] insert-daily-win
 		- [ ] Templates/Inserts/Insert Win.md
+
+
+### Insert WIP v2.md
+
+```yml  title:"quickadd"
+        {
+          "id": "888b13e8-a34d-4011-8e5b-f34fa09b186a",
+          "name": "🚧Insert WIP v2",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert WIP v2.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚧 Wip",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert WIP v2.md ✅ 2025-03-15
+		- [x] 888b13e8-a34d-4011-8e5b-f34fa09b186a ✅ 2025-03-15
+			- [x] insert-daily-wip-v2 ✅ 2025-03-15
+				- [-] Daily Note\2025\02\08\📒2025-02-22.md
+				- [-] Daily Note\2025\02\08\📒2025-02-23.md
+				- [-] Test\Test Button - Cimetiére.md
+					- [-] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+					- [-] WIP\Use Settings for WIP IA Select.md
+				- [-] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+					- [-] WIP\Use Settings for WIP IA Select.md
+		- [-] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+			- [-] WIP\Use Settings for WIP IA Select.md
+		- [-] WIP\Wip - like Wip ai with no admonition.md
+		- [x] Templates/Inserts/Create WIP v2 ✅ 2025-03-15
+
+
+
