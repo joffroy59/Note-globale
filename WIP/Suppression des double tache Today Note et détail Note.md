@@ -145,7 +145,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [ ] Insert Problem - PC.md
 	- [ ] Insert Problem v2.md
 	- [ ] Insert ToView.md
-	- [ ] Insert Win.md
+	- [-] [[#Insert Win.md]]
 	- [ ] Insert WIP IA.md
 	- [ ] Insert Wip IA - ComFyUI - Flux.md
 	- [ ] Insert Wip IA - ComFyUI - Flux v2.md
@@ -423,3 +423,56 @@ analyse task et lien #done
 			- [ ] WIP\Use Settings for WIP IA Select.md
 		- [ ] WIP\Use Settings for WIP IA Select.md
 
+
+
+### Insert Win.md
+
+encore utilisé dans DAly Note > ⛔
+
+```yml
+        {
+          "id": "9657e59b-6a1c-4038-8eba-e751297c9e86",
+          "name": "🏆Insert Wins",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Win.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### ✅ DONE",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] Insert Win.md
+		- [ ] 9657e59b-6a1c-4038-8eba-e751297c9e86
+			- [ ] insert-daily-win
+		- [ ] Templates/Inserts/Insert Win.md
