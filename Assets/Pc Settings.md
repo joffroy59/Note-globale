@@ -15,14 +15,17 @@ pc:
       - Task
       - Done
       - Todo
+      - Toview
     Wip:
       tags: '#status/wip'
     Task:
-      tags:
+      tags: '#task'
+    Toview:
+      tags: '#toview'
     Done:
-      tags:
+      tags: '#done'
     Todo:
-      tags:
+      tags: '#todo'
   type:
     - Asus Game
     - Raspberry
