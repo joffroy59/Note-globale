@@ -147,7 +147,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[#Insert ToView.md]] ✅ 2025-03-15
 	- [-] [[#Insert Win.md]]
 	- [x] [[#Insert WIP IA.md]] ✅ 2025-03-15
-	- [ ] Insert Wip IA - ComFyUI - Flux.md
+	- [x] [[#Insert Wip IA - ComFyUI - Flux.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - ComFyUI - Flux v2.md]] ✅ 2025-03-15
 	- [/] [[#Insert Wip IA - IA civitai.md]]
 	- [/] [[#Insert Wip IA - IA civitai v2.md]]
@@ -812,3 +812,17 @@ encore utilisé dans DAly Note > ⛔
 	- [x] Insert Wip IA - ComFyUI - Flux v2.md ✅ 2025-03-15
 		- [x] 0d262538-9bb6-45ac-8900-1879465a5b4d ✅ 2025-03-15
 
+
+
+### Insert Wip IA - ComFyUI - Flux.md
+
+```yml
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert Wip IA - ComFyUI - Flux.md ✅ 2025-03-15
+		- [x] WIP\Ajout de metadata pour localisation des workflow ComfyUI.md �
