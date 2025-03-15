@@ -5,8 +5,8 @@ let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, qu
 if (taskEnable) { -%>
 ---
 ## Tasks
-- [ ] Integrate in Comfy UI  workflow
-- [ ] Test
+- [ ] Integrate in Comfy UI  workflow ➕ <% tp.date.now("YYYY-MM-DD") %>
+- [ ] Test ➕ <% tp.date.now("YYYY-MM-DD") %>
 ---
 <%* } -%>
 
