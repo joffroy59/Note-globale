@@ -1,6 +1,6 @@
 {
-  "todoPageName": "todo\nstatus/wip",
-  "showChecked": true,
+  "todoPageName": "",
+  "showChecked": false,
   "showAllTodos": false,
   "showOnlyActiveFile": false,
   "autoRefresh": true,

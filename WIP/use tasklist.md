@@ -15,12 +15,12 @@ tags:
 
 ---
 ## Tasks
-- [ ] Task1
+- [x] Task1 ✅ 2025-03-15
 ---
 [[TaskList]]
 
 work on 
-- [ ] [[Create Task PC]]
+- [x] [[Create Task PC]] ✅ 2025-03-15
 
 
 
