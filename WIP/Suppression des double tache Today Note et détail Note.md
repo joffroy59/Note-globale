@@ -149,9 +149,9 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [x] [[#Insert WIP IA.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - ComFyUI - Flux.md]] ✅ 2025-03-15
 	- [x] [[#Insert Wip IA - ComFyUI - Flux v2.md]] ✅ 2025-03-15
-	- [/] [[#Insert Wip IA - IA civitai.md]]
+	- [x] [[#Insert Wip IA - IA civitai.md]] ✅ 2025-03-15
 	- [/] [[#Insert Wip IA - IA civitai v2.md]]
-	- [-] Insert Wip IA - Model.md
+	- [/] Insert Wip IA - Model.md
 	- [x] [[#Insert Wip IA - Model v2.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP New.md]] ✅ 2025-03-15
 	- [x] [[#Insert WIP v2.md]] ✅ 2025-03-15
