@@ -134,8 +134,8 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 - utiliser  
 
 - [ ] Clean
-	- [/] [[#Insert DONE.md]]
-	- [ ] Insert Idea.md
+	- [-] [[#Insert DONE.md]]
+	- [-] [[#Insert Idea.md]]
 	- [ ] Insert Note.md
 	- [ ] Insert Other.md
 	- [ ] Insert Problem.md
@@ -149,9 +149,9 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [ ] Insert WIP IA.md
 	- [ ] Insert Wip IA - ComFyUI - Flux.md
 	- [ ] Insert Wip IA - ComFyUI - Flux v2.md
-	- [ ] Insert Wip IA - IA civitai.md
-	- [ ] Insert Wip IA - IA civitai v2.md
-	- [ ] Insert Wip IA - Model.md
+	- [ ] [[#Insert Wip IA - IA civitai.md]]
+	- [/] [[#Insert Wip IA - IA civitai v2.md]]
+	- [-] Insert Wip IA - Model.md
 	- [ ] Insert Wip IA - Model v2.md
 	- [x] [[#Insert WIP New.md]] ✅ 2025-03-15
 	- [ ] Insert WIP v2.md
@@ -165,7 +165,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 
 ### Insert WIP New.md
 
-```yml
+```yml title:quickadd
     {
       "id": "726f20c5-3f98-4be2-9bcf-28f7235f67b7",
       "name": "🚧Insert WIP (New)",
@@ -212,5 +212,214 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 
 ### Insert DONE.md
 
+```yml title:quickadd
+        {
+          "id": "38df2c5a-1443-4709-8072-b3b116e9a5b5",
+          "name": "✅Insert Done",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert DONE.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### ✅ DONE",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
 
+```
+
+```yml  title:metabind
+    {
+      "label": "+ Done",
+      "icon": "",
+      "hidden": false,
+      "class": "green-3-button",
+      "tooltip": "",
+      "id": "insert-daily-done",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:38df2c5a-1443-4709-8072-b3b116e9a5b5"
+        }
+      ]
+    },
+
+```
+
+👉
+
+- [ ] 🗑️ Delete
+	- [ ] insert-daily-done
+	- [ ] 38df2c5a-1443-4709-8072-b3b116e9a5b5
+	- [ ] Templates/Inserts/Insert DONE.md
+	- [ ] ✅Insert Done
+encore utilisé dans DAly Note > ⛔
+
+
+### Insert Idea.md
+encore utilisé dans DAly Note > ⛔
+
+
+
+### Insert Wip IA - IA civitai v2.md
+
+```yml
+        {
+          "id": "117a593c-e4ee-46ec-b9f3-a6e27ad40600",
+          "name": "🚧Insert WIP IA - civitai v2",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - IA civitai v2.md}}\n\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚧 Wip",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+analyse task et lien #done 
+- [ ] 🗑️ Delete
+	- [ ] Insert Wip IA - IA civitai v2.md
+		- [ ] 117a593c-e4ee-46ec-b9f3-a6e27ad40600
+			- [ ] insert-daily-wip-ia_civitai-v2
+				- [ ] Test\Test Button - Cimetiére.md
+					- [ ] WIP\Use Settings for WIP IA Select.md
+					- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+						- [ ] WIP\Use Settings for WIP IA Select.md
+				- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
+				- [ ] WIP\Use Settings for WIP IA Select.md
+			- [ ] 003bacad-8791-4e4c-b883-f05b53ea8e85
+				- [ ] WIP\Use Settings for WIP IA Select.md
+					- [ ] Daily Note\2025\03\11\📒2025-03-15.md
+					- [ ] WIP\Use Settings for WIP IA Select.md
+			- [ ] 4458c4f3-4073-4ef8-8c3e-c7dcce969d6f
+				- [ ] 23ffd3c3-541e-4288-bf3d-3ed2ec165425
+					- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
+						- [ ] Daily Note\2025\02\06\📒2025-02-03.md
+						- [ ] WIP\Use Settings for WIP IA Select.md
+		- [ ] Templates/Inserts/Insert Wip IA - IA civitai v2.md
+			- [ ] WIP\Use Settings for WIP IA Select.md
+	- [ ] Insert Wip IA - IA civitai v2
+		- [ ] WIP\Use Settings for WIP IA Select.md
+
+
+
+
+### Insert Wip IA - IA civitai.md
+
+```yml title:"quickadd"
+        {
+          "id": "117a593c-e4ee-46ec-b9f3-a6e27ad40600",
+          "name": "🚧Insert WIP IA - civitai v2",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - IA civitai v2.md}}\n\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚧 Wip",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+analyse task et lien #done 
+- [ ] 🗑️ Delete
+	- [ ] Insert Wip IA - IA civitai.md
+		- [ ] 117a593c-e4ee-46ec-b9f3-a6e27ad40600
+			- [ ] insert-daily-wip-ia_civitai-v2
+				- [ ] Test\Test Button - Cimetiére.md
+					- [ ] WIP\Intégration nouveau système v2 de creation d'élément de la Today Note.md
+					- [ ] WIP\Use Settings for WIP IA Select.md
+				- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
+					- [ ] WIP\Use Settings for WIP IA Select.md
+				- [ ] WIP\Use Settings for WIP IA Select.md
+			- [ ] 4458c4f3-4073-4ef8-8c3e-c7dcce969d6f
+				- [ ] 23ffd3c3-541e-4288-bf3d-3ed2ec165425
+					- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
+						- [ ] WIP\Use Settings for WIP IA Select.md
+			- [ ] WIP\reprise sandbox1 creation auto wip IA civitai.md
+				- [ ] WIP\Use Settings for WIP IA Select.md
+			- [ ] WIP\Use Settings for WIP IA Select.md
+		- [ ] Templates/Inserts/Insert Wip IA - IA civitai v2.md
+		- [ ] WIP\Ajout de metadata pour localisation des workflow ComfyUI.md
+			- [ ] WIP\Use Settings for WIP IA Select.md
+		- [ ] WIP\Use Settings for WIP IA Select.md
 
