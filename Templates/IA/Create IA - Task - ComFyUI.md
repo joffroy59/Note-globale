@@ -40,9 +40,6 @@ let image = await tp.system.prompt("Image");
 let generationData = await tp.system.prompt("Generation Data", null, false, true);
 let note = await tp.system.prompt("Note", null, true, true);
 
-const question = "Tasks ?"
-let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
-
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 let hasTip = (url || image || worflow)
 -%>
@@ -75,12 +72,9 @@ title: Note
 ````
 <%* } -%>
 
-<%* if (taskEnable) { -%>
----
-## Tasks
-- [ ] Task1
-
-<%* } -%>
+<%*
+tR+= await tp.file.include(`[[TaskList Simple]]`);
+%>
 
 ---
 

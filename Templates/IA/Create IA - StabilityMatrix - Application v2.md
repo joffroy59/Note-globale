@@ -34,9 +34,6 @@ let sourceUrl = await tp.system.prompt("source Url");
 let imageUrl = await tp.system.prompt("Image Url");
 let note = await tp.system.prompt("Note", null, true, true);
 
-const question = "Tasks ?"
-let taskEnable = (await tp.system.suggester(['Yes','No'],['Yes','No'], false, question)) === 'Yes';
-
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 -%>
 `````ad-example
@@ -67,12 +64,9 @@ title: Note
 
 `````
 
-<%* if (taskEnable) { -%>
----
-## Tasks
-- [ ] Task1
-
-<%* } -%>
+<%*
+tR+= await tp.file.include(`[[TaskList Simple]]`);
+%>
 
 ---
 creation date:: [[<%tp.file.creation_date("YYYY")%>/<%tp.file.creation_date("MM")%>/<%tp.file.creation_date("WW")%>/📒<%tp.file.creation_date("YYYY-MM-DD")%>]]  <%tp.file.creation_date("HH:mm")%>
