@@ -36,6 +36,7 @@ select sur le pc asusJah ou autre ou raspberry
 
 - [x] [[Insert Wip IA - Task - Multi]] 👉 [[Insert Task - PC - Multi]]
 - [ ] [[Insert Wip IA - Task - Common]] 👉 [[Insert Task - PC - Common]]
+- [ ] [[Create Task WIP Obsidian]] 👉 [[Create Task Wip Asus Game]]
 - [ ] [[IA Settings]]  👉 [[Pc Settings.md]]
 
 

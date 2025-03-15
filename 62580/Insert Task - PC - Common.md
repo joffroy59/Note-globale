@@ -25,7 +25,7 @@ let tags = `${task_type_tags} #${pc_type}`
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
-# Create Note
+// Create Note
 console.log(template_create)
 
 
