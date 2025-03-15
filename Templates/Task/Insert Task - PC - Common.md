@@ -37,4 +37,7 @@ if (existing) {
 }
 await tp.file.move("/"+ folder_base + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% folder_base %>/<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+let task_state = ""
+if (task_type == "Wip") task_state = "/"
+
+%>   - [<% task_state %>]  [[<% folder_base %>/<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
