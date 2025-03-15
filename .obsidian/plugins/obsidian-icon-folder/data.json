@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSunrise",
       "SvNotionSvgrepoCom(2)",
       "SvNotionSvgrepoCom",
       "SiObsidian",
-      "LiList",
-      "MyList6248"
+      "LiList"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -154,5 +154,9 @@
     "iconName": "SiObsidian",
     "iconColor": "#7724a3"
   },
-  "Aide/Notion.md": "SvNotionSvgrepoCom(2)"
+  "Aide/Notion.md": "SvNotionSvgrepoCom(2)",
+  "Panel/dataview/today": {
+    "iconName": "LiSunrise",
+    "iconColor": "#9d6515"
+  }
 }

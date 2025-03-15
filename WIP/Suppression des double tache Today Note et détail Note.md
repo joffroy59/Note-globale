@@ -133,27 +133,28 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 - demander de transformer la lise en enlevant .md 
 - utiliser  
 
-- [ ] Insert DONE.md
-- [ ] Insert Idea.md
-- [ ] Insert Note.md
-- [ ] Insert Other.md
-- [ ] Insert Problem.md
-- [ ] Insert Problem - Appart.md
-- [ ] Insert Problem - Ask.md
-- [ ] Insert Problem - Domotique.md
-- [ ] Insert Problem - PC.md
-- [ ] Insert Problem v2.md
-- [ ] Insert ToView.md
-- [ ] Insert Win.md
-- [ ] Insert WIP IA.md
-- [ ] Insert Wip IA - ComFyUI - Flux.md
-- [ ] Insert Wip IA - ComFyUI - Flux v2.md
-- [ ] Insert Wip IA - IA civitai.md
-- [ ] Insert Wip IA - IA civitai v2.md
-- [ ] Insert Wip IA - Model.md
-- [ ] Insert Wip IA - Model v2.md
-- [ ] Insert WIP New.md
-- [ ] Insert WIP v2.md
+- [ ] Clean
+	- [ ] Insert DONE.md
+	- [ ] Insert Idea.md
+	- [ ] Insert Note.md
+	- [ ] Insert Other.md
+	- [ ] Insert Problem.md
+	- [ ] Insert Problem - Appart.md
+	- [ ] Insert Problem - Ask.md
+	- [ ] Insert Problem - Domotique.md
+	- [ ] Insert Problem - PC.md
+	- [ ] Insert Problem v2.md
+	- [ ] Insert ToView.md
+	- [ ] Insert Win.md
+	- [ ] Insert WIP IA.md
+	- [ ] Insert Wip IA - ComFyUI - Flux.md
+	- [ ] Insert Wip IA - ComFyUI - Flux v2.md
+	- [ ] Insert Wip IA - IA civitai.md
+	- [ ] Insert Wip IA - IA civitai v2.md
+	- [ ] Insert Wip IA - Model.md
+	- [ ] Insert Wip IA - Model v2.md
+	- [ ] Insert WIP New.md
+	- [ ] Insert WIP v2.md
 
 
 ## info
