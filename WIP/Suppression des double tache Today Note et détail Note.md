@@ -146,7 +146,7 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 	- [ ] Insert Problem v2.md
 	- [ ] Insert ToView.md
 	- [-] [[#Insert Win.md]]
-	- [ ] Insert WIP IA.md
+	- [x] [[#Insert WIP IA.md]] ✅ 2025-03-15
 	- [ ] Insert Wip IA - ComFyUI - Flux.md
 	- [ ] Insert Wip IA - ComFyUI - Flux v2.md
 	- [/] [[#Insert Wip IA - IA civitai.md]]
@@ -539,4 +539,56 @@ encore utilisé dans DAly Note > ⛔
 		- [x] Templates/Inserts/Create WIP v2 ✅ 2025-03-15
 
 
+
+
+
+### Insert WIP IA.md
+
+```yml
+        {
+          "id": "8a9b994e-5749-45fb-ab86-b095616a334f",
+          "name": "🚧Insert WIP IA",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## 🚧 Wip",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete ✅ 2025-03-15
+	- [x] Insert WIP IA.md ✅ 2025-03-15
+		- [x] 8a9b994e-5749-45fb-ab86-b095616a334f ✅ 2025-03-15
+			- [x] insert-daily-wip-ia ✅ 2025-03-15
+				- [x] Test\Test Button - Cimetiére.md ✅ 2025-03-15
 

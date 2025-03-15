@@ -518,21 +518,6 @@
       "hidden": false,
       "class": "purple-5-button",
       "tooltip": "",
-      "id": "insert-daily-wip-ia",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:8a9b994e-5749-45fb-ab86-b095616a334f"
-        }
-      ]
-    },
-    {
-      "label": "+ Wip IA",
-      "icon": "",
-      "hidden": false,
-      "class": "purple-5-button",
-      "tooltip": "",
       "id": "insert-daily-wip-ia-select",
       "style": "default",
       "actions": [
@@ -618,21 +603,6 @@
         {
           "type": "command",
           "command": "quickadd:choice:b9c078f7-fdf8-4dd8-a048-77a93037b4e1"
-        }
-      ]
-    },
-    {
-      "label": "+ Wip",
-      "icon": "",
-      "hidden": false,
-      "class": "purple-3-button",
-      "tooltip": "",
-      "id": "insert-daily-wip-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:888b13e8-a34d-4011-8e5b-f34fa09b186a"
         }
       ]
     },
