@@ -18,3 +18,6 @@ Source : https://github.com/Quorafind/Obsidian-Task-Genius
 ![[Tasks - Task Genius _formerly Obsidian Task Progress Bar_-1742087971756.png|400x288]]
 
 ![[Tasks - Task Genius _formerly Obsidian Task Progress Bar_-1742088042695.png|400x477]]
+
+
+![[Tasks - Task Genius _formerly Obsidian Task Progress Bar_-1742089518063.png|400x461]]

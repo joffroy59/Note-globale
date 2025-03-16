@@ -1,11 +1,11 @@
 {
   "showProgressBar": true,
-  "addTaskProgressBarToHeading": false,
-  "enableHeadingProgressBar": false,
-  "addNumberToProgressBar": false,
-  "autoCompleteParent": false,
-  "supportHoverToShowProgressInfo": false,
-  "markParentInProgressWhenPartiallyComplete": false,
+  "addTaskProgressBarToHeading": true,
+  "enableHeadingProgressBar": true,
+  "addNumberToProgressBar": true,
+  "autoCompleteParent": true,
+  "supportHoverToShowProgressInfo": true,
+  "markParentInProgressWhenPartiallyComplete": true,
   "showPercentage": false,
   "countSubLevel": true,
   "hideProgressBarBasedOnConditions": false,
@@ -13,15 +13,15 @@
   "hideProgressBarFolders": "",
   "hideProgressBarMetadata": "hide-progress-bar",
   "taskStatuses": {
-    "completed": "x|X",
-    "inProgress": ">|/",
+    "completed": "x|o|k|f",
+    "inProgress": "/",
     "abandoned": "-",
-    "notStarted": " ",
-    "planned": "?"
+    "notStarted": " |!|?|R|+|b|B|I|N|Q|W|P|C",
+    "planned": ">|D"
   },
   "countOtherStatusesAs": "notStarted",
   "excludeTaskMarks": "",
-  "onlyCountTaskMarks": "x|X",
+  "onlyCountTaskMarks": " |/|x",
   "useOnlyCountMarks": false,
   "customizeProgressRanges": false,
   "progressRanges": [
@@ -51,19 +51,25 @@
       "text": "Almost there {{PROGRESS}}%"
     }
   ],
-  "enableTaskStatusSwitcher": false,
+  "enableTaskStatusSwitcher": true,
   "enableCustomTaskMarks": false,
   "taskStatusCycle": [
     "TODO",
     "DOING",
-    "IN-PROGRESS",
-    "DONE"
+    "DONE",
+    "CANCEL",
+    "OK",
+    "KO"
   ],
   "taskStatusMarks": {
     "TODO": " ",
-    "DOING": "-",
-    "IN-PROGRESS": ">",
-    "DONE": "x"
+    "DOING": "/",
+    "DONE": "x",
+    "OK": "o",
+    "STATUS_5": "o",
+    "KO": "k",
+    "STATUS_6": "k",
+    "CANCEL": "-"
   },
   "excludeMarksFromCycle": [],
   "enableCycleCompleteStatus": true,
