@@ -1,9 +1,9 @@
 <%*
-let run_cmd = await tp.system.prompt("Run command", null, true, true);
+let run_cmd = tp.system.prompt("Run command", null, true, true);
 -%>
 
 ```yml
-<% run_cmd %>   
+  <% run_cmd %>
 
 ```
 

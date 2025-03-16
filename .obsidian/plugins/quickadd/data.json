@@ -1582,7 +1582,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/ExtractHeaderSimple Quickadd.md}}"
+            "format": "{{TEMPLATE:Templates/Inserts/ExtractHeaderSimple-Quickadd.md}}"
           },
           "insertAfter": {
             "enabled": false,
@@ -1958,6 +1958,41 @@
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "007f51de-9218-42f5-bf19-57e54fc5277e",
+      "name": "▶️Insert Cmd",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Elements/Insert - Run command.md}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
       },
       "prepend": false,
       "task": false,

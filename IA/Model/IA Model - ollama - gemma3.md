@@ -135,19 +135,22 @@ ollama run gemma3:4b-it-q4_K_M
 ![[IA Model - ollama - gemma3-1742116668955.png|400x112]]
 
 
-
-
-
 ### gemma3:4b-it-q8_0
 
+
 ```yml
-ollama run gemma3:4b-it-q8_0   
+  ollama run gemma3:4b-it-q8_0
 
 ```
 
 👉
 
-{image result} 
+{image result} ![[IA Model - ollama - gemma3-1742162648000.png|400x33]]
+
+
+
+
+
 
 
 

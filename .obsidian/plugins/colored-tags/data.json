@@ -316,7 +316,9 @@
     "add": 151,
     "install": 152,
     "plugin": 153,
-    "windows": 154
+    "windows": 154,
+    "arffff": 155,
+    "gemma3": 156
   },
   "_version": 3
 }
