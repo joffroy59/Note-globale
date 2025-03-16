@@ -26,5 +26,6 @@
   "periodic-notes",
   "smart-connections-visualizer",
   "convert-url-to-iframe",
-  "progressbar"
+  "progressbar",
+  "vscode-editor"
 ]

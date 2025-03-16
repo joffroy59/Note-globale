@@ -1146,6 +1146,41 @@
           "openFileInMode": "default"
         },
         {
+          "id": "a0f923b9-4746-415a-9cf6-a9e25a73f999",
+          "name": "💎Insert Task - Obsidian - Plugin",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - Plugin - Multi.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### 📎TODO's",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
           "id": "1ce259ba-9603-48da-9168-2dd5884ea688",
           "name": "🚧Insert WIP STAR ⭐",
           "type": "Capture",
