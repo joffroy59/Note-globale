@@ -23,6 +23,7 @@ title: Note
 - [x] [[Create Plugin Add]] ➕ 2025-03-15 ✅ 2025-03-15
 - [x] delete [[Create Plugin Add]] ✅ 2025-03-16
 - [x] faire comme pour Task Plugin [[#Tasks (like Task PC)]] ✅ 2025-03-16
+- [ ] restaurer ce qui est fait dand [[Plugin Add Pocket]] dans [[Create Task Plugin]]
 ---
 ## Tasks (like Task PC)
 - [x] Create Plugin Action like WIP IA hor Done or todo ✅ 2025-03-16
