@@ -27,5 +27,6 @@
   "smart-connections-visualizer",
   "convert-url-to-iframe",
   "progressbar",
-  "vscode-editor"
+  "vscode-editor",
+  "obsidian-task-progress-bar"
 ]
