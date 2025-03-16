@@ -11,7 +11,7 @@ let task_type = await tp.system.suggester((item) => item, task_type_list)
 
 let generic_type = await tp.system.suggester((item) => item, generic_type_list)
 
-let folder_base = `${settings_root.folder_base}/${generic_type}/${task_type}`
+let folder_base = `${settings_root.folder_base}/${task_type}/${generic_type}`
 
 const template_task_type_base = settings_root.template.template_base
 let template_create_name = settings_root.template.create
@@ -37,7 +37,9 @@ if (existing) {
 }
 //await tp.file.move("/"+ folder_base + "/" + title, folder_basetp.file.find_tfile(title));
 
-let task_state = ""
+let task_state = " "
 if (task_type == "Wip") task_state = "/"
+console.log(template_create)
+console.log(tags)
 
-%>   - [<% task_state %>]  [[<% folder_base %>/<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
+%>   - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %> 

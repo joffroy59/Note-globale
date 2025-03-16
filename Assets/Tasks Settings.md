@@ -12,7 +12,7 @@ task_type:
 plugin:
   folder_base: "Tasks/Obisidan/Plugin"
   template:
-    create: "Create Task"
+    create: "Create Task Plugin"
     template_base: "Templates/Task/Obsidian/Plugin"
   task_type:
     list:

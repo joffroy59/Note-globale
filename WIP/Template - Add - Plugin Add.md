@@ -21,17 +21,17 @@ title: Note
 ---
 ## Tasks
 - [x] [[Create Plugin Add]] ➕ 2025-03-15 ✅ 2025-03-15
-- [ ] delete [[Create Plugin Add]] 
-- [ ] faire comme pour Task PC [[#Tasks (like Task PC)]]
+- [x] delete [[Create Plugin Add]] ✅ 2025-03-16
+- [x] faire comme pour Task Plugin [[#Tasks (like Task PC)]] ✅ 2025-03-16
 ---
 ## Tasks (like Task PC)
-- [ ] Create Pc Action like WIP IA hor Done or todo
-	- [ ] [[#templater]]
-		- [ ] insert
-		- [ ] create note
-	- [ ] test templater
-	- [ ] quickadd
-	- [ ] button
+- [x] Create Plugin Action like WIP IA hor Done or todo ✅ 2025-03-16
+	- [x] [[#templater]] ✅ 2025-03-16
+		- [x] insert ✅ 2025-03-16
+		- [x] create note ✅ 2025-03-16
+	- [x] test templater ✅ 2025-03-16
+	- [x] quickadd ✅ 2025-03-16
+	- [x] button ✅ 2025-03-16
 
 
 ---
@@ -47,9 +47,9 @@ title: Note
 - [x] 💎Insert Task - Obsidian - Plugin ✅ 2025-03-16
       ![[Template - Add - Plugin Add-1742085553880.png|400x78]]
 
-- [ ] test
+- [x] test ✅ 2025-03-16
 - [x] button  insert-daily-task-obsidian-plugin `BUTTON[insert-daily-task-obsidian-plugin]` ✅ 2025-03-16
-	- [ ] test button
-	- [ ] Action panel
-	      ![[Create Template + action for Windows or Linux  actions-1742003138384.png|400x162]]
+	- [x] test button ✅ 2025-03-16
+	- [x] Action panel ✅ 2025-03-16
+	     ![[Template - Add - Plugin Add-1742085936762.png|400x100]]
 

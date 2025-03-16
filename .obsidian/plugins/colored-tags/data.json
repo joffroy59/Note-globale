@@ -313,7 +313,9 @@
     "portable": 148,
     "iphone": 149,
     "dataview": 150,
-    "add": 151
+    "add": 151,
+    "install": 152,
+    "plugin": 153
   },
   "_version": 3
 }

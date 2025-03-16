@@ -6,11 +6,12 @@ const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(
 
 let title = tp.file.title
 let parent = tp.file.folder(true)
-let global_type = parent.split("/")[2]
+let generic_type = parent.split("/")[2]
 let task_type = parent.split("/")[3]
 
 let task_type_tags = settings[global_task_type].task_type[task_type.trim()].tags
-let tags = `${task_type_tags} #${global_type.replace(/ /g,"_").toLowerCase()}`.replace(/#/g,"")
+
+let tags = `${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`.replace(/#/g,"")
 
 %>
 ELN info:
