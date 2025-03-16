@@ -27,4 +27,3 @@ app.workspace.activeEditor.editor.replaceSelection(embed)
 
 //app.workspace.activeEditor.editor.setCursor({line: app.workspace.activeEditor.editor.lastLine(), ch: 0});
 -%>
-

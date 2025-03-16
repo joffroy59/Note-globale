@@ -30,13 +30,29 @@ ssss
 ---
 ## Tasks
 - [f] [[#gemma3:12b-it-q4_K_M]] ➕ 2025-03-16
-- [f] [[#gemma3]]
+- [o] [[#gemma3]]
+- [f] [[#gemma3:12b]]
 - [o] [[#gemma3:4b]]
 - [o] [[#gemma3:1b]] ✅ 2025-03-16
 - [f] [[#gemma3:4b-it-q4_K_M]]
 - [f] [[#gemma3:4b-it-q8_0]]
-	
+
+- [ ] [[#Transfomers]]  #application #IA/application  #toview #IA 
 ---
+
+## Etude
+
+trouver sur [A Step-by-Step Guide to Install Gemma-3 Locally with Ollama or Transformers](https://nodeshift.com/blog/a-step-by-step-guide-to-install-gemma-3-locally-with-ollama-or-transformers)
+```embed
+title: "A Step-by-Step Guide to Install Gemma-3 Locally with Ollama or Transformers"
+image: "https://static.nodeshift.com/uploads/2025/03/Copy-of-Blog-Template_NS-7.png"
+description: "Gemma-3 is Google’s latest open-weight large language model (LLM), pushing the boundaries of AI with multimodal capabilities, extended context length, and multilingual support. Unlike its predecessors, Gemma-3 can process both text and images, making it far more versatile for tasks like question answering, document summarization, and image analysis. With a massive 128K context window (for 4B+ models) and support for over 140 languages, it opens up new possibilities for advanced reasoning and content generation. Plus, it comes in multiple sizes, from 1B to 27B parameters, allowing you to choose the right balance between performance and efficiency. And the best part? It is available on both Ollama and Transformers, making it much easier for anyone to get started in no time, right in their machine locally or through cloud.   In this guide, we’ll show you step-by-step process to install and run Gemma 3 locally using Ollama and Hugging Face Transformers. (Bonus: We’ve asked it to build an AI based crypto trading agent. Want to see the results? Dive in!)"
+url: "https://nodeshift.com/blog/a-step-by-step-guide-to-install-gemma-3-locally-with-ollama-or-transformers"
+```
+
+![[IA Model - ollama - gemma3-1742164834670.png|400x308]]
+
+donc a priori normal de pas pouvoir faire tourner les model 12b (alors que semble etre en dessous de 12G .... bizarre)
 
 ## Tasks Detail
 
@@ -85,16 +101,25 @@ ollama run gemma3:12b-it-q4_K_M
 
 ![[IA Model - ollama - gemma3-1742115821853.png|400x94]]
 
-- [ ] re essayer apres  restart machine 
+- [f] re essayer apres  restart machine 
+![[IA Model - ollama - gemma3-1742164053003.png|400x19]]
 
+if ? instruct ? peut etre pas utilisable ccomme ca avec olla directement 
+- [ ] tester dasn vscode continue et isntruct configuration 
 ### gemma3
 
-
+#### 1er Essai
 ```sh
 ollama run gemma3
 ```
 
 ![[IA Model - ollama - gemma3-1742116097847.png|400x198]]
+
+#### 2eme Essai
+✅
+![[IA Model - ollama - gemma3-1742162835369.png|400x98]]
+
+--> problem temporaire memory  ??? 
 
 ### gemma3:4b
 
@@ -132,7 +157,7 @@ ollama run gemma3:4b-it-q4_K_M
 
 👉
 
-{image result} ![[IA Model - ollama - gemma3-1742116632516.png|400x63]]
+![[IA Model - ollama - gemma3-1742116632516.png|400x63]]
 
 ![[IA Model - ollama - gemma3-1742116668955.png|400x112]]
 
@@ -147,7 +172,7 @@ ollama run gemma3:4b-it-q4_K_M
 
 👉
 
-{image result} ![[IA Model - ollama - gemma3-1742162648000.png|400x33]]
+![[IA Model - ollama - gemma3-1742162648000.png|400x33]]
 
 
 
@@ -158,3 +183,29 @@ ollama run gemma3:4b-it-q4_K_M
 
 
 
+
+
+### gemma3:12b
+
+```yml
+  ollama run gemma3:12b
+
+```
+
+👉
+
+![[IA Model - ollama - gemma3-1742163800295.png|400x51]]
+
+
+
+
+
+### Transfomers
+
+```embed
+title: "Fetching"
+image: "data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibGRzLW1pY3Jvc29mdCIgd2lkdGg9IjgwcHgiICBoZWlnaHQ9IjgwcHgiICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMCkiPjxjaXJjbGUgY3g9IjgxLjczNDEzMzYxMTY0OTQxIiBjeT0iNzQuMzUwNDU3MTYwMzQ4ODIiIGZpbGw9IiNlMTViNjQiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM0MC4wMDEgNDkuOTk5OSA1MCkiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49IjBzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9Ijc0LjM1MDQ1NzE2MDM0ODgyIiBjeT0iODEuNzM0MTMzNjExNjQ5NDEiIGZpbGw9IiNmNDdlNjAiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM0OC4zNTIgNTAuMDAwMSA1MC4wMDAxKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMDYyNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iNjUuMzA3MzM3Mjk0NjAzNiIgY3k9Ijg2Ljk1NTE4MTMwMDQ1MTQ3IiBmaWxsPSIjZjhiMjZhIiByPSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzNTQuMjM2IDUwIDUwKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMTI1cyI+PC9hbmltYXRlVHJhbnNmb3JtPgo8L2NpcmNsZT48Y2lyY2xlIGN4PSI1NS4yMjEwNDc2ODg4MDIwNyIgY3k9Ijg5LjY1Nzc5NDQ1NDk1MjQxIiBmaWxsPSIjYWJiZDgxIiByPSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzNTcuOTU4IDUwLjAwMDIgNTAuMDAwMikiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49Ii0wLjE4NzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9IjQ0Ljc3ODk1MjMxMTE5NzkzIiBjeT0iODkuNjU3Nzk0NDU0OTUyNDEiIGZpbGw9IiM4NDliODciIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDM1OS43NiA1MC4wMDY0IDUwLjAwNjQpIj4KICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgY2FsY01vZGU9InNwbGluZSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiIGJlZ2luPSItMC4yNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iMzQuNjkyNjYyNzA1Mzk2NDE1IiBjeT0iODYuOTU1MTgxMzAwNDUxNDciIGZpbGw9IiNlMTViNjQiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDAuMTgzNTUyIDUwIDUwKSI+CiAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIGNhbGNNb2RlPSJzcGxpbmUiIHZhbHVlcz0iMCA1MCA1MDszNjAgNTAgNTAiIHRpbWVzPSIwOzEiIGtleVNwbGluZXM9IjAuNSAwIDAuNSAxIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxLjVzIiBiZWdpbj0iLTAuMzEyNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT4KPC9jaXJjbGU+PGNpcmNsZSBjeD0iMjUuNjQ5NTQyODM5NjUxMTc2IiBjeT0iODEuNzM0MTMzNjExNjQ5NDEiIGZpbGw9IiNmNDdlNjAiIHI9IjUiIHRyYW5zZm9ybT0icm90YXRlKDEuODY0NTcgNTAgNTApIj4KICA8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InJvdGF0ZSIgY2FsY01vZGU9InNwbGluZSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiIGJlZ2luPSItMC4zNzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxjaXJjbGUgY3g9IjE4LjI2NTg2NjM4ODM1MDYiIGN5PSI3NC4zNTA0NTcxNjAzNDg4NCIgZmlsbD0iI2Y4YjI2YSIgcj0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoNS40NTEyNiA1MCA1MCkiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiB0aW1lcz0iMDsxIiBrZXlTcGxpbmVzPSIwLjUgMCAwLjUgMSIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGR1cj0iMS41cyIgYmVnaW49Ii0wLjQzNzVzIj48L2FuaW1hdGVUcmFuc2Zvcm0+CjwvY2lyY2xlPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiBjYWxjTW9kZT0ic3BsaW5lIiB2YWx1ZXM9IjAgNTAgNTA7MCA1MCA1MCIgdGltZXM9IjA7MSIga2V5U3BsaW5lcz0iMC41IDAgMC41IDEiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjEuNXMiPjwvYW5pbWF0ZVRyYW5zZm9ybT48L2c+PC9zdmc+"
+description: "Fetching [A Step-by-Step Guide to Install Gemma-3 Locally with Ollama or Transformers](https://nodeshift.com/blog/a-step-by-step-guide-to-install-gemma-3-locally-with-ollama-or-transformers) "
+url: "[A Step-by-Step Guide to Install Gemma-3 Locally with Ollama or Transformers](https://nodeshift.com/blog/a-step-by-step-guide-to-install-gemma-3-locally-with-ollama-or-transformers) "
+```
+![[IA Model - ollama - gemma3-1742165104220.png|400x527]]
