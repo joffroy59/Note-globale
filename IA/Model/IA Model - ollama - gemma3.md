@@ -33,6 +33,8 @@ ssss
 - [f] [[#gemma3]]
 - [f] [[#gemma3:4b]]
 - [o] [[#gemma3:1b]] ✅ 2025-03-16
+- [f] [[#gemma3:4b-it-q4_K_M]]
+- [ ] [[#gemma3:4b-it-q8_0]]
 	
 ---
 
@@ -117,3 +119,37 @@ ollama run gemma3:1b
 ![[IA Model - ollama - gemma3-1742116184981.png|400x46]]
 
 ![[IA Model - ollama - gemma3-1742116216335.png|400x121]]
+
+
+### gemma3:4b-it-q4_K_M
+
+```yml
+ollama run gemma3:4b-it-q4_K_M   
+
+```
+
+👉
+
+{image result} ![[IA Model - ollama - gemma3-1742116632516.png|400x63]]
+
+![[IA Model - ollama - gemma3-1742116668955.png|400x112]]
+
+
+
+
+
+### gemma3:4b-it-q8_0
+
+```yml
+ollama run gemma3:4b-it-q8_0   
+
+```
+
+👉
+
+{image result} 
+
+
+
+
+

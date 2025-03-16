@@ -71,7 +71,8 @@
     "Templates/Inserts/ExtractHeaderSimple.md",
     "Templates/Elements/Insert - Failed.md",
     "Templates/Elements/Insert - Logo IA.md",
-    "Templates/Elements/Insert - Clean Template Note and related Action.md"
+    "Templates/Elements/Insert - Clean Template Note and related Action.md",
+    "Templates/Elements/Insert - Run command.md"
   ],
   "startup_templates": [
     ""
