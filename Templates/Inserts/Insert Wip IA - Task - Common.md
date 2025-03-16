@@ -17,6 +17,7 @@ let ia_tag = config_wip_type.tag
 let ia_type_tag = ""
 const sub_type_type = config_wip_type.sub_type
 let sub_type = ""
+let ia_sub_type_tags = ""
 if (sub_type_type) {
 	sub_type = await tp.system.suggester((item) => item, sub_type_type)
 	const config_wip_subtype = config_wip_type[sub_type]

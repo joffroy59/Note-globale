@@ -144,6 +144,7 @@ if (remaining_notes == 1) {
 
 - ### 〽️ Stats
 	-  File Count: **`$=dv.pages().length`**
+	-  Number of Projects: **`$=dv.pages('#project AND !"Assets"').length`**
 	-  Number of Samples: **`$=dv.pages('#sample AND !"Assets"').length`**
 	-  Number of Analsyes: **`$=dv.pages('#analysis AND !"Assets"').length`**
 	-  Number of Processes: **`$=dv.pages('#process AND !"Assets"').length`**
