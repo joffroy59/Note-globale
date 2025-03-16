@@ -59,7 +59,8 @@
     "DONE",
     "CANCEL",
     "OK",
-    "KO"
+    "KO",
+    "FAILED"
   ],
   "taskStatusMarks": {
     "TODO": " ",
@@ -69,7 +70,9 @@
     "STATUS_5": "o",
     "KO": "k",
     "STATUS_6": "k",
-    "CANCEL": "-"
+    "CANCEL": "-",
+    "FAILED": "f",
+    "STATUS_7": "f"
   },
   "excludeMarksFromCycle": [],
   "enableCycleCompleteStatus": true,

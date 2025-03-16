@@ -1568,6 +1568,41 @@
       "command": true,
       "choices": [
         {
+          "id": "481e9b6f-5940-464c-a48e-faa2a69c7726",
+          "name": "🩹Extract Header Simple",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/ExtractHeaderSimple Quickadd.md}}"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "## Tasks Detail",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": true,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
           "id": "4f63e18c-9ebe-4f1b-8c78-14e92c9fb3f6",
           "name": "Avant-Aprés",
           "type": "Capture",
