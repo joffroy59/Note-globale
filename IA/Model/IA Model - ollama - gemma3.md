@@ -31,10 +31,10 @@ ssss
 ## Tasks
 - [f] [[#gemma3:12b-it-q4_K_M]] ➕ 2025-03-16
 - [f] [[#gemma3]]
-- [f] [[#gemma3:4b]]
+- [o] [[#gemma3:4b]]
 - [o] [[#gemma3:1b]] ✅ 2025-03-16
 - [f] [[#gemma3:4b-it-q4_K_M]]
-- [ ] [[#gemma3:4b-it-q8_0]]
+- [f] [[#gemma3:4b-it-q8_0]]
 	
 ---
 
@@ -98,16 +98,18 @@ ollama run gemma3
 
 ### gemma3:4b
 
-
+#### 1er Essai
 ```sh
 ollama run gemma3:4b
 ```
 
 ![[IA Model - ollama - gemma3-1742116086803.png|400x54]]
 
+#### 2eme Essai
+✅
+![[IA Model - ollama - gemma3-1742162762454.png|400x127]]
 
-
-
+--> problem temporaire memory  ??? 
 
 
 ### gemma3:1b
