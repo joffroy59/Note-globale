@@ -5,9 +5,7 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-02-25
   copyright: GNU Affero General Public License v3.0
-
 date-created: 2025-02-25
-
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -17,6 +15,7 @@ tags:
   - IA/StabilityMatrix
   - flux_NF4➕
   - "#done"
+  - "#failed"
 ---
 ```ad-tip
 Source : https://openart.ai/workflows/utan_blissful_23/flux1---nf4--upscale/8z8Bt9fMOdKtoChCfMbw
@@ -31,7 +30,7 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/HtvTSHVYdSb7X2g2NKgx/image
 ```
 
 ````ad-quote
-title: Generation data
+title: Generation data 🛑
 
  
 
@@ -40,9 +39,41 @@ title: Generation data
 ```ad-note
 title: Note
 
+![[workflow-flux1---nf4--upscale-8z8Bt9fMOdKtoChCfMbw-utan_blissful_23-openart.ai.json]]
+
+ ![[Flux NF4 - FLUX.1 - NF4 -Upscale-1742252767738.png|400x400]]
+
+```
+
+```ad-note
+title: Model detail 
+
+{
+  "checkpoints": {
+    "sd_xl_base_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0.safetensors",
+    "sd_xl_refiner_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/blob/main/sd_xl_refiner_1.0.safetensors",
+    "v1-5-pruned.ckpt2": "https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned.ckpt"
+  },
+  "loras": {
+    "StudioGhibli.Redmond-StdGBRRedmAF-StudioGhibli.safetensors": "https://huggingface.co/artificialguybr/StudioGhibli.Redmond-V2/blob/main/StudioGhibli.Redmond-StdGBRRedmAF-StudioGhibli.safetensors",
+    "Yoji_Shinkawa_Art_Style_Flux.safetensors": "https://civitai.com/api/download/models/912623?type=Model&format=SafeTensor"
+  },
+  "upscalers": {},
+  "other_models": {}
+}
+
  
 
 ```
+
+```ad-note
+title: Note
+
+![[Flux NF4 - FLUX.1 - NF4 -Upscale-1742252722778.png|400x457]]
+
+```
+
+
 ```ad-info
 title: Workflow Directories
 collapse: closed
@@ -65,6 +96,9 @@ collapse: closed
 
 ##### Result
 
+![[Flux NF4 - FLUX.1 - NF4 -Upscale-1742252980332.png|400x262]]
+
+![[IA Application - Microsoft AI Playground-1740954752510.png|400]]
 
 
 ---

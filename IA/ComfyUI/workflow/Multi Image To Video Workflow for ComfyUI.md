@@ -8,6 +8,7 @@ tags:
   - IA/comfyui/flux
   - IA/StabilityMatrix
   - flux_NF4➕
+  - "#video"
 ---
 ```ad-tip
 Source : https://civitai.com/models/630602/multi-image-to-video-workflow-for-comfyui
