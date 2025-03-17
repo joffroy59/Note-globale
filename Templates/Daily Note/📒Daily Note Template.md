@@ -60,8 +60,9 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 
 ## 🗒️Today Modification
 ```dataview
-TABLE file.ctime AS "Created", file.mtime AS "Updated", file.size AS "Size" 
-WHERE file.cday = date("<% tp.date.now("YYYY-MM-DD") %>") OR file.mday = date("<% tp.date.now("YYYY-MM-DD") %>")
+TABLE dateformat(file.ctime, "yyyy-MM-dd HH:mm") AS "Created", dateformat(file.mtime, "yyyy-MM-dd HH:mm") AS "Updated", file.size AS "Size" 
+WHERE file.cday = date("<% tp.date.now() %>") OR file.mday = date("<% tp.date.now() %>")
+SORT file.mtime DESC
 ```
 
 ## 📝Note ———————————————————————
