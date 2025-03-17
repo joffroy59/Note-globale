@@ -238,7 +238,7 @@
           "setFileExistsBehavior": true
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "16adb884-fe7e-4ab2-ac1e-ec590bce0491",
@@ -1349,7 +1349,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "39135df6-99df-44fa-bc18-76c8ef4c1a1b",
@@ -1498,7 +1498,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "b9c078f7-fdf8-4dd8-a048-77a93037b4e1",
