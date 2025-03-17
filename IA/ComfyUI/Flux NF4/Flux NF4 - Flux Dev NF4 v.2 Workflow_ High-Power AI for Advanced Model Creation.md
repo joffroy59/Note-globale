@@ -5,16 +5,12 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-02-25
   copyright: GNU Affero General Public License v3.0
-
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
-
 date-created: 2025-02-25
-
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -24,6 +20,7 @@ tags:
   - IA/comfyui/flux
   - IA/StabilityMatrix
   - flux_NF4➕
+  - "#todo"
 ---
 ```ad-tip
 Source : https://openart.ai/workflows/elim_droflem/flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation/OZYfC9fFQ5dB6cOufAnk
@@ -32,7 +29,7 @@ worflow: workflow-flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-crea
 ⭐🚧 [workflow-flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation-OZYfC9fFQ5dB6cOufAnk-elim_droflem-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation-OZYfC9fFQ5dB6cOufAnk-elim_droflem-openart.ai.json)
 ✅ #todo 
 
-image: ![](https://cdn.openart.ai/workflow_thumbnails/yb7XQBjXFnzqFG1aD35k/image_9OJXoPB3_1725960385758_raw.jpg)
+image: ![|400](https://cdn.openart.ai/workflow_thumbnails/yb7XQBjXFnzqFG1aD35k/image_9OJXoPB3_1725960385758_raw.jpg)
 
 
 ```
@@ -65,36 +62,7 @@ collapse: closed
 
 ## Test reproduction en local
 ### StabilityMatrix 
-#### Inference
-##### Config
-##### Execution
-##### Result
-
 #### ComfyUI
-##### Config
-##### Execution
-##### Result
-
-#### Stable Diffusion WebUI 
-##### Config
-##### Execution
-##### Result
-
-#### Stable Diffusion WebUI Forge
-##### Config
-##### Execution
-##### Result
-#### SDX
-##### Config
-##### Execution
-##### Result
-
-#### SwarmUI
-##### Config
-##### Execution
-##### Result
-
-#### InvokeAI
 ##### Config
 ##### Execution
 ##### Result

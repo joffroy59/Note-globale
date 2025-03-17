@@ -5,16 +5,12 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-02-25
   copyright: GNU Affero General Public License v3.0
-
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
-
 date-created: 2025-02-25
-
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -24,6 +20,7 @@ tags:
   - IA/comfyui/flux
   - IA/StabilityMatrix
   - flux_NF4➕
+  - todo
 ---
 ```ad-tip
 Source : https://civitai.com/models/638187/flux1-dev-hyper-nf4-flux1-dev-bnb-nf4-flux1-schnell-bnb-nf4?modelVersionId=819165
@@ -65,39 +62,13 @@ collapse: closed
 
 ## Test reproduction en local
 ### StabilityMatrix
-#### Inference
-##### Config
-##### Execution
-##### Result
 
 #### ComfyUI
 ##### Config
 ##### Execution
 ##### Result
 
-#### Stable Diffusion WebUI
-##### Config
-##### Execution
-##### Result
 
-#### Stable Diffusion WebUI Forge
-##### Config
-##### Execution
-##### Result
-#### SDX
-##### Config
-##### Execution
-##### Result
-
-#### SwarmUI
-##### Config
-##### Execution
-##### Result
-
-#### InvokeAI
-##### Config
-##### Execution
-##### Result
 
 ---
 ## Local

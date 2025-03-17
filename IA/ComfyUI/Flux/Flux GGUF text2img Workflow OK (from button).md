@@ -5,22 +5,19 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-02-25
   copyright: GNU Affero General Public License v3.0
-
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
-
 date-created: 2025-01-29
-
 tags:
   - IA
   - IA/comfyui
   - IA/comfyui/flux
   - IA/StabilityMatrix
   - "#done"
+  - success
 ---
 
 `````ad-example

@@ -38,7 +38,7 @@ worflow:
 
 
 image:
-![[ComfyUI - Hunyuan-1740343740847.png]]
+![[ComfyUI - Hunyuan-1740343740847.png|500]]
 
 ```
 
