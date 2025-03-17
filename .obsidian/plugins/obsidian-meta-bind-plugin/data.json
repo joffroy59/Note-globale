@@ -1091,6 +1091,22 @@
           "command": "quickadd:choice:a0f923b9-4746-415a-9cf6-a9e25a73f999"
         }
       ]
+    },
+    {
+      "label": "Add TaskList",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "tooltip": "",
+      "id": "add-tasklist",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "templater-obsidian:Templates/Add/TaskList Base.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

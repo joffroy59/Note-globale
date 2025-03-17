@@ -73,7 +73,8 @@
     "Templates/Elements/Insert - Logo IA.md",
     "Templates/Elements/Insert - Clean Template Note and related Action.md",
     "Templates/Elements/Insert - Run command.md",
-    "Templates/Extract/ExtractHeaderSimple-v2.md"
+    "Templates/Extract/ExtractHeaderSimple-v2.md",
+    "Templates/Add/TaskList Base.md"
   ],
   "startup_templates": [
     ""

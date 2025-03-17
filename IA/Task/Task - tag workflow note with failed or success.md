@@ -23,10 +23,21 @@ pour pouvoir ensuite les retrouver faccilemet et avoir un note a vecliste des wo
 
 ---
 ## Tasks
-- [ ] Task1 ➕ 2025-03-17
+- [ ] [[#Liste des note a propos de workflow comfy UI]] ➕ 2025-03-17
 
 ---
 
 ## Tasks Detail
 
+
+
+voir [[List - IA - ComfyUI - Workflow]]
+### Liste des note a propos de workflow comfy UI
+
+
+```dataview
+LIST rows.file.link
+FROM "IA/ComfyUI"
+GROUP BY file.folder
+```
 

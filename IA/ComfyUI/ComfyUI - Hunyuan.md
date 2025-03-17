@@ -20,6 +20,7 @@ tags:
   - IA/StabilityMatrix
   - "#done"
   - "#success"
+  - video
 ---
 
 ---
