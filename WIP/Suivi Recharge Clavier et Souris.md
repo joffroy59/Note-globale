@@ -40,6 +40,7 @@ tags:
 | 2025-03-14                              | 23:15 |                          | 7     | 🔍     | ❓                 | Ajout automatique      |
 | 2025-03-14                              | 23:19 |                          | 7     | 🔍     | ❓                 | Ajout automatique      |
 | 2025-03-15                              | 02:24 | 5h                       | 10  ✅ | 🛑     | ❓                 | Ajout automatique      |
+| 2025-03-18 | 00:36 | | 3 | 🔌 | ❓ | Ajout automatique |
 | **Ajouter une nouvelle recharge ici :** |       |                          |       |        |                   | <br><br>               |
 
 
@@ -103,6 +104,7 @@ Action:
 | 2025-03-17                              | 20:43 |                          | 65%  | 🔍     | ❓                 | Ajout automatique |     |
 | 2025-03-17                              | 22:18 |                          | 79%  | 🔍     | ❓                 | Ajout automatique |     |
 | 2025-03-17                              | 23:57 |                          | 79%  | 🔍     | ❓                 | Ajout automatique |     |
+| 2025-03-18 | 00:37 | | 96% | 🔍 | ❓ | Ajout automatique |
 | **Ajouter une nouvelle recharge ici :** |       |                          |      |        |                   |                   |     |
 
 
