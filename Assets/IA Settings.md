@@ -136,7 +136,7 @@ wip:
           - '#IA/comfyui/flux'
   Task:
     title: 'Task - '
-    folder: IA/ComfyUI/Task
+    folder: IA/Task
     template:
       create: Templates/IA/Create IA - Task - Task
     tag: '#IA/task #task'
