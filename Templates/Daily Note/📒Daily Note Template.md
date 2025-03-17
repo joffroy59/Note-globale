@@ -61,7 +61,7 @@ sticker: emoji//1f636-200d-1f32b-fe0f
 ## 🗒️Today Modification
 ```dataview
 TABLE file.ctime AS "Created", file.mtime AS "Updated", file.size AS "Size" 
-WHERE file.cday = date("{{DATE}}") OR file.mday = date("{{DATE}}")
+WHERE file.cday = date("<% tp.date.now("YYYY-MM-DD") %>") OR file.mday = date("<% tp.date.now("YYYY-MM-DD") %>")
 ```
 
 ## 📝Note ———————————————————————

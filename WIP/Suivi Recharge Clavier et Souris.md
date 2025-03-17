@@ -96,6 +96,7 @@ Action:
 | 2025-03-17                              | 20:05 |                          | 17%  | 🔌     | ❓                 | Ajout automatique |     |
 | 2025-03-17                              | 20:11 |                          | 25%  | 🔍     | ❓                 | Ajout automatique |     |
 | 2025-03-17                              | 20:19 |                          | 43%  | 🔍     | ❓                 | Ajout automatique |     |
+| 2025-03-17 | 20:43 | | 65% | 🔍 | ❓ | Ajout automatique |
 | **Ajouter une nouvelle recharge ici :** |       |                          |      |        |                   |                   |     |
 
 
