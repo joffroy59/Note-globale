@@ -11,7 +11,6 @@ if ( type == "Clavier")
 else if ( type == "Souris") 
 	batterie_state = await tp.system.prompt("Percent: ") + "%"
 
-
 var tableStart = `Recharge ${type} 🔌`;
 const tableEnd = "| **Ajouter une nouvelle recharge ici :";
 
