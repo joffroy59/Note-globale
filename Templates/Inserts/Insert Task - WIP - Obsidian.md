@@ -13,4 +13,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip #status/next  #task #obsidian ➕ {{DATE}} 🛫 {{DATE}} 
+%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip #status/next  #task #obsidian ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

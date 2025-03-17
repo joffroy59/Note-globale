@@ -5,4 +5,4 @@ let is_note_created  = (await tp.system.suggester([manage_note_label,'Simple Tex
 
 let source_text = is_note_created ? `[[${entree}]]` : entree
 
-%>   - [ ] <% source_text %>  #todo  ➕ {{DATE}}
+%>   - [ ] <% source_text %>  #todo  ➕ <% tp.date.now() %>

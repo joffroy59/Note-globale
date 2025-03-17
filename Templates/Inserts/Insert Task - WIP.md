@@ -1,6 +1,6 @@
  <%*
 let baseFolder = "WIP"
-const templateName = "Templates/Inserts/Create Task WIP"
+const templateName = "Templates/Create/Create Task WIP"
 
 let title = await tp.system.prompt("Title (create Note Link)", null, true, false);
 
@@ -13,4 +13,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip    #task   ➕ {{DATE}} 🛫 {{DATE}} 
+%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip    #task   ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

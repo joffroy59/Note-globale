@@ -1,5 +1,5 @@
  <%*
-let defaultValue = "WIP"  
+let defaultValue = "WIP"
 let entree = await tp.system.prompt("Enter a value :");
 if (!entree) entree = defaultValue
 %>
@@ -7,6 +7,6 @@ if (!entree) entree = defaultValue
 title: Work In Progess
 collapse: open
 
-- [/] <% entree %>  #test #status/wip  ➕ {{DATE}} 🛫 {{DATE}} 
+- [/] <% entree %>  #test #status/wip  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 `````

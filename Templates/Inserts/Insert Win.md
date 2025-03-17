@@ -8,5 +8,5 @@ collapse: open
 title: Wins
 #wins
 
-- [x]  <% entree %>  #wins #done ➕ {{DATE}}
+- [x]  <% entree %>  #wins #done ➕ <% tp.date.now() %>
 `````
