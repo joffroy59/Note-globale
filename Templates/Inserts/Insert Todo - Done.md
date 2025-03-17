@@ -1,6 +1,6 @@
  <%*
 let baseFolder = "Done"
-const templateName = "Templates/Inserts/Create Done"
+const templateName = "Templates/Create/Create Done"
 const defaultTitle = "Done"
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);

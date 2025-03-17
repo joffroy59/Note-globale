@@ -19,7 +19,7 @@ title: Note
 ````
 
 - [x] [[Templates/Inserts/Insert Task - WIP]]   👉   [[Templates/Inserts/Insert Task - WIP- Obsidian]] 
-- [x] [[Templates/Inserts/Create Task WIP]]     👉   [[Templates/Inserts/Create Task WIP Obsidian]]
+- [x] [[Create Task WIP]]     👉   [[Templates/Inserts/Create Task WIP Obsidian]]
 
 
 `BUTTON[insert-daily-task-wip-obsidian]`

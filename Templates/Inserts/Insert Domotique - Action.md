@@ -4,7 +4,7 @@ const defaultTitle = "Domotique - Action"
 
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
-const templateName = "Templates/Inserts/Create Domotic Action"
+const templateName = "Templates/Create/Create Domotic Action"
 
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
@@ -15,4 +15,4 @@ if (existing) {
 }
 await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
-%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip #domotique/action #domotique   ➕ {{DATE}} 🛫 {{DATE}} 
+%>   - [/] [[<% baseFolder %>/<% title %>]] #status/wip #domotique/action #domotique   ➕ {{DATE}} 🛫 {{DATE}}

@@ -1,6 +1,6 @@
  <%*
 let baseFolder = "ToView"
-const templateName = "Templates/Inserts/Create Task ToView"
+const templateName = "Templates/Create/Create Task ToView"
 
 let title = await tp.system.prompt("Title (Choice Note Link)", null, true, false);
 
@@ -20,7 +20,7 @@ if (is_note_created){
 	} else {
 	  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), title, true));
 	}
-	await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));	
+	await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 }
 
-%>   - [ ] <% source_text %>  #task  #toview  ➕ <% tp.date.now() %> 
+%>   - [ ] <% source_text %>  #task  #toview  ➕ <% tp.date.now() %>
