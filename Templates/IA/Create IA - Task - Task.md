@@ -60,7 +60,3 @@ title: Note
 <%*
 tR+= await tp.file.include(`[[TaskList Simple]]`);
 %>
-
----
-
-
