@@ -168,9 +168,9 @@ List
 - [ ] Insert Domotique - Action.md
 - [x] Insert DONE 1.md ✅ 2025-03-17
 - [-] [[#Insert DONE.md]]
-- [/] [[#Insert Idea v2.md]]
+- [x] [[#Insert Idea v2.md]] ✅ 2025-03-17
 - [-] Insert Idea.md
-- [ ] Insert Note - Other.md
+- [x] [[#Insert Note - Other.md]] ✅ 2025-03-17
 - [ ] Insert Note - Select.md
 - [ ] Insert Note v2.md
 - [ ] Insert Note.md
@@ -301,7 +301,7 @@ encore utilisé dans DAly Note > ⛔
 	- [ ] Insert DONE.md
 		- [ ] 38df2c5a-1443-4709-8072-b3b116e9a5b5
 			- [ ] insert-daily-done
-			- [ ] 
+
 
 
 
@@ -350,8 +350,57 @@ encore utilisé dans DAly Note > ⛔
 
 👉
 
-- [ ] 🗑️ Delete
-	- [ ] Insert Idea v2.md
+- [x] 🗑️ Delete
+	- [x] Insert Idea v2.md ✅ 2025-03-17
 		- [x] c256a41b-c156-4270-b7a8-bf80054b5322
 			- [x] insert-daily-idea-v2 ✅ 2025-03-17
+
+
+
+#### Insert Note - Other.md
+
+```yml
+        {
+          "id": "4740fd72-1532-4925-9ead-931c45b6624a",
+          "name": "👉Insert Note - Other",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Note - Other.md}}\n"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "### My Note",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+   
+
+```
+
+👉
+
+- [x] 🗑️ Delete
+	- [x] 4740fd72-1532-4925-9ead-931c45b6624a ✅ 2025-03-17
 
