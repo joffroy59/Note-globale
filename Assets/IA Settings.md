@@ -31,55 +31,55 @@ wip:
   template:
     insert: Insert Wip IA - Task -
   Generic:
-    title: IA Wip -
+    title: 'IA Wip - '
     folder: IA/Wip
     template:
       create: Templates/IA/Create IA - Task - Generic
     tag:  '#IA'
   Model:
-    title: IA Model -
+    title: 'IA Model - '
     folder: IA/Model
     template:
       create: Templates/IA/Create IA - Task - Model
     tag:  '#IA/model'
   ComFyUI:
-    title: ComfyUI -
+    title: 'ComfyUI - '
     folder: IA/ComfyUI
     template:
       create: Templates/IA/Create IA - Task - ComFyUI
     tag:  '#IA/comfyui'
   workflow:
-    title: IA workflow -
+    title: 'IA workflow - '
     folder: IA/ComfyUI/workflow
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - workflow
     tag:  '#IA/comfyui #workflow'
   ComFyUI - Flux:
-    title: ComfyUI-Flux -
+    title: 'ComfyUI-Flux - '
     folder: IA/ComfyUI/Flux
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - Flux
     tag:  '#IA/comfyui/flux'
   civitai:
-    title: civitai -
+    title: 'civitai - '
     folder: IA/ComfyUI/civitai
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - civitai
     tag: '#IA/civitai'
   Flux NF4:
-    title: ComfyUI-Flux NF4 -
+    title: 'ComfyUI-Flux NF4 - '
     folder: IA/ComfyUI/Flux NF4
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - Flux NF4
     tag:  '#IA/comfyui/flux #flux_NF4'
   WAN 2.1:
-    title: WAN 2.1 -
+    title: 'WAN 2.1 - '
     folder: IA/ComfyUI/WAN 2.1
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - WAN 2.1
     tag:  '#IA/comfyui #WAN_2_1'
   Application:
-    title: IA Application -
+    title: 'IA Application - '
     folder: IA/Application
     template:
       create: Templates/IA/Create IA - Task - Application
@@ -88,13 +88,13 @@ wip:
       - local
       - online
   StabilityMatrix - Application:
-    title: StabilityMatrix - Application -
+    title: 'StabilityMatrix - Application - '
     folder: IA/StabilityMatrix/Application
     template:
       create: Templates/IA/Create IA - Task - StabilityMatrix - Application
     tag:  '#IA/StabilityMatrix #IA/StabilityMatrix/application #application'
   Open WebUI:
-    title: IA Open WebUI -
+    title: 'IA Open WebUI - '
     folder: IA/Open WebUI
     template:
       create: Templates/IA/Create IA - Open WebUI
@@ -119,7 +119,7 @@ wip:
     Generic:
       tag:
   Comfy UI:
-      title: IA Comfy UI -
+      title: 'IA Comfy UI - '
       folder: IA/ComfyUI
       template:
         create: Templates/IA/Create IA - Comfy UI
@@ -135,7 +135,7 @@ wip:
         tag:
           - '#IA/comfyui/flux'
   Task:
-    title: Task -
+    title: 'Task - '
     folder: IA/ComfyUI/Task
     template:
       create: Templates/IA/Create IA - Task - Task
