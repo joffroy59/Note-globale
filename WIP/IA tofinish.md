@@ -12,13 +12,8 @@ tags:
 ---
 
 
----
-## Tasks
-- [ ] Task1 ➕ 2025-03-17
 
----
 
-## Tasks Detail
-
+`BUTTON[add-tasklist]`
 
 

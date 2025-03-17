@@ -5,6 +5,9 @@ tags:
   - status/wip_star
 ---
 
+`BUTTON[new-suivi-charge-periph]`
+
+
 ### Suivi de la Recharge du Clavier
 
 
@@ -97,8 +100,9 @@ Action:
 | 2025-03-17                              | 20:05 |                          | 17%  | 🔌     | ❓                 | Ajout automatique |     |
 | 2025-03-17                              | 20:11 |                          | 25%  | 🔍     | ❓                 | Ajout automatique |     |
 | 2025-03-17                              | 20:19 |                          | 43%  | 🔍     | ❓                 | Ajout automatique |     |
-| 2025-03-17 | 20:43 | | 65% | 🔍 | ❓ | Ajout automatique |
-| 2025-03-17 | 22:18 | | 79% | 🔍 | ❓ | Ajout automatique |
+| 2025-03-17                              | 20:43 |                          | 65%  | 🔍     | ❓                 | Ajout automatique |     |
+| 2025-03-17                              | 22:18 |                          | 79%  | 🔍     | ❓                 | Ajout automatique |     |
+| 2025-03-17                              | 23:57 |                          | 79%  | 🔍     | ❓                 | Ajout automatique |     |
 | **Ajouter une nouvelle recharge ici :** |       |                          |      |        |                   |                   |     |
 
 
