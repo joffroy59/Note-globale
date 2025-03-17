@@ -41,9 +41,9 @@ url: "https://share.note.sx/tus76cc6"
 
 ## Original
 
-- [x] Template: [[Templates/Inserts/ExtractHeader]] ✅ 2025-03-05
+- [x] Template: [[ExtractHeader]] ✅ 2025-03-05
   de la doc Obsidian 
-	- [x] Templater Shortcut [[Templates/Inserts/ExtractHeader.md]] ✅ 2025-03-05
+	- [x] Templater Shortcut [[ExtractHeader]] ✅ 2025-03-05
 	- [x] [[#test]] ✅ 2025-03-05
 ### Test
 
@@ -81,9 +81,9 @@ sdfsdfsdf
 
 ## My version 
 
-- [x] Template: [[Templates/Inserts/ExtractHeaderSimple]] ✅ 2025-03-05
+- [x] Template: [[ExtractHeaderSimple]] ✅ 2025-03-05
   selection only of 1 line max so the selection can be used as header label  
-	- [x] Templater Shortcut [[Templates/Inserts/ExtractHeaderSimple]] ✅ 2025-03-05
+	- [x] Templater Shortcut [[ExtractHeaderSimple]] ✅ 2025-03-05
 	- [x] [[#test2]] ✅ 2025-03-05
 
 ### Test2
