@@ -656,41 +656,6 @@
           "openFileInMode": "default"
         },
         {
-          "id": "c256a41b-c156-4270-b7a8-bf80054b5322",
-          "name": "💡Insert Idea v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Idea v2.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
           "id": "34d19e8e-bef2-4ad7-85b7-3e3a30daa8df",
           "name": "📎Insert TODO",
           "type": "Capture",

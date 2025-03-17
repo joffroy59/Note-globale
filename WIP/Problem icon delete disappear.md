@@ -14,8 +14,8 @@ tags:
 
 ---
 ## Tasks
-- [ ] [[#Stocker a l'exerieur du Vault les svg download]] ➕ 2025-03-15
-- [ ] #todo comprendre pourquoi les emoji disparraise 
+- [x] [[#Stocker a l'exerieur du Vault les svg download]] ➕ 2025-03-15 ✅ 2025-03-17
+- [-] #todo comprendre pourquoi les emoji disparraise 
 ---
 
 ```ad-info

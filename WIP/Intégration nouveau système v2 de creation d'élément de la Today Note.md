@@ -10,7 +10,7 @@ tags:
 version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite 
 
 - [x] intégration nouvelle version #done ➕ 2025-02-02 🛫 2025-02-02 ✅ 2025-02-03
-	- [ ] release sandbox1
+	- [x] release sandbox1 ✅ 2025-03-17
 		- [x] renommer sandbox1 et autre en civitai v2 ✅ 2025-02-03
 		- [x] create bouton definitif dan metabind ✅ 2025-02-02
 		- [x] Changement du bouton de creation de civitai pour utiliser nouvelle version civitai v2 ➕ 2025-02-02 🛫 2025-02-02 ✅ 2025-02-02
@@ -39,10 +39,10 @@ version v2 faite et tester sur Wip IA , civitai en 1er ComfyUI ensuite
 		- template note
 		- [x] Insert Wip IA - Model v2
 		- [x] test ✅ 2025-02-03
-- [x] généralisation aux autres catégories ✅ 2025-02-04
+- [x] généralisation aux autres catégories ✅ 2025-03-17
 	- [x] IA - model ✅ 2025-02-04
 	- [x] [[#detail wip]]  ✅ 2025-02-04
-	- [ ] [[#problems]]
+	- [-] [[#problems]]
 
 
 ### detail wip

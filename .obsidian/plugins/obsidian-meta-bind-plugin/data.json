@@ -577,21 +577,6 @@
       ]
     },
     {
-      "label": "+ Idea",
-      "icon": "",
-      "hidden": false,
-      "class": "orange-5-button",
-      "tooltip": "",
-      "id": "insert-daily-idea-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:c256a41b-c156-4270-b7a8-bf80054b5322"
-        }
-      ]
-    },
-    {
       "label": "+ Note",
       "icon": "",
       "hidden": false,
