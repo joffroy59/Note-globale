@@ -1,13 +1,10 @@
 ---
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
-
 date-created: 2025-01-30
-
 tags:
   - IA
   - IA/comfyui
@@ -15,6 +12,7 @@ tags:
   - IA/StabilityMatrix
   - IA/comfyui/flux
   - "#done"
+  - tofinish
 ---
 
 ```embed
@@ -32,4 +30,4 @@ url: "https://civitai.com/images/38271696"
 2 warning
 ![[Pasted image 20250130003932-1.png]]
 
-ca v pa marcher du coup
+ca va pa marcher du coup
