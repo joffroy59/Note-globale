@@ -31,9 +31,6 @@ let note = await tp.system.prompt("Note", null, true, true);
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
 let hasTip = (url || image)
 
-console.log("app...", app.plugins.plugins['templater-obsidian'])
-console.log("tp", tp)
-
 -%>
 <%* if (hasTip) { -%>
 ````ad-tip
