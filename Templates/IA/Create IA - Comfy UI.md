@@ -28,7 +28,7 @@ for(let i=0; i<tag_type_sub_type_list.length; i++){
 }
 %>
 ELN info:
-  template: <% tp.file.title %>
+  template: <% tp.config.template_file.name %>
   version: 0.3.2
   author: Jerome Offroy
   modified: <% tp.date.now() %>

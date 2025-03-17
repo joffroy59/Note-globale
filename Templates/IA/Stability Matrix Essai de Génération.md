@@ -1,11 +1,11 @@
 ---
 ELN info:
-  template: <% tp.file.title %>
+  template: <% tp.config.template_file.name %>
   version: 0.3.2
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-  
+
 tags:
   - IA
   - template
@@ -18,13 +18,13 @@ title: Stability Matrix - Essai de Génération - {{DATE}}
 # TXT2IMG
 
 ###### <% tp.date.now() %>
-## 🚧<% tp.system.prompt("Please enter the Subject") %> 
+## 🚧<% tp.system.prompt("Please enter the Subject") %>
 
 ```embed
 
 <url>
 ```
- 
+
 ```ad-quote
 title: Generation data
 
@@ -33,7 +33,7 @@ title: Generation data
 ```
 
 ```ad-success
-title: Mon resulat Local 
+title: Mon resulat Local
 <image résultat>
 ```
 
@@ -47,7 +47,7 @@ title: Configuration
 ```ad-caution
 title: Sauvegarde Stability Matrix
 
-sauvegarde Stability Matrix : 
+sauvegarde Stability Matrix :
 ```
 
 # ————————————————————————

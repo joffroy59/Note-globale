@@ -1,16 +1,16 @@
 ---
 ELN info:
-  template: <% tp.file.title %>
+  template: <% tp.config.template_file.name %>
   version: 0.3.2
   author: Jerome Offroy
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
-  
+
 tags:
   - template/insert
   - IA/StabilityMatrix
 ---
-# 🚧 <% tp.system.prompt("Please enter the Subject") %> 
+# 🚧 <% tp.system.prompt("Please enter the Subject") %>
 TXT2IMG
 ###### <% tp.date.now() %>
 
@@ -30,9 +30,9 @@ title: Generation data
 ```
 
 ```ad-success
-title: Mon resulat Local 
+title: Mon resulat Local
 collapse: Open
-<image résultat> 
+<image résultat>
 |300
 ```
 
