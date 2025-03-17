@@ -726,41 +726,6 @@
           "openFileInMode": "default"
         },
         {
-          "id": "86663696-9a27-4477-806f-732105cbf78a",
-          "name": "👀Insert ToView v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert ToView v2.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
           "id": "45ab95a2-13c8-49c2-bfd4-e2e1d2897e7d",
           "name": "👀Insert Task - ToView",
           "type": "Capture",
@@ -1442,7 +1407,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/ExtractHeaderSimple-Quickadd.md}}"
+            "format": "{{TEMPLATE:Templates/Extract/ExtractHeaderSimple-Quickadd.md}}"
           },
           "insertAfter": {
             "enabled": false,

@@ -577,36 +577,6 @@
       ]
     },
     {
-      "label": "+ Note",
-      "icon": "",
-      "hidden": false,
-      "class": "blue-2-button",
-      "tooltip": "",
-      "id": "insert-daily-note-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:c4b19ddd-442f-457c-a5dc-875bf4a08222"
-        }
-      ]
-    },
-    {
-      "label": "+ ToView",
-      "icon": "",
-      "hidden": false,
-      "class": "turquoise-5-button",
-      "tooltip": "",
-      "id": "insert-daily-toview-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:86663696-9a27-4477-806f-732105cbf78a"
-        }
-      ]
-    },
-    {
       "label": "Insert - Plugin List All",
       "icon": "",
       "hidden": false,

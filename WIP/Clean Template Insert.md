@@ -142,7 +142,7 @@ List
 
 
 ## Tasks for the liste
-- [ ] Create Domotic Action.md
+- [ ] [[Create Domotic Action]].md move 
 - [ ] Create Done.md
 - [ ] Create Idea v2.md
 - [ ] Create Note v2.md
@@ -159,10 +159,10 @@ List
 - [ ] Create Todo.md
 - [ ] Create ToView V2.md
 - [ ] ELN info.md
-- [ ] [[ExtractHeader]] move
-- [ ] ExtractHeaderSimple-Quickadd.md
-- [ ] ExtractHeaderSimple-v2.md
-- [ ] ExtractHeaderSimple.md
+- [x] [[ExtractHeader]] move ✅ 2025-03-17
+- [x] [[ExtractHeaderSimple-Quickadd]].md ✅ 2025-03-17
+- [x] [[ExtractHeaderSimple-v2]].md ✅ 2025-03-17
+- [x] [[ExtractHeaderSimple]].md ✅ 2025-03-17
 - [ ] Insert - Create with Status.md
 - [ ] Insert Create Action.md
 - [ ] Insert Domotique - Action.md
