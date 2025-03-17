@@ -481,41 +481,6 @@
           "openFileInMode": "default"
         },
         {
-          "id": "c4b19ddd-442f-457c-a5dc-875bf4a08222",
-          "name": "📝Insert Note v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Note v2.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### My Note",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
           "id": "b9205dd3-e269-49ef-b8da-414ecf69c0a8",
           "name": "📝Insert Note - Select",
           "type": "Capture",
@@ -885,41 +850,6 @@
           "insertAfter": {
             "enabled": true,
             "after": "### ✅ DONE",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "c8567480-ec71-4715-b445-a2c82eb346a4",
-          "name": "👉Insert Other v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Other v2.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 👉Autre",
             "insertAtEnd": true,
             "considerSubsections": true,
             "createIfNotFound": true,

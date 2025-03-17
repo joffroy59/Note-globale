@@ -592,21 +592,6 @@
       ]
     },
     {
-      "label": "+ Other",
-      "icon": "",
-      "hidden": false,
-      "class": "blue-5-button",
-      "tooltip": "",
-      "id": "insert-daily-other-v2",
-      "style": "default",
-      "actions": [
-        {
-          "type": "command",
-          "command": "quickadd:choice:c8567480-ec71-4715-b445-a2c82eb346a4"
-        }
-      ]
-    },
-    {
       "label": "+ ToView",
       "icon": "",
       "hidden": false,

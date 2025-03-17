@@ -133,11 +133,11 @@ Pour générer la liste des pertes de la conversation, mais de mémoire.
 - demander de transformer la lise en enlevant .md 
 - utiliser  
 
-- [ ] Clean
+- [/] Clean
 	- [-] [[#Insert DONE.md]]
 	- [-] [[#Insert Idea.md]]
 	- [-] [[#Insert Note.md]]
-	- [x] [[#Insert Other.md]] ✅ 2025-03-15
+	- [-] [[#Insert Other.md]] ✅ 2025-03-15
 	- [-] [[#Insert Problem.md]]
 	- [-] [[#Insert Problem - Appart.md]]
 	- [-] Insert Problem - Ask.md
@@ -834,7 +834,7 @@ encore utilisé dans DAly Note > ⛔
 
 
 ### Insert Problem v2.md
-encore utilisé dans DAly Note > ⛔
+encore utilisé dans Action > ⛔
 
 ```yml
         {

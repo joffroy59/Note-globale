@@ -171,16 +171,16 @@ List
 - [x] [[#Insert Idea v2.md]] ✅ 2025-03-17
 - [-] Insert Idea.md
 - [x] [[#Insert Note - Other.md]] ✅ 2025-03-17
-- [ ] Insert Note - Select.md
-- [ ] Insert Note v2.md
+- [-] Insert Note - Select.md use in [[Panel/Actions|Actions]]
+- [x] Insert Note v2.md ✅ 2025-03-17
 - [ ] Insert Note.md
-- [ ] Insert Other v2.md
-- [ ] Insert Other.md
+- [x] Insert Other v2.md ✅ 2025-03-17
+- [-] Insert Other.md
 - [ ] Insert Problem - Appart.md
 - [ ] Insert Problem - Ask.md
 - [ ] Insert Problem - Domotique.md
 - [ ] Insert Problem - PC.md
-- [ ] Insert Problem v2.md
+- [-] Insert Problem v2.md
 - [ ] Insert Problem.md
 - [ ] Insert Task (Obsidian).md
 - [ ] Insert Task - PC - Multi.md
@@ -196,7 +196,7 @@ List
 - [ ] Insert Todo - Select.md
 - [ ] Insert Todo - Todo.md
 - [ ] Insert TODO.md
-- [ ] Insert ToView V2.md
+- [x] Insert ToView V2.md ✅ 2025-03-17
 - [ ] Insert Win star.md
 - [ ] Insert Win.md
 - [ ] Insert Wip IA - Generic v2.md
