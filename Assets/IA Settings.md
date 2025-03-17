@@ -27,6 +27,7 @@ wip:
     - StabilityMatrix - Application
     - Open WebUI
     - Comfy UI
+    - Task
   template:
     insert: Insert Wip IA - Task -
   Generic:
@@ -133,6 +134,12 @@ wip:
       WAN 2.1:
         tag:
           - '#IA/comfyui/flux'
+  Task:
+    title: Task -
+    folder: IA/ComfyUI/Task
+    template:
+      create: Templates/IA/Create IA - Task - Task
+    tag: '#IA/task #task'
 
 execution:
   - docker
