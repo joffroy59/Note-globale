@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#status/wip  ",
@@ -13,9 +13,44 @@
         "a": 1,
         "rgb": 12741918
       }
+    },
+    {
+      "query": "tag:#done",
+      "color": {
+        "a": 1,
+        "rgb": 4961299
+      }
+    },
+    {
+      "query": "tag:#todo",
+      "color": {
+        "a": 1,
+        "rgb": 13744149
+      }
+    },
+    {
+      "query": "tag:#IA",
+      "color": {
+        "a": 1,
+        "rgb": 5725147
+      }
+    },
+    {
+      "query": "tag:#clippings  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#dailynotes  ",
+      "color": {
+        "a": 1,
+        "rgb": 5772477
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -25,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1405967621554335,
-  "close": true
+  "scale": 0.1002842205696345,
+  "close": false
 }

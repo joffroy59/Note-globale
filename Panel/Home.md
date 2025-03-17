@@ -56,14 +56,12 @@ sliceSize: 6
   LIMIT 9
   ```
 
-- ### Tutorials
-   - [[Get started with Obsidian]]
+- ### WIP IA
    ```dataview
-        LIST
-        FROM "Notes"
-        WHERE note-type = "tutorial"
-        SORT file.mtime.ts ASC
-        LIMIT 4
+     TABLE
+  FROM #status/wip AND  #IA  AND !"Assets" AND !"Templates"
+  SORT file.mtime DESC
+  LIMIT 9
    ```
 
 - ### Miscellaneous
@@ -87,6 +85,19 @@ sliceSize: 6
   SORT file.mtime.ts ASC
   LIMIT 6
   ```
+
+
+- ### Tutorials
+   - [[Get started with Obsidian]]
+   ```dataview
+        LIST
+        FROM "Notes"
+        WHERE note-type = "tutorial"
+        SORT file.mtime.ts ASC
+        LIMIT 4
+   ```
+
+
 # Recently Edited &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `INPUT[slider(addLabels,maxValue(40),defaultValue(5)):sliceSize]` `VIEW[{sliceSize}][text]` 
 -
   ```dataviewjs

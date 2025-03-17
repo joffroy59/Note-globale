@@ -19,7 +19,7 @@ tags:
   - IA/open_webui/generic
 ---
 ````ad-tip
-Source : http://localhost:3000/s/80bf7d08-8966-482d-a708-4e492cd31527
+Source : [http://localhost:3000/s/80bf7d08-8966-482d-a708-4e492cd31527]()
 
 ![[IA Open WebUI - Generic - Generation Image-1741763682737.png|700]]
 ````
@@ -27,7 +27,14 @@ Source : http://localhost:3000/s/80bf7d08-8966-482d-a708-4e492cd31527
 ````ad-note
 title: Note
 Image workflow pas assez net 
-![[IA Open WebUI - Generic - Generation Image-1741763735628.png|700]]]
+![[IA Open WebUI - Generic - Generation Image-1741763735628.png|700]]
+
+```ad-cite 
+title: Prompt
+collapse: closed
+
+Craft an evocative and descriptive piece showcasing the enchanting beauty of New York City at sunset, as seen through the lens of a high-resolution photograph. In this captivating image, the city skyline is bathed in hues of gold, orange, and violet, as the sun dips below the horizon. The towering buildings cast long, dramatic shadows over the bustling streets below, where taxis race and pedestrians weave their way through the labyrinthine network of concrete and steel. Above the city, the sky transforms into a breathtaking canvas of cloud formations that seem to dance in the fading light, while the rivers and bays surrounding Manhattan glimmer like molten gold. The image is a testament to the enduring allure of New York City, a symbol of resilience, diversity, and ambition that never ceases to captivate those who gaze upon it.
+```
 ````
 
 ---
