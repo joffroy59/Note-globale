@@ -5,7 +5,12 @@ const type = await tp.system.suggester((item) => item, type_list);
 
 const event = await tp.system.suggester((item) => item, ["🔌", "🔍", "🛑"]);
 
-const batterie_state = await tp.system.suggester((item) => item, ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10  ✅"]);
+let batterie_state = ""
+if ( type == "Clavier")  
+	batterie_state = await tp.system.suggester((item) => item, ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10  ✅"]);
+else if ( type == "Souris") 
+	batterie_state = await tp.system.prompt("Percent: ") + "%"
+
 
 var tableStart = `Recharge ${type} 🔌`;
 const tableEnd = "| **Ajouter une nouvelle recharge ici :";
@@ -26,4 +31,3 @@ if (startIndex !== -1 && endIndex !== -1) {
 		new Notice(error.message)
 }
 -%>
-

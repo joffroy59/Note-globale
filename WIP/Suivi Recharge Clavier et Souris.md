@@ -6,6 +6,8 @@ tags:
 ---
 ### Suivi de la Recharge du Clavier
 
+
+
 **Date d'Achat :** [Insérer la date d'achat] #todo
 
 
@@ -86,11 +88,17 @@ Action:
 
 #### Historique des Recharges
 
-| Date de Recharge Souris 🔌              | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes             |
-| --------------------------------------- | ------------------------ | ---- | ------ | ----------------- | ----------------- |
-| 2025-03-07 19:30                        |                          | ?    | 🔌     |                   | Ajout automatique |
-| 2025-03-07 20:19                        | 0:49                     | 72%  | 🔍     | ❓                 | Ajout automatique |
-| **Ajouter une nouvelle recharge ici :** |                          |      |        |                   |                   |
+
+| Date de Recharge Souris 🔌              |       | Durée de Charge (heures) | etat | Action | Autonomie (jours) | Notes             |     |
+| --------------------------------------- | ----- | ------------------------ | ---- | ------ | ----------------- | ----------------- | --- |
+| 2025-03-07                              | 19:30 |                          | ?    | 🔌     |                   | Ajout automatique |     |
+| 2025-03-07                              | 20:19 | 0:49                     | 72%  | 🔍     | ❓                 | Ajout automatique |     |
+| 2025-03-17                              | 20:05 |                          | 17%  | 🔌     | ❓                 | Ajout automatique |     |
+| 2025-03-17                              | 20:11 |                          | 25%  | 🔍     | ❓                 | Ajout automatique |     |
+| 2025-03-17                              | 20:19 |                          | 43%  | 🔍     | ❓                 | Ajout automatique |     |
+| **Ajouter une nouvelle recharge ici :** |       |                          |      |        |                   |                   |     |
+
+
 
 
 ^bbe402
