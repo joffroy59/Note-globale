@@ -1,11 +1,5 @@
 ---
 tags:
-  - IA
-  - template
-  - workflow
-  - IA/civitai
-  - IA/comfyui
-  - WAN_2_1
 sticker: ""
 banner_y: 0.492
 cov:
