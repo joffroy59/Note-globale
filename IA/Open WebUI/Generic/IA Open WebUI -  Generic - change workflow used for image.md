@@ -436,80 +436,106 @@ Time : **21s**
 ---
 
 
-##### Task 4
----
 
-```ad-warning
-title: Task 4
-collapse: Open
 
-Info : < info >
 
-> [!cite]- Execution
->  < image execution>
->  
 
-> [!cite]- Résultat
->  < image resultat>
+## Test autre workflow ComfyUI
 
-> [!cite]- Prompt
->  < prompt or image chat >
+### Test 1 
 
-> [!cite]-  Commenaire
->  rien a voir | Identique |  similaire | pas dans le meme style | n'importe quoi
+``````ad-success
+title: Test1
+collapse: closed
+
+#### workflow: 
+```json
+
 ```
 
-Time : ****
+![[OpenWebUI-okB.json]]
+
+![[OpenWebUI-API-okB.json]]
 
 
---- 
+#### config: 
+![[IA Open WebUI -  Generic - change workflow used for image-1742340295109.png|400x145]]
+
+#### result 
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742340396327.png|400x633]]
+
+
+``````
+
+
+time : **151.36 seconds**
+
 ![[Assets/banner/Style1/Success.png|200]]
-![[Assets/banner/Style1/Failure.png|200]]
 
---- 
-
-
-
---- 
-![[Assets/banner/Style1/Success.png|200]]
-
---- 
-##### Task 1
 ---
 
-```ad-warning
-title: Task 1
-collapse: Open
+### Test 2 
 
-Info : < info >
+``````ad-success
+title: Test2
 
-> [!cite]- Execution
->  < image execution>
->  
+#### workflow: 
+```json
 
-> [!cite]- Résultat
->  < image resultat>
-
-> [!cite]- Prompt
->  Task 1
 ```
 
+![[OpenWebUI-okB.json]]
+
+![[OpenWebUI-API-okB.json]]
 
 
+#### config: 
+![[IA Open WebUI -  Generic - change workflow used for image-1742340295109.png|400x145]]
+
+#### result 
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742340384679.png|400x633]]
+
+``````
 
 
-Time : ****
+time : **126.73 seconds**
 
-###### Commentaire
- global : rien a voir | Identique |  similaire | pas dans le meme style | n'importe quoi 
- 
-
---- 
 ![[Assets/banner/Style1/Success.png|200]]
-![[Assets/banner/Style1/Failure.png|200]]
 
---- 
+---
 
+### Test 3 
+
+``````ad-success
+title: Test3
+
+#### workflow: 
+```json
+
+```
+
+![[OpenWebUI-okB.json]]
+
+![[OpenWebUI-API-okB.json]]
+
+
+#### config: 
+![[IA Open WebUI -  Generic - change workflow used for image-1742340295109.png|400x145]]
+
+#### result 
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742341106827.png|400x633]]
+
+
+``````
+
+time : **136.94 seconds**
+
+![[Assets/banner/Style1/Success.png|200]]
+
+---
 
 ## Info
 ---
