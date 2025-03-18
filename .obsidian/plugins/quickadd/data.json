@@ -1949,14 +1949,14 @@
       },
       "format": {
         "enabled": true,
-        "format": "{{TEMPLATE:Templates/Extract/ExtractHeaderSimple-v2.md}}"
+        "format": "{{TEMPLATE:Templates/Extract/ExtractHeaderSimple-Quickadd.md}}"
       },
       "insertAfter": {
         "enabled": true,
         "after": "## Tasks Detail",
         "insertAtEnd": true,
         "considerSubsections": true,
-        "createIfNotFound": true,
+        "createIfNotFound": false,
         "createIfNotFoundLocation": "bottom"
       },
       "prepend": false,

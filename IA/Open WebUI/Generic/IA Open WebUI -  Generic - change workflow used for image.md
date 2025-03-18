@@ -26,14 +26,15 @@ tags:
 ## Tasks
 - [x] [[#workflow avant changement ]] ➕ 2025-03-18 ✅ 2025-03-18
 - [ ] [[#workflow ok depuis ComfyUI ]]
-- [ ] testt 
+- [ ] [[#testt]] 
+- [ ] [[#sdqqqsdsd]]
+- [ ] [[#sdsfsdf]]
+- [ ] [[#A1]]
+- [ ] [[#A2]]
+- [ ] [[#A3]]
 
 ---
 ## Tasks Detail
-
-
-
----
 
 ### workflow avant changement
 
@@ -149,7 +150,7 @@ tags:
 
 ---
 
-
+## Info
 
 ````ad-tip
 title: Open WebUI  Generic

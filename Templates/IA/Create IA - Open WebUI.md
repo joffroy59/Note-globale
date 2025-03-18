@@ -85,6 +85,7 @@ title: Note
 tR+= await tp.file.include(`[[TaskList Simple]]`);
 %>
 
+## Infos
 
 ````ad-tip
 title: Open WebUI  <% sub_type %>
