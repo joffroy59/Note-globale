@@ -39,6 +39,7 @@ tags:
   - <% tag %>
 <%* } -%>
 ---
+
 <%*
 let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {
