@@ -16,6 +16,7 @@ tags: task raspberry task
 ---
 ## Tasks
 - [ ] crontab reboot  ➕ 2025-03-18
+- [ ] Etat  avant reboot 
 
 ---
 ## Tasks Detail
