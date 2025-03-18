@@ -1684,7 +1684,7 @@
     },
     {
       "id": "27adafb8-7961-4f15-b358-0814609f473c",
-      "name": "Insert Failed",
+      "name": "💥Insert Failed",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -1698,6 +1698,41 @@
       "format": {
         "enabled": true,
         "format": "![[IA Application - Microsoft AI Playground-1740954752510.png|400]]"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "46200c83-0108-4fa0-8b84-19a969fba17b",
+      "name": "✅ Insert Success",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "![[Assets/banner/Style1/Success.png|300]]"
       },
       "insertAfter": {
         "enabled": false,

@@ -72,5 +72,5 @@ Seed :
 
 ---
 
-
+![[Assets/banner/Style1/Success.png|300]]
 

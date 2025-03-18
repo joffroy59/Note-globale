@@ -72,7 +72,9 @@ collapse: closed
 ##### Result
 ![[Flux NF4 - Flux NF4 V2-1740443288588.png|300]]  ![[Flux NF4 - Flux NF4 V2-1740443429307.png|300]]
 
+---
 
+![[Assets/banner/Style1/Success.png|300]]
 
 ---
 ## Local

@@ -70,6 +70,10 @@ Seed :  223527542545847
 ![[ComfyUI - Flux-Turbo1-1740683241817.png|400]]
 
 ---
+![[Assets/banner/Style1/Success.png|300]]
+
+---
+
 
 
 
