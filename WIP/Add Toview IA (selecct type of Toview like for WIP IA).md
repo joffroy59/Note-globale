@@ -17,7 +17,7 @@ title: Note
 
 
 > [!important] Title
-> FAire un Toview IA Application --> plutot utiliser IA (Multi toview Application)
+> Faire un Toview IA Application --> plutot utiliser IA (Multi toview Application)
 
 
 Nvidia AI Blueprints
