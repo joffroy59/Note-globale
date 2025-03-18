@@ -1968,6 +1968,41 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "a8c98451-1395-4208-a638-6b309ddeb0e8",
+      "name": "Add Suivi Recharge",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "WIP/Suivi Recharge Clavier et Souris.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Action/Suivi Recharge Clavier et Souris - Add External.md}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

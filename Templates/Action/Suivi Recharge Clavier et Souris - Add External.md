@@ -1,5 +1,6 @@
 
 <%*
+const suiviChargeNote = "WIP/Suivi Recharge Clavier et Souris.md"
 const type_list = ["Clavier", "Souris"]
 const type = await tp.system.suggester((item) => item, type_list);
 
@@ -21,7 +22,7 @@ let endIndex = content.indexOf(tableEnd, startIndex);
 if (startIndex !== -1 && endIndex !== -1) {
 	let newRow = `| ${tp.date.now("YYYY-MM-DD")} | ${tp.date.now("HH:mm")} | | ${batterie_state} | ${event} | ❓ | Ajout automatique |\n`;
 	content = content.slice(0, endIndex) + newRow + content.slice(endIndex);
-	var file = app.workspace.getActiveFile()
+		var file = app.vault.getAbstractFileByPath(suiviChargeNote)
 
 	app.vault.modify(file, content)
 	new Notice("Added Line")

@@ -1016,7 +1016,7 @@
       "icon": "",
       "style": "default",
       "class": "",
-      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 30)) !important;",
       "backgroundImage": "",
       "tooltip": "",
       "id": "new-suivi-charge-periph-external",
@@ -1024,7 +1024,7 @@
       "actions": [
         {
           "type": "command",
-          "command": "templater-obsidian:Templates/Action/Suivi Recharge Clavier et Souris - Add.md"
+          "command": "quickadd:choice:a8c98451-1395-4208-a638-6b309ddeb0e8"
         }
       ]
     },
