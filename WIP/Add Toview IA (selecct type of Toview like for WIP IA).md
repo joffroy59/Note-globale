@@ -33,7 +33,7 @@ DLSS 4 on rtx 40x ???
 ```ad-info
 2 ways 
 -  Insert Task - TYPE - Multi
-	- [[Insert Task - Plugin - Multi]] 
+	- [[Insert Task - Plugin - Multi]]  avec sous type mieux non ?
 	- [[Insert Task - PC - Multi]]
 	- autre ??? 
 - Wip IA (Multi) (plutot a abandonner pour  [[Insert Task - Plugin - Multi]])
