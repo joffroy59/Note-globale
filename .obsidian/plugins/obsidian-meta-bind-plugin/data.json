@@ -1012,6 +1012,23 @@
       ]
     },
     {
+      "label": "Add Suivi Charge",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background: rgb(var(--ctp-ext-accent, 23, 146, 153)) !important;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "new-suivi-charge-periph-external",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "templater-obsidian:Templates/Action/Suivi Recharge Clavier et Souris - Add.md"
+        }
+      ]
+    },
+    {
       "label": "Pocket Sync 🔄",
       "icon": "",
       "style": "default",

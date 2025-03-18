@@ -19,7 +19,7 @@ cov:
  
  `BUTTON[pocket-open-list,pocket-create-all-notes]` 
 
- `BUTTON[new-domotic-action]`  
+ `BUTTON[new-domotic-action,new-suivi-charge-periph-external]`  
 
 `BUTTON[insert-daily-bote-select]`
 
