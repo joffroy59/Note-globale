@@ -8,7 +8,7 @@
   "markParentInProgressWhenPartiallyComplete": true,
   "showPercentage": false,
   "countSubLevel": true,
-  "hideProgressBarBasedOnConditions": false,
+  "hideProgressBarBasedOnConditions": true,
   "hideProgressBarTags": "no-progress-bar",
   "hideProgressBarFolders": "",
   "hideProgressBarMetadata": "hide-progress-bar",

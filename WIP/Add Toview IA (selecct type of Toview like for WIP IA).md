@@ -14,6 +14,12 @@ tags:
 
 ````ad-note
 title: Note
+
+
+> [!important] Title
+> FAire un Toview IA Application --> plutot utiliser IA (Multi toview Application)
+
+
 Nvidia AI Blueprints
 Nvidia NeMo (la chaîne de traitement)
 Nvidia NIM (les modèles spécialisés)
@@ -24,10 +30,31 @@ DLSS 4 on rtx 40x ???
 [[Nvidia officialise les RTX 5090, RTX 5080, RTX 5070 Ti et RTX 5070  résumé des annonces IA, robots, voitures et GPU]]
 ````
 
+```ad-info
+2 ways 
+-  Insert Task - TYPE - Multi
+	- [[Insert Task - Plugin - Multi]] 
+	- [[Insert Task - PC - Multi]]
+	- autre ??? 
+- Wip IA (Multi) (plutot a abandonner pour  [[Insert Task - Plugin - Multi]])
+- ToView with subType  bof bof pas assez generique
+	- Common/Generic
+	- IA 
+		- Generic
+		- Application
+se baser d'abord sur le type (IA ou PC ou ici Plugin)
+deja  fait : [[Insert Task - Plugin - Multi]]
+![[Tasks Settings]]
 
+- [ ]  Insert Task - TYPE - Multi --> Insert Task - GenericType - Multi #todo #generic 
+      peut etre a faire avant Toview  IA (factoriser les 2 existants)
+
+```
 ---
 ## Tasks
-- [ ] Task1 ➕ 2025-03-18
+- [/] ToView (Multi) ➕ 2025-03-18
+- [ ] Toview Simlple  ➕ 2025-03-18
+- [ ] Toview and WIP IA merge ➕ 2025-03-18
 
 ---
 ## Tasks Detail
