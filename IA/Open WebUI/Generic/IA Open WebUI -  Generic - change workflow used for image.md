@@ -25,7 +25,9 @@ tags:
 ---
 ## Tasks
 - [x] [[#workflow avant changement ]] ➕ 2025-03-18 ✅ 2025-03-18
-- [ ] [[#workflow ok depuis ComfyUI]]
+- [/] [[#workflow ok depuis ComfyUI]] ✅ 2025-03-18
+	- [ ] Installation
+	- [/] [[#Test]] 🛫 2025-03-18
 
 
 ---
@@ -326,6 +328,33 @@ seed  seed 3
 ![[OpenWebUI-okA.json]]
 
 ![[OpenWebUI-API-okA.json]]
+
+
+#### Test
+
+##### Execution dans ComfyUI
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742329870679.png|400x293]]
+
+
+##### Test 1
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742329921321.png|400x465]]
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742329977807.png|200]]
+
+
+![[Assets/banner/Style1/Failure.png|200]]
+
+
+
+##### Test 2
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742330011656.png|400x601]]
+
+
+![[Assets/banner/Style1/Success.png|200]]
+
 
 ## Info
 ---

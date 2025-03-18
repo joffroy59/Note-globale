@@ -1718,6 +1718,42 @@
       "openFileInMode": "default"
     },
     {
+      "id": "29d6a019-4c91-434c-961d-8561ee3ef7e2",
+      "name": "💥Insert Failure",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "![[Assets/banner/Style1/Failure.png|200]]"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+
+    },
+    {
       "id": "46200c83-0108-4fa0-8b84-19a969fba17b",
       "name": "✅ Insert Success",
       "type": "Capture",
@@ -1732,7 +1768,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "![[Assets/banner/Style1/Success.png|300]]"
+        "format": "![[Assets/banner/Style1/Success.png|200]]"
       },
       "insertAfter": {
         "enabled": false,
