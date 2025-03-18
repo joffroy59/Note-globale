@@ -474,6 +474,41 @@ Time : ****
 ![[Assets/banner/Style1/Success.png|200]]
 
 --- 
+##### Task 1
+---
+
+```ad-warning
+title: Task 1
+collapse: Open
+
+Info : < info >
+
+> [!cite]- Execution
+>  < image execution>
+>  
+
+> [!cite]- Résultat
+>  < image resultat>
+
+> [!cite]- Prompt
+>  Task 1
+```
+
+
+
+
+
+Time : ****
+
+###### Commentaire
+ global : rien a voir | Identique |  similaire | pas dans le meme style | n'importe quoi 
+ 
+
+--- 
+![[Assets/banner/Style1/Success.png|200]]
+![[Assets/banner/Style1/Failure.png|200]]
+
+--- 
 
 
 ## Info
