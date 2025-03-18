@@ -15,7 +15,7 @@ tags:
 
 ---
 ## Tasks
-- [x] [[ExtractHeaderSimple]] [[ExtractHeaderSimple-v2]] ➕ 2025-03-17 ✅ 2025-03-17
+- [x] [[ExtractHeaderSimple]]     [[ExtractHeaderSimple-v2]] ➕ 2025-03-17 ✅ 2025-03-17
 - [x] templater [[ExtractHeaderSimple-v2]] ✅ 2025-03-17
 - [x] [[#Test]] ✅ 2025-03-17
 

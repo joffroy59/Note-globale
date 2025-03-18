@@ -56,7 +56,8 @@ seed  seed 3
 
 
 ### workflow ok depuis ComfyUI
-#todo
+
+#### Workflow
 
 ```json fold title:"Workflow"
 {
@@ -339,10 +340,20 @@ seed  seed 3
 
 ##### Test 1
 
-![[IA Open WebUI -  Generic - change workflow used for image-1742329921321.png|400x465]]
+```ad-failure
+title: Test1
+collapse: Open
 
-![[IA Open WebUI -  Generic - change workflow used for image-1742329977807.png|200]]
+![[IA Open WebUI -  Generic - change workflow used for image-1742330919909.png|400x400]]
 
+> [!cite]-
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742329921321.png|400x465]]
+
+> [!cite]-
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742329977807.png|200]]
+
+Identique
+```
 
 ![[Assets/banner/Style1/Failure.png|200]]
 
@@ -350,10 +361,119 @@ seed  seed 3
 
 ##### Test 2
 
-![[IA Open WebUI -  Generic - change workflow used for image-1742330011656.png|400x601]]
+```ad-success
+title: Test2
+collapse: Open
 
+![[IA Open WebUI -  Generic - change workflow used for image-1742330790163.png|400x400]]
+
+> [!cite]-
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742330011656.png|400x601]]
+
+
+
+Identique
+```
 
 ![[Assets/banner/Style1/Success.png|200]]
+
+##### Test 3
+
+```ad-success
+title: Test3
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742330478753.png|400x400]]
+
+> [!cite]-
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742330501424.png|400x594]]
+
+
+
+Identique
+```
+
+Time : **21s**
+
+
+
+
+##### Task 4 avec autre model
+---
+
+```ad-success
+title: Task 4
+collapse: Open
+
+Info : Avec autre Model
+Mistral7b  👉 Gemm3:4b
+
+> [!cite]- Execution
+>  ![[IA Open WebUI -  Generic - change workflow used for image-1742332488010.png|400x174]]
+>  
+>  ![[IA Open WebUI -  Generic - change workflow used for image-1742332559331.png|400x93]]
+>  
+
+
+
+> [!cite]- Résultat
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742332652054.png|400x400]]
+
+> [!cite]-
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742332659250.png|400x501]]
+
+
+
+```
+
+
+Time : **21s**
+###### Commentaire
+ Global: **similaire** 
+ 
+ pas de changement en changeant le  model pour l'image , seulement pour le texte commentant l'imga générée  
+
+---
+
+
+##### Task 4
+---
+
+```ad-warning
+title: Task 4
+collapse: Open
+
+Info : < info >
+
+> [!cite]- Execution
+>  < image execution>
+>  
+
+> [!cite]- Résultat
+>  < image resultat>
+
+> [!cite]- Prompt
+>  < prompt or image chat >
+
+> [!cite]-  Commenaire
+>  rien a voir | Identique |  similaire | pas dans le meme style | n'importe quoi
+```
+
+Time : ****
+
+
+--- 
+![[Assets/banner/Style1/Success.png|200]]
+![[Assets/banner/Style1/Failure.png|200]]
+
+--- 
+
+
+
+--- 
+![[Assets/banner/Style1/Success.png|200]]
+
+--- 
 
 
 ## Info

@@ -1124,6 +1124,23 @@
           "command": "templater-obsidian:Templates/Add/TaskList Base.md"
         }
       ]
+    },
+    {
+      "label": "Test Result",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "test-result",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/IA/Add/Add - IA - Chat - Image Generation - Test - Result.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [
