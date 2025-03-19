@@ -87,6 +87,7 @@ wip:
     type:
       - local
       - online
+      - undefined
   StabilityMatrix - Application:
     title: 'StabilityMatrix - Application - '
     folder: IA/StabilityMatrix/Application
