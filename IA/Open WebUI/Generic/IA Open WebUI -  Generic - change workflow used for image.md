@@ -25,9 +25,11 @@ tags:
 ---
 ## Tasks
 - [x] [[#workflow avant changement ]] ➕ 2025-03-18 ✅ 2025-03-18
-- [/] [[#workflow ok depuis ComfyUI]] ✅ 2025-03-18
-	- [ ] Installation
-	- [/] [[#Test]] 🛫 2025-03-18
+- [x] [[#workflow ok depuis ComfyUI]] ✅ 2025-03-18
+	- [x] Installation ✅ 2025-03-19
+	- [x] [[#Test]] 🛫 2025-03-18 ✅ 2025-03-19
+- [/] [[#Test autre workflow ComfyUI]]
+
 
 
 ---
@@ -572,7 +574,7 @@ time : **136.94 seconds**
 ### Test 5 
 
 ``````ad-success
-title: Test3
+title: Test5
 
 #### workflow: 
 ```json
@@ -594,7 +596,38 @@ title: Test3
 
 ``````
 
-time : **136.94 seconds**
+time : **130.59 seconds**
+
+![[Assets/banner/Style1/Success.png|200]]
+
+---
+
+### Test 6 
+
+``````ad-success
+title: Test6
+
+#### workflow: 
+```json
+
+```
+
+![[OpenWebUI-okB.json]]
+
+![[OpenWebUI-API-okB.json]]
+
+
+#### config: 
+![[IA Open WebUI -  Generic - change workflow used for image-1742340295109.png|400x145]]
+
+#### result 
+
+
+
+
+``````
+
+time : **130.59 seconds**
 
 ![[Assets/banner/Style1/Success.png|200]]
 
