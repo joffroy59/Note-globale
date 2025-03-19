@@ -537,6 +537,69 @@ time : **136.94 seconds**
 
 ---
 
+
+### Test 4 
+
+``````ad-success
+title: Test4
+
+#### workflow: 
+```json
+
+```
+
+![[OpenWebUI-okB.json]]
+
+![[OpenWebUI-API-okB.json]]
+
+
+#### config: 
+![[IA Open WebUI -  Generic - change workflow used for image-1742340295109.png|400x145]]
+
+#### result 
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742341733309.png|400x633]]
+
+
+``````
+
+time : **136.94 seconds**
+
+![[Assets/banner/Style1/Success.png|200]]
+
+---
+
+### Test 5 
+
+``````ad-success
+title: Test3
+
+#### workflow: 
+```json
+
+```
+
+![[OpenWebUI-okB.json]]
+
+![[OpenWebUI-API-okB.json]]
+
+
+#### config: 
+![[IA Open WebUI -  Generic - change workflow used for image-1742340295109.png|400x145]]
+
+#### result 
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742341106827.png|400x633]]
+
+
+``````
+
+time : **136.94 seconds**
+
+![[Assets/banner/Style1/Success.png|200]]
+
+---
+
 ## Info
 ---
 
