@@ -400,7 +400,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **125.48 seconds**
 ```
@@ -419,7 +419,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **125.48 seconds**
 ```
@@ -438,7 +438,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **127.88 seconds**
 ```
@@ -457,7 +457,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -476,7 +476,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **125.74 seconds**
 ```
@@ -495,7 +495,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **125.75 seconds**
 ```
@@ -514,7 +514,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **125.75 seconds**
 ```
@@ -533,7 +533,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -552,7 +552,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -571,7 +571,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -589,7 +589,7 @@ collapse: Open
 > ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
 > 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -608,7 +608,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 ```
 
 ```ad-success
@@ -625,7 +625,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -644,7 +644,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -662,7 +662,7 @@ collapse: Open
 > ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
 > 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -671,6 +671,7 @@ Time : **131.05 seconds**
 title: Test19
 collapse: Open
 
+![[IA Open WebUI -  Generic - change workflow used for image-1742348304524.png|400x633]]
 
 > [!cite]- Prompt
 > 
@@ -680,14 +681,14 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 ```
 
 ```ad-success
 title: Test20
 collapse: Open
 
-
+![[IA Open WebUI -  Generic - change workflow used for image-1742348320726.png|400x633]]
 
 > [!cite]- Prompt
 > 
@@ -697,7 +698,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -706,7 +707,7 @@ Time : **131.05 seconds**
 title: Test21
 collapse: Open
 
-
+![[IA Open WebUI -  Generic - change workflow used for image-1742348332687.png|400x633]]
 
 > [!cite]- Prompt
 > 
@@ -716,7 +717,102 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test22
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742348344663.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique (Requested to load SDXL Requested to load ControlNet)
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test23
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742348354628.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique (Requested to load SDXL Requested to load ControlNet)
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test24
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742348364197.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique (Requested to load SDXL Requested to load ControlNet)
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test25
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742348379307.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique (Requested to load SDXL Requested to load ControlNet)
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test26
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742348387882.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -726,6 +822,7 @@ title: Test22
 collapse: Open
 
 
+
 > [!cite]- Prompt
 > 
 > ![[OpenWebUI-okA.json]]
@@ -734,7 +831,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -753,7 +850,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -772,7 +869,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -791,7 +888,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -810,7 +907,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -828,7 +925,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -847,7 +944,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -866,7 +963,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -885,7 +982,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -904,7 +1001,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -922,7 +1019,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -941,7 +1038,7 @@ collapse: Open
 > 
 
 
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```
@@ -960,101 +1057,7 @@ collapse: Open
 > 
 
 
-Identique
-
-Time : **131.05 seconds**
-```
-
-```ad-success
-title: Test20
-collapse: Open
-
-
-
-> [!cite]- Prompt
-> 
-> ![[OpenWebUI-okA.json]]
-> 
-> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
-> 
-
-
-Identique
-
-Time : **131.05 seconds**
-```
-
-```ad-success
-title: Test21
-collapse: Open
-
-
-
-> [!cite]- Prompt
-> 
-> ![[OpenWebUI-okA.json]]
-> 
-> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
-> 
-
-
-Identique
-
-Time : **131.05 seconds**
-```
-
-```ad-success
-title: Test22
-collapse: Open
-
-
-> [!cite]- Prompt
-> 
-> ![[OpenWebUI-okA.json]]
-> 
-> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
-> 
-
-
-Identique
-
-Time : **131.05 seconds**
-```
-
-```ad-success
-title: Test23
-collapse: Open
-
-
-
-> [!cite]- Prompt
-> 
-> ![[OpenWebUI-okA.json]]
-> 
-> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
-> 
-
-
-Identique
-
-Time : **131.05 seconds**
-```
-
-```ad-success
-title: Test24
-collapse: Open
-
-
-
-> [!cite]- Prompt
-> 
-> ![[OpenWebUI-okA.json]]
-> 
-> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
-> 
-
-
-Identique
+Identique (Requested to load SDXL Requested to load ControlNet)
 
 Time : **131.05 seconds**
 ```

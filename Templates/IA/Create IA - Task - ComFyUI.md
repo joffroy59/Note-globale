@@ -32,7 +32,7 @@ if (title.startsWith(defaultTitle)) {
   await tp.file.rename(`${title}`);
 }
 
-let worflow = await tp.system.prompt("Worflow file path", title);
+let worflow = await tp.system.prompt("Worflow file path  (no extension)", title);
 
 let url = await tp.system.prompt("url");
 
