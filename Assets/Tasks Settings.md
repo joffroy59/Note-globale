@@ -7,7 +7,7 @@ note:
 golbal_task_type:
   - pc
   - plugin
-  - ia
+  - IA
 
 plugin:
   folder_base: "Tasks/Obisidan/Plugin"
@@ -76,7 +76,7 @@ pc:
     - portable
   Asus Game:
   Raspberry:
-ia:
+IA:
   folder_base: "Tasks/IA"
   template:
     create: "Create Task IA"

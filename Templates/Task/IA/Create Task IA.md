@@ -1,6 +1,6 @@
 ---
 <%*
-const global_task_type = "ia"
+const global_task_type = "IA"
 const settings_file = "Assets/Tasks Settings.md";
 const settings_root = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
 

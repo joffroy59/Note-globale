@@ -23,12 +23,14 @@ let template_create_name = settings_root.template.create
 console.log(template_create_name)
 let template_create = `${template_task_type_base}/${template_create_name}`
 
-let defaultTitle = `${generic_type} - `
+let defaultTitle = `${global_task_type} - ${generic_type} - `
 console.log(settings_root)
 let task_type_tags = settings_root.task_type[task_type.trim()].tags
 
 let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
+
+console.log(template_create)
 
 // Create Note
 let existing = tp.file.find_tfile(title);
