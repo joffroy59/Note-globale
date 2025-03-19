@@ -6,7 +6,7 @@ const config_wip = ia_settings.wip
 
 const typeList = config_wip.types
 
-let type = await tp.system.suggester((item) => item, typeList)
+let type = await tp.system.suggester((item) => item, typeList, true, "Type")
 
 // get configuration for the type of wip
 const config_wip_type = config_wip[type]
@@ -19,7 +19,7 @@ const sub_type_type = config_wip_type.sub_type
 let sub_type = ""
 let ia_sub_type_tags = ""
 if (sub_type_type) {
-	sub_type = await tp.system.suggester((item) => item, sub_type_type)
+	sub_type = await tp.system.suggester((item) => item, sub_type_type, true, "Sub Type")
 	const config_wip_subtype = config_wip_type[sub_type]
 	baseFolder += `/${sub_type}`
 	defaultTitle += ` ${sub_type} - `

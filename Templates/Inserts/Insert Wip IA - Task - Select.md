@@ -6,7 +6,7 @@ const config_wip = ia_settings.wip
 const typeList = config_wip.types
 const template_name_base = config_wip.template.insert
 
-let type = await tp.system.suggester((item) => item, typeList)
+let type = await tp.system.suggester((item) => item, typeList, true, "Type")
 
 tR+= await tp.file.include(`[[${template_name_base} ${type}]]`);
 %>

@@ -2,7 +2,7 @@
 let typeList = ["Général", "Appart", "PC", "Domotique"]
 
 let typeDefaultValue = "Général"
-let type = await tp.system.suggester((item) => item, typeList)
+let type = await tp.system.suggester((item) => item, typeList, true, "Type")
 if (!type) type = typeDefaultValue
 
 let baseFolder = "Problems"

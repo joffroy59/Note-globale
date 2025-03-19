@@ -5,13 +5,13 @@ const config_wip = ia_settings.wip
 
 const typeList = config_wip.types
 
-let application_type = await tp.system.suggester((item) => item, config_wip['Application'].type)
+let application_type = await tp.system.suggester((item) => item, config_wip['Application'].type, true, "Application Type")
 let is_local = (application_type == "local")
 
 let execution_type
 let has_docker
 if (is_local){
-	execution_type = await tp.system.suggester((item) => item, ia_settings.execution)
+	execution_type = await tp.system.suggester((item) => item, ia_settings.execution, true, "Execution Type")
 	has_docker = (execution_type == "docker")
 	if (has_docker){
 		docker_expose_url = await tp.system.prompt("Docker expose url :");
