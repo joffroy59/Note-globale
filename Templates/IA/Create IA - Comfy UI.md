@@ -71,10 +71,10 @@ if (title.startsWith(defaultTitle)) {
   await tp.file.rename(`${title}`);
 }
 
-let worflow = await tp.system.prompt("Worflow file path  (no extension)");
+let worflow = await tp.system.prompt("Worflow file name  (no extension)");
 
 if (worflow){
-	worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList);
+	worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList, true, "Worflow file path");
 } else {
 	worflow = defaultWorkflowName
 }

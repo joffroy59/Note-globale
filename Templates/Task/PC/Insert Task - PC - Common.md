@@ -6,9 +6,9 @@ const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(
 const task_type_list = settings.pc.task_type.list
 const pc_type_list = settings.pc.type
 
-let task_type = await tp.system.suggester((item) => item, task_type_list)
+let task_type = await tp.system.suggester((item) => item, task_type_list, true, "Task Type")
 
-let pc_type = await tp.system.suggester((item) => item, pc_type_list)
+let pc_type = await tp.system.suggester((item) => item, pc_type_list, true, "Pc Type")
 
 let folder_base = `${settings.pc.folder_base}/${pc_type}/${task_type}`
 

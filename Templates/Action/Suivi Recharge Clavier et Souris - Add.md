@@ -1,14 +1,14 @@
 
 <%*
 const type_list = ["Clavier", "Souris"]
-const type = await tp.system.suggester((item) => item, type_list);
+const type = await tp.system.suggester((item) => item, type_list, true, "Type");
 
-const event = await tp.system.suggester((item) => item, ["🔌", "🔍", "🛑"]);
+const event = await tp.system.suggester((item) => item, ["🔌", "🔍", "🛑"], true, "Event");
 
 let batterie_state = ""
-if ( type == "Clavier")  
-	batterie_state = await tp.system.suggester((item) => item, ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10  ✅"]);
-else if ( type == "Souris") 
+if ( type == "Clavier")
+	batterie_state = await tp.system.suggester((item) => item, ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10  ✅"], true, "Etat de la Charge");
+else if ( type == "Souris")
 	batterie_state = await tp.system.prompt("Percent: ") + "%"
 
 var tableStart = `Recharge ${type} 🔌`;

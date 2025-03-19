@@ -7,9 +7,9 @@ const settings_root = settings.plugin
 const task_type_list = settings_root.task_type.list
 const generic_type_list = settings_root.type
 
-let task_type = await tp.system.suggester((item) => item, task_type_list)
+let task_type = await tp.system.suggester((item) => item, task_type_list, true, "Task Type")
 
-let generic_type = await tp.system.suggester((item) => item, generic_type_list)
+let generic_type = await tp.system.suggester((item) => item, generic_type_list, true, "Generic Type")
 
 let folder_base = `${settings_root.folder_base}/${task_type}/${generic_type}`
 
@@ -42,4 +42,4 @@ if (task_type == "Wip") task_state = "/"
 console.log(template_create)
 console.log(tags)
 
-%>   - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %> 
+%>   - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %>
