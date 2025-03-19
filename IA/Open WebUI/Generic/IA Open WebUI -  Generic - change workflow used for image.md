@@ -818,10 +818,10 @@ Time : **131.05 seconds**
 ```
 
 ```ad-success
-title: Test22
+title: Test27
 collapse: Open
 
-
+![[IA Open WebUI -  Generic - change workflow used for image-1742348606096.png|400x633]]
 
 > [!cite]- Prompt
 > 
@@ -837,10 +837,10 @@ Time : **131.05 seconds**
 ```
 
 ```ad-success
-title: Test23
+title: Test28
 collapse: Open
 
-
+![[IA Open WebUI -  Generic - change workflow used for image-1742348661988.png|400x633]]
 
 > [!cite]- Prompt
 > 
@@ -856,10 +856,10 @@ Time : **131.05 seconds**
 ```
 
 ```ad-success
-title: Test24
+title: Test29
 collapse: Open
 
-
+![[IA Open WebUI -  Generic - change workflow used for image-1742349067648.png|400x633]]
 
 > [!cite]- Prompt
 > 
