@@ -9,7 +9,7 @@ cov:
 
 `BUTTON[insert-daily-task-wip-obsidian,insert-daily-task-wip-graph]`
 
-`BUTTON[insert-daily-task-pc,insert-daily-task-obsidian-plugin]`
+`BUTTON[insert-daily-task-pc,insert-daily-task-obsidian-plugin,insert-daily-task-mulit]`
 
 `BUTTON[insert-daily-todo,insert-daily-task-toview]`
 

@@ -4,9 +4,10 @@ note:
   author: Jerome Offroy
   initials: JO
 
-task_type:
+golbal_task_type:
   - pc
   - plugin
+  - ia
 
 plugin:
   folder_base: "Tasks/Obisidan/Plugin"
@@ -46,7 +47,6 @@ plugin:
   Tasks:
   Interface:
   Autre:
-
 pc:
   folder_base: "Tasks/PC"
   template:
@@ -76,6 +76,33 @@ pc:
     - portable
   Asus Game:
   Raspberry:
+ia:
+  folder_base: "Tasks/IA"
+  template:
+    create: "Create Task IA"
+    template_base: "Templates/Task/IA"
+  task_type:
+    list:
+      - Wip
+      - Task
+      - Done
+      - Todo
+      - Toview
+    Wip:
+      tags: '#status/wip'
+    Task:
+      tags: '#task'
+    Toview:
+      tags: '#toview'
+    Done:
+      tags: '#done'
+    Todo:
+      tags: '#todo'
+  type:
+    - Application
+    - Prompt
+  Application:
+  Prompt:
 
 ---
 

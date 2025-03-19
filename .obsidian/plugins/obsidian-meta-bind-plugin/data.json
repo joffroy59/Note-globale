@@ -1110,6 +1110,21 @@
       ]
     },
     {
+      "label": "+ Task (Multi)",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-3-button",
+      "tooltip": "",
+      "id": "insert-daily-task-mulit",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:a0f923b9-4746-415a-9cf6-a9e25a73f991"
+        }
+      ]
+    },
+    {
       "label": "Add TaskList",
       "icon": "",
       "style": "default",
