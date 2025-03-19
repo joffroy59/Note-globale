@@ -340,7 +340,6 @@ seed  seed 3
 ![[IA Open WebUI -  Generic - change workflow used for image-1742329870679.png|400x293]]
 
 
-##### Test 1
 
 ```ad-failure
 title: Test1
@@ -357,12 +356,6 @@ collapse: Open
 Identique
 ```
 
-![[Assets/banner/Style1/Failure.png|200]]
-
-
-
-##### Test 2
-
 ```ad-success
 title: Test2
 collapse: Open
@@ -376,10 +369,6 @@ collapse: Open
 
 Identique
 ```
-
-![[Assets/banner/Style1/Success.png|200]]
-
-##### Test 3
 
 ```ad-success
 title: Test3
@@ -396,10 +385,6 @@ Identique
 
 Time : **21s**
 ```
-
-
----
-##### Test 4  ComfyUI
 
 ```ad-success
 title: Test4
@@ -420,10 +405,6 @@ Identique
 Time : **125.48 seconds**
 ```
 
----
-
-##### Test 5  ComfyUI
-
 ```ad-success
 title: Test5
 collapse: Open
@@ -442,11 +423,6 @@ Identique
 
 Time : **125.48 seconds**
 ```
-
-
-
----
-##### Test 6 ComfyUI
 
 ```ad-success
 title: Test6
@@ -467,13 +443,6 @@ Identique
 Time : **127.88 seconds**
 ```
 
-
-
----
-
-
-##### Test 7 ComfyUI
-
 ```ad-success
 title: Test7
 collapse: Open
@@ -492,12 +461,6 @@ Identique
 
 Time : **131.05 seconds**
 ```
-
-
-
----
-
-##### Test 8 ComfyUI
 
 ```ad-success
 title: Test8
@@ -518,12 +481,6 @@ Identique
 Time : **125.74 seconds**
 ```
 
-
-
----
-
-##### Test 9 ComfyUI
-
 ```ad-success
 title: Test9
 collapse: Open
@@ -542,11 +499,6 @@ Identique
 
 Time : **125.75 seconds**
 ```
-
-
-
----
-##### Test 10 ComfyUI
 
 ```ad-success
 title: Test10
@@ -567,11 +519,6 @@ Identique
 Time : **125.75 seconds**
 ```
 
-
-
----
-##### Test 11 ComfyUI
-
 ```ad-success
 title: Test11
 collapse: Open
@@ -590,11 +537,6 @@ Identique
 
 Time : **131.05 seconds**
 ```
-
-
-
----
-##### Test 12 ComfyUI
 
 ```ad-success
 title: Test12
@@ -615,11 +557,6 @@ Identique
 Time : **131.05 seconds**
 ```
 
-
-
----
-##### Test 13 ComfyUI
-
 ```ad-success
 title: Test13
 collapse: Open
@@ -639,14 +576,11 @@ Identique
 Time : **131.05 seconds**
 ```
 
-
----
-##### Test 14 ComfyUI
-
 ```ad-success
 title: Test14
 collapse: Open
 
+![[IA Open WebUI -  Generic - change workflow used for image-1742345073130.png|400x633]]
 
 > [!cite]- Prompt
 > 
@@ -659,16 +593,12 @@ Identique
 
 Time : **131.05 seconds**
 ```
-
-
-
----
-##### Test 15 ComfyUI
 
 ```ad-success
 title: Test15
 collapse: Open
 
+![[IA Open WebUI -  Generic - change workflow used for image-1742345597120.png|400x633]]
 
 > [!cite]- Prompt
 > 
@@ -680,16 +610,67 @@ collapse: Open
 
 Identique
 ```
-
-Time : **131.05 seconds**
-
----
-##### Test 16 ComfyUI
 
 ```ad-success
 title: Test16
 collapse: Open
 
+![[IA Open WebUI -  Generic - change workflow used for image-1742344440021.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test17
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742345647980.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test18
+collapse: Open
+
+![[IA Open WebUI -  Generic - change workflow used for image-1742347170903.png|400x633]]
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test19
+collapse: Open
+
 
 > [!cite]- Prompt
 > 
@@ -702,41 +683,383 @@ collapse: Open
 Identique
 ```
 
-Time : **131.05 seconds**
-
----
-
-
-##### Task 4 avec autre model
----
-
 ```ad-success
-title: Task 4
+title: Test20
 collapse: Open
 
-Info : Avec autre Model
-Mistral7b  👉 Gemm3:4b
-
-> [!cite]- Execution
->  ![[IA Open WebUI -  Generic - change workflow used for image-1742332488010.png|400x174]]
->  
->  ![[IA Open WebUI -  Generic - change workflow used for image-1742332559331.png|400x93]]
->  
 
 
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
 
-> [!cite]- Résultat
-> ![[IA Open WebUI -  Generic - change workflow used for image-1742332652054.png|400x400]]
 
-> [!cite]-
-> ![[IA Open WebUI -  Generic - change workflow used for image-1742332659250.png|400x501]]
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test21
+collapse: Open
 
 
 
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test22
+collapse: Open
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test23
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test24
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test20
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test21
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test22
+collapse: Open
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test23
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test24
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test20
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test21
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test22
+collapse: Open
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test23
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test24
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test20
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test21
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test22
+collapse: Open
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test23
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
+```
+
+```ad-success
+title: Test24
+collapse: Open
+
+
+
+> [!cite]- Prompt
+> 
+> ![[OpenWebUI-okA.json]]
+> 
+> ![[IA Open WebUI -  Generic - change workflow used for image-1742343640262.png|400x219]]
+> 
+
+
+Identique
+
+Time : **131.05 seconds**
 ```
 
 
-Time : **21s**
 ###### Commentaire
  Global: **similaire** 
  
@@ -750,8 +1073,6 @@ Time : **21s**
 
 
 ### Test autre workflow ComfyUI
-
-### Test 1 
 
 ``````ad-success
 title: Test1
@@ -774,17 +1095,9 @@ collapse: closed
 
 ![[IA Open WebUI -  Generic - change workflow used for image-1742340396327.png|400x633]]
 
+**151.36 seconds**
 
 ``````
-
-
-time : **151.36 seconds**
-
-![[Assets/banner/Style1/Success.png|200]]
-
----
-
-### Test 2 
 
 ``````ad-success
 title: Test2
@@ -806,16 +1119,9 @@ title: Test2
 
 ![[IA Open WebUI -  Generic - change workflow used for image-1742340384679.png|400x633]]
 
-``````
-
-
 time : **126.73 seconds**
 
-![[Assets/banner/Style1/Success.png|200]]
-
----
-
-### Test 3 
+``````
 
 ``````ad-success
 title: Test3
@@ -837,17 +1143,9 @@ title: Test3
 
 ![[IA Open WebUI -  Generic - change workflow used for image-1742341106827.png|400x633]]
 
-
-``````
-
 time : **136.94 seconds**
 
-![[Assets/banner/Style1/Success.png|200]]
-
----
-
-
-### Test 4 
+``````
 
 ``````ad-success
 title: Test4
@@ -869,16 +1167,9 @@ title: Test4
 
 ![[IA Open WebUI -  Generic - change workflow used for image-1742341733309.png|400x633]]
 
-
-``````
-
 time : **136.94 seconds**
 
-![[Assets/banner/Style1/Success.png|200]]
-
----
-
-### Test 5 
+``````
 
 ``````ad-success
 title: Test5
@@ -901,15 +1192,9 @@ title: Test5
 ![[IA Open WebUI -  Generic - change workflow used for image-1742342491406.png|400x633]]
 
 
-``````
-
 time : **130.59 seconds**
 
-![[Assets/banner/Style1/Success.png|200]]
-
----
-
-### Test 6 
+``````
 
 ``````ad-success
 title: Test6
@@ -931,16 +1216,9 @@ title: Test6
 
 ![[IA Open WebUI -  Generic - change workflow used for image-1742342728307.png|400x633]]
 
-
-``````
-
 time : **128.96 seconds**
 
-![[Assets/banner/Style1/Success.png|200]]
-
----
-
-### Test 7
+``````
 
 ``````ad-success
 title: Test7
@@ -962,14 +1240,9 @@ title: Test7
 
 ![[IA Open WebUI -  Generic - change workflow used for image-1742342847768.png|400x633]]
 
-
-``````
-
 time : **125.91 seconds**
 
-![[Assets/banner/Style1/Success.png|200]]
-
----
+``````
 
 ## Info
 ---
