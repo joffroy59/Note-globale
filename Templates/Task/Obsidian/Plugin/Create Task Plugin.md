@@ -2,17 +2,27 @@
 <%*
 const global_task_type = "plugin"
 const settings_file = "Assets/Tasks Settings.md";
-const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
+const settings_root = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
+
+const settings_global_type =  settings_root[global_task_type]
+
+const global_task_type_tags = global_task_type.replace(/ /g,"_").toLowerCase()
+
+const folder_base = settings_global_type.folder_base
+const folder_base_offset = folder_base.split("/").length
 
 let title = tp.file.title
 let parent = tp.file.folder(true)
-let generic_type = parent.split("/")[2]
-let task_type = parent.split("/")[3]
 
-let task_type_tags = settings[global_task_type].task_type[task_type.trim()].tags
+let parent_list = parent.split("/")
 
-let tags = `${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`.replace(/#/g,"")
+let task_type = parent_list[folder_base_offset]
+let task_type_tags = settings_global_type.task_type[task_type.trim()].tags
 
+let generic_type = parent_list[(folder_base_offset +1)]
+let generic_type_tags = settings_global_type[generic_type.trim()].tags
+
+let tags = `#${global_task_type_tags} ${task_type_tags} ${generic_type_tags}`.replace(/#/g,"")
 %>
 ELN info:
   template: <% tp.config.template_file.name %>
@@ -21,7 +31,7 @@ ELN info:
   modified: <% tp.date.now() %>
   copyright: GNU Affero General Public License v3.0
 
-tags: <% tags %> task
+tags: <% tags %>  
 
 ---
 <%*

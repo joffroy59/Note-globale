@@ -4,7 +4,6 @@ note:
   author: Jerome Offroy
   initials: JO
 
-
 task_type:
   - pc
   - plugin
@@ -43,6 +42,7 @@ plugin:
     - Interface
     - Autre
   IA:
+    tags: '#IA'
   Tasks:
   Interface:
   Autre:

@@ -4,6 +4,8 @@ const settings_file = "Assets/Tasks Settings.md";
 const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
 const settings_root = settings.plugin
 
+const global_task_type_tags = global_task_type.replace(/ /g,"_").toLowerCase()
+
 const task_type_list = settings_root.task_type.list
 const generic_type_list = settings_root.type
 
@@ -21,8 +23,8 @@ let defaultTitle = `${generic_type} - `
 
 let task_type_tags = settings_root.task_type[task_type.trim()].tags
 
-let tags = `${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`
-
+let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`
+console.log(tags)
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 // Create Note
@@ -42,4 +44,4 @@ if (task_type == "Wip") task_state = "/"
 console.log(template_create)
 console.log(tags)
 
-%>   - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  #task  <% tags %>    ➕ <% tp.date.now() %>
+%>   - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  <% tags %>    ➕ <% tp.date.now() %>
