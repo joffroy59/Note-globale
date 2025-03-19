@@ -24,7 +24,6 @@ let defaultTitle = `${generic_type} - `
 let task_type_tags = settings_root.task_type[task_type.trim()].tags
 
 let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`
-console.log(tags)
 let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 // Create Note
@@ -41,7 +40,6 @@ if (existing) {
 
 let task_state = " "
 if (task_type == "Wip") task_state = "/"
-console.log(template_create)
-console.log(tags)
+
 
 %>   - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  <% tags %>    ➕ <% tp.date.now() %>
