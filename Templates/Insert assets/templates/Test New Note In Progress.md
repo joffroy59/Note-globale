@@ -1,0 +1,1 @@
+<% await tp.user.new_test_in_progress(tp) -%>

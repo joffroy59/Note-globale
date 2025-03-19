@@ -31,6 +31,9 @@ async function new_test_in_progress(tp, project_name = null, show = true) {
     console.log(`note.author not found in ELN settings.`);
   }
 
+  // get current date and format it to ISO 8601
+  const date = new Date();
+  const date_created = date.toISOString().split('T')[0];
 
   let filename = "Test - " + project_name;
 
