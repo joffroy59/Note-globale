@@ -46,6 +46,9 @@ title: Resultat
 {Image}
 
 ```
+
+time: **todo**
+
 ![[Assets/banner/Style1/Success.png|300]]
 
 ---
@@ -58,6 +61,10 @@ title: Resultat
 
 ```
 
+time: **todo**
 
 ![[Assets/banner/Style1/Failure.png|300]]
+
+---
+
 ```````
