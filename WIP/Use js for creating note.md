@@ -41,7 +41,9 @@ tags:
 
 ✅ appel double
 
+✅inline create note and insert line in sepcifiqu file  [[Insert Task - Common]]
 
+in today note 
 
 
 
