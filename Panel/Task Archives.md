@@ -169,7 +169,7 @@ tags:
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux NF4 V2]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux BnB NF4 v2 (Fastest Flux Dev)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux (NF4)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
-    - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - Flux-Dev (NF4)]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
+    - [x] [[Flux NF4 - Flux-Dev (NF4) ⭐⭐⭐]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - FLUX NF4 + CONTROLNET]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[IA/ComfyUI/Flux NF4/Flux NF4 - FLUX.1 - NF4 -Upscale]] #done #IA #IA/comfyui/flux #flux_NF4 ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
     - [x] [[civitai - 35488618 ⭐⭐⭐]] #done #IA #IA/civitai ➕ 2025-02-25 🛫 2025-02-25 ✅ 2025-02-25
