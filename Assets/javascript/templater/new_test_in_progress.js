@@ -1,4 +1,4 @@
-async function new_test_in_progress(tp, project_name = null, show = true) {
+async function new_test_in_progress(tp, project_name = null, show = false) {
   var path = require('path');
 
   /**********************************************************************************/
@@ -71,6 +71,7 @@ await dv.view("/Assets/javascript/dataview/views/note_footer", {});
 
   await tp.file.create_new(note_content, filename, show, tfolder);
 
+  return ""
 }
 
 module.exports = new_test_in_progress;
