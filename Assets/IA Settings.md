@@ -28,6 +28,7 @@ wip:
     - Open WebUI
     - Comfy UI
     - Task
+    - Fix
   template:
     insert: Insert Wip IA - Task -
   Generic:
@@ -141,6 +142,18 @@ wip:
     template:
       create: Templates/IA/Create IA - Task - Task
     tag: '#IA/task #task'
+  Fix:
+    title: 'Fix - '
+    folder: IA/Fix
+    template:
+      create: Templates/IA/Create IA - Task - Fix
+    tag: '#to_fix #fix'
+    tag_type: '#IA'
+    sub_type:
+      - ComfyUI
+    ComfyUI:
+      tag:
+        - '#IA/comfyui'
 
 execution:
   - docker

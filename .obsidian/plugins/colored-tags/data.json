@@ -326,7 +326,9 @@
     "video": 160,
     "tools": 161,
     "doublon": 162,
-    "autre": 163
+    "autre": 163,
+    "to_fix": 164,
+    "IA/comfyui/comfyui": 4
   },
   "_version": 3
 }
