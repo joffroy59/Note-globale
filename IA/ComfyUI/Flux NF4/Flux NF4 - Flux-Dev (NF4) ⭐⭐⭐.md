@@ -21,6 +21,7 @@ tags:
   - IA/StabilityMatrix
   - flux_NF4➕
   - "#success"
+  - wins
 ---
 ``````ad-tip
 Source : https://openart.ai/workflows/lizard_aromatic_80/flux-dev-nf4/RLKikG7kkkp5MJkVAlev
