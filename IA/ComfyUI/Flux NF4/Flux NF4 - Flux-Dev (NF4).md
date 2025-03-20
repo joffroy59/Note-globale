@@ -22,8 +22,17 @@ tags:
   - flux_NF4➕
   - "#success"
 ---
-```ad-tip
+``````ad-tip
 Source : https://openart.ai/workflows/lizard_aromatic_80/flux-dev-nf4/RLKikG7kkkp5MJkVAlev
+
+```embed 
+title: "Flux-Dev (NF4) | ComfyUI Workflow | OpenArt"
+image: "https://cdn.openart.ai/workflow_thumbnails/ozahwGTkKKAlmoGcy3Yx/image_zErkaJfs_1723411799672_raw.jpg"
+description: "Created by: Rachid AR: Workflow for 4GB-10GB VRAM."
+url: "https://openart.ai/workflows/lizard_aromatic_80/flux-dev-nf4/RLKikG7kkkp5MJkVAlev"
+```
+
+
 
 worflow: workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai
 ⭐🚧 [workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai.json)
@@ -32,7 +41,7 @@ worflow: workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.a
 image: ![](https://cdn.openart.ai/workflow_thumbnails/ozahwGTkKKAlmoGcy3Yx/image_zErkaJfs_1723411799672_raw.jpg)
 
 
-```
+``````
 
 ````ad-quote
 title: Generation data
@@ -57,8 +66,9 @@ collapse: closed
 - [D:\dev-data\IA\Stability Matrix Project\workflow](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C)
 ```
 
-
+![[workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai.json]]
 ---
+
 
 ## Test reproduction en local
 ### StabilityMatrix
