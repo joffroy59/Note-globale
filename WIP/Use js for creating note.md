@@ -45,10 +45,21 @@ tags:
 
 in today note 
 
+```meta-bind-button
+label: testtest
+icon: ""
+style: default
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: testtest
+hidden: false
+actions:
+  - type: runTemplaterFile
+    templateFile: Templates/Insert assets/templates/Test New Note In Progress.md
 
-
-
-
+```
 ### button
 
 
