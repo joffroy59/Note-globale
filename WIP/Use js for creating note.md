@@ -17,7 +17,7 @@ tags:
 - [x] [[#Create Template]] ➕ 2025-03-20 ✅ 2025-03-20
 - [x] [[#Create js ]] ✅ 2025-03-20
 - [x] [[#test avec templater]] ✅ 2025-03-21
-- [ ] [[#button]] et test ok sur daily note 
+- [x] [[#button]] et test ok sur daily note ✅ 2025-03-21
 
 ---
 
@@ -81,10 +81,10 @@ actions:
 ![[Assets/banner/Style1/Success.png|200]]
 
 
-
+## Todo
 
 ```ad-success
 title: TODO ⭐⭐⭐
 
-cca va permettre de toute faire en js avec des parametre notemment pour factoriser enctre ligne creer et la page cree qui n'avait pas acces aux sous type et devait faire du "parsing degueux" de fodler et nom 
+ca va permettre de toute faire en js avec des parametre notemment pour factoriser enctre ligne creer et la page cree qui n'avait pas acces aux sous type et devait faire du "parsing degueux" de fodler et nom 
 ```
