@@ -18,7 +18,7 @@ tags:
 - [ ] [[#Duplication]] ➕ 2025-03-21
 - [/] utlisation dans autre task 
 	- [x] dans [[Panel/Actions|Actions]] pour action rapide ✅ 2025-03-22
-	- [ ] a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enlever bouton existant 
+	- [ ] [[#Task Type En cours]] a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enlever bouton existant 
 		- [ ] [[Panel/Actions|Actions]]
 		- [ ] note existantes
 - [ ] regroupement type de creation de task pour en avoir qu'une seule avec settings ou comme ELN creation par project creation et definition des element du projet 
@@ -75,7 +75,26 @@ actions:
 ![[Clone test - using js for inline and create note-1742598004591.png|400x101]]
 
 
+### Task Type En cours
+a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enlever bouton existant 
+
+```
+- [ ] [[Panel/Actions|Actions]]
+- [ ] note existantes
+```
+
+- [ ] Types
+	- [ ] [[#Toview]]
 
 
 
+
+
+
+
+
+
+#### Toview
+
+![[Clone test - using js for inline and create note-1742598221489.png|150]]
 
