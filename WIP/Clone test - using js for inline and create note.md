@@ -17,7 +17,11 @@ tags:
 ## Tasks
 - [ ] [[#Duplication]] ➕ 2025-03-21
 - [ ] utlisation dans autre task 
-- [ ] regroupement type de creation de task pour en avoir qu'une seule avec settings ou comme ELn creat ion par project creation et definition des element du projet 
+	- [ ] dans [[Panel/Actions|Actions]] pour action rapide
+	- [ ] a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enlever bouton existant 
+		- [ ] [[Panel/Actions|Actions]]
+		- [ ] note existantes
+- [ ] regroupement type de creation de task pour en avoir qu'une seule avec settings ou comme ELN creation par project creation et definition des element du projet 
 - [ ] ??? que faire de 'Test Project'
 
 ---
