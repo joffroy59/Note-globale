@@ -11,7 +11,7 @@ cov:
 
 `BUTTON[insert-daily-task-pc,insert-daily-task-obsidian-plugin,insert-daily-task-mulit]`
 
-`BUTTON[insert-daily-todo,insert-daily-task-toview]`
+`BUTTON[insert-daily-todo,insert-daily-task-toview,create-task-genericc]`
 
 `BUTTON[insert-daily-task,insert-daily-task-obsidian]`
 

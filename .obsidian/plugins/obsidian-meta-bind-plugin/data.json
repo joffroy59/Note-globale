@@ -1240,6 +1240,23 @@
           "command": "quickadd:choice:1462a63e-5a03-41b6-995d-a923587c8e4c"
         }
       ]
+    },
+    {
+      "label": "Create Task Generic",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background-color: SaddleBrown",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "create-task-genericc",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "Templates/Insert assets/templates/Insert - Create - Task - Generic.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

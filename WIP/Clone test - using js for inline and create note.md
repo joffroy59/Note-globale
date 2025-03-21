@@ -16,8 +16,8 @@ tags:
 ---
 ## Tasks
 - [ ] [[#Duplication]] ➕ 2025-03-21
-- [ ] utlisation dans autre task 
-	- [ ] dans [[Panel/Actions|Actions]] pour action rapide
+- [/] utlisation dans autre task 
+	- [x] dans [[Panel/Actions|Actions]] pour action rapide ✅ 2025-03-22
 	- [ ] a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enlever bouton existant 
 		- [ ] [[Panel/Actions|Actions]]
 		- [ ] note existantes
@@ -57,7 +57,7 @@ class: ""
 cssStyle: ""
 backgroundImage: ""
 tooltip: ""
-id: testtest
+id: create-task-genericc
 hidden: false
 actions:
   - type: runTemplaterFile
@@ -68,6 +68,11 @@ actions:
 
 - [x] script js [[insert_task_common.js]] existant ✅ 2025-03-21
 - [x] template  : [[Templates/Insert assets/templates/Test New Note In Progress]] 👉 [[Templates/Insert assets/templates/Insert - Create - Task - Generic]] ✅ 2025-03-21
+- [x] persistence du button dans meta bind ✅ 2025-03-22
+- [x] `BUTTON[create-task-genericc]` ✅ 2025-03-22
+
+
+![[Clone test - using js for inline and create note-1742598004591.png|400x101]]
 
 
 
