@@ -331,7 +331,11 @@
     "IA/comfyui/comfyui": 4,
     "prompt": 165,
     "importtant": 166,
-    "important": 167
+    "important": 167,
+    "IA/workflow": 14,
+    "IA/comfy_ui": 15,
+    "IA/comfy_ui/workflow": 1,
+    "workflow/workflow": 1
   },
   "_version": 3
 }

@@ -1141,6 +1141,22 @@
       ]
     },
     {
+      "label": "Add TaskList",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "tooltip": "",
+      "id": "add-tasklist-no-ask",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "templater-obsidian:Templates/Add/TaskList Base No Ask.md"
+        }
+      ]
+    },
+    {
       "label": "Test Result",
       "icon": "",
       "style": "default",

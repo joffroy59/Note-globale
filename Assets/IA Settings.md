@@ -130,12 +130,16 @@ wip:
       sub_type:
         - civitai
         - WAN 2.1
+        - Workflow
         - Knowedge
       civitai:
         tag:
       WAN 2.1:
         tag:
           - '#IA/comfyui/flux'
+      Workflow:
+        tag:
+          - '#workflow'
   Task:
     title: 'Task - '
     folder: IA/Task

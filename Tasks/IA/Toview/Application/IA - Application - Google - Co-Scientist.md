@@ -7,7 +7,7 @@ ELN info:
   modified: 2025-03-20
   copyright: GNU Affero General Public License v3.0
 
-tags: ia toview 
+tags: ia toview
 
 ---
 ````ad-tip
@@ -23,6 +23,6 @@ title: Note
 
 
 
-`BUTTON[add-tasklist]`
+`BUTTON[add-tasklist-no-ask]`
 
 

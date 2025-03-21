@@ -23,8 +23,8 @@ idée en faissant [[IA Open WebUI - Generic - change workflow used for image]]
 
 - [/] [[Add - IA - Chat - Image Generation - Test]]
 - [ ] use a user imut for selection ffailure or succes image and the type of comment
-- [ ] add [[ExtractHeaderSimple - select header level]] 
+- [ ] add [[ExtractHeaderSimple - select header level]]
 - [ ] use settings
 
-`BUTTON[add-tasklist]`
+`BUTTON[add-tasklist-no-ask]`
 

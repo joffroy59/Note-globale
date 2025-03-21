@@ -56,7 +56,7 @@ collapse: closed
 
 
 
-`BUTTON[add-tasklist]`
+`BUTTON[add-tasklist-no-ask]`
 
 
 ---
@@ -64,16 +64,16 @@ collapse: closed
 ## Test reproduction en local
 
 ---
-### StabilityMatrix 
+### StabilityMatrix
 
-#### ComfyUI 
+#### ComfyUI
 [[#Test avec Comfy UI directement Workflow]]
 
 ---
 
 ![[Templates/elements/Add - IA - Action - Test Worflow ComfyUI]]
 ### Test avec Comfy UI directement Workflow
-pour trouver un meilleur workflow pour  Openweb UI 
+pour trouver un meilleur workflow pour  Openweb UI
 
 
 
@@ -83,7 +83,7 @@ pour trouver un meilleur workflow pour  Openweb UI
 title: Workflow
 collapse: closed
 
-workflow: 
+workflow:
 
 ![[workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai-API.json]]
 ![[workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai.json]]
@@ -105,8 +105,8 @@ collapse: closed
 ---
 
 ```ad-info
-title: prompt 
-collapse: closed 
+title: prompt
+collapse: closed
 
  Yellow Suzuki Jimny, a small modern car, escaping on an iceberg, antarctic landscape, snow storm,ultra wide angle, drone shot
 
@@ -115,8 +115,8 @@ collapse: closed
 ---
 
 ```ad-success
-title: Resultat 
- 
+title: Resultat
+
 
 ![[ComfyUI-Flux - openart.ai - FLUX basic workflow with 12Gb vram gpu-1742543506719.png|400x400]]
 
@@ -128,6 +128,66 @@ time: **todo**
 
 ---
 
+
+```````
+
+`BUTTON[add-test-ia-workflow-qa]`
+
+### Test avec Comfy UI directement Workflow
+
+```ad-info
+collapse: closed
+
+pour trouver un meilleur workflow pour  Openweb UI
+```
+
+```````ad-failure
+
+```ad-tldr
+title: Workflow
+collapse: closed
+
+workflow:
+
+⭐🚧 [flux_dev_example.](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cflux_dev_example.json)
+
+```
+
+---
+
+```ad-seealso
+title: config
+collapse: closed
+
+![[ComfyUI-Flux - openart.ai - FLUX basic workflow with 12Gb vram gpu ⭐⭐⭐-1742586149056.png|400x244]]
+
+```
+
+---
+
+```ad-info
+title: prompt
+collapse: closed
+
+ cute anime girl with massive fluffy fennec ears and a big fluffy tail blonde messy long hair blue eyes wearing a maid outfit with a long black gold leaf pattern dress and a white apron mouth open holding a fancy black forest cake with candles on top in the kitchen of an old dark Victorian mansion lit by candlelight with a bright window to the foggy forest and very expensive stuff everywhere
+
+```
+
+---
+
+```ad-success
+title: Resultat
+
+
+arret de omfyui
+
+```
+
+time: **todo**
+
+![[Assets/banner/Style1/Failure.png|300]]
+
+---
 
 ```````
 

@@ -18,7 +18,7 @@ tags:
 ![[Fix -  ComfyUI - Token indices sequence length-1742455966061.png|400x45]]
 
 
-`BUTTON[add-tasklist]`
+`BUTTON[add-tasklist-no-ask]`
 
 ````sh
 Token indices sequence length is longer than the specified maximum sequence length for this model (147 > 77). Running this sequence through the model will result in indexing errors

@@ -73,7 +73,9 @@
     "Templates/Add/TaskList Base.md",
     "Templates/Elements/Insert - IA - Comfy UI - Test.md",
     "Templates/IA/Add/Add - IA - Chat - Image Generation - Test.md",
-    "Templates/Insert assets/templates/Test New Note In Progress.md"
+    "Templates/Insert assets/templates/Test New Note In Progress.md",
+    "Templates/Add/TaskList Base No Ask.md",
+    ""
   ],
   "startup_templates": [
     ""
