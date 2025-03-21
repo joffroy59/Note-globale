@@ -1,7 +1,7 @@
 ### Test avec Comfy UI directement Workflow
 
-<%* 
-let time = await tp.system.prompt("Time", "SS.mm seconds", true, true);
+<%*
+let time = await tp.system.prompt("Time", "xx.yy seconds", true, true);
 -%>
 
 ```````ad-success
@@ -10,9 +10,8 @@ let time = await tp.system.prompt("Time", "SS.mm seconds", true, true);
 
 time:  **<% time %>**
 ![[Assets/banner/Style1/Success.png|300]]
-
 ```````
 
 <%*
-tR+= await tp.file.include(`[[Button- IA - Comfy UI - Test]]`);
+tR+= await tp.file.include(`[[Button - IA - Comfy UI - Test]]`);
 -%>
