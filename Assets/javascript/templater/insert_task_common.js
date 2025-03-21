@@ -6,7 +6,9 @@ function getLinesInString(input) {
   return input.split("\n");
 }
 
-
+function escapeRegExp(text) {
+  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+}
 /**********************************************************************************/
 //
 
@@ -172,9 +174,6 @@ function get_DailyNote_path(plugin_name, date = new Date()){
   const periodicNotesSettings = periodicNotesPlugin.settings;
   const dailyNoteSettings = periodicNotesSettings.daily;
 
-  console.log(periodicNotesSettings);
-
-  console.log(dailyNoteSettings.folder)
   // Get the path and filename for the daily note
   const dailyNotePath = replace_date_elemen(dailyNoteSettings.folder, date);
   const dailyNoteFilename = replace_date_elemen(dailyNoteSettings.format, date) + '.md';
@@ -183,8 +182,7 @@ function get_DailyNote_path(plugin_name, date = new Date()){
   const fullDailyNotePath = `${dailyNotePath}/${dailyNoteFilename}`;
 
   // Log the full path to the console
-  console.log(fullDailyNotePath);
-
+  console.log(`fullDailyNotePath:${fullDailyNotePath}`);
 
   return fullDailyNotePath
 }
@@ -229,7 +227,6 @@ async function insert_task_common(tp, project_name = null, show = false) {
   let filename = "Test - " + project_name;
 
   const daily_note_path = get_DailyNote_path('periodic-notes', date)
-  console.log(`daily_note_path=${daily_note_path}`)
 
   const settings_file = "Assets/Tasks Settings.md";
   const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
@@ -258,27 +255,23 @@ async function insert_task_common(tp, project_name = null, show = false) {
   let template_create = `${template_task_type_base}/${template_create_name}`
 
   let defaultTitle = `${global_task_type} - ${generic_type} - `
-  console.log(settings_root)
   console.log(`settings_root=${settings_root}`)
 
   let task_type_tags = settings_root.task_type[task_type.trim()].tags
 
   let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g, "_").toLowerCase()}`
   let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
-
   console.log(`template_create=${template_create}`)
-
   // Create Note
-  // let existing = tp.file.find_tfile(title);
-  // let createdFileDisplay;
-  // if (existing) {
-  //   createdFileDisplay = existing.basename;
-  //   new Notice(`${title} exists`)
-  // } else {
-  //   createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true, folder_base));
-  //   new Notice(`${title} Created.`, "/" + folder_base + "/")
-  // }
-  // //await tp.file.move("/"+ folder_base + "/" + title, folder_basetp.file.find_tfile(title));
+  let existing = tp.file.find_tfile(title);
+  let createdFileDisplay;
+  if (existing) {
+    createdFileDisplay = existing.basename;
+    new Notice(`${title} exists`)
+  } else {
+    createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true, folder_base));
+    new Notice(`${title} Created.`, "/" + folder_base + "/")
+  }
 
   let task_state = " "
   if (task_type == "Wip") task_state = "/"
@@ -287,25 +280,7 @@ async function insert_task_common(tp, project_name = null, show = false) {
     - [${task_state}]  [[${folder_base}/${title}|${title}]]  ${tags}    ➕ ${tp.date.now()}
 `;
 
-  console.log(`daily_note_path=${daily_note_path}`)
-
-  // const folder = path.join(folder_projects, project_name);
-  // const folder = folder_projects + '/' + project_name;
-  // if (!app.vault.getAbstractFileByPath(folder)) {
-  //   console.log(`${folder} does not exist.`);
-  //   console.log(`Creating folder ...`);
-  //   await app.vault.createFolder(folder)
-  // } else {
-  //   console.log(`${folder} exists.`);
-  // }
-  // console.log(`Creating new Wip note in folder ${folder} with name ${filename}`);
-  // const tfolder = app.vault.getAbstractFileByPath(folder);
-
-
-  //await tp.file.create_new(note_content, filename, show, tfolder);
-
   const dailyNote = tp.file.find_tfile(daily_note_path);
-  //await app.vault.modify(dailyNote, tp.file.content + note_content);
   let dailyNoteContent = await app.vault.read(dailyNote);
 
   console.log(`dailyNote=${dailyNote}`)
@@ -313,10 +288,13 @@ async function insert_task_common(tp, project_name = null, show = false) {
   const targetString = "🚧 Wip"
   console.log(`targetString=${targetString}`)
 
-  // const targetRegex = new RegExp(`\\s*${escapeRegExp(targetString.replace("\\n", ""))}\\s*`);
-  // console.log(targetRegex)
+  const targetRegex = new RegExp(`\\s*${escapeRegExp(targetString.replace("\\n", ""))}\\s*`);
+  // const targetRegex = new RegExp(`\\s*${targetString}\\s*`);
+  console.log(targetRegex)
   const fileContentLines = getLinesInString(dailyNoteContent);
-  let targetPosition = 12;
+  // let targetPosition = 12;
+  let targetPosition = fileContentLines.findIndex((line) => targetRegex.test(line));
+
   const targetNotFound = targetPosition === -1;
   if (targetNotFound) {
     reportError(new Error("Unable to find insert after line in file"), "Insert After Error");
