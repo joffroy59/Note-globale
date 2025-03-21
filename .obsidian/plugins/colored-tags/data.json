@@ -328,7 +328,8 @@
     "doublon": 162,
     "autre": 163,
     "to_fix": 164,
-    "IA/comfyui/comfyui": 4
+    "IA/comfyui/comfyui": 4,
+    "prompt": 165
   },
   "_version": 3
 }
