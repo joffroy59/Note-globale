@@ -16,8 +16,8 @@ tags:
 ## Tasks
 - [x] [[#Create Template]] ➕ 2025-03-20 ✅ 2025-03-20
 - [x] [[#Create js ]] ✅ 2025-03-20
-- [ ] [[#test avec templater]] 
-- [ ] [[#button]]
+- [x] [[#test avec templater]] ✅ 2025-03-21
+- [ ] [[#button]] et test ok sur daily note 
 
 ---
 
@@ -45,6 +45,23 @@ tags:
 
 in today note 
 
+
+### button
+
+```ad-info
+
+avec choix de la section mais avec des nom et du code static pas completemetn nettoye
+```
+
+#### Truc trouvés :
+
+- Récupérer la configuration du plugin  **Periodic Notes** pour utiliser le modèle de chemin et titre de la daily note avec remplacement des valeurs par celles du jour.
+- Insérer du  contenu dans  la note quotidienne dans une section spécifique, et l'ajouter à la fin de cette section
+    
+
+
+
+
 ```meta-bind-button
 label: testtest
 icon: ""
@@ -60,9 +77,14 @@ actions:
     templateFile: Templates/Insert assets/templates/Test New Note In Progress.md
 
 ```
-### button
+
+![[Assets/banner/Style1/Success.png|200]]
 
 
 
 
+```ad-success
+title: TODO ⭐⭐⭐
 
+cca va permettre de toute faire en js avec des parametre notemment pour factoriser enctre ligne creer et la page cree qui n'avait pas acces aux sous type et devait faire du "parsing degueux" de fodler et nom 
+```
