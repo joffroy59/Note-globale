@@ -27,7 +27,7 @@ Source : https://openart.ai/workflows/akihungac/flux-basic-workflow-with-12gb-vr
 
 worflow: workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai
 ⭐🚧 [workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai.json)
-✅ #todo
+✅ ![[workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai.json]]
 
 ![](https://cdn.openart.ai/workflow_thumbnails/lWPUz1PZXEZbfxIj2CMP/image_RYIFjk6E_1722582589117_raw.jpg)
 ````
@@ -65,17 +65,13 @@ collapse: closed
 ### StabilityMatrix 
 
 #### ComfyUI 
-##### Config
-Seed : 
-##### Execution
-##### Result
+[[#Test avec Comfy UI directement Workflow]]
 
 ---
 
-use [[Insert - IA - Comfy UI - Test]]
-
-### Test avec Comfy UI directement Workflow1
-pour trouver un mailleir workflow pour  Openweb UI 
+![[Templates/elements/Add - IA - Action - Test Worflow ComfyUI]]
+### Test avec Comfy UI directement Workflow
+pour trouver un meilleur workflow pour  Openweb UI 
 
 
 

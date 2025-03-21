@@ -1,5 +1,11 @@
-### Test avec Comfy UI directement Workflow1
-pour trouver un mailleir workflow pour  Openweb UI 
+### Test avec Comfy UI directement Workflow
+```ad-tip
+title: 
+collapse: closed
+
+pour trouver un meilleur workflow pour  Openweb UI 
+```
+
 
 <%* 
 let prompt = await tp.system.prompt("Prompt", null, true, true);
