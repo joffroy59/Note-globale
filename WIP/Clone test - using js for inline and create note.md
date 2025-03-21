@@ -15,10 +15,14 @@ tags:
 
 ---
 ## Tasks
-- [ ] Duplication ➕ 2025-03-21
+- [ ] [[#Duplication]] ➕ 2025-03-21
 
 ---
 ## Tasks Detail
+
+
+### Duplication
+#todo
 
 
 
