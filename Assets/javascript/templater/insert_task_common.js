@@ -71,6 +71,8 @@ function getEndOfSection(lines, targetLine, shouldConsiderSubsections) {
     if (nextEmptyStringIdx !== null && nextEmptyStringIdx > targetLine) {
       return nextEmptyStringIdx - 1;
     }
+    //console.log(`targetLine=${targetLine}`)
+
     return targetLine;
   }
   var lastLineInBodyIdx = lines.length - 1;
@@ -262,6 +264,7 @@ async function insert_task_common(tp, project_name = null, show = false) {
   let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g, "_").toLowerCase()}`
   let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
   console.log(`template_create=${template_create}`)
+
   // Create Note
   let existing = tp.file.find_tfile(title);
   let createdFileDisplay;
@@ -283,16 +286,10 @@ async function insert_task_common(tp, project_name = null, show = false) {
   const dailyNote = tp.file.find_tfile(daily_note_path);
   let dailyNoteContent = await app.vault.read(dailyNote);
 
-  console.log(`dailyNote=${dailyNote}`)
-  console.log(`dailyNoteContent=${dailyNoteContent}`)
   const targetString = "🚧 Wip"
-  console.log(`targetString=${targetString}`)
 
   const targetRegex = new RegExp(`\\s*${escapeRegExp(targetString.replace("\\n", ""))}\\s*`);
-  // const targetRegex = new RegExp(`\\s*${targetString}\\s*`);
-  console.log(targetRegex)
   const fileContentLines = getLinesInString(dailyNoteContent);
-  // let targetPosition = 12;
   let targetPosition = fileContentLines.findIndex((line) => targetRegex.test(line));
 
   const targetNotFound = targetPosition === -1;
@@ -300,23 +297,11 @@ async function insert_task_common(tp, project_name = null, show = false) {
     reportError(new Error("Unable to find insert after line in file"), "Insert After Error");
   }
   const endOfSectionIndex = getEndOfSection(fileContentLines, targetPosition, false);
-  console.log(`endOfSectionIndex=${endOfSectionIndex}`)
   targetPosition = endOfSectionIndex ?? fileContentLines.length - 1;
 
   newContent = insertTextAfterPositionInBody(note_content, dailyNoteContent, targetPosition);
-  console.log(newContent)
 
-
-  // if (endOfSectionIndex !== -1) {
-  //   const headerEndIndex = dailyNoteContent.indexOf("\n", endOfSectionIndex );
-  //   const newContent = dailyNoteContent.slice(0, headerEndIndex) + note_content + dailyNoteContent.slice(headerEndIndex);
-  //   // await dailyNote.write(newContent);
-    await app.vault.modify(dailyNote, newContent);
-
-  //   console.log(`Updated Daily Note ${daily_note_path}`);
-  // } else {
-  //   console.log("Header not found");
-  // }
+  await app.vault.modify(dailyNote, newContent);
 
   return ""
 }
