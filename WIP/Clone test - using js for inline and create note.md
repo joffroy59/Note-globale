@@ -98,3 +98,4 @@ a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enle
 
 ![[Clone test - using js for inline and create note-1742598221489.png|150]]
 
+je garde pour les tache sans sous sujet 
