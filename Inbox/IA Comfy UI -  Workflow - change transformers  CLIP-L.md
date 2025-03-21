@@ -231,7 +231,18 @@ time:  **41.56 seconds**
 ```````
 
 `BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
+### Test avec Comfy UI directement Workflow
 
+
+```````ad-success
+
+![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742596645583.png|400x400]]
+
+time:  **36.92 seconds**
+![[Assets/banner/Style1/Success.png|300]]
+```````
+
+`BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 
 
 
