@@ -131,7 +131,7 @@ time: **todo**
 
 ```````
 
-`BUTTON[add-test-ia-workflow-qa]`
+`BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 
 ### Test avec Comfy UI directement Workflow
 
@@ -191,7 +191,7 @@ time: **todo**
 
 ```````
 
-`BUTTON[add-test-ia-workflow-qa]`
+`BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 
 
 ---

@@ -1206,6 +1206,40 @@
           "command": "quickadd:choice:cd4b2c3f-fb41-491d-9570-efc6953bf613"
         }
       ]
+    },
+    {
+      "label": "Add Test IA Workflow (Success)",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "background-color: darkgreen",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-test-ia-workflow-success-qa",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:bcd1aed2-db65-4d88-85aa-d121c38257ed"
+        }
+      ]
+    },
+    {
+      "label": "Add Test IA Workflow (Failed)",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "background-color: Maroon",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-test-ia-workflow-failed-qa",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:1462a63e-5a03-41b6-995d-a923587c8e4c"
+        }
+      ]
     }
   ],
   "excludedFolders": [

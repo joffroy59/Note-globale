@@ -3,9 +3,9 @@
 ```ad-info
 collapse: closed
 
-pour trouver un meilleur workflow pour  Openweb UI 
+pour trouver un meilleur workflow pour  Openweb UI
 ```
-<%* 
+<%*
 let prompt = await tp.system.prompt("Prompt", null, true, true);
 let workflow_basedir = "D:%5CIA%5CComfyUI%20workflow%5CDownload"
 let workflow = await tp.system.prompt("Worflow file name  (no extension)", "");
@@ -18,7 +18,7 @@ let workflow_path = `${workflow_basedir}%5C${workflow}`
 title: Workflow
 collapse: closed
 
-workflow: 
+workflow:
 <%* if (workflow == "") { %>
 ![[Fichier Json du Worfklow (Export Comfy UI)]]
 <%* } else { %>
@@ -40,8 +40,8 @@ collapse: closed
 ---
 
 ```ad-info
-title: prompt 
-collapse: closed 
+title: prompt
+collapse: closed
 
  <% prompt %>
 
@@ -50,8 +50,8 @@ collapse: closed
 ---
 
 ```ad-success
-title: Resultat 
- 
+title: Resultat
+
 
 {Image}
 
@@ -64,8 +64,8 @@ time: **todo**
 ---
 
 ```ad-failure
-title: Resultat 
- 
+title: Resultat
+
 
 {Image}
 
@@ -79,4 +79,6 @@ time: **todo**
 
 ```````
 
-`BUTTON[add-test-ia-workflow-qa]`
+<%*
+tR+= await tp.file.include(`[[Button- IA - Comfy UI - Test]]`);
+-%>

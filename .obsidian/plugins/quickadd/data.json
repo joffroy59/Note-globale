@@ -170,6 +170,76 @@
           "openFileInMode": "default"
         },
         {
+          "id": "bcd1aed2-db65-4d88-85aa-d121c38257ed",
+          "name": "Add Test IA Workflow (Success)",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Success.md}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## Test reproduction en local",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "1462a63e-5a03-41b6-995d-a923587c8e4c",
+          "name": "Add Test IA Workflow (Failed)",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Failed.md}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## Test reproduction en local",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
           "id": "b725dd8a-fbbd-4938-bd3d-0cddd22045b5",
           "name": "Manual Prompt",
           "type": "Macro",
@@ -2096,76 +2166,6 @@
         "after": "",
         "insertAtEnd": false,
         "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "657a304e-e47a-48cd-ad55-4b1cdd30044e",
-      "name": "Add Test IA Workflow (copy)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Test reproduction en local",
-        "insertAtEnd": true,
-        "considerSubsections": true,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "ff4da3f7-794b-4270-899e-c5c7c9a3e95c",
-      "name": "Add Test IA Workflow (copy)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Test reproduction en local",
-        "insertAtEnd": true,
-        "considerSubsections": true,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },

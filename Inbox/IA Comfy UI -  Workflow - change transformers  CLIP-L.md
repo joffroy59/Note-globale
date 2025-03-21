@@ -91,7 +91,7 @@ collapse: closed
 	- [x] The "GmP" initial fine-tune is deprecated ViT-L-14-GmP-ft-TE-only-HF-format.safetensors ✅ 2025-03-21
 
 - [x] Install in [CLIP](file:///D:%5CIA%5CStabilityMatrix%5CModels%5CCLIP) ✅ 2025-03-21
-- [ ] [[#Test sur Workflow qui fonctionne deja]] 
+- [ ] [[#Test sur Workflow qui fonctionne deja]]
 
 
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742589720818.png|400x147]]
@@ -113,7 +113,7 @@ collapse: closed
 ```ad-info
 collapse: closed
 
-pour trouver un meilleur workflow pour  Openweb UI 
+pour trouver un meilleur workflow pour  Openweb UI
 ```
 
 ```````ad-success
@@ -122,7 +122,7 @@ pour trouver un meilleur workflow pour  Openweb UI
 title: Workflow
 collapse: closed
 
-workflow: 
+workflow:
 
 ⭐🚧 [workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai (2).](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai (2).json)
 
@@ -142,8 +142,8 @@ collapse: closed
 ---
 
 ```ad-info
-title: prompt 
-collapse: closed 
+title: prompt
+collapse: closed
 
  Yellow Suzuki Jimny, a small modern car, escaping on an iceberg, antarctic landscape, snow storm,ultra wide angle, drone shot
 
@@ -151,7 +151,7 @@ collapse: closed
 
 ---
 ```ad-abstract
-title: Original 
+title: Original
 seed: 198801461637189
 
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742590183850.png|400x400]]
@@ -162,7 +162,7 @@ time: **35.21 seconds**
 
 ---
 ```ad-success
-title: Resultat  
+title: Resultat
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742590694418.png|400x198]]
 
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742591565539.png|400x400]]
@@ -174,7 +174,7 @@ time: **37.91 seconds**
 
 ---
 ```ad-success
-title: Resultat  
+title: Resultat
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742590871579.png|400x201]]
 
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742590943514.png|400x400]]
@@ -187,7 +187,7 @@ time: **36.92 seconds**
 
 ---
 ```ad-success
-title: Resultat  
+title: Resultat
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742591230105.png|400x197]]
 
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742591252695.png|400x400]]
@@ -201,8 +201,22 @@ time: **37.51 seconds**
 ---
 ```````
 
-`BUTTON[add-test-ia-workflow-qa]`
+`BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
+### Test avec Comfy UI directement Workflow
 
+
+```````ad-success
+
+![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742596130693.png|400x400]]
+time:  **36.67 seconds**
+
+![[Assets/banner/Style1/Success.png|300]]
+
+---
+
+```````
+
+`BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 
 
 
