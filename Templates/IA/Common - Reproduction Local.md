@@ -18,19 +18,15 @@ let packageList = [
 <%* if (package) { -%>
 ---
 ### StabilityMatrix 
+<%*
+tR+= await tp.file.include(`[[Templates/elements/Insert - IA - Comfy UI - Test]]`);
+%>
+---
 <%*   if (package == new_test_workflow_note) { -%>
 #### ComfyUI 
 [[#Test avec Comfy UI directement Workflow]]
 
 ---
-
-![[Templates/elements/Add - IA - Action - Test Worflow ComfyUI]]
-<%*
-tR+= await tp.file.include(`[[Templates/elements/Insert - IA - Comfy UI - Test]]`);
-%>
----
-
-
 <%*   } else { -%>
 #### <% package %> 
 ##### Config
