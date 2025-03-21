@@ -1156,6 +1156,23 @@
           "templateFile": "Templates/IA/Add/Add - IA - Chat - Image Generation - Test - Result.md"
         }
       ]
+    },
+    {
+      "label": "Add New Test Workflow",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-test-ia-workflow",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "templater-obsidian:Templates/Elements/Insert - IA - Comfy UI - Test.md"
+        }
+      ]
     }
   ],
   "excludedFolders": [

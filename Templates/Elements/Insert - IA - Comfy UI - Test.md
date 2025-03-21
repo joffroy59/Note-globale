@@ -5,12 +5,9 @@ collapse: closed
 
 pour trouver un meilleur workflow pour  Openweb UI 
 ```
-
-
 <%* 
 let prompt = await tp.system.prompt("Prompt", null, true, true);
-%>
-
+-%>
 ```````ad-success
 
 ```ad-tldr
@@ -74,3 +71,5 @@ time: **todo**
 ---
 
 ```````
+
+`BUTTON[add-test-ia-workflow]`

@@ -131,21 +131,7 @@ time: **todo**
 
 ```````
 
-```meta-bind-button
-label: Add New Test Workflow
-icon: ""
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: add-test-ia-workflow
-hidden: false
-actions:
-  - type: command
-    command: templater-obsidian:Templates/Elements/Insert - IA - Comfy UI - Test.md
-
-```
+`BUTTON[add-test-ia-workflow]`
 
 ---
 ## Local
@@ -162,3 +148,79 @@ collapse: Closed
 creation date:: [[2025/03/12/📒2025-03-21]]  08:46
 
 
+### Test avec Comfy UI directement Workflow
+```ad-tip
+title: 
+collapse: closed
+
+pour trouver un meilleur workflow pour  Openweb UI 
+```
+
+
+
+
+```````ad-success
+
+```ad-tldr
+title: Workflow
+collapse: closed
+
+workflow: 
+![[Fichier Json du Worfklow (Export Comfy UI)]]
+
+```
+
+---
+
+```ad-seealso
+title: config
+collapse: closed
+
+
+{Image}
+
+```
+
+---
+
+```ad-info
+title: prompt 
+collapse: closed 
+
+ qsdqqd
+
+```
+
+---
+
+```ad-success
+title: Resultat 
+ 
+
+{Image}
+
+```
+
+time: **todo**
+
+![[Assets/banner/Style1/Success.png|300]]
+
+---
+
+```ad-failure
+title: Resultat 
+ 
+
+{Image}
+
+```
+
+time: **todo**
+
+![[Assets/banner/Style1/Failure.png|300]]
+
+---
+
+```````
+
+`BUTTON[add-test-ia-workflow]`
