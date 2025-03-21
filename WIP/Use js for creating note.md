@@ -35,7 +35,7 @@ tags:
 
 
 
-### test avec templater
+### test avec Templater
 
  ✅[[Test - test]]
 
