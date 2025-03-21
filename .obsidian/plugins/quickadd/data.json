@@ -147,9 +147,22 @@
             "createWithTemplate": false,
             "template": ""
           },
+        {
+          "id": "cd4be33f-fb41-491d-9570-efc6953bf613",
+          "name": "Add Test IA Workflow - Success",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
           "format": {
             "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
+            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Success.md}}"
           },
           "insertAfter": {
             "enabled": true,
@@ -2096,6 +2109,41 @@
         "after": "",
         "insertAtEnd": false,
         "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "349fba4e-6c8d-4c3d-b60e-900ce28d3e9d",
+      "name": "Add Test IA Workflow - Sucess",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Success.md}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Test reproduction en local",
+        "insertAtEnd": true,
+        "considerSubsections": true,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },

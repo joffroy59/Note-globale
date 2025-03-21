@@ -165,8 +165,7 @@ time: **35.21 seconds**
 title: Resultat  
 ![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742590694418.png|400x198]]
 
-![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742590734801.png|400x400]]
-
+![[IA Comfy UI -  Workflow - change transformers  CLIP-L-1742591565539.png|400x400]]
 ```
 
 time: **37.91 seconds**

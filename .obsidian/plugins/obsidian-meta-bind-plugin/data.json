@@ -1206,6 +1206,40 @@
           "command": "quickadd:choice:cd4b2c3f-fb41-491d-9570-efc6953bf613"
         }
       ]
+    },
+    {
+      "label": "Add Test IA Workflow Success",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "background: green;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-test-ia-workflow-success-qa",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:cd4b2c3f-fb41-491d-9570-efc6953bf613"
+        }
+      ]
+    },
+    {
+      "label": "Add Test IA Workflow Failed",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "background: Maroon;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-test-ia-workflow-failed-qa",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:cd4b2c3f-fb41-491d-9570-efc6953bf613"
+        }
+      ]
     }
   ],
   "excludedFolders": [
