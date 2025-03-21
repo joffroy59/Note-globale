@@ -131,23 +131,7 @@ time: **todo**
 
 ```````
 
-`BUTTON[add-test-ia-workflow]`
-
----
-## Local
-
-```ad-tip
-title: Stability Matrix - ComfyUI
-collapse: Closed
-
-- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
-- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
-```
-
----
-creation date:: [[2025/03/12/📒2025-03-21]]  08:46
-
-
+`BUTTON[add-test-ia-workflow-qa]`
 ### Test avec Comfy UI directement Workflow
 ```ad-tip
 title: 
@@ -155,10 +139,6 @@ collapse: closed
 
 pour trouver un meilleur workflow pour  Openweb UI 
 ```
-
-
-
-
 ```````ad-success
 
 ```ad-tldr
@@ -187,7 +167,7 @@ collapse: closed
 title: prompt 
 collapse: closed 
 
- qsdqqd
+ qsdqsd
 
 ```
 
@@ -224,3 +204,91 @@ time: **todo**
 ```````
 
 `BUTTON[add-test-ia-workflow]`
+### Test avec Comfy UI directement Workflow
+```ad-tip
+title: 
+collapse: closed
+
+pour trouver un meilleur workflow pour  Openweb UI 
+```
+```````ad-success
+
+```ad-tldr
+title: Workflow
+collapse: closed
+
+workflow: 
+![[Fichier Json du Worfklow (Export Comfy UI)]]
+
+```
+
+---
+
+```ad-seealso
+title: config
+collapse: closed
+
+
+{Image}
+
+```
+
+---
+
+```ad-info
+title: prompt 
+collapse: closed 
+
+ fh
+
+```
+
+---
+
+```ad-success
+title: Resultat 
+ 
+
+{Image}
+
+```
+
+time: **todo**
+
+![[Assets/banner/Style1/Success.png|300]]
+
+---
+
+```ad-failure
+title: Resultat 
+ 
+
+{Image}
+
+```
+
+time: **todo**
+
+![[Assets/banner/Style1/Failure.png|300]]
+
+---
+
+```````
+
+`BUTTON[add-test-ia-workflow]`
+
+---
+## Local
+
+```ad-tip
+title: Stability Matrix - ComfyUI
+collapse: Closed
+
+- `= "[Workflow]" + "(<file:///" + this.workflow_dir + ">)"`
+- `= "[Stability Project]" + "(<file:///" + this.stability_project_path + ">)"`*
+```
+
+---
+creation date:: [[2025/03/12/📒2025-03-21]]  08:46
+
+

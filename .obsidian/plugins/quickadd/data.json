@@ -135,6 +135,41 @@
       "command": true,
       "choices": [
         {
+          "id": "cd4b2c3f-fb41-491d-9570-efc6953bf613",
+          "name": "Add Test IA Workflow",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## Test reproduction en local",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
           "id": "b725dd8a-fbbd-4938-bd3d-0cddd22045b5",
           "name": "Manual Prompt",
           "type": "Macro",
@@ -170,7 +205,7 @@
           "macroId": "b4eb0104-eb08-4543-a0b6-156541ff1bcf"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "0dd5b13a-afa5-417c-8fd0-75105554cb77",
@@ -1786,7 +1821,6 @@
       },
       "openFile": false,
       "openFileInMode": "default"
-
     },
     {
       "id": "46200c83-0108-4fa0-8b84-19a969fba17b",

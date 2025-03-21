@@ -1173,6 +1173,23 @@
           "command": "templater-obsidian:Templates/Elements/Insert - IA - Comfy UI - Test.md"
         }
       ]
+    },
+    {
+      "label": "Add Test IA Workflow",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-test-ia-workflow-qa",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:cd4b2c3f-fb41-491d-9570-efc6953bf613"
+        }
+      ]
     }
   ],
   "excludedFolders": [
