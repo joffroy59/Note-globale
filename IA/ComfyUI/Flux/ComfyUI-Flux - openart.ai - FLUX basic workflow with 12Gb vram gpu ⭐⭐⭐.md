@@ -5,14 +5,11 @@ ELN info:
   author: Jerome Offroy
   modified: 2025-03-21
   copyright: GNU Affero General Public License v3.0
-
 project:
   name: IA
-
 wip:
   type: IA
   description: Travaux sur IA
-
 workflow_dir: D:\dev-data\IA\Stability Matrix Project\workflow_auto
 stability_project_path: D:\dev-data\IA\Stability Matrix Project
 tags:
@@ -21,6 +18,9 @@ tags:
   - IA/StabilityMatrix
   - IA/comfyui
   - IA/comfyui/flux
+  - wins
+  - success
+  - suivi
 ---
 ````ad-tip
 Source : https://openart.ai/workflows/akihungac/flux-basic-workflow-with-12gb-vram-gpu/0Uff0E2X9RTvcVXatIqI?msockid=361bfd4e2eb863dd06e2e8cc2f4c62a5
