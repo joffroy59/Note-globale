@@ -38,6 +38,8 @@ collapse: closed
 
 ![[ComfyUI-Flux - openart.ai - FLUX basic workflow with 12Gb vram gpu-1742543280530.png|400x595]]
 
+![[ComfyUI-Flux - openart.ai - FLUX basic workflow with 12Gb vram gpu ⭐⭐⭐-1742583090154.png|400x400]]
+
 ````
 
 
@@ -129,7 +131,21 @@ time: **todo**
 
 ```````
 
+```meta-bind-button
+label: Add New Test Workflow
+icon: ""
+style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: add-test-ia-workflow
+hidden: false
+actions:
+  - type: command
+    command: templater-obsidian:Templates/Elements/Insert - IA - Comfy UI - Test.md
 
+```
 
 ---
 ## Local
