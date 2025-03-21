@@ -9,10 +9,7 @@ let time = await tp.system.prompt("Time", "SS.mm seconds", true, true);
 {Image}
 
 time:  **<% time %>**
-
 ![[Assets/banner/Style1/Success.png|300]]
-
----
 
 ```````
 
