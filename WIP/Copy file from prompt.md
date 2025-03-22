@@ -16,7 +16,9 @@ tags:
 ---
 ## Tasks
 - [x] [[#Exemple of Templater asking for file]] ➕ 2025-03-22 ✅ 2025-03-22
-- [ ] use simple javascript to get the tile path ➕ 2025-03-22
+- [x] use simple javascript to get the tile path [[#Exemple of Templater asking for file]]  ➕ 2025-03-22 ✅ 2025-03-22
+- [x] [[#Copy file with Js]] ✅ 2025-03-22
+- [ ] [[#Use settings from [[IA Settings]]]]
 - [ ] 
 
 ---
@@ -38,13 +40,23 @@ Test avec Templater Modal
 ou ajout dans Templater pour aller plus vite 
 
 
-### Avant
+### Copy file with Js
+#### Avant
 ![[Copy file from prompt-1742671269205.png|400x440]]
 
-### Execution
+#### Execution
 
 ![[Copy file from prompt-1742671712205.png|400x85]]
-### Après
+#### Après
 ![[Copy file from prompt-1742671276069.png|400x217]]
 
 
+
+
+
+
+
+
+### Use settings from [[IA Settings]]
+use liste of possible src folder and dest workflow folder
+#todo
