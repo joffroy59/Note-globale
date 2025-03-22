@@ -22,7 +22,15 @@ tags:
   - IA/comfyui
 ---
 <%*
-let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
+let workflowDirList = [
+	"D:\\IA\\ComfyUI workflow\\Download",
+	"D:\\IA\\ComfyUI workflow\\totest",
+	"D:\\IA\\ComfyUI workflow",
+	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
+	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
+
+let worflowBaseFolder = workflowDirList[0]
+let defaultWorkflowName = "workflow_test"
 
 let title = tp.file.title
 let defaultTitle = "Untitled"
@@ -32,7 +40,16 @@ if (title.startsWith(defaultTitle)) {
   await tp.file.rename(`${title}`);
 }
 
-let worflow = await tp.system.prompt("Worflow file name  (no extension)", title);
+let workflow_filename = await tp.system.prompt("Worflow file name  (no extension)");
+
+if (workflow_filename){
+	worflowBaseFolder = await tp.user.copy_file_use_settings(tp, `${workflow_filename}.json`)
+} else {
+	worflowBaseFolder = "workflow_path"
+	workflow_filename = defaultWorkflowName
+}
+
+workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
 let url = await tp.system.prompt("url");
 
@@ -41,7 +58,7 @@ let generationData = await tp.system.prompt("Generation Data", null, false, true
 let note = await tp.system.prompt("Note", null, true, true);
 
 let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.includes("vimeo.com");
-let hasTip = (url || image || worflow)
+let hasTip = (url || image || workflow_filename)
 -%>
 <%* if (hasTip) { -%>
 ````ad-tip
@@ -49,8 +66,8 @@ let hasTip = (url || image || worflow)
 Source : <% url %>
 <%*   } -%>
 
-worflow: <% worflow %>
-⭐🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
+worflow: <% workflow_filename %>
+⭐🚧 [<% workflow_filename %>.json](<% workflowFolder + workflow_filename.replace(/ /g, '%20') %>.json)
 ✅ #todo
 
 <%*   if (isVideo) { -%>
