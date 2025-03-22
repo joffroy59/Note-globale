@@ -4,35 +4,10 @@ const path = require('path');
 const settings_file = "Assets/IA Settings.md";
 const type = "workflow"
 
-let settings_tfile; // Declare the variable
-let settings;       // Declare the variable
-let version;        // Declare the variable
-
-// let path_source_list;
-// let path_destinations_list
-
 let settings_folder_list
-
-function set_settings(settings_file) {
-    settings_tfile = app.vault.getAbstractFileByPath(settings_file);
-    settings = app.metadataCache.getFileCache(settings_tfile).frontmatter;
-
-    version = settings["ELN version"];
-
-    // path_source_list = settings.folders.sources;
-    // path_destinations_list = settings.folders["workflow"];
-
-    settings_folder_list = {
-        path_source_list: settings.folders.sources,
-        path_destinations_list: settings.folders[type],
-    };
-
-}
 
 // Fonction pour copier un fichier
 function copierFichier(fichier, source, destination) {
-    console.log(`version: ${version}`);
-
     const cheminSource = path.resolve(source, fichier);
     const cheminDestination = path.resolve(destination, fichier);
 
@@ -45,8 +20,8 @@ function copierFichier(fichier, source, destination) {
     });
 }
 
-function copy_file_use_settings(fichier) {
-    set_settings(settings_file);
+function copy_file_use_settings(tp, fichier) {
+    settings_folder_list = tp.user.set_settings(settings_file, type);
 
     // source = path_source_list[0]
     // source = path_dest[0]

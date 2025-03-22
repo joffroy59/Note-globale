@@ -5,6 +5,6 @@ let workflow_name = "workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jag
 
 let workflow_filename = `${workflow_name}.json`
 
-tp.user.copy_file_use_settings(workflow_filename)
+tp.user.copy_file_use_settings(tp, workflow_filename)
 
 %>
