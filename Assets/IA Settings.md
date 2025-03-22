@@ -191,9 +191,9 @@ logo:
 folders:
   sources:
     - C:\Users\jerom\Downloads
-    - C:\Test\Download
+    # - C:\Test\Download
   workflow:
-    - C:\Test\Target\
+    # - C:\Test\Target\
     - D:\IA\ComfyUI workflow\Download
     - D:\IA\ComfyUI workflow\totest
     - D:\IA\ComfyUI workflow
