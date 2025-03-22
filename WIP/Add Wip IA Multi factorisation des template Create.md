@@ -15,13 +15,13 @@ utilisation du nom de reperoire de la note creer pour enlever dernier difference
 
 ---
 ## Tasks
-- [ ] [[#Creer la page commune]]  ➕ 2025-03-22
+- [ ] [[#Créer la page commune]]  ➕ 2025-03-22
 
 ---
 ## Tasks Detail
 
 
-### Creer la page commune
+### Créer la page commune
 a partir de [[Create IA - Task - ComFyUI - WAN 2.1]]
 
 [[Create IA - Task - ComFyUI - Common.md]]
