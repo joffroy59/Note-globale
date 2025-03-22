@@ -40,7 +40,7 @@ async function copy_file_use_settings(tp, fichier) {
     copierFichier(fichier, source, destination);
     let message = `Copy todo ${fichier} from ${source} into ${destination}`;
     console.log(message);
-    return message;
+    return destination;
 }
 
 module.exports = copy_file_use_settings;

@@ -194,7 +194,8 @@ folders:
     # - C:\Test\Download
   workflow:
     # - C:\Test\Target\
-    - D:\IA\ComfyUI workflow\Download
+    - D:\dev-data\IA\ComfyUI workflow\Download\
+    - D:\IA\ComfyUI workflow\Download\
     - D:\IA\ComfyUI workflow\totest
     - D:\IA\ComfyUI workflow
     - D:\dev-data\IA\Stability Matrix Project\workflow_auto
