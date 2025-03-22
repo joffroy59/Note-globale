@@ -29,7 +29,7 @@ workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.
 ## Tasks
 - [x] [[Test - JS - Copy File]] ➕ 2025-03-22 ✅ 2025-03-22
 - [x] [[#Workflow]] workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai ✅ 2025-03-22
-- [ ] [[#Generalisation]]
+- [x] [[#Generalisation]] ✅ 2025-03-23
 
 
 ---
@@ -47,4 +47,4 @@ workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.
 
 
 ### Generalisation
-- [ ] se baser sur [[Create IA - Task - ComFyUI - Flux]]
+- [x] se baser sur [[Create IA - Task - ComFyUI - Flux]] ✅ 2025-03-23
