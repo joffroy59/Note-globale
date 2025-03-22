@@ -62,7 +62,7 @@ async function create_wip_ia_generic(tp, project_name = null, show = false) {
     await tp.file.rename(`${title}`);
   }
 
-  let worflow = await tp.system.prompt("Worflow file name  (no extension)");
+  let worflow = await tp.system.prompt("Workflow file name  (no extension)");
 
   if (worflow) {
     worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList, true, "Worflow file path");
