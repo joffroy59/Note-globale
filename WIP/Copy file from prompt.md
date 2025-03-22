@@ -43,6 +43,8 @@ ou ajout dans Templater pour aller plus vite
 
 ### Execution
 
-
+![[Copy file from prompt-1742671712205.png|400x85]]
 ### Après
 ![[Copy file from prompt-1742671276069.png|400x217]]
+
+
