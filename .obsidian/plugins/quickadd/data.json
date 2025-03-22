@@ -275,7 +275,7 @@
           "macroId": "b4eb0104-eb08-4543-a0b6-156541ff1bcf"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "0dd5b13a-afa5-417c-8fd0-75105554cb77",
@@ -2041,7 +2041,7 @@
     },
     {
       "id": "64b9ad23-d459-4357-a1d5-42f2ba2c6bb2",
-      "name": "Add TaskList",
+      "name": "📋Add TaskList",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -2111,7 +2111,7 @@
     },
     {
       "id": "6779abf3-8617-4591-b3d3-fbffbfc1bf98",
-      "name": "extract Header Simple v2",
+      "name": "#️⃣extract Header Simple v2",
       "type": "Capture",
       "command": true,
       "appendLink": false,

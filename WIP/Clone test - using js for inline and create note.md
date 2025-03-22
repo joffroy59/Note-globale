@@ -18,9 +18,9 @@ tags:
 - [ ] [[#Duplication]] ➕ 2025-03-21
 - [/] utlisation dans autre task 
 	- [x] dans [[Panel/Actions|Actions]] pour action rapide ✅ 2025-03-22
-	- [ ] [[#Task Type En cours]] a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enlever bouton existant 
-		- [ ] [[Panel/Actions|Actions]]
-		- [ ] note existantes
+	- [/] [[#Task Type En cours]] 
+	- [ ] [[#Wip IA civitai]] 
+	- [ ] [[#Wip IA simple ]]
 - [ ] regroupement type de creation de task pour en avoir qu'une seule avec settings ou comme ELN creation par project creation et definition des element du projet 
 - [ ] ??? que faire de 'Test Project'
 
@@ -99,3 +99,21 @@ a l'utilisation d'un type de task voir comment l'utiliser pour remplacer et enle
 ![[Clone test - using js for inline and create note-1742598221489.png|150]]
 
 je garde pour les tache sans sous sujet 
+
+
+### Wip IA civitai
+
+factorisation nouveau js pour wip ia
+il est commenté dans ia settings -> abandon a voir plus tard 
+
+### Wip IA simple
+
+- Flux NF4
+	- Templates/IA/Create IA - Task - ComFyUI - Flux NF4
+	- 
+- WAN 2.1
+	- Templates/IA/Create IA - Task - ComFyUI - WAN 2.1
+	- 
+
+comparaison 
+aandaon a reprendre plutard 👉 simplification avec nom de repertoire plutot : 
