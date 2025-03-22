@@ -25,9 +25,9 @@ pour ensuite faire la copy de fichier pour wip ia
 
 ---
 ## Tasks
-- [ ] [[#Test js simple]] ➕ 2025-03-22
-	- [ ] [[#Usage with Templater]]
-	- [ ] 
+- [x] [[#Test js simple]] ➕ 2025-03-22 ✅ 2025-03-23
+	- [x] [[#Usage with Templater]] ✅ 2025-03-23
+
 
 ---
 ## Tasks Detail

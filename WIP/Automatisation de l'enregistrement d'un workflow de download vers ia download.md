@@ -27,7 +27,7 @@ workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.
 
 ---
 ## Tasks
-- [x] [[Copy file from prompt]] ➕ 2025-03-22 ✅ 2025-03-22
+- [x] [[Test - JS - Copy File]] ➕ 2025-03-22 ✅ 2025-03-22
 - [x] [[#Workflow]] workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai ✅ 2025-03-22
 
 
