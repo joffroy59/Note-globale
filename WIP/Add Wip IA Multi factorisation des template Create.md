@@ -26,7 +26,7 @@ a partir de [[Create IA - Task - ComFyUI - WAN 2.1]]
 
 [[Create IA - Task - ComFyUI - Common.md]]
 
-![[Pasted image 20241229204151.png|300]]
+![[To Be Continued.png|300]]
 
 
 
