@@ -60,3 +60,8 @@ ou ajout dans Templater pour aller plus vite
 ### Use settings from [[IA Settings]]
 use liste of possible src folder and dest workflow folder
 #todo
+
+
+[[Test - JS - Copy File Use Settings]]
+
+[[copy_file_use_settings.js]]
