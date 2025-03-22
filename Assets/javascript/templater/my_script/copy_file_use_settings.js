@@ -8,21 +8,24 @@ let settings_tfile; // Declare the variable
 let settings;       // Declare the variable
 let version;        // Declare the variable
 
-let path_source_list;
-let path_destinations_list
+// let path_source_list;
+// let path_destinations_list
 
-function setSettings() {
+let settings_folder_list
+
+function set_settings() {
     settings_tfile = app.vault.getAbstractFileByPath(settings_file);
     settings = app.metadataCache.getFileCache(settings_tfile).frontmatter;
 
     version = settings["ELN version"];
 
-    console.log(settings)
-    path_source_list = settings.folders.sources;
-    console.log(`path_source_list[0]: ${path_source_list[0]}`);
-    path_destinations_list = settings.folders["workflow"];
-    console.log(`path_destinations_list: ${path_destinations_list}`);
-    console.log(`path_destinations_list[0]: ${path_destinations_list[0]}`);
+    // path_source_list = settings.folders.sources;
+    // path_destinations_list = settings.folders["workflow"];
+
+    settings_folder_list = {
+        path_source_list: settings.folders.sources,
+        path_destinations_list: settings.folders[type],
+    };
 
 }
 
@@ -43,12 +46,12 @@ function copierFichier(fichier, source, destination) {
 }
 
 function copy_file_use_settings(fichier) {
-    setSettings();
+    set_settings();
 
     // source = path_source_list[0]
     // source = path_dest[0]
-    const source = path_source_list[0]
-    const destination = path_destinations_list[0]
+    const source = settings_folder_list.path_source_list[0]
+    const destination = settings_folder_list.path_destinations_list[0]
 
 
     copierFichier(fichier, source, destination);

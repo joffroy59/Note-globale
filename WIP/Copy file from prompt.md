@@ -66,3 +66,5 @@ use liste of possible src folder and dest workflow folder
 
 [[copy_file_use_settings.js]]
 
+![[Assets/banner/Style1/Success.png|200]]
+
