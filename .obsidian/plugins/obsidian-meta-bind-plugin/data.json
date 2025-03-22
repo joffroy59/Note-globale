@@ -1257,6 +1257,40 @@
           "templateFile": "Templates/Insert assets/templates/Insert - Create - Task - Generic.md"
         }
       ]
+    },
+    {
+      "label": "Add Banner Success",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background-color: darkgreen",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-banner-sucess",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:46200c83-0108-4fa0-8b84-19a969fba17b"
+        }
+      ]
+    },
+    {
+      "label": "Add Banner Failure",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background-color: maroon",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-banner-failure",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:29d6a019-4c91-434c-961d-8561ee3ef7e2"
+        }
+      ]
     }
   ],
   "excludedFolders": [

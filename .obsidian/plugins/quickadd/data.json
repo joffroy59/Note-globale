@@ -352,6 +352,13 @@
       "command": true,
       "choices": [
         {
+          "id": "e4e0bab0-1000-40d2-ac76-4f0023ca5be6",
+          "name": "🧠IA",
+          "type": "Multi",
+          "command": true,
+          "choices": []
+        },
+        {
           "id": "588adc3b-1904-44d1-80f3-0109501536a5",
           "name": "Old",
           "type": "Multi",
@@ -2160,6 +2167,48 @@
       "format": {
         "enabled": true,
         "format": "{{TEMPLATE:Templates/Action/Suivi Recharge Clavier et Souris - Add External.md}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "27e7b4ba-9346-4307-9567-3de56eaa5b3a",
+      "name": "📋Task",
+      "type": "Multi",
+      "command": true,
+      "choices": []
+    },
+    {
+      "id": "6b4c2e19-cd36-4e1b-b387-b78a6c69bd91",
+      "name": "👉 Insert To Be Continued",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "![[Pasted image 20241229204151.png|300]]"
       },
       "insertAfter": {
         "enabled": false,

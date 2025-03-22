@@ -24,5 +24,7 @@ title: Note
 ## List 
 - [[embed_link_template]]
 - [[Rollover Button]]
-- [[To be Continued]]
+- [[To be Continued]] + quickadd
+- Templater + quickadd `BUTTON[add-banner-sucess]`
+- Templater + quickadd `BUTTON[add-banner-failure]`
 - 
