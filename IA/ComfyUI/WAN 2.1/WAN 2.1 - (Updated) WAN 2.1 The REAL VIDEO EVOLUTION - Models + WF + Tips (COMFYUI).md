@@ -25,7 +25,7 @@ tags:
 ```ad-tip
 Source : https://civitai.com/articles/11975/wan-21-the-real-video-evolution-models-wf-tips-comfyui
 
-worflow: img2vid-wan2.1-example
+workflow: img2vid-wan2.1-example
 ⭐ [img2vid-wan2.1-example.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cimg2vid-wan2.1-example.json)
 🚧 [img2vid-wan2.1-example.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5Cimg2vid-wan2.1-example.json)
 ✅ #todo

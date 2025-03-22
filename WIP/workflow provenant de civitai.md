@@ -15,20 +15,20 @@ url: "https://civitai.com/articles/8673/discover-the-mega-prompt-generator-v3-fo
 - [x]  install [GitHub - Isulion/ComfyUI_Isulion: Some nodes for ComfyUI](https://github.com/Isulion/ComfyUI_Isulion)
 
 
-# test 
+# test
 
 ## FLUX Worflow (old) Examples
 
-[](https://github.com/Isulion/ComfyUI_Isulion#flux-worflow-old-examples)
+[](https://github.com/Isulion/ComfyUI_Isulion#flux-workflow-old-examples)
 ![[Pasted image 20250122003246-1.png]]
 
 
 #### qsdqs d
 ![[Pasted image 20250122005549-1.png]]
-erreur pas assez de vram a priori 
+erreur pas assez de vram a priori
 
 
-ou les modele similaire sont pas les bon 
+ou les modele similaire sont pas les bon
 
 
 ![[Pasted image 20250122005656.png]]
@@ -40,10 +40,10 @@ ou les modele similaire sont pas les bon
 
 ![[Simple_Megaprompt_V3.workflow.json]]
 
-![[Flux GGUF text2img Workflow-1.png]]![[Flux GGUF text2img Workflow (2).json]]locla ok avec des model similaire pour la vram : 
+![[Flux GGUF text2img Workflow-1.png]]![[Flux GGUF text2img Workflow (2).json]]locla ok avec des model similaire pour la vram :
 ![[Pasted image 20250122013641-1.png]]
 
-# Test 2 
+# Test 2
 
 
 

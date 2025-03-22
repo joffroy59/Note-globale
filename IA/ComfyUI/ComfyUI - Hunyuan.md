@@ -32,7 +32,7 @@ collapse: open
 ```ad-tip
 Source : https://aivideo.hunyuan.tencent.com/
 
-worflow:
+workflow:
 🚧 [hunyuan_video_text_to_video.json](file:///D:%5Cdev-data%5CIA%5CComfyUI%20workflow%5Chunyuan_video_text_to_video.json)
 ✅ [OK - hunyuan_video_text_to_video.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5COK%20-%20hunyuan_video_text_to_video.json)
 

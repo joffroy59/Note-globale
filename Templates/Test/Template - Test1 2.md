@@ -11,7 +11,7 @@ let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :");
 if (!entree) entree = defaultValue
 
-let worflow = await tp.system.prompt("Worflow file paht");
+let workflow = await tp.system.prompt("Worflow file paht");
 let image = await tp.system.prompt("Image");
 let note = await tp.system.prompt("Note", null, true, true);
 %>
@@ -22,7 +22,7 @@ collapse: open
 - [/] <% entree %>  #status/wip #IA #IA/comfyui/flux  ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>
 
 ```ad-tip
-worflow: <% worflow %>
+workflow: <% workflow %>
 image: ![](<% image %>)
 ```
 

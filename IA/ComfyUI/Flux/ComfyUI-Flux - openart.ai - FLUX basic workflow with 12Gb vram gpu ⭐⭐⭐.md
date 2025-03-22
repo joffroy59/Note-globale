@@ -25,7 +25,7 @@ tags:
 ````ad-tip
 Source : https://openart.ai/workflows/akihungac/flux-basic-workflow-with-12gb-vram-gpu/0Uff0E2X9RTvcVXatIqI?msockid=361bfd4e2eb863dd06e2e8cc2f4c62a5
 
-worflow: workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai
+workflow: workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai
 ⭐🚧 [workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai.json)
 ✅ ![[workflow-flux-basic-workflow-with-12gb-vram-gpu-0Uff0E2X9RTvcVXatIqI-akihungac-openart.ai.json]]
 

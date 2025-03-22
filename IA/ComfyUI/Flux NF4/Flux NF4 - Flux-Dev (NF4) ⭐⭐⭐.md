@@ -26,7 +26,7 @@ tags:
 ``````ad-tip
 Source : https://openart.ai/workflows/lizard_aromatic_80/flux-dev-nf4/RLKikG7kkkp5MJkVAlev
 
-```embed 
+```embed
 title: "Flux-Dev (NF4) | ComfyUI Workflow | OpenArt"
 image: "https://cdn.openart.ai/workflow_thumbnails/ozahwGTkKKAlmoGcy3Yx/image_zErkaJfs_1723411799672_raw.jpg"
 description: "Created by: Rachid AR: Workflow for 4GB-10GB VRAM."
@@ -35,7 +35,7 @@ url: "https://openart.ai/workflows/lizard_aromatic_80/flux-dev-nf4/RLKikG7kkkp5M
 
 
 
-worflow: workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai
+workflow: workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai
 ⭐🚧 [workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai.json)
 ✅ #todo
 
@@ -84,7 +84,7 @@ collapse: closed
 
 
 ### Test avec Comfy UI directement Workflow1
-pour trouver un meilleur workflow pour  Openweb UI 
+pour trouver un meilleur workflow pour  Openweb UI
 
 
 ```````ad-success
@@ -93,7 +93,7 @@ pour trouver un meilleur workflow pour  Openweb UI
 title: Workflow
 collapse: closed
 
-workflow: 
+workflow:
 ![[workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai (1).json]]
 ![[workflow-flux-dev-nf4-RLKikG7kkkp5MJkVAlev-lizard_aromatic_80-openart.ai-API.json]]
 
@@ -115,8 +115,8 @@ collapse: closed
 ---
 
 ```ad-info
-title: prompt 
-collapse: closed 
+title: prompt
+collapse: closed
 
  an iphone photo of a lone figure silhouetted against the deep blue hues of a futuristic cityscape, his black coat flowing like a liquid night sky as he strides through the neon-drenched avenues. His gray trousers echo the cityscape's industrial edge, while futuristic sunglasses cast a cool, digital glow on his sharp features. His black hair is the stark contrast to the vibrant city, a lone island of humanity in a sea of technological marvels. Neon signs illuminate his path, revealing glimpses of flying cars and towering skyscrapers that pierce the twilight sky, while holographic advertisements shimmer on the walls. His posture is that of someone lost in thought, yet resolute, as he walks towards an unknown destiny.
 
@@ -124,8 +124,8 @@ collapse: closed
 ---
 
 ```ad-success
-title: Resultat 
- 
+title: Resultat
+
 
 ![[Flux NF4 - Flux-Dev _NF4_-1742456329158.png|400x274]]
 

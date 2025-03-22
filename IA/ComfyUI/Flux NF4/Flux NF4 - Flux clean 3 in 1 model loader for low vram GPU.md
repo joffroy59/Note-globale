@@ -25,7 +25,7 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/ailab/flux-clean-3-in-1-model-loader-for-low-vram-gpu/8Y9ls7RDnKvi7l7zdake
 
-worflow: workflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai
+workflow: workflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai
 ⭐🚧 [workflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-clean-3-in-1-model-loader-for-low-vram-gpu-8Y9ls7RDnKvi7l7zdake-ailab-openart.ai.json)
 ✅ #todo
 

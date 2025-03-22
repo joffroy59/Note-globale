@@ -30,7 +30,7 @@ collapse: open
 ```ad-tip
 source:
 
-worflow: civitai_flux_t2i_workflow_OK
+workflow: civitai_flux_t2i_workflow_OK
 [civitai_flux_t2i_workflow_OK.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5Ccivitai_flux_t2i_workflow_OK.json)
 
 

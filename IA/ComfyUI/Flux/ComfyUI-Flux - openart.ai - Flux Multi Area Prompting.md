@@ -25,7 +25,7 @@ tags:
 ````ad-tip
 Source : https://openart.ai/workflows/jaguar_pesky_18/flux-multi-area-prompting/iEV0GPNdgjVp68QRYqEO
 
-worflow: workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai
+workflow: workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai
 ⭐🚧 [workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5C%5Cworkflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai.json)
 ✅ #todo
 
@@ -109,7 +109,7 @@ collapse: closed
 ## Test reproduction en local
 
 ---
-### StabilityMatrix 
+### StabilityMatrix
 ### Test avec Comfy UI directement Workflow
 
 ```ad-info
@@ -185,7 +185,7 @@ time: **todo**
 
 `BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 ---
-#### ComfyUI 
+#### ComfyUI
 [[#Test avec Comfy UI directement Workflow]]
 
 ---

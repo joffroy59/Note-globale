@@ -20,9 +20,9 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/utan_blissful_23/flux1---nf4--upscale/8z8Bt9fMOdKtoChCfMbw
 
-worflow: workflow-flux1---nf4--upscale-8z8Bt9fMOdKtoChCfMbw-utan_blissful_23-openart.ai 
+workflow: workflow-flux1---nf4--upscale-8z8Bt9fMOdKtoChCfMbw-utan_blissful_23-openart.ai
 ⭐🚧 [workflow-flux1---nf4--upscale-8z8Bt9fMOdKtoChCfMbw-utan_blissful_23-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux1---nf4--upscale-8z8Bt9fMOdKtoChCfMbw-utan_blissful_23-openart.ai.json)
-✅ #todo 
+✅ #todo
 
 image: ![](https://cdn.openart.ai/workflow_thumbnails/HtvTSHVYdSb7X2g2NKgx/image_L6C2dIbX_1726111852667_raw.jpg)
 
@@ -32,7 +32,7 @@ image: ![](https://cdn.openart.ai/workflow_thumbnails/HtvTSHVYdSb7X2g2NKgx/image
 ````ad-quote
 title: Generation data 🛑
 
- 
+
 
 ````
 
@@ -46,7 +46,7 @@ title: Note
 ```
 
 ```ad-note
-title: Model detail 
+title: Model detail
 
 {
   "checkpoints": {
@@ -62,7 +62,7 @@ title: Model detail
   "other_models": {}
 }
 
- 
+
 
 ```
 

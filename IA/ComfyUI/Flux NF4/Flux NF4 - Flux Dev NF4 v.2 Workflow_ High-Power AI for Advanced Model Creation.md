@@ -25,9 +25,9 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/elim_droflem/flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation/OZYfC9fFQ5dB6cOufAnk
 
-worflow: workflow-flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation-OZYfC9fFQ5dB6cOufAnk-elim_droflem-openart.ai 
+workflow: workflow-flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation-OZYfC9fFQ5dB6cOufAnk-elim_droflem-openart.ai
 ⭐🚧 [workflow-flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation-OZYfC9fFQ5dB6cOufAnk-elim_droflem-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-dev-nf4-v2-workflow-high-power-ai-for-advanced-model-creation-OZYfC9fFQ5dB6cOufAnk-elim_droflem-openart.ai.json)
-✅ #todo 
+✅ #todo
 
 image: ![|400](https://cdn.openart.ai/workflow_thumbnails/yb7XQBjXFnzqFG1aD35k/image_9OJXoPB3_1725960385758_raw.jpg)
 
@@ -44,7 +44,7 @@ The image shows two young men in a futuristic space station. They are both weari
 ```ad-note
 title: Note
 
- 
+
 
 ```
 ```ad-info
@@ -61,7 +61,7 @@ collapse: closed
 ---
 
 ## Test reproduction en local
-### StabilityMatrix 
+### StabilityMatrix
 #### ComfyUI
 ##### Config
 ##### Execution

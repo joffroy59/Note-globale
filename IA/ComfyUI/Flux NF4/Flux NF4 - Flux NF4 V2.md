@@ -25,7 +25,7 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/datou/flux-nf4-v2/ewl8i7fqvv8hDFvzntMn
 
-worflow: workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai
+workflow: workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai
 ⭐ [workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json)
 🚧 [workflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5Cworkflow-flux-nf4-v2-ewl8i7fqvv8hDFvzntMn-datou-openart.ai.json)
 ✅ #todo

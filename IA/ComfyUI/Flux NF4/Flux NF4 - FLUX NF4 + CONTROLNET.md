@@ -25,7 +25,7 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/ailab/flux-controlnet-v3-canny-depth-hed/1VE0TT4f8ohI8fQp6wNb
 
-worflow: workflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai
+workflow: workflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai
 ⭐🚧 [workflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-controlnet-s8euDyUTsbNuTx5UglBQ-shark_colorful_28-openart.ai.json)
 ✅ #todo
 

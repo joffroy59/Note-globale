@@ -20,8 +20,8 @@ Source : https://docs.openwebui.com/tutorials/images/#:~:text=Open%20WebUI%20sup
 
 ---
 ## Tasks
-- [ ] [[#config openweb ui]] 
-- [ ] [[#trouver un BON worflow ]]
+- [ ] [[#config openweb ui]]
+- [ ] [[#trouver un BON workflow ]]
 - [ ] [[#Tester Fonction Outils]]
 ---
 
@@ -35,9 +35,9 @@ ok
 
 
 
-### trouver un BON worflow
+### trouver un BON workflow
 
-#### workflow actuel 
+#### workflow actuel
 ```json fold
 {
   "3": {
@@ -151,7 +151,7 @@ ok
 ![[OpenWebUI - generation Image-1741559279127.png|400x326]]
 
 ![[OpenWebUI - generation Image-1741559298464.png|400x338]]
-#### Golbal config 
+#### Golbal config
 ![[OpenWebUI - generation Image-1741559780903.png|400x116]]
 
 ![[OpenWebUI - generation Image-1741559974621.png|400x194]]

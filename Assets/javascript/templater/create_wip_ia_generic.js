@@ -51,7 +51,7 @@ async function create_wip_ia_generic(tp, project_name = null, show = false) {
     "D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
 
-  worflowBaseFolder = workflowDirList[0]
+  workflowBaseFolder = workflowDirList[0]
   let defaultWorkflowName = "workflow_test"
 
   let title = tp.file.title
@@ -62,15 +62,15 @@ async function create_wip_ia_generic(tp, project_name = null, show = false) {
     await tp.file.rename(`${title}`);
   }
 
-  let worflow = await tp.system.prompt("Workflow file name  (no extension)");
+  let workflow = await tp.system.prompt("Workflow file name  (no extension)");
 
-  if (worflow) {
-    worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList, true, "Worflow file path");
+  if (workflow) {
+    workflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList, true, "Worflow file path");
   } else {
-    worflow = defaultWorkflowName
+    workflow = defaultWorkflowName
   }
 
-  workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
+  workflowFolder = "file:///" + workflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
   let url = await tp.system.prompt("url");
 

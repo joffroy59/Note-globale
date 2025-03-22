@@ -25,7 +25,7 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/mentor_ai/flux-nf4-comfyui-basic-workflow/7QgBrjXFKDO57w0orNVc
 
-worflow: workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai
+workflow: workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai
 ⭐🚧 [workflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-nf4-comfyui-basic-workflow-7QgBrjXFKDO57w0orNVc-mentor_ai-openart.ai.json)
 ✅ #todo
 

@@ -37,7 +37,7 @@ description: "A powerful set of tools for ComfyUI. Contribute to crystian/ComfyU
 url: "https://github.com/crystian/ComfyUI-Crystools/tree/main"
 ```
 
-worflow:
+workflow:
 [.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C.json)
 
 

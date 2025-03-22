@@ -30,7 +30,7 @@ collapse: open
 ```ad-tip
 source: Modéle de ComfyUI
 
-worflow: Génération d'images
+workflow: Génération d'images
 [Génération d'images.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5CGénération%20d'images.json)
 
 

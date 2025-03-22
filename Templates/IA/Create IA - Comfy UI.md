@@ -61,7 +61,7 @@ let workflowDirList = [
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
-let worflowBaseFolder= workflowDirList[0]
+let workflowBaseFolder= workflowDirList[0]
 let defaultWorkflowName = "workflow_test"
 
 let defaultTitle = "Untitled"
@@ -71,15 +71,15 @@ if (title.startsWith(defaultTitle)) {
   await tp.file.rename(`${title}`);
 }
 
-let worflow = await tp.system.prompt("Worflow file name  (no extension)");
+let workflow = await tp.system.prompt("Worflow file name  (no extension)");
 
-if (worflow){
-	worflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList, true, "Worflow file path");
+if (workflow){
+	workflowBaseFolder = await tp.system.suggester((item) => item, workflowDirList, true, "Worflow file path");
 } else {
-	worflow = defaultWorkflowName
+	workflow = defaultWorkflowName
 }
 
-workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
+workflowFolder = "file:///" + workflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
 let url = await tp.system.prompt("url");
 
@@ -97,8 +97,8 @@ let hasTip = (url || image)
 Source : <% url %>
 <%*   } -%>
 
-worflow: <% worflow %>
-⭐🚧 [<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
+workflow: <% workflow %>
+⭐🚧 [<% workflow %>.json](<% workflowFolder + workflow.replace(/ /g, '%20') %>.json)
 ✅ #todo
 
 <%*   if (isVideo) { -%>

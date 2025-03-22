@@ -45,7 +45,7 @@ _%>
 let workflowFolder= "file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5C"
 
 let title = config.filename.value
-let worflow = config.filename.value
+let workflow = config.filename.value
 
 let defaultValue = "WIP IA"
 let entree = await tp.system.prompt("Enter a content :","[[" + title + "]]");
@@ -66,8 +66,8 @@ collapse: open
 ```ad-tip
 source:
 
-worflow: <% worflow %>
-[<% worflow %>.json](<% workflowFolder + worflow.replace(/ /g, '%20') %>.json)
+workflow: <% workflow %>
+[<% workflow %>.json](<% workflowFolder + workflow.replace(/ /g, '%20') %>.json)
 
 
 image: ![](<% image %>)

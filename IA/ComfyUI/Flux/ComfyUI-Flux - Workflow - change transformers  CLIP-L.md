@@ -30,7 +30,7 @@ tags:
 ````ad-tip
 Source : https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14
 
-worflow: workflow_test
+workflow: workflow_test
 ⭐🚧 [workflow_test.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow_test.json)
 ✅ #todo
 

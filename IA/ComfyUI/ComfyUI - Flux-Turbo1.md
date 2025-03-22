@@ -23,7 +23,7 @@ tags:
 ```ad-tip
 Source : https://civitai.com/articles/11827/flux-turbo1
 
-worflow: FLUX-TURBO1
+workflow: FLUX-TURBO1
 [FLUX-TURBO1.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5CFLUX-TURBO1.json)
 
 

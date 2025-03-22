@@ -25,7 +25,7 @@ tags:
 ---
 
 ---
- 
+
 `````ad-example
 title: WIP IA - ComfyUI
 collapse: open
@@ -33,18 +33,18 @@ collapse: open
 ```ad-tip
 Source : https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
 
-worflow:  
+workflow:
 [hyvideo_v2v_example_01.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow_auto%5Chyvideo_v2v_example_01.json)
 
 
-image:  
+image:
 
 
 ```
 
 ```ad-note
 title: Note
- 
+
 
 ```
 
@@ -64,7 +64,7 @@ collapse: Closed
 ```
 
 ---
-## test différent worflow d'exemple du site 
+## test différent workflow d'exemple du site
 ```embed
 title: "ComfyUI-HunyuanVideoWrapper"
 image: "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://raw.githubusercontent.com/kijai/ComfyUI-HunyuanVideoWrapper/&size=128"
@@ -76,7 +76,7 @@ url: "https://raw.githubusercontent.com/kijai/ComfyUI-HunyuanVideoWrapper/"
 
 sqdfsqdqsd
 
-### 2 
+### 2
 
 ---
 creation date:: [[2025/02/08/📒2025-02-22]]  18:04

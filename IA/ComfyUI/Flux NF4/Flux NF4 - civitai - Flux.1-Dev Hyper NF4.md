@@ -25,7 +25,7 @@ tags:
 ```ad-tip
 Source : https://civitai.com/models/638187/flux1-dev-hyper-nf4-flux1-dev-bnb-nf4-flux1-schnell-bnb-nf4?modelVersionId=819165
 
-worflow: workflow_test
+workflow: workflow_test
 ⭐🚧 [workflow_test.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow_test.json)
 ✅ #todo
 

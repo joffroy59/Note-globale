@@ -27,7 +27,7 @@ tags:
 ```ad-tip
 Source : https://civitai.com/articles/1648/comfy-ui-workflow-xl6-hephaistos
 
-worflow: comfy_workflow_hephaistos
+workflow: comfy_workflow_hephaistos
 [comfy_workflow_hephaistos.json](file:///D:%5Cdev-data%5CIA%5CStability%20Matrix%20Project%5Cworkflow%5Ccomfy_workflow_hephaistos.json)
 
 

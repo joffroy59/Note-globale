@@ -32,7 +32,7 @@ collapse: open
 ```ad-tip
 Source : https://www.bing.com/videos/riverview/relatedvideo?&q=flux1+vram+low&qpvt=flux1+vram+low&mid=B5AEBE488DC77195EEC2B5AEBE488DC77195EEC2&mmscn=mtsc&aps=144&FORM=VRDGAR
 
-worflow:
+workflow:
 
 image:
 ```embed

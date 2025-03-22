@@ -31,7 +31,7 @@ let workflowDirList = [
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto",
 	"D:\\dev-data\\IA\\Stability Matrix Project\\workflow"]
 
-let worflowBaseFolder = workflowDirList[0]
+let workflowBaseFolder = workflowDirList[0]
 let defaultWorkflowName = "workflow_test"
 
 let title = tp.file.title
@@ -45,13 +45,13 @@ if (title.startsWith(defaultTitle)) {
 let workflow_filename = await tp.system.prompt("Worflow file name  (no extension)");
 
 if (workflow_filename){
-	worflowBaseFolder = await tp.user.copy_file_use_settings(tp, `${workflow_filename}.json`)
+	workflowBaseFolder = await tp.user.copy_file_use_settings(tp, `${workflow_filename}.json`)
 } else {
-	worflowBaseFolder = "workflow_path"
+	workflowBaseFolder = "workflow_path"
 	workflow_filename = defaultWorkflowName
 }
 
-workflowFolder = "file:///" + worflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
+workflowFolder = "file:///" + workflowBaseFolder.replace(/ /g, '%20').replace(/\\/g, '%5C') + "%5C"
 
 let url = await tp.system.prompt("url");
 
@@ -68,7 +68,7 @@ let hasTip = (url || image)
 Source : <% url %>
 <%*   } -%>
 
-worflow: <% workflow_filename %>
+workflow: <% workflow_filename %>
 ⭐🚧 [<% workflow_filename %>.json](<% workflowFolder + workflow_filename.replace(/ /g, '%20') %>.json)
 ✅ #todo
 

@@ -26,7 +26,7 @@ tags:
 ```ad-tip
 Source : https://openart.ai/workflows/reverentelusarca/flux-bnb-nf4-v2-fastest-flux-dev/moAPwvEbR9YZRVIZvyjA
 
-worflow: workflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai (1)
+workflow: workflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai (1)
 ⭐🚧 [workflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai (1).json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-bnb-nf4-v2-fastest-flux-dev-moAPwvEbR9YZRVIZvyjA-reverentelusarca-openart.ai%20(1).json)
 ✅ #todo
 

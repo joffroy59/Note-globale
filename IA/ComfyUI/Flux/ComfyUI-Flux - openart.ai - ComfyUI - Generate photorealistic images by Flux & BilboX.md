@@ -25,7 +25,7 @@ tags:
 ````ad-tip
 Source : https://openart.ai/workflows/cgtips/comfyui---generate-photorealistic-images-by-flux-bilbox/DPdcUGh1gB99gMkR1jF1?msockid=361bfd4e2eb863dd06e2e8cc2f4c62a5
 
-worflow: workflow-comfyui---generate-photorealistic-images-by-flux-bilbox-DPdcUGh1gB99gMkR1jF1-cgtips-openart.ai.json
+workflow: workflow-comfyui---generate-photorealistic-images-by-flux-bilbox-DPdcUGh1gB99gMkR1jF1-cgtips-openart.ai.json
 ⭐🚧 [workflow-comfyui---generate-photorealistic-images-by-flux-bilbox-DPdcUGh1gB99gMkR1jF1-cgtips-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-comfyui---generate-photorealistic-images-by-flux-bilbox-DPdcUGh1gB99gMkR1jF1-cgtips-openart.ai.json)
 ✅ #todo
 
@@ -69,11 +69,11 @@ collapse: closed
 ## Test reproduction en local
 
 ---
-### StabilityMatrix 
+### StabilityMatrix
 
-#### ComfyUI 
+#### ComfyUI
 ##### Config
-Seed : 
+Seed :
 ##### Execution
 ##### Result
 
