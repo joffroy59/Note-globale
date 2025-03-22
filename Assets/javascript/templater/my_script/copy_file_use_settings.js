@@ -2,24 +2,33 @@ const fs = require('fs');
 const path = require('path');
 
 const settings_file = "Assets/IA Settings.md";
+const type = "workflow"
 
-settings_tfile;
-settings;
-version;
+let settings_tfile; // Declare the variable
+let settings;       // Declare the variable
+let version;        // Declare the variable
 
-function setSettings(){
+let path_source_list;
+let path_destinations_list
+
+function setSettings() {
     settings_tfile = app.vault.getAbstractFileByPath(settings_file);
     settings = app.metadataCache.getFileCache(settings_tfile).frontmatter;
 
     version = settings["ELN version"];
+
+    console.log(settings)
+    path_source_list = settings.folders.sources;
+    console.log(`path_source_list[0]: ${path_source_list[0]}`);
+    path_destinations_list = settings.folders["workflow"];
+    console.log(`path_destinations_list: ${path_destinations_list}`);
+    console.log(`path_destinations_list[0]: ${path_destinations_list[0]}`);
+
 }
 
 // Fonction pour copier un fichier
 function copierFichier(fichier, source, destination) {
-
-    setSettings();
-    console.log(`version: ${version}`)
-
+    console.log(`version: ${version}`);
 
     const cheminSource = path.resolve(source, fichier);
     const cheminDestination = path.resolve(destination, fichier);
@@ -33,18 +42,18 @@ function copierFichier(fichier, source, destination) {
     });
 }
 
-// Exemple d'utilisation
-// const fichier = 'mon_fichier.md';
-// const source = '/chemin/de/source';
-// const destination = '/chemin/de/destination';
+function copy_file_use_settings(fichier) {
+    setSettings();
 
-//copierFichier(fichier, source, destination);
+    // source = path_source_list[0]
+    // source = path_dest[0]
+    const source = path_source_list[0]
+    const destination = path_destinations_list[0]
 
 
-function copy_file_use_settings(fichier, source, destination) {
-    copierFichier(fichier, source, destination)
-    let message = `Copy todo ${fichier} from ${source} into ${destination}`
-    console.log(message)
+    copierFichier(fichier, source, destination);
+    let message = `Copy todo ${fichier} from ${source} into ${destination}`;
+    console.log(message);
     return message;
 }
 

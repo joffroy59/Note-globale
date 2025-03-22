@@ -189,16 +189,16 @@ logo:
 
 
 folders:
-  src:
-    - C:\\Test\\Download
-    - C:\\Test\\Download
+  sources:
+    - C:\Test\Download
+    - C:\Test\Download
   workflow:
-    - C:\\Test\\Target\\
-    - D:\\IA\\ComfyUI workflow\\Download
-    - D:\\IA\\ComfyUI workflow\\totest
-    - D:\\IA\\ComfyUI workflow
-    - D:\\dev-data\\IA\\Stability Matrix Project\\workflow_auto
-    - D:\\dev-data\\IA\\Stability Matrix Project\\workflow
+    - C:\Test\Target\
+    - D:\IA\ComfyUI workflow\Download
+    - D:\IA\ComfyUI workflow\totest
+    - D:\IA\ComfyUI workflow
+    - D:\dev-data\IA\Stability Matrix Project\workflow_auto
+    - D:\dev-data\IA\Stability Matrix Project\workflow
 
 
 ---
