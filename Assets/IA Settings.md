@@ -191,7 +191,6 @@ logo:
 folders:
   sources:
     - C:\Test\Download
-    - C:\Test\Download
   workflow:
     - C:\Test\Target\
     - D:\IA\ComfyUI workflow\Download

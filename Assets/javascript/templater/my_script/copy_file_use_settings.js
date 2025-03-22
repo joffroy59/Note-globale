@@ -6,6 +6,8 @@ const type = "workflow"
 
 let settings_folder_list
 
+let tp
+
 // Fonction pour copier un fichier
 function copierFichier(fichier, source, destination) {
     const cheminSource = path.resolve(source, fichier);
@@ -20,14 +22,20 @@ function copierFichier(fichier, source, destination) {
     });
 }
 
-function copy_file_use_settings(tp, fichier) {
+async function get_path(list, type, tp){
+
+    let choice = await tp.system.suggester((item) => item, list, true, "Folder " + type)
+
+
+    return choice
+}
+
+async function copy_file_use_settings(tp, fichier) {
+
     settings_folder_list = tp.user.set_settings(settings_file, type);
 
-    // source = path_source_list[0]
-    // source = path_dest[0]
-    const source = settings_folder_list.path_source_list[0]
-    const destination = settings_folder_list.path_destinations_list[0]
-
+    const source = await get_path(settings_folder_list.path_source_list, "Source", tp);
+    const destination = await get_path(settings_folder_list.path_destinations_list, "Destination", tp);
 
     copierFichier(fichier, source, destination);
     let message = `Copy todo ${fichier} from ${source} into ${destination}`;
