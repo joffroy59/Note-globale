@@ -42,4 +42,6 @@ Workflow :
 
 workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai
 
-#todo
+- [ ] [[IA Settings]] folder  remove test fodler or comment 
+- [ ] test avec [[Test - JS - Copy File Use Settings]]
+- [ ] create WIP IA depuis [Flux Multi Area Prompting | ComfyUI Workflow](https://openart.ai/workflows/jaguar_pesky_18/flux-multi-area-prompting/iEV0GPNdgjVp68QRYqEO)

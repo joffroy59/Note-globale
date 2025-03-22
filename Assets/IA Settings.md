@@ -190,6 +190,7 @@ logo:
 
 folders:
   sources:
+    - C:\Users\jerom\Downloads
     - C:\Test\Download
   workflow:
     - C:\Test\Target\
