@@ -13,7 +13,7 @@ let version;        // Declare the variable
 
 let settings_folder_list
 
-function set_settings() {
+function set_settings(settings_file) {
     settings_tfile = app.vault.getAbstractFileByPath(settings_file);
     settings = app.metadataCache.getFileCache(settings_tfile).frontmatter;
 
@@ -46,7 +46,7 @@ function copierFichier(fichier, source, destination) {
 }
 
 function copy_file_use_settings(fichier) {
-    set_settings();
+    set_settings(settings_file);
 
     // source = path_source_list[0]
     // source = path_dest[0]
