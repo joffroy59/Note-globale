@@ -18,27 +18,18 @@ tags:
 - [x] [[#Exemple of Templater asking for file]] ➕ 2025-03-22 ✅ 2025-03-22
 - [x] use simple javascript to get the tile path [[#Exemple of Templater asking for file]]  ➕ 2025-03-22 ✅ 2025-03-22
 - [x] [[#Copy file with Js]] ✅ 2025-03-22
-- [ ] [[#Use settings from [[IA Settings]]]]
-- [ ] 
+- [x] [[#Use settings from [[IA Settings]]]] ✅ 2025-03-22
+- [x] [[#refactoring avec utilisation  autre user js script]] ✅ 2025-03-22
 
 ---
 ## Tasks Detail
 
-
-
-
-
-
-
-
 ### Exemple of Templater asking for file
-
 
 [[Test Simple JS]] 👉 [[Test - JS - Copy File]]
 
 Test avec Templater Modal 
 ou ajout dans Templater pour aller plus vite 
-
 
 ### Copy file with Js
 #### Avant
@@ -68,3 +59,13 @@ use liste of possible src folder and dest workflow folder
 
 ![[Assets/banner/Style1/Success.png|200]]
 
+
+
+
+### refactoring avec utilisation  autre user js script
+
+[[set_settings.js]]
+[[copy_file_use_settings.js]]
+[[Test - JS - Copy File Use Settings]]
+utilsiation de tp pour inclure [[set_settings.js]] dans [[copy_file_use_settings.js]]
+![[Assets/banner/Style1/Success.png|200]]
