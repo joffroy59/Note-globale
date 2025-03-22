@@ -194,7 +194,7 @@ folders:
     # - C:\Test\Download
   workflow:
     # - C:\Test\Target\
-    - D:\dev-data\IA\ComfyUI workflow\Download\
+    # - D:\dev-data\IA\ComfyUI workflow\Download\
     - D:\IA\ComfyUI workflow\Download\
     - D:\IA\ComfyUI workflow\totest
     - D:\IA\ComfyUI workflow

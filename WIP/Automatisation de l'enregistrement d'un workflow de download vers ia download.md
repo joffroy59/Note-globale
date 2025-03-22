@@ -28,14 +28,11 @@ workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.
 ---
 ## Tasks
 - [x] [[Copy file from prompt]] ➕ 2025-03-22 ✅ 2025-03-22
-- [/] [[#Workflow]] workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai
+- [x] [[#Workflow]] workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai ✅ 2025-03-22
 
 
 ---
 ## Tasks Detail
-
-
-
 
 ### Workflow
 Workflow : 
@@ -44,4 +41,4 @@ workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.
 
 - [x] [[IA Settings]] folder  remove test fodler or comment ✅ 2025-03-22
 - [x] test avec [[Test - JS - Copy File Use Settings]] ✅ 2025-03-22
-- [ ] create WIP IA depuis [Flux Multi Area Prompting | ComfyUI Workflow](https://openart.ai/workflows/jaguar_pesky_18/flux-multi-area-prompting/iEV0GPNdgjVp68QRYqEO)
+- [x] create WIP IA depuis [Flux Multi Area Prompting | ComfyUI Workflow](https://openart.ai/workflows/jaguar_pesky_18/flux-multi-area-prompting/iEV0GPNdgjVp68QRYqEO)  : [[ComfyUI-Flux - openart.ai - Flux Multi Area Prompting]] ✅ 2025-03-22
