@@ -65,3 +65,4 @@ use liste of possible src folder and dest workflow folder
 [[Test - JS - Copy File Use Settings]]
 
 [[copy_file_use_settings.js]]
+
