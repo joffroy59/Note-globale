@@ -7,6 +7,8 @@ cov:
 
 `BUTTON[insert-daily-task-wip,insert-daily-wip-ia-task-select,insert-daily-wip-ia-task-multi,insert-daily-wip]`
 
+`BUTTON[insert-daily-wip-ia-task-multi-test]`
+
 `BUTTON[insert-daily-task-wip-obsidian,insert-daily-task-wip-graph]`
 
 `BUTTON[insert-daily-task-pc,insert-daily-task-obsidian-plugin,insert-daily-task-mulit]`

@@ -712,6 +712,21 @@
       ]
     },
     {
+      "label": "+ Wip IA (Multi)(Test)",
+      "icon": "",
+      "hidden": false,
+      "class": "purple-5-button",
+      "tooltip": "",
+      "id": "insert-daily-wip-ia-task-multi-test",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:52125d79-932e-44f6-b2a5-ba227e57d1e7"
+        }
+      ]
+    },
+    {
       "label": "+ Win (Task)",
       "icon": "",
       "hidden": false,

@@ -356,20 +356,6 @@
           "name": "🧠IA",
           "type": "Multi",
           "command": true,
-          "choices": []
-        },
-        {
-          "id": "588adc3b-1904-44d1-80f3-0109501536a5",
-          "name": "Old",
-          "type": "Multi",
-          "command": false,
-          "choices": []
-        },
-        {
-          "id": "10d66673-bc29-421f-aa16-c69648990bbd",
-          "name": "New",
-          "type": "Multi",
-          "command": false,
           "choices": [
             {
               "id": "7f55886d-6c2d-44e0-a7b1-fd92a29a840f",
@@ -406,7 +392,23 @@
               "openFile": false,
               "openFileInMode": "default"
             }
-          ]
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "588adc3b-1904-44d1-80f3-0109501536a5",
+          "name": "Old",
+          "type": "Multi",
+          "command": false,
+          "choices": []
+        },
+        {
+          "id": "10d66673-bc29-421f-aa16-c69648990bbd",
+          "name": "New",
+          "type": "Multi",
+          "command": false,
+          "choices": [],
+          "collapsed": false
         },
         {
           "id": "c4ec61c6-4901-4d17-8616-cfb4a2f06422",
@@ -1286,8 +1288,8 @@
           "openFileInMode": "default"
         },
         {
-          "id": "ea15f8d8-b208-488b-82f6-58dff5817bcb",
-          "name": "🚨Insert Problems Insert (Domotique)",
+          "id": "81096125-8935-4dfa-997e-a42ba1d322de",
+          "name": "🚧Insert WIP IA - Task - Select (copy)",
           "type": "Capture",
           "command": true,
           "appendLink": false,
@@ -1300,13 +1302,13 @@
           },
           "format": {
             "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - Domotique.md}}\n"
+            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Select.md}}\n"
           },
           "insertAfter": {
             "enabled": true,
-            "after": "## 🚨Problème",
+            "after": "## 🚧 Wip",
             "insertAtEnd": true,
-            "considerSubsections": true,
+            "considerSubsections": false,
             "createIfNotFound": true,
             "createIfNotFoundLocation": "bottom"
           },
@@ -1319,6 +1321,49 @@
           },
           "openFile": false,
           "openFileInMode": "default"
+        },
+        {
+          "id": "91df2996-36c9-43f6-8677-b18cfccf1585",
+          "name": "Atrier",
+          "type": "Multi",
+          "command": false,
+          "choices": [
+            {
+              "id": "ea15f8d8-b208-488b-82f6-58dff5817bcb",
+              "name": "🚨Insert Problems Insert (Domotique)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - Domotique.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚨Problème",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            }
+          ]
         },
         {
           "id": "b8ad6145-d7c2-4948-b2af-eb00530e4e26",
@@ -1496,7 +1541,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "39135df6-99df-44fa-bc18-76c8ef4c1a1b",
