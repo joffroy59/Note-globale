@@ -1306,6 +1306,23 @@
           "command": "quickadd:choice:29d6a019-4c91-434c-961d-8561ee3ef7e2"
         }
       ]
+    },
+    {
+      "label": "Add Wip IA ComfyUI workflow Image Result",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background-color: saddlebrown",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-wip-ia-comfyui-workflow-image-result",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:3b444624-01e3-434c-bc26-10ec4fcc174a"
+        }
+      ]
     }
   ],
   "excludedFolders": [

@@ -1,8 +1,10 @@
 use [[Add - Record - Image]]
 
-- [x] templater
+- [x] Templater [[Add - Record - Image]]
 - [x] [[#Button]] ✅ 2025-03-23
-- [ ] quickadd insert intio current note
+- [x] [[#Quickadd insert intio current note]] ✅ 2025-03-23
+- [x] [[#Metabind button]] ✅ 2025-03-23
+- [ ] [[#Add button to Template wip IA pour ajouter rapidement le resultat d'un test]] 
 
 
 
@@ -25,6 +27,9 @@ actions:
 ```
 
 
+
+### Quickadd insert intio current note
+
 ```meta-bind-button
 label: Add Wip IA ComfyUI workflow Image Result
 icon: ""
@@ -40,4 +45,31 @@ actions:
     command: quickadd:choice:3b444624-01e3-434c-bc26-10ec4fcc174a
 
 ```
+
+
+D:\obsidian\MyNote\Note-globale\IA\ComfyUI\Result\arf.bmp
+TO FINISH
+
+
+#### Result button Quickadd 
+![[Test Add Record Image-1742754060401.png|400x162]]
+![[Test Add Record Image-1742754098935.png|400x125]]
+
+![[Assets/banner/Style1/Success.png|200]]
+
+
+### Metabind button
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
+
+
+
+
+### Add button to Template wip IA pour ajouter rapidement le resultat d'un test
+
+[[Schnell GGUF Models]]  👉 [[Create IA - Task - ComFyUI - Flux]] 👉  [[Common - Reproduction Local]]  
+👉 [[Insert - IA - Comfy UI - Test]]
+
+
+![[Test Add Record Image-1742754553334.png|400x441]]
 
