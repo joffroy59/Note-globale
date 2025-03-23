@@ -91,6 +91,9 @@ collapse: closed
 pour trouver un meilleur workflow pour  Openweb UI
 ```
 
+`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
+
+
 ```````ad-success
 
 ```ad-tldr
@@ -105,39 +108,11 @@ workflow:
 
 ---
 
-```ad-seealso
-title: config
-collapse: closed
-
-
-{Image}
-
-```
-
----
-
-```ad-info
-title: prompt
-collapse: closed
-
- full body of a happy woman wear a dress made of luttuce and horserdish, big breast, face body view, in a fashion stage, basils floating in the blurred background, high quality, high detail, 8k, hi res
-
-```
-
----
-
-```ad-success
-title: Resultat
-
 ### Result Image with workflow
 
 ![ComfyUI_00238_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/ComfyUI_00238_.png)
 
 #### .
-
-`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
-
-```
 
 time: **todo**
 
@@ -145,32 +120,35 @@ time: **todo**
 
 ---
 
-```ad-failure
-title: Resultat
-
-
-{Image}
-
-```
-
-time: **todo**
-
-![[Assets/banner/Style1/Failure.png|300]]
-
----
-
 ```````
 
-			
 `BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
----
-
-#### ComfyUI 
-[[#Test avec Comfy UI directement Workflow]]
 
 ---
+### Test avec Comfy UI directement Workflow
+
+```````ad-success
+
+### Result Image with workflow Success
+---
+![ComfyUI_00241_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/ComfyUI_00241_.png)
+time:  **61.63 seconds**
+---
+
+![ComfyUI_00242_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/ComfyUI_00242_.png)
+time:  **60.06 seconds**
+
+---
+
+#### .
 
 
+![[Assets/banner/Style1/Success.png|300]]
+```````
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success]`
+
+`BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 
 
 

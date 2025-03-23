@@ -12,8 +12,6 @@ let workflow = await tp.system.prompt("Worflow file name  (no extension)", "");
 let workflow_path = `${workflow_basedir}%5C${workflow}`
 -%>
 
-`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
-
 ```````ad-success
 
 ```ad-tldr
@@ -82,6 +80,8 @@ time: **todo**
 ---
 
 ```````
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
 
 <%*
 tR+= await tp.file.include(`[[Button - IA - Comfy UI - Test]]`);

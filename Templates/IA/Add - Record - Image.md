@@ -14,3 +14,11 @@ console.log(image_local_path)
 -%>
 
 <% imagePath(image_local_path, filename) %>
+
+<%*
+  let time = await tp.system.prompt("Time", "SS.mm seconds", true, true);
+-%>
+
+time:  **<% time %>**
+
+
