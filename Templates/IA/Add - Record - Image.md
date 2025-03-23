@@ -14,4 +14,3 @@ console.log(image_local_path)
 -%>
 
 <% imagePath(image_local_path, filename) %>
-TO FINISH 2ddddddzzz
