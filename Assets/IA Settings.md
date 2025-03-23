@@ -20,6 +20,7 @@ wip:
     - ComFyUI
     - workflow
     - ComFyUI - Flux
+    - ComFyUI - Flux (Test)
     # - civitai
     - Flux NF4
     - WAN 2.1
@@ -60,6 +61,12 @@ wip:
     folder: IA/ComfyUI/Flux
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - Flux
+    tag:  '#IA/comfyui/flux'
+  ComFyUI - Flux (Test):
+    title: 'ComfyUI-Flux - '
+    folder: IA/ComfyUI/Flux
+    template:
+      create: Templates/IA/Create IA - Task - ComFyUI - Flux (Test)
     tag:  '#IA/comfyui/flux'
   civitai:
     title: 'civitai - '

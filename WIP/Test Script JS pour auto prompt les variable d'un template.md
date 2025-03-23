@@ -52,5 +52,8 @@ il faut l'ajouter comme raccorcie dont pa sfait
 ### essayer avec un Template de creation wip ia
 
 
-
+duplciaiton de comfyUI Flux 
+[[Create IA - Task - ComFyUI - Flux]]
+👉
+[[Create IA - Task - ComFyUI - Flux (Test)]]
 

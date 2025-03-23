@@ -1,3 +1,5 @@
+---
+
 <%-*
 
 // The configuration object containing several elements.
@@ -63,6 +65,9 @@ try {
     return
 }
 _%>
+tags:
+  - test
+---
 
 # 🎥 <% config.title.value %>
 
@@ -74,3 +79,4 @@ _%>
 ## Summary
 
 <% config.summary.value %>
+
