@@ -79,18 +79,6 @@ title: Resultat
 
 ### Result Image with workflow
 
-D:\obsidian\MyNote\Note-globale\IA\ComfyUI\Result\arf.bmp
-TO FINISH 2ddddddzzz
-
-D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/arf.bmp
-TO FINISH 2ddddddzzz
-
-[](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/arf.bmp)
-TO FINISH 2ddddddzzz
-
-[arf.bmp](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/arf.bmp)
-TO FINISH 2ddddddzzz
-
 
 
 #### .

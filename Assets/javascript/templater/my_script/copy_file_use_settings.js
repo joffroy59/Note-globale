@@ -9,14 +9,15 @@ let config_folder_list
 function copierFichier(fichier, source, destination) {
     const cheminSource = path.resolve(source, fichier);
     const cheminDestination = path.resolve(destination, fichier);
-
-    fs.copyFile(cheminSource, cheminDestination, (err) => {
-        if (err) {
-            console.error('Erreur lors de la copie :', err);
-        } else {
-            console.log(`Le fichier '${fichier}' a été copié dans '${destination}'.`);
-        }
-    });
+    try {
+        fs.copyFile(cheminSource, cheminDestination, null)
+        msg = `Le fichier '${fichier}' a été copié dans '${destination}'.`
+        console.log(msg);
+    } catch (err) {
+        msg = 'Erreur lors de la copie :'
+        console.error(msg, err);
+        throw new Error(msg, err);
+    };
 }
 
 async function get_path(list, type, tp){
