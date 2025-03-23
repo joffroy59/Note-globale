@@ -358,6 +358,41 @@
           "command": true,
           "choices": [
             {
+              "id": "71bb0fbb-6950-4291-872f-9183ca8718ce",
+              "name": "🚧Insert WIP IA - Task - Select (Test)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Multi - Test.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
               "id": "7f55886d-6c2d-44e0-a7b1-fd92a29a840f",
               "name": "🚧Insert WIP IA - Task - Select",
               "type": "Capture",
@@ -490,844 +525,844 @@
           "collapsed": true
         },
         {
-          "id": "eabd86ff-dafe-464b-948e-e9ffb61ec1cc",
-          "name": "🚀Insert Task",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "f5454a06-01fa-4446-bfb4-77e0336db357",
-          "name": "🚀Insert Task (Obsidian)",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task (Obsidian).md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "577934d8-4e55-4759-8b8e-119d0fb29b0a",
-          "name": "📝Insert Note",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Note.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 📝Note",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "b9205dd3-e269-49ef-b8da-414ecf69c0a8",
-          "name": "📝Insert Note - Select",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Note - Select.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### My Note",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "9657e59b-6a1c-4038-8eba-e751297c9e86",
-          "name": "🏆Insert Wins",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Win.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### ✅ DONE",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "38df2c5a-1443-4709-8072-b3b116e9a5b5",
-          "name": "✅Insert Done",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert DONE.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### ✅ DONE",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "5ee28206-7490-48ac-9ef8-27cd4edbd8e5",
-          "name": "💡Insert Idea",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Idea.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 💡Ideas",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "34d19e8e-bef2-4ad7-85b7-3e3a30daa8df",
-          "name": "📎Insert TODO",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert TODO.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "2d8b1832-713f-4271-ade8-cd4a889cec29",
-          "name": "📝Insert Todo - Select",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Todo - Select.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### ✅ DONE",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "52587be2-a918-45ce-ac81-c37a42e29ca7",
-          "name": "👉Insert Todo - Done",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Todo - Done.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### ✅ DONE",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "45ab95a2-13c8-49c2-bfd4-e2e1d2897e7d",
-          "name": "👀Insert Task - ToView",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - ToView.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "26f94500-f0fc-4ce6-b5c9-60cd062c4871",
-          "name": "👉Insert Other",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Other.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 👉Autre",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "d417ebd0-6e59-4af2-bf47-ba59d18c490e",
-          "name": "✅Insert Task Done",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task DONE.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### ✅ DONE",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "4e4379e9-4c59-4f97-a7e0-0b70573bcc9b",
-          "name": "🚧Insert WIP",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert WIP.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "2b96c589-53b1-4e4e-9081-025efa2cb5c9",
-          "name": "🚧Insert Task - WIP",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - WIP.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "24f566eb-c0de-4d44-b958-0ec3d626ef11",
-          "name": "🚧Insert Task - WIP (Graph)",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - WIP - Graph.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "1d9b6120-efbf-4de7-9ce3-11959dbbfa72",
-          "name": "🖥️Insert Task - Pc",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - PC - Multi.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "a0f923b9-4746-415a-9cf6-a9e25a73f999",
-          "name": "💎Insert Task - Obsidian - Plugin",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - Plugin - Multi.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "a0f923b9-4746-415a-9cf6-a9e25a73f991",
-          "name": "💎Insert Task - Multi",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Task/Insert Task - Common.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "### 📎TODO's",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "1ce259ba-9603-48da-9168-2dd5884ea688",
-          "name": "🚧Insert WIP STAR ⭐",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Panel/Star.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip Star.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## ⭐Star",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "69c671ed-023c-4ac3-8fbe-da565f177056",
-          "name": "🚨Insert Problems",
-          "type": "Template",
-          "command": true,
-          "templatePath": "Templates/Snippets/Insert Problems.md",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": false,
-            "folders": [],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default",
-          "fileExistsMode": "Append to the bottom of the file",
-          "setFileExistsBehavior": true
-        },
-        {
-          "id": "47d292fe-0edc-4201-8bd2-f4812524a866",
-          "name": "🚨Insert Problems v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem v2.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚨Problème",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "da7c48b8-d948-454a-bda8-2ccecebabf35",
-          "name": "🚨Insert Problems Insert",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚨Problème",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "81096125-8935-4dfa-997e-a42ba1d322de",
-          "name": "🚧Insert WIP IA - Task - Select (copy)",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Select.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
           "id": "91df2996-36c9-43f6-8677-b18cfccf1585",
           "name": "Atrier",
           "type": "Multi",
           "command": false,
           "choices": [
+            {
+              "id": "eabd86ff-dafe-464b-948e-e9ffb61ec1cc",
+              "name": "🚀Insert Task",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 📎TODO's",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "f5454a06-01fa-4446-bfb4-77e0336db357",
+              "name": "🚀Insert Task (Obsidian)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task (Obsidian).md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 📎TODO's",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "577934d8-4e55-4759-8b8e-119d0fb29b0a",
+              "name": "📝Insert Note",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Note.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 📝Note",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "b9205dd3-e269-49ef-b8da-414ecf69c0a8",
+              "name": "📝Insert Note - Select",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Note - Select.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### My Note",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "9657e59b-6a1c-4038-8eba-e751297c9e86",
+              "name": "🏆Insert Wins",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Win.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### ✅ DONE",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "38df2c5a-1443-4709-8072-b3b116e9a5b5",
+              "name": "✅Insert Done",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert DONE.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### ✅ DONE",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "5ee28206-7490-48ac-9ef8-27cd4edbd8e5",
+              "name": "💡Insert Idea",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Idea.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 💡Ideas",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "34d19e8e-bef2-4ad7-85b7-3e3a30daa8df",
+              "name": "📎Insert TODO",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert TODO.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 📎TODO's",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "2d8b1832-713f-4271-ade8-cd4a889cec29",
+              "name": "📝Insert Todo - Select",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Todo - Select.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### ✅ DONE",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "52587be2-a918-45ce-ac81-c37a42e29ca7",
+              "name": "👉Insert Todo - Done",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Todo - Done.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### ✅ DONE",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "45ab95a2-13c8-49c2-bfd4-e2e1d2897e7d",
+              "name": "👀Insert Task - ToView",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task - ToView.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 📎TODO's",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "26f94500-f0fc-4ce6-b5c9-60cd062c4871",
+              "name": "👉Insert Other",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Other.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 👉Autre",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "d417ebd0-6e59-4af2-bf47-ba59d18c490e",
+              "name": "✅Insert Task Done",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task DONE.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### ✅ DONE",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "4e4379e9-4c59-4f97-a7e0-0b70573bcc9b",
+              "name": "🚧Insert WIP",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert WIP.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "2b96c589-53b1-4e4e-9081-025efa2cb5c9",
+              "name": "🚧Insert Task - WIP",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task - WIP.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "24f566eb-c0de-4d44-b958-0ec3d626ef11",
+              "name": "🚧Insert Task - WIP (Graph)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task - WIP - Graph.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "1d9b6120-efbf-4de7-9ce3-11959dbbfa72",
+              "name": "🖥️Insert Task - Pc",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task - PC - Multi.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 📎TODO's",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "a0f923b9-4746-415a-9cf6-a9e25a73f999",
+              "name": "💎Insert Task - Obsidian - Plugin",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task - Plugin - Multi.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 📎TODO's",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "a0f923b9-4746-415a-9cf6-a9e25a73f991",
+              "name": "💎Insert Task - Multi",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Task/Insert Task - Common.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### 📎TODO's",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "1ce259ba-9603-48da-9168-2dd5884ea688",
+              "name": "🚧Insert WIP STAR ⭐",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Panel/Star.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip Star.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## ⭐Star",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "69c671ed-023c-4ac3-8fbe-da565f177056",
+              "name": "🚨Insert Problems",
+              "type": "Template",
+              "command": true,
+              "templatePath": "Templates/Snippets/Insert Problems.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": false,
+                "folders": [],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default",
+              "fileExistsMode": "Append to the bottom of the file",
+              "setFileExistsBehavior": true
+            },
+            {
+              "id": "47d292fe-0edc-4201-8bd2-f4812524a866",
+              "name": "🚨Insert Problems v2",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Problem v2.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚨Problème",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "da7c48b8-d948-454a-bda8-2ccecebabf35",
+              "name": "🚨Insert Problems Insert",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Problem.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚨Problème",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "81096125-8935-4dfa-997e-a42ba1d322de",
+              "name": "🚧Insert WIP IA - Task - Select (copy)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Select.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
             {
               "id": "ea15f8d8-b208-488b-82f6-58dff5817bcb",
               "name": "🚨Insert Problems Insert (Domotique)",
@@ -1362,183 +1397,184 @@
               },
               "openFile": false,
               "openFileInMode": "default"
+            },
+            {
+              "id": "b8ad6145-d7c2-4948-b2af-eb00530e4e26",
+              "name": "🚨Insert Problems Insert (PC)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - PC.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚨Problème",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "cfcfe280-9a87-43ce-a523-0c6d8263ad02",
+              "name": "🚨Insert Problems Insert (Appart)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - Appart.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚨Problème",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "94652135-db32-46e1-8eca-34cff0d8d85d",
+              "name": "🚨Insert Problems Insert Ask",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - Ask.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚨Problème",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "95578831-49c3-4418-86a8-f3524186ae38",
+              "name": "🏠Insert Domotique - Action",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Lists/Action Domotique List.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Domotique - Action.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🏠Tasks",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "f53926ed-756d-483d-a018-28621cf0a889",
+              "name": "🚧Insert Task - WIP - Obsidian",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Task - WIP - Obsidian.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
             }
-          ]
-        },
-        {
-          "id": "b8ad6145-d7c2-4948-b2af-eb00530e4e26",
-          "name": "🚨Insert Problems Insert (PC)",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - PC.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚨Problème",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "cfcfe280-9a87-43ce-a523-0c6d8263ad02",
-          "name": "🚨Insert Problems Insert (Appart)",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - Appart.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚨Problème",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "94652135-db32-46e1-8eca-34cff0d8d85d",
-          "name": "🚨Insert Problems Insert Ask",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Problem - Ask.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚨Problème",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "95578831-49c3-4418-86a8-f3524186ae38",
-          "name": "🏠Insert Domotique - Action",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Lists/Action Domotique List.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Domotique - Action.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🏠Tasks",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "f53926ed-756d-483d-a018-28621cf0a889",
-          "name": "🚧Insert Task - WIP - Obsidian",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/Insert Task - WIP - Obsidian.md}}\n"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## 🚧 Wip",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          ],
+          "collapsed": true
         }
       ],
       "collapsed": false
@@ -1875,109 +1911,153 @@
       "macroId": "681f1956-5fc2-4e1d-93b0-7485fe093cff"
     },
     {
-      "id": "27adafb8-7961-4f15-b358-0814609f473c",
-      "name": "💥Insert Failed",
-      "type": "Capture",
+      "id": "ce8af63e-70d8-41f4-a2be-4ecb3433b5a2",
+      "name": "🪧Banner",
+      "type": "Multi",
       "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "![[IA Application - Microsoft AI Playground-1740954752510.png|400]]"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "29d6a019-4c91-434c-961d-8561ee3ef7e2",
-      "name": "💥Insert Failure",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "![[Assets/banner/Style1/Failure.png|200]]"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "46200c83-0108-4fa0-8b84-19a969fba17b",
-      "name": "✅ Insert Success",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "![[Assets/banner/Style1/Success.png|200]]"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
+      "choices": [
+        {
+          "id": "6b4c2e19-cd36-4e1b-b387-b78a6c69bd91",
+          "name": "👉 Insert To Be Continued",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "![[To Be Continued.png|300]]"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "46200c83-0108-4fa0-8b84-19a969fba17b",
+          "name": "✅ Insert Success",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "![[Assets/banner/Style1/Success.png|200]]"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "29d6a019-4c91-434c-961d-8561ee3ef7e2",
+          "name": "💥Insert Failure",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "![[Assets/banner/Style1/Failure.png|200]]"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "27adafb8-7961-4f15-b358-0814609f473c",
+          "name": "💥Insert Failed",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "![[IA Application - Microsoft AI Playground-1740954752510.png|400]]"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": true
     },
     {
       "id": "52125d79-932e-44f6-b2a5-ba227e57d1e7",
@@ -2237,41 +2317,6 @@
       "type": "Multi",
       "command": true,
       "choices": []
-    },
-    {
-      "id": "6b4c2e19-cd36-4e1b-b387-b78a6c69bd91",
-      "name": "👉 Insert To Be Continued",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "![[To Be Continued.png|300]]"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
     }
   ],
   "macros": [
