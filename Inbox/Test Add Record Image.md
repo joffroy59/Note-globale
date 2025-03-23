@@ -4,7 +4,9 @@ use [[Add - Record - Image]]
 - [x] [[#Button]] ✅ 2025-03-23
 - [x] [[#Quickadd insert intio current note]] ✅ 2025-03-23
 - [x] [[#Metabind button]] ✅ 2025-03-23
-- [ ] [[#Add button to Template wip IA pour ajouter rapidement le resultat d'un test]] 
+- [x] [[#Add button to Template wip IA pour ajouter rapidement le resultat d'un test]] ✅ 2025-03-23
+- [ ] [[#Add copy file]]
+- [ ] [[#Test Final dans [[Schnell GGUF Models]]]]
 
 
 
@@ -74,3 +76,13 @@ TO FINISH
 
 ![[Test Add Record Image-1742754553334.png|400x441]]
 
+
+
+
+### Add copy file
+
+
+
+
+### Test Final dans [[Schnell GGUF Models]]
+#todo
