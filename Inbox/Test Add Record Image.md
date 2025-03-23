@@ -73,38 +73,14 @@ TO FINISH
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result]`
 
-
 ```ad-success
 title: Resultat
 
 ### Result Image with workflow
 
-[sss](file:///[object Promise]sss)
+[arf.bmp](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/arf.bmp)
 TO FINISH 2ddddddzzz
 
-[ s](file:///[object Promise] s)
-TO FINISH 2ddddddzzz
-
-[ssss](file:///[object Promise]ssss)
-TO FINISH 2ddddddzzz
-
-[sss](file:///[object Promise]sss)
-TO FINISH 2ddddddzzz
-
-[ssss](file:///[object Promise]ssss)
-TO FINISH 2ddddddzzz
-
-[sdsss](file:///[object Promise]sdsss)
-TO FINISH 2ddddddzzz
-
-[dddd](file:///[object Promise]dddd)
-TO FINISH 2ddddddzzz
-
-[ssss](file:///[object Promise]ssss)
-TO FINISH 2ddddddzzz
-
-[sssssqqsqsqqqqq](file:///[object Promise]sssssqqsqsqqqqq)
-TO FINISH 2ddddddzzz
 
 
 
