@@ -28,9 +28,9 @@ Source : [[prompt]]
 ### Faire le template
 
 - [x] [[Add Movie]]
-- [ ] Test avec create note templater modal 
-	- [ ] Create [[WIP/Test/Movies/The Movie Title|The Movie Title]]
-	- [ ] Insert [[#Exemple]]
+- [x] Test avec create note templater modal 
+	- [x] Create [[WIP/Test/Movies/The Movie Title|The Movie Title]] ✅ 2025-03-23
+	- [x] Insert [[#Exemple]] ✅ 2025-03-23
 
 
 #### Exemple
