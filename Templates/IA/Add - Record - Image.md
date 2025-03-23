@@ -1,6 +1,6 @@
 <%*
-function imagePath(imagePath){
-	return imagePath;
+function imagePath(imagePath, title){
+	return `[${title}](file:///${imagePath.replaceAll("\\","/")})`;
 }
 
 let filename = `arf.bmp`
@@ -13,5 +13,5 @@ image_local_path = destination_path + filename
 
 -%>
 
-<% imagePath(image_local_path) %>
+<% imagePath(image_local_path, filename) %>
 TO FINISH 2ddddddzzz
