@@ -15,20 +15,11 @@ function copierFichier(fichier, source, destination) {
     });
 }
 
-// Exemple d'utilisation
-// const fichier = 'mon_fichier.md';
-// const source = '/chemin/de/source';
-// const destination = '/chemin/de/destination';
-
-//copierFichier(fichier, source, destination);
-
-
-
 function copy_file(fichier, source, destination) {
     copierFichier(fichier, source, destination)
-    let message = `Copy todo ${fichier} from ${source} into ${destination}`
+    let message = `Copy ${fichier} from ${source} into ${destination}`
     console.log(message)
-    return message;
+    return destination;
 }
 
 module.exports = copy_file;

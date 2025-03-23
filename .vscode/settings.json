@@ -3,8 +3,5 @@
         "activityBar.background": "#61060D",
         "titleBar.activeBackground": "#870912",
         "titleBar.activeForeground": "#FFFBFC"
-    },
-    "files.associations": {
-        "**/*obsidian*/**/*.md": "yaml"
     }
 }

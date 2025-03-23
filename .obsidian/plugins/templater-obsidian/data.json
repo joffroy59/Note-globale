@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Templates",
+  "templates_folder": "",
   "templates_pairs": [
     [
       "",
@@ -77,7 +77,8 @@
     "Templates/Add/TaskList Base No Ask.md",
     "Templates/Test/Test Simple JS.md",
     "Templates/Test/Test - JS - Copy File.md",
-    "Templates/Test/Test - JS - Copy File Use Settings.md"
+    "Templates/Test/Test - JS - Copy File Use Settings.md",
+    "Templates/IA/Add - Record - Image.md"
   ],
   "startup_templates": [
     ""

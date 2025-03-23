@@ -196,17 +196,24 @@ logo:
 
 
 folders:
-  sources:
-    - C:\Users\jerom\Downloads
-    # - C:\Test\Download
   workflow:
-    # - C:\Test\Target\
-    # - D:\dev-data\IA\ComfyUI workflow\Download\
-    - D:\IA\ComfyUI workflow\Download\
-    - D:\IA\ComfyUI workflow\totest
-    - D:\IA\ComfyUI workflow
-    - D:\dev-data\IA\Stability Matrix Project\workflow_auto
-    - D:\dev-data\IA\Stability Matrix Project\workflow
+    sources:
+      - C:\Users\jerom\Downloads
+      # - C:\Test\Download
+    destination:
+      # - C:\Test\Target\
+      # - D:\dev-data\IA\ComfyUI workflow\Download\
+      - D:\IA\ComfyUI workflow\Download\
+      - D:\IA\ComfyUI workflow\totest
+      - D:\IA\ComfyUI workflow
+      - D:\dev-data\IA\Stability Matrix Project\workflow_auto
+      - D:\dev-data\IA\Stability Matrix Project\workflow
+  image:
+    sources:
+      - C:\Users\jerom\Downloads
+      # - C:\Test\Download
+    destination:
+      - D:\obsidian\MyNote\Note-globale\IA\ComfyUI\Result\
 
 
 ---

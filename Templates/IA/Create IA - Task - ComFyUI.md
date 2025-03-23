@@ -43,7 +43,7 @@ if (title.startsWith(defaultTitle)) {
 let workflow_filename = await tp.system.prompt("Worflow file name  (no extension)");
 
 if (workflow_filename){
-	workflowBaseFolder = await tp.user.copy_file_use_settings(tp, `${workflow_filename}.json`)
+  workflowBaseFolder = await tp.user.copy_file_use_settings(tp, `${workflow_filename}.json`, "workflow")
 } else {
 	workflowBaseFolder = "workflow_path"
 	workflow_filename = defaultWorkflowName
