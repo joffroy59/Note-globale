@@ -3,7 +3,7 @@ ELN info:
   template: Create IA - Task - ComFyUI - Flux.md
   version: 0.3.2
   author: Jerome Offroy
-  modified: 2025-03-22
+  modified: 2025-03-23
   copyright: GNU Affero General Public License v3.0
 
 project:
@@ -23,70 +23,23 @@ tags:
   - IA/comfyui/flux
 ---
 ````ad-tip
-Source : https://openart.ai/workflows/jaguar_pesky_18/flux-multi-area-prompting/iEV0GPNdgjVp68QRYqEO
+Source : https://comfyworkflows.com/workflows/84a52d2e-e604-4022-82d0-77ecf6aeaaa8
 
-workflow: workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai
-⭐🚧 [workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5C%5Cworkflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai.json)
+workflow: nabcht_text_looper___flux_comfyworkflows
+⭐🚧 [nabcht_text_looper___flux_comfyworkflows.json](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5C%5Cnabcht_text_looper___flux_comfyworkflows.json)
 ✅ #todo
 
-![|400](https://cdn.openart.ai/workflow_thumbnails/DeMWVGqjMhEj6mu6HQkI/image_0tBDeD6D_1731169882671_raw.jpg)
+![](https://public-assets.comfyworkflows.com/optimized_comfy_workflows_user_uploads/332764fd-10bb-462b-a455-bfd50df555f3/assets/fowF2Cdnnu.webp)
 ````
 
 ````ad-quote
 title: Generation data
 collapse: closed
 
-Primitive Nodes (18)
 
-Anything Everywhere (2)
-
-CLIPTextEncodeFlux (4)
-
-Image Comparer (rgthree) (1)
-
-LyingSigmaSampler (1)
-
-MultiAreaConditioning (1)
-
-Note (2)
-
-Reroute (5)
-
-TripleCLIPLoader (1)
-
-UnetLoaderGGUF (1)
-
-Custom Nodes (13)
-
-ComfyUI
-
-- SamplerCustomAdvanced (2)
-
-- UNETLoader (1)
-
-- SaveImage (2)
-
-- VAELoader (1)
-
-- VAEDecode (2)
-
-- BasicGuider (1)
-
-- EmptyLatentImage (1)
-
-- BasicScheduler (1)
-
-- KSamplerSelect (1)
-
-- RandomNoise (1)
 
 ````
 
-````ad-note
-title: Note
-test aussi la copie du workflow telecchargté
-
-````
 
 ```ad-info
 title: Workflow Directories
@@ -109,7 +62,7 @@ collapse: closed
 ## Test reproduction en local
 
 ---
-### StabilityMatrix
+### StabilityMatrix 
 ### Test avec Comfy UI directement Workflow
 
 ```ad-info
@@ -126,7 +79,7 @@ collapse: closed
 
 workflow:
 
-⭐🚧 [workflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai.](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cworkflow-flux-multi-area-prompting-iEV0GPNdgjVp68QRYqEO-jaguar_pesky_18-openart.ai.json)
+⭐🚧 [nabcht_text_looper___flux_comfyworkflows.](file:///D:%5CIA%5CComfyUI%20workflow%5CDownload%5Cnabcht_text_looper___flux_comfyworkflows.json)
 
 ```
 
@@ -147,7 +100,7 @@ collapse: closed
 title: prompt
 collapse: closed
 
- ???
+ 
 
 ```
 
@@ -185,17 +138,13 @@ time: **todo**
 
 `BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 ---
-#### ComfyUI
+#### ComfyUI 
 [[#Test avec Comfy UI directement Workflow]]
 
 ---
 
-![[ComfyUI-Flux - openart.ai - Flux Multi Area Prompting-1742724451506.png|400x317]]
 
-### Fix 
 
-trouver le noeud ccar pas danss manger 
-![[ComfyUI-Flux - openart.ai - Flux Multi Area Prompting-1742724480321.png|400x122]]
 
 
 ---
@@ -210,6 +159,6 @@ collapse: Closed
 ```
 
 ---
-creation date:: [[2025/03/12/📒2025-03-22]]  23:18
+creation date:: [[2025/03/12/📒2025-03-23]]  11:17
 
 
