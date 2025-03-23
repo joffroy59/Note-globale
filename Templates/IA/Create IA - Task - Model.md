@@ -49,7 +49,7 @@ Source : <% url %>
   Your browser does not support the video tag.
 </video>
 <%*   } else if(image) { -%>
-![](<% image %>)
+![|400](<% image %>)
 <%*   } -%>
 ````
 <%* } -%>

@@ -24,7 +24,7 @@ utilisation du nom de reperoire de la note creer pour enlever dernier difference
 ### Créer la page commune
 a partir de [[Create IA - Task - ComFyUI - WAN 2.1]]
 
-[[Create IA - Task - ComFyUI - Common.md]]
+[[Create IA - Task - ComFyUI - Common]]
 
 ![[To Be Continued.png|300]]
 
