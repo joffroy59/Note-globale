@@ -22,6 +22,7 @@ tags:
   - success
   - suivi
 ---
+
 ````ad-tip
 Source : https://openart.ai/workflows/akihungac/flux-basic-workflow-with-12gb-vram-gpu/0Uff0E2X9RTvcVXatIqI?msockid=361bfd4e2eb863dd06e2e8cc2f4c62a5
 

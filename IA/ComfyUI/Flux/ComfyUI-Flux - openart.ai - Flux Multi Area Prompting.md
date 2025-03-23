@@ -22,6 +22,7 @@ tags:
   - IA/comfyui
   - IA/comfyui/flux
 ---
+
 ````ad-tip
 Source : https://openart.ai/workflows/jaguar_pesky_18/flux-multi-area-prompting/iEV0GPNdgjVp68QRYqEO
 

@@ -22,6 +22,7 @@ tags:
   - IA/comfyui
   - IA/comfyui/flux
 ---
+
 ````ad-tip
 Source : https://openart.ai/workflows/cgtips/comfyui---generate-photorealistic-images-by-flux-bilbox/DPdcUGh1gB99gMkR1jF1?msockid=361bfd4e2eb863dd06e2e8cc2f4c62a5
 

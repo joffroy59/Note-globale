@@ -22,6 +22,7 @@ tags:
   - IA/comfyui
   - IA/comfyui/flux
 ---
+
 ````ad-tip
 Source : https://comfyworkflows.com/workflows/84a52d2e-e604-4022-82d0-77ecf6aeaaa8
 

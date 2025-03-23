@@ -15,7 +15,7 @@ TO FINISH
 - [x] [[#Metabind button]] ✅ 2025-03-23
 - [x] [[#Add button to Template wip IA pour ajouter rapidement le resultat d'un test]] ✅ 2025-03-23
 - [ ] [[#Add copy file]]
-- [ ] [[#Test Final dans [[Schnell GGUF Models]]]]
+- [ ] [[#Test Final dans [[ComfyUI-Flux - openart.ai - ComfyUI - Flux DevSchnell GGUF Models ⭐⭐⭐]]]]
 
 
 
@@ -94,7 +94,7 @@ title: Resultat
 
 ### Add button to Template wip IA pour ajouter rapidement le resultat d'un test
 
-[[Schnell GGUF Models]]  👉 [[Create IA - Task - ComFyUI - Flux]] 
+[[ComfyUI-Flux - openart.ai - ComfyUI - Flux DevSchnell GGUF Models ⭐⭐⭐]]  👉 [[Create IA - Task - ComFyUI - Flux]] 
 👉  [[Common - Reproduction Local]]  
 👉 [[Insert - IA - Comfy UI - Test]]
 
@@ -109,5 +109,5 @@ title: Resultat
 
 
 
-### Test Final dans [[Schnell GGUF Models]]
+### Test Final dans [[ComfyUI-Flux - openart.ai - ComfyUI - Flux DevSchnell GGUF Models ⭐⭐⭐]]
 #todo
