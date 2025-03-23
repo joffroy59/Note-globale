@@ -129,8 +129,11 @@ collapse: closed
 ```ad-success
 title: Resultat
 
-`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
+### Result Image with workflow
 
+#### .
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
 
 ```
 

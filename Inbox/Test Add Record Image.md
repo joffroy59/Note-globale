@@ -1,5 +1,14 @@
 use [[Add - Record - Image]]
 
+D:\obsidian\MyNote\Note-globale\IA\ComfyUI\Result\arf.bmp
+TO FINISH 2
+
+D:\obsidian\MyNote\Note-globale\IA\ComfyUI\Result\arf.bmp
+TO FINISH 2
+
+D:\obsidian\MyNote\Note-globale\IA\ComfyUI\Result\arf.bmp
+TO FINISH
+
 - [x] Templater [[Add - Record - Image]]
 - [x] [[#Button]] ✅ 2025-03-23
 - [x] [[#Quickadd insert intio current note]] ✅ 2025-03-23
@@ -63,6 +72,20 @@ TO FINISH
 ### Metabind button
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result]`
+
+
+```ad-success
+title: Resultat
+
+### Result Image with workflow
+
+
+
+#### .
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
+
+```
 
 
 

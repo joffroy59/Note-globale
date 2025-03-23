@@ -1,4 +1,8 @@
 <%*
+function imagePath(imagePath){
+	return imagePath;
+}
+
 let filename = `arf.bmp`
 let type = "image"
 
@@ -9,5 +13,5 @@ image_local_path = destination_path + filename
 
 -%>
 
-<% image_local_path %>
-TO FINISH
+<% imagePath(image_local_path) %>
+TO FINISH 2ddddddzzz

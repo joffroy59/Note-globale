@@ -2348,7 +2348,7 @@
       },
       "insertAfter": {
         "enabled": true,
-        "after": "title: Resultat",
+        "after": "### Result Image with workflow",
         "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,
