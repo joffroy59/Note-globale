@@ -1,6 +1,6 @@
 <%*
 function imagePath(imagePath, title){
-	return `[${title}](file:///${imagePath.replaceAll("\\","/")})`;
+	return `![${title}|600](file:///${imagePath.replaceAll("\\","/")})`;
 }
 
 const type = "image"

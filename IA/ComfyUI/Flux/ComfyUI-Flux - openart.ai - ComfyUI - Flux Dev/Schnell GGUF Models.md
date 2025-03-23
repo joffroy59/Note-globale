@@ -131,6 +131,8 @@ title: Resultat
 
 ### Result Image with workflow
 
+![ComfyUI_00238_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/ComfyUI_00238_.png)
+
 #### .
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result]`

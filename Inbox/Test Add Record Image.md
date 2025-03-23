@@ -78,8 +78,7 @@ title: Resultat
 
 ### Result Image with workflow
 
-[arf.bmp](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/arf.bmp)
-TO FINISH 2ddddddzzz
+![ComfyUI_00238_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/ComfyUI_00238_.png)
 
 
 
@@ -90,7 +89,7 @@ TO FINISH 2ddddddzzz
 
 ```
 
-
+`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
 
 
 ### Add button to Template wip IA pour ajouter rapidement le resultat d'un test

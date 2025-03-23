@@ -4,9 +4,13 @@
 let time = await tp.system.prompt("Time", "xx.yy seconds", true, true);
 -%>
 
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success]`
+
 ```````ad-success
 
-{Image}
+### Result Image with workflow Success
+
+#### .
 
 time:  **<% time %>**
 ![[Assets/banner/Style1/Success.png|300]]
