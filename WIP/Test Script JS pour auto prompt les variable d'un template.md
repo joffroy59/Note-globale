@@ -20,7 +20,7 @@ Source : [[prompt]]
 ---
 ## Tasks
 - [x] [[#Faire le template]] ➕ 2025-03-23 ✅ 2025-03-23
-- [ ] [[#essayer avec un Template de creation wip ia ]]flux par exemple 
+- [/] [[#essayer avec un Template de creation wip ia ]]flux par exemple 
 
 ---
 ## Tasks Detail
