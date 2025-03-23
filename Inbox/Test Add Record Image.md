@@ -67,7 +67,8 @@ TO FINISH
 
 ### Add button to Template wip IA pour ajouter rapidement le resultat d'un test
 
-[[Schnell GGUF Models]]  👉 [[Create IA - Task - ComFyUI - Flux]] 👉  [[Common - Reproduction Local]]  
+[[Schnell GGUF Models]]  👉 [[Create IA - Task - ComFyUI - Flux]] 
+👉  [[Common - Reproduction Local]]  
 👉 [[Insert - IA - Comfy UI - Test]]
 
 

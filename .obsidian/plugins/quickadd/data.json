@@ -2347,9 +2347,9 @@
         "format": "{{TEMPLATE:Templates/IA/Add - Record - Image.md}}"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
+        "enabled": true,
+        "after": "title: Resultat",
+        "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"

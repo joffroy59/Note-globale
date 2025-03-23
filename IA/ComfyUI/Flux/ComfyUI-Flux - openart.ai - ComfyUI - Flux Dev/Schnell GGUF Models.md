@@ -129,8 +129,8 @@ collapse: closed
 ```ad-success
 title: Resultat
 
+`BUTTON[add-wip-ia-comfyui-workflow-image-result]`
 
-{Image}
 
 ```
 
@@ -156,8 +156,10 @@ time: **todo**
 
 ```````
 
+			
 `BUTTON[add-test-ia-workflow-qa,add-test-ia-workflow-success-qa,add-test-ia-workflow-failed-qa]`
 ---
+
 #### ComfyUI 
 [[#Test avec Comfy UI directement Workflow]]
 
