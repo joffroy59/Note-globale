@@ -21,6 +21,7 @@ wip:
     - workflow
     - ComFyUI - Flux
     - ComFyUI - Flux (Test)
+    - openart.ai - Flux
     # - civitai
     - Flux NF4
     - WAN 2.1
@@ -74,6 +75,18 @@ wip:
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - civitai
     tag: '#IA/civitai'
+  openart.ai:
+    title: 'openart.ai - '
+    folder: IA/ComfyUI/openart.ai
+    template:
+      create: Templates/IA/Create IA - Task - ComFyUI - openart.ai
+    tag: '#IA/openart.ai'
+  openart.ai - Flux:
+    title: 'openart.ai - '
+    folder: IA/ComfyUI/openart.ai
+    template:
+      create: Templates/IA/Create IA - Task - ComFyUI - openart.ai
+    tag: '#IA/openart.ai #IA/comfyui/flux'
   Flux NF4:
     title: 'ComfyUI-Flux NF4 - '
     folder: IA/ComfyUI/Flux NF4
