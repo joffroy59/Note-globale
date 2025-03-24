@@ -30,5 +30,6 @@
   "vscode-editor",
   "obsidian-task-progress-bar",
   "obsidian-read-it-later",
-  "obsidian-view-mode-by-frontmatter"
+  "obsidian-view-mode-by-frontmatter",
+  "find-orphaned-images"
 ]
