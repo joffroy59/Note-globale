@@ -31,5 +31,7 @@
   "obsidian-task-progress-bar",
   "obsidian-read-it-later",
   "obsidian-view-mode-by-frontmatter",
-  "find-orphaned-images"
+  "find-orphaned-images",
+  "find-unlinked-files",
+  "obsidian-projects"
 ]

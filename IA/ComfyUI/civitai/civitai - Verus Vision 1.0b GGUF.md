@@ -21,6 +21,7 @@ tags:
   - gguf
   - todo
 ---
+
 ````ad-tip
 Source : https://civitai.com/models/1043778?modelVersionId=1171095
 
