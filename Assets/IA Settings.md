@@ -183,6 +183,16 @@ execution:
   - docker
   - windows
 
+image:
+  type:
+    flux:
+      - NF4-BnB
+      - Schnell NF4-BnB
+      - DEV FP8 - Kijai
+      - Schnell FP8 Kijai
+      - Schnell]
+      - GGUF
+      - GGUF Q8
 
 
 logo:
