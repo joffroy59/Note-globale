@@ -29,5 +29,6 @@
   "progressbar",
   "vscode-editor",
   "obsidian-task-progress-bar",
-  "obsidian-read-it-later"
+  "obsidian-read-it-later",
+  "obsidian-view-mode-by-frontmatter"
 ]
