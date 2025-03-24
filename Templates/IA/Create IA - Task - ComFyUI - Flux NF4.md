@@ -1,4 +1,7 @@
 ---
+<%*
+let fux_sub_type = await tp.system.prompt("Flux NF4 sub type:");
+-%>
 ELN info:
   template: <% tp.config.template_file.name %>
   version: 0.3.2
@@ -22,6 +25,7 @@ tags:
   - IA/comfyui
   - IA/comfyui/flux
    - flux_NF4➕
+   - <% fux_sub_type %>
 ---
 <%*
 let workflowDirList = [

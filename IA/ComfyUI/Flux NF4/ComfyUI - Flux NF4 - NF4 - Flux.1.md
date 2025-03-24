@@ -22,6 +22,7 @@ tags:
   - IA/comfyui
   - IA/comfyui/flux
    - flux_NF4➕
+  - nf4-bnb
 ---
 ````ad-tip
 Source : https://civitai.com/models/638572/nf4-flux1

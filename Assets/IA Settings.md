@@ -58,13 +58,13 @@ wip:
       create: Templates/IA/Create IA - Task - ComFyUI - workflow
     tag:  '#IA/comfyui #workflow'
   ComFyUI - Flux:
-    title: 'ComfyUI-Flux - '
+    title: 'ComfyUI - Flux - '
     folder: IA/ComfyUI/Flux
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - Flux
     tag:  '#IA/comfyui/flux'
   ComFyUI - Flux (Test):
-    title: 'ComfyUI-Flux - '
+    title: 'ComfyUI - Flux - '
     folder: IA/ComfyUI/Flux
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - Flux (Test)
@@ -88,7 +88,7 @@ wip:
       create: Templates/IA/Create IA - Task - ComFyUI - openart.ai
     tag: '#IA/openart.ai #IA/comfyui/flux'
   Flux NF4:
-    title: 'ComfyUI-Flux NF4 - '
+    title: 'ComfyUI - Flux NF4 - '
     folder: IA/ComfyUI/Flux NF4
     template:
       create: Templates/IA/Create IA - Task - ComFyUI - Flux NF4

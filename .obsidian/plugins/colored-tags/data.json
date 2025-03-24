@@ -341,7 +341,10 @@
     "IA/openart": 16,
     "gguf": 170,
     "comfyui_workflow": 171,
-    "read_it_later": 172
+    "read_it_later": 172,
+    "nf4-bnb": 173,
+    "fux-sub-type": 174,
+    "fux_sub_type": 175
   },
   "_version": 3
 }
