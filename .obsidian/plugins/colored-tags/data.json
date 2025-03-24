@@ -340,7 +340,8 @@
     "Add": 169,
     "IA/openart": 16,
     "gguf": 170,
-    "comfyui_workflow": 171
+    "comfyui_workflow": 171,
+    "read_it_later": 172
   },
   "_version": 3
 }
