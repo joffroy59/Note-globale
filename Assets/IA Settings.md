@@ -22,7 +22,7 @@ wip:
     - ComFyUI - Flux
     - ComFyUI - Flux (Test)
     - openart.ai - Flux
-    # - civitai
+    - civitai
     - Flux NF4
     - WAN 2.1
     - Application

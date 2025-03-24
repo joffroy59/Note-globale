@@ -337,7 +337,10 @@
     "IA/comfy_ui/workflow": 1,
     "workflow/workflow": 1,
     "theType": 168,
-    "Add": 169
+    "Add": 169,
+    "IA/openart": 16,
+    "gguf": 170,
+    "comfyui_workflow": 171
   },
   "_version": 3
 }

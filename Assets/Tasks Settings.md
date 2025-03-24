@@ -101,8 +101,11 @@ IA:
   type:
     - Application
     - Prompt
+    - ComfyUI workflow
   Application:
   Prompt:
+  ComfyUI workflow:
+      tags:  '#IA/comfyui'
 
 ---
 
