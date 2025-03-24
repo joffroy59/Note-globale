@@ -25,7 +25,7 @@ develop debug vscode
 
 ---
 ## Tasks
-- [ ] Task1 ➕ 2025-03-24
+- [ ] Test  ➕ 2025-03-24
 
 ---
 ## Tasks Detail
