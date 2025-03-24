@@ -142,7 +142,6 @@
   "Lists": "MyList6248",
   "Pocket": "SaccliPocketColorSvgrepoCom",
   "Tasks/DONE.md": "✅",
-  "Panel/Home.md": "MyHomeSvgrepoCom(1)",
   "Panel/Task Archives.md": "💾",
   "Tasks/List": "MyYellowListOrder13190",
   "Tasks/note": "MyNoteSvgrepoCom",
@@ -173,5 +172,6 @@
     "iconColor": "#308adf"
   },
   "Templates/Pocket": "SaccliPocketColorSvgrepoCom",
-  "Templates/Task": "JiiTaskListSvgrepoCom(5)"
+  "Templates/Task": "JiiTaskListSvgrepoCom(5)",
+  "Panel/Home/Home.md": "MyHomeSvgrepoCom(1)"
 }
