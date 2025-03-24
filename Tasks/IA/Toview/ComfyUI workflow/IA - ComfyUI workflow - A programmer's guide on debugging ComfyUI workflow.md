@@ -30,7 +30,12 @@ develop debug vscode
 ---
 ## Tasks Detail
 
+```embed
+title: "Vidéos Bing"
+image: "app://obsidian.md/sa/simg/Flag_Feedback.png"
+description: ""
+url: "https://www.bing.com/ck/a?!&&p=669fd8a6dda73f2c0cb746fb6c2dd6aad0fd0e8de35c21e42dc586811e9e0f17JmltdHM9MTc0Mjc3NDQwMA&ptn=3&ver=2&hsh=4&fclid=361bfd4e-2eb8-63dd-06e2-e8cc2f4c62a5&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9Y29tZnl1aSttb2RlK2RlYnVnK2luK2xvZyZtaWQ9NDdGOTA0MjU0NTIzOENCRjMzNjM0N0Y5MDQyNTQ1MjM4Q0JGMzM2MyZGT1JNPVZJUkU&ntb=1"
+```
 
 
-
-
+#todo insert video 
