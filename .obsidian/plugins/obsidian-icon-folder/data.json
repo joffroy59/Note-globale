@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "MyNoteSvgrepoCom",
       "LiTrash2",
       "JiiTaskListSvgrepoCom(5)",
       "IdlTaskSquareSvgrepoCom",
-      "DaiTaskSvgrepoCom",
-      "SaccliPocketColorSvgrepoCom"
+      "DaiTaskSvgrepoCom"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -173,5 +173,6 @@
   },
   "Templates/Pocket": "SaccliPocketColorSvgrepoCom",
   "Templates/Task": "JiiTaskListSvgrepoCom(5)",
-  "Panel/Home/Home.md": "MyHomeSvgrepoCom(1)"
+  "Panel/Home/Home.md": "MyHomeSvgrepoCom(1)",
+  "IA/Notes": "MyNoteSvgrepoCom"
 }
