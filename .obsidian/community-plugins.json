@@ -28,5 +28,6 @@
   "convert-url-to-iframe",
   "progressbar",
   "vscode-editor",
-  "obsidian-task-progress-bar"
+  "obsidian-task-progress-bar",
+  "obsidian-read-it-later"
 ]
