@@ -21,4 +21,5 @@ console.log(image_local_path)
 
 time:  **<% time %>**
 
+---
 

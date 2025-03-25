@@ -57,7 +57,7 @@ seed  seed 3
 ---
 
 
-### workflow ok depuis ComfyUI
+## workflow ok depuis ComfyUI
 
 #### Workflow
 
@@ -1062,28 +1062,6 @@ Identique (Requested to load SDXL Requested to load ControlNet)
 Time : **131.05 seconds**
 ```
 
-### Test Done
-
-````ad-success
-title: "Test"
-
-![FLUX_GGUF_Q8_00030_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00030_.png)
-
-
-time:  **38.30 seconds**
-````
-
-
-#### Add Success image
-
-`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
-
-![FLUX_GGUF_Q8_00030_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00030_.png)
-
-
-time:  **38.30 seconds**
-
-
 
 ###### Commentaire
  Global: **similaire** 
@@ -1097,7 +1075,7 @@ time:  **38.30 seconds**
 
 
 
-### Test autre workflow ComfyUI
+## Test autre workflow ComfyUI
 
 ``````ad-success
 title: Test1
@@ -1269,6 +1247,41 @@ time : **125.91 seconds**
 
 ``````
 
+
+## Test autre workflow ComfyUI 2
+
+### Test Done
+
+````ad-success
+title: "Test"
+
+#### Result
+
+
+![FLUX_GGUF_Q8_00030_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00030_.png)
+
+
+time:  **38.30 seconds**
+
+![FLUX_GGUF_Q8_00039_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+
+
+time:  **30.56 seconds**
+
+![FLUX_GGUF_Q8_00040_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00040_.png)
+
+
+time:  **33.53 seconds**
+
+##### .
+````
+
+
+#### Add Success image
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip, add-wip-ia-comfyui-workflow-image-result-success-wip-inner]`
+
+
 ## Info
 ---
 
@@ -1283,4 +1296,58 @@ collapse: Closed
 
 ---
 creation date:: [[2025/03/12/📒2025-03-18]]  08:28
+
+
+# test 
+
+> [!multi-column]
+>
+>> [!note]+ Work
+>> your notes or lists here. using markdown formatting
+>
+>> [!warning]+ Personal
+>> your notes or lists here. using markdown formatting
+>
+>> [!summary]+ Charity
+>> your notes or lists here. using markdown formatting
+
+> [!multi-column]
+>
+>> [!note]+ Work
+>> ![FLUX_GGUF_Q8_00039_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>
+>> [!warning]+ Personal
+>> ![FLUX_GGUF_Q8_00039_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>
+>> [!summary]+ Charity
+>> ![FLUX_GGUF_Q8_00039_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+
+``````ad-success
+> [!multi-column]
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00039_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00039_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00039_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+``````
+
+
+``````ad-success
+> [!multi-column]
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00039_.png|400](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00039_.png|400](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00039_.png|400](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+``````
+
+
 
