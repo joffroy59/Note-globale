@@ -1063,6 +1063,10 @@ Time : **131.05 seconds**
 ```
 
 
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success]`
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
+
 ###### Commentaire
  Global: **similaire** 
  

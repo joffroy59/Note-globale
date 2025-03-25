@@ -2405,6 +2405,41 @@
       "type": "Macro",
       "command": true,
       "macroId": "8b3d3a59-b054-4b24-ad6b-d50ec2959b57"
+    },
+    {
+      "id": "b582a2d9-374a-4343-86e7-2bfcaa284f61",
+      "name": "Add IA ComfyUI workflow Image result (Success) (wip)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/IA/Add - Record - Image - wip.md}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### Result Image with workflow Success",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
