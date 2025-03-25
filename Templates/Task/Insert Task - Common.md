@@ -1,4 +1,15 @@
 <%*
+let title
+let is_note_created
+
+async function get_title_choice_type() {
+  const manage_note_label = 'As Note'
+  const choices = [manage_note_label, 'Simple Text']
+
+  title = await tp.system.prompt("Enter a value (Choice Note Link)", null, true)
+  is_note_created = (await tp.system.suggester(choices, choices, false, "Choose Type of tile")) === manage_note_label;
+}
+
 const settings_file = "Assets/Tasks Settings.md";
 const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
 
@@ -28,24 +39,28 @@ console.log(settings_root)
 let task_type_tags = settings_root.task_type[task_type.trim()].tags
 
 let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`
-let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
+//let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
+await get_title_choice_type()
 
 console.log(template_create)
 
 // Create Note
 let existing = tp.file.find_tfile(title);
 let createdFileDisplay;
-if (existing) {
-  createdFileDisplay = existing.basename;
-  new Notice(`${title} exists`)
-} else {
-  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true, folder_base));
-  new Notice(`${title} Created.`, "/"+ folder_base + "/")
+if (is_note_created){
+  if (existing) {
+    createdFileDisplay = existing.basename;
+    new Notice(`${title} exists`)
+  } else {
+    createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true, folder_base));
+    new Notice(`${title} Created.`, "/"+ folder_base + "/")
+  }
 }
 //await tp.file.move("/"+ folder_base + "/" + title, folder_basetp.file.find_tfile(title));
 
 let task_state = " "
 if (task_type == "Wip") task_state = "/"
 
+let source_text = is_note_created ? `[[${folder_base}/${title}|${title}]]` : title
 
-%>    - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  <% tags %>    ➕ <% tp.date.now() %>
+%>    - [<% task_state %>] <% source_text %>  <% tags %>    ➕ <% tp.date.now() %>

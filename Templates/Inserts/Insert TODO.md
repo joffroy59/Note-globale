@@ -12,6 +12,6 @@ async function get_title_choice_type() {
 
 
 
-get_title_choice_type()
+await get_title_choice_type()
 
 %>   - [ ] <% source_text %>  #todo  ➕ <% tp.date.now() %>
