@@ -22,5 +22,5 @@ Source : https://chat.mistral.ai/chat/e76f1c4d-25d2-4a7a-a4fd-cab175c5e2c3
 
 
 template : [[Add Start to title ⭐⭐⭐]]
-quickadd:  ⭐Add Start to title
+quickadd:  ⭐Add Start to title + macro insert template
 
