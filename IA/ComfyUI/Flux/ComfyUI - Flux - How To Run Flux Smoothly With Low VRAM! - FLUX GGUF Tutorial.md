@@ -126,6 +126,44 @@ time:  **55.34 seconds**
 
 time:  **36.65 seconds**
 
+![FLUX_GGUF_Q8_00007_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00007_.png)
+
+
+time:  **63.83 seconds**
+
+![FLUX_GGUF_Q8_00008_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00008_.png)
+
+
+time:  **39.31 seconds**
+
+![FLUX_GGUF_Q8_00010_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00010_.png)
+
+
+time:  **51.29 seconds**
+
+![FLUX_GGUF_Q8_00011_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00011_.png)
+
+
+time:  **36.48 seconds**
+
+![FLUX_GGUF_Q8_00015_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00015_.png)
+
+**Q6_K**
+
+![[ComfyUI - Flux - How To Run Flux Smoothly With Low VRAM! - FLUX GGUF Tutorial-1742932758269.png|150]]
+
+time:  **36.63 seconds**
+
+
+
+
+
+
+
+
+
+
+
 
 
 
