@@ -2,5 +2,5 @@
 <%*
 const title = tp.file.title;
 const newTitle = title + " ⭐⭐⭐";
-tp.file.rename(newTitle);
+await tp.file.rename(newTitle);
 %>

@@ -2926,6 +2926,39 @@
           "type": "Obsidian",
           "id": "8c7d7cc7-282a-43aa-8807-f874f44b15f9",
           "commandId": "templater-obsidian:Templates/Action/Add Start to title ⭐⭐⭐.md"
+        },
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "3f0d752c-b823-491d-ac00-04d8869b5b79",
+          "choice": {
+            "id": "8a927145-0ab3-42bf-8d0b-dddd2894e255",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
         }
       ],
       "runOnStartup": false
