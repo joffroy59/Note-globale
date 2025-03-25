@@ -2425,7 +2425,7 @@
       },
       "insertAfter": {
         "enabled": true,
-        "after": "### Result Image with workflow Success",
+        "after": "### Test Done",
         "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,

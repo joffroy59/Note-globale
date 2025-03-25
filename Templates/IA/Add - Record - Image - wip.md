@@ -13,6 +13,9 @@ image_local_path = destination_path + filename
 console.log(image_local_path)
 -%>
 
+````ad-success
+title: "Test"
+
 <% imagePath(image_local_path, filename) %>
 
 <%*
@@ -20,5 +23,5 @@ console.log(image_local_path)
 -%>
 
 time:  **<% time %>**
-
+````
 

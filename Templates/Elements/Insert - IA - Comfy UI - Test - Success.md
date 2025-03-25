@@ -19,3 +19,9 @@ time:  **<% time %>**
 <%*
 tR+= await tp.file.include(`[[Button - IA - Comfy UI - Test]]`);
 -%>
+
+### Test Done
+
+#### Add Success image
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`

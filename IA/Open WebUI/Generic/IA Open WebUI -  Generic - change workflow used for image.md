@@ -1062,10 +1062,28 @@ Identique (Requested to load SDXL Requested to load ControlNet)
 Time : **131.05 seconds**
 ```
 
+### Test Done
 
-`BUTTON[add-wip-ia-comfyui-workflow-image-result-success]`
+````ad-success
+title: "Test"
+
+![FLUX_GGUF_Q8_00030_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00030_.png)
+
+
+time:  **38.30 seconds**
+````
+
+
+#### Add Success image
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
+
+![FLUX_GGUF_Q8_00030_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00030_.png)
+
+
+time:  **38.30 seconds**
+
+
 
 ###### Commentaire
  Global: **similaire** 
