@@ -33,6 +33,7 @@ let hasTip = (url || image)
 
 -%>
 <%* if (hasTip) { -%>
+
 ````ad-tip
 <%*   if (url) { -%>
 Source : <% url %>

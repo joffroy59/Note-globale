@@ -61,6 +61,7 @@ let isVideo = image.includes(".mp4") || image.includes("youtube.com") || image.i
 let hasTip = (url || image || workflow_filename)
 -%>
 <%* if (hasTip) { -%>
+
 ````ad-tip
 <%*   if (url) { -%>
 Source : <% url %>
