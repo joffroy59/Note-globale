@@ -121,6 +121,13 @@ time:  **40.46 seconds**
 
 time:  **55.34 seconds**
 
+![FLUX_GGUF_Q8_00006_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00006_.png)
+
+
+time:  **36.65 seconds**
+
+
+
 
 
 
