@@ -1,7 +1,7 @@
 <%*
 
-  let title="arf"
-  let is_note_created=false
+  let title
+  let is_note_created
   let source_text
 
 
@@ -9,7 +9,6 @@ async function get_title_choice_type() {
   const manage_note_label = 'As Note'
   const choices = [manage_note_label, 'Simple Text']
   title = await tp.system.prompt("Enter a value (Choice Note Link)", null, true)
-  console.log(`title:${title}`)
   is_note_created = (await tp.system.suggester(choices, choices, false, "Choose Type of tile")) === manage_note_label;
   source_text = is_note_created ? `[[${title}]]` : title
 }
@@ -45,7 +44,6 @@ let task_type_tags = settings_root.task_type[task_type.trim()].tags
 let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`
 
 get_title_choice_type()
-console.log(title)
 
 console.log(template_create)
 
