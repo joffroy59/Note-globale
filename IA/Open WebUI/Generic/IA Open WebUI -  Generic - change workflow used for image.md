@@ -1273,6 +1273,13 @@ time:  **30.56 seconds**
 
 time:  **33.53 seconds**
 
+![FLUX_GGUF_Q8_00041_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00041_.png)
+
+
+time:  **38.97 seconds**
+
+---
+
 ##### .
 ````
 
