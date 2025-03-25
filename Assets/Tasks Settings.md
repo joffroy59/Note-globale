@@ -102,11 +102,14 @@ IA:
     - Application
     - Prompt
     - ComfyUI workflow
+    - Exemple
     - Autre
   Application:
   Prompt:
   ComfyUI workflow:
       tags:  '#IA/comfyui'
+  Exemple:
+      tags:  '#IA #exemple'
   Autre:
       tags:  '#IA/autre'
 
