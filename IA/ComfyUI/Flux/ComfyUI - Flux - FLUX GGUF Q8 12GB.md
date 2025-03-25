@@ -24,7 +24,6 @@ tags:
    - gguf q8
 ---
 
-
 ````ad-tip
 Source : https://openart.ai/workflows/onion/flux-gguf-q8-12gb/X5HzyhrKjW2jqHVCTnvT?msockid=361bfd4e2eb863dd06e2e8cc2f4c62a5
 
