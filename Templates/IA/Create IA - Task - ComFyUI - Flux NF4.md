@@ -5,7 +5,6 @@ const settings  = p.user.get_settings(ia_settings_file)
 
 const sub_type_list = settings.image.type.flux
 
-["NF4-BnB", "Schnell NF4-BnB","DEV FP8 - Kijai","Schnell FP8 Kijai","Schnell"]
 let fux_sub_type = await tp.system.suggester((item) => item, sub_type_list, true, "Flux NF4 sub type:");
 -%>
 ELN info:

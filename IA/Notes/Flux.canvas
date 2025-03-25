@@ -1,14 +1,27 @@
 {
 	"nodes":[
-		{"id":"ecfb109bc7a72a97","type":"file","file":"IA/Notes/attachments/Pasted image 20250324221834.png","x":-1900,"y":-1200,"width":829,"height":243},
-		{"id":"1e9efb732bf77e94","type":"file","file":"IA/Notes/attachments/Pasted image 20250324221739.png","x":-2020,"y":-860,"width":609,"height":720,"color":"4"},
-		{"id":"2ac3fdeeb1859be5","type":"text","text":"| Modèle      | Version       | Capacité |\n| ----------- | ------------- | -------- |\n| NF4-BnB     | Standard      | N/A      |\n| NF4-BnB     | Schnell       | N/A      |\n| FP8 - Kijai | Développement | 11 GB    |\n| FP8 - Kijai | Schnell       | 11 GB    |\n","x":-2020,"y":-60,"width":472,"height":180},
-		{"id":"0344f7e9e4a9ff09","type":"link","url":"https://www.stablediffusion.blog/flux-nf4","x":-1340,"y":-860,"width":360,"height":858},
-		{"id":"5348ce51737ccf7b","type":"file","file":"Panel/Actions.md","x":220,"y":-1200,"width":460,"height":238}
+		{"id":"ec9af56abd520adf","x":-1800,"y":-1120,"width":1470,"height":1350,"type":"group","label":"GGUF"},
+		{"id":"c28cabd63257739c","x":-1800,"y":320,"width":1191,"height":898,"type":"group","label":"NF4"},
+		{"id":"f7761d2161e35979","type":"group","x":-1080,"y":-800,"width":730,"height":1010,"label":"Quantirizer"},
+		{"id":"15245e97b536e85d","x":-2960,"y":-1120,"width":649,"height":996,"type":"group","label":"Info"},
+		{"id":"5348ce51737ccf7b","type":"file","file":"Panel/Actions.md","x":-3360,"y":-1682,"width":460,"height":238},
+		{"id":"1e9efb732bf77e94","type":"file","file":"IA/Notes/attachments/Pasted image 20250324221739.png","x":-2940,"y":-1100,"width":609,"height":720,"color":"4"},
+		{"id":"2ac3fdeeb1859be5","type":"text","text":"| Modèle      | Version       | Capacité |\n| ----------- | ------------- | -------- |\n| NF4-BnB     | Standard      | N/A      |\n| NF4-BnB     | Schnell       | N/A      |\n| FP8 - Kijai | Développement | 11 GB    |\n| FP8 - Kijai | Schnell       | 11 GB    |\n","x":-2940,"y":-324,"width":472,"height":180},
+		{"id":"ecfb109bc7a72a97","type":"file","file":"IA/Notes/attachments/Pasted image 20250324221834.png","x":-2800,"y":-1664,"width":1584,"height":464},
+		{"id":"b65b3230221802a6","type":"file","file":"IA/Notes/attachments/Pasted image 20250325212734.png","x":-1780,"y":-793,"width":560,"height":258},
+		{"id":"ad4cb12a509abb93","type":"file","file":"IA/Notes/attachments/Pasted image 20250325212728.png","x":-1780,"y":-500,"width":560,"height":370},
+		{"id":"aba72adc31004e5b","type":"file","file":"IA/Notes/attachments/Pasted image 20250325212909.png","x":-1720,"y":-1100,"width":400,"height":224},
+		{"id":"72fda1f30183fc29","type":"link","url":"https://huggingface.co/city96","x":-1010,"y":-690,"width":400,"height":794},
+		{"id":"0344f7e9e4a9ff09","type":"link","url":"https://www.stablediffusion.blog/flux-nf4","x":-1780,"y":340,"width":471,"height":858},
+		{"id":"d969d0b287db9628","x":-1269,"y":340,"width":640,"height":690,"type":"link","url":"https://mondetech.fr/un-guide-complet-sur-le-flux-nf4-pour-optimiser-stable-diffusion/"},
+		{"id":"800bd08b70d4ec9b","x":-320,"y":-1700,"width":400,"height":274,"type":"file","file":"IA/Notes/attachments/Pasted image 20250325215333.png"}
 	],
 	"edges":[
 		{"id":"804e7e95baa78692","fromNode":"ecfb109bc7a72a97","fromSide":"bottom","toNode":"1e9efb732bf77e94","toSide":"top"},
-		{"id":"bf1e364f9ad62cad","fromNode":"ecfb109bc7a72a97","fromSide":"bottom","toNode":"0344f7e9e4a9ff09","toSide":"top"},
-		{"id":"2fcffdf99bedbdb6","fromNode":"2ac3fdeeb1859be5","fromSide":"top","toNode":"1e9efb732bf77e94","toSide":"bottom","toEnd":"none"}
+		{"id":"bf1e364f9ad62cad","fromNode":"ecfb109bc7a72a97","fromSide":"bottom","toNode":"c28cabd63257739c","toSide":"left"},
+		{"id":"e13c68d7dce2f758","fromNode":"aba72adc31004e5b","fromSide":"bottom","toNode":"b65b3230221802a6","toSide":"top"},
+		{"id":"f7ea92a36e405bb3","fromNode":"ad4cb12a509abb93","fromSide":"top","toNode":"b65b3230221802a6","toSide":"bottom"},
+		{"id":"c4ce83c97ef122c7","fromNode":"aba72adc31004e5b","fromSide":"right","toNode":"f7761d2161e35979","toSide":"top"},
+		{"id":"530cdd90a18ed5d6","fromNode":"ecfb109bc7a72a97","fromSide":"bottom","toNode":"ec9af56abd520adf","toSide":"left"}
 	]
 }
