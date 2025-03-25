@@ -12,12 +12,22 @@ let destination_path = await tp.user.copy_file_use_settings(tp, filename, type)
 image_local_path = destination_path + filename
 console.log(image_local_path)
 -%>
-
-<% imagePath(image_local_path, filename) %>
-
 <%*
   let time = await tp.system.prompt("Time", "", true, false);
 -%>
 
-time:  **<% time %>**
+> [!multi-column]
+>
+>> [!blank]
+>> <% imagePath(image_local_path, filename) %>
+>> time:  **<% time %>**
+>
+>> [!blank]
+>> <% imagePath(image_local_path, filename) %>
+>> time:  **<% time %>**
+>
+>> [!blank]
+>> <% imagePath(image_local_path, filename) %>
+>> time:  **<% time %>**
+
 ---

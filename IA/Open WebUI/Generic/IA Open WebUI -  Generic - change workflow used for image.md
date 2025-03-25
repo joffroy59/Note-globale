@@ -1280,6 +1280,22 @@ time:  **38.97 seconds**
 
 ---
 
+> [!multi-column]
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00042_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00042_.png)
+>> time:  **167.79 seconds**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00042_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00042_.png)
+>> time:  **167.79 seconds**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00042_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00042_.png)
+>> time:  **167.79 seconds**
+
+---
+
 ##### .
 ````
 
@@ -1349,13 +1365,17 @@ creation date:: [[2025/03/12/📒2025-03-18]]  08:28
 >
 >> [!blank]
 >> ![FLUX_GGUF_Q8_00039_.png|400](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>> time:  **167.79 seconds**
 >
 >> [!blank]
 >> ![FLUX_GGUF_Q8_00039_.png|400](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>> time:  **167.79 seconds**
 >
 >> [!blank]
 >> ![FLUX_GGUF_Q8_00039_.png|400](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00039_.png)
+>> time:  **167.79 seconds**
+
+---
+
 ``````
-
-
 
