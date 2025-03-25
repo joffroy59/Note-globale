@@ -1374,6 +1374,23 @@
           "command": "quickadd:choice:79c641ee-a5cf-436a-af3d-6148f8e8e298"
         }
       ]
+    },
+    {
+      "label": "Add Image Result (Success) wip-inner (col)",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "background-color: #814012",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-image-result-success-wip-inner-col",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:0bb72b30-1c77-4c30-8c09-c1085dcbb7dc"
+        }
+      ]
     }
   ],
   "excludedFolders": [

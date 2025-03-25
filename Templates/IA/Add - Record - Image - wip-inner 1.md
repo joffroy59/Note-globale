@@ -13,11 +13,6 @@ image_local_path = destination_path + filename
 console.log(image_local_path)
 -%>
 
-````ad-success
-title: "Test"
-
-#### Result
-
 <% imagePath(image_local_path, filename) %>
 
 <%*
@@ -25,10 +20,4 @@ title: "Test"
 -%>
 
 time:  **<% time %>**
-
 ---
-
-````
-
-
-`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`

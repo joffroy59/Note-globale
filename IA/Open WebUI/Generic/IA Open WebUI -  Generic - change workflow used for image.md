@@ -1279,8 +1279,9 @@ time:  **33.53 seconds**
 
 #### Add Success image
 
-`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip, add-wip-ia-comfyui-workflow-image-result-success-wip-inner]`
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
 
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
 
 ## Info
 ---

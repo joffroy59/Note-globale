@@ -61,7 +61,7 @@ collapse: closed
 ## Test reproduction en local
 
 ---
-### StabilityMatrix 
+### StabilityMatrix
 ### Test avec Comfy UI directement Workflow
 
 ```ad-info
@@ -231,10 +231,13 @@ time:  **32.69 seconds**
 
 #### Add Success image
 
-`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
+  `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
+
+  `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
+
 
 ---
-#### ComfyUI 
+#### ComfyUI
 [[#Test avec Comfy UI directement Workflow]]
 
 ---
