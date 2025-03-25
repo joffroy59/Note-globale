@@ -1,18 +1,4 @@
 <%*
-
-  let title
-  let is_note_created
-  let source_text
-
-
-async function get_title_choice_type() {
-  const manage_note_label = 'As Note'
-  const choices = [manage_note_label, 'Simple Text']
-  title = await tp.system.prompt("Enter a value (Choice Note Link)", null, true)
-  is_note_created = (await tp.system.suggester(choices, choices, false, "Choose Type of tile")) === manage_note_label;
-  source_text = is_note_created ? `[[${title}]]` : title
-}
-
 const settings_file = "Assets/Tasks Settings.md";
 const settings = app.metadataCache.getFileCache(app.vault.getAbstractFileByPath(settings_file)).frontmatter;
 
@@ -42,8 +28,7 @@ console.log(settings_root)
 let task_type_tags = settings_root.task_type[task_type.trim()].tags
 
 let tags = `#${global_task_type_tags} ${task_type_tags} #${generic_type.replace(/ /g,"_").toLowerCase()}`
-
-get_title_choice_type()
+let title = await tp.system.prompt("Title (create Note Link)", defaultTitle);
 
 console.log(template_create)
 
@@ -62,7 +47,5 @@ if (existing) {
 let task_state = " "
 if (task_type == "Wip") task_state = "/"
 
-source_text = is_note_created ? `[[${folder_base}/${title}|${title}]]` : title
 
-
-  %> -[<% task_state %>] <% source_text %>  <% tags %>    ➕ <% tp.date.now() %>
+%>    - [<% task_state %>]  [[<% folder_base %>/<% title %>|<% title %>]]  <% tags %>    ➕ <% tp.date.now() %>
