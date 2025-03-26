@@ -10,8 +10,7 @@ let createdFileDisplay;
 if (existing) {
   createdFileDisplay = existing.basename;
 } else {
-  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), title, true));
+  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(templateName), title, true, "/" + baseFolder));
 }
-await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
 %>   - [/] [[<% baseFolder %>/<% title %>]]  #status/wip #IA #IA/application   ➕ <% tp.date.now() %> 🛫 <% tp.date.now() %>

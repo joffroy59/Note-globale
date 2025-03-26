@@ -35,10 +35,9 @@ if (existing) {
   createdFileDisplay = existing.basename;
   new Notice(`${title} exists`)
 } else {
-  createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true));
+	createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile(template_create), title, true, "/" + baseFolder));
   new Notice(`${title} Created.`)
 }
-await tp.file.move("/"+ baseFolder + "/" + title, tp.file.find_tfile(title));
 
 let tags = ia_tag + " " + ia_type_tag + " " + ia_sub_type_tags
 
