@@ -1,33 +1,33 @@
 <%*
 function imagePath(imagePath, title){
-	return `![${title}|600](file:///${imagePath.replaceAll("\\","/")})`;
+	return `![${title}|300](file:///${imagePath.replaceAll("\\","/")})`;
 }
 
 const type = "image"
 
-let filename = await tp.system.prompt(`Image (with extension from Downloads)`);
+const col_count_list = [1, 2, 3, 4, 5]
+let column_count = await tp.system.suggester((item) => item, col_count_list, true, "Column number: ")
 
-let destination_path = await tp.user.copy_file_use_settings(tp, filename, type)
-
-image_local_path = destination_path + filename
-console.log(image_local_path)
--%>
-<%*
-  let time = await tp.system.prompt("Time", "", true, false);
+let filenames = []
 -%>
 
 > [!multi-column]
 >
->> [!blank]
+<%*
+let filename
+let destination_path
+let time
+for (let i = 0; i < column_count; i++) {
+  filename = await tp.system.prompt(`Image (with extension from Downloads)`);
+  destination_path = await tp.user.copy_file_use_settings(tp, filename, type)
+  image_local_path = destination_path + filename
+  console.log(image_local_path)
+  time = await tp.system.prompt("Time", "", true, false);
+ -%>>> [!blank]
 >> <% imagePath(image_local_path, filename) %>
 >> time:  **<% time %>**
 >
->> [!blank]
->> <% imagePath(image_local_path, filename) %>
->> time:  **<% time %>**
->
->> [!blank]
->> <% imagePath(image_local_path, filename) %>
->> time:  **<% time %>**
+<%* } -%>
+
 
 ---

@@ -1296,6 +1296,20 @@ time:  **38.97 seconds**
 
 ---
 
+> [!multi-column]
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00043_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00043_.png)
+>> time:  **33.11 seconds**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00044_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00044_.png)
+>> time:  **35.98 seconds**
+>
+
+
+---
+
 ##### .
 ````
 
