@@ -1,7 +1,7 @@
 ---
 <%*
 const ia_settings_file = "Assets/IA Settings.md";
-const settings  = p.user.get_settings(ia_settings_file)
+const settings  = tp.user.get_settings(ia_settings_file)
 
 const sub_type_list = settings.image.type.flux
 
@@ -48,6 +48,7 @@ let defaultTitle = "Untitled"
 if (title.startsWith(defaultTitle)) {
   title = await tp.system.prompt("Title :");
   if (!title) title = defaultTitle
+  console.log('rename note')
   await tp.file.rename(`${title}`);
 }
 

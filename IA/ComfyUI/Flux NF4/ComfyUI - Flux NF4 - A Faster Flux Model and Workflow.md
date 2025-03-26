@@ -1,6 +1,6 @@
 ---
 ELN info:
-  template: Create IA - Task - ComFyUI - Flux.md
+  template: Create IA - Task - ComFyUI - Flux NF4.md
   version: 0.3.2
   author: Jerome Offroy
   modified: 2025-03-26
@@ -21,17 +21,18 @@ tags:
   - IA/StabilityMatrix
   - IA/comfyui
   - IA/comfyui/flux
-   - gguf q8
+   - flux_NF4➕
+   - nf4-bnb
 ---
 
 ````ad-tip
-Source : https://civitai.com/models/1029719?modelVersionId=1168583
+Source : https://www.mimicpc.com/learn/flux-model-and-workflow
 
 workflow: workflow_test
 ⭐🚧 [workflow_test.json](file:///workflow_path%5Cworkflow_test.json)
 ✅ #todo
 
-![|400](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7d6b251-5072-445b-85f7-d064984a62f7/anim=false,width=450/ComfyUI_temp_rctey_00001_.jpeg)
+![|400](https://mimicpc-application-data.mimicpc.com/public/official/learn/content/flux-model-and-workflow/29-1724118704625.png)
 ````
 
 ````ad-quote
@@ -121,6 +122,19 @@ title: Resultat
 
 ---
 
+```ad-failure
+title: Resultat
+
+
+{Image}
+
+```
+
+time: **todo**
+
+![[Assets/banner/Style1/Failure.png|300]]
+
+---
 
 ```````
 
@@ -132,16 +146,6 @@ title: Resultat
 title: "Test"
 
 #### Result
-
----
-
-> [!multi-column]
->
->> [!blank]
->> ![FLUX_GGUF_Q8_00071_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00071_.png)
->> time:  **54.51 seconds**
->
-
 
 ---
 
@@ -181,6 +185,6 @@ collapse: Closed
 ```
 
 ---
-creation date:: [[2025/03/13/📒2025-03-26]]  02:39
+creation date:: [[2025/03/13/📒2025-03-26]]  08:38
 
 
