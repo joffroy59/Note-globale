@@ -14,5 +14,7 @@ if (taskEnable) { -%>
 
 
 <%* } else { %>
+
 `BUTTON[add-tasklist-no-ask]`
+
 <%* } -%>

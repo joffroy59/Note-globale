@@ -12,9 +12,9 @@
 		{"id":"aba72adc31004e5b","type":"file","file":"IA/Notes/attachments/Pasted image 20250325212909.png","x":-1720,"y":-1100,"width":399,"height":224},
 		{"id":"800bd08b70d4ec9b","type":"file","file":"IA/Notes/attachments/Pasted image 20250325215333.png","x":-320,"y":-1700,"width":400,"height":274},
 		{"id":"ad4cb12a509abb93","type":"file","file":"IA/Notes/attachments/Pasted image 20250325212728.png","x":-1780,"y":-500,"width":560,"height":370},
-		{"id":"0344f7e9e4a9ff09","type":"link","url":"https://www.stablediffusion.blog/flux-nf4","x":-1780,"y":340,"width":471,"height":858},
 		{"id":"d969d0b287db9628","type":"link","url":"https://mondetech.fr/un-guide-complet-sur-le-flux-nf4-pour-optimiser-stable-diffusion/","x":-1269,"y":340,"width":640,"height":690},
 		{"id":"72fda1f30183fc29","type":"link","url":"https://huggingface.co/city96","x":-1010,"y":-690,"width":400,"height":794},
+		{"id":"0344f7e9e4a9ff09","type":"link","url":"https://www.stablediffusion.blog/flux-nf4","x":-1780,"y":340,"width":471,"height":858},
 		{"id":"9276423d95e0070e","type":"file","file":"IA/Notes/attachments/Pasted image 20250326081747.png","x":-600,"y":320,"width":1600,"height":1881},
 		{"id":"60dbc1b89e5bfc64","type":"link","url":"https://www.stablediffusion.blog/download-flux-ia","x":-3220,"y":640,"width":1311,"height":1995}
 	],
