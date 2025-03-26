@@ -7,8 +7,8 @@ function imagePath(imagePath, title){
 function parse_time(time) {
 
   if (time.contains("/")){
-    time_s = time.split("/")[0]
-    div = time.split("/")[1]
+    time_s = Number(time.split("/")[0])
+    div = Number(time.split("/")[1])
     time_one = time_s / div
     time = `${time} (${time_one})`
   }
