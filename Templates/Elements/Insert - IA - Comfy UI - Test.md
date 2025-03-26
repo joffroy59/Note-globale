@@ -97,7 +97,7 @@ title: "Test"
 #### Add Success image
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
-
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
 
 <%*
 tR+= await tp.file.include(`[[Button - IA - Comfy UI - Test]]`);
