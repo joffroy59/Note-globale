@@ -345,7 +345,10 @@
     "nf4-bnb": 173,
     "fux-sub-type": 174,
     "fux_sub_type": 175,
-    "q8": 176
+    "q8": 176,
+    "interface": 177,
+    "unknow": 178,
+    "schnell": 179
   },
   "_version": 3
 }

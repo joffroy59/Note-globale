@@ -182,6 +182,7 @@ wip:
 execution:
   - docker
   - windows
+  - unknow
 
 image:
   type:
