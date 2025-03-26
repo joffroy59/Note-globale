@@ -5,7 +5,7 @@ function imagePath(imagePath, title){
 
 const type = "image"
 
-const col_count_list = [1, 2, 3, 4, 5]
+const col_count_list = [1, 2, 3, 4, 5, 6]
 let column_count = await tp.system.suggester((item) => item, col_count_list, true, "Column number: ")
 
 let filenames = []

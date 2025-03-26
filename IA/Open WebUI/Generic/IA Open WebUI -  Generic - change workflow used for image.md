@@ -1298,6 +1298,36 @@ title: "Test"
 
 ---
 
+> [!multi-column]
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00046_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00046_.png)
+>> time:  **199.51 seconds / 6**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00047_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00047_.png)
+>> time:  **199.51 seconds / 6**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00048_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00048_.png)
+>> time:  **199.51 seconds / 6**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00049_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00049_.png)
+>> time:  **199.51 seconds / 6**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00050_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00050_.png)
+>> time:  **199.51 seconds / 6**
+>
+>> [!blank]
+>> ![FLUX_GGUF_Q8_00051_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FLUX_GGUF_Q8_00051_.png)
+>> time:  **199.51 seconds / 6**
+>
+
+
+---
+
 ##### .
 ````
 
