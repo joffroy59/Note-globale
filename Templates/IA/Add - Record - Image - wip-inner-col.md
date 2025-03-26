@@ -5,14 +5,16 @@ function imagePath(imagePath, title){
 
 
 function parse_time(time) {
-
-  if (time.contains("/")){
-    time_s = Number(time.split("/")[0])
+  let formatted_time = time
+  if (time.includes("/")){
+    time_s = parseFloat(time.split("/")[0])
+    console.log(time_s)
     div = Number(time.split("/")[1])
-    time_one = time_s / div
-    time = `${time} (${time_one})`
+    console.log(div)
+    time_one = (time_s / div).toFixed(2)
+    formatted_time = `${time} (${time_one})`
   }
-  return time
+  return formatted_time
 }
 
 const type = "image"
