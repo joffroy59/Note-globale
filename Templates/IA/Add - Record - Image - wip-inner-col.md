@@ -16,16 +16,17 @@ let filenames = []
 <%*
 let filename
 let destination_path
-let time
+let new_time
 for (let i = 0; i < column_count; i++) {
   filename = await tp.system.prompt(`Image (with extension from Downloads)`);
   destination_path = await tp.user.copy_file_use_settings(tp, filename, type)
   image_local_path = destination_path + filename
   console.log(image_local_path)
   time = await tp.system.prompt("Time", "", true, false);
+  if (time) new_time = time
  -%>>> [!blank]
 >> <% imagePath(image_local_path, filename) %>
->> time:  **<% time %>**
+>> time:  **<% new_time %>**
 >
 <%* } -%>
 
