@@ -3,9 +3,21 @@ function imagePath(imagePath, title){
 	return `![${title}|300](file:///${imagePath.replaceAll("\\","/")})`;
 }
 
+
+function parse_time(time) {
+
+  if (time.contains("/")){
+    time_s = time.split("/")[0]
+    div = time.split("/")[1]
+    time_one = time_s / div
+    time = `${time} (${time_one})`
+  }
+  return time
+}
+
 const type = "image"
 
-const col_count_list = [1, 2, 3, 4, 5, 6]
+const col_count_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let column_count = await tp.system.suggester((item) => item, col_count_list, true, "Column number: ")
 
 let filenames = []
@@ -23,6 +35,7 @@ for (let i = 0; i < column_count; i++) {
   image_local_path = destination_path + filename
   console.log(image_local_path)
   time = await tp.system.prompt("Time", "", true, false);
+  time = parse_time(time)
   if (time) new_time = time
  -%>>> [!blank]
 >> <% imagePath(image_local_path, filename) %>
