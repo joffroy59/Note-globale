@@ -80,11 +80,6 @@ time:  **144.04 seconds / 6 **
 
 ---
 
-````
-
-
-`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
-
 > [!multi-column]
 >
 >> [!blank]
@@ -114,6 +109,15 @@ time:  **144.04 seconds / 6 **
 
 
 ---
+
+
+##### .
+
+````
+
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
+
 
 #### Add Success image
 
