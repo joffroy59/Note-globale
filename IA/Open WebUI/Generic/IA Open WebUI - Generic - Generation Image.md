@@ -49,8 +49,14 @@ WHERE  meta(section).subpath = "Next Actions"
 ---
 ## Tasks
 - [x] config json ✅ 2025-03-12
-- [ ] [[#Test  Autre workflow]] 
+- [/] [[#Test  Autre workflow]] 
 - [ ] [[#reproduire dans comfyui pour comprendre quel model fait flou]] 
+- [ ] [[#Test avec Comfy UI directement Workflow1 success]]
+- [ ] [[#Test avec Comfy UI directement Workflow2 success]]
+- [ ] [[#Test avec Comfy UI directement Workflow3 (Template)]]
+- [ ] [[#Test avec Comfy UI directement Workflow1a]]
+- [ ] [[#Test avec Comfy UI directement Workflow1b]]
+- [ ] [[#Test avec Comfy UI directement Workflow1c]]
 - [ ] Test
 ---
 ``````ad-info  
@@ -403,7 +409,7 @@ title: Resultat
 ```````
 
 
-### Test avec Comfy UI directement Workflow1
+### Test avec Comfy UI directement Workflow1a
 pour trouver un mailleir workflow pour  Openweb UI 
 
 ```````ad-success
@@ -452,7 +458,7 @@ title: Resultat
 
 ```````
 
-### Test avec Comfy UI directement Workflow1
+### Test avec Comfy UI directement Workflow1b
 pour trouver un mailleir workflow pour  Openweb UI 
 
 
@@ -504,7 +510,7 @@ title: Resultat
 ```````
 
 
-### Test avec Comfy UI directement Workflow1
+### Test avec Comfy UI directement Workflow1c
 pour trouver un mailleir workflow pour  Openweb UI 
 
 
@@ -553,3 +559,10 @@ title: Resultat
 
 ![[Assets/banner/Style1/Failure.png|300]]
 ```````
+
+
+
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
+
+
