@@ -2545,6 +2545,41 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "aaf0c71a-2852-4caa-911a-11a6a248894e",
+      "name": "🖼️Insert - Test Multiple Workflow for a Prompt",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{TEMPLATE:Templates/IA/Add/Test Multiple Workflow for a Prompt.md}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "#### Result",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
