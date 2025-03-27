@@ -1,0 +1,1 @@
+![[Assets/banner/Style1/Failure.png|200]]

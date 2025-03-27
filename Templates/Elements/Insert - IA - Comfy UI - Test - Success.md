@@ -13,7 +13,7 @@ let time = await tp.system.prompt("Time", "xx.yy seconds", true, true);
 #### .
 
 time:  **<% time %>**
-![[Assets/banner/Style1/Success.png|300]]
+<%* tR+= await tp.file.include(`[[Insert - Success - M.md]]`); -%>
 ```````
 
 <%*

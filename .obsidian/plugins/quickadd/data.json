@@ -1749,7 +1749,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "![[Assets/banner/Style1/Success.png|200]]"
+            "format": "{{TEMPLATE:Templates/Elements/Insert - Success.md}}"
           },
           "insertAfter": {
             "enabled": false,
@@ -1784,7 +1784,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "![[Assets/banner/Style1/Failure.png|200]]"
+            "format": "{{TEMPLATE:Templates/Elements/Insert - Failure.md}}"
           },
           "insertAfter": {
             "enabled": false,

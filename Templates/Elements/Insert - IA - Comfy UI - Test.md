@@ -57,8 +57,8 @@ title: Resultat
 #### .
 
 ```
-![[Assets/banner/Style1/Success.png|300]]    
-![[Assets/banner/Style1/Failure.png|300]]
+<%* tR+= await tp.file.include(`[[Insert - Success - M.md]]`); -%>
+<%* tR+= await tp.file.include(`[[Insert - Failure - M.md]]`); -%>
 
 ---
 

@@ -6,7 +6,7 @@ let time = await tp.system.prompt("Time", "SS.mm seconds", true, true);
 
 ```````ad-failure
 
-![[Assets/banner/Style1/Failure.png|300]]
+<%* tR+= await tp.file.include(`[[Insert - Failure - M.md]]`); -%>
 ```````
 
 <%*
