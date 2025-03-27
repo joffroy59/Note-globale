@@ -57,8 +57,8 @@ title: Resultat
 #### .
 
 ```
-<%* tR+= await tp.file.include(`[[Insert - Success - M.md]]`); -%>
-<%* tR+= await tp.file.include(`[[Insert - Failure - M.md]]`); -%>
+<%* tR+= await tp.file.include(`[[Insert - Success - M]]`); -%>
+<%* tR+= await tp.file.include(`[[Insert - Failure - M]]`); -%>
 
 ---
 

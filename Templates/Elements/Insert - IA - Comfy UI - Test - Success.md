@@ -13,7 +13,7 @@ let time = await tp.system.prompt("Time", "xx.yy seconds", true, true);
 #### .
 
 time:  **<% time %>**
-<%* tR+= await tp.file.include(`[[Insert - Success - M.md]]`); -%>
+<%* tR+= await tp.file.include(`[[Insert - Success - M]]`); -%>
 ```````
 
 <%*
