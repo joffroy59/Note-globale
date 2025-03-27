@@ -54,15 +54,10 @@ title: Resultat
 
 ### Result Image with workflow
 
-
 #### .
 
 ```
-
-![[Assets/banner/Style1/Success.png|300]]
-
----
-
+![[Assets/banner/Style1/Success.png|300]]    
 ![[Assets/banner/Style1/Failure.png|300]]
 
 ---
