@@ -59,9 +59,10 @@ WHERE  meta(section).subpath = "Next Actions"
 - [ ] [[#Test avec Comfy UI directement Workflow1c]]
 - [ ] Test
 ---
+
 ``````ad-info  
 title: Workflow config Open WebUI
-
+collapse: closed
 ```json fold
 {
   "3": {
