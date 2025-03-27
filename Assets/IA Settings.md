@@ -29,6 +29,7 @@ wip:
     - StabilityMatrix - Application
     - Open WebUI
     - Comfy UI
+    - Nvidia ChatRTX
     - Task
     - Fix
   template:
@@ -118,6 +119,31 @@ wip:
   Open WebUI:
     title: 'IA Open WebUI - '
     folder: IA/Open WebUI
+    template:
+      create: Templates/IA/Create IA - Nvidia ChatRTX
+    tag: '#nidia'
+    tag_type: '#IA/chatrtx'
+    sub_type:
+        - Function
+        - Generic
+        - Knowedge
+        - Model
+        - Pipeline
+        - Tool
+    Knowedge:
+      tag:
+        - '#IA/rag'
+    Function:
+      tag:
+        - '#IA/function'
+    Pipeline:
+      tag:
+        - '#IA/pipeline'
+    Generic:
+      tag:
+  Nvidia ChatRTX:
+    title: 'Nvidia ChatRTX - '
+    folder: IA/Nvidia ChatRTX
     template:
       create: Templates/IA/Create IA - Open WebUI
     tag: ''

@@ -47,9 +47,10 @@ url: "https://hardwareand.co/actualites/breves/nvidia-lance-sa-beta-de-g-assist-
 
 ---
 ## Tasks
-- [ ] test installation  ➕ 2025-03-26
+- [ ] [[#installation]]  ➕ 2025-03-26
 - [ ] tache simple etat machine vram 
 - [ ] fichier ? 
+- [ ] [[#reinstaller RTX Chat (attention sur I pour les models)]]
 
 
 
@@ -63,3 +64,19 @@ url: "https://hardwareand.co/actualites/breves/nvidia-lance-sa-beta-de-g-assist-
 ---
 creation date:: [[2025/03/13/📒2025-03-26]]  23:13
 
+
+
+
+### installation
+
+![[IA Application - Project G-Assist-1743030698688.png|400x269]] ![[IA Application - Project G-Assist-1743030741403.png|300]] ![[IA Application - Project G-Assist-1743030820722.png|400x278]]
+
+![[IA Application - Project G-Assist-1743033510137.png|400x298]]
+
+
+### reinstaller RTX Chat (attention sur I pour les models)
+
+![[IA Application - Project G-Assist-1743030854183.png|400x273]]
+
+
+![[Nvidia ChatRTX -  Installation]]

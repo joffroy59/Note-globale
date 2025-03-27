@@ -20,6 +20,7 @@ tags:
   - IA/civitai
   - gguf
   - todo
+  - IA/vision
 ---
 
 ````ad-tip

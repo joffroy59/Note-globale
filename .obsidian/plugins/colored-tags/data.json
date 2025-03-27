@@ -348,7 +348,9 @@
     "q8": 176,
     "interface": 177,
     "unknow": 178,
-    "schnell": 179
+    "schnell": 179,
+    "IA/vision": 17,
+    "IA/open_webui/installation": 9
   },
   "_version": 3
 }

@@ -174,6 +174,66 @@ title: "Test"
 
 ---
 
+> [!multi-column]
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00003_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00003_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00004_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00004_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00005_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00005_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00006_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00006_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00007_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00007_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00008_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00008_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00009_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00009_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00010_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00010_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00011_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00011_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00012_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00012_.png)
+>> time:  **18.84 seconds**
+>
+
+
+---
+
+> [!multi-column]
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00019_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00019_.png)
+>> time:  **18.84 seconds**
+>
+>> [!blank]
+>> ![FluxSchnell_BNBNF4_2025-03-27_00020_.png|300](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-27_00020_.png)
+>> time:  **18.84 seconds**
+>
+
+
+---
+
 ##### .
 ````
 
