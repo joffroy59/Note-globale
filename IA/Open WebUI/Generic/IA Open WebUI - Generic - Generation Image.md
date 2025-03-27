@@ -561,6 +561,8 @@ title: Resultat
 ![[Assets/banner/Style1/Failure.png|300]]
 ```````
 
+### Test Done
+
 
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
