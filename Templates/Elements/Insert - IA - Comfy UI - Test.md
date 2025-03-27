@@ -63,16 +63,6 @@ title: Resultat
 
 ---
 
-```ad-failure
-title: Resultat
-
-
-{Image}
-
-```
-
-time: **todo**
-
 ![[Assets/banner/Style1/Failure.png|300]]
 
 ---

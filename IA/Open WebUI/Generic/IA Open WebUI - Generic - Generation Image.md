@@ -302,7 +302,7 @@ title: Resultat
 ### Test avec Comfy UI directement Workflow2 #success 
 pour trouver un mailleir workflow pour  Openweb UI 
 
-```````ad-success
+```````ad-failure
 
 ```ad-tldr
 title: Workflow
@@ -337,22 +337,12 @@ collapse: closed
 
 ---
 
-```ad-success
-title: Resultat 
- 
-
-{Image}
-
-```
-![[Assets/banner/Style1/Success.png|300]]
-
----
 
 ```ad-failure
 title: Resultat 
  
 
-{Image}
+
 
 ```
 
@@ -402,7 +392,7 @@ collapse: closed
 title: Resultat 
  
 ![[IA Open WebUI - Generic - Generation Image-1742261934213.png|400x400]]
-{Image}
+
 
 ```
 ![[Assets/banner/Style1/Success.png|300]]
@@ -502,7 +492,7 @@ collapse: closed
 title: Resultat 
  
 
-![[IA Open WebUI - Generic - Generation Image-1742262297603.png|400x400]]{Image}
+![[IA Open WebUI - Generic - Generation Image-1742262297603.png|400x400]]
 
 ```
 ![[Assets/banner/Style1/Success.png|300]]
@@ -511,55 +501,6 @@ title: Resultat
 ```````
 
 
-### Test avec Comfy UI directement Workflow1c
-pour trouver un mailleir workflow pour  Openweb UI 
-
-
-
-```````ad-success
-
-```ad-tldr
-title: Workflow
-collapse: closed
-
-workflow: 
-![[Fichier Json du Worfklow (Export Comfy UI)]]
-
-```
-
----
-
-```ad-seealso
-title: config
-collapse: closed
-
-Craft an evocative and descriptive piece showcasing the enchanting beauty of New York City at sunset, as seen through the lens of a high-resolution photograph. In this captivating image, the city skyline is bathed in hues of gold, orange, and violet, as the sun dips below the horizon. The towering buildings cast long, dramatic shadows over the bustling streets below, where taxis race and pedestrians weave their way through the labyrinthine network of concrete and steel. Above the city, the sky transforms into a breathtaking canvas of cloud formations that seem to dance in the fading light, while the rivers and bays surrounding Manhattan glimmer like molten gold. The image is a testament to the enduring allure of New York City, a symbol of resilience, diversity, and ambition that never ceases to captivate those who gaze upon it.
-
-
-```
-
----
-
-```ad-info
-title: prompt 
-collapse: closed 
-
- Craft an evocative and descriptive piece showcasing the enchanting beauty of New York City at sunset, as seen through the lens of a high-resolution photograph. In this captivating image, the city skyline is bathed in hues of gold, orange, and violet, as the sun dips below the horizon. The towering buildings cast long, dramatic shadows over the bustling streets below, where taxis race and pedestrians weave their way through the labyrinthine network of concrete and steel. Above the city, the sky transforms into a breathtaking canvas of cloud formations that seem to dance in the fading light, while the rivers and bays surrounding Manhattan glimmer like molten gold. The image is a testament to the enduring allure of New York City, a symbol of resilience, diversity, and ambition that never ceases to captivate those who gaze upon it.
-
-
-```
-
-```ad-failure
-title: Resultat 
- 
-
-{Image}
-
-```
-
-
-![[Assets/banner/Style1/Failure.png|300]]
-```````
 
 ## Test Multiple Workflow for a Prompt
 
