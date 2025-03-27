@@ -350,7 +350,9 @@
     "unknow": 178,
     "schnell": 179,
     "IA/vision": 17,
-    "IA/open_webui/installation": 9
+    "IA/open_webui/installation": 9,
+    "fp8": 180,
+    "kijai": 181
   },
   "_version": 3
 }
