@@ -24,7 +24,7 @@ tags:
    - flux_NF4➕
    - nf4-bnb
 ---
-   - [/] [[IA/ComfyUI/Flux NF4/ComfyUI - Flux NF4 - dsqdqds]]  #status/wip #IA #IA/comfyui/flux #flux_NF4      ➕ 2025-03-28 🛫 2025-03-28
+
 ````ad-quote
 title: Generation data
 collapse: closed

@@ -240,7 +240,7 @@
           "id": "b87178a6-e5bd-4667-994b-f03711196616",
           "name": "➕Insert",
           "type": "Multi",
-          "command": false,
+          "command": true,
           "choices": [
             {
               "id": "7f55886d-6c2d-44e0-a7b1-fd92a29a840f",
@@ -257,7 +257,7 @@
               },
               "format": {
                 "enabled": true,
-                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Common.md}}\n"
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Multi.md}}\n"
               },
               "insertAfter": {
                 "enabled": true,
@@ -3191,7 +3191,7 @@
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": true,
-  "version": "1.13.2",
+  "version": "1.12.0",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "ai": {

@@ -6,7 +6,7 @@ const chat_name_list = ia_settings.chat.list
 let chat_name = await tp.system.suggester((item) => item, chat_name_list, true, "Chat Name")
 let chat_logo = ia_settings.chat[chat_name].logo
 
-let prompt = await tp.system.prompt("Prompt");
+let prompt = await tp.system.prompt("Prompt", true, );
 
 const ad_type = "ad-note"
 const ad_collapse = "open"
@@ -16,6 +16,7 @@ title:   <% chat_name %> &nbsp; ![[<% chat_logo %>|24]]
 collapse: <% ad_collapse %>
 
 ```ad-cite
+title: Prompt
  <% prompt %>
 ```
 

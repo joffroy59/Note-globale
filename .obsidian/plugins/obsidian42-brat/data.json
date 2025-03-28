@@ -1,11 +1,11 @@
 {
   "pluginList": [
-    "reply2za/obsidian-query-control"
+    "chhoumann/quickadd"
   ],
   "pluginSubListFrozenVersion": [
     {
-      "repo": "reply2za/obsidian-query-control",
-      "version": "0.7.13"
+      "repo": "chhoumann/quickadd",
+      "version": "1.12.0"
     }
   ],
   "themesList": [],
