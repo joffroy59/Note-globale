@@ -48,4 +48,4 @@ make multiple fonction and some with parameter
 #todo
 - [[Insert Image v1]]
 - [[IA untitled 2]]
-- [[insert Chat Note]]
+- [[Insert Chat Note]]

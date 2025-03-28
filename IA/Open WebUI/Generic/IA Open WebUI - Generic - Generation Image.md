@@ -18,6 +18,13 @@ tags:
   - 
   - IA/open_webui/generic
 ---
+
+## Test Generation Image de "New York"
+
+### lien vers version générée par Mistral et autre Online
+
+### Exemple avec OpenWebUI
+
 ````ad-tip
 Source : [http://localhost:3000/s/80bf7d08-8966-482d-a708-4e492cd31527]()
 
@@ -41,10 +48,6 @@ Craft an evocative and descriptive piece showcasing the enchanting beauty of New
 
 ![[Assets/banner/Style1/Success.png|300]]
 
-```dataview
-TABLE
-WHERE  meta(section).subpath = "Next Actions"
-```
 
 ---
 ## Tasks
@@ -57,7 +60,9 @@ WHERE  meta(section).subpath = "Next Actions"
 - [ ] [[#Test avec Comfy UI directement Workflow1a]]
 - [ ] [[#Test avec Comfy UI directement Workflow1b]]
 - [ ] [[#Test avec Comfy UI directement Workflow1c]]
-- [ ] Test
+- [ ] [[#Test Multiple Workflow for a Prompt]]
+
+## Detail
 ---
 
 ``````ad-info  
@@ -232,9 +237,6 @@ collapse: Closed
 
 ---
 creation date:: [[2025/03/11/📒2025-03-12]]  08:13
-
-
-
 
 
 ### Test  Autre workflow
@@ -507,6 +509,26 @@ title: Resultat
 ### Test Done
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
+`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
+
+````ad-success
+title: "Test"
+
+#### Result
+
+![ComfyUI_00298_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/ComfyUI_00298_.png)
+
+
+time:  **1.96 seconds**
+
+---
+
+#####.
+
+
+````
+
+
 `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
 
 

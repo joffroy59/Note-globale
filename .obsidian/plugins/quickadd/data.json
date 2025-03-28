@@ -1,17 +1,119 @@
 {
   "choices": [
     {
-      "id": "27331da8-e714-4b8c-84f5-90d13b46da3a",
-      "name": "New ToView",
-      "type": "Macro",
+      "id": "3dcee9b9-a9fc-4970-9241-67f3dc7ea075",
+      "name": "🧪Test",
+      "type": "Multi",
       "command": true,
-      "macroId": "9f777646-fe1e-4f84-afde-236019ce0290"
+      "choices": [
+        {
+          "id": "a8c544a5-49eb-4cd7-99d5-b1b0aa7e75ff",
+          "name": "Embed Link2",
+          "type": "Macro",
+          "command": true,
+          "macroId": "7246ca6d-6b6f-473e-8f89-431337fbd597"
+        },
+        {
+          "id": "e7f171be-8bcf-4765-83a0-802da8915abf",
+          "name": "Embed Link2 (copy)",
+          "type": "Macro",
+          "command": true,
+          "macroId": "7246ca6d-6b6f-473e-8f89-431337fbd597"
+        },
+        {
+          "id": "c3699468-2c72-4319-bc79-edee8763224a",
+          "name": "test",
+          "type": "Macro",
+          "command": true,
+          "macroId": "dae0b057-58e4-4436-88da-0b68396b1e0a"
+        },
+        {
+          "id": "0f040fca-317c-4986-b7d4-caf3cb283021",
+          "name": "Test1",
+          "type": "Macro",
+          "command": true,
+          "macroId": "bc47e1c8-d797-46f4-8d7c-360e4dc6223d"
+        },
+        {
+          "id": "5cb3710f-f93f-4bed-b58e-e3637e63ded8",
+          "name": "test2",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Templates/Admin/Backup - Template - DailyNote.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "Backup - {{date}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Admin"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default",
+          "fileExistsMode": "Append to the bottom of the file",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "32c348f8-7ba7-4141-ac64-3e6d20f5973d",
+          "name": "Transform Test To Wip",
+          "type": "Macro",
+          "command": true,
+          "macroId": "b3eb05ef-0b84-4a60-bb13-641a0fe80276"
+        },
+        {
+          "id": "6b864f99-feba-485d-8c0e-5fb6b659d03f",
+          "name": "test-embeded",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Elements/Insert - Failed.md}}"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": true
     },
     {
       "id": "35d2da0c-ca82-49fd-8896-46834cb12046",
-      "name": "Plugins",
+      "name": "🔌Plugins",
       "type": "Multi",
-      "command": false,
+      "command": true,
       "choices": [
         {
           "id": "bbb8548b-24dc-46cd-96cf-286333b3f54c",
@@ -135,228 +237,46 @@
       "command": true,
       "choices": [
         {
-          "id": "cd4b2c3f-fb41-491d-9570-efc6953bf613",
-          "name": "Add Test IA Workflow",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## Test reproduction en local",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "bcd1aed2-db65-4d88-85aa-d121c38257ed",
-          "name": "Add Test IA Workflow (Success)",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Success.md}}"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## Test reproduction en local",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "1462a63e-5a03-41b6-995d-a923587c8e4c",
-          "name": "Add Test IA Workflow (Failed)",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Failed.md}}"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## Test reproduction en local",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "b725dd8a-fbbd-4938-bd3d-0cddd22045b5",
-          "name": "Manual Prompt",
-          "type": "Macro",
-          "command": true,
-          "macroId": "dc5c3d70-e596-455f-944f-921afb721d9a"
-        },
-        {
-          "id": "db120296-7e0c-44ab-9544-74411cf5f104",
-          "name": "StabilityMatrix",
-          "type": "Macro",
-          "command": true,
-          "macroId": "dc5c3d70-e596-455f-944f-921afb721d9a"
-        },
-        {
-          "id": "cd2107a2-b1af-41f1-bb7d-dc196992ff90",
-          "name": "AI-selcted",
-          "type": "Macro",
-          "command": true,
-          "macroId": "c99419f4-32a5-4069-84d9-41a2321aed8f"
-        },
-        {
-          "id": "afc137a2-dbdc-4c5e-a50c-29757feae216",
-          "name": "AI-instruction",
-          "type": "Macro",
-          "command": true,
-          "macroId": "226cd5d1-6adc-4afc-9d6e-f386b6bb6119"
-        },
-        {
-          "id": "217df9d2-ff9b-49e1-b36a-5103c041d649",
-          "name": "AI-summarize",
-          "type": "Macro",
-          "command": true,
-          "macroId": "b4eb0104-eb08-4543-a0b6-156541ff1bcf"
-        }
-      ],
-      "collapsed": true
-    },
-    {
-      "id": "0dd5b13a-afa5-417c-8fd0-75105554cb77",
-      "name": "🥣Task Manager",
-      "type": "Multi",
-      "command": true,
-      "choices": [],
-      "collapsed": true
-    },
-    {
-      "id": "3dcee9b9-a9fc-4970-9241-67f3dc7ea075",
-      "name": "🧪Test",
-      "type": "Multi",
-      "command": true,
-      "choices": [
-        {
-          "id": "a8c544a5-49eb-4cd7-99d5-b1b0aa7e75ff",
-          "name": "Embed Link2",
-          "type": "Macro",
-          "command": true,
-          "macroId": "7246ca6d-6b6f-473e-8f89-431337fbd597"
-        },
-        {
-          "id": "c3699468-2c72-4319-bc79-edee8763224a",
-          "name": "test",
-          "type": "Macro",
-          "command": true,
-          "macroId": "dae0b057-58e4-4436-88da-0b68396b1e0a"
-        },
-        {
-          "id": "0f040fca-317c-4986-b7d4-caf3cb283021",
-          "name": "Test1",
-          "type": "Macro",
-          "command": true,
-          "macroId": "bc47e1c8-d797-46f4-8d7c-360e4dc6223d"
-        },
-        {
-          "id": "5cb3710f-f93f-4bed-b58e-e3637e63ded8",
-          "name": "test2",
-          "type": "Template",
-          "command": true,
-          "templatePath": "Templates/Admin/Backup - Template - DailyNote.md",
-          "fileNameFormat": {
-            "enabled": true,
-            "format": "Backup - {{date}}"
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "Admin"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default",
-          "fileExistsMode": "Append to the bottom of the file",
-          "setFileExistsBehavior": true
-        }
-      ],
-      "collapsed": true
-    },
-    {
-      "id": "16adb884-fe7e-4ab2-ac1e-ec590bce0491",
-      "name": "➕Insert",
-      "type": "Multi",
-      "command": true,
-      "choices": [
-        {
-          "id": "e4e0bab0-1000-40d2-ac76-4f0023ca5be6",
-          "name": "🧠IA",
+          "id": "b87178a6-e5bd-4667-994b-f03711196616",
+          "name": "➕Insert",
           "type": "Multi",
-          "command": true,
+          "command": false,
           "choices": [
+            {
+              "id": "7f55886d-6c2d-44e0-a7b1-fd92a29a840f",
+              "name": "🚧Insert WIP IA - Task - Select",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
+              "captureToActiveFile": false,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Select.md}}\n"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## 🚧 Wip",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
             {
               "id": "71bb0fbb-6950-4291-872f-9183ca8718ce",
               "name": "🚧Insert WIP IA - Task - Select (Test)",
@@ -393,13 +313,13 @@
               "openFileInMode": "default"
             },
             {
-              "id": "7f55886d-6c2d-44e0-a7b1-fd92a29a840f",
-              "name": "🚧Insert WIP IA - Task - Select",
+              "id": "0a631ff1-f701-43d8-821c-26f2d8bdc0e2",
+              "name": "insert Chat Note",
               "type": "Capture",
               "command": true,
               "appendLink": false,
-              "captureTo": "Daily Note/{{DATE:yyyy}}/{{DATE:MM}}/{{DATE:WW}}/📒{{DATE:yyyy-MM-DD}}.md",
-              "captureToActiveFile": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
               "createFileIfItDoesntExist": {
                 "enabled": false,
                 "createWithTemplate": false,
@@ -407,15 +327,15 @@
               },
               "format": {
                 "enabled": true,
-                "format": "{{TEMPLATE:Templates/Inserts/Insert Wip IA - Task - Select.md}}\n"
+                "format": "{{TEMPLATE:Templates/Elements/Insert Chat Note.md}}"
               },
               "insertAfter": {
-                "enabled": true,
-                "after": "## 🚧 Wip",
-                "insertAtEnd": true,
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
                 "considerSubsections": false,
-                "createIfNotFound": true,
-                "createIfNotFoundLocation": "bottom"
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
               },
               "prepend": false,
               "task": false,
@@ -431,19 +351,486 @@
           "collapsed": false
         },
         {
-          "id": "588adc3b-1904-44d1-80f3-0109501536a5",
-          "name": "Old",
+          "id": "428193a6-5590-40e0-890e-1c09caab7142",
+          "name": "🖼️Comfy UI",
           "type": "Multi",
-          "command": false,
-          "choices": []
+          "command": true,
+          "choices": [
+            {
+              "id": "de17e363-7d15-440f-a204-238b745ebfc8",
+              "name": "Add IA ComfyUI workflow Image result (Success)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/IA/Add - Record - Image.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### Result Image with workflow Success",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "79c641ee-a5cf-436a-af3d-6148f8e8e298",
+              "name": "Add IA ComfyUI workflow Image result (Success) (wip) (inner)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/IA/Add - Record - Image - wip-inner.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "#### Result",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "0bb72b30-1c77-4c30-8c09-c1085dcbb7dc",
+              "name": "Add IA ComfyUI workflow Image result (Success) (wip) (inner) (col.)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/IA/Add - Record - Image - wip-inner-col.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "#### Result",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "b582a2d9-374a-4343-86e7-2bfcaa284f61",
+              "name": "Add IA ComfyUI workflow Image result (Success) (wip)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/IA/Add - Record - Image - wip.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### Test Done",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "3b444624-01e3-434c-bc26-10ec4fcc174a",
+              "name": "Add IA ComfyUI workflow Image result",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/IA/Add - Record - Image.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "### Result Image with workflow",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "aaf0c71a-2852-4caa-911a-11a6a248894e",
+              "name": "🖼️Insert - Test Multiple Workflow for a Prompt",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/IA/Add/Test Multiple Workflow for a Prompt.md}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "#### Result",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "a09d80ea-1799-4c9f-ac8d-3467d08e5e1a",
+              "name": "🖼️Insert - Block - Button - IA - Image Result",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/IA/Add/Insert - Block - Button - IA - Image Result.md}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "#### Result",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "6535d9e3-890f-401d-bdca-0b7c9ce61b79",
+              "name": "🧪 Insert Comfy UI Test",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
+              },
+              "insertAfter": {
+                "enabled": false,
+                "after": "",
+                "insertAtEnd": false,
+                "considerSubsections": false,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            }
+          ],
+          "collapsed": true
         },
         {
-          "id": "10d66673-bc29-421f-aa16-c69648990bbd",
-          "name": "New",
+          "id": "59ae8d5a-3a70-4090-9f89-4119892a97fc",
+          "name": "A trier",
           "type": "Multi",
           "command": false,
-          "choices": [],
-          "collapsed": false
+          "choices": [
+            {
+              "id": "cd4b2c3f-fb41-491d-9570-efc6953bf613",
+              "name": "Add Test IA Workflow",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## Test reproduction en local",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "1462a63e-5a03-41b6-995d-a923587c8e4c",
+              "name": "Add Test IA Workflow (Failed)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Failed.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## Test reproduction en local",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "bcd1aed2-db65-4d88-85aa-d121c38257ed",
+              "name": "Add Test IA Workflow (Success)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "",
+              "captureToActiveFile": true,
+              "createFileIfItDoesntExist": {
+                "enabled": false,
+                "createWithTemplate": false,
+                "template": ""
+              },
+              "format": {
+                "enabled": true,
+                "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test - Success.md}}"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "## Test reproduction en local",
+                "insertAtEnd": true,
+                "considerSubsections": true,
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "prepend": false,
+              "task": false,
+              "openFileInNewTab": {
+                "enabled": false,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": false,
+              "openFileInMode": "default"
+            },
+            {
+              "id": "b725dd8a-fbbd-4938-bd3d-0cddd22045b5",
+              "name": "Manual Prompt",
+              "type": "Macro",
+              "command": true,
+              "macroId": "dc5c3d70-e596-455f-944f-921afb721d9a"
+            },
+            {
+              "id": "db120296-7e0c-44ab-9544-74411cf5f104",
+              "name": "StabilityMatrix",
+              "type": "Macro",
+              "command": true,
+              "macroId": "dc5c3d70-e596-455f-944f-921afb721d9a"
+            },
+            {
+              "id": "cd2107a2-b1af-41f1-bb7d-dc196992ff90",
+              "name": "AI-selcted",
+              "type": "Macro",
+              "command": true,
+              "macroId": "c99419f4-32a5-4069-84d9-41a2321aed8f"
+            },
+            {
+              "id": "afc137a2-dbdc-4c5e-a50c-29757feae216",
+              "name": "AI-instruction",
+              "type": "Macro",
+              "command": true,
+              "macroId": "226cd5d1-6adc-4afc-9d6e-f386b6bb6119"
+            },
+            {
+              "id": "217df9d2-ff9b-49e1-b36a-5103c041d649",
+              "name": "AI-summarize",
+              "type": "Macro",
+              "command": true,
+              "macroId": "b4eb0104-eb08-4543-a0b6-156541ff1bcf"
+            }
+          ],
+          "collapsed": true
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "16adb884-fe7e-4ab2-ac1e-ec590bce0491",
+      "name": "➕Insert",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "007f51de-9218-42f5-bf19-57e54fc5277e",
+          "name": "▶️Insert Cmd",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Elements/Insert - Run command.md}}"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
         },
         {
           "id": "c4ec61c6-4901-4d17-8616-cfb4a2f06422",
@@ -1580,8 +1967,94 @@
       "collapsed": true
     },
     {
+      "id": "b80c20b3-ee45-4afa-8dc9-f40199f64b17",
+      "name": "🔘Action",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "a8c98451-1395-4208-a638-6b309ddeb0e8",
+          "name": "Add Suivi Recharge",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "WIP/Suivi Recharge Clavier et Souris.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Action/Suivi Recharge Clavier et Souris - Add External.md}}"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "7867c1d0-0a1f-4077-87b9-b5bc6f67765d",
+          "name": "Add Start to title",
+          "type": "Macro",
+          "command": true,
+          "macroId": "8b3d3a59-b054-4b24-ad6b-d50ec2959b57"
+        },
+        {
+          "id": "6779abf3-8617-4591-b3d3-fbffbfc1bf98",
+          "name": "#️⃣extract Header Simple v2",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{TEMPLATE:Templates/Extract/ExtractHeaderSimple-Quickadd.md}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "## Tasks Detail",
+            "insertAtEnd": true,
+            "considerSubsections": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "bottom"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": true
+    },
+    {
       "id": "46c9028d-ca93-42ef-bd0f-5ef999ca6315",
-      "name": "Snippets",
+      "name": "🗒️Snippets",
       "type": "Multi",
       "command": true,
       "choices": [
@@ -1636,41 +2109,6 @@
           "format": {
             "enabled": true,
             "format": "{{TEMPLATE:Templates/Snippets/AvantAprès.md}}"
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "0a631ff1-f701-43d8-821c-26f2d8bdc0e2",
-          "name": "insert Chat Note",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/insert Chat Note.md}}"
           },
           "insertAfter": {
             "enabled": false,
@@ -1992,14 +2430,14 @@
       "collapsed": true
     },
     {
-      "id": "8579685e-261a-4d7e-ba7e-d170f2f2a026",
-      "name": "A trier",
+      "id": "ec6490b2-95d6-4a00-862b-d7150482f27c",
+      "name": "ELN",
       "type": "Multi",
-      "command": false,
+      "command": true,
       "choices": [
         {
-          "id": "6535d9e3-890f-401d-bdca-0b7c9ce61b79",
-          "name": "🧪 Insert Comfy UI Test",
+          "id": "09e51f34-f7c3-4824-a893-d8e8ed9fab6b",
+          "name": "Insert ELN Info",
           "type": "Capture",
           "command": true,
           "appendLink": false,
@@ -2012,7 +2450,7 @@
           },
           "format": {
             "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/Insert - IA - Comfy UI - Test.md}}"
+            "format": "{{TEMPLATE:Templates/Inserts/ELN info.md}}"
           },
           "insertAfter": {
             "enabled": false,
@@ -2032,6 +2470,22 @@
           "openFile": false,
           "openFileInMode": "default"
         },
+        {
+          "id": "60332f24-2dcc-44e2-b358-1e32db0d74fb",
+          "name": "Insert ELN Info 2",
+          "type": "Macro",
+          "command": true,
+          "macroId": "681f1956-5fc2-4e1d-93b0-7485fe093cff"
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "8579685e-261a-4d7e-ba7e-d170f2f2a026",
+      "name": "📦A trier",
+      "type": "Multi",
+      "command": true,
+      "choices": [
         {
           "id": "39135df6-99df-44fa-bc18-76c8ef4c1a1b",
           "name": "🚧Insert Backlog",
@@ -2066,13 +2520,6 @@
           },
           "openFile": false,
           "openFileInMode": "default"
-        },
-        {
-          "id": "32c348f8-7ba7-4141-ac64-3e6d20f5973d",
-          "name": "Transform Test To Wip",
-          "type": "Macro",
-          "command": true,
-          "macroId": "b3eb05ef-0b84-4a60-bb13-641a0fe80276"
         },
         {
           "id": "b9c078f7-fdf8-4dd8-a048-77a93037b4e1",
@@ -2138,200 +2585,18 @@
           "openFileInMode": "default"
         },
         {
-          "id": "09e51f34-f7c3-4824-a893-d8e8ed9fab6b",
-          "name": "Insert ELN Info",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Inserts/ELN info.md}}"
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "60332f24-2dcc-44e2-b358-1e32db0d74fb",
-          "name": "Insert ELN Info 2",
+          "id": "27331da8-e714-4b8c-84f5-90d13b46da3a",
+          "name": "New ToView",
           "type": "Macro",
           "command": true,
-          "macroId": "681f1956-5fc2-4e1d-93b0-7485fe093cff"
-        },
-        {
-          "id": "6b864f99-feba-485d-8c0e-5fb6b659d03f",
-          "name": "test-embeded",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/Insert - Failed.md}}"
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "007f51de-9218-42f5-bf19-57e54fc5277e",
-          "name": "▶️Insert Cmd",
-          "type": "Capture",
-          "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Elements/Insert - Run command.md}}"
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": true,
-            "considerSubsections": false,
-            "createIfNotFound": true,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "e7f171be-8bcf-4765-83a0-802da8915abf",
-          "name": "Embed Link2 (copy)",
-          "type": "Macro",
-          "command": true,
-          "macroId": "7246ca6d-6b6f-473e-8f89-431337fbd597"
-        },
-        {
-          "id": "6779abf3-8617-4591-b3d3-fbffbfc1bf98",
-          "name": "#️⃣extract Header Simple v2",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Extract/ExtractHeaderSimple-Quickadd.md}}"
-          },
-          "insertAfter": {
-            "enabled": true,
-            "after": "## Tasks Detail",
-            "insertAtEnd": true,
-            "considerSubsections": true,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "bottom"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "a8c98451-1395-4208-a638-6b309ddeb0e8",
-          "name": "Add Suivi Recharge",
-          "type": "Capture",
-          "command": true,
-          "appendLink": false,
-          "captureTo": "WIP/Suivi Recharge Clavier et Souris.md",
-          "captureToActiveFile": false,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "{{TEMPLATE:Templates/Action/Suivi Recharge Clavier et Souris - Add External.md}}"
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "9f777646-fe1e-4f84-afde-236019ce0290"
         }
       ],
       "collapsed": true
     },
     {
-      "id": "3b444624-01e3-434c-bc26-10ec4fcc174a",
-      "name": "Add IA ComfyUI workflow Image result",
+      "id": "ba3561ac-a3c4-470f-8e71-f8dbe6b3012a",
+      "name": "insert Chat Note (Simple)",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -2344,229 +2609,12 @@
       },
       "format": {
         "enabled": true,
-        "format": "{{TEMPLATE:Templates/IA/Add - Record - Image.md}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "### Result Image with workflow",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "de17e363-7d15-440f-a204-238b745ebfc8",
-      "name": "Add IA ComfyUI workflow Image result (Success)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/IA/Add - Record - Image.md}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "### Result Image with workflow Success",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "7867c1d0-0a1f-4077-87b9-b5bc6f67765d",
-      "name": "⭐Add Start to title",
-      "type": "Macro",
-      "command": true,
-      "macroId": "8b3d3a59-b054-4b24-ad6b-d50ec2959b57"
-    },
-    {
-      "id": "b582a2d9-374a-4343-86e7-2bfcaa284f61",
-      "name": "Add IA ComfyUI workflow Image result (Success) (wip)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/IA/Add - Record - Image - wip.md}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "### Test Done",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "79c641ee-a5cf-436a-af3d-6148f8e8e298",
-      "name": "Add IA ComfyUI workflow Image result (Success) (wip) (inner)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/IA/Add - Record - Image - wip-inner.md}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "#### Result",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "0bb72b30-1c77-4c30-8c09-c1085dcbb7dc",
-      "name": "Add IA ComfyUI workflow Image result (Success) (wip) (inner) (col.)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/IA/Add - Record - Image - wip-inner-col.md}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "#### Result",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "a09d80ea-1799-4c9f-ac8d-3467d08e5e1a",
-      "name": "🖼️Insert - Block - Button - IA - Image Result",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/IA/Add/Insert - Block - Button - IA - Image Result.md}}"
+        "format": "{{TEMPLATE:Templates/Elements/Insert Chat Note Simple.md}}"
       },
       "insertAfter": {
         "enabled": false,
-        "after": "#### Result",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "aaf0c71a-2852-4caa-911a-11a6a248894e",
-      "name": "🖼️Insert - Test Multiple Workflow for a Prompt",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{TEMPLATE:Templates/IA/Add/Test Multiple Workflow for a Prompt.md}}"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "#### Result",
-        "insertAtEnd": true,
+        "after": "",
+        "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
@@ -3143,7 +3191,7 @@
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": true,
-  "version": "1.12.0",
+  "version": "1.13.2",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "ai": {

@@ -18,7 +18,7 @@ exemple isnert avec templater et select
 
 
 
-use in [[insert Chat Note]]
+use in [[Insert Chat Note]]
 
 ````ad-caution
 title:   ![[mistral-ai-icon-seeklogo.svg|24]]                       <span>Lechat</span>
