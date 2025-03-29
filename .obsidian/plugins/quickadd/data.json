@@ -348,7 +348,7 @@
               "openFileInMode": "default"
             }
           ],
-          "collapsed": false
+          "collapsed": true
         },
         {
           "id": "428193a6-5590-40e0-890e-1c09caab7142",
@@ -637,7 +637,7 @@
               "openFileInMode": "default"
             }
           ],
-          "collapsed": true
+          "collapsed": false
         },
         {
           "id": "59ae8d5a-3a70-4090-9f89-4119892a97fc",
@@ -3191,7 +3191,7 @@
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": true,
-  "version": "1.12.0",
+  "version": "1.13.0",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "ai": {

@@ -520,27 +520,9 @@ title: Resultat
 
 ## Test Multiple Workflow for a Prompt
 
+
+
 ### Test Done
-
-````ad-success
-title: "Test"
-
-#### Result
-
-![FluxSchnell_BNBNF4_2025-03-29_00002_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-29_00002_.png)
-
-
-time:  **18.06 seconds**
-
----
-
-#####.
-
-
-````
-
-
-`BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
 
 `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip]`
 `BUTTON[add-wip-ia-comfyui-workflow-image-result-success-wip-inner, add-image-result-success-wip-inner-col]`
@@ -557,7 +539,14 @@ time:  **1.96 seconds**
 
 ---
 
-#####.
+![FluxSchnell_BNBNF4_2025-03-29_00002_.png|600](file:///D:/obsidian/MyNote/Note-globale/IA/ComfyUI/Result/FluxSchnell_BNBNF4_2025-03-29_00002_.png)
+
+
+time:  **18.06 seconds**
+
+---
+
+#### .
 
 
 ````

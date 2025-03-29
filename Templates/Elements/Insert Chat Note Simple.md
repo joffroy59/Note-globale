@@ -6,7 +6,7 @@ const chat_name_list = ia_settings.chat.list
 let chat_name = await tp.system.suggester((item) => item, chat_name_list, true, "Chat Name")
 let chat_logo = ia_settings.chat[chat_name].logo
 
-let prompt = await tp.system.prompt("Prompt", true, );
+let prompt = await tp.system.prompt("Prompt", true, true, true);
 
 const ad_type = "ad-note"
 const ad_collapse = "open"
