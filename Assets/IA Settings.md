@@ -8,10 +8,13 @@ chat:
   list:
     - Lechat
     - Microsoft Copilot
+    - ChatGpt
   Lechat:
     logo: mistral-ai-icon-seeklogo.svg
   Microsoft Copilot:
     logo: Microsoft_Copilot.svg
+  ChatGpt:
+    logo: chatgpt-seeklogo.svg
 
 wip:
   types:

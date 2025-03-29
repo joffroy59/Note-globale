@@ -53,7 +53,7 @@ Craft an evocative and descriptive piece showcasing the enchanting beauty of New
 ## Tasks
 - [x] config json ✅ 2025-03-12
 - [/] [[#Test  Autre workflow]] 
-- [ ] [[#reproduire dans comfyui pour comprendre quel model fait flou]] 
+- [ ] [[#reproduire dans ComfyUI pour comprendre quel model fait flou]] 
 - [ ] [[#Test avec Comfy UI directement Workflow1 success]]
 - [ ] [[#Test avec Comfy UI directement Workflow2 success]]
 - [ ] [[#Test avec Comfy UI directement Workflow3 (Template)]]
@@ -197,6 +197,7 @@ collapse: closed
 > [!note]
 > 
 
+### Online 
 
 ````ad-caution
 title: Lechat  
@@ -220,8 +221,6 @@ title: Prompt
 ````
 
 
-
-
 ````ad-caution
 title: Microsoft Copilot  
 collapse: closed 
@@ -238,8 +237,23 @@ collapse: closed
 
 ````
 
+````ad-note
+title:   ChatGpt &nbsp; ![[chatgpt-seeklogo.svg|100]] &nbsp;  2025-03-29
+collapse: open
+
+```ad-cite
+title: Prompt
+  Craft an evocative and descriptive piece showcasing the enchanting beauty of New York City at sunset, as seen through the lens of a high-resolution photograph. In this captivating image, the city skyline is bathed in hues of gold, orange, and violet, as the sun dips below the horizon. The towering buildings cast long, dramatic shadows over the bustling streets below, where taxis race and pedestrians weave their way through the labyrinthine network of concrete and steel. Above the city, the sky transforms into a breathtaking canvas of cloud formations that seem to dance in the fading light, while the rivers and bays surrounding Manhattan glimmer like molten gold. The image is a testament to the enduring allure of New York City, a symbol of resilience, diversity, and ambition that never ceases to captivate those who gaze upon it.
+```
+
+![[IA Open WebUI - Generic - Generation Image ⭐⭐⭐-1743235249171.png|400x229]] ![[IA Open WebUI - Generic - Generation Image ⭐⭐⭐-1743235308543.png|400x229]]
+
+![[IA Open WebUI - Generic - Generation Image ⭐⭐⭐-1743235581877.png|400x133]]
+
+````
 
 
+### Local 
 ````ad-tip
 title: Open WebUI  Generic 
 collapse: Closed
@@ -248,6 +262,8 @@ collapse: Closed
 #openwebui 
 ```
 ````
+
+
 
 ---
 creation date:: [[2025/03/11/📒2025-03-12]]  08:13
@@ -258,7 +274,7 @@ creation date:: [[2025/03/11/📒2025-03-12]]  08:13
 #todo
 
 
-### reproduire dans comfyui pour comprendre quel model fait flou
+### reproduire dans ComfyUI pour comprendre quel model fait flou
 
 ![[IA Open WebUI - Generic - Generation Image-1741765797648.png|400x155]]
 

@@ -8,11 +8,10 @@ let chat_logo = ia_settings.chat[chat_name].logo
 
 let prompt = await tp.system.prompt("Prompt", true, true, true);
 
-const ad_type = "ad-note"
 const ad_collapse = "open"
 -%>
 ````ad-note
-title:   <% chat_name %> &nbsp; ![[<% chat_logo %>|24]]
+title:   <% chat_name %> &nbsp; ![[<% chat_logo %>|24]] &nbsp;  <% tp.date.now("YYYY-MM-DD") %>
 collapse: <% ad_collapse %>
 
 ```ad-cite
@@ -20,7 +19,7 @@ title: Prompt
  <% prompt %>
 ```
 
+<%* tp.file.cursor() %>
+
 
 ````
-
-
