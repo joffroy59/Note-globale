@@ -84,16 +84,10 @@ const { app } = this;
 
 
 
-const imagePath = await GetImageFullPath(tp)
-console.log(imagePath)
-console.log(await getFolderPAthRelative(tp))
 
-// Save clipboard content as an image file
-//const clipboardImage = navigator.clipboard.readText();
-//clipboardImage.toFile(imagePath);
-
-getImageFromclipboard(app, await GetImageFullPath(tp))
+let imageFilename = await GetImageFullPath(tp)
+getImageFromclipboard(app, imageFilename)
 
 // Insert the image link into the note
-//tR += `![[Attachments/${imageFilename}]]`;
+tR += `![[${imageFilename}]]`;
 %>

@@ -46,13 +46,16 @@ url: "https://copilot.microsoft.com/shares/W648PBfRPPPr2yK6jJbjs"
 
 
 
+![[Inbox/TestImageFromClipboard/attachments/image_20250329T100720944Z.png]]
 
 
+![[Assets/banner/Style1/Success.png|200]]
 
 
+![[add detect image in clipboard like detect video-1743242856144.png|400x220]]
 
-
-
+- [ ] clean code 
+- [ ] make a js external function package 
 
 
 
