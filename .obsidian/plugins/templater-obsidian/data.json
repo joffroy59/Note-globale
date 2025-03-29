@@ -81,7 +81,8 @@
     "Templates/IA/Add - Record - Image.md",
     "Templates/Action/Add Start to title ⭐⭐⭐.md",
     "",
-    "Templates/Elements/Insert Chat Note Simple.md"
+    "Templates/Elements/Insert Chat Note Simple.md",
+    "Templates/Inserts/Insert Wip Star Image from Clipboard.md"
   ],
   "startup_templates": [
     ""
